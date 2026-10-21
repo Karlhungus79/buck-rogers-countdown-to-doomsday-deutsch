@@ -49,8 +49,7 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
 ## Offen / nächste Schritte
 
 0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-1. Marcel: Ares-Version nennen (Emulator festgelegt 21.10.2026), Savestate vor dem
-   Briefing in Chicagorg in `08_Savestates\` ablegen
+1. Marcel: Savestate (Ares v147) vor dem Briefing in Chicagorg in `08_Savestates\` ablegen
 2. `Fahrplan.md` für Phase 1 anlegen (Reihenfolge: Font finden → Umlaute/ß →
    Textablage A umsetzen → ein Intro-Text deutsch im Spiel)
 3. Zeichensatz: Font-Kacheln finden, 7 neue Zeichen ä ö ü ß Ä Ö Ü (`Zeichensatz.md`)

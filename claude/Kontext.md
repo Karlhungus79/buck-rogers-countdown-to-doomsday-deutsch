@@ -118,7 +118,7 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
 - Python 3 für alle Skripte, jeweils mit .bat-Wrapper
 - Textablage (Entscheidung 21.10.2026): Dialogtext unkomprimiert in der ROM, ROM 2 MB
 - Text: `03_Tools\brtext.py` (LZW, ECL-Parser, Systemtexte), `2_text_extrahieren.bat`
-- Test-Emulator: **Ares** (festgelegt von Marcel am 21.10.2026), Version noch notieren.
+- Test-Emulator: **Ares v147** (festgelegt von Marcel am 21.10.2026).
   Savestates in `08_Savestates\`. Tile-Editor: noch offen.
 
 ## Disassembly und GitHub (Stand 21.10.2026)

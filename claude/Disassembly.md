@@ -28,7 +28,7 @@ Stand: 21.10.2026
 | Macro Assembler AS (flamewing-Fork) | Commit 592c5fa57b874266bfb625aedaa5197fcd09cec1 (13.10.2026) | Assemblieren (wie PS2-Disassembly) |
 | AS Windows-Binärdateien | daraus mit Zig 0.17.0 für x86_64-windows-gnu kompiliert | `03_Tools\AS\win64\` |
 | Capstone | 5.0.7 | 68000-Dekodierung im Disassembler |
-| Ares (Emulator) | Version noch offen | Spieltest, Savestates, Speicher-/VRAM-Ansicht (festgelegt 21.10.2026) |
+| Ares (Emulator) | v147 | Spieltest, Savestates, Speicher-/VRAM-Ansicht (festgelegt 21.10.2026) |
 | Python | 3.x | alle Skripte |
 
 ## Skripte (03_Tools)
