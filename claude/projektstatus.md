@@ -31,7 +31,8 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
 - **Referenztext extrahiert (21.10.2026):** `03_Tools\2_text_extrahieren.bat` →
   `04_English_Script\ecl\M000.toml … M099.toml` (2407 Texte),
   `systemtexte.toml` (393), `uebersicht.csv`. Nicht im Repo (Spieldaten).
-  Gebaut und per Skript geprüft; Ausführung unter Windows: **Test offen**.
+  Unter Windows **bestätigt am 21.10.2026** (Marcel, Screenshot: alle 27 Module mit
+  denselben Werten wie unter Linux, 2407 + 393 Texte).
 - **Entscheidung 21.10.2026: Textablage A** – deutscher Dialogtext unkomprimiert in der
   ROM (2 MB), Spiel liest direkt von dort. Umsetzung Phase 1 (`Textformat.md`).
 - **Glossar-Vorschlag vorgelegt (21.10.2026):** 9 Grundsätze (G1–G9) und 186 Begriffe
@@ -48,8 +49,8 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
 ## Offen / nächste Schritte
 
 0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-1. Marcel: `03_Tools\2_text_extrahieren.bat` starten, Ausgabe prüfen (27 Module,
-   2407 + 393 Texte), `04_English_Script\uebersicht.csv` in Excel öffnen
+1. Marcel: Emulator mit Debugger nennen (Version), Savestate vor dem Briefing in
+   Chicagorg in `08_Savestates\` ablegen
 2. `Fahrplan.md` für Phase 1 anlegen (Reihenfolge: Font finden → Umlaute/ß →
    Textablage A umsetzen → ein Intro-Text deutsch im Spiel)
 3. Zeichensatz: Font-Kacheln finden, 7 neue Zeichen ä ö ü ß Ä Ö Ü (`Zeichensatz.md`)
@@ -58,7 +59,6 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
 5. Tor Phase 1: Intro (M016/M003) läuft deutsch – Marcel bestätigt im Emulator
 6. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
    in die Extraktion aufnehmen
-7. Emulator mit Debugger festlegen und Version notieren
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 
