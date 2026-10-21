@@ -35,6 +35,7 @@ Requirement: Python 3 (https://www.python.org/downloads/). The assembler is incl
 | File | Purpose |
 |---|---|
 | `03_Tools\1_daten_extrahieren.bat` | extract the data blocks from the ROM into `02_Extracted\data\` (done automatically by `5_` if needed) |
+| `03_Tools\2_text_extrahieren.bat` | extract the English reference text (dialogue + system text) into `04_English_Script\` |
 | `03_Tools\5_rom_bauen.bat` | build the ROM → `07_Output_ROM\<timestamp>\` |
 | `03_Tools\6_bitgenau_pruefen.bat` | build and compare with the original ROM |
 | `03_Tools\0_disassembly_erzeugen.bat` | regenerate the disassembly from scratch (tool development only, needs `pip install capstone`) |
@@ -52,7 +53,7 @@ On Linux: `python3 03_Tools/build.py --pruefen` with `asl`/`p2bin` in the PATH
   data_manifest.txt   list of data blocks (offset, length, CRC32)
   data\               data blocks from the ROM (not in the repo)
 03_Tools\             disassembler, extraction, build, assembler (AS)
-04_English_Script\    English reference text (to follow)
+04_English_Script\    English reference text (generated from your ROM, not in repo)
 05_German_Script\     German text, glossaries (to follow)
 07_Output_ROM\        timestamped builds (not in the repo)
 08_Savestates\        save states (not in the repo)
@@ -78,9 +79,12 @@ Current coverage:
 
 - The code was produced by a C compiler (`link a6`/`unlk a6` frames, `movem.l` prologues).
 - The game runs on SSI's Gold Box engine with ECL scripts (Event Control Language).
-- `sub_1F5E` is the decompression routine, `sub_132A6` the fatal error display.
+- `sub_9E76`/`sub_9ED8` is the LZW decompressor (9–12 bit codes); `sub_1F5E` is the LZW
+  compressor for save games (SRAM). `sub_132A6` is the fatal error display.
 - System text (menus, items, combat, ships, classes) is plain ASCII from about `$012000`.
-- `$020000–$0EFFFF` holds compressed data (graphics, ECL scripts, most likely dialogue).
+- `$020000–$0EFFFF` holds LZW-compressed data (graphics, maps, monsters, ECL scripts).
+- Dialogue: 27 ECL modules, each with an LZW-compressed text block (uppercase ASCII,
+  null-terminated), referenced by 16-bit byte offsets (operand type `$80`). See `claude/Textformat.md`.
 
 ### Known limitations
 
@@ -131,6 +135,7 @@ Voraussetzung: Python 3 (https://www.python.org/downloads/). Der Assembler liegt
 | Datei | Zweck |
 |---|---|
 | `03_Tools\1_daten_extrahieren.bat` | Datenblöcke aus der ROM nach `02_Extracted\data\` ziehen (macht `5_` bei Bedarf automatisch) |
+| `03_Tools\2_text_extrahieren.bat` | englischen Referenztext (Dialoge + Systemtexte) nach `04_English_Script\` ziehen |
 | `03_Tools\5_rom_bauen.bat` | ROM bauen → `07_Output_ROM\<Zeitstempel>\` |
 | `03_Tools\6_bitgenau_pruefen.bat` | bauen und mit der Original-ROM vergleichen |
 | `03_Tools\0_disassembly_erzeugen.bat` | Disassembly komplett neu erzeugen (nur für Werkzeug-Entwicklung, braucht `pip install capstone`) |
@@ -148,7 +153,7 @@ Unter Linux: `python3 03_Tools/build.py --pruefen` mit `asl`/`p2bin` im PATH
   data_manifest.txt   Liste der Datenblöcke (Offset, Länge, CRC32)
   data\               Datenblöcke aus der ROM (nicht im Repo)
 03_Tools\             Disassembler, Extraktion, Bau, Assembler (AS)
-04_English_Script\    englischer Referenztext (folgt)
+04_English_Script\    englischer Referenztext (aus der eigenen ROM erzeugt, nicht im Repo)
 05_German_Script\     deutsche Texte, Glossare (folgt)
 07_Output_ROM\        Bauten mit Zeitstempel (nicht im Repo)
 08_Savestates\        Speicherstände (nicht im Repo)
@@ -174,9 +179,12 @@ Aktueller Umfang:
 
 - Der Code stammt von einem C-Compiler (`link a6`/`unlk a6`, `movem.l`-Prologe).
 - Das Spiel läuft auf SSIs Gold-Box-Engine mit ECL-Skripten (Event Control Language).
-- `sub_1F5E` ist die Dekomprimierung, `sub_132A6` die Fehleranzeige.
+- `sub_9E76`/`sub_9ED8` ist der LZW-Entpacker (9–12 Bit); `sub_1F5E` ist der LZW-Packer
+  für Spielstände (SRAM). `sub_132A6` ist die Fehleranzeige.
 - Systemtexte (Menüs, Items, Kampf, Schiffe, Klassen) liegen als ASCII-Klartext ab ca. `$012000`.
-- `$020000–$0EFFFF` enthält komprimierte Daten (Grafik, ECL-Skripte, vermutlich Dialoge).
+- `$020000–$0EFFFF` enthält LZW-gepackte Daten (Grafik, Karten, Monster, ECL-Skripte).
+- Dialoge: 27 ECL-Module mit je einem LZW-gepackten Textblock (ASCII-Großbuchstaben,
+  `$00`-Ende), Verweis per 16-Bit-Byte-Offset (Operandtyp `$80`). Details `claude/Textformat.md`.
 
 ### Bekannte Grenzen
 

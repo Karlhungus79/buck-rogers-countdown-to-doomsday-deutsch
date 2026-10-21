@@ -7,6 +7,9 @@
 08_Savestates/*
 !08_Savestates/.gitkeep
 03_Tools/bak/
+# Englischer Referenztext = Spieldaten, wird aus der eigenen ROM erzeugt
+04_English_Script/*
+!04_English_Script/LIESMICH.txt
 
 # ROM-Formate (ACHTUNG: .md ist hier auch die ROM-Endung, daher ueber Ordner geregelt)
 *.bin

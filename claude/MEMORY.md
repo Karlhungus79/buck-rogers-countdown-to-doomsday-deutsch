@@ -11,6 +11,8 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `projektstatus.md` – Phasen, Stand, nächste Schritte, offene Punkte
 - `Disassembly.md` – Aufbau, Toolchain, Skripte, Erkenntnisse zur ROM (Code, ECL,
   Kompression, Textorte), bit-genauer Bau
+- `Textformat.md` – wo die Texte liegen, LZW, ECL-Operanden, Systemtexttabelle,
+  RAM-Grenze je Modul, Menügrenze, offene Entscheidung Textablage (A/B/C)
 - `BuckRogers_Bestandsaufnahme.md` – Rechercheergebnis zu vorhandenen
   Übersetzungen/Tools/Disassembly (Stand 21.10.2026, Ergebnis: keine
   vorhanden)
@@ -19,8 +21,6 @@ dann nur die neueste Übergabe (falls vorhanden).
 
 - Glossar (CSV: Eigennamen/Figuren, Fraktionen/Orte, UI-Begriffe,
   Klassen/Rassen/Attribute, Ausrüstung/Gegner)
-- Textformat.md (Kodierung, Steuercodes, Umbruch, Pointer-Tabellen,
-  Kompression)
 - Zeichensatz.md (Umlaute/ß, Fonttabelle, Platz)
 - Platzbilanz.md
 - Grafik-Wortlisten (pro Bild)

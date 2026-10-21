@@ -46,12 +46,14 @@ Stand: 21.10.2026
 - **Gold-Box-Engine mit ECL-Skripten** (Event Control Language): Befehlsnamen
   wie `PRINTCLEAR`, `INPUTSTRING`, `LOADMONSTER`, `NEWECL` liegen ab ca. `$004534` im Klartext,
   Fehlermeldungen "cant load ecl", "Bad ECL address".
-- `sub_1F5E` = **Dekomprimierung** (meldet "compression overflow").
+- `sub_9E76`/`sub_9ED8` = **LZW-Entpacker** (9–12 Bit, Fehlermeldungen "decodeString").
+- `sub_1F5E` = **LZW-Packer** für Spielstände nach SRAM (meldet "compression overflow").
+  (Korrigiert 21.10.2026, vorher fälschlich als Entpacker geführt.)
 - `sub_132A6` = Fehleranzeige (Text ab a0, kehrt nicht zurück).
 - Systemtexte (Menüs, Items, Kampf, Schiffe, Klassen) als **ASCII-Klartext** ab ca. `$012000`,
   meist Kleinbuchstaben. Credits im Klartext ab ca. `$006331`.
 - `$020000–$0EFFFF`: hohe Entropie (~7,9 Bit/Byte) → komprimierte Daten
-  (Grafik, ECL-Skripte, vermutlich Dialoge).
+  (Grafik, ECL-Skripte, Dialoge – alles LZW, siehe `claude\Textformat.md`).
 - `$0F0000–$0FFFFF`: fast nur `$FF`-Füllung, dazu HBlank-Handler bei `$0F1B64`.
 - VBlank-Handler bei `$00DE8C`, Reset bei `$000200`.
 

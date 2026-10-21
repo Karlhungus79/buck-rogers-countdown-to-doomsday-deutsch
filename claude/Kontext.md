@@ -76,7 +76,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 0, läuft.
+Aktueller Stand: Phase 0, läuft (Referenztext extrahiert, Textformat in `Textformat.md`).
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 
@@ -108,6 +108,7 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
   Windows-Fassung in `03_Tools\AS\win64\` (selbst kompiliert, Details `claude\Disassembly.md`)
 - Disassembler: eigenes `03_Tools\disasm.py` + `gen_asm.py` (Capstone 5.0.7)
 - Python 3 für alle Skripte, jeweils mit .bat-Wrapper
+- Text: `03_Tools\brtext.py` (LZW, ECL-Parser, Systemtexte), `2_text_extrahieren.bat`
 - Noch offen: Emulator mit Debugger und Savestates (z. B. BlastEm, Exodus,
   Genesis Plus GX), Tile-Editor – Versionen beim ersten Einsatz notieren.
 
@@ -117,7 +118,7 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
 - Repo: privat, `buck-rogers-countdown-to-doomsday-deutsch`, Repo-Wurzel = Projektordner
 - Keine ROM und keine Spieldaten im Repo; `02_Extracted\data\` wird aus der eigenen ROM gezogen
 - Bauen: `03_Tools\5_rom_bauen.bat`, bit-genau prüfen: `03_Tools\6_bitgenau_pruefen.bat`
-- Code: C-Compiler, Gold-Box-Engine mit ECL-Skripten; Dekomprimierung `sub_1F5E`;
+- Code: C-Compiler, Gold-Box-Engine mit ECL-Skripten; LZW-Entpacker `sub_9E76`/`sub_9ED8` (`sub_1F5E` = Packer für Spielstände);
   Systemtexte als ASCII ab ca. $012000; $020000–$0EFFFF komprimierte Daten
 
 ## Bekannte Fallen (aus PSG2/PS2 MD, siehe Projektanweisung Abschnitt 11)

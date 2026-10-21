@@ -1,0 +1,11 @@
+Englischer Referenztext (nicht im Repo, Spieldaten)
+
+Wird aus der eigenen Original-ROM erzeugt:
+  03_Tools\2_text_extrahieren.bat
+
+  ecl\Mxxx.toml     Dialog- und Ereignistexte je ECL-Modul (27 Module, 2407 Texte)
+  systemtexte.toml  Menues, Kampf, Items, Klassen usw. (393 Eintraege)
+  uebersicht.csv    alles in einer Tabelle (Excel, Semikolon, UTF-8)
+
+Diese Dateien werden nie von Hand bearbeitet. Deutsche Texte liegen in
+05_German_Script mit denselben IDs (Mxxx_nnn, Snnn).
