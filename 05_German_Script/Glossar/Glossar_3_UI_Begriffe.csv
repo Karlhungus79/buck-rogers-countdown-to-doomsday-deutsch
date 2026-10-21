@@ -1,5 +1,5 @@
 ﻿Nr;Original;A (Empfehlung);B;C;Zeichen EN;Zeichen A;max. Zeichen;Begründung;Entscheidung;Fundort
-3-01;team;Team;Trupp;Gruppe;4;4;;"Grundsatz G5; im Spiel sehr häufig, A gleich kurz";;Dialog 47× (M000_131, M016_014)
+3-01;team;Team;Trupp;Gruppe;4;4;;"Grundsatz G5; im Spiel sehr häufig, A gleich kurz";A (G5);Dialog 47× (M000_131, M016_014)
 3-02;create character;Figur erschaffen;Figur erstellen;;16;16;;Hauptmenü;;S061
 3-03;train character;Figur ausbilden;;;15;15;;;;S062
 3-04;drop character;Figur entlassen;Figur löschen;;14;15;;;;S063
@@ -39,5 +39,5 @@
 3-38;hull / controls / engines / weapons;Rumpf / Steuerung / Triebwerke / Waffen;;;35;39;;Schiffssysteme;;"S249; Dialog 31× (M016_032, M016_033)"
 3-39;range / to hit / ammo left / ready;Reichweite / Treffer / Munition / bereit;;;34;40;;Raumkampf-Anzeige, Breite offen;;S283
 3-40;scanning / population / atmosphere / gravity / revolution / rotation / diameter;Scan / Bevölkerung / Atmosphäre / Schwerkraft / Umlauf / Rotation / Durchmesser;;;79;79;;Planetendaten;;S339
-3-41;miles;km (umgerechnet);Meilen;;5;16;;Grundsatz G8;;S368 S370 S373 S375 …
+3-41;miles;km (umgerechnet);Meilen;;5;16;;Grundsatz G8;A (G8);S368 S370 S373 S375 …
 3-42;save / restore;speichern / laden;;;14;17;;;;"S389; Dialog 1× (M017_038)"

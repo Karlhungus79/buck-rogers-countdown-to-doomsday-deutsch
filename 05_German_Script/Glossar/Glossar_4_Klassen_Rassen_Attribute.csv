@@ -7,14 +7,14 @@
 4-06;desert runner;Wüstenläufer;Desert Runner;;13;12;;Rasse, wie Fraktion;;"S072; Dialog 6× (M017_002, M065_013)"
 4-07;tinker;Tüftler;Tinker;;6;7;;"Rasse (kleine Technik-Gennies); A beschreibt sie";;S073
 4-08;male / female;männlich / weiblich;Mann / Frau;;13;19;;;;"S075; Dialog 2× (M081_067, M097_114)"
-4-09;str / dex / con / cha / tch;ST / GE / KO / CH / TE;STÄ / GES / KON / CHA / TEC;;27;22;3;Grundsatz G7: deutsche AD&D-Kürzel;;S048
-4-10;hp;TP;;;2;2;;Trefferpunkte;;S053
-4-11;ac;RK;;;2;2;;Rüstungsklasse;;S054
-4-12;thac0;ETW0;THAC0;;5;4;;deutsche AD&D-2E: ETW0;;S055
-4-13;level;Stufe;;;5;5;;;;"S056; Dialog 26× (M000_071, M000_083)"
-4-14;move;Bew.;;;4;4;;;;"S057 S163; Dialog 5× (M016_007, M016_026)"
-4-15;damage;Schaden;;;6;7;;;;"S058; Dialog 6× (M000_101, M000_103)"
-4-16;exp;EP;;;3;2;;;;"S059; Dialog 1× (M000_011)"
+4-09;str / dex / con / cha / tch;ST / GE / KO / CH / TE;STÄ / GES / KON / CHA / TEC;;27;22;3;Grundsatz G7: deutsche AD&D-Kürzel;A (G7);S048
+4-10;hp;TP;;;2;2;;Trefferpunkte;A (G7);S053
+4-11;ac;RK;;;2;2;;Rüstungsklasse;A (G7);S054
+4-12;thac0;ETW0;THAC0;;5;4;;deutsche AD&D-2E: ETW0;A (G7);S055
+4-13;level;Stufe;;;5;5;;;A (G7);"S056; Dialog 26× (M000_071, M000_083)"
+4-14;move;Bew.;;;4;4;;;A (G7);"S057 S163; Dialog 5× (M016_007, M016_026)"
+4-15;damage;Schaden;;;6;7;;;A (G7);"S058; Dialog 6× (M000_101, M000_103)"
+4-16;exp;EP;;;3;2;;;A (G7);"S059; Dialog 1× (M000_011)"
 4-17;pilot rocket/juryrig;Raketen fliegen/Notreparatur;Pilot/Notreparatur;;20;28;;Karrierefertigkeit Raketenpilot;;S084
 4-18;treat wounds;Wunden versorgen;;;12;16;;Karrierefertigkeit Sanitäter;;S085
 4-19;tactics/leadership;Taktik/Führung;;;18;14;;Karrierefertigkeit Krieger;;S086

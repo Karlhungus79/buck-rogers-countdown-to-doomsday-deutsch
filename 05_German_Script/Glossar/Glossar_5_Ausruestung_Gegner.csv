@@ -30,7 +30,7 @@
 5-29;gyrocannon / K-Cannon;Gyrokanone / K-Kanone;;;21;21;;Schiffswaffen;;S193
 5-30;(heavy) missile;(schwere) Rakete;(schwerer) Flugkörper;;15;16;;;;S195
 5-31;Light / Heavy Acceleration Gun;Leichte / Schwere Beschl.-Kanone;LBK / SBK;;30;32;;"lang; Breite im Spiel prüfen";;S197
-5-32;Schiffsnamen (Adder, Viper, Anaconda …);unverändert;;;39;11;;Eigennamen;;S207
+5-32;Schiffsnamen (Adder, Viper, Anaconda …);unverändert;;;39;11;;Eigennamen;A (G6);S207
 5-33;D.R. WARRIOR;W.L. KRIEGER;D.R. KRIEGER;;12;12;15;Monsterfeld 15 Zeichen;;Monsterliste (dat_9E77C)
 5-34;LL. WARRIOR / LL. TECHNICIAN;T.L. KRIEGER / T.L. TECHNIKER;;;28;29;15;Lowlander = Tiefländer;;Monsterliste (dat_9E77C)
 5-35;DESERT APE;WÜSTENAFFE;;;10;10;15;;;Monsterliste (dat_9E77C)

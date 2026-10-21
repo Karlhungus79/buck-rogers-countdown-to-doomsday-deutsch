@@ -76,8 +76,11 @@ Folgen:
 - Zeichensatz braucht ä ö ü ß Ä Ö Ü (7 neue Kacheln) → Phase 1, `Zeichensatz.md`.
 - G1 heißt: Alle 2407 Dialogtexte werden in Groß-/Kleinschreibung gesetzt; die englische
   Vorlage bleibt in Großbuchstaben (nur Referenz).
-- Einträge in den Listen, die direkt aus G5–G8 folgen (3-01 Team, 4-09 bis 4-16 Kürzel,
-  3-41 km), gelten damit als entschieden.
+- 49 Listeneinträge folgen direkt aus G5–G8 und sind in der Spalte „Entscheidung“
+  eingetragen: Eigennamen ohne Alternative (Liste 1 und 2, Schiffsnamen 5-32) = „A (G6)“,
+  3-01 Team = „A (G5)“, 4-09 bis 4-16 Kürzel = „A (G7)“, 3-41 km = „A (G8)“.
+- Achtung: `2b_glossar_vorschlag.bat` überschreibt die Listen samt Entscheidungen –
+  nach der Abnahme nicht mehr benutzen.
 
 ### Begriffslisten
 
