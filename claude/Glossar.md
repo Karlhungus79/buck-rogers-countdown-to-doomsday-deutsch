@@ -1,6 +1,6 @@
 # Glossar – Grundsätze und Stand
 
-Stand: 21.10.2026 – **Vorschlag, noch nichts entschieden.**
+Stand: 21.10.2026 – **Grundsätze G1–G9 entschieden (alle A). Begriffslisten: Vorschlag, offen.**
 
 Listen (Excel, Semikolon, UTF-8) in `05_German_Script\Glossar\`:
 
@@ -58,4 +58,27 @@ Hinweise:
 
 ## Entscheidungen
 
-(noch keine)
+### Grundsätze – entschieden 21.10.2026 (Marcel: „G alles A“)
+
+| Nr | Entscheidung | Status |
+|---|---|---|
+| G1 | Dialoge in normaler Groß-/Kleinschreibung | entschieden; Darstellung von Kleinbuchstaben im Dialogfenster **im Spieltest prüfen** |
+| G2 | ß als eigenes Zeichen (neue Kachel) | entschieden |
+| G3 | NEO, Verbündete und Erzähltext sprechen das Team mit „ihr“ an („Ihr seht …“) | entschieden |
+| G4 | Fremde, Behörden, Händler, RAM: „Sie“ | entschieden |
+| G5 | Gruppe heißt „Team“ | entschieden |
+| G6 | Eigennamen, Schiffe, Fraktionen, KIs (.DOS) unverändert | entschieden |
+| G7 | Deutsche AD&D-2E-Kürzel: ST GE KO CH TE, TP, RK, ETW0, Stufe, EP | entschieden |
+| G8 | Planetendaten in km umrechnen | entschieden |
+| G9 | Sprachfärbungen bleiben (Terrine zischen, Sonnenkönig spricht Französisch) | entschieden |
+
+Folgen:
+- Zeichensatz braucht ä ö ü ß Ä Ö Ü (7 neue Kacheln) → Phase 1, `Zeichensatz.md`.
+- G1 heißt: Alle 2407 Dialogtexte werden in Groß-/Kleinschreibung gesetzt; die englische
+  Vorlage bleibt in Großbuchstaben (nur Referenz).
+- Einträge in den Listen, die direkt aus G5–G8 folgen (3-01 Team, 4-09 bis 4-16 Kürzel,
+  3-41 km), gelten damit als entschieden.
+
+### Begriffslisten
+
+(offen – wartet auf Marcels Antwort)

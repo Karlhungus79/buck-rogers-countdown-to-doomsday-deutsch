@@ -36,7 +36,11 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
   ROM (2 MB), Spiel liest direkt von dort. Umsetzung Phase 1 (`Textformat.md`).
 - **Glossar-Vorschlag vorgelegt (21.10.2026):** 9 Grundsätze (G1–G9) und 186 Begriffe
   in 5 CSV-Listen, je mit Empfehlung A und Alternativen, Zeichenzahl, Fundort.
-  Monsternamen gegen 15-Zeichen-Grenze geprüft. Wartet auf Marcels Entscheidung.
+  Monsternamen gegen 15-Zeichen-Grenze geprüft.
+- **Grundsätze G1–G9 entschieden (21.10.2026, alle A):** Groß-/Kleinschreibung, ß-Kachel,
+  „ihr“ für NEO/Verbündete/Erzähltext, „Sie“ für Fremde, „Team“, Eigennamen unverändert,
+  deutsche AD&D-Kürzel, km, Sprachfärbungen bleiben (`Glossar.md`).
+  Begriffslisten: offen.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -45,7 +49,7 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
 0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
 1. Marcel: `03_Tools\2_text_extrahieren.bat` starten, Ausgabe prüfen (27 Module,
    2407 + 393 Texte), `04_English_Script\uebersicht.csv` in Excel öffnen
-2. Marcel: Glossar entscheiden – zuerst Grundsätze G1–G9 (`Glossar.md`), dann die
+2. Marcel: Glossar-Begriffslisten entscheiden (G1–G9 erledigt) – die
    5 Listen in `05_German_Script\Glossar\` (186 Einträge). Danach trägt Claude ein.
    **Tor Phase 0 = Glossar abgenommen.**
 3. Zeichensatz: Font-Kacheln finden, Platz für Umlaute/ß (Umfang hängt an G1

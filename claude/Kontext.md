@@ -55,6 +55,14 @@ Community-Arbeit existiert.
 - Ehrlichkeit vor Optimismus: nicht Getestetes heißt "gebaut, Test offen",
   nicht "erledigt".
 
+## Übersetzungsgrundsätze (entschieden 21.10.2026, Details `Glossar.md`)
+
+- Dialoge in Groß-/Kleinschreibung, ß als eigenes Zeichen
+- Anrede: NEO/Verbündete/Erzähltext „ihr“, Fremde/Behörden/Händler/RAM „Sie“
+- Gruppe = „Team“; Eigennamen, Schiffe, Fraktionen, KIs (.DOS) unverändert
+- Werte: ST GE KO CH TE, TP, RK, ETW0, Stufe, EP; Planetendaten in km
+- Sprachfärbungen bleiben (Terrine zischen, Sonnenkönig spricht Französisch)
+
 ## Modellwahl
 
 Noch keine feste Tabelle. Bis dahin gilt: im Zweifel Opus. Mechanische
