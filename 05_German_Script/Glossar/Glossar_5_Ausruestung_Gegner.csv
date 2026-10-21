@@ -1,54 +1,54 @@
 ﻿Nr;Original;A (Empfehlung);B;C;Zeichen EN;Zeichen A;max. Zeichen;Begründung;Entscheidung;Fundort
-5-01;knife / sword / cutlass / polearm;Messer / Schwert / Entermesser / Stangenwaffe;;;33;45;;Achtung: Itemnamen werden aus Wortteilen zusammengesetzt (S001–S044), Mechanik in Phase 2 prüfen;;S003
-5-02;mono sword;Monoschwert;Monoklinge;;10;11;;;;S098
-5-03;needle gun;Nadelpistole;;;10;12;;;;S099
-5-04;heat gun;Hitzepistole;;;8;12;;;;S100
-5-05;laser pistol / laser rifle;Laserpistole / Lasergewehr;;;26;26;;;;S101
-5-06;rocket pistol / rocket rifle;Raketenpistole / Raketengewehr;;;28;30;;;;S102
-5-07;d.r. x-bow;W.L.-Armbrust;Wüstenarmbrust;;10;13;;Desert-Runner-Armbrust;;S005
-5-08;sonic stunner;Schallbetäuber;Schallstunner;;13;14;;;;S015
-5-09;grenade / grenade launcher;Granate / Granatwerfer;;;26;22;;;;"S016; Dialog 5× (M016_018, M016_051)"
-5-10;stun / dazzle / chaff (grenade);Betäubungs- / Blend- / Düppel-;Stun- / Blend- / Chaff-;;31;30;;Granatentypen;;"S033; Dialog 1× (M099_104)"
-5-11;plasma thrower;Plasmawerfer;;;14;12;;;;S018
-5-12;spacesuit / smartsuit;Raumanzug / Smartsuit;Raumanzug / Smartanzug;;21;21;;;;"S023; Dialog 2× (M035_005, M035_008)"
-5-13;armor / heavy body armor / battle armor w/fields;Panzerung / schwere Körperpanzerung / Kampfpanzerung m. Feld;;;48;60;;;;"S027; Dialog 2× (M017_048, M050_023)"
-5-14;aerosol mist;Aerosolnebel;;;12;12;;;;S034
-5-15;demo charge / explosive;Sprengladung / Sprengstoff;;;23;26;;;;"S035; Dialog 8× (M033_102, M049_060)"
-5-16;ecm package;ECM-Paket;Störsender;;11;9;;;;S036
-5-17;protective goggles;Schutzbrille;;;18;12;;;;"S038; Dialog 2× (M081_010, M095_021)"
-5-18;rope / belt;Seil / Gürtel;;;11;13;;;;"S040; Dialog 6× (M048_051, M049_009)"
-5-19;poison antidote;Gegengift;;;15;9;;;;S042
-5-20;behind cover;in Deckung;;;12;10;;;;S012
-5-21;autodoc;Autodoc;Medoautomat;;7;7;;;;Dialog 11× (M034_000, M048_093)
-5-22;keycard / passcard;Schlüsselkarte / Ausweiskarte;;;18;29;;;;Dialog 7× (M049_022, M049_066)
-5-23;Gravitol;Gravitol;;;8;8;;Droge, Eigenname;;Dialog 5× (M003_005, M081_055)
-5-24;gennie(s);Gennie(s);Genwesen;;9;9;;Fachbegriff des XXVc-Universums;;Dialog 11× (M017_050, M032_009)
-5-25;ECG;ECG;;;3;3;;Bedeutung noch unklar (E.C. Gennie) – bleibt Kürzel;;Dialog 28× (M032_030, M032_054)
-5-26;DL-Sat;DL-Sat;;;6;6;;Doomsday-Laser-Satellit, Kürzel bleibt;;Dialog 2× (M049_051, M049_052)
-5-27;Scout / Medium / Heavy Cruiser;Aufklärer / Mittl. Kreuzer / Schw. Kreuzer;Aufklärungskreuzer / Mittlerer Kreuzer / Schwerer Kreuzer;;30;42;;Schiffsklassen;;"S225; Dialog 1× (M095_016)"
-5-28;beam / pumped laser;Strahllaser / Pumplaser;;;19;23;;Schiffswaffen;;S191
-5-29;gyrocannon / K-Cannon;Gyrokanone / K-Kanone;;;21;21;;Schiffswaffen;;S193
-5-30;(heavy) missile;(schwere) Rakete;(schwerer) Flugkörper;;15;16;;;;S195
-5-31;Light / Heavy Acceleration Gun;Leichte / Schwere Beschl.-Kanone;LBK / SBK;;30;32;;"lang; Breite im Spiel prüfen";;S197
+5-01;knife / sword / cutlass / polearm;Messer / Schwert / Entermesser / Stangenwaffe;;;33;45;;Achtung: Itemnamen werden aus Wortteilen zusammengesetzt (S001–S044), Mechanik in Phase 2 prüfen;A;S003
+5-02;mono sword;Monoschwert;Monoklinge;;10;11;;;A;S098
+5-03;needle gun;Nadelpistole;;;10;12;;;A;S099
+5-04;heat gun;Hitzepistole;;;8;12;;;A;S100
+5-05;laser pistol / laser rifle;Laserpistole / Lasergewehr;;;26;26;;;A;S101
+5-06;rocket pistol / rocket rifle;Raketenpistole / Raketengewehr;;;28;30;;;A;S102
+5-07;d.r. x-bow;W.L.-Armbrust;Wüstenarmbrust;;10;13;;Desert-Runner-Armbrust;A;S005
+5-08;sonic stunner;Schallbetäuber;Schallstunner;;13;14;;;A;S015
+5-09;grenade / grenade launcher;Granate / Granatwerfer;;;26;22;;;A;"S016; Dialog 5× (M016_018, M016_051)"
+5-10;stun / dazzle / chaff (grenade);Betäubungs- / Blend- / Düppel-;Stun- / Blend- / Chaff-;;31;30;;Granatentypen;A;"S033; Dialog 1× (M099_104)"
+5-11;plasma thrower;Plasmawerfer;;;14;12;;;A;S018
+5-12;spacesuit / smartsuit;Raumanzug / Smartsuit;Raumanzug / Smartanzug;;21;21;;;A;"S023; Dialog 2× (M035_005, M035_008)"
+5-13;armor / heavy body armor / battle armor w/fields;Panzerung / schwere Körperpanzerung / Kampfpanzerung m. Feld;;;48;60;;;A;"S027; Dialog 2× (M017_048, M050_023)"
+5-14;aerosol mist;Aerosolnebel;;;12;12;;;A;S034
+5-15;demo charge / explosive;Sprengladung / Sprengstoff;;;23;26;;;A;"S035; Dialog 8× (M033_102, M049_060)"
+5-16;ecm package;ECM-Paket;Störsender;;11;9;;;A;S036
+5-17;protective goggles;Schutzbrille;;;18;12;;;A;"S038; Dialog 2× (M081_010, M095_021)"
+5-18;rope / belt;Seil / Gürtel;;;11;13;;;A;"S040; Dialog 6× (M048_051, M049_009)"
+5-19;poison antidote;Gegengift;;;15;9;;;A;S042
+5-20;behind cover;in Deckung;;;12;10;;;A;S012
+5-21;autodoc;Autodoc;Medoautomat;;7;7;;;A;Dialog 11× (M034_000, M048_093)
+5-22;keycard / passcard;Schlüsselkarte / Ausweiskarte;;;18;29;;;A;Dialog 7× (M049_022, M049_066)
+5-23;Gravitol;Gravitol;;;8;8;;Droge, Eigenname;A;Dialog 5× (M003_005, M081_055)
+5-24;gennie(s);Gennie(s);Genwesen;;9;9;;Fachbegriff des XXVc-Universums;A;Dialog 11× (M017_050, M032_009)
+5-25;ECG;ECG;;;3;3;;Bedeutung noch unklar (E.C. Gennie) – bleibt Kürzel;A;Dialog 28× (M032_030, M032_054)
+5-26;DL-Sat;DL-Sat;;;6;6;;Doomsday-Laser-Satellit, Kürzel bleibt;A;Dialog 2× (M049_051, M049_052)
+5-27;Scout / Medium / Heavy Cruiser;Aufklärer / Mittl. Kreuzer / Schw. Kreuzer;Aufklärungskreuzer / Mittlerer Kreuzer / Schwerer Kreuzer;;30;42;;Schiffsklassen;A;"S225; Dialog 1× (M095_016)"
+5-28;beam / pumped laser;Strahllaser / Pumplaser;;;19;23;;Schiffswaffen;A;S191
+5-29;gyrocannon / K-Cannon;Gyrokanone / K-Kanone;;;21;21;;Schiffswaffen;A;S193
+5-30;(heavy) missile;(schwere) Rakete;(schwerer) Flugkörper;;15;16;;;A;S195
+5-31;Light / Heavy Acceleration Gun;Leichte / Schwere Beschl.-Kanone;LBK / SBK;;30;32;;"lang; Breite im Spiel prüfen";A;S197
 5-32;Schiffsnamen (Adder, Viper, Anaconda …);unverändert;;;39;11;;Eigennamen;A (G6);S207
-5-33;D.R. WARRIOR;W.L. KRIEGER;D.R. KRIEGER;;12;12;15;Monsterfeld 15 Zeichen;;Monsterliste (dat_9E77C)
-5-34;LL. WARRIOR / LL. TECHNICIAN;T.L. KRIEGER / T.L. TECHNIKER;;;28;29;15;Lowlander = Tiefländer;;Monsterliste (dat_9E77C)
-5-35;DESERT APE;WÜSTENAFFE;;;10;10;15;;;Monsterliste (dat_9E77C)
-5-36;SAND SQUID;SANDKRAKE;;;10;9;15;;;Monsterliste (dat_9E77C)
-5-37;MER. LEADER / MER. TECHNICIAN / MER. WARRIOR;MER. ANFÜHRER / MER. TECHNIKER / MER. KRIEGER;;;44;45;15;;;Monsterliste (dat_9E77C)
-5-38;RAM L.D./H.D./L.S./H.S. ROBOT, MER./VEN. H.S. ROBOT;unverändert;RAM L.D. ROBOTER;;51;11;15;"„ROBOT“ bleibt, „ROBOTER“ passt nicht in 15 Zeichen (RAM L.D. ROBOTER = 16); Kürzel bleiben";;Monsterliste (dat_9E77C)
-5-39;SM. / LG. E.C. GENNIE;KL. / GR. E.C. GENNIE;;;21;21;15;;;Monsterliste (dat_9E77C)
-5-40;PIRATE WARRIOR / PIRATE LEADER;PIRATENKRIEGER / PIRATENANFÜHRER;;;30;32;15;15 Zeichen genau;;Monsterliste (dat_9E77C)
-5-41;P. COMBAT ROBOT;P. KAMPFROBOT;;;15;13;15;;;Monsterliste (dat_9E77C)
-5-42;RAM ASSASSIN;RAM-ATTENTÄTER;RAM-MEUCHLER;;12;14;15;;;Monsterliste (dat_9E77C)
-5-43;RAM ASSAULT BOT / RAM COMBAT BOT;RAM STURMBOT / RAM KAMPFBOT;;;32;27;15;;;Monsterliste (dat_9E77C)
-5-44;RAM MAR/MER/VEN CGENNIE;unverändert;RAM MAR KGENNIE;;23;11;15;"C = Combat; Kürzel bleibt";;Monsterliste (dat_9E77C)
-5-45;RAM TECHNICIAN / RAM WARRIOR;RAM TECHNIKER / RAM KRIEGER;;;28;27;15;;;Monsterliste (dat_9E77C)
-5-46;HYPERCRAB / HYPERSCORP / HYPERSNAKE;HYPERKRABBE / HYPERSKORPION / HYPERSCHLANGE;;;35;43;15;;;Monsterliste (dat_9E77C)
-5-47;SPACE RAT;RAUMRATTE;;;9;9;15;;;Monsterliste (dat_9E77C)
-5-48;TERRINE LEADER / TERRINE WARRIOR;TERRINE-FÜHRER / TERRINE-KRIEGER;;;32;32;15;;;Monsterliste (dat_9E77C)
-5-49;SWAMP HORNET;SUMPFHORNISSE;;;12;13;15;;;Monsterliste (dat_9E77C)
-5-50;ACID FROG;SÄUREFROSCH;;;9;11;15;;;Monsterliste (dat_9E77C)
-5-51;HEXADILLO / URSADDER / ACIDICIUM;unverändert;;;32;11;15;Fantasienamen;;Monsterliste (dat_9E77C)
-5-52;NEO WARRIOR;NEO-KRIEGER;;;11;11;15;;;Monsterliste (dat_9E77C)
-5-53;STAGE 3 ECG;ECG STUFE 3;;;11;11;15;;;Monsterliste (dat_9E77C)
+5-33;D.R. WARRIOR;W.L. KRIEGER;D.R. KRIEGER;;12;12;15;Monsterfeld 15 Zeichen;A;Monsterliste (dat_9E77C)
+5-34;LL. WARRIOR / LL. TECHNICIAN;T.L. KRIEGER / T.L. TECHNIKER;;;28;29;15;Lowlander = Tiefländer;A;Monsterliste (dat_9E77C)
+5-35;DESERT APE;WÜSTENAFFE;;;10;10;15;;A;Monsterliste (dat_9E77C)
+5-36;SAND SQUID;SANDKRAKE;;;10;9;15;;A;Monsterliste (dat_9E77C)
+5-37;MER. LEADER / MER. TECHNICIAN / MER. WARRIOR;MER. ANFÜHRER / MER. TECHNIKER / MER. KRIEGER;;;44;45;15;;A;Monsterliste (dat_9E77C)
+5-38;RAM L.D./H.D./L.S./H.S. ROBOT, MER./VEN. H.S. ROBOT;unverändert;RAM L.D. ROBOTER;;51;11;15;"„ROBOT“ bleibt, „ROBOTER“ passt nicht in 15 Zeichen (RAM L.D. ROBOTER = 16); Kürzel bleiben";A;Monsterliste (dat_9E77C)
+5-39;SM. / LG. E.C. GENNIE;KL. / GR. E.C. GENNIE;;;21;21;15;;A;Monsterliste (dat_9E77C)
+5-40;PIRATE WARRIOR / PIRATE LEADER;PIRATENKRIEGER / PIRATENANFÜHRER;;;30;32;15;15 Zeichen genau;A;Monsterliste (dat_9E77C)
+5-41;P. COMBAT ROBOT;P. KAMPFROBOT;;;15;13;15;;A;Monsterliste (dat_9E77C)
+5-42;RAM ASSASSIN;RAM-ATTENTÄTER;RAM-MEUCHLER;;12;14;15;;A;Monsterliste (dat_9E77C)
+5-43;RAM ASSAULT BOT / RAM COMBAT BOT;RAM STURMBOT / RAM KAMPFBOT;;;32;27;15;;A;Monsterliste (dat_9E77C)
+5-44;RAM MAR/MER/VEN CGENNIE;unverändert;RAM MAR KGENNIE;;23;11;15;"C = Combat; Kürzel bleibt";A;Monsterliste (dat_9E77C)
+5-45;RAM TECHNICIAN / RAM WARRIOR;RAM TECHNIKER / RAM KRIEGER;;;28;27;15;;A;Monsterliste (dat_9E77C)
+5-46;HYPERCRAB / HYPERSCORP / HYPERSNAKE;HYPERKRABBE / HYPERSKORPION / HYPERSCHLANGE;;;35;43;15;;A;Monsterliste (dat_9E77C)
+5-47;SPACE RAT;RAUMRATTE;;;9;9;15;;A;Monsterliste (dat_9E77C)
+5-48;TERRINE LEADER / TERRINE WARRIOR;TERRINE-FÜHRER / TERRINE-KRIEGER;;;32;32;15;;A;Monsterliste (dat_9E77C)
+5-49;SWAMP HORNET;SUMPFHORNISSE;;;12;13;15;;A;Monsterliste (dat_9E77C)
+5-50;ACID FROG;SÄUREFROSCH;;;9;11;15;;A;Monsterliste (dat_9E77C)
+5-51;HEXADILLO / URSADDER / ACIDICIUM;unverändert;;;32;11;15;Fantasienamen;A;Monsterliste (dat_9E77C)
+5-52;NEO WARRIOR;NEO-KRIEGER;;;11;11;15;;A;Monsterliste (dat_9E77C)
+5-53;STAGE 3 ECG;ECG STUFE 3;;;11;11;15;;A;Monsterliste (dat_9E77C)

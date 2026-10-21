@@ -84,7 +84,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 0, läuft (Referenztext extrahiert, Textformat in `Textformat.md`).
+Aktueller Stand: Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen). Phase 1 beginnt.
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 

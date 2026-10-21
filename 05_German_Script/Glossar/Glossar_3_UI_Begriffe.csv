@@ -1,43 +1,43 @@
 ﻿Nr;Original;A (Empfehlung);B;C;Zeichen EN;Zeichen A;max. Zeichen;Begründung;Entscheidung;Fundort
 3-01;team;Team;Trupp;Gruppe;4;4;;"Grundsatz G5; im Spiel sehr häufig, A gleich kurz";A (G5);Dialog 47× (M000_131, M016_014)
-3-02;create character;Figur erschaffen;Figur erstellen;;16;16;;Hauptmenü;;S061
-3-03;train character;Figur ausbilden;;;15;15;;;;S062
-3-04;drop character;Figur entlassen;Figur löschen;;14;15;;;;S063
-3-05;save game;Spiel speichern;;;9;15;;;;S064
-3-06;restore game;Spiel laden;;;12;11;;;;S065
-3-07;begin adventure;Abenteuer starten;Los geht's;;15;17;;;;S066
-3-08;reroll stats;neu würfeln;;;12;11;;;;S076
-3-09;done;fertig;;;4;6;;;;"S077; Dialog 6× (M017_008, M097_051)"
-3-10;exit;Ende;zurück;;4;4;;;;"S079; Dialog 17× (M000_053, M000_124)"
-3-11;del / spc;Lö / Lz;Entf / Leer;;9;7;3;Namenseingabe, Platz 3 Zeichen;;S080
-3-12;enter character's name;Name der Figur:;Namen eingeben:;;22;15;;;;S078
-3-13;congratulations;Glückwunsch;Gratulation;;15;11;;;;"S082; Dialog 3× (M032_112, M033_106)"
-3-14;is now a level;ist jetzt Stufe;;;14;15;;Satzbau: <Name> ist jetzt Stufe <n>;;S083
-3-15;abort;Abbruch;;;5;7;;;;"S104; Dialog 1× (M000_051)"
-3-16;yes~no;ja~nein;j~n;;6;7;;Ja/Nein-Breite im Spiel messen (Falle aus PSG2);;S105
-3-17;press c to continue;C: weiter;weiter mit C;;19;9;;;;S106
-3-18;view team / view skills / view items;Team / Fertigkeiten / Gegenstände;Team / Können / Ausrüstung;;36;33;;Menüpunkte, Breite offen;;S109
-3-19;reorder team;Team ordnen;;;12;11;;;;S125
-3-20;change game speed;Spieltempo;;;17;10;;;;S126
-3-21;toggle music;Musik an/aus;;;12;12;;;;S316
-3-22;choose combat figure;Kampffigur wählen;;;20;17;;;;S128
-3-23;quick combat;Schnellkampf;Autokampf;;12;12;;;;S164
-3-24;flee the battle?;Kampf fliehen?;Flucht?;;16;14;;;;S181
-3-25;target;Ziel;;;6;4;;;;"S138; Dialog 2× (M067_017, M096_080)"
-3-26;move / wait;bewegen / warten;;;11;16;;;;"S165; Dialog 12× (M032_027, M048_029)"
-3-27;readied;bereit;ausgerüstet;;7;6;;;;S153
-3-28;drop / sell / trade with / sell for;ablegen / verkaufen / geben an / Preis;;;35;38;;;;S179
-3-29;credits;Credits;;;7;7;;Währung, bleibt;;"S159; Dialog 3× (M000_062, M034_107)"
-3-30;experience points;Erfahrungspunkte;EP;;17;16;;;;"S149 S390; Dialog 1× (M000_055)"
-3-31;hit point(s);Trefferpunkt(e);;;12;15;;;;S266
-3-32;slow / medium / fast;langsam / mittel / schnell;;;20;26;;Spieltempo;;"S155; Dialog 3× (M034_101, M034_103)"
-3-33;dead / dying / unconscious / fleeing;tot / sterbend / bewusstlos / flieht;;;36;36;;Zustände;;"S171; Dialog 1× (M016_023)"
-3-34;poisoned / comatose / blinded / stunned / dizzy;vergiftet / im Koma / geblendet / betäubt / benommen;;;47;52;;Zustände;;S174
-3-35;logbook entry;Logbucheintrag;;;13;14;;;;S047
-3-36;fire / reload / aid / end turn;Feuer / laden / Hilfe / Zugende;;;30;31;;Raumkampf-Menü;;S276
-3-37;close / withdraw / ram! / board / maneuver;annähern / abdrehen / rammen! / entern / manövrieren;;;42;52;;Raumkampf-Menü;;"S278; Dialog 2× (M049_034, M065_043)"
-3-38;hull / controls / engines / weapons;Rumpf / Steuerung / Triebwerke / Waffen;;;35;39;;Schiffssysteme;;"S249; Dialog 31× (M016_032, M016_033)"
-3-39;range / to hit / ammo left / ready;Reichweite / Treffer / Munition / bereit;;;34;40;;Raumkampf-Anzeige, Breite offen;;S283
-3-40;scanning / population / atmosphere / gravity / revolution / rotation / diameter;Scan / Bevölkerung / Atmosphäre / Schwerkraft / Umlauf / Rotation / Durchmesser;;;79;79;;Planetendaten;;S339
+3-02;create character;Figur erschaffen;Figur erstellen;;16;16;;Hauptmenü;A;S061
+3-03;train character;Figur ausbilden;;;15;15;;;A;S062
+3-04;drop character;Figur entlassen;Figur löschen;;14;15;;;A;S063
+3-05;save game;Spiel speichern;;;9;15;;;A;S064
+3-06;restore game;Spiel laden;;;12;11;;;A;S065
+3-07;begin adventure;Abenteuer starten;Los geht's;;15;17;;;A;S066
+3-08;reroll stats;neu würfeln;;;12;11;;;A;S076
+3-09;done;fertig;;;4;6;;;A;"S077; Dialog 6× (M017_008, M097_051)"
+3-10;exit;Ende;zurück;;4;4;;;A;"S079; Dialog 17× (M000_053, M000_124)"
+3-11;del / spc;Lö / Lz;Entf / Leer;;9;7;3;Namenseingabe, Platz 3 Zeichen;A;S080
+3-12;enter character's name;Name der Figur:;Namen eingeben:;;22;15;;;A;S078
+3-13;congratulations;Glückwunsch;Gratulation;;15;11;;;A;"S082; Dialog 3× (M032_112, M033_106)"
+3-14;is now a level;ist jetzt Stufe;;;14;15;;Satzbau: <Name> ist jetzt Stufe <n>;A;S083
+3-15;abort;Abbruch;;;5;7;;;A;"S104; Dialog 1× (M000_051)"
+3-16;yes~no;ja~nein;j~n;;6;7;;Ja/Nein-Breite im Spiel messen (Falle aus PSG2);A;S105
+3-17;press c to continue;C: weiter;weiter mit C;;19;9;;;A;S106
+3-18;view team / view skills / view items;Team / Fertigkeiten / Gegenstände;Team / Können / Ausrüstung;;36;33;;Menüpunkte, Breite offen;A;S109
+3-19;reorder team;Team ordnen;;;12;11;;;A;S125
+3-20;change game speed;Spieltempo;;;17;10;;;A;S126
+3-21;toggle music;Musik an/aus;;;12;12;;;A;S316
+3-22;choose combat figure;Kampffigur wählen;;;20;17;;;A;S128
+3-23;quick combat;Schnellkampf;Autokampf;;12;12;;;A;S164
+3-24;flee the battle?;Kampf fliehen?;Flucht?;;16;14;;;A;S181
+3-25;target;Ziel;;;6;4;;;A;"S138; Dialog 2× (M067_017, M096_080)"
+3-26;move / wait;bewegen / warten;;;11;16;;;A;"S165; Dialog 12× (M032_027, M048_029)"
+3-27;readied;bereit;ausgerüstet;;7;6;;;A;S153
+3-28;drop / sell / trade with / sell for;ablegen / verkaufen / geben an / Preis;;;35;38;;;A;S179
+3-29;credits;Credits;;;7;7;;Währung, bleibt;A;"S159; Dialog 3× (M000_062, M034_107)"
+3-30;experience points;Erfahrungspunkte;EP;;17;16;;;A;"S149 S390; Dialog 1× (M000_055)"
+3-31;hit point(s);Trefferpunkt(e);;;12;15;;;A;S266
+3-32;slow / medium / fast;langsam / mittel / schnell;;;20;26;;Spieltempo;A;"S155; Dialog 3× (M034_101, M034_103)"
+3-33;dead / dying / unconscious / fleeing;tot / sterbend / bewusstlos / flieht;;;36;36;;Zustände;A;"S171; Dialog 1× (M016_023)"
+3-34;poisoned / comatose / blinded / stunned / dizzy;vergiftet / im Koma / geblendet / betäubt / benommen;;;47;52;;Zustände;A;S174
+3-35;logbook entry;Logbucheintrag;;;13;14;;;A;S047
+3-36;fire / reload / aid / end turn;Feuer / laden / Hilfe / Zugende;;;30;31;;Raumkampf-Menü;A;S276
+3-37;close / withdraw / ram! / board / maneuver;annähern / abdrehen / rammen! / entern / manövrieren;;;42;52;;Raumkampf-Menü;A;"S278; Dialog 2× (M049_034, M065_043)"
+3-38;hull / controls / engines / weapons;Rumpf / Steuerung / Triebwerke / Waffen;;;35;39;;Schiffssysteme;A;"S249; Dialog 31× (M016_032, M016_033)"
+3-39;range / to hit / ammo left / ready;Reichweite / Treffer / Munition / bereit;;;34;40;;Raumkampf-Anzeige, Breite offen;A;S283
+3-40;scanning / population / atmosphere / gravity / revolution / rotation / diameter;Scan / Bevölkerung / Atmosphäre / Schwerkraft / Umlauf / Rotation / Durchmesser;;;79;79;;Planetendaten;A;S339
 3-41;miles;km (umgerechnet);Meilen;;5;16;;Grundsatz G8;A (G8);S368 S370 S373 S375 …
-3-42;save / restore;speichern / laden;;;14;17;;;;"S389; Dialog 1× (M017_038)"
+3-42;save / restore;speichern / laden;;;14;17;;;A;"S389; Dialog 1× (M017_038)"

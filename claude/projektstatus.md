@@ -4,7 +4,7 @@ Stand: 21.10.2026 (spät)
 
 ## Aktuelle Phase
 
-Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklärt.
+Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Erledigt
 
@@ -40,7 +40,8 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
 - **Grundsätze G1–G9 entschieden (21.10.2026, alle A):** Groß-/Kleinschreibung, ß-Kachel,
   „ihr“ für NEO/Verbündete/Erzähltext, „Sie“ für Fremde, „Team“, Eigennamen unverändert,
   deutsche AD&D-Kürzel, km, Sprachfärbungen bleiben (`Glossar.md`).
-  Begriffslisten: offen.
+- **Glossar abgenommen (21.10.2026, „Listen alles A“):** alle 186 Einträge = A.
+  **Tor Phase 0 erreicht.**
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -49,15 +50,15 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
 0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
 1. Marcel: `03_Tools\2_text_extrahieren.bat` starten, Ausgabe prüfen (27 Module,
    2407 + 393 Texte), `04_English_Script\uebersicht.csv` in Excel öffnen
-2. Marcel: Glossar-Begriffslisten entscheiden (G1–G9 erledigt) – die
-   5 Listen in `05_German_Script\Glossar\` (186 Einträge). Danach trägt Claude ein.
-   **Tor Phase 0 = Glossar abgenommen.**
-3. Zeichensatz: Font-Kacheln finden, Platz für Umlaute/ß (Umfang hängt an G1
-   in `Glossar.md`)
-4. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
+2. `Fahrplan.md` für Phase 1 anlegen (Reihenfolge: Font finden → Umlaute/ß →
+   Textablage A umsetzen → ein Intro-Text deutsch im Spiel)
+3. Zeichensatz: Font-Kacheln finden, 7 neue Zeichen ä ö ü ß Ä Ö Ü (`Zeichensatz.md`)
+4. Textablage A umsetzen: `sub_40D0` ändern, ROM auf 2 MB, Einsetz-Skript
+   (Prüfregeln aus Projektanweisung 7.5), Kleinbuchstaben im Dialogfenster testen
+5. Tor Phase 1: Intro (M016/M003) läuft deutsch – Marcel bestätigt im Emulator
+6. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
    in die Extraktion aufnehmen
-5. Emulator mit Debugger festlegen und Version notieren
-6. `Fahrplan.md` anlegen
+7. Emulator mit Debugger festlegen und Version notieren
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

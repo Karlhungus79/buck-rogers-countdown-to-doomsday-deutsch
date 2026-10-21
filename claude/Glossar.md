@@ -1,6 +1,6 @@
 # Glossar – Grundsätze und Stand
 
-Stand: 21.10.2026 – **Grundsätze G1–G9 entschieden (alle A). Begriffslisten: Vorschlag, offen.**
+Stand: 21.10.2026 – **Glossar abgenommen: Grundsätze G1–G9 und alle 186 Listeneinträge = A.**
 
 Listen (Excel, Semikolon, UTF-8) in `05_German_Script\Glossar\`:
 
@@ -79,9 +79,17 @@ Folgen:
 - 49 Listeneinträge folgen direkt aus G5–G8 und sind in der Spalte „Entscheidung“
   eingetragen: Eigennamen ohne Alternative (Liste 1 und 2, Schiffsnamen 5-32) = „A (G6)“,
   3-01 Team = „A (G5)“, 4-09 bis 4-16 Kürzel = „A (G7)“, 3-41 km = „A (G8)“.
-- Achtung: `2b_glossar_vorschlag.bat` überschreibt die Listen samt Entscheidungen –
-  nach der Abnahme nicht mehr benutzen.
+- `2b_glossar_vorschlag.bat` verweigert ab der Abnahme das Überschreiben (Schutz eingebaut).
 
-### Begriffslisten
+### Begriffslisten – entschieden 21.10.2026 (Marcel: „Listen alles A“)
 
-(offen – wartet auf Marcels Antwort)
+Alle 186 Einträge gelten in der Form A. In den CSV-Dateien steht in der Spalte
+„Entscheidung“ entweder „A (G5/G6/G7/G8)“ (folgt aus dem Grundsatz) oder „A“.
+
+Vorbehalte (Breite/Technik, im Spieltest prüfen, ggf. Glossar mit Datum ändern):
+- UI-Begriffe (Liste 3) und Fertigkeiten (Liste 4): Fensterbreiten noch nicht gemessen.
+- 3-16 „ja~nein“: Breite im Spiel messen.
+- Liste 5, Gegenstände: zusammengesetzte Itemnamen (Phase 2).
+- 2-27 „Udus Café“: é nur, wenn die Kachel kommt, sonst „Udus Cafe“.
+
+**Tor Phase 0 erreicht: Glossar abgenommen am 21.10.2026.**

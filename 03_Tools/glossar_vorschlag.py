@@ -260,6 +260,12 @@ def fundort(orig, such, dlg, sysd):
 
 
 def main():
+    # Schutz: nach der Abnahme (Spalte "Entscheidung" gefuellt) nie ueberschreiben
+    for f in glob.glob(os.path.join(OUT, "*.csv")):
+        rows = list(csv.reader(open(f, encoding="utf-8-sig"), delimiter=";"))
+        if any(len(r) > 9 and r[9].strip() for r in rows[1:]):
+            raise SystemExit("Abbruch: %s enthaelt bereits Entscheidungen (Glossar abgenommen)."
+                             % os.path.basename(f))
     dlg, sysd = load()
     os.makedirs(OUT, exist_ok=True)
     head = ["Nr", "Original", "A (Empfehlung)", "B", "C", "Zeichen EN", "Zeichen A",

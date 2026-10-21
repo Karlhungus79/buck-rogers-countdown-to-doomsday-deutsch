@@ -24,6 +24,6 @@
 1-23;Ragon;Ragon;;;5;5;;Eigenname;A (G6);Dialog 2× (M049_071, M049_076)
 1-24;Eliph;Eliph;;;5;5;;Eigenname;A (G6);Dialog 2× (M049_072, M049_077)
 1-25;Gavilan;Gavilan;;;7;7;;Eigenname;A (G6);Dialog 3× (M096_037, M096_040)
-1-26;Sun King;Sonnenkönig;Sun King;;8;11;;"Herrscher einer Mariposa, spricht Französisch; Titel, daher übersetzen";;Dialog 24× (M017_054, M096_020)
-1-27;Mr.;Mr.;Herr;;3;3;;Mr. ist in deutscher Sci-Fi üblich (vgl. Mr. Spock), kürzer;;Dialog 1× (M017_023)
+1-26;Sun King;Sonnenkönig;Sun King;;8;11;;"Herrscher einer Mariposa, spricht Französisch; Titel, daher übersetzen";A;Dialog 24× (M017_054, M096_020)
+1-27;Mr.;Mr.;Herr;;3;3;;Mr. ist in deutscher Sci-Fi üblich (vgl. Mr. Spock), kürzer;A;Dialog 1× (M017_023)
 1-28;Flavius, Celeste, Pierre, Nichole, Roarke, Janelle;unverändert;;;50;11;;Vorgefertigte Figuren;A (G6);Spielstand-Vorlagen (dat_6BAAD)
