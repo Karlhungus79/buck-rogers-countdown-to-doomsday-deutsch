@@ -18,13 +18,13 @@ Phase 0 – Bestandsaufnahme. Läuft.
 - Einstiegsdateien angelegt: `Kontext.md`, `projektstatus.md`, `MEMORY.md`
 - Disassembly erstellt, baut bit-genau (CRC32 44E3BFFF) – unter Linux und
   unter Windows bestätigt am 21.10.2026 (`03_Tools\6_bitgenau_pruefen.bat`)
-- Git-Repo lokal angelegt; GitHub-Repo `buck-rogers-countdown-to-doomsday-deutsch`
-  (privat) legt Marcel an, danach Push
+- GitHub-Repo angelegt und gepusht (21.10.2026): privat,
+  https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch
+  (Beschreibung englisch)
 
 ## Offen / nächste Schritte
 
-0. Marcel: leeres privates GitHub-Repo `buck-rogers-countdown-to-doomsday-deutsch`
-   anlegen → Claude pusht
+0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
 1. Referenztext (US/EU-Fassung) extrahieren und als Dialogstruktur ablegen
 2. Textformat und Zeichensatz am Intro/Titelbildschirm testen
    (Umlaute, ß, Umbruch) – Toolchain-Versionen dabei notieren
