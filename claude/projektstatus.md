@@ -16,15 +16,15 @@ Phase 0 – Bestandsaufnahme. Läuft.
 - Bestandsaufnahme-Recherche abgeschlossen: keine bestehende Übersetzung,
   kein Disassembly, keine Tools gefunden (siehe `BuckRogers_Bestandsaufnahme.md`)
 - Einstiegsdateien angelegt: `Kontext.md`, `projektstatus.md`, `MEMORY.md`
-- Disassembly erstellt, baut unter Linux bit-genau (CRC32 44E3BFFF) –
-  unter Windows: gebaut, Test offen (`03_Tools\6_bitgenau_pruefen.bat`)
+- Disassembly erstellt, baut bit-genau (CRC32 44E3BFFF) – unter Linux und
+  unter Windows bestätigt am 21.10.2026 (`03_Tools\6_bitgenau_pruefen.bat`)
 - Git-Repo lokal angelegt; GitHub-Repo `buck-rogers-countdown-to-doomsday-deutsch`
   (privat) legt Marcel an, danach Push
 
 ## Offen / nächste Schritte
 
-0. Marcel: `03_Tools\6_bitgenau_pruefen.bat` starten, Ergebnis melden;
-   leeres privates GitHub-Repo anlegen → Claude pusht
+0. Marcel: leeres privates GitHub-Repo `buck-rogers-countdown-to-doomsday-deutsch`
+   anlegen → Claude pusht
 1. Referenztext (US/EU-Fassung) extrahieren und als Dialogstruktur ablegen
 2. Textformat und Zeichensatz am Intro/Titelbildschirm testen
    (Umlaute, ß, Umbruch) – Toolchain-Versionen dabei notieren

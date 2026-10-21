@@ -7,7 +7,8 @@ Stand: 21.10.2026
 - `02_Extracted\src\buckrogers.asm` baut **bit-genau** zur Original-ROM
   (CRC32 44E3BFFF, Header-Checksumme D7B6). Bestätigt am 21.10.2026 unter Linux
   mit AS (flamewing, Commit 592c5fa). Unter Windows mit `03_Tools\AS\win64\asl.exe`
-  (gleicher Stand): **gebaut, Test offen** – Marcel startet `6_bitgenau_pruefen.bat`.
+  (gleicher Stand): **bestätigt am 21.10.2026** (Marcel, `6_bitgenau_pruefen.bat`,
+  Ausgabe `07_Output_ROM\2026-10-21_22-19-18_pruefung\`, CRC32 44E3BFFF, Checksumme D7B6).
 - 26.658 Befehle als Quelltext, 2 als `dc.w` (AS optimiert `0(An)` zu `(An)`:
   `$005FE0 movem.w d2-d3,0(a0)` und `$00FACE move.w 0(a0),d0`).
 - 11 Sprungtabellen aufgelöst, 240 Datenblöcke per `binclude` aus `02_Extracted\data\`.
