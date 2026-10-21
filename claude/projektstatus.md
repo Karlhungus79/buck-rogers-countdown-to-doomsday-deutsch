@@ -32,6 +32,11 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
   `04_English_Script\ecl\M000.toml … M099.toml` (2407 Texte),
   `systemtexte.toml` (393), `uebersicht.csv`. Nicht im Repo (Spieldaten).
   Gebaut und per Skript geprüft; Ausführung unter Windows: **Test offen**.
+- **Entscheidung 21.10.2026: Textablage A** – deutscher Dialogtext unkomprimiert in der
+  ROM (2 MB), Spiel liest direkt von dort. Umsetzung Phase 1 (`Textformat.md`).
+- **Glossar-Vorschlag vorgelegt (21.10.2026):** 9 Grundsätze (G1–G9) und 186 Begriffe
+  in 5 CSV-Listen, je mit Empfehlung A und Alternativen, Zeichenzahl, Fundort.
+  Monsternamen gegen 15-Zeichen-Grenze geprüft. Wartet auf Marcels Entscheidung.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -40,15 +45,15 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
 0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
 1. Marcel: `03_Tools\2_text_extrahieren.bat` starten, Ausgabe prüfen (27 Module,
    2407 + 393 Texte), `04_English_Script\uebersicht.csv` in Excel öffnen
-2. Entscheidung Textablage Phase 1 (A/B/C, siehe `Textformat.md`, Empfehlung A)
-3. Glossar-Vorschläge als CSV (Eigennamen, Fraktionen, Klassen/Rassen, UI)
-   aus `uebersicht.csv` ableiten, Marcel entscheidet
-4. Zeichensatz: Font-Kacheln finden, Platz für Ä Ö Ü ß (Großbuchstaben reichen für
-   Dialoge; Systemtexte brauchen auch ä ö ü)
-5. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
+2. Marcel: Glossar entscheiden – zuerst Grundsätze G1–G9 (`Glossar.md`), dann die
+   5 Listen in `05_German_Script\Glossar\` (186 Einträge). Danach trägt Claude ein.
+   **Tor Phase 0 = Glossar abgenommen.**
+3. Zeichensatz: Font-Kacheln finden, Platz für Umlaute/ß (Umfang hängt an G1
+   in `Glossar.md`)
+4. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
    in die Extraktion aufnehmen
-6. Emulator mit Debugger festlegen und Version notieren
-7. `Fahrplan.md` anlegen
+5. Emulator mit Debugger festlegen und Version notieren
+6. `Fahrplan.md` anlegen
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 
@@ -57,4 +62,5 @@ Phase 0 – Bestandsaufnahme. Läuft. Referenztext extrahiert, Textformat geklä
 - Keine japanische Mega-Drive-Fassung bekannt
 - LZW-Nachbau entspricht dem Spiel (per Blockgrenzen geprüft, im Spiel erst mit dem
   ersten Einsetz-Test bestätigt)
-- Deutsche Texte werden 10–30 % länger (Annahme) → RAM-Grenze in M050/M032
+- Deutsche Texte werden 10–30 % länger (Annahme); durch Entscheidung A unkritisch
+- Annahme zu A: Kein ECL-Befehl schreibt in den Textblock (im Spieltest prüfen)

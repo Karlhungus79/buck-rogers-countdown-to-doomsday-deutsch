@@ -82,7 +82,7 @@ Verweise**, keinen Verweis ins Leere.
 
   Deutsch wird erfahrungsgemäß deutlich länger als Englisch (Annahme 10–30 %, im
   Spieltest/Übersetzung zu bestätigen) → **M050 und M032 würden voraussichtlich nicht passen.**
-  Lösungsvorschlag siehe „Offene Entscheidung" unten.
+  Gelöst durch Entscheidung A (siehe unten): Text liegt in der ROM, die RAM-Grenze gilt nur noch für den ECL-Code.
 - Modul 97: Der Original-Textstrom hat kein sauberes Ende, das Spiel entpackt hinter dem
   letzten Text ca. 1.900 Byte Datenmüll (stört nicht, Platz bleibt unter 0x2C00). Beim
   Neubau entfällt der Müll.
@@ -101,7 +101,16 @@ Verweise**, keinen Verweis ins Leere.
 - Systemtexte zusätzlich `a–z`, `+ /`, `~`.
 - Umlaute/ß kommen nicht vor → Font-Kacheln müssen ergänzt werden (Phase 1, Zeichensatz.md).
 
-## Offene Entscheidung (Phase 1): Wo liegt der deutsche Dialogtext?
+## Entscheidung (21.10.2026, Marcel): Textablage A
+
+**A gilt:** Der deutsche Dialogtext liegt unkomprimiert in der ROM, `sub_40D0` setzt
+`$FFFFB9A4` auf die ROM-Adresse des Textblocks statt ihn zu entpacken. ROM wächst auf 2 MB.
+Umsetzung in Phase 1. Status: entschieden, **gebaut: nein, Test offen.**
+
+Begründung: RAM-Grenze (0x2C00) fällt für den Text weg, kein Kürzen in M050/M032 nötig,
+kein LZW-Packer nötig, kleiner Eingriff mit klarem Rückfallwert.
+
+Vorher vorgelegte Optionen:
 
 | | Lösung | Vorteil | Nachteil |
 |---|---|---|---|

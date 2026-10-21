@@ -108,6 +108,7 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
   Windows-Fassung in `03_Tools\AS\win64\` (selbst kompiliert, Details `claude\Disassembly.md`)
 - Disassembler: eigenes `03_Tools\disasm.py` + `gen_asm.py` (Capstone 5.0.7)
 - Python 3 für alle Skripte, jeweils mit .bat-Wrapper
+- Textablage (Entscheidung 21.10.2026): Dialogtext unkomprimiert in der ROM, ROM 2 MB
 - Text: `03_Tools\brtext.py` (LZW, ECL-Parser, Systemtexte), `2_text_extrahieren.bat`
 - Noch offen: Emulator mit Debugger und Savestates (z. B. BlastEm, Exodus,
   Genesis Plus GX), Tile-Editor – Versionen beim ersten Einsatz notieren.

@@ -1,0 +1,32 @@
+﻿Nr;Original;A (Empfehlung);B;C;Zeichen EN;Zeichen A;max. Zeichen;Begründung;Entscheidung;Fundort
+4-01;rocket jock;Raketenpilot;Rocketjock;Raketenjockey;11;12;;"Klasse; A sagt, was die Figur kann";;S067
+4-02;medic;Sanitäter;Mediziner;Medic;5;9;;Klasse;;"S068; Dialog 2× (M095_012, M099_093)"
+4-03;warrior;Krieger;;;7;7;;Klasse;;"S069; Dialog 4× (M048_047, M049_013)"
+4-04;rogue;Schurke;Gauner;;5;7;;Klasse (AD&D-Tradition: Schurke);;"S070; Dialog 2× (M033_077, M099_125)"
+4-05;human;Mensch;;;5;6;;Rasse;;"S071; Dialog 1× (M032_122)"
+4-06;desert runner;Wüstenläufer;Desert Runner;;13;12;;Rasse, wie Fraktion;;"S072; Dialog 6× (M017_002, M065_013)"
+4-07;tinker;Tüftler;Tinker;;6;7;;"Rasse (kleine Technik-Gennies); A beschreibt sie";;S073
+4-08;male / female;männlich / weiblich;Mann / Frau;;13;19;;;;"S075; Dialog 2× (M081_067, M097_114)"
+4-09;str / dex / con / cha / tch;ST / GE / KO / CH / TE;STÄ / GES / KON / CHA / TEC;;27;22;3;Grundsatz G7: deutsche AD&D-Kürzel;;S048
+4-10;hp;TP;;;2;2;;Trefferpunkte;;S053
+4-11;ac;RK;;;2;2;;Rüstungsklasse;;S054
+4-12;thac0;ETW0;THAC0;;5;4;;deutsche AD&D-2E: ETW0;;S055
+4-13;level;Stufe;;;5;5;;;;"S056; Dialog 26× (M000_071, M000_083)"
+4-14;move;Bew.;;;4;4;;;;"S057 S163; Dialog 5× (M016_007, M016_026)"
+4-15;damage;Schaden;;;6;7;;;;"S058; Dialog 6× (M000_101, M000_103)"
+4-16;exp;EP;;;3;2;;;;"S059; Dialog 1× (M000_011)"
+4-17;pilot rocket/juryrig;Raketen fliegen/Notreparatur;Pilot/Notreparatur;;20;28;;Karrierefertigkeit Raketenpilot;;S084
+4-18;treat wounds;Wunden versorgen;;;12;16;;Karrierefertigkeit Sanitäter;;S085
+4-19;tactics/leadership;Taktik/Führung;;;18;14;;Karrierefertigkeit Krieger;;S086
+4-20;bypass security;Sicherung umgehen;Schlösser knacken;;15;17;;Karrierefertigkeit Schurke;;"S087; Dialog 1× (M050_070)"
+4-21;zero gravity maneuvering;Schwerelosigkeit;Null-G-Manöver;;24;16;;;;S088
+4-22;perception;Wahrnehmung;;;10;11;;;;S089
+4-23;demolition;Sprengen;Sprengtechnik;;10;8;;;;"S090; Dialog 1× (M048_025)"
+4-24;stealth;Schleichen;;;7;10;;;;S091
+4-25;climbing;Klettern;;;8;8;;;;S092
+4-26;fast talk;Überreden;Schwatzen;;9;9;;;;"S093; Dialog 1× (M096_118)"
+4-27;first aid;Erste Hilfe;;;9;11;;;;S094
+4-28;repair rocket;Rakete reparieren;Raketenreparatur;;13;17;;;;S095
+4-29;library search;Recherche;Archivsuche;;14;9;;;;S096
+4-30;programming;Programmieren;;;11;13;;;;S097
+4-31;weapon specialization;Waffenspezialisierung;;;21;21;;;;S132

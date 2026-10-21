@@ -1,0 +1,33 @@
+﻿Nr;Original;A (Empfehlung);B;C;Zeichen EN;Zeichen A;max. Zeichen;Begründung;Entscheidung;Fundort
+2-01;NEO;NEO;;;3;3;;Fraktion, Kürzel bleibt;;Dialog 38× (M003_000, M003_004)
+2-02;New Earth Organization;New Earth Organization;Neue-Erde-Organisation;;22;22;;"Langform nur im Vorspann; A wie Lizenz international";;Dialog 1× (M003_001)
+2-03;RAM;RAM;;;3;3;;Fraktion, Kürzel bleibt;;Dialog 140× (M000_003, M003_000)
+2-04;Russo-American Mercantile;Russo-American Mercantile;Russisch-Amerikanische Handelsgesellschaft;;25;25;;"Langform; B erklärt, ist aber sehr lang";;Dialog 1× (M003_002)
+2-05;Desert Runner(s);Wüstenläufer;Desert Runner;;16;12;13;"Volk/Rasse; A verständlich und gleich lang wie S072";;"S072; Dialog 6× (M017_002, M065_013)"
+2-06;Lowlander(s);Tiefländer;Lowlander;;12;10;;Venus-Dorfbewohner;;Dialog 22× (M080_001, M080_024)
+2-07;Terrine;Terrine;;;7;7;;Gennie-Volk, Eigenname;;Dialog 3× (M003_003, M016_019)
+2-08;Mercurian;Merkurianer;;;9;11;;Bewohner Merkurs;;"S021; Dialog 8× (M017_054, M034_104)"
+2-09;Venusian;Venusianer;;;8;10;;Bewohner der Venus;;"S020; Dialog 10× (M017_027, M066_071)"
+2-10;Martian;Marsianer;;;7;9;;Bewohner des Mars;;"S019; Dialog 1× (M049_055)"
+2-11;Lunarian;Lunarier;;;8;8;;Bewohner des Mondes;;S022
+2-12;Earth;Erde;;;5;4;;;;Dialog 18× (M003_000, M003_001)
+2-13;Mercury;Merkur;;;7;6;;;;"S322; Dialog 6× (M003_008, M017_004)"
+2-14;Mars / Venus;Mars / Venus;;;12;12;;gleich;;Dialog 14× (M001_009, M003_002)
+2-15;Luna;Luna;Mond;;4;4;;„Chez Luna“ bleibt Name;;Dialog 3× (M034_095, M099_136)
+2-16;Ceres, Vesta, Fortuna, Pallas, Psyche, Juno, Aurora, Thule;unverändert;;;58;11;;Asteroiden;;Dialog 7× (M017_027, M017_028)
+2-17;Hygeia;Hygeia;Hygiea;;6;6;;A wie Original, B korrekte deutsche Schreibung;;"S334; Dialog 4× (M034_040, M034_043)"
+2-18;Mariposa(s);Mariposa(s);;;11;11;;Orbitalstädte bei Merkur;;Dialog 26× (M000_061, M017_032)
+2-19;Salvation III / Salvation Station;Salvation III / Station Salvation;Salvation III / Salvation-Station;;33;33;;NEO-Hauptquartier;;Dialog 17× (M016_002, M016_058)
+2-20;Chicagorg;Chicagorg;;;9;9;;Stadt auf der Erde, Eigenname;;Dialog 4× (M016_000, M016_045)
+2-21;Gradivus Mons;Gradivus Mons;;;13;13;;RAM-Basis auf dem Mars;;Dialog 9× (M017_027, M017_029)
+2-22;Pavonis;Pavonis;;;7;7;;Ort auf dem Mars (Raumhafen, Bibliothek);;Dialog 4× (M017_023, M034_015)
+2-23;Tycho;Tycho;;;5;5;;Mondkrater;;Dialog 3× (M034_013, M034_095)
+2-24;Chez Luna;Chez Luna;;;9;9;;Restaurant, Name bleibt;;Dialog 2× (M034_095, M099_159)
+2-25;Holst Plaza;Holst-Plaza;Holst-Platz;;11;11;;;;Dialog 2× (M096_044, M096_056)
+2-26;Marat's Bazaar;Marats Basar;;;14;12;;;;Dialog 1× (M096_023)
+2-27;Udu's Cafe;Udus Café;Udus Cafe;;10;9;;é nur, wenn die Kachel kommt;;Dialog 1× (M099_164)
+2-28;Johji's Magnetic Footwear;Johjis Magnetschuhe;;;25;19;;Laden;;Dialog 1× (M096_067)
+2-29;Spaceport / Starport;Raumhafen;;;20;9;;;;Dialog 6× (M016_000, M034_096)
+2-30;Asteroid Base;Asteroidenbasis;;;13;15;;;;Dialog 3× (M017_011, M017_028)
+2-31;Doomsday Device / Weapon / Laser;Doomsday-Laser (-Waffe);Weltuntergangslaser (-waffe);Jüngster-Tag-Laser;32;23;;Bezug zum englischen Spieltitel (Logo bleibt englisch);;Dialog 17× (M017_015, M017_021)
+2-32;Maelstrom Rider;Maelstrom Rider;;;15;15;15;Schiffsname, bleibt;;"S199 S236 S294; Dialog 1× (M017_008)"
