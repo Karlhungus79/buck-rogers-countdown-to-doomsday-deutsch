@@ -1,0 +1,6 @@
+Macro Assembler AS - flamewing-Fork
+Quelle:  https://github.com/flamewing/asl-releases
+Commit:  592c5fa57b874266bfb625aedaa5197fcd09cec1 (Tag snapshot-v1.4.2.20261014-run38518630251)
+Lizenz:  GNU GPL v2, siehe COPYING
+win64\asl.exe und win64\p2bin.exe: aus genau diesem Stand fuer Windows x64 kompiliert
+(Zig 0.17.0, Ziel x86_64-windows-gnu). Benoetigt nur die Windows-UCRT (ab Windows 10 vorhanden).

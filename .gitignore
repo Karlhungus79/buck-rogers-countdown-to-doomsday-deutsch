@@ -1,0 +1,26 @@
+# Original-ROM und alles, was daraus gezogen wird, gehoert NICHT ins Repo
+01_Original_ROM/*
+!01_Original_ROM/LIESMICH.txt
+02_Extracted/data/
+07_Output_ROM/*
+!07_Output_ROM/.gitkeep
+08_Savestates/*
+!08_Savestates/.gitkeep
+03_Tools/bak/
+
+# ROM-Formate (ACHTUNG: .md ist hier auch die ROM-Endung, daher ueber Ordner geregelt)
+*.bin
+*.gen
+*.smd
+*.zip
+
+# Assembler-Zwischendateien
+*.p
+*.lst
+*.log
+*.h
+__pycache__/
+*.pyc
+
+# Platzhalter fuer leere Ordner auf H:
+.platzhalter.txt

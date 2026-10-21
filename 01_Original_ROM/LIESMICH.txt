@@ -1,0 +1,9 @@
+Hierher gehoert die eigene Original-ROM (nicht im Repo):
+
+  Buck Rogers - Countdown to Doomsday (USA, Europe).md
+  Groesse 1.048.576 Byte
+  CRC32   44E3BFFF
+  MD5     f768fbba021636fff3682b9ae116076a
+  SHA-1   89c39f00745f2a8798fe985ad8ce28411b977f9e
+
+Diese Datei wird nie veraendert.
