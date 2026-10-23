@@ -1,7 +1,7 @@
 # Glossar – Grundsätze und Stand
 
 Stand: 23.10.2026 – **Glossar abgenommen (21.10.2026): Grundsätze G1–G9 und alle 186 Listeneinträge = A.**
-Ausnahme: G1 (und damit G2) wieder offen seit 23.10.2026, siehe `Zeichensatz.md`.
+Ausnahme: G1 und G2 neu entschieden am 23.10.2026 (Marcel: „G1 = B“): Großbuchstaben, ß → SS, siehe `Zeichensatz.md`.
 
 Listen (Excel, Semikolon, UTF-8) in `05_German_Script\Glossar\`:
 
@@ -63,8 +63,8 @@ Hinweise:
 
 | Nr | Entscheidung | Status |
 |---|---|---|
-| G1 | Dialoge in normaler Groß-/Kleinschreibung | **wieder offen (23.10.2026):** Die Schrift hat keine Kleinbuchstaben, die Begründung „im Font vorhanden“ war falsch. Neue Vorlage A/B in `Zeichensatz.md` |
-| G2 | ß als eigenes Zeichen (neue Kachel) | entschieden |
+| G1 | **B (neu entschieden 23.10.2026, Marcel „G1 = B“):** Anzeige in GROSSBUCHSTABEN wie im Original. Texte werden trotzdem in normaler Groß-/Kleinschreibung geschrieben (Spiel zeigt sie groß). Vorherige Entscheidung A (21.10.) beruhte auf einer falschen Annahme (Schrift hat keine Kleinbuchstaben) | entschieden |
+| G2 | **ß → „SS“** (folgt aus G1 = B, 23.10.2026); in den Textdateien bleibt ß stehen, das Einsetz-Skript wandelt um | entschieden |
 | G3 | NEO, Verbündete und Erzähltext sprechen das Team mit „ihr“ an („Ihr seht …“) | entschieden |
 | G4 | Fremde, Behörden, Händler, RAM: „Sie“ | entschieden |
 | G5 | Gruppe heißt „Team“ | entschieden |
@@ -74,9 +74,10 @@ Hinweise:
 | G9 | Sprachfärbungen bleiben (Terrine zischen, Sonnenkönig spricht Französisch) | entschieden |
 
 Folgen:
-- Zeichensatz braucht ä ö ü ß Ä Ö Ü (7 neue Kacheln) → Phase 1, `Zeichensatz.md`.
-- G1 heißt: Alle 2407 Dialogtexte werden in Groß-/Kleinschreibung gesetzt; die englische
-  Vorlage bleibt in Großbuchstaben (nur Referenz).
+- Zeichensatz braucht Ä Ö Ü (3 neue Kacheln, gebaut 23.10.2026); ä ö ü werden groß angezeigt, ß als SS (G1/G2 = B seit 23.10.2026).
+- Alle 2407 Dialogtexte werden in normaler Groß-/Kleinschreibung geschrieben (spätere Umstellung
+  auf Kleinbuchstaben ohne Textänderung möglich); angezeigt wird groß. Die englische Vorlage bleibt
+  in Großbuchstaben (nur Referenz).
 - 49 Listeneinträge folgen direkt aus G5–G8 und sind in der Spalte „Entscheidung“
   eingetragen: Eigennamen ohne Alternative (Liste 1 und 2, Schiffsnamen 5-32) = „A (G6)“,
   3-01 Team = „A (G5)“, 4-09 bis 4-16 Kürzel = „A (G7)“, 3-41 km = „A (G8)“.

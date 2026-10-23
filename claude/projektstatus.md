@@ -56,19 +56,19 @@ Phase 1 – Technisches Gerüst. Läuft (Fahrplan: `Fahrplan.md`). Phase 0 abges
     Im Testemulator (Genesis Plus GX) gesehen: Start, Spielstand laden, Intro deutsch mit Ä Ö Ü.
     **Test in Ares offen.**
   - Testumgebung für Claude: `Testumgebung.md`.
+  - **G1/G2 neu entschieden (23.10.2026, Marcel „G1 = B“):** Großbuchstaben wie Original, ß → SS.
+    Entspricht dem gebauten Stand, kein Neubau nötig.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
 ## Offen / nächste Schritte
 
-1. Marcel: **Entscheidung G1 neu** – A Kleinbuchstaben nachrüsten / B Großbuchstaben wie Original
-   (Empfehlung B), Vorlage `Zeichensatz.md`, Bilder `claude\Vorschau\`
-2. Marcel: in Ares Saves-Pfad auf `08_Savestates` stellen, Testdatei
+1. Marcel: in Ares Saves-Pfad auf `08_Savestates` stellen, Testdatei
    `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md` starten, Spielstand 1 laden,
    „Begin Adventure“ → Intro deutsch? (Screenshot) = **Tor Phase 1**
-3. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
-4. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-5. Danach Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
+2. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
+3. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
+4. Danach Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
    Monsternamen/Figuren/Abspann analysieren
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)

@@ -57,8 +57,8 @@ Community-Arbeit existiert.
 
 ## Übersetzungsgrundsätze (entschieden 21.10.2026, Details `Glossar.md`)
 
-- Dialoge in Groß-/Kleinschreibung, ß als eigenes Zeichen – **G1 neu offen (23.10.2026):** Schrift
-  hat keine Kleinbuchstaben (`Zeichensatz.md`). Texte werden trotzdem normal geschrieben.
+- Anzeige in GROSSBUCHSTABEN wie im Original, ß → SS (G1/G2 = B, neu entschieden 23.10.2026; die
+  Schrift hat keine Kleinbuchstaben, `Zeichensatz.md`). Texte werden trotzdem normal geschrieben.
 - Anrede: NEO/Verbündete/Erzähltext „ihr“, Fremde/Behörden/Händler/RAM „Sie“
 - Gruppe = „Team“; Eigennamen, Schiffe, Fraktionen, KIs (.DOS) unverändert
 - Werte: ST GE KO CH TE, TP, RK, ETW0, Stufe, EP; Planetendaten in km

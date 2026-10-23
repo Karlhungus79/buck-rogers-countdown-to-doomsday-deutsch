@@ -24,7 +24,7 @@ Stand: 23.10.2026
 | a–z | ASCII `$61–$7A` | als Großbuchstabe |
 | Ä Ö Ü | `$5B $5C $5D` (Plätze von `[ £ ]`, nirgends benutzt) | neue Glyphen, Punkte in Zeile 0 |
 | ä ö ü | `$7B $7C $7D` | Spiel faltet auf `$5B–$5D` → Ä Ö Ü |
-| ß | „SS“ (solange keine Kleinbuchstaben) bzw. `$7F` | SS |
+| ß | „SS“ (G2 = B); `$7F` nur falls später Kleinbuchstaben kommen | SS |
 | Zeilenumbruch, Menütrenner | `$0D`, `~` | wie Original |
 | „ “ ’ … – | werden zu ' ' ... - | |
 
@@ -35,7 +35,13 @@ an den Texten.
 Ä Ö Ü: im Spiel bestätigt (Emulator, 23.10.2026, Intro „BEKÄMPFEN“, „VERWÜSTET“, „KÖNNEN“).
 Test in Ares offen.
 
-## Entscheidung G1 neu: Kleinbuchstaben ja oder nein? (offen, Vorlage 23.10.2026)
+## Entscheidung G1 neu: Kleinbuchstaben ja oder nein?
+
+**Entschieden 23.10.2026 (Marcel: „G1 = B“): B – Großbuchstaben wie im Original, ß → „SS“.**
+Anzeige groß, Texte werden normal geschrieben; A bleibt als mögliches Extra (Phase 3+).
+`zeichensatz.py`: `KLEINBUCHSTABEN = False` (so gebaut seit 23.10.2026, kein Neubau nötig).
+
+Vorlage vom 23.10.2026:
 
 Vorschaubilder (Entwurf, echte Fenstergrafik, Schrift aus der ROM):
 `claude\Vorschau\G1_A_Kleinbuchstaben.png`, `claude\Vorschau\G1_B_Grossbuchstaben.png`
