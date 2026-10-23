@@ -1,0 +1,494 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 16
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M016_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU JOINED NEO TO FIGHT THE RAM MENACE. YOU ARE BEING BRIEFED IN THE CHICAGORG SPACEPORT."
+de = "Ihr seid der NEO beigetreten, um die Bedrohung durch RAM zu bekämpfen. Im Raumhafen Chicagorg werdet ihr eingewiesen."
+
+[[text]]
+id = "M016_001"
+befehl = ["PRINTCLEAR"]
+en = "'EARTH HAS BEEN DEVASTATED DURING THE 25TH CENTURY. BUT NOW, THANKS TO YOU AND THOUSANDS LIKE YOU, WE CAN BEGIN TO REBUILD THIS PLANET.'"
+de = "'Die Erde wurde im 25. Jahrhundert verwüstet. Doch dank euch und Tausenden wie euch können wir diesen Planeten nun wieder aufbauen.'"
+
+[[text]]
+id = "M016_002"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE ASSIGNED TO SALVATION STATION FOR SALVAGE DUTY AND MARCHED TOWARDS A WAITING SHUTTLE."
+de = "Ihr werdet zum Bergungsdienst auf Station Salvation eingeteilt und marschiert zu einem Shuttle, das draußen wartet."
+
+[[text]]
+id = "M016_003"
+befehl = ["PRINTCLEAR"]
+en = "FIGHTERS SCREAM IN LOW FROM THE NORTH. CONTROL TOWERS COLLAPSE IN BALLS OF CRIMSON FLAME! YOUR OFFICERS ARE DOWN AND THE OTHER RECRUITS ARE FLEEING. YOU HAVE BEEN THRUST HEADFIRST INTO A RAGING BATTLE!"
+de = "Jäger donnern im Tiefflug von Norden heran. Kontrolltürme stürzen in karmesinroten Feuerbällen zusammen! Eure Offiziere liegen am Boden, die anderen Rekruten fliehen. Ihr seid kopfüber in eine tobende Schlacht geraten!"
+
+[[text]]
+id = "M016_004"
+befehl = ["PRINTCLEAR"]
+en = "THE SECURITY DOORS ARE SEALED."
+de = ""
+
+[[text]]
+id = "M016_005"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR HAS BEEN FUSED SHUT BY THE BATTLE."
+de = ""
+
+[[text]]
+id = "M016_006"
+befehl = ["PRINTCLEAR"]
+en = "ENEMY TRANSPORTS HAVE ARRIVED. TERRINES JUMP OUT AND ENGAGE THE DISORGANIZED NEO TROOPS."
+de = ""
+
+[[text]]
+id = "M016_007"
+befehl = ["PRINTCLEAR"]
+en = "TERRINES MOVE IN FOR THE KILL."
+de = ""
+
+[[text]]
+id = "M016_008"
+befehl = ["PRINT"]
+en = " NEO FORCES COME TO YOUR AID."
+de = ""
+
+[[text]]
+id = "M016_009"
+befehl = ["PRINTCLEAR"]
+en = "THE WHINE OF LASERS AND BOOM OF GRENADES ECHOES THROUGH THE BUILDING."
+de = ""
+
+[[text]]
+id = "M016_010"
+befehl = ["PRINTCLEAR"]
+en = "YOUR TEETH RATTLE AS A FIGHTER SCREAMS OVERHEAD."
+de = ""
+
+[[text]]
+id = "M016_011"
+befehl = ["PRINTCLEAR"]
+en = "FROM SOMEWHERE COMES A SNIPER'S BEAM."
+de = ""
+
+[[text]]
+id = "M016_012"
+befehl = ["PRINTCLEAR"]
+en = "RAM HAS AIR SUPERIORITY. NEO'S ANTI-SHIP DEFENSES ARE SILENT AND THEIR FIGHTERS DESTROYED."
+de = ""
+
+[[text]]
+id = "M016_013"
+befehl = ["PRINTCLEAR"]
+en = "IT IS DANGEROUS TO BE OUTSIDE. THE SHIPS ARE NOW STRAFING THE INFANTRY."
+de = ""
+
+[[text]]
+id = "M016_014"
+befehl = ["PRINTCLEAR"]
+en = "A FIGHTER SCREAMS PAST AND SPRAYS YOUR TEAM WITH LASER FIRE."
+de = ""
+
+[[text]]
+id = "M016_015"
+befehl = ["PRINTCLEAR"]
+en = "THE HEAT FROM THE EXPLOSIONS DRIVES YOU BACK. YOU ARE VERY EXPOSED OUT HERE ON THE TARMAC."
+de = ""
+
+[[text]]
+id = "M016_016"
+befehl = ["PRINTCLEAR"]
+en = "MEN'S ROOM"
+de = ""
+
+[[text]]
+id = "M016_017"
+befehl = ["PRINTCLEAR"]
+en = "WOMEN'S ROOM"
+de = ""
+
+[[text]]
+id = "M016_018"
+befehl = ["PRINTCLEAR"]
+en = "SOMEONE TOSSED A GRENADE INTO THE ROOM. THE STALLS ARE SHATTERED AND WATER COATS THE FLOOR."
+de = ""
+
+[[text]]
+id = "M016_019"
+befehl = ["PRINTCLEAR"]
+en = "YOU OPEN THE DOOR INTO THE MUZZLE OF A TERRINE'S PISTOL. HE SMILES AND SQUEEZES THE TRIGGER."
+de = ""
+
+[[text]]
+id = "M016_020"
+befehl = ["PRINTCLEAR"]
+en = "EXPLOSIONS HAVE SHATTERED THE ROOF AND THE DEBRIS BURIED SEVERAL BODIES."
+de = ""
+
+[[text]]
+id = "M016_021"
+befehl = ["PRINTCLEAR"]
+en = "A NEO OFFICER LIES AMONG SOME WRECKAGE. 'I'M HOLDING ON HERE, BUT MY LEG IS SHATTERED.'"
+de = ""
+
+[[text]]
+id = "M016_022"
+befehl = ["PRINTCLEAR"]
+en = "'SABOTEURS CUT THE AUTOMATIC DEFENSES. EAST OF HERE IS THE MANUAL OVERRIDE SYSTEM. GET OVER THERE AND ACTIVATE THE MISSILES.'"
+de = ""
+
+[[text]]
+id = "M016_023"
+befehl = ["PRINTCLEAR"]
+en = "THE OFFICER IS UNCONSCIOUS. A QUICK CHECK SHOWS THAT HE IS IN STABLE CONDITION."
+de = ""
+
+[[text]]
+id = "M016_024"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE AMBUSHED BY TERRINES!"
+de = ""
+
+[[text]]
+id = "M016_025"
+befehl = ["PRINTCLEAR"]
+en = "LECTURE HALL"
+de = ""
+
+[[text]]
+id = "M016_026"
+befehl = ["PRINTCLEAR"]
+en = "AN ORDERLY IS CHECKING ON A YOUNG MAN LYING IN A FETAL POSITION. 'SOME OF THESE KIDS CAN'T TAKE REAL WAR. I'LL HOLD ON HERE, YOU MOVE OUT.'"
+de = ""
+
+[[text]]
+id = "M016_027"
+befehl = ["PRINTCLEAR"]
+en = "TWO RECRUITS WERE SHOT IN THE BACK AS THEY TRIED TO ENTER THE BUILDING."
+de = ""
+
+[[text]]
+id = "M016_028"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU APPROACH, TERRINES ATTACK FROM THE DOORWAY."
+de = ""
+
+[[text]]
+id = "M016_029"
+befehl = ["PRINTCLEAR"]
+en = "THE BATTLE HAS FUSED THE DOOR SHUT. YOU MUST ENTER THROUGH ANOTHER DOOR."
+de = ""
+
+[[text]]
+id = "M016_030"
+befehl = ["PRINTCLEAR"]
+en = "AUTHORIZED PERSONNEL ONLY"
+de = ""
+
+[[text]]
+id = "M016_031"
+befehl = ["PRINTCLEAR"]
+en = "YOU BURST IN AMONGST A SQUAD OF TERRINES. IN THE BACKGROUND YOU CAN SEE A RAM TECHNICIAN WORKING ON A MISSILE CONTROL PANEL."
+de = ""
+
+[[text]]
+id = "M016_032"
+befehl = ["PRINTCLEAR"]
+en = "WITH ONE HAND, THE TECHNICIAN BEGINS FIRING AT YOU. HE IS STILL MODIFYING THE CONTROLS WITH THE OTHER."
+de = ""
+
+[[text]]
+id = "M016_033"
+befehl = ["PRINTCLEAR"]
+en = "IF YOU SHOOT AT HIM YOU MAY DAMAGE THE CONTROLS WHICH OPERATE THE BASE'S MISSILES."
+de = ""
+
+[[text]]
+id = "M016_034"
+befehl = ["HMENU"]
+menue = true
+en = "SHOOT"
+de = ""
+
+[[text]]
+id = "M016_035"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE"
+de = ""
+
+[[text]]
+id = "M016_036"
+befehl = ["HMENU"]
+menue = true
+en = "TAKE COVER"
+de = ""
+
+[[text]]
+id = "M016_037"
+befehl = ["WHO"]
+en = "WHO SHOOTS?"
+de = ""
+
+[[text]]
+id = "M016_038"
+befehl = ["PRINT"]
+en = "'S SHOT IS TRUE."
+de = ""
+
+[[text]]
+id = "M016_039"
+befehl = ["PRINTCLEAR"]
+en = "THAT ONE CAN'T ACT."
+de = ""
+
+[[text]]
+id = "M016_040"
+befehl = ["PRINTCLEAR"]
+en = "THE SHOT GOES AWRY AND STRIKES THE PANEL. SPARKS FLY AND SMOKE RISES. ANOTHER SHOT WILL DESTROY IT COMPLETELY."
+de = ""
+
+[[text]]
+id = "M016_041"
+befehl = ["HMENU"]
+menue = true
+en = "SHOOT"
+de = ""
+
+[[text]]
+id = "M016_042"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE"
+de = ""
+
+[[text]]
+id = "M016_043"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M016_044"
+befehl = ["PRINTCLEAR"]
+en = "THE PANEL ERUPTS IN FLAME! THERE IS NOW NO WAY TO LAUNCH THE ANTI-SHIP MISSILES."
+de = ""
+
+[[text]]
+id = "M016_045"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU FLEE THE TECHNICIAN WHOOPS FOR JOY. FROM SOMEWHERE IS A SHOUT, 'THE MISSILES ARE FALLING ON CHICAGORG! THE CITY IS AFLAME!'"
+de = ""
+
+[[text]]
+id = "M016_046"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR THE RUMBLE OF A LARGE SHIP PASSING OVERHEAD, FOLLOWED BY THE WHISTLE OF FALLING BOMBS."
+de = ""
+
+[[text]]
+id = "M016_047"
+befehl = ["PRINTCLEAR"]
+en = "THE WORLD EXPLODES AROUND YOU!"
+de = ""
+
+[[text]]
+id = "M016_048"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M016_049"
+befehl = ["PRINT"]
+en = " THE TECHNICIAN COLLAPSES. HIS BLOOD FLECKED LIPS CURL IN A SMILE."
+de = ""
+
+[[text]]
+id = "M016_050"
+befehl = ["PRINTCLEAR"]
+en = "HE HISSES, 'IF THE MISSILES WON'T FIRE ON CHICAGORG, THEY WON'T FIRE AT ALL!'"
+de = ""
+
+[[text]]
+id = "M016_051"
+befehl = ["PRINTCLEAR"]
+en = "HE GRABS A GRENADE AND PULLS THE PIN. YOU CAN EITHER DIVE ON IT OR RUN FOR COVER. WILL ANYONE MAKE THE SACRIFICE?"
+de = ""
+
+[[text]]
+id = "M016_052"
+befehl = ["HMENU"]
+menue = true
+en = "DIVE ON GRENADE"
+de = ""
+
+[[text]]
+id = "M016_053"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M016_054"
+befehl = ["WHO"]
+en = "WHO FALLS ON GRENADE?"
+de = ""
+
+[[text]]
+id = "M016_055"
+befehl = ["PRINT"]
+en = " MUFFLED THE EXPLOSION. YOU SET THE MISSILES TO ANTI-SHIP MODE. SOON YOU HEAR THE CRUNCH OF ENEMY SPACESHIPS CRASHING."
+de = ""
+
+[[text]]
+id = "M016_056"
+befehl = ["PRINTCLEAR"]
+en = "ROBBED OF AIR SUPERIORITY, THE RAM ATTACK IS QUICKLY BEATEN BACK. YOU ARE CONGRATULATED AND YOUR WOUNDS ATTENDED TO."
+de = ""
+
+[[text]]
+id = "M016_057"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE GIVEN A SMALL REWARD."
+de = ""
+
+[[text]]
+id = "M016_058"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE PARADED TO A NEWLY ARRIVED SHUTTLE AND FERRIED TO SALVATION III."
+de = ""
+
+[[text]]
+id = "M016_059"
+befehl = ["PRINTCLEAR"]
+en = "THE TECHNICIAN FIRES WILDLY AS YOU RUSH HIM."
+de = ""
+
+[[text]]
+id = "M016_060"
+befehl = ["PRINTCLEAR"]
+en = "YOU STRIKE THE TECHNICIAN DOWN."
+de = ""
+
+[[text]]
+id = "M016_061"
+befehl = ["PRINTCLEAR"]
+en = "YOU DUCK BEHIND THE DOOR FRAME AND ARE PROTECTED FROM THE TECHNICIAN'S FIRE. "
+de = ""
+
+[[text]]
+id = "M016_062"
+befehl = ["HMENU"]
+menue = true
+en = "SHOOT"
+de = ""
+
+[[text]]
+id = "M016_063"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE"
+de = ""
+
+[[text]]
+id = "M016_064"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M016_065"
+befehl = ["PRINTCLEAR"]
+en = "MEDICAL OFFICER"
+de = ""
+
+[[text]]
+id = "M016_066"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM IS FULL OF WOUNDED TROOPS. AN ORDERLY SHOUTS, 'WE'RE FULL IN HERE. YOU'RE MORE USE OUT THERE!' SHE PUSHES YOU OUT THE DOOR.'"
+de = ""
+
+[[text]]
+id = "M016_067"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR AN EXPLOSION."
+de = ""
+
+[[text]]
+id = "M016_068"
+befehl = ["PRINTCLEAR"]
+en = "THE BLACKENED ROOM HOLDS NO SURVIVORS. OBVIOUSLY A TERRINE BOOBY-TRAPPED ONE OF THE WOUNDED."
+de = ""
+
+[[text]]
+id = "M016_069"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND SOME GRENADES THAT DID NOT DETONATE."
+de = ""
+
+[[text]]
+id = "M016_070"
+befehl = ["PRINTCLEAR"]
+en = "WAITING ROOM"
+de = ""
+
+[[text]]
+id = "M016_071"
+befehl = ["PRINTCLEAR"]
+en = "ONLY THE DEAD ADORN THIS ROOM."
+de = ""
+
+[[text]]
+id = "M016_072"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE MONITORS FOR THE FUELING TANKS. THEY ARE ALL RED-LINED -- THE FUEL STORES HAVE BEEN STRUCK IN THE ATTACK."
+de = ""
+
+[[text]]
+id = "M016_073"
+befehl = ["PRINTCLEAR"]
+en = "WORKERS TRIED TO USE THIS GARAGE FOR COVER. TERRINES OBVIOUSLY SPOTTED THEM. THE WALLS ARE STAINED CRIMSON."
+de = ""
+
+[[text]]
+id = "M016_074"
+befehl = ["PRINTCLEAR"]
+en = "THIS BUILDING HOUSED FIREFIGHTING EQUIPMENT. THE TERRINES HAVE GUTTED THE STRUCTURE AND DESTROYED THE ROBOTS."
+de = ""
+
+[[text]]
+id = "M016_075"
+befehl = ["PRINTCLEAR"]
+en = "TO THE SOUTH IS THE OFFICER'S LOUNGE. "
+de = ""
+
+[[text]]
+id = "M016_076"
+befehl = ["PRINT"]
+en = "TO THE WEST IS THE CANTEEN."
+de = ""
+
+[[text]]
+id = "M016_077"
+befehl = ["PRINTCLEAR"]
+en = "AN OFFICER COLLAPSED HERE, WOUNDED BY SHRAPNEL. HE COUGHS WEAKLY AND MOTIONS YOU CLOSE. "
+de = ""
+
+[[text]]
+id = "M016_078"
+befehl = ["PRINTCLEAR"]
+en = "HE WHISPERS, 'MISSILE CONTROLS.. ENEMY MUST HAVE CUT AUTOMATICS.. ACTIVATE THE DEFENSE.. ARGGHH!!!'"
+de = ""
+
+[[text]]
+id = "M016_079"
+befehl = ["PRINTCLEAR"]
+en = "HE CONVULSES ONCE AND LIES STILL."
+de = ""

@@ -64,3 +64,14 @@ Stand: 21.10.2026
   Für Texte, die länger werden, ist das der nächste Ausbauschritt.
 - Labels benennen (Dekomprimierung, Textausgabe, ECL-Interpreter zuerst).
 - Code-Abdeckung prüfen: Funktionen, die nur über Zeiger in RAM erreicht werden.
+
+## Nachtrag 23.10.2026: Hooks der deutschen Fassung
+
+`buckrogers.asm` enthält jetzt vier mit `DEUTSCH-HOOK` markierte `if DEUTSCH … else … endif`-Blöcke
+(Textablage, Schrift, Erweiterung `src\deutsch.asm`). Ohne `-D DEUTSCH=1` entsteht weiterhin die
+Original-ROM bit-genau (`6_bitgenau_pruefen.bat`, geprüft 23.10.2026). `gen_asm.py` bricht ab,
+statt die Datei mit den Hooks zu überschreiben (`--erzwingen` nur mit Sicherung). Details: `Textablage.md`.
+
+Neu gefunden: `sub_FFFB0` (Selbstprüfung beim Start, Summe `$0–$FFFAF` = `$10D1310C`),
+`sub_A71E` (Schrift 1 bpp → VRAM), `sub_11CA4` (Textausgabe aller Fenster, Großbuchstaben-Faltung),
+SRAM-Test bei `$1240` (`$12`/`$34` nach `$200005/7`), Spielstände ab `$200011` (je `$AA8` Byte gepackt).

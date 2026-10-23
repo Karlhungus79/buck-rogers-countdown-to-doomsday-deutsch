@@ -1,0 +1,411 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 83
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M083_000"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS SPEAKS AS YOU ENTER THE CAVE OF TWISTED GIRDERS AND CABLES. "
+de = ""
+
+[[text]]
+id = "M083_001"
+befehl = ["PRINTCLEAR"]
+en = "'YOU'RE IN THE RUINS OF THE VENUSIAN SPACE ELEVATOR. WATCH OUT, IT'S A PERFECT PLACE FOR RAM TO HIDE MACHINERY OR WEAPONS.'"
+de = ""
+
+[[text]]
+id = "M083_002"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS ADDS, 'I THINK IT MIGHT BE WISE TO CHECK OUT THE VILLAGE TO THE NORTHEAST FIRST.'"
+de = ""
+
+[[text]]
+id = "M083_003"
+befehl = ["PRINTCLEAR"]
+en = "THE TUNNEL ENDS IN A SMALL RAM OUTPOST."
+de = ""
+
+[[text]]
+id = "M083_004"
+befehl = ["PRINT"]
+en = " THE OUTPOST IS DARK, AND ANIMALS' CALLS ECHO DOWN THE CORRIDOR."
+de = ""
+
+[[text]]
+id = "M083_005"
+befehl = ["PRINTCLEAR"]
+en = "FROM HERE YOU CAN CLIMB UP TO THE JUNGLE. LEAVE THE RUINS?"
+de = ""
+
+[[text]]
+id = "M083_006"
+befehl = ["PRINTCLEAR"]
+en = "A LADDER LEADS TO A DEVELOPED AREA UNDERGROUND. GO DOWN?"
+de = ""
+
+[[text]]
+id = "M083_007"
+befehl = ["PRINTCLEAR"]
+en = "A LADDER LEADS UP INTO DARK RUINS. CLIMB UP?"
+de = ""
+
+[[text]]
+id = "M083_008"
+befehl = ["PRINTCLEAR"]
+en = "YOU DISCOVER THE ENTRANCE TO AN UNDERGROUND TUNNEL. WILL YOU ENTER?"
+de = ""
+
+[[text]]
+id = "M083_009"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS NO WAY TO GET PAST THIS SECURITY DOOR WITHOUT A SECURITY CARD."
+de = ""
+
+[[text]]
+id = "M083_010"
+befehl = ["PRINTCLEAR"]
+en = "YOU OPEN THE DOOR WITH YOUR SECURITY CARD."
+de = ""
+
+[[text]]
+id = "M083_011"
+befehl = ["PRINTCLEAR"]
+en = "THE SECURITY DOOR IS UNLOCKED."
+de = ""
+
+[[text]]
+id = "M083_012"
+befehl = ["PRINTCLEAR"]
+en = "YOU FACE AN ENORMOUS SECURITY DOOR. IT'S IMPOSSIBLE TO OPEN IT FROM THIS SIDE."
+de = ""
+
+[[text]]
+id = "M083_013"
+befehl = ["PRINTCLEAR"]
+en = "SWAMP SLUGS SQUISH UNDERFOOT."
+de = ""
+
+[[text]]
+id = "M083_014"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR ACID FROGS CROAKING IN THE DISTANCE."
+de = ""
+
+[[text]]
+id = "M083_015"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE ANKLE DEEP IN SWAMP SLIME."
+de = ""
+
+[[text]]
+id = "M083_016"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS DRIP WITH ACID."
+de = ""
+
+[[text]]
+id = "M083_017"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS TREMBLE AS THE RUINS CREAK OVERHEAD."
+de = ""
+
+[[text]]
+id = "M083_018"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMELL CIGARETTE SMOKE."
+de = ""
+
+[[text]]
+id = "M083_019"
+befehl = ["PRINTCLEAR"]
+en = "COMPUTERS HUM IN THE DISTANCE."
+de = ""
+
+[[text]]
+id = "M083_020"
+befehl = ["PRINTCLEAR"]
+en = "YOU FEEL VERY UNEASY HERE."
+de = ""
+
+[[text]]
+id = "M083_021"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR FOOTSTEPS APPROACHING FROM BEHIND."
+de = ""
+
+[[text]]
+id = "M083_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR HUSHED WHISPERS CLOSE BY."
+de = ""
+
+[[text]]
+id = "M083_023"
+befehl = ["PRINTCLEAR"]
+en = "RAM FORCES DESCEND ON YOU!"
+de = ""
+
+[[text]]
+id = "M083_024"
+befehl = ["PRINTCLEAR"]
+en = "GENNIES ENTERED THE OUTPOST THROUGH THE BROKEN DOME. THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M083_025"
+befehl = ["PRINTCLEAR"]
+en = "MUTATED GENNIES SWARM UP A LADDER! WITH HISSES AND HOWLS OF GLEE, THEY ATTACK."
+de = ""
+
+[[text]]
+id = "M083_026"
+befehl = ["PRINTCLEAR"]
+en = "THE LADDER LEADS TO A SMALL DEN HIDDEN IN THE RUINS. INVESTIGATE?"
+de = ""
+
+[[text]]
+id = "M083_027"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND STAINED BONES AND SHEDDED SNAKESKINS."
+de = ""
+
+[[text]]
+id = "M083_028"
+befehl = ["PRINTCLEAR"]
+en = "THIS COMPUTER ROOM IS OCCUPIED BY A LONE RAM TECHNICIAN. HE PROMISES NOT TO REVEAL YOUR PRESENCE IF YOU LET HIM GO."
+de = ""
+
+[[text]]
+id = "M083_029"
+befehl = ["HMENU"]
+menue = true
+en = "LET HIM GO"
+de = ""
+
+[[text]]
+id = "M083_030"
+befehl = ["HMENU"]
+menue = true
+en = "INTERROGATE HIM"
+de = ""
+
+[[text]]
+id = "M083_031"
+befehl = ["HMENU"]
+menue = true
+en = "KILL HIM"
+de = ""
+
+[[text]]
+id = "M083_032"
+befehl = ["PRINTCLEAR"]
+en = "VENUSIAN SLUGS LEAVE TRAILS OF ACID OVER THE ABANDONED COMPUTER TERMINALS."
+de = ""
+
+[[text]]
+id = "M083_033"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A SECURITY CARD LYING ON THE FLOOR."
+de = ""
+
+[[text]]
+id = "M083_034"
+befehl = ["PRINTCLEAR"]
+en = "THE COMPUTER ROOM IS ABANDONED. THE MONITORS FLICKER."
+de = ""
+
+[[text]]
+id = "M083_035"
+befehl = ["PRINTCLEAR"]
+en = "THE TECHNICIAN RUSHES PAST YOU INTO THE HALLWAY. MOMENTS LATER AN ALARM SOUNDS AND YOU ARE ATTACKED BY RAM WARRIORS."
+de = ""
+
+[[text]]
+id = "M083_036"
+befehl = ["PRINTCLEAR"]
+en = "'THE COMPUTERS HAVE ALL THE INFORMATION YOU WANT,' HE SAYS. 'TAKE THIS SECURITY CARD, BUT PLEASE DON'T KILL ME!'"
+de = ""
+
+[[text]]
+id = "M083_037"
+befehl = ["PRINTCLEAR"]
+en = "HE GIVES YOU A SECURITY CARD. "
+de = ""
+
+[[text]]
+id = "M083_038"
+befehl = ["PRINTCLEAR"]
+en = "YOU STILL HAVE TO DECIDE WHAT TO DO WITH THE TECHNICIAN."
+de = ""
+
+[[text]]
+id = "M083_039"
+befehl = ["HMENU"]
+menue = true
+en = "LET HIM GO"
+de = ""
+
+[[text]]
+id = "M083_040"
+befehl = ["HMENU"]
+menue = true
+en = "TIE HIM UP"
+de = ""
+
+[[text]]
+id = "M083_041"
+befehl = ["HMENU"]
+menue = true
+en = "KILL HIM"
+de = ""
+
+[[text]]
+id = "M083_042"
+befehl = ["PRINTCLEAR"]
+en = "YOU BIND AND GAG THE TECHNICIAN AND LOCK HIM IN A NEARBY SUPPLY CLOSET."
+de = ""
+
+[[text]]
+id = "M083_043"
+befehl = ["PRINTCLEAR"]
+en = "YOU KNOW BETTER THAN TO TRUST A RAM EMPLOYEE. YOU KILL HIM IMMEDIATELY."
+de = ""
+
+[[text]]
+id = "M083_044"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS SEARCHES THE DATABASES. 'RAM INTENDS TO USE THE GLIDERS HIDDEN HERE TO ELIMINATE THE ENTIRE LOWLANDER POPULATION.'"
+de = ""
+
+[[text]]
+id = "M083_045"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A SECURITY CARD IN A DRAWER."
+de = ""
+
+[[text]]
+id = "M083_046"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A DETONATOR KEYCARD, BUT YOU NEED THE CORRESPONDING CONTROL BOX TO USE IT."
+de = ""
+
+[[text]]
+id = "M083_047"
+befehl = ["PRINTCLEAR"]
+en = "YOU PICK UP A PORTABLE CONTROL BOX. ITS FUNCTION IS TO CAUSE THE GLIDERS TO SELF-DESTRUCT IN THE EVENT OF CAPTURE."
+de = ""
+
+[[text]]
+id = "M083_048"
+befehl = ["PRINTCLEAR"]
+en = "IF YOU HAD A DETONATOR KEYCARD, YOU COULD DESTROY THE GLIDERS."
+de = ""
+
+[[text]]
+id = "M083_049"
+befehl = ["PRINTCLEAR"]
+en = "HERE'S A DETONATOR KEYCARD!"
+de = ""
+
+[[text]]
+id = "M083_050"
+befehl = ["PRINTCLEAR"]
+en = "HERE'S A CONTROL BOX!"
+de = ""
+
+[[text]]
+id = "M083_051"
+befehl = ["PRINTCLEAR"]
+en = "YOU ALSO FIND SOME EXPLOSIVE GRENADES."
+de = ""
+
+[[text]]
+id = "M083_052"
+befehl = ["PRINTCLEAR"]
+en = "YOU MAY NOW ACTIVATE THE BOX AND PROGRAM THE GLIDERS TO SELF-DESTRUCT. DESTROY THE GLIDERS?"
+de = ""
+
+[[text]]
+id = "M083_053"
+befehl = ["PRINTCLEAR"]
+en = "YOU ACTIVATE THE CONTROL BOX WITH THE DETONATOR KEY."
+de = ""
+
+[[text]]
+id = "M083_054"
+befehl = ["PRINTCLEAR"]
+en = "THE GLIDERS EXPLODE. YOU HEAR A CRASH AS THE DOME SHATTERS. SWAMP MUCK DRIPS FROM CRACKS IN THE CEILING."
+de = ""
+
+[[text]]
+id = "M083_055"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS CONTACTS YOU BY RADIO. 'THERE'S NOT MUCH MORE TO DO HERE ON VENUS, SO MEET ME AT THE SHIP AS SOON AS YOU CAN.'"
+de = ""
+
+[[text]]
+id = "M083_056"
+befehl = ["PRINTCLEAR"]
+en = "RAM GLIDERS FILL THIS HANGAR. A GLASS DOME ABOVE IS CAMOUFLAGED BY THE SWAMP. YOU FIND NO WAY TO OPEN THE DOME."
+de = ""
+
+[[text]]
+id = "M083_057"
+befehl = ["PRINTCLEAR"]
+en = "AROUND YOU IS THE WRECKAGE OF THE GLIDER HANGAR. TWISTED BITS OF GLIDER LIE STREWN THROUGHOUT THE ROOM."
+de = ""
+
+[[text]]
+id = "M083_058"
+befehl = ["PRINTCLEAR"]
+en = "A TANGLE OF CABLES COLLAPSED IN THE EXPLOSION. ONE TEAM MEMBER CAN TRY TO CLIMB OVER AND CLEAR A PATH."
+de = ""
+
+[[text]]
+id = "M083_059"
+befehl = ["WHO"]
+en = "WHO CLIMBS OVER THE CABLE?"
+de = ""
+
+[[text]]
+id = "M083_060"
+befehl = ["PRINTCLEAR"]
+en = "THE CABLE SHIFTS AND YOU FALL. HOWEVER, THE WAY IS NOW CLEAR FOR THE REST OF THE TEAM."
+de = ""
+
+[[text]]
+id = "M083_061"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M083_062"
+befehl = ["PRINTCLEAR"]
+en = "YOU CLIMBED OVER THE CABLE! A PATH IS CLEARED, AND THE TEAM CAN CONTINUE ONWARD."
+de = ""
+
+[[text]]
+id = "M083_063"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A RAM MEETING ROOM. CIGARETTE BUTTS LITTER THE FLOOR."
+de = ""
+
+[[text]]
+id = "M083_064"
+befehl = ["PRINTCLEAR"]
+en = "A LARGE VENUSIAN PLANT FELL INTO THIS ROOM THROUGH A HOLE IN THE CEILING. INVESTIGATE?"
+de = ""
+
+[[text]]
+id = "M083_065"
+befehl = ["PRINTCLEAR"]
+en = "THE PLANT SHOOTS BARBED SPORES. EVERYONE NOT AGILE ENOUGH TO GET OUT OF THE WAY GETS HURT."
+de = ""
+
+[[text]]
+id = "M083_066"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""

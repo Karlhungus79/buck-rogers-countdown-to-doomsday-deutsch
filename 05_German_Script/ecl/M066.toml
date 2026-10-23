@@ -1,0 +1,616 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 66
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M066_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU ENTER THE SERVICE CORRIDOR OF THE BASE. AS YOU GET YOUR BEARINGS, A FEW GUARDS WALK INTO VIEW."
+de = ""
+
+[[text]]
+id = "M066_001"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARDS ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_002"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARDS DIDN'T HAVE TIME TO TRIGGER AN ALARM. YOUR PRESENCE IS STILL UNKNOWN."
+de = ""
+
+[[text]]
+id = "M066_003"
+befehl = ["PRINTCLEAR"]
+en = "THIS DOOR WAS FUSED BY A LASER BOLT. YOU CAN'T LEAVE THIS WAY."
+de = ""
+
+[[text]]
+id = "M066_004"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 1."
+de = ""
+
+[[text]]
+id = "M066_005"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 2."
+de = ""
+
+[[text]]
+id = "M066_006"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 3."
+de = ""
+
+[[text]]
+id = "M066_007"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 4."
+de = ""
+
+[[text]]
+id = "M066_008"
+befehl = ["PRINT"]
+en = " DESERT APES SHRIEK WITHIN. OPEN THE CAGE?"
+de = ""
+
+[[text]]
+id = "M066_009"
+befehl = ["PRINTCLEAR"]
+en = "THE CAGE IS OPEN."
+de = ""
+
+[[text]]
+id = "M066_010"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON SOOTHES THE APES AS THEY RUSH OUT OF THE CAGE."
+de = ""
+
+[[text]]
+id = "M066_011"
+befehl = ["PRINTCLEAR"]
+en = "MOST OF THE APES SCATTER. A FEW REMAIN BEHIND AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_012"
+befehl = ["PRINTCLEAR"]
+en = "ALL THE APES HAVE BEEN FREED! THEY SWARM OUT OF THE ROOM, AND IN SECONDS ALARMS BEGIN TO WAIL."
+de = ""
+
+[[text]]
+id = "M066_013"
+befehl = ["PRINTCLEAR"]
+en = "APES RUSH TO THE LOCKED CAGES, TRYING TO FREE THE OTHERS."
+de = ""
+
+[[text]]
+id = "M066_014"
+befehl = ["PRINTCLEAR"]
+en = "THE MASSIVE FRONT DOORS ARE SEALED."
+de = ""
+
+[[text]]
+id = "M066_015"
+befehl = ["PRINTCLEAR"]
+en = "DESERT RUNNERS MEET YOU AT THE DOORS AND URGE YOU BACK INTO THE BASE."
+de = ""
+
+[[text]]
+id = "M066_016"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU RACE OUT, ATHA COMES UP. 'I FOUND THESE BLUE PASSCARDS IN A SAFE. PERHAPS THEY ARE OF USE TO YOU.'"
+de = ""
+
+[[text]]
+id = "M066_017"
+befehl = ["PRINTCLEAR"]
+en = "SHE RUSHES BACK INTO THE BASE TO WARN THE DESERT RUNNERS OF THE UPCOMING EXPLOSION. THEY BARELY MAKE IT OUT IN TIME."
+de = ""
+
+[[text]]
+id = "M066_018"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS LOCKED."
+de = ""
+
+[[text]]
+id = "M066_019"
+befehl = ["HMENU"]
+menue = true
+en = "PICK LOCK"
+de = ""
+
+[[text]]
+id = "M066_020"
+befehl = ["HMENU"]
+menue = true
+en = "DEMO CHARGE"
+de = ""
+
+[[text]]
+id = "M066_021"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M066_022"
+befehl = ["WHO"]
+en = "WHO PICKS THE LOCK?"
+de = ""
+
+[[text]]
+id = "M066_023"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS STILL LOCKED."
+de = ""
+
+[[text]]
+id = "M066_024"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS OPEN."
+de = ""
+
+[[text]]
+id = "M066_025"
+befehl = ["PRINTCLEAR"]
+en = "YOU BLAST THE DOOR OPEN."
+de = ""
+
+[[text]]
+id = "M066_026"
+befehl = ["PRINTCLEAR"]
+en = "YOU DON'T HAVE A DEMO CHARGE."
+de = ""
+
+[[text]]
+id = "M066_027"
+befehl = ["PRINTCLEAR"]
+en = "CAGES FULL OF DESERT APES LINE THE WALLS."
+de = ""
+
+[[text]]
+id = "M066_028"
+befehl = ["PRINTCLEAR"]
+en = "'OPEN THE CAGES AND FREE THE APES. THEY'LL DISTRACT THE REST OF THE GUARDS!'"
+de = ""
+
+[[text]]
+id = "M066_029"
+befehl = ["PRINTCLEAR"]
+en = "FREEING THE APES WOULD CAUSE A DISTRACTION, DIVERTING THE GUARDS."
+de = ""
+
+[[text]]
+id = "M066_030"
+befehl = ["PRINTCLEAR"]
+en = "THIS CONTROL PANEL CAN OPEN ALL THE CAGES AT ONCE. OPEN ALL CAGES?"
+de = ""
+
+[[text]]
+id = "M066_031"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 1 IS ALREADY OPEN."
+de = ""
+
+[[text]]
+id = "M066_032"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 1 OPENS."
+de = ""
+
+[[text]]
+id = "M066_033"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 2 IS ALREADY OPEN."
+de = ""
+
+[[text]]
+id = "M066_034"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 2 OPENS."
+de = ""
+
+[[text]]
+id = "M066_035"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 3 IS ALREADY OPEN."
+de = ""
+
+[[text]]
+id = "M066_036"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 3 OPENS."
+de = ""
+
+[[text]]
+id = "M066_037"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 4 IS ALREADY OPEN."
+de = ""
+
+[[text]]
+id = "M066_038"
+befehl = ["PRINTCLEAR"]
+en = "CAGE 4 OPENS."
+de = ""
+
+[[text]]
+id = "M066_039"
+befehl = ["PRINTCLEAR"]
+en = "SOME OF THE APES SPOT THE TEAM AND CHARGE!"
+de = ""
+
+[[text]]
+id = "M066_040"
+befehl = ["PRINTCLEAR"]
+en = "APES APPROACH, BUT TUSKON SOOTHES THEM AND THEY WANDER AWAY."
+de = ""
+
+[[text]]
+id = "M066_041"
+befehl = ["PRINTCLEAR"]
+en = "DESERT APES OVERWHELMED A LAB TECHNICIAN HERE. THE APES GLARE AT YOU MENACINGLY."
+de = ""
+
+[[text]]
+id = "M066_042"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M066_043"
+befehl = ["HMENU"]
+menue = true
+en = "RETREAT"
+de = ""
+
+[[text]]
+id = "M066_044"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON SOOTHES THE APES AND THEY IGNORE YOU."
+de = ""
+
+[[text]]
+id = "M066_045"
+befehl = ["PRINTCLEAR"]
+en = "THE DESERT APES ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_046"
+befehl = ["PRINTCLEAR"]
+en = "LAB EQUIPMENT IS STORED HERE."
+de = ""
+
+[[text]]
+id = "M066_047"
+befehl = ["PRINT"]
+en = " YOU FIND STUN GRENADES ONCE INTENDED FOR USE AGAINST THE DESERT APES."
+de = ""
+
+[[text]]
+id = "M066_048"
+befehl = ["PRINTCLEAR"]
+en = "THIS WAS A GUARD POST, BUT THE GUARDS APPEAR TO HAVE FLED FROM THE APES."
+de = ""
+
+[[text]]
+id = "M066_049"
+befehl = ["PRINTCLEAR"]
+en = "YOU STEP INTO A GROUP OF RAM WARRIORS. ONE RUNS EASTWARD, THE OTHERS ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_050"
+befehl = ["PRINTCLEAR"]
+en = "AN INTERCOM BLARES: 'BASEMENT LEVEL INTRUDER ALERT!'"
+de = ""
+
+[[text]]
+id = "M066_051"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS HERE WERE WAITING FOR YOU! THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_052"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND AN INTERCOM STATION. USE THE INTERCOM?"
+de = ""
+
+[[text]]
+id = "M066_053"
+befehl = ["PRINTCLEAR"]
+en = "START A FALSE ALARM OR JEER AT THE RAM WARRIORS?"
+de = ""
+
+[[text]]
+id = "M066_054"
+befehl = ["HMENU"]
+menue = true
+en = "FALSE ALARM"
+de = ""
+
+[[text]]
+id = "M066_055"
+befehl = ["HMENU"]
+menue = true
+en = "JEER"
+de = ""
+
+[[text]]
+id = "M066_056"
+befehl = ["PRINTCLEAR"]
+en = "YOU DON'T THINK THEY'LL FALL FOR IT AGAIN."
+de = ""
+
+[[text]]
+id = "M066_057"
+befehl = ["PRINTCLEAR"]
+en = "YOU ACTIVATE THE INTERCOM. 'ALL PERSONNEL. ALIEN BACTERIA HAVE ENTERED THE BASE. EVACUATE IMMEDIATELY!'"
+de = ""
+
+[[text]]
+id = "M066_058"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE A FEW WARRIORS SPRINTING FOR THE CLOSEST EXIT."
+de = ""
+
+[[text]]
+id = "M066_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU THINK THE BETTER OF IT."
+de = ""
+
+[[text]]
+id = "M066_060"
+befehl = ["PRINTCLEAR"]
+en = "YOU ACTIVATE THE INTERCOM. 'YOU THINK YOU CAN CATCH US? YOU COULDN'T EVEN CATCH A COLD!'"
+de = ""
+
+[[text]]
+id = "M066_061"
+befehl = ["PRINTCLEAR"]
+en = "ROBOT GUARDS HEAR YOU SPEAKING AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_062"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND AN INTERCOM STATION."
+de = ""
+
+[[text]]
+id = "M066_063"
+befehl = ["PRINT"]
+en = " TELL THE DESERT RUNNERS TO EVACUATE THE BASE?"
+de = ""
+
+[[text]]
+id = "M066_064"
+befehl = ["PRINTCLEAR"]
+en = "YOU SPEAK INTO THE INTERCOM. 'DESERT RUNNERS, RETREAT!'"
+de = ""
+
+[[text]]
+id = "M066_065"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON ACTIVATES THE INTERCOM AND HOWLS. THE DESERT RUNNERS RECOGNIZE THE RETREAT SIGNAL AND FLEE FROM THE BASE."
+de = ""
+
+[[text]]
+id = "M066_066"
+befehl = ["PRINTCLEAR"]
+en = "A METAL LADDER LEADS DOWNWARD. CLIMB DOWN?"
+de = ""
+
+[[text]]
+id = "M066_067"
+befehl = ["PRINTCLEAR"]
+en = "A METAL LADDER LEADS UPWARD. CLIMB UP?"
+de = ""
+
+[[text]]
+id = "M066_068"
+befehl = ["PRINTCLEAR"]
+en = "DESERT APES DESTROYED THIS INTERCOM STATION."
+de = ""
+
+[[text]]
+id = "M066_069"
+befehl = ["PRINTCLEAR"]
+en = "A SMALL OFFICE. "
+de = ""
+
+[[text]]
+id = "M066_070"
+befehl = ["PRINT"]
+en = "YOU FIND STACKS OF TECHNICAL INFORMATION ABOUT THE DOOMSDAY DEVICE."
+de = ""
+
+[[text]]
+id = "M066_071"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND MANY REFERENCES TO VENUS AND THE VENUSIAN LOWLANDERS."
+de = ""
+
+[[text]]
+id = "M066_072"
+befehl = ["PRINT"]
+en = "GUARD DOG GENNIES ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_073"
+befehl = ["PRINTCLEAR"]
+en = "ATHA IS HERE WITH SOME DESERT RUNNERS. 'THE LASER IS ABOVE US,' SHE SAYS."
+de = ""
+
+[[text]]
+id = "M066_074"
+befehl = ["PRINTCLEAR"]
+en = "'IF YOU WISH TO DESTROY IT, DO SO QUICKLY BEFORE RAM REINFORCEMENTS ARRIVE!"
+de = ""
+
+[[text]]
+id = "M066_075"
+befehl = ["PRINTCLEAR"]
+en = "'WE'VE DISABLED THE SECURITY SYSTEM IN THE ELEVATOR. YOU SHOULD BE ABLE TO USE IT NOW.'"
+de = ""
+
+[[text]]
+id = "M066_076"
+befehl = ["PRINTCLEAR"]
+en = "A COMPLEX SECURITY SYSTEM PREVENTS YOU FROM USING THIS ELEVATOR."
+de = ""
+
+[[text]]
+id = "M066_077"
+befehl = ["PRINTCLEAR"]
+en = "ATHA'S WARRIORS DISABLED THIS ELEVATOR'S SECURITY SYSTEM. GO UP?"
+de = ""
+
+[[text]]
+id = "M066_078"
+befehl = ["PRINTCLEAR"]
+en = "THE ELEVATOR IS STILL OPERATIONAL. GO DOWN?"
+de = ""
+
+[[text]]
+id = "M066_079"
+befehl = ["PRINTCLEAR"]
+en = "BEFORE YOU ARE THE MASSIVE FRONT DOORS TO THE BASE. OUTSIDE WAIT THE DESERT RUNNERS. GUARDS ATTACK!"
+de = ""
+
+[[text]]
+id = "M066_080"
+befehl = ["PRINTCLEAR"]
+en = "YOU MUST FIND A WAY TO OPEN THE FRONT GATES."
+de = ""
+
+[[text]]
+id = "M066_081"
+befehl = ["PRINTCLEAR"]
+en = "THIS CONTROL PANEL OPENS THE FRONT DOORS...BUT IT MIGHT ALSO BE CONNECTED TO AN ALARM. OPEN THE DOORS?"
+de = ""
+
+[[text]]
+id = "M066_082"
+befehl = ["PRINTCLEAR"]
+en = "THE DOORS OPEN AND THE ARMY OF DESERT RUNNERS POURS INTO THE BASE!"
+de = ""
+
+[[text]]
+id = "M066_083"
+befehl = ["PRINTCLEAR"]
+en = "RAM FORCES ATTACK FROM THE OTHER DIRECTION! YOU ARE CAUGHT IN THE MIDDLE."
+de = ""
+
+[[text]]
+id = "M066_084"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON SCANS THE ROOM NERVOUSLY UNTIL HE SPOTS ATHA."
+de = ""
+
+[[text]]
+id = "M066_085"
+befehl = ["PRINTCLEAR"]
+en = "SHE APPROACHES. 'I'LL LEAD THE RUNNERS DOWN HERE. GO WITH OUR FRIENDS AND DESTROY THE LASER THEY SPOKE OF.'"
+de = ""
+
+[[text]]
+id = "M066_086"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON AGREES. THEY EMBRACE QUICKLY AND SHE RUNS OFF."
+de = ""
+
+[[text]]
+id = "M066_087"
+befehl = ["PRINTCLEAR"]
+en = "THE DESERT RUNNERS WHOOP AND HOWL AS THEY FLOOD THROUGH THE BASE."
+de = ""
+
+[[text]]
+id = "M066_088"
+befehl = ["PRINTCLEAR"]
+en = "THE MINIATURE DOOMSDAY LASER IS MOUNTED IN THIS ROOM. ITS CONTROLS LIE JUST TO THE NORTH."
+de = ""
+
+[[text]]
+id = "M066_089"
+befehl = ["PRINTCLEAR"]
+en = "THESE ARE THE CONTROLS FOR THE MINIATURE LASER. "
+de = ""
+
+[[text]]
+id = "M066_090"
+befehl = ["PRINT"]
+en = "THEY ARE NONFUNCTIONAL."
+de = ""
+
+[[text]]
+id = "M066_091"
+befehl = ["PRINT"]
+en = "USE THE CONTROLS TO DESTROY IT?"
+de = ""
+
+[[text]]
+id = "M066_092"
+befehl = ["PRINTCLEAR"]
+en = "THE LASER EMITS A HIGH PITCHED WHINE WHICH GETS LOUDER AS SECONDS PASS. YOU MUST EVACUATE THE BASE BEFORE IT EXPLODES!"
+de = ""
+
+[[text]]
+id = "M066_093"
+befehl = ["PRINTCLEAR"]
+en = "THE DESERT RUNNERS MUST BE WARNED. SPEAKING INTO THE INTERCOM IS THE ONLY WAY TO BE SURE THEY ALL HEAR."
+de = ""
+
+[[text]]
+id = "M066_094"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A MEDICAL STATION. ITS CONTROLS ARE UNFAMILIAR TO YOU. TRY TO HEAL THE TEAM ANYWAY?"
+de = ""
+
+[[text]]
+id = "M066_095"
+befehl = ["WHO"]
+en = "WHO OPERATES THE AUTODOC?"
+de = ""
+
+[[text]]
+id = "M066_096"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC MALFUNCTIONS!"
+de = ""
+
+[[text]]
+id = "M066_097"
+befehl = ["PRINTCLEAR"]
+en = "EVERYONE IS HEALED."
+de = ""
+
+[[text]]
+id = "M066_098"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC IS HERE. YOU REMEMBER HOW TO OPERATE IT SAFELY. HEAL THE TEAM?"
+de = ""
+
+[[text]]
+id = "M066_099"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A PILE OF EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M066_100"
+befehl = ["COMPARE"]
+en = "TUSKON"
+de = ""

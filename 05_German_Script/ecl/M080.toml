@@ -1,0 +1,515 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 80
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M080_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU LAND ON VENUS AND LEAVE YOUR SHIP. YOU ARE SURROUNDED BY GIANT FLOWERS, TREES AND MUSHROOMS."
+de = ""
+
+[[text]]
+id = "M080_001"
+befehl = ["PRINTCLEAR"]
+en = "ACCORDING TO SCOT.DOS, A LOWLANDER VILLAGE LIES BEYOND THE ACID SWAMP TO THE NORTH."
+de = ""
+
+[[text]]
+id = "M080_002"
+befehl = ["PRINTCLEAR"]
+en = "RAM GLIDERS DO PRACTICE EXERCISES FAR ABOVE."
+de = ""
+
+[[text]]
+id = "M080_003"
+befehl = ["PRINTCLEAR"]
+en = "RAM WARRIORS SPOT YOU AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M080_004"
+befehl = ["PRINTCLEAR"]
+en = "ACID FROGS COME TO YOUR AID!"
+de = ""
+
+[[text]]
+id = "M080_005"
+befehl = ["PRINTCLEAR"]
+en = "A SWARM OF SWAMP HORNETS ATTACKS THE TEAM!"
+de = ""
+
+[[text]]
+id = "M080_006"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS FOLLOWING YOUR TEAM UNEARTH A HIVE OF SWAMP HORNETS, AND A FIERCE BATTLE ENSUES. JOIN THE FIGHT?"
+de = ""
+
+[[text]]
+id = "M080_007"
+befehl = ["PRINTCLEAR"]
+en = "THE SWAMP HORNETS ARE QUICKLY CONSUMED BY THE ACID FROGS."
+de = ""
+
+[[text]]
+id = "M080_008"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE STUMBLED INTO A DEN OF URSADDERS!"
+de = ""
+
+[[text]]
+id = "M080_009"
+befehl = ["PRINTCLEAR"]
+en = "AN URSADDER REARS UP, HISSING AND GROWLING. BEHIND HER IS A TEEMING NEST FILLED WITH HER YOUNG. BACK AWAY?"
+de = ""
+
+[[text]]
+id = "M080_010"
+befehl = ["PRINTCLEAR"]
+en = "SHE LASHES OUT AS YOU RETREAT!"
+de = ""
+
+[[text]]
+id = "M080_011"
+befehl = ["PRINTCLEAR"]
+en = "YOU SLOWLY BACK AWAY."
+de = ""
+
+[[text]]
+id = "M080_012"
+befehl = ["PRINTCLEAR"]
+en = "FROM OUT OF NOWHERE ARRIVE A HERD OF ACID FROGS."
+de = ""
+
+[[text]]
+id = "M080_013"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR LOUD CROAKING FROM THE DIRECTION OF THE ACID LAKE."
+de = ""
+
+[[text]]
+id = "M080_014"
+befehl = ["PRINTCLEAR"]
+en = "A HOLLOW STUMP CONTAINS CHOPPED-UP SWAMP HORNETS AND SWAMP SLUGS. IT APPEARS TO BE A SHRINE TO THE ACID FROGS."
+de = ""
+
+[[text]]
+id = "M080_015"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A MAKESHIFT SHELTER HERE. INVESTIGATE?"
+de = ""
+
+[[text]]
+id = "M080_016"
+befehl = ["PRINTCLEAR"]
+en = "YOU LEAVE."
+de = ""
+
+[[text]]
+id = "M080_017"
+befehl = ["PRINTCLEAR"]
+en = "ROBOTS POUR OUT OF THE SHELTER AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M080_018"
+befehl = ["PRINTCLEAR"]
+en = "YOU STARTLE A GROUP OF LOWLANDERS. THEY FLEE BEFORE YOU CAN SPEAK TO THEM."
+de = ""
+
+[[text]]
+id = "M080_019"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND THE BODIES OF A GROUP OF SLAUGHTERED LOWLANDERS."
+de = ""
+
+[[text]]
+id = "M080_020"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE IN THE MOUNTAINS."
+de = ""
+
+[[text]]
+id = "M080_021"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE IN SOME SHALLOW WATER."
+de = ""
+
+[[text]]
+id = "M080_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE IN A FOREST."
+de = ""
+
+[[text]]
+id = "M080_023"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE SLOGGING THROUGH A SWAMP."
+de = ""
+
+[[text]]
+id = "M080_024"
+befehl = ["PRINTCLEAR"]
+en = "YOU FACE THE MAIN GATE OF A LOWLANDER VILLAGE. THE JUNGLE IS STRANGELY QUIET. ENTER THE VILLAGE?"
+de = ""
+
+[[text]]
+id = "M080_025"
+befehl = ["PRINTCLEAR"]
+en = "YOU FACE THE ENTRANCE TO THE DEMOLISHED LOWLANDER VILLAGE. ENTER THE VILLAGE?"
+de = ""
+
+[[text]]
+id = "M080_026"
+befehl = ["PRINTCLEAR"]
+en = "YOUR SHIP IS HERE. LEAVE VENUS?"
+de = ""
+
+[[text]]
+id = "M080_027"
+befehl = ["COMPARE"]
+en = "LEANDER"
+de = ""
+
+[[text]]
+id = "M080_028"
+befehl = ["PRINTCLEAR"]
+en = "'I MUSST SSTAY BEHIND TO ORGANIZE A LOWLANDER RESSISSTANCE TO RAM. FAREWELL.' LEANDER LEAVES."
+de = ""
+
+[[text]]
+id = "M080_029"
+befehl = ["COMPARE"]
+en = "ZANE"
+de = ""
+
+[[text]]
+id = "M080_030"
+befehl = ["PRINTCLEAR"]
+en = "ZANE IS FRIGHTENED OF YOUR SHIP. HE RUNS AWAY AND IS LOST IN THE SWAMP."
+de = ""
+
+[[text]]
+id = "M080_031"
+befehl = ["PRINT"]
+en = " ZANE FOLLOWS HIM."
+de = ""
+
+[[text]]
+id = "M080_032"
+befehl = ["PRINTCLEAR"]
+en = "THERE'S A MUCH-USED PATH INTO A CAVE OF OLD CABLES AND GIRDERS HERE. ENTER THE RUINS?"
+de = ""
+
+[[text]]
+id = "M080_033"
+befehl = ["PRINTCLEAR"]
+en = "THE RUINS ARE HERE. RE-ENTER THE RUINS?"
+de = ""
+
+[[text]]
+id = "M080_034"
+befehl = ["PRINTCLEAR"]
+en = "NESTLED BETWEEN TWO HILLS YOU SEE THE TOP OF A MOSTLY SUBTERRANEAN BUILDING. AN ENTRANCE IS CLOSE BY. WILL YOU ENTER?"
+de = ""
+
+[[text]]
+id = "M080_035"
+befehl = ["PRINTCLEAR"]
+en = "YOU FACE THE ENTRANCE TO THE RAM BASE OF OPERATIONS ON VENUS. ENTER?"
+de = ""
+
+[[text]]
+id = "M080_036"
+befehl = ["PRINTCLEAR"]
+en = "HOW WILL YOU APPROACH? "
+de = ""
+
+[[text]]
+id = "M080_037"
+befehl = ["HMENU"]
+menue = true
+en = "DIRECTLY"
+de = ""
+
+[[text]]
+id = "M080_038"
+befehl = ["HMENU"]
+menue = true
+en = "HIDE IN SHADOWS"
+de = ""
+
+[[text]]
+id = "M080_039"
+befehl = ["PRINTCLEAR"]
+en = "YOUR TEAM TRIES TO HIDE IN THE SHADOWS."
+de = ""
+
+[[text]]
+id = "M080_040"
+befehl = ["PRINTCLEAR"]
+en = "RAM HEAVY SECURITY ROBOTS EMERGE FROM THE STRUCTURE TO INTERCEPT YOU."
+de = ""
+
+[[text]]
+id = "M080_041"
+befehl = ["PRINTCLEAR"]
+en = "ENTER THE STRUCTURE NOW? "
+de = ""
+
+[[text]]
+id = "M080_042"
+befehl = ["PRINTCLEAR"]
+en = "NO ONE NOTICES YOUR APPROACH!"
+de = ""
+
+[[text]]
+id = "M080_043"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID LAKE BUBBLES AND STEAMS. NUMEROUS PAIRS OF GOGGLING EYES WATCH YOU FROM JUST ABOVE THE LAKE'S SURFACE."
+de = ""
+
+[[text]]
+id = "M080_044"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE SURROUNDED BY MAN-SIZED ACID FROGS."
+de = ""
+
+[[text]]
+id = "M080_045"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M080_046"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M080_047"
+befehl = ["HMENU"]
+menue = true
+en = "BEFRIEND THE FROGS"
+de = ""
+
+[[text]]
+id = "M080_048"
+befehl = ["PRINTCLEAR"]
+en = "YOU START TO BACK AWAY, BUT THE LARGEST ACID FROG OF ALL IS BEHIND YOU."
+de = ""
+
+[[text]]
+id = "M080_049"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M080_050"
+befehl = ["HMENU"]
+menue = true
+en = "BEFRIEND THE FROGS"
+de = ""
+
+[[text]]
+id = "M080_051"
+befehl = ["WHO"]
+en = "WHO BEFRIENDS THE FROGS?"
+de = ""
+
+[[text]]
+id = "M080_052"
+befehl = ["PRINTCLEAR"]
+en = "SOMETHING YOU DID ENRAGED THE ACID FROGS."
+de = ""
+
+[[text]]
+id = "M080_053"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS RUB AGAINST YOU AFFECTIONATELY. THEY SEEM ANXIOUS TO STAY BY YOUR SIDE."
+de = ""
+
+[[text]]
+id = "M080_054"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS CROAK VICIOUSLY AND ATTACK THE TEAM!"
+de = ""
+
+[[text]]
+id = "M080_055"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE DRIVING IN AN ACID LAKE. YOU SHOULD GET OUT OF THE LAKE IMMEDIATELY."
+de = ""
+
+[[text]]
+id = "M080_056"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE BURNED BY THE ACID IN THE LAKE."
+de = ""
+
+[[text]]
+id = "M080_057"
+befehl = ["PRINTCLEAR"]
+en = "A GROUP OF VENUSIAN LOWLANDERS LEAP FORWARD AND SURROUND THE TEAM."
+de = ""
+
+[[text]]
+id = "M080_058"
+befehl = ["PRINTCLEAR"]
+en = "THEIR ELONGATED JAWS MAKE THEIR SPEECH AWKWARD. 'WHHO ARE YOU?' THEY DEMAND."
+de = ""
+
+[[text]]
+id = "M080_059"
+befehl = ["HMENU"]
+menue = true
+en = "ANSWER"
+de = ""
+
+[[text]]
+id = "M080_060"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M080_061"
+befehl = ["HMENU"]
+menue = true
+en = "RUN AWAY"
+de = ""
+
+[[text]]
+id = "M080_062"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDERS HAVE YOU SURROUNDED. ONE SPEAKS. 'TRYING TO ESSCAPE? THHAT PROVESS THAT YOU'RE WITHH RAM.'"
+de = ""
+
+[[text]]
+id = "M080_063"
+befehl = ["HMENU"]
+menue = true
+en = "TALK"
+de = ""
+
+[[text]]
+id = "M080_064"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M080_065"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDERS SCOFF WHEN YOU SAY YOU'RE WITH NEO. 'WE'VE BEEN FOOLED BEFORE. SSURRENDER YOUR WEAPONSS.' DO YOU OBEY?"
+de = ""
+
+[[text]]
+id = "M080_066"
+befehl = ["PRINTCLEAR"]
+en = "THE LEADER HISSES AT YOU. 'YOU ARE OBVIOUSSLY RAM AGENTSS. PREPARE TO DIE!'"
+de = ""
+
+[[text]]
+id = "M080_067"
+befehl = ["PRINTCLEAR"]
+en = "BEFORE EVENTS CAN ESCALATE FURTHER, BOTH YOU AND THE LOWLANDERS ARE SURPRISED BY A RAM AMBUSH!"
+de = ""
+
+[[text]]
+id = "M080_068"
+befehl = ["PRINTCLEAR"]
+en = "THE LEADER SPEAKS. 'I AM LEANDER. I APOLOGIZZE FOR MISSTRUSSTING YOU. ALLOW ME TO JOIN YOU, AND HHELP IN YOUR BATTLESS AGAINSST RAM.'"
+de = ""
+
+[[text]]
+id = "M080_069"
+befehl = ["PRINTCLEAR"]
+en = "ALLOW LEANDER TO JOIN?"
+de = ""
+
+[[text]]
+id = "M080_070"
+befehl = ["PRINTCLEAR"]
+en = "'ARE YOU SSURE? YOU'LL NEED MY HHHELP LATER.' ALLOW LEANDER TO JOIN?"
+de = ""
+
+[[text]]
+id = "M080_071"
+befehl = ["PRINTCLEAR"]
+en = "LEANDER LEAVES."
+de = ""
+
+[[text]]
+id = "M080_072"
+befehl = ["PRINTCLEAR"]
+en = "YOU MEET A FRIGHTENED LOWLANDER. 'ARE YOU RAM?' HE ASKS. DO YOU IDENTIFY YOURSELVES AS NEO?"
+de = ""
+
+[[text]]
+id = "M080_073"
+befehl = ["PRINTCLEAR"]
+en = "YOU TELL HIM YOU REPRESENT NEO. 'PLEASSE HELP! MY FAMILY ISS NEARBY, HIDING FROM RAM. WILL YOU HHELP USS?'"
+de = ""
+
+[[text]]
+id = "M080_074"
+befehl = ["PRINTCLEAR"]
+en = "HE LEADS YOU TO HIS FAMILY. BEFORE YOU CAN ACT, RAM FORCES APPROACH. 'WE ONLY WANT THE LOWLANDERS,' THEY SAY."
+de = ""
+
+[[text]]
+id = "M080_075"
+befehl = ["HMENU"]
+menue = true
+en = "BACK AWAY"
+de = ""
+
+[[text]]
+id = "M080_076"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M080_077"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDER RUNS AWAY."
+de = ""
+
+[[text]]
+id = "M080_078"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR SHOOTING. THE LOWLANDER RUNS TOWARDS THE SOUNDS. WILL YOU FOLLOW?"
+de = ""
+
+[[text]]
+id = "M080_079"
+befehl = ["PRINTCLEAR"]
+en = "YOU BACK AWAY. "
+de = ""
+
+[[text]]
+id = "M080_080"
+befehl = ["PRINT"]
+en = "YOU HEAR WEAPONS FIRING IN THE DISTANCE, THEN OMINOUS SILENCE."
+de = ""
+
+[[text]]
+id = "M080_081"
+befehl = ["PRINTCLEAR"]
+en = "YOU RUSH TO THE DEFENSE OF THE LOWLANDERS."
+de = ""
+
+[[text]]
+id = "M080_082"
+befehl = ["PRINTCLEAR"]
+en = "THE FAMILY THANKS YOU, BUT ARE RELUCTANT TO ANSWER ANY QUESTIONS. THEY HEAD TOWARDS THE ACID LAKE."
+de = ""

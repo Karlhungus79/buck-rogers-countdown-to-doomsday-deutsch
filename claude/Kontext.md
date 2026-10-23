@@ -1,6 +1,6 @@
 # Kontext – Buck Rogers: Countdown to Doomsday (Mega Drive) Deutsch
 
-Stand: 21.10.2026
+Stand: 23.10.2026
 
 ## Spiel
 
@@ -57,7 +57,8 @@ Community-Arbeit existiert.
 
 ## Übersetzungsgrundsätze (entschieden 21.10.2026, Details `Glossar.md`)
 
-- Dialoge in Groß-/Kleinschreibung, ß als eigenes Zeichen
+- Dialoge in Groß-/Kleinschreibung, ß als eigenes Zeichen – **G1 neu offen (23.10.2026):** Schrift
+  hat keine Kleinbuchstaben (`Zeichensatz.md`). Texte werden trotzdem normal geschrieben.
 - Anrede: NEO/Verbündete/Erzähltext „ihr“, Fremde/Behörden/Händler/RAM „Sie“
 - Gruppe = „Team“; Eigennamen, Schiffe, Fraktionen, KIs (.DOS) unverändert
 - Werte: ST GE KO CH TE, TP, RK, ETW0, Stufe, EP; Planetendaten in km
@@ -84,7 +85,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen). Phase 1 beginnt.
+Aktueller Stand: Phase 1 läuft (`Fahrplan.md`). Intro deutsch gebaut 23.10.2026, Test in Ares offen.
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 
@@ -116,10 +117,20 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
   Windows-Fassung in `03_Tools\AS\win64\` (selbst kompiliert, Details `claude\Disassembly.md`)
 - Disassembler: eigenes `03_Tools\disasm.py` + `gen_asm.py` (Capstone 5.0.7)
 - Python 3 für alle Skripte, jeweils mit .bat-Wrapper
-- Textablage (Entscheidung 21.10.2026): Dialogtext unkomprimiert in der ROM, ROM 2 MB
+- Textablage A (Entscheidung 21.10.2026, gebaut 23.10.2026): Dialogtext unkomprimiert in der ROM ab
+  `$108000`, ROM 2 MB, Details `Textablage.md`
+- Deutsche Texte: `05_German_Script\ecl\Mxxx.toml` (Feld `de`), Vollbau `03_Tools\7_deutsch_bauen.bat`
+  → Testdatei `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md` (fester Name für den Ares-Spielstand)
+- **Nie** `0_disassembly_erzeugen.bat` ohne Not: würde die DEUTSCH-HOOKs löschen (Skript bricht ab)
+- Selbstprüfung im Spiel (`sub_FFFB0`): jede Änderung im ersten MB → Sollwert neu (macht `build.py --deutsch`)
 - Text: `03_Tools\brtext.py` (LZW, ECL-Parser, Systemtexte), `2_text_extrahieren.bat`
 - Test-Emulator: **Ares v147** (festgelegt von Marcel am 21.10.2026).
-  Savestates in `08_Savestates\`. Tile-Editor: noch offen.
+  Saves-Pfad in Ares (Einstellungen > Pfade > Saves) war am 23.10.2026 noch auf
+  `…\Phantasy Star 2 Disassembly\08_Savestates` gestellt → für Buck Rogers auf
+  `H:\Übersetzungen - Disassemblys - Lets Plays\Buck Rogers Disassembly\08_Savestates` stellen.
+  Ares legt den Spielstand je ROM-Dateiname ab: `Buck Rogers - Countdown to Doomsday (gebaut).ram`
+  (8 KB, Spielstand 1 = vorgefertigtes Team am Spielbeginn). Tile-Editor: noch offen.
+- Claude-Testemulator: Genesis Plus GX (libretro) mit eigenem Frontend, `Testumgebung.md`
 
 ## Disassembly und GitHub (Stand 21.10.2026)
 

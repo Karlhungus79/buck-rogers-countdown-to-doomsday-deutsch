@@ -1,0 +1,732 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 82
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M082_000"
+befehl = ["PRINTCLEAR"]
+en = "THE TUNNEL ENDS IN A SMALL BARRACK. "
+de = ""
+
+[[text]]
+id = "M082_001"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS ON EITHER SIDE OF YOU BEAR THE RAM INSIGNIA."
+de = ""
+
+[[text]]
+id = "M082_002"
+befehl = ["PRINTCLEAR"]
+en = "THE EXPLOSIONS IN THE HANGAR ALERTED RAM TO YOUR PRESENCE! YOU ARE AMBUSHED!"
+de = ""
+
+[[text]]
+id = "M082_003"
+befehl = ["PRINTCLEAR"]
+en = "A RAM HIT TEAM HAS BEEN LYING IN WAIT FOR YOU INSIDE THE DOOR. YOU ARE AMBUSHED!"
+de = ""
+
+[[text]]
+id = "M082_004"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR BOOTS CLICKING ON THE FLOOR NEARBY."
+de = ""
+
+[[text]]
+id = "M082_005"
+befehl = ["PRINTCLEAR"]
+en = "A FAILED LAB EXPERIMENT SLITHERS BY."
+de = ""
+
+[[text]]
+id = "M082_006"
+befehl = ["PRINTCLEAR"]
+en = "THE RAM INSIGNIA IS PRINTED ON THE WALL."
+de = ""
+
+[[text]]
+id = "M082_007"
+befehl = ["PRINTCLEAR"]
+en = "YOUR STOMACH GRUMBLES."
+de = ""
+
+[[text]]
+id = "M082_008"
+befehl = ["PRINTCLEAR"]
+en = "YOU CRAVE MORE JUNK FOOD."
+de = ""
+
+[[text]]
+id = "M082_009"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR A CRASH IN THE DISTANCE."
+de = ""
+
+[[text]]
+id = "M082_010"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR MURMURING CLOSE BY. YOU PRESS YOUR EAR TO THE WALL AND CATCH SOMETHING ABOUT PRISONERS ON LEVEL THREE."
+de = ""
+
+[[text]]
+id = "M082_011"
+befehl = ["PRINTCLEAR"]
+en = "SOME ONE DREW A MOUSTACHE ON THE RAM INSIGNIA PRINTED ON THE WALL."
+de = ""
+
+[[text]]
+id = "M082_012"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A CACHE OF JUNK FOOD. EAT IT?"
+de = ""
+
+[[text]]
+id = "M082_013"
+befehl = ["PRINTCLEAR"]
+en = "YOU GOBBLE DOWN THE JUNK FOOD."
+de = ""
+
+[[text]]
+id = "M082_014"
+befehl = ["PRINTCLEAR"]
+en = "YOU LEAVE THE JUNK FOOD BEHIND."
+de = ""
+
+[[text]]
+id = "M082_015"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND ANOTHER CACHE OF JUNK FOOD! EAT IT?"
+de = ""
+
+[[text]]
+id = "M082_016"
+befehl = ["PRINTCLEAR"]
+en = "YOU GET A STOMACH ACHE."
+de = ""
+
+[[text]]
+id = "M082_017"
+befehl = ["PRINTCLEAR"]
+en = "AN ACIDICIUM IS SLIDING ACROSS THE HALL UP AHEAD."
+de = ""
+
+[[text]]
+id = "M082_018"
+befehl = ["PRINTCLEAR"]
+en = "GRAFFITI ON THE WALL READS: "
+de = ""
+
+[[text]]
+id = "M082_019"
+befehl = ["PRINT"]
+en = "KILROY.DOS WAS HERE."
+de = ""
+
+[[text]]
+id = "M082_020"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND BOOTS COVERED WITH YELLOW ACID SCUM."
+de = ""
+
+[[text]]
+id = "M082_021"
+befehl = ["PRINTCLEAR"]
+en = "AN INTERCOM BUZZES AND CRACKLES."
+de = ""
+
+[[text]]
+id = "M082_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A PREMONITION OF DANGER."
+de = ""
+
+[[text]]
+id = "M082_023"
+befehl = ["PRINTCLEAR"]
+en = "RAM WARRIORS SEE YOU AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M082_024"
+befehl = ["PRINTCLEAR"]
+en = "ACIDICIUM SENSE YOU AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M082_025"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE DETECTED BY SECURITY ROBOTS!"
+de = ""
+
+[[text]]
+id = "M082_026"
+befehl = ["PRINTCLEAR"]
+en = "THERE ARE FOUR BUTTONS IN THE ELEVATOR."
+de = ""
+
+[[text]]
+id = "M082_027"
+befehl = ["HMENU"]
+menue = true
+en = "1"
+de = ""
+
+[[text]]
+id = "M082_028"
+befehl = ["HMENU"]
+menue = true
+en = "2"
+de = ""
+
+[[text]]
+id = "M082_029"
+befehl = ["HMENU"]
+menue = true
+en = "3"
+de = ""
+
+[[text]]
+id = "M082_030"
+befehl = ["HMENU"]
+menue = true
+en = "4"
+de = ""
+
+[[text]]
+id = "M082_031"
+befehl = ["HMENU"]
+menue = true
+en = "NONE"
+de = ""
+
+[[text]]
+id = "M082_032"
+befehl = ["PRINTCLEAR"]
+en = "A RECORDED VOICE SAYS, 'IF YOU DO NOT WISH TO USE THE ELEVATOR, PLEASE VACATE IT IMMEDIATELY.'"
+de = ""
+
+[[text]]
+id = "M082_033"
+befehl = ["PRINTCLEAR"]
+en = "A RECORDED VOICE SAYS, 'YOU ARE ALREADY ON THAT FLOOR. PLEASE TRY ANOTHER.'"
+de = ""
+
+[[text]]
+id = "M082_034"
+befehl = ["PRINTCLEAR"]
+en = "THE ELEVATOR WHIRRS AND YOU ARRIVE ON THE FIRST FLOOR."
+de = ""
+
+[[text]]
+id = "M082_035"
+befehl = ["PRINTCLEAR"]
+en = "THE ELEVATOR WHIRRS AND YOU ARRIVE ON THE SECOND FLOOR."
+de = ""
+
+[[text]]
+id = "M082_036"
+befehl = ["PRINTCLEAR"]
+en = "THE ELEVATOR WHIRRS AND YOU ARRIVE ON THE THIRD FLOOR."
+de = ""
+
+[[text]]
+id = "M082_037"
+befehl = ["PRINTCLEAR"]
+en = "THE ELEVATOR CHUGS AND LURCHES BEFORE ARRIVING ON THE FOURTH FLOOR."
+de = ""
+
+[[text]]
+id = "M082_038"
+befehl = ["PRINTCLEAR"]
+en = "'FLOOR 1 -- LABS.' "
+de = ""
+
+[[text]]
+id = "M082_039"
+befehl = ["PRINTCLEAR"]
+en = "'FLOOR 2 -- BARRACKS.'"
+de = ""
+
+[[text]]
+id = "M082_040"
+befehl = ["PRINTCLEAR"]
+en = "'FLOOR 3 -- ADMINISTRATIVE OFFICES.'"
+de = ""
+
+[[text]]
+id = "M082_041"
+befehl = ["PRINTCLEAR"]
+en = "'DANGER -- UNDER CONSTRUCTION.' "
+de = ""
+
+[[text]]
+id = "M082_042"
+befehl = ["PRINTCLEAR"]
+en = "'ACIDICIUM COMPOUND AHEAD.'"
+de = ""
+
+[[text]]
+id = "M082_043"
+befehl = ["PRINTCLEAR"]
+en = "'COMBAT ROBOTS AHEAD (DANGER).'"
+de = ""
+
+[[text]]
+id = "M082_044"
+befehl = ["PRINTCLEAR"]
+en = "ACIDICIUM OOZE TOWARDS YOU IN A SLIMY MASS."
+de = ""
+
+[[text]]
+id = "M082_045"
+befehl = ["PRINTCLEAR"]
+en = "THE FLOOR IS LITTERED WITH BUBBLING ACIDICIUM CORPSES."
+de = ""
+
+[[text]]
+id = "M082_046"
+befehl = ["PRINTCLEAR"]
+en = "GUARD ROBOTS ZERO IN ON YOU. "
+de = ""
+
+[[text]]
+id = "M082_047"
+befehl = ["PRINTCLEAR"]
+en = "ROBOT BITS ARE SCATTERED ALL OVER THE ROOM."
+de = ""
+
+[[text]]
+id = "M082_048"
+befehl = ["PRINTCLEAR"]
+en = "THIS SECURITY DOOR OPENS WHEN YOU FIND THE CORRECT KEY IN YOUR KEYRING."
+de = ""
+
+[[text]]
+id = "M082_049"
+befehl = ["PRINTCLEAR"]
+en = "A SIGN ON THE DOOR READS: TO ELEVATOR"
+de = ""
+
+[[text]]
+id = "M082_050"
+befehl = ["PRINTCLEAR"]
+en = "THIS SECURITY DOOR IS IMPERVIOUS EVEN TO A DEMO CHARGE. IT WON'T OPEN."
+de = ""
+
+[[text]]
+id = "M082_051"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE MAIN EXIT FROM THE BASE, LEADING UP TO THE VENUSIAN JUNGLE. WILL YOU LEAVE THE BASE?"
+de = ""
+
+[[text]]
+id = "M082_052"
+befehl = ["PRINTCLEAR"]
+en = "BEYOND THIS DOOR LIES A DARK TUNNEL DRIPPING WITH ACID. ENTER THE TUNNEL?"
+de = ""
+
+[[text]]
+id = "M082_053"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDER SCIENTISTS WILL STAY HERE UNTIL YOU BRING WORD TO THEM FROM LANDON."
+de = ""
+
+[[text]]
+id = "M082_054"
+befehl = ["PRINTCLEAR"]
+en = "A GROUP OF LOWLANDER SCIENTISTS ARE IMPRISONED HERE. 'SSAVE USS FROM RAM!' THEY PLEAD."
+de = ""
+
+[[text]]
+id = "M082_055"
+befehl = ["PRINTCLEAR"]
+en = "'ANOTHER IN OUR GROUP, LANDON, ESCAPED. HE SEEKS AN ESCAPE ROUTE ON THE FOURTH LEVEL."
+de = ""
+
+[[text]]
+id = "M082_056"
+befehl = ["PRINTCLEAR"]
+en = "'HE'LL COME TO YOU IF HE HEARS YOU TAP THE VICTORY CODE ON THE WALL. WE'LL TEACH IT TO YOU.' YOU LEARN THE VICTORY CODE."
+de = ""
+
+[[text]]
+id = "M082_057"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDER SCIENTISTS HURRY TO MEET LANDON."
+de = ""
+
+[[text]]
+id = "M082_058"
+befehl = ["PRINTCLEAR"]
+en = "YOU TAP THE LOWLANDER CODE, AND LANDON CAUTIOUSLY APPROACHES. "
+de = ""
+
+[[text]]
+id = "M082_059"
+befehl = ["PRINTCLEAR"]
+en = "'PLEASSE GO TO TOWN AND RESCUE MY SSON, ZANE.' LANDON WILL DISCUSS NOTHING ELSE."
+de = ""
+
+[[text]]
+id = "M082_060"
+befehl = ["COMPARE"]
+en = "ZANE"
+de = ""
+
+[[text]]
+id = "M082_061"
+befehl = ["PRINTCLEAR"]
+en = "LANDON EMBRACES ZANE. 'MY SSON! THANK YOU FOR SSAVING HIM.' ZANE LEAVES THE TEAM TO REJOIN HIS FATHER."
+de = ""
+
+[[text]]
+id = "M082_062"
+befehl = ["PRINTCLEAR"]
+en = "'AS A REWARD, "
+de = ""
+
+[[text]]
+id = "M082_063"
+befehl = ["PRINT"]
+en = "I'LL TELL YOU WHERE I'VE HIDDEN ONE OF RAM'SS RETINAL LOCKPICKSS. IT ISS VERY IMPORTANT TO THHEM."
+de = ""
+
+[[text]]
+id = "M082_064"
+befehl = ["PRINTCLEAR"]
+en = "'THE LOCKPICK IS HIDDEN UNDER A FLOOR PANEL IN LABORATORY TWO, ON THE FIRST FLOOR. WHEN YOU GET IT, MEET ME BACK HHERE.'"
+de = ""
+
+[[text]]
+id = "M082_065"
+befehl = ["PRINTCLEAR"]
+en = "LANDON ASKS IF YOU'VE SEEN HIS SON, ZANE. YOU TELL HIM OF ZANE'S FATE AND HE REELS WITH GRIEF. 'AT LEASST YOU TRIED TO HHELP HHIM.'"
+de = ""
+
+[[text]]
+id = "M082_066"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M082_067"
+befehl = ["PRINTCLEAR"]
+en = "'GET THE RETINAL LOCKPICK. THHEN WE'LL FIND THE SSECRET TUNNEL.'"
+de = ""
+
+[[text]]
+id = "M082_068"
+befehl = ["PRINTCLEAR"]
+en = "'SSOMEWHERE ON THIS LEVEL IS A SSECRET DOOR. FIND IT AND MEET ME HHERE.'"
+de = ""
+
+[[text]]
+id = "M082_069"
+befehl = ["PRINTCLEAR"]
+en = "'YOU FOUND THE SSECRET DOOR! PLEASSE BRING THE OTHHER TECHHNICIANSS SSO WE CAN ESSCAPE!'"
+de = ""
+
+[[text]]
+id = "M082_070"
+befehl = ["PRINT"]
+en = "'PLEASSE BRING THE OTHHER TECHHNICIANSS HHERE.'"
+de = ""
+
+[[text]]
+id = "M082_071"
+befehl = ["PRINTCLEAR"]
+en = "LANDON APPROACHES. 'WE'RE LEAVING NOW. I'M SSORRY, BUT THE ACID IN THE TUNNEL ISS TOO STRONG FOR YOU TO FOLLOW. THHANK YOU FOR YOUR HHELP.'"
+de = ""
+
+[[text]]
+id = "M082_072"
+befehl = ["COMPARE"]
+en = "LEANDER"
+de = ""
+
+[[text]]
+id = "M082_073"
+befehl = ["PRINTCLEAR"]
+en = "LEANDER ADDRESSES YOU. 'I MUSST LEAVE YOU NOW AND SSTAY WITHH MY PEOPLE. I HHOPE YOU SSUCCEED IN YOUR MISSSION.'"
+de = ""
+
+[[text]]
+id = "M082_074"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS CONTACTS YOU BY RADIO. 'THERE'S NOT MUCH MORE TO DO HERE ON VENUS, SO MEET ME BACK AT THE SHIP AS SOON AS YOU CAN.'"
+de = ""
+
+[[text]]
+id = "M082_075"
+befehl = ["PRINTCLEAR"]
+en = "EXAMINING THE WALL CLOSELY, YOU FIND A CONCEALED LATCH. THIS MUST BE THE SECRET DOOR!"
+de = ""
+
+[[text]]
+id = "M082_076"
+befehl = ["PRINTCLEAR"]
+en = "UNDER A FLOOR PANEL YOU FIND A RAM RETINAL LOCKPICK! YOU NEVER WOULD HAVE FOUND IT WITHOUT LANDON'S DIRECTIONS."
+de = ""
+
+[[text]]
+id = "M082_077"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A RETINAL LOCKPICK."
+de = ""
+
+[[text]]
+id = "M082_078"
+befehl = ["PRINTCLEAR"]
+en = "THIS MEETING ROOM IS FULL OF RAM OFFICERS. THEY POINT WEAPONS AT YOU AND ORDER YOU TO SURRENDER. "
+de = ""
+
+[[text]]
+id = "M082_079"
+befehl = ["HMENU"]
+menue = true
+en = "SURRENDER"
+de = ""
+
+[[text]]
+id = "M082_080"
+befehl = ["HMENU"]
+menue = true
+en = "RUN"
+de = ""
+
+[[text]]
+id = "M082_081"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M082_082"
+befehl = ["PRINTCLEAR"]
+en = "CONFIDENTLY DRAWING YOUR WEAPONS, YOU WADE INTO THEIR MIDST."
+de = ""
+
+[[text]]
+id = "M082_083"
+befehl = ["PRINTCLEAR"]
+en = "YOU TURN AND RUN. THEY FIRE AFTER YOU, AND SOUND AN ALARM!"
+de = ""
+
+[[text]]
+id = "M082_084"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M082_085"
+befehl = ["PRINTCLEAR"]
+en = "THE OFFICERS VOTE UNANIMOUSLY FOR YOUR IMMEDIATE EXECUTION."
+de = ""
+
+[[text]]
+id = "M082_086"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M082_087"
+befehl = ["PRINTCLEAR"]
+en = "ACIDICIUM ARE BUSILY CONSUMING THE BODIES IN THIS ROOM. THEY LEAVE BEHIND SMOLDERING SKELETONS."
+de = ""
+
+[[text]]
+id = "M082_088"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS AN EIGHT-MAN RAM BARRACK."
+de = ""
+
+[[text]]
+id = "M082_089"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE INTERRUPTED SOME RAM OFFICERS. THEY LUNGE TOWARDS YOU."
+de = ""
+
+[[text]]
+id = "M082_090"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A SMALL OFFICE. "
+de = ""
+
+[[text]]
+id = "M082_091"
+befehl = ["PRINT"]
+en = "A FEW RAM ASSASSINS DRAW THEIR WEAPONS AND CHARGE YOU. "
+de = ""
+
+[[text]]
+id = "M082_092"
+befehl = ["PRINTCLEAR"]
+en = "THREE RAM WARRIORS REACH FOR THEIR WEAPONS, BUT HESITATE AFTER ASSESSING THE TEAM'S STRENGTH. YOU'RE AT A STAND OFF."
+de = ""
+
+[[text]]
+id = "M082_093"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M082_094"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M082_095"
+befehl = ["HMENU"]
+menue = true
+en = "INTIMIDATE THEM"
+de = ""
+
+[[text]]
+id = "M082_096"
+befehl = ["PRINTCLEAR"]
+en = "THE WARRIORS ARE ENCOURAGED BY YOUR OBVIOUS SHOW OF COWARDICE. THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M082_097"
+befehl = ["PRINTCLEAR"]
+en = "THE WARRIORS ARE ALARMED AND LOOK FOR A WAY TO ESCAPE."
+de = ""
+
+[[text]]
+id = "M082_098"
+befehl = ["PRINTCLEAR"]
+en = "'I'VE BEEN SCANNING THE RAM MAINFRAME. I FOUND REFERENCES TO THE DOOMSDAY DEVICE ON THE THIRD MERCURIAN MARIPOSA.'"
+de = ""
+
+[[text]]
+id = "M082_099"
+befehl = ["PRINTCLEAR"]
+en = "YOUR EFFORTS AT INTIMIDATION AMUSE THE WARRIORS. THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M082_100"
+befehl = ["PRINTCLEAR"]
+en = "THE WARRIORS ARE INTIMIDATED. THEY BEG FOR MERCY."
+de = ""
+
+[[text]]
+id = "M082_101"
+befehl = ["HMENU"]
+menue = true
+en = "SHOW MERCY"
+de = ""
+
+[[text]]
+id = "M082_102"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M082_103"
+befehl = ["PRINTCLEAR"]
+en = "THE WARRIORS CAN'T BE TRUSTED. YOU ATTACK."
+de = ""
+
+[[text]]
+id = "M082_104"
+befehl = ["PRINTCLEAR"]
+en = "YOU BIND AND GAG THE WARRIORS AND LOCK THEM IN THE CLOSET."
+de = ""
+
+[[text]]
+id = "M082_105"
+befehl = ["PRINTCLEAR"]
+en = "THREE RAM WARRIORS ARE BOUND AND GAGGED ON THE FLOOR OF THIS CLOSET."
+de = ""
+
+[[text]]
+id = "M082_106"
+befehl = ["HMENU"]
+menue = true
+en = "KILL THEM"
+de = ""
+
+[[text]]
+id = "M082_107"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M082_108"
+befehl = ["PRINTCLEAR"]
+en = "YOU SLAUGHTER THEM."
+de = ""
+
+[[text]]
+id = "M082_109"
+befehl = ["PRINTCLEAR"]
+en = "THREE DEAD RAM WARRIORS ARE ON THE FLOOR."
+de = ""
+
+[[text]]
+id = "M082_110"
+befehl = ["PRINTCLEAR"]
+en = "MAIN LAB "
+de = ""
+
+[[text]]
+id = "M082_111"
+befehl = ["PRINTCLEAR"]
+en = "LAB 2 "
+de = ""
+
+[[text]]
+id = "M082_112"
+befehl = ["PRINTCLEAR"]
+en = "LAB 3 "
+de = ""
+
+[[text]]
+id = "M082_113"
+befehl = ["PRINTCLEAR"]
+en = "BROKEN BEAKERS AND BITS OF EQUIPMENT LITTER THE FLOOR."
+de = ""
+
+[[text]]
+id = "M082_114"
+befehl = ["PRINTCLEAR"]
+en = "COMPUTER ROOM 1 "
+de = ""
+
+[[text]]
+id = "M082_115"
+befehl = ["PRINTCLEAR"]
+en = "COMPUTER ROOM 2 "
+de = ""
+
+[[text]]
+id = "M082_116"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS A DIRT FLOOR HERE, AND A DEEP ACID POOL. AN ACID PUMP NEARBY IS BADLY MANGLED. INVESTIGATE?"
+de = ""
+
+[[text]]
+id = "M082_117"
+befehl = ["PRINTCLEAR"]
+en = "URSADDERS THRASH OUT OF THE ACID TOWARDS YOU!"
+de = ""
+
+[[text]]
+id = "M082_118"
+befehl = ["PRINTCLEAR"]
+en = "AN ACID-FILLED TUNNEL LEADS TO THE JUNGLE. THE ACID IS SO STRONG THAT EVEN IF YOU SURVIVED, YOUR EQUIPMENT WOULD BE DESTROYED."
+de = ""

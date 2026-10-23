@@ -1,0 +1,971 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 50
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M050_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU PASS A SMALL ASTEROID WITH A PIRATE CRUISER LURKING IN ITS SHADOW. BEFORE YOU CAN REACT, THE CRUISER FIRES!"
+de = ""
+
+[[text]]
+id = "M050_001"
+befehl = ["PRINTCLEAR"]
+en = "YOUR ENGINES AND WEAPONS ARE BADLY DAMAGED. THE CRUISER CLOSES AND EXTENDS A BOARDING TUBE. "
+de = ""
+
+[[text]]
+id = "M050_002"
+befehl = ["HMENU"]
+menue = true
+en = "HAIL"
+de = ""
+
+[[text]]
+id = "M050_003"
+befehl = ["HMENU"]
+menue = true
+en = "RAM"
+de = ""
+
+[[text]]
+id = "M050_004"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M050_005"
+befehl = ["PRINTCLEAR"]
+en = "YOU RECEIVE A BROADCAST FROM THE ENEMY SHIP."
+de = ""
+
+[[text]]
+id = "M050_006"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY TO MANEUVER INTO RAMMING POSITION, BUT YOU ARE TOO SLOW. THEY BROADCAST A MESSAGE. "
+de = ""
+
+[[text]]
+id = "M050_007"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY TO FLEE, BUT THE OTHER SHIP IS FASTER. THEY BROADCAST A MESSAGE. "
+de = ""
+
+[[text]]
+id = "M050_008"
+befehl = ["PRINT"]
+en = "'SURRENDER OR DIE!'"
+de = ""
+
+[[text]]
+id = "M050_009"
+befehl = ["PRINTCLEAR"]
+en = "THE BOARDING TUBE CLANKS AGAINST YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M050_010"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK BOARDING PARTY"
+de = ""
+
+[[text]]
+id = "M050_011"
+befehl = ["HMENU"]
+menue = true
+en = "SURRENDER"
+de = ""
+
+[[text]]
+id = "M050_012"
+befehl = ["PRINTCLEAR"]
+en = "THE PIRATES LOVE NOTHING MORE THAN A GOOD FIGHT."
+de = ""
+
+[[text]]
+id = "M050_013"
+befehl = ["PRINTCLEAR"]
+en = "MORE PIRATES CHARGE TOWARDS YOU!"
+de = ""
+
+[[text]]
+id = "M050_014"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M050_015"
+befehl = ["HMENU"]
+menue = true
+en = "SURRENDER"
+de = ""
+
+[[text]]
+id = "M050_016"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M050_017"
+befehl = ["PRINTCLEAR"]
+en = "A FEW STUN GRENADES FLY INTO THE ROOM JUST BEFORE THE AIRLOCK DOOR SLAMS SHUT. THE ENTIRE TEAM PASSES OUT."
+de = ""
+
+[[text]]
+id = "M050_018"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE AWAKENED BY PIRATE GUARDS. AS YOUR HEAD CLEARS, YOU SEE THAT YOU ARE IMPRISONED IN A HOLDING CELL ON THE PIRATE SHIP."
+de = ""
+
+[[text]]
+id = "M050_019"
+befehl = ["PRINTCLEAR"]
+en = "A GUARD SAYS, 'TALON SUMMONS YOU.' HE OPENS THE DOOR AND ORDERS YOU TO FOLLOW."
+de = ""
+
+[[text]]
+id = "M050_020"
+befehl = ["PRINTCLEAR"]
+en = "YOU STEP OUT OF THE CELL."
+de = ""
+
+[[text]]
+id = "M050_021"
+befehl = ["HMENU"]
+menue = true
+en = "FOLLOW"
+de = ""
+
+[[text]]
+id = "M050_022"
+befehl = ["HMENU"]
+menue = true
+en = "RUN"
+de = ""
+
+[[text]]
+id = "M050_023"
+befehl = ["PRINTCLEAR"]
+en = "A MAN IN BATTLE ARMOR TOWERS OVER YOU. 'I AM TALON, PRISONERS, CAPTAIN OF THIS SHIP. RAM WILL PAY RICHLY FOR YOUR PITIFUL BAND.'"
+de = ""
+
+[[text]]
+id = "M050_024"
+befehl = ["PRINTCLEAR"]
+en = "HE SNEERS. 'HOWEVER, ONE OF YOU MAY CHALLENGE ME IN SINGLE COMBAT, TO WIN YOUR FREEDOM.'"
+de = ""
+
+[[text]]
+id = "M050_025"
+befehl = ["HMENU"]
+menue = true
+en = "ACCEPT"
+de = ""
+
+[[text]]
+id = "M050_026"
+befehl = ["HMENU"]
+menue = true
+en = "DECLINE"
+de = ""
+
+[[text]]
+id = "M050_027"
+befehl = ["WHO"]
+en = "WHO FIGHTS"
+de = ""
+
+[[text]]
+id = "M050_028"
+befehl = ["PRINTCLEAR"]
+en = "'I WAS BEATEN FAIRLY. YOU'VE WON YOUR FREEDOM.'"
+de = ""
+
+[[text]]
+id = "M050_029"
+befehl = ["PRINTCLEAR"]
+en = "A MAN BURSTS INTO THE ROOM. HE LOOKS AT "
+de = ""
+
+[[text]]
+id = "M050_030"
+befehl = ["PRINT"]
+en = ". 'CONGRATULATIONS! EVEN I WOULDN'T HAVE TRIED THAT.'"
+de = ""
+
+[[text]]
+id = "M050_031"
+befehl = ["PRINTCLEAR"]
+en = "'LET'S GET OUT OF HERE, BEFORE WE WEAR OUT OUR WELCOME.'"
+de = ""
+
+[[text]]
+id = "M050_032"
+befehl = ["PRINTCLEAR"]
+en = "THE AIRLOCK DOORS SLIDE OPEN AND YOU ENTER YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M050_033"
+befehl = ["PRINTCLEAR"]
+en = "YOU FLY BACK TO SALVATION."
+de = ""
+
+[[text]]
+id = "M050_034"
+befehl = ["PRINTCLEAR"]
+en = "BUCK LEAVES BEFORE YOU REACH SALVATION."
+de = ""
+
+[[text]]
+id = "M050_035"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARD SHRUGS AND RAISES A WEAPON. YOU ARE STUNNED AGAIN."
+de = ""
+
+[[text]]
+id = "M050_036"
+befehl = ["PRINTCLEAR"]
+en = "YOU AWAKEN ON THE BRIDGE."
+de = ""
+
+[[text]]
+id = "M050_037"
+befehl = ["PRINTCLEAR"]
+en = "'WEAKLINGS! GET THEM OFF MY BRIDGE. THEY'RE RAM'S PROBLEM NOW.'"
+de = ""
+
+[[text]]
+id = "M050_038"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARD RETURN YOU TO YOUR CELL."
+de = ""
+
+[[text]]
+id = "M050_039"
+befehl = ["PRINTCLEAR"]
+en = "'YOU CAN ROT HERE UNTIL RAM CLAIMS YOU.' THE GUARDS LEAVE."
+de = ""
+
+[[text]]
+id = "M050_040"
+befehl = ["PRINTCLEAR"]
+en = "THIS AIRLOCK HAS BEEN SEALED FOR SPACE TRAVEL. IT CAN ONLY BE OPENED THROUGH ENGINEERING."
+de = ""
+
+[[text]]
+id = "M050_041"
+befehl = ["PRINTCLEAR"]
+en = "THE AIRLOCK DOORS OPEN INTO YOUR SHIP. 'WE MUST RETURN TO SALVATION.' HE HURRIES YOU ABOARD."
+de = ""
+
+[[text]]
+id = "M050_042"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS REPORTS, 'I'VE GOTTEN INFORMATION FROM THE PIRATE'S COMPUTER."
+de = ""
+
+[[text]]
+id = "M050_043"
+befehl = ["PRINTCLEAR"]
+en = "'TALON HAS ECG CANISTERS STASHED IN A SECRET BASE SOMEWHERE IN THE BELT. WE SHOULD DESTROY THEM BEFORE THEY HATCH!"
+de = ""
+
+[[text]]
+id = "M050_044"
+befehl = ["PRINTCLEAR"]
+en = "'I FOUND RECORDS OF A 'GARRITY' THAT JUMPED SHIP ON PALLAS, MAYBE HE KNOWS WHERE THE BASE IS.'"
+de = ""
+
+[[text]]
+id = "M050_045"
+befehl = ["PRINTCLEAR"]
+en = "'THE BRIDGE IS TOO HEAVILY GUARDED! STORMING IT WOULD BE SUICIDE!' "
+de = ""
+
+[[text]]
+id = "M050_046"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE FORWARD"
+de = ""
+
+[[text]]
+id = "M050_047"
+befehl = ["HMENU"]
+menue = true
+en = "STAY BACK"
+de = ""
+
+[[text]]
+id = "M050_048"
+befehl = ["PRINTCLEAR"]
+en = "BUCK GROANS TO HIMSELF BUT CHARGES WITH THE TEAM."
+de = ""
+
+[[text]]
+id = "M050_049"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE DEFEATED TALON AND CAPTURED THE BRIDGE."
+de = ""
+
+[[text]]
+id = "M050_050"
+befehl = ["PRINTCLEAR"]
+en = "TALON IS ON THE BRIDGE WITH HIS PIRATES."
+de = ""
+
+[[text]]
+id = "M050_051"
+befehl = ["PRINT"]
+en = " 'WHAT'S THAT I HEAR?' HE LAUGHS. 'COWARDLY MICE ON THE STAIRS!'"
+de = ""
+
+[[text]]
+id = "M050_052"
+befehl = ["PRINTCLEAR"]
+en = "YOU HIDE IN THE STAIRWAY."
+de = ""
+
+[[text]]
+id = "M050_053"
+befehl = ["PRINTCLEAR"]
+en = "TALON IS HERE, WITH THE LAST OF HIS PIRATES."
+de = ""
+
+[[text]]
+id = "M050_054"
+befehl = ["PRINTCLEAR"]
+en = "'LET'S FIND A WAY TO THIN OUT ALL THOSE GUARDS BEFORE WE JUST BARGE IN HERE.' "
+de = ""
+
+[[text]]
+id = "M050_055"
+befehl = ["PRINTCLEAR"]
+en = "THE ENGINEERING DECK LOOKS ESPECIALLY WELL GUARDED. "
+de = ""
+
+[[text]]
+id = "M050_056"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE FORWARD"
+de = ""
+
+[[text]]
+id = "M050_057"
+befehl = ["HMENU"]
+menue = true
+en = "STAY BACK"
+de = ""
+
+[[text]]
+id = "M050_058"
+befehl = ["PRINTCLEAR"]
+en = "THE ENGINEERING DECK IS ABANDONED."
+de = ""
+
+[[text]]
+id = "M050_059"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARDS ON THE ENGINEERING DECK LOOK DISORGANIZED AND CONFUSED. "
+de = ""
+
+[[text]]
+id = "M050_060"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE FORWARD"
+de = ""
+
+[[text]]
+id = "M050_061"
+befehl = ["HMENU"]
+menue = true
+en = "STAY BACK"
+de = ""
+
+[[text]]
+id = "M050_062"
+befehl = ["PRINTCLEAR"]
+en = "YOUR TEAM IS ALONE ON THE ENGINEERING DECK."
+de = ""
+
+[[text]]
+id = "M050_063"
+befehl = ["PRINTCLEAR"]
+en = "YOUR TEAM IS ALONE ON THE ENGINEERING DECK."
+de = ""
+
+[[text]]
+id = "M050_064"
+befehl = ["PRINTCLEAR"]
+en = "YOU RETREAT TO THE STAIRWAY."
+de = ""
+
+[[text]]
+id = "M050_065"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A SMALL HOLDING CELL. "
+de = ""
+
+[[text]]
+id = "M050_066"
+befehl = ["PRINT"]
+en = "NO GUARDS ARE IN SIGHT. "
+de = ""
+
+[[text]]
+id = "M050_067"
+befehl = ["WHMENU"]
+menue = true
+en = "BYPASS"
+de = ""
+
+[[text]]
+id = "M050_068"
+befehl = ["WHMENU"]
+menue = true
+en = "REPROGRAM"
+de = ""
+
+[[text]]
+id = "M050_069"
+befehl = ["WHMENU"]
+menue = true
+en = "WAIT"
+de = ""
+
+[[text]]
+id = "M050_070"
+befehl = ["WHO"]
+en = "WHO TRIES TO BYPASS SECURITY?"
+de = ""
+
+[[text]]
+id = "M050_071"
+befehl = ["PRINTCLEAR"]
+en = "THE FIELD IS STILL ACTIVE."
+de = ""
+
+[[text]]
+id = "M050_072"
+befehl = ["WHO"]
+en = "WHO TRIES TO REPROGRAM THE FIELD?"
+de = ""
+
+[[text]]
+id = "M050_073"
+befehl = ["PRINTCLEAR"]
+en = "THE FIELD IS STILL ACTIVE."
+de = ""
+
+[[text]]
+id = "M050_074"
+befehl = ["PRINT"]
+en = " DISABLES THE SECURITY FIELD."
+de = ""
+
+[[text]]
+id = "M050_075"
+befehl = ["PRINTCLEAR"]
+en = "BEFORE YOU STANDS A PERSON WHO, UNTIL NOW, YOU'VE ONLY READ ABOUT."
+de = ""
+
+[[text]]
+id = "M050_076"
+befehl = ["PRINTCLEAR"]
+en = "'I'LL JOIN YOUR TEAM UNTIL WE MAKE IT OFF THIS SHIP. I BROUGHT YOUR EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M050_077"
+befehl = ["PRINTCLEAR"]
+en = "'WE NEED TO DISABLE THIS SHIP, BUT A FRONTAL ASSAULT ON ENGINEERING WOULD BE SUICIDE."
+de = ""
+
+[[text]]
+id = "M050_078"
+befehl = ["PRINTCLEAR"]
+en = "'TALON'S CABIN IS ON LEVEL TWO. MAYBE SOMETHING USEFUL IS THERE."
+de = ""
+
+[[text]]
+id = "M050_079"
+befehl = ["PRINTCLEAR"]
+en = "'I ALSO HID SOME EXTRA EQUIPMENT IN THE LAST CELL TO THE RIGHT.'"
+de = ""
+
+[[text]]
+id = "M050_080"
+befehl = ["PRINTCLEAR"]
+en = "YOU WAIT. A FEW MOMENTS PASS..."
+de = ""
+
+[[text]]
+id = "M050_081"
+befehl = ["PRINTCLEAR"]
+en = "THE SECURITY FIELD FLICKERS AND DIMS."
+de = ""
+
+[[text]]
+id = "M050_082"
+befehl = ["PRINTCLEAR"]
+en = "'I HID SOME EQUIPMENT HERE.'"
+de = ""
+
+[[text]]
+id = "M050_083"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE ON A STAIRCASE. A SIGN READS: LEVEL "
+de = ""
+
+[[text]]
+id = "M050_084"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M050_085"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M050_086"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M050_087"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M050_088"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M050_089"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M050_090"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M050_091"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M050_092"
+befehl = ["PRINTCLEAR"]
+en = "LEVEL 4"
+de = ""
+
+[[text]]
+id = "M050_093"
+befehl = ["PRINTCLEAR"]
+en = "LEVEL 1"
+de = ""
+
+[[text]]
+id = "M050_094"
+befehl = ["PRINTCLEAR"]
+en = "LEVEL 2"
+de = ""
+
+[[text]]
+id = "M050_095"
+befehl = ["PRINTCLEAR"]
+en = "LEVEL 3"
+de = ""
+
+[[text]]
+id = "M050_096"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE CLINIC. THE AUTODOC IS A SMOKING WRECK."
+de = ""
+
+[[text]]
+id = "M050_097"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE CLINIC. AN AUTODOC STANDS BEFORE YOU."
+de = ""
+
+[[text]]
+id = "M050_098"
+befehl = ["HMENU"]
+menue = true
+en = "REPROGRAM DOC"
+de = ""
+
+[[text]]
+id = "M050_099"
+befehl = ["HMENU"]
+menue = true
+en = "HEAL TEAM"
+de = ""
+
+[[text]]
+id = "M050_100"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M050_101"
+befehl = ["PRINTCLEAR"]
+en = "THE DOC HAS ALREADY BEEN REPROGRAMMED."
+de = ""
+
+[[text]]
+id = "M050_102"
+befehl = ["WHO"]
+en = "WHO REPROGRAMS THE DOC?"
+de = ""
+
+[[text]]
+id = "M050_103"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC WILL NOW ACCEPT YOU AS PATIENTS."
+de = ""
+
+[[text]]
+id = "M050_104"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC'S SENSORS SCAN OVER YOU AND ALARMS FLASH. 'INTRUDER ALERT!'"
+de = ""
+
+[[text]]
+id = "M050_105"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU RETREAT?"
+de = ""
+
+[[text]]
+id = "M050_106"
+befehl = ["PRINTCLEAR"]
+en = "PIRATES RESPOND TO THE ALARM!"
+de = ""
+
+[[text]]
+id = "M050_107"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC WAS DESTROYED IN THE BATTLE."
+de = ""
+
+[[text]]
+id = "M050_108"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE ENTERED A MEDICAL SUPPLY ROOM."
+de = ""
+
+[[text]]
+id = "M050_109"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE ENTERED A CABIN. "
+de = ""
+
+[[text]]
+id = "M050_110"
+befehl = ["PRINT"]
+en = "PIRATES ATTACK!"
+de = ""
+
+[[text]]
+id = "M050_111"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE ENTERED THE DINING AREA. THE PIRATES WOULD MUCH RATHER FIGHT THAN EAT."
+de = ""
+
+[[text]]
+id = "M050_112"
+befehl = ["PRINTCLEAR"]
+en = "GARBAGE AND ROTTING FOOD ARE STREWN THROUGHOUT THE GALLEY."
+de = ""
+
+[[text]]
+id = "M050_113"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WIRE THE ROOM TO BLOW?"
+de = ""
+
+[[text]]
+id = "M050_114"
+befehl = ["PRINTCLEAR"]
+en = "YOU NEED DEMO CHARGES."
+de = ""
+
+[[text]]
+id = "M050_115"
+befehl = ["PRINTCLEAR"]
+en = "YOU RIG A DEMO CHARGE ON A SHORT FUSE AND RUN."
+de = ""
+
+[[text]]
+id = "M050_116"
+befehl = ["PRINTCLEAR"]
+en = "FOR A LONG MOMENT, ALL IS STILL."
+de = ""
+
+[[text]]
+id = "M050_117"
+befehl = ["PRINTCLEAR"]
+en = "ALARMS SOUND THROUGHOUT THE SHIP, AND THE OVERHEAD LIGHTS FLICKER."
+de = ""
+
+[[text]]
+id = "M050_118"
+befehl = ["PRINTCLEAR"]
+en = "THE GALLEY IS IN RUINS."
+de = ""
+
+[[text]]
+id = "M050_119"
+befehl = ["PRINTCLEAR"]
+en = "TALON'S ROOM IS DECORATED WITH GROTESQUE WAR TROPHIES. A COMPUTER DOMINATES THE ROOM."
+de = ""
+
+[[text]]
+id = "M050_120"
+befehl = ["PRINTCLEAR"]
+en = "WILL ANYONE TRY TO USE THE COMPUTER?"
+de = ""
+
+[[text]]
+id = "M050_121"
+befehl = ["WHO"]
+en = "WHO TRIES TO USE THE COMPUTER?"
+de = ""
+
+[[text]]
+id = "M050_122"
+befehl = ["PRINTCLEAR"]
+en = "THAT PERSON CAN'T!"
+de = ""
+
+[[text]]
+id = "M050_123"
+befehl = ["PRINTCLEAR"]
+en = "ONLY GARBAGE SCROLLS OVER THE SCREEN."
+de = ""
+
+[[text]]
+id = "M050_124"
+befehl = ["PRINTCLEAR"]
+en = "'LOOKS LIKE YOU'RE HAVING TROUBLE THERE. DO YOU WANT ME TO TRY?'"
+de = ""
+
+[[text]]
+id = "M050_125"
+befehl = ["PRINTCLEAR"]
+en = "THE COMPUTER DISPLAYS A SCHEMATIC OF THE PIRATE SHIP'S LAYOUT."
+de = ""
+
+[[text]]
+id = "M050_126"
+befehl = ["PRINTCLEAR"]
+en = "EXPLOSIVES IN THE GALLEY COULD DESTROY THE COMMUNICATION AND SECURITY SYSTEMS..."
+de = ""
+
+[[text]]
+id = "M050_127"
+befehl = ["PRINTCLEAR"]
+en = "CAUSING CHAOS THROUGHOUT THE SHIP AND MAKING ENGINEERING, LEVEL 4, VULNERABLE."
+de = ""
+
+[[text]]
+id = "M050_128"
+befehl = ["PRINTCLEAR"]
+en = "YOU ENTER THE ARMORY."
+de = ""
+
+[[text]]
+id = "M050_129"
+befehl = ["PRINT"]
+en = " GUARDS ATTACK!"
+de = ""
+
+[[text]]
+id = "M050_130"
+befehl = ["PRINTCLEAR"]
+en = "'GEAR UP, EVERYONE!'"
+de = ""
+
+[[text]]
+id = "M050_131"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMASH PANELS AND CONTROLS!"
+de = ""
+
+[[text]]
+id = "M050_132"
+befehl = ["PRINTCLEAR"]
+en = "THE POWER PLANT IS STILL HUMMING."
+de = ""
+
+[[text]]
+id = "M050_133"
+befehl = ["PRINTCLEAR"]
+en = "THESE PANELS ARE SMASHED."
+de = ""
+
+[[text]]
+id = "M050_134"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMASH PANELS AND CONTROLS!"
+de = ""
+
+[[text]]
+id = "M050_135"
+befehl = ["PRINTCLEAR"]
+en = "THE POWER PLANT IS STILL HUMMING."
+de = ""
+
+[[text]]
+id = "M050_136"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMASH PANELS AND CONTROLS!"
+de = ""
+
+[[text]]
+id = "M050_137"
+befehl = ["PRINTCLEAR"]
+en = "THE POWER PLANT IS STILL HUMMING."
+de = ""
+
+[[text]]
+id = "M050_138"
+befehl = ["PRINTCLEAR"]
+en = "A KLAXON SOUNDS. THE POWER PLANT SQUEALS, THEN FALLS SILENT."
+de = ""
+
+[[text]]
+id = "M050_139"
+befehl = ["PRINTCLEAR"]
+en = "'LET'S GET OUT OF HERE. THE BOARDING TUBE IS ON LEVEL 2.'"
+de = ""
+
+[[text]]
+id = "M050_140"
+befehl = ["PRINTCLEAR"]
+en = "THE BRIDGE CONTROLS WERE DAMAGED IN THE BATTLE."
+de = ""
+
+[[text]]
+id = "M050_141"
+befehl = ["COMPARE"]
+en = "BUCK ROGERS"
+de = ""
+
+[[text]]
+id = "M050_142"
+befehl = ["PRINTCLEAR"]
+en = "'I'M CAPTAIN ROGERS. YOU CAN CALL ME BUCK. I SAW YOU WERE IN TROUBLE SO I SNUCK ABOARD TO HELP OUT."
+de = ""
+
+[[text]]
+id = "M050_143"
+befehl = ["PRINTCLEAR"]
+en = "THE ENTRANCE TO TALON'S QUARTERS APPEARS TO BE TRAPPED. TRY TO DISABLE THE SECURITY?"
+de = ""
+
+[[text]]
+id = "M050_144"
+befehl = ["PRINTCLEAR"]
+en = "BUCK WANDERS OFF FOR A MOMENT."
+de = ""
+
+[[text]]
+id = "M050_145"
+befehl = ["WHO"]
+en = "WHO WILL TRY?"
+de = ""
+
+[[text]]
+id = "M050_146"
+befehl = ["PRINTCLEAR"]
+en = "THAT PERSON CAN'T!"
+de = ""
+
+[[text]]
+id = "M050_147"
+befehl = ["PRINTCLEAR"]
+en = "AN ALARM GOES OFF!"
+de = ""
+
+[[text]]
+id = "M050_148"
+befehl = ["PRINTCLEAR"]
+en = "'WAIT! LOOK, THE DOOR IS TRAPPED. SHOULD I TRY TO OPEN IT OR WOULD YOU LIKE TO?'"
+de = ""
+
+[[text]]
+id = "M050_149"
+befehl = ["HMENU"]
+menue = true
+en = "YOU TRY"
+de = ""
+
+[[text]]
+id = "M050_150"
+befehl = ["HMENU"]
+menue = true
+en = "BUCK TRIES"
+de = ""
+
+[[text]]
+id = "M050_151"
+befehl = ["PRINTCLEAR"]
+en = "YOU DISABLED THE SECURITY! THE DOOR UNLOCKS."
+de = ""
+
+[[text]]
+id = "M050_152"
+befehl = ["PRINTCLEAR"]
+en = "BUCK FIDDLES WITH THE CONTROL PANEL. 'GOT IT! IT'S SAFE NOW.'"
+de = ""
+
+[[text]]
+id = "M050_153"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR VOICES WITHIN THE ROOM. ENTER ANYWAY?"
+de = ""
+
+[[text]]
+id = "M050_154"
+befehl = ["PRINTCLEAR"]
+en = "'I HEAR VOICES IN THERE. SHOULD WE BURST IN AND SURPRISE THEM?'"
+de = ""
+
+[[text]]
+id = "M050_155"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC QUICKLY HEALS THE TEAM."
+de = ""

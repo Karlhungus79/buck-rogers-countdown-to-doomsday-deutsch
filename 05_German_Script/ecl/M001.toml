@@ -1,0 +1,163 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 1
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M001_000"
+befehl = ["PRINTCLEAR"]
+en = "FIGHT HERE?"
+de = ""
+
+[[text]]
+id = "M001_001"
+befehl = ["PRINTCLEAR"]
+en = "GIVE ALL NUMBERS IN DECIMAL."
+de = ""
+
+[[text]]
+id = "M001_002"
+befehl = ["PRINT"]
+en = "STARTING RANGE? (0 - 2)"
+de = ""
+
+[[text]]
+id = "M001_003"
+befehl = ["PRINTCLEAR"]
+en = "WHAT IS THE ATTACK LOCATION NUMBER?"
+de = ""
+
+[[text]]
+id = "M001_004"
+befehl = ["PRINT"]
+en = "(0-15, 0 = NORMAL)"
+de = ""
+
+[[text]]
+id = "M001_005"
+befehl = ["PRINTCLEAR"]
+en = "TOO HIGH."
+de = ""
+
+[[text]]
+id = "M001_006"
+befehl = ["PRINTCLEAR"]
+en = "INDOOR COMBAT?"
+de = ""
+
+[[text]]
+id = "M001_007"
+befehl = ["PRINTCLEAR"]
+en = "INPUT WALLTYPE IN DECIMAL"
+de = ""
+
+[[text]]
+id = "M001_008"
+befehl = ["PRINTCLEAR"]
+en = "WHICH WILDERNESS?"
+de = ""
+
+[[text]]
+id = "M001_009"
+befehl = ["HMENU"]
+menue = true
+en = "MARS"
+de = ""
+
+[[text]]
+id = "M001_010"
+befehl = ["HMENU"]
+menue = true
+en = "VENUS"
+de = ""
+
+[[text]]
+id = "M001_011"
+befehl = ["PRINTCLEAR"]
+en = "INPUT LANDTYPE BYTE."
+de = ""
+
+[[text]]
+id = "M001_012"
+befehl = ["PRINTCLEAR"]
+en = "WHAT MONSTER?"
+de = ""
+
+[[text]]
+id = "M001_013"
+befehl = ["PRINTCLEAR"]
+en = "WHAT COMPIC?"
+de = ""
+
+[[text]]
+id = "M001_014"
+befehl = ["PRINTCLEAR"]
+en = "HOW MANY?"
+de = ""
+
+[[text]]
+id = "M001_015"
+befehl = ["PRINTCLEAR"]
+en = "ANOTHER MONSTER?"
+de = ""
+
+[[text]]
+id = "M001_016"
+befehl = ["PRINTCLEAR"]
+en = "WHAT MONSTER?"
+de = ""
+
+[[text]]
+id = "M001_017"
+befehl = ["PRINTCLEAR"]
+en = "WHAT COMPIC?"
+de = ""
+
+[[text]]
+id = "M001_018"
+befehl = ["PRINTCLEAR"]
+en = "HOW MANY?"
+de = ""
+
+[[text]]
+id = "M001_019"
+befehl = ["PRINTCLEAR"]
+en = "ANOTHER MONSTER?"
+de = ""
+
+[[text]]
+id = "M001_020"
+befehl = ["PRINTCLEAR"]
+en = "WHAT MONSTER?"
+de = ""
+
+[[text]]
+id = "M001_021"
+befehl = ["PRINTCLEAR"]
+en = "WHAT COMPIC?"
+de = ""
+
+[[text]]
+id = "M001_022"
+befehl = ["PRINTCLEAR"]
+en = "HOW MANY?"
+de = ""
+
+[[text]]
+id = "M001_023"
+befehl = ["PRINTCLEAR"]
+en = "RETURN TO JUMPER?"
+de = ""
+
+[[text]]
+id = "M001_024"
+befehl = ["HMENU"]
+menue = true
+en = "NO"
+de = ""
+
+[[text]]
+id = "M001_025"
+befehl = ["HMENU"]
+menue = true
+en = "YES"
+de = ""

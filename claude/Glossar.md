@@ -1,6 +1,7 @@
 # Glossar – Grundsätze und Stand
 
-Stand: 21.10.2026 – **Glossar abgenommen: Grundsätze G1–G9 und alle 186 Listeneinträge = A.**
+Stand: 23.10.2026 – **Glossar abgenommen (21.10.2026): Grundsätze G1–G9 und alle 186 Listeneinträge = A.**
+Ausnahme: G1 (und damit G2) wieder offen seit 23.10.2026, siehe `Zeichensatz.md`.
 
 Listen (Excel, Semikolon, UTF-8) in `05_German_Script\Glossar\`:
 
@@ -20,7 +21,7 @@ Eine Entscheidung gilt erst, wenn sie hier und in der Spalte „Entscheidung“ 
 
 | Nr | Frage | A (Empfehlung) | B | C |
 |---|---|---|---|---|
-| G1 | Schreibung der Dialoge | **Groß-/Kleinschreibung** wie normales Deutsch (Kleinbuchstaben sind im Font vorhanden, Systemtexte nutzen sie schon) – besser lesbar, Substantive erkennbar | ALLES GROSS wie im Original | – |
+| G1 | Schreibung der Dialoge | **Groß-/Kleinschreibung** wie normales Deutsch (~~Kleinbuchstaben sind im Font vorhanden~~ – falsch, Korrektur 23.10.2026 in `Zeichensatz.md`) – besser lesbar, Substantive erkennbar | ALLES GROSS wie im Original | – |
 | G2 | ß | ß als eigene Kachel (bei G1 = A) | „SS“ (bei G1 = B üblich) | – |
 | G3 | Anrede der Gruppe durch NEO, Verbündete | **„ihr“** (Kameraden im Widerstand) | „Sie“ | – |
 | G4 | Anrede durch Fremde, Behörden, RAM, Händler | **„Sie“** | „ihr“ | – |
@@ -62,7 +63,7 @@ Hinweise:
 
 | Nr | Entscheidung | Status |
 |---|---|---|
-| G1 | Dialoge in normaler Groß-/Kleinschreibung | entschieden; Darstellung von Kleinbuchstaben im Dialogfenster **im Spieltest prüfen** |
+| G1 | Dialoge in normaler Groß-/Kleinschreibung | **wieder offen (23.10.2026):** Die Schrift hat keine Kleinbuchstaben, die Begründung „im Font vorhanden“ war falsch. Neue Vorlage A/B in `Zeichensatz.md` |
 | G2 | ß als eigenes Zeichen (neue Kachel) | entschieden |
 | G3 | NEO, Verbündete und Erzähltext sprechen das Team mit „ihr“ an („Ihr seht …“) | entschieden |
 | G4 | Fremde, Behörden, Händler, RAM: „Sie“ | entschieden |

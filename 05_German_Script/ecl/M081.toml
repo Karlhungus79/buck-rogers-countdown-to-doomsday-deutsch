@@ -1,0 +1,684 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 81
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M081_000"
+befehl = ["PRINTCLEAR"]
+en = "DEAD LOWLANDERS LITTER THE GROUND OF THIS NATIVE TOWN. THE BODIES ALL BEAR THE MARKS OF LASER FIRE."
+de = ""
+
+[[text]]
+id = "M081_001"
+befehl = ["PRINT"]
+en = " A BABY CRIES IN THE DISTANCE."
+de = ""
+
+[[text]]
+id = "M081_002"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE AT THE MAIN GATE. "
+de = ""
+
+[[text]]
+id = "M081_003"
+befehl = ["PRINT"]
+en = "YOU HEAR A BABY CRYING. "
+de = ""
+
+[[text]]
+id = "M081_004"
+befehl = ["PRINT"]
+en = "LEAVE THE TOWN?"
+de = ""
+
+[[text]]
+id = "M081_005"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR A CHILD CRYING."
+de = ""
+
+[[text]]
+id = "M081_006"
+befehl = ["PRINTCLEAR"]
+en = "LOWLANDER CORPSES ARE SPRAWLED ALL OVER."
+de = ""
+
+[[text]]
+id = "M081_007"
+befehl = ["PRINTCLEAR"]
+en = "SWAMP HORNETS COVER THE BODIES HERE."
+de = ""
+
+[[text]]
+id = "M081_008"
+befehl = ["PRINTCLEAR"]
+en = "A POOL OF BLOOD HERE IS DRYING QUICKLY."
+de = ""
+
+[[text]]
+id = "M081_009"
+befehl = ["PRINTCLEAR"]
+en = "YOU SENSE THAT YOU'RE BEING WATCHED."
+de = ""
+
+[[text]]
+id = "M081_010"
+befehl = ["PRINTCLEAR"]
+en = "AN ACID FROG GOGGLES ITS EYES AT YOU."
+de = ""
+
+[[text]]
+id = "M081_011"
+befehl = ["PRINTCLEAR"]
+en = "HERE'S A BODY OF A RAM WARRIOR CRUSHED BY A GIANT "
+de = ""
+
+[[text]]
+id = "M081_012"
+befehl = ["PRINT"]
+en = "ACID FROG."
+de = ""
+
+[[text]]
+id = "M081_013"
+befehl = ["PRINTCLEAR"]
+en = "A RAM HIT TEAM SPOTS YOU AND ATTACKS!"
+de = ""
+
+[[text]]
+id = "M081_014"
+befehl = ["PRINTCLEAR"]
+en = "ACID FROGS COME TO YOUR AID."
+de = ""
+
+[[text]]
+id = "M081_015"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS AN ACID FROG STOCKADE. THE FROGS HAVE BEEN MADDENED BY THE SOUNDS OF BATTLE."
+de = ""
+
+[[text]]
+id = "M081_016"
+befehl = ["PRINTCLEAR"]
+en = "WILL YOU FREE THE ACID FROGS?"
+de = ""
+
+[[text]]
+id = "M081_017"
+befehl = ["PRINTCLEAR"]
+en = "STAMPEDE!"
+de = ""
+
+[[text]]
+id = "M081_018"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS HOP DIRECTLY ONTO AND THROUGH YOUR TEAM. "
+de = ""
+
+[[text]]
+id = "M081_019"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M081_020"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS STAMPEDE AROUND YOU. YOU HEAR HOWLS OF FEAR AS THE FROGS DISCOVER AND ATTACK HIDDEN RAM FIGHTERS."
+de = ""
+
+[[text]]
+id = "M081_021"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS SENSE THAT YOU ARE ENEMIES, AND SOME OF THEM TURN ON YOU."
+de = ""
+
+[[text]]
+id = "M081_022"
+befehl = ["PRINTCLEAR"]
+en = "BATTLE-CRAZED ACID FROGS ATTACK!"
+de = ""
+
+[[text]]
+id = "M081_023"
+befehl = ["PRINTCLEAR"]
+en = "THE STOCKADE IS EMPTY. THE ACID FROGS ARE SCATTERED ALL OVER TOWN. "
+de = ""
+
+[[text]]
+id = "M081_024"
+befehl = ["PRINT"]
+en = "YOU HEAR A CHILD CRYING TO THE NORTH."
+de = ""
+
+[[text]]
+id = "M081_025"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A SUPPLY SHED. "
+de = ""
+
+[[text]]
+id = "M081_026"
+befehl = ["PRINT"]
+en = "YOU FIND A LARGE CANVAS BAG."
+de = ""
+
+[[text]]
+id = "M081_027"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE IT"
+de = ""
+
+[[text]]
+id = "M081_028"
+befehl = ["HMENU"]
+menue = true
+en = "OPEN IT"
+de = ""
+
+[[text]]
+id = "M081_029"
+befehl = ["HMENU"]
+menue = true
+en = "TAKE IT"
+de = ""
+
+[[text]]
+id = "M081_030"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE NAUSEATED BY THE ACID FROG FOOD INSIDE. WHAT WILL YOU DO WITH THE BAG?"
+de = ""
+
+[[text]]
+id = "M081_031"
+befehl = ["HMENU"]
+menue = true
+en = "PICK IT UP"
+de = ""
+
+[[text]]
+id = "M081_032"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE IT"
+de = ""
+
+[[text]]
+id = "M081_033"
+befehl = ["HMENU"]
+menue = true
+en = "TASTE FOOD"
+de = ""
+
+[[text]]
+id = "M081_034"
+befehl = ["PRINTCLEAR"]
+en = "YOU TAKE THE BAG OF FROGFOOD."
+de = ""
+
+[[text]]
+id = "M081_035"
+befehl = ["PRINTCLEAR"]
+en = "EVERYONE CHOKES AND GAGS!!"
+de = ""
+
+[[text]]
+id = "M081_036"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M081_037"
+befehl = ["PRINTCLEAR"]
+en = "WHAT WILL YOU DO WITH THE FROGFOOD?"
+de = ""
+
+[[text]]
+id = "M081_038"
+befehl = ["HMENU"]
+menue = true
+en = "TAKE THE BAG"
+de = ""
+
+[[text]]
+id = "M081_039"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE THE BAG"
+de = ""
+
+[[text]]
+id = "M081_040"
+befehl = ["PRINTCLEAR"]
+en = "A TINY LOWLANDER STOPS CRYING AND BEGINS TO BABBLE IN A LANGUAGE YOU DON'T RECOGNIZE."
+de = ""
+
+[[text]]
+id = "M081_041"
+befehl = ["COMPARE"]
+en = "LEANDER"
+de = ""
+
+[[text]]
+id = "M081_042"
+befehl = ["PRINTCLEAR"]
+en = "YOU CAN'T UNDERSTAND THE LITTLE LOWLANDER'S WORDS, BUT IT OBVIOUSLY WANTS TO JOIN YOU."
+de = ""
+
+[[text]]
+id = "M081_043"
+befehl = ["PRINTCLEAR"]
+en = "LEANDER TRANSLATES. 'HHE WANTSS USS TO HHELP HHIM FIND HHIS FATHER.'"
+de = ""
+
+[[text]]
+id = "M081_044"
+befehl = ["PRINTCLEAR"]
+en = "WILL YOU TAKE THE BABY LOWLANDER INTO YOUR TEAM?"
+de = ""
+
+[[text]]
+id = "M081_045"
+befehl = ["PRINTCLEAR"]
+en = "DESPITE YOUR WISHES, THE BABY TAGS ALONG AFTER YOU. IT WILL FOLLOW YOU EVERYWHERE."
+de = ""
+
+[[text]]
+id = "M081_046"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A STOREROOM. YOU SEE THROUGH THE WINDOW THAT IT'S OVERRUN WITH SWAMP HORNETS."
+de = ""
+
+[[text]]
+id = "M081_047"
+befehl = ["PRINTCLEAR"]
+en = "ENTER ANYWAY?"
+de = ""
+
+[[text]]
+id = "M081_048"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR TO THIS STOREROOM HAS BEEN TRAMPLED TO THE GROUND."
+de = ""
+
+[[text]]
+id = "M081_049"
+befehl = ["PRINTCLEAR"]
+en = "ACID FROGS NOW INFEST THE STOREROOM. THE SUPPLIES ARE COATED WITH ACID SLIME FROM THE FROGS."
+de = ""
+
+[[text]]
+id = "M081_050"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS IGNORE YOU."
+de = ""
+
+[[text]]
+id = "M081_051"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS STARE AT YOUR BAG OF FROGFOOD AND GOGGLE THEIR EYES HOPEFULLY. FEED THE FROGS?"
+de = ""
+
+[[text]]
+id = "M081_052"
+befehl = ["PRINTCLEAR"]
+en = "THE ACID FROGS GOBBLE THE FOOD."
+de = ""
+
+[[text]]
+id = "M081_053"
+befehl = ["PRINTCLEAR"]
+en = "THE STOREROOM IS FULL OF HUNGRY-LOOKING ACID FROGS."
+de = ""
+
+[[text]]
+id = "M081_054"
+befehl = ["PRINTCLEAR"]
+en = "SWAMP HORNETS SWARM TOWARDS YOU!"
+de = ""
+
+[[text]]
+id = "M081_055"
+befehl = ["PRINTCLEAR"]
+en = "BEHIND AN ASSORTMENT OF PRIMITIVE ARTIFACTS YOU FIND SCIENTIFIC EQUIPMENT USED FOR THE CREATION OF GRAVITOL."
+de = ""
+
+[[text]]
+id = "M081_056"
+befehl = ["PRINTCLEAR"]
+en = "IN THE BACK, YOU FIND A FEW DEMO CHARGES."
+de = ""
+
+[[text]]
+id = "M081_057"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND NOTHING NEW IN THE STOREROOM."
+de = ""
+
+[[text]]
+id = "M081_058"
+befehl = ["PRINTCLEAR"]
+en = "THIS DOOR HAS BEEN BARRICADED SO STURDILY THAT BREAKING IT DOWN WOULD TOPPLE THE ENTIRE STRUCTURE."
+de = ""
+
+[[text]]
+id = "M081_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND THE BODIES OF A SLAIN FAMILY. A LOWLANDER BURSTS OUT AND AIMS A RIFLE AT THE TEAM. 'WHHO ARE YOU?'"
+de = ""
+
+[[text]]
+id = "M081_060"
+befehl = ["HMENU"]
+menue = true
+en = "BACK AWAY"
+de = ""
+
+[[text]]
+id = "M081_061"
+befehl = ["HMENU"]
+menue = true
+en = "TALK"
+de = ""
+
+[[text]]
+id = "M081_062"
+befehl = ["PRINTCLEAR"]
+en = "YOU IDENTIFY YOURSELVES AS NEO AGENTS. HE LOWERS HIS RIFLE. 'I HHAVE INFORMATION THAT MIGHT HHELP,' HE SAYS."
+de = ""
+
+[[text]]
+id = "M081_063"
+befehl = ["PRINTCLEAR"]
+en = "YOU BACK AWAY. YOU HEAR HIM BARRICADE THE DOOR BEHIND YOU."
+de = ""
+
+[[text]]
+id = "M081_064"
+befehl = ["PRINTCLEAR"]
+en = "'RAM HHIRED USS TO BUILD A GIANT LENSS. THEY PROMISSED USS GREAT RICHESS, AND DELIVERED THISS MASSACRE INSSTEAD."
+de = ""
+
+[[text]]
+id = "M081_065"
+befehl = ["PRINTCLEAR"]
+en = "'WE WORKED IN A LAB TO THE SSOUTHWESST. GO THHERE TO LEARN MORE."
+de = ""
+
+[[text]]
+id = "M081_066"
+befehl = ["PRINTCLEAR"]
+en = "'NOW LEAVE, BEFORE YOU ATTRACT ATTENTION,' HE ESCORTS YOU OUTSIDE."
+de = ""
+
+[[text]]
+id = "M081_067"
+befehl = ["PRINTCLEAR"]
+en = "A GROUP OF LOWLANDERS ARE HUDDLED HERE, TENDING TO A WOUNDED FEMALE."
+de = ""
+
+[[text]]
+id = "M081_068"
+befehl = ["PRINTCLEAR"]
+en = "'PLEASSE HHELP,' THE LEADER SAYS. 'MY MEDICAL KIT CAN SSAVE THHIS WOMAN, BUT KEY TO THE SSUPPLY CLOSSET WASS TAKEN BY A RAM OFFICER."
+de = ""
+
+[[text]]
+id = "M081_069"
+befehl = ["PRINTCLEAR"]
+en = "GO TO THE BIG HHUT ON THHE WEST SSIDE OF TOWN. THE SSECURITY CODE IS 683.'"
+de = ""
+
+[[text]]
+id = "M081_070"
+befehl = ["PRINTCLEAR"]
+en = "SHE GIVES YOU A WEAPON AND SOME ARMOR."
+de = ""
+
+[[text]]
+id = "M081_071"
+befehl = ["PRINTCLEAR"]
+en = "'I SSEE YOU HHAVE THE KEYSS. PLEASSE BRING THE KIT FROM THE SSUPPLY CLOSSET."
+de = ""
+
+[[text]]
+id = "M081_072"
+befehl = ["PRINTCLEAR"]
+en = "PLEASSE FIND THE KEYSS AND USSE THEM TO GET INTO THE SSUPPLY CLOSSET."
+de = ""
+
+[[text]]
+id = "M081_073"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDERS ARE DISAPPOINTED WHEN THEY SEE THAT YOU HAVEN'T BROUGHT THE SUPPLIES."
+de = ""
+
+[[text]]
+id = "M081_074"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR CRYING FROM THE SOUTH."
+de = ""
+
+[[text]]
+id = "M081_075"
+befehl = ["PRINTCLEAR"]
+en = "THE SURVIVORS TAKE THE SUPPLY KIT AND ESCAPE WITH IT OVER THE WALL. 'I HHAVE LITTLE TO OFFER,' THE LEADER SAYS, 'BUT THISS WILL HHELP.' "
+de = ""
+
+[[text]]
+id = "M081_076"
+befehl = ["PRINTCLEAR"]
+en = "SHE SHOWS YOU A MAP OF THE BASEMENT LEVEL OF THE RAM BASE. IT SHOWS A FALSE WALL IN AN ACIDICIUM HOLDING ROOM."
+de = ""
+
+[[text]]
+id = "M081_077"
+befehl = ["PRINTCLEAR"]
+en = "'THE BASSE ISS IN A MOUNTAIN FAR TO THE SSOUTHWESST. GOOD LUCK.' SHE LEAVES."
+de = ""
+
+[[text]]
+id = "M081_078"
+befehl = ["PRINTCLEAR"]
+en = "A RAM OFFICER IS SNORING WITH HIS FEET ON A DESK. A HUGE KEYRING IS FASTENED TO HIS BELT."
+de = ""
+
+[[text]]
+id = "M081_079"
+befehl = ["HMENU"]
+menue = true
+en = "STEAL KEYS"
+de = ""
+
+[[text]]
+id = "M081_080"
+befehl = ["HMENU"]
+menue = true
+en = "KILL THE OFFICER"
+de = ""
+
+[[text]]
+id = "M081_081"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M081_082"
+befehl = ["PRINTCLEAR"]
+en = "YOU TIPTOE OUT OF THE ROOM."
+de = ""
+
+[[text]]
+id = "M081_083"
+befehl = ["WHO"]
+en = "WHO PICKS HIS POCKET?"
+de = ""
+
+[[text]]
+id = "M081_084"
+befehl = ["PRINTCLEAR"]
+en = "YOU GOT THE KEYRING!"
+de = ""
+
+[[text]]
+id = "M081_085"
+befehl = ["PRINTCLEAR"]
+en = "THE RAM OFFICER IS STILL ASLEEP."
+de = ""
+
+[[text]]
+id = "M081_086"
+befehl = ["PRINT"]
+en = "NOW WHAT WILL YOU DO?"
+de = ""
+
+[[text]]
+id = "M081_087"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M081_088"
+befehl = ["HMENU"]
+menue = true
+en = "KILL THE OFFICER"
+de = ""
+
+[[text]]
+id = "M081_089"
+befehl = ["PRINTCLEAR"]
+en = "THE OFFICER WAKES UP! 'DIE, FOOLS!' HE ROARS, AND BLOWS A WHISTLE. THE ROOM FILLS WITH SECURITY ROBOTS."
+de = ""
+
+[[text]]
+id = "M081_090"
+befehl = ["PRINTCLEAR"]
+en = "ACID FROGS COME TO YOUR AID."
+de = ""
+
+[[text]]
+id = "M081_091"
+befehl = ["PRINTCLEAR"]
+en = "THE KEYRING LIES NEAR THE OFFICER'S BODY. YOU TAKE IT."
+de = ""
+
+[[text]]
+id = "M081_092"
+befehl = ["PRINTCLEAR"]
+en = "THIS MEDICAL SUPPLY CLOSET IS LOCKED WITH LOWLANDER TECHNOLOGY YOU DON'T RECOGNIZE. YOU NEED A KEY AND A SECURITY CODE TO GET IN."
+de = ""
+
+[[text]]
+id = "M081_093"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR TO THE MEDICAL SUPPLY CLOSET IS OPEN."
+de = ""
+
+[[text]]
+id = "M081_094"
+befehl = ["PRINTCLEAR"]
+en = "YOU TYPE IN THE SECURITY CODE BUT YOU STILL CAN'T OPEN THIS DOOR WITHOUT A KEY."
+de = ""
+
+[[text]]
+id = "M081_095"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE THE KEYRING, BUT YOU STILL NEED A SECURITY CODE TO OPEN THE DOOR."
+de = ""
+
+[[text]]
+id = "M081_096"
+befehl = ["PRINTCLEAR"]
+en = "YOU USE THE KEYRING, TYPE IN THE SECURITY CODE AND THE DOOR OPENS."
+de = ""
+
+[[text]]
+id = "M081_097"
+befehl = ["PRINTCLEAR"]
+en = "THE MEDICAL SUPPLIES HERE ARE FOR LOWLANDERS, BUT YOU FIND POISON ANTIDOTES, AND TWO WEAPONS."
+de = ""
+
+[[text]]
+id = "M081_098"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A LOWLANDER MEDICAL SUPPLY KIT."
+de = ""
+
+[[text]]
+id = "M081_099"
+befehl = ["PRINTCLEAR"]
+en = "THIS BUILDING APPEARS TO HAVE BEEN THE CENTER OF GOVERNMENT."
+de = ""
+
+[[text]]
+id = "M081_100"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR CRYING TO THE NORTHEAST."
+de = ""
+
+[[text]]
+id = "M081_101"
+befehl = ["PRINTCLEAR"]
+en = "LASER BURNS MAR THE WALLS OF THIS HUT."
+de = ""
+
+[[text]]
+id = "M081_102"
+befehl = ["PRINTCLEAR"]
+en = "TWO LOWLANDERS ARE PREPARING TO SNEAK OUT OF TOWN. THEY URGE YOU TO MEET THEM IN THE NORTHEAST CORNER."
+de = ""
+
+[[text]]
+id = "M081_103"
+befehl = ["PRINTCLEAR"]
+en = "THIS HUT IS EMPTY. IN SMALL LETTERS ON ONE WALL SOMEONE HAS SCRATCHED 'NE CRNR'"
+de = ""
+
+[[text]]
+id = "M081_104"
+befehl = ["PRINTCLEAR"]
+en = "THE OWNERS OF THIS HUT LIE DEAD ON THE FLOOR."
+de = ""
+
+[[text]]
+id = "M081_105"
+befehl = ["PRINTCLEAR"]
+en = "THE FLOOR IS AWASH WITH BLOOD."
+de = ""
+
+[[text]]
+id = "M081_106"
+befehl = ["PRINTCLEAR"]
+en = "THE LOWLANDERS IN THIS HUT DIED, BUT THEY TOOK FOUR RAM ASSASSINS WITH THEM."
+de = ""
+
+[[text]]
+id = "M081_107"
+befehl = ["PRINTCLEAR"]
+en = "A LOWLANDER INFANT LIES DEAD IN ITS CRADLE."
+de = ""
+
+[[text]]
+id = "M081_108"
+befehl = ["PRINTCLEAR"]
+en = "THIS SCENE IS TOO GRUESOME TO DESCRIBE. RAM HAS BEEN QUITE THOROUGH."
+de = ""
+
+[[text]]
+id = "M081_109"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE LARGEST HUT IN TOWN. IT APPEARS RELATIVELY UNDAMAGED. "
+de = ""
+
+[[text]]
+id = "M081_110"
+befehl = ["PRINT"]
+en = "YOU HEAR CRYING FROM WITHIN."
+de = ""

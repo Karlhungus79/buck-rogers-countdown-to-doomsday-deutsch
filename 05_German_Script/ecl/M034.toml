@@ -1,0 +1,733 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 34
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M034_000"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC QUICKLY HEALS THE TEAM."
+de = ""
+
+[[text]]
+id = "M034_001"
+befehl = ["HMENU"]
+menue = true
+en = "THULE"
+de = ""
+
+[[text]]
+id = "M034_002"
+befehl = ["HMENU"]
+menue = true
+en = "PRISON"
+de = ""
+
+[[text]]
+id = "M034_003"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_004"
+befehl = ["HMENU"]
+menue = true
+en = "THULE"
+de = ""
+
+[[text]]
+id = "M034_005"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_006"
+befehl = ["HMENU"]
+menue = true
+en = "HIELO"
+de = ""
+
+[[text]]
+id = "M034_007"
+befehl = ["HMENU"]
+menue = true
+en = "MARIPOSA THREE"
+de = ""
+
+[[text]]
+id = "M034_008"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_009"
+befehl = ["HMENU"]
+menue = true
+en = "NEW ELYSIUM"
+de = ""
+
+[[text]]
+id = "M034_010"
+befehl = ["HMENU"]
+menue = true
+en = "VENUS LOWLANDS"
+de = ""
+
+[[text]]
+id = "M034_011"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_012"
+befehl = ["HMENU"]
+menue = true
+en = "SALVATION"
+de = ""
+
+[[text]]
+id = "M034_013"
+befehl = ["HMENU"]
+menue = true
+en = "TYCHO"
+de = ""
+
+[[text]]
+id = "M034_014"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_015"
+befehl = ["HMENU"]
+menue = true
+en = "PAVONIS"
+de = ""
+
+[[text]]
+id = "M034_016"
+befehl = ["HMENU"]
+menue = true
+en = "MARS HIGH DESERT"
+de = ""
+
+[[text]]
+id = "M034_017"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_018"
+befehl = ["HMENU"]
+menue = true
+en = "CERES"
+de = ""
+
+[[text]]
+id = "M034_019"
+befehl = ["HMENU"]
+menue = true
+en = "ASTEROID BASE"
+de = ""
+
+[[text]]
+id = "M034_020"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_021"
+befehl = ["HMENU"]
+menue = true
+en = "VESTA"
+de = ""
+
+[[text]]
+id = "M034_022"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_023"
+befehl = ["HMENU"]
+menue = true
+en = "FORTUNA"
+de = ""
+
+[[text]]
+id = "M034_024"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_025"
+befehl = ["HMENU"]
+menue = true
+en = "PALLAS"
+de = ""
+
+[[text]]
+id = "M034_026"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M034_027"
+befehl = ["PRINTCLEAR"]
+en = "YOU PICK UP A WEAK DISTRESS SIGNAL FROM A SMALL ASTEROID."
+de = ""
+
+[[text]]
+id = "M034_028"
+befehl = ["HMENU"]
+menue = true
+en = "PSYCHE"
+de = ""
+
+[[text]]
+id = "M034_029"
+befehl = ["HMENU"]
+menue = true
+en = "ASTEROID"
+de = ""
+
+[[text]]
+id = "M034_030"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_031"
+befehl = ["HMENU"]
+menue = true
+en = "PSYCHE"
+de = ""
+
+[[text]]
+id = "M034_032"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_033"
+befehl = ["HMENU"]
+menue = true
+en = "JUNO"
+de = ""
+
+[[text]]
+id = "M034_034"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_035"
+befehl = ["HMENU"]
+menue = true
+en = "JUNO"
+de = ""
+
+[[text]]
+id = "M034_036"
+befehl = ["HMENU"]
+menue = true
+en = "RENDEZVOUS"
+de = ""
+
+[[text]]
+id = "M034_037"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_038"
+befehl = ["PRINT"]
+en = " NOTICES SOMETHING STRANGE ON THE SCANNER. SCOT.DOS BEGINS AN ANALYSIS."
+de = ""
+
+[[text]]
+id = "M034_039"
+befehl = ["PRINTCLEAR"]
+en = "'GETTING AN ECHO OFF A SMALL ASTEROID NEARBY. SOMEONE APPEARS TO BE MONITORING US.'"
+de = ""
+
+[[text]]
+id = "M034_040"
+befehl = ["HMENU"]
+menue = true
+en = "HYGEIA"
+de = ""
+
+[[text]]
+id = "M034_041"
+befehl = ["HMENU"]
+menue = true
+en = "COMM CENTER"
+de = ""
+
+[[text]]
+id = "M034_042"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_043"
+befehl = ["HMENU"]
+menue = true
+en = "HYGEIA"
+de = ""
+
+[[text]]
+id = "M034_044"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_045"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY THE PASSWORD. A TRANSPONDER RESPONDS."
+de = ""
+
+[[text]]
+id = "M034_046"
+befehl = ["HMENU"]
+menue = true
+en = "AURORA"
+de = ""
+
+[[text]]
+id = "M034_047"
+befehl = ["HMENU"]
+menue = true
+en = "TALON'S BASE"
+de = ""
+
+[[text]]
+id = "M034_048"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_049"
+befehl = ["HMENU"]
+menue = true
+en = "AURORA"
+de = ""
+
+[[text]]
+id = "M034_050"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M034_051"
+befehl = ["PRINTCLEAR"]
+en = "BASE UNDER REPAIR."
+de = ""
+
+[[text]]
+id = "M034_052"
+befehl = ["PRINTCLEAR"]
+en = "MARIPOSA THREE LOCATED..."
+de = ""
+
+[[text]]
+id = "M034_053"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS FEEDS THE SHIP CODE TO THE MARIPOSA."
+de = ""
+
+[[text]]
+id = "M034_054"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE CLEARED TO LAND.'"
+de = ""
+
+[[text]]
+id = "M034_055"
+befehl = ["PRINTCLEAR"]
+en = "'YOU DO NOT HAVE THE PROPER CLEARANCE. YOU CANNOT LAND.'"
+de = ""
+
+[[text]]
+id = "M034_056"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M034_057"
+befehl = ["HMENU"]
+menue = true
+en = "CHARGE"
+de = ""
+
+[[text]]
+id = "M034_058"
+befehl = ["PRINTCLEAR"]
+en = "THE MARIPOSA FIRES AND YOU RUN..."
+de = ""
+
+[[text]]
+id = "M034_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE BLOCKED BY A BLAST DOOR AND HAVE TO LEAVE."
+de = ""
+
+[[text]]
+id = "M034_060"
+befehl = ["PRINTCLEAR"]
+en = "SCANNING..."
+de = ""
+
+[[text]]
+id = "M034_061"
+befehl = ["PRINTCLEAR"]
+en = "SCANNING..."
+de = ""
+
+[[text]]
+id = "M034_062"
+befehl = ["PRINTCLEAR"]
+en = "YOU START TO LAND, BUT ARE INTERCEPTED BY A SCOUT."
+de = ""
+
+[[text]]
+id = "M034_063"
+befehl = ["HMENU"]
+menue = true
+en = "BLUFF"
+de = ""
+
+[[text]]
+id = "M034_064"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M034_065"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M034_066"
+befehl = ["PRINTCLEAR"]
+en = "THEY DON'T BELIEVE YOU. THEY DEMAND YOUR SURRENDER."
+de = ""
+
+[[text]]
+id = "M034_067"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M034_068"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M034_069"
+befehl = ["PRINTCLEAR"]
+en = "YOU DESCEND TO THE PARCHED AND WINDBLOWN DESERTS OF MARS."
+de = ""
+
+[[text]]
+id = "M034_070"
+befehl = ["PRINTCLEAR"]
+en = "BASE LOCATED..."
+de = ""
+
+[[text]]
+id = "M034_071"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IDENTIFIED AND GUIDED INTO ONE OF THE DOCKING BAYS."
+de = ""
+
+[[text]]
+id = "M034_072"
+befehl = ["PRINTCLEAR"]
+en = "SCANNING..."
+de = ""
+
+[[text]]
+id = "M034_073"
+befehl = ["PRINTCLEAR"]
+en = "YOU LOCATE THE ASTEROID AND DOCK."
+de = ""
+
+[[text]]
+id = "M034_074"
+befehl = ["PRINTCLEAR"]
+en = "BASE LOCATED..."
+de = ""
+
+[[text]]
+id = "M034_075"
+befehl = ["PRINTCLEAR"]
+en = "DOCKING..."
+de = ""
+
+[[text]]
+id = "M034_076"
+befehl = ["PRINTCLEAR"]
+en = "PRISON LOCATED..."
+de = ""
+
+[[text]]
+id = "M034_077"
+befehl = ["PRINTCLEAR"]
+en = "LANDING..."
+de = ""
+
+[[text]]
+id = "M034_078"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARRIVE AT THE RENDEZVOUS..."
+de = ""
+
+[[text]]
+id = "M034_079"
+befehl = ["PRINTCLEAR"]
+en = "LANDING..."
+de = ""
+
+[[text]]
+id = "M034_080"
+befehl = ["PRINTCLEAR"]
+en = "ASTEROID LOCATED..."
+de = ""
+
+[[text]]
+id = "M034_081"
+befehl = ["PRINTCLEAR"]
+en = "LANDING..."
+de = ""
+
+[[text]]
+id = "M034_082"
+befehl = ["PRINTCLEAR"]
+en = "SENSOR ALERT!"
+de = ""
+
+[[text]]
+id = "M034_083"
+befehl = ["HMENU"]
+menue = true
+en = "HAIL"
+de = ""
+
+[[text]]
+id = "M034_084"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M034_085"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M034_086"
+befehl = ["PRINTCLEAR"]
+en = "THE SHIP HAILS YOU."
+de = ""
+
+[[text]]
+id = "M034_087"
+befehl = ["HMENU"]
+menue = true
+en = "BLUFF"
+de = ""
+
+[[text]]
+id = "M034_088"
+befehl = ["HMENU"]
+menue = true
+en = "INTIMIDATE"
+de = ""
+
+[[text]]
+id = "M034_089"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY TO BLUFF YOUR WAY OUT."
+de = ""
+
+[[text]]
+id = "M034_090"
+befehl = ["PRINTCLEAR"]
+en = "YOU CONVINCE THEM THAT YOU ARE ON THEIR SIDE."
+de = ""
+
+[[text]]
+id = "M034_091"
+befehl = ["PRINTCLEAR"]
+en = "YOU CHALLENGE THE SHIP."
+de = ""
+
+[[text]]
+id = "M034_092"
+befehl = ["PRINTCLEAR"]
+en = "THEY BACK DOWN AND RUN."
+de = ""
+
+[[text]]
+id = "M034_093"
+befehl = ["PRINTCLEAR"]
+en = "THEY WEREN'T IMPRESSED."
+de = ""
+
+[[text]]
+id = "M034_094"
+befehl = ["PRINTCLEAR"]
+en = "YOU CANNOT ESCAPE."
+de = ""
+
+[[text]]
+id = "M034_095"
+befehl = ["PRINTCLEAR"]
+en = "'RECEIVING A MESSAGE FROM SALVATION. NEO ASKS THAT WE VISIT THE RESTAURANT CHEZ LUNA ON TYCHO.'"
+de = ""
+
+[[text]]
+id = "M034_096"
+befehl = ["PRINTCLEAR"]
+en = "DOCKING AT SPACEPORT..."
+de = ""
+
+[[text]]
+id = "M034_097"
+befehl = ["PRINTCLEAR"]
+en = "YOU ESCAPE..."
+de = ""
+
+[[text]]
+id = "M034_098"
+befehl = ["PRINTCLEAR"]
+en = "CLOSING..."
+de = ""
+
+[[text]]
+id = "M034_099"
+befehl = ["PRINT"]
+en = "LANDING..."
+de = ""
+
+[[text]]
+id = "M034_100"
+befehl = ["PRINT"]
+en = "RAM SCOUT"
+de = ""
+
+[[text]]
+id = "M034_101"
+befehl = ["PRINT"]
+en = "RAM MEDIUM"
+de = ""
+
+[[text]]
+id = "M034_102"
+befehl = ["PRINT"]
+en = "RAM HEAVY"
+de = ""
+
+[[text]]
+id = "M034_103"
+befehl = ["PRINT"]
+en = "PIRATE MEDIUM"
+de = ""
+
+[[text]]
+id = "M034_104"
+befehl = ["PRINT"]
+en = "MERCURIAN MEDIUM"
+de = ""
+
+[[text]]
+id = "M034_105"
+befehl = ["PRINT"]
+en = " CRUISER APPROACHING."
+de = ""
+
+[[text]]
+id = "M034_106"
+befehl = ["PRINTCLEAR"]
+en = "YOU SALVAGE: "
+de = ""
+
+[[text]]
+id = "M034_107"
+befehl = ["PRINT"]
+en = "00 CREDITS FROM THE BATTLE."
+de = ""
+
+[[text]]
+id = "M034_108"
+befehl = ["PRINTCLEAR"]
+en = "THE PIRATE SHIP LEAVES YOUR SENSOR RANGE."
+de = ""
+
+[[text]]
+id = "M034_109"
+befehl = ["PRINTCLEAR"]
+en = "THE NEXT SHIP ARRIVES IN FIRING RANGE."
+de = ""
+
+[[text]]
+id = "M034_110"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS REPORTS, 'SCANNERS SHOW A LONE SHIP TRAVELLING AT A HIGH VELOCITY."
+de = ""
+
+[[text]]
+id = "M034_111"
+befehl = ["PRINTCLEAR"]
+en = "'IT'S HEADED FOR CERES WITH RAM SHIPS IN PURSUIT.'"
+de = ""

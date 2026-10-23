@@ -1,0 +1,745 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 97
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M097_000"
+befehl = ["PRINTCLEAR"]
+en = "THIS CORE RUNS THE LENGTH OF THE MARIPOSA. YOU CAN GO UPWARD OR DOWNWARD. "
+de = ""
+
+[[text]]
+id = "M097_001"
+befehl = ["HMENU"]
+menue = true
+en = "GO UP"
+de = ""
+
+[[text]]
+id = "M097_002"
+befehl = ["HMENU"]
+menue = true
+en = "DESCEND"
+de = ""
+
+[[text]]
+id = "M097_003"
+befehl = ["PRINT"]
+en = "YOU MAY ALSO LEAVE THE CORE FROM HERE."
+de = ""
+
+[[text]]
+id = "M097_004"
+befehl = ["HMENU"]
+menue = true
+en = "GO UP"
+de = ""
+
+[[text]]
+id = "M097_005"
+befehl = ["HMENU"]
+menue = true
+en = "DESCEND"
+de = ""
+
+[[text]]
+id = "M097_006"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE CORE"
+de = ""
+
+[[text]]
+id = "M097_007"
+befehl = ["PRINTCLEAR"]
+en = "YOU RISE INTO THE TOPMOST PORTION OF THE MARIPOSA."
+de = ""
+
+[[text]]
+id = "M097_008"
+befehl = ["PRINTCLEAR"]
+en = "1 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_009"
+befehl = ["PRINTCLEAR"]
+en = "2 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_010"
+befehl = ["PRINTCLEAR"]
+en = "3 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_011"
+befehl = ["PRINTCLEAR"]
+en = "4 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_012"
+befehl = ["PRINTCLEAR"]
+en = "5 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_013"
+befehl = ["PRINTCLEAR"]
+en = "6 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_014"
+befehl = ["PRINTCLEAR"]
+en = "7 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_015"
+befehl = ["PRINTCLEAR"]
+en = "8 IS PAINTED ON THE SIDE OF THE CORE."
+de = ""
+
+[[text]]
+id = "M097_016"
+befehl = ["PRINTCLEAR"]
+en = "LASER PISTOLS AND OTHER WEAPONS ARE MOUNTED ON THE WALLS. THEY FOCUS ON THE TEAM AND FIRE."
+de = ""
+
+[[text]]
+id = "M097_017"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M097_018"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M097_019"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS OF THE CORE BRISTLE WITH WEAPONRY, BUT THE SENSORS ARE BLIND TO YOU."
+de = ""
+
+[[text]]
+id = "M097_020"
+befehl = ["PRINTCLEAR"]
+en = "MANY ROBOTS AWAIT, ARMED FOR BATTLE. DO YOU FLEE?"
+de = ""
+
+[[text]]
+id = "M097_021"
+befehl = ["PRINTCLEAR"]
+en = "MANY MORE ROBOTS APPROACH! DO YOU FLEE?"
+de = ""
+
+[[text]]
+id = "M097_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU STRUGGLE BACK UP THE CORE."
+de = ""
+
+[[text]]
+id = "M097_023"
+befehl = ["PRINTCLEAR"]
+en = "SECURITY ROBOTS IDENTIFY YOU AS INTRUDERS!"
+de = ""
+
+[[text]]
+id = "M097_024"
+befehl = ["PRINTCLEAR"]
+en = "YOU ENTER THE AUDIENCE CHAMBER. THE SUN KING SITS BEFORE YOU ON A GOLDEN THRONE."
+de = ""
+
+[[text]]
+id = "M097_025"
+befehl = ["PRINTCLEAR"]
+en = "'PARLEZ-VOUS FRANCAIS?' THE SUN KING DEMANDS."
+de = ""
+
+[[text]]
+id = "M097_026"
+befehl = ["HMENU"]
+menue = true
+en = "OUI"
+de = ""
+
+[[text]]
+id = "M097_027"
+befehl = ["HMENU"]
+menue = true
+en = "NON"
+de = ""
+
+[[text]]
+id = "M097_028"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING SNEERS. 'GUARD! REMOVE THESE INFIDELS.'"
+de = ""
+
+[[text]]
+id = "M097_029"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE USHERED OUT OF THE AUDIENCE CHAMBER."
+de = ""
+
+[[text]]
+id = "M097_030"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING BEAMS. 'VERY GOOD! ICI ON PARLE FRANCAIS. "
+de = ""
+
+[[text]]
+id = "M097_031"
+befehl = ["PRINT"]
+en = "NOW, WHY ARE YOU HERE? ETES-VOUS LES DANSEURS?' "
+de = ""
+
+[[text]]
+id = "M097_032"
+befehl = ["HMENU"]
+menue = true
+en = "OUI"
+de = ""
+
+[[text]]
+id = "M097_033"
+befehl = ["HMENU"]
+menue = true
+en = "NON"
+de = ""
+
+[[text]]
+id = "M097_034"
+befehl = ["PRINTCLEAR"]
+en = "'NO? ABOMINABLE...BUT PERHAPS I CAN MAKE USE OF YOU. "
+de = ""
+
+[[text]]
+id = "M097_035"
+befehl = ["PRINTCLEAR"]
+en = "'A HA! VIVE LA REVOLUTION! I'VE BEEN WAITING FOR YOU. "
+de = ""
+
+[[text]]
+id = "M097_036"
+befehl = ["PRINT"]
+en = "YOU WILL TAKE OVER THE DOOMSDAY DEVICE AND DELIVER IT TO MY CONTROL, OUI?'"
+de = ""
+
+[[text]]
+id = "M097_037"
+befehl = ["HMENU"]
+menue = true
+en = "OUI"
+de = ""
+
+[[text]]
+id = "M097_038"
+befehl = ["HMENU"]
+menue = true
+en = "NON"
+de = ""
+
+[[text]]
+id = "M097_039"
+befehl = ["PRINTCLEAR"]
+en = "'YOU DARE REFUSE MY WISHES? BEGONE!'"
+de = ""
+
+[[text]]
+id = "M097_040"
+befehl = ["PRINTCLEAR"]
+en = "'FANTASTIQUE! WITH THE DEVICE IN MY POWER I'LL RULE THE SOLAR SYSTEM! VIVE LE ROI!"
+de = ""
+
+[[text]]
+id = "M097_041"
+befehl = ["PRINTCLEAR"]
+en = "'WE'LL DISABLE THE CORE LASERS, BUT THE GLORY OF BATTLE SHALL BE YOURS! AUX ARMES! YOU ARE GREAT WARRIORS, N'EST-CE PAUX? RETURN TRIUMPHANT!'"
+de = ""
+
+[[text]]
+id = "M097_042"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING GLOWERS AT YOU. 'YOU MAY NOW BEG FORGIVENESS FOR YOUR HEATHEN BEHAVIOR. IF YOU PLEASE ME, I MIGHT FORGIVE YOU.'"
+de = ""
+
+[[text]]
+id = "M097_043"
+befehl = ["HMENU"]
+menue = true
+en = "GROVEL"
+de = ""
+
+[[text]]
+id = "M097_044"
+befehl = ["HMENU"]
+menue = true
+en = "REFUSE"
+de = ""
+
+[[text]]
+id = "M097_045"
+befehl = ["PRINTCLEAR"]
+en = "'QUEL HORROR!'"
+de = ""
+
+[[text]]
+id = "M097_046"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING IS PLEASED. 'YOUR ERROR IS FORGIVEN. "
+de = ""
+
+[[text]]
+id = "M097_047"
+befehl = ["PRINTCLEAR"]
+en = "'I TOLD YOU NOT TO RETURN WITHOUT CONTROL OF THE DOOMSDAY DEVICE. RAM IS STILL UP THERE. HURRY UP!"
+de = ""
+
+[[text]]
+id = "M097_048"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS IMPENETRABLY LOCKED. GUARDS JEER AND TOSS GARBAGE THROUGH A TINY GRILLE."
+de = ""
+
+[[text]]
+id = "M097_049"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS CLOSED. A GUARD PEERS AT YOU THROUGH A TINY GRILLE AND ASKS IF YOU WISH TO APOLOGIZE TO THE SUN KING."
+de = ""
+
+[[text]]
+id = "M097_050"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR OPENS."
+de = ""
+
+[[text]]
+id = "M097_051"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS LOCKED. THE GUARDS TELL YOU NOT TO RETURN UNTIL YOU'VE DONE THE SUN KING'S BIDDING. "
+de = ""
+
+[[text]]
+id = "M097_052"
+befehl = ["PRINTCLEAR"]
+en = "A GUARD PEERS AT YOU THROUGH A TINY GRILLE IN THIS ORNATE DOOR. 'VIVE LA REVOLUTION! DO YOU WISH AN AUDIENCE WITH THE SUN KING?'"
+de = ""
+
+[[text]]
+id = "M097_053"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARD SEES THE MEDALLIONS. 'I'LL PRESENT THOSE TO THE SUN KING. WAIT HERE.'"
+de = ""
+
+[[text]]
+id = "M097_054"
+befehl = ["PRINTCLEAR"]
+en = "YOU PASS THE MEDALLIONS THROUGH THE GRILLE. THE GUARD LEAVES."
+de = ""
+
+[[text]]
+id = "M097_055"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR FINALLY UNLOCKS. 'THE SUN KING GRANTS YOU AN AUDIENCE.'"
+de = ""
+
+[[text]]
+id = "M097_056"
+befehl = ["PRINTCLEAR"]
+en = "'THEN GET LOST!'"
+de = ""
+
+[[text]]
+id = "M097_057"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARD SNICKERS. 'YOU MUST BRING AT LEAST THREE GIFTS TO BE GRANTED AN AUDIENCE.' "
+de = ""
+
+[[text]]
+id = "M097_058"
+befehl = ["PRINTCLEAR"]
+en = "A STATUE OF AN OWL FACES THE TEAM. ITS WINGS ARE PLATED WITH SILVER. "
+de = ""
+
+[[text]]
+id = "M097_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU FACE A STATUE OF AN EAGLE. EVERY FEATHER IS WOVEN FROM STRANDS OF GOLD."
+de = ""
+
+[[text]]
+id = "M097_060"
+befehl = ["PRINTCLEAR"]
+en = "LOOMING OVER YOU IS A STATUE OF A HAWK. ITS COPPER PLATING HAS RECENTLY BEEN POLISHED."
+de = ""
+
+[[text]]
+id = "M097_061"
+befehl = ["PRINTCLEAR"]
+en = "HERE IS A GIGANTIC STATUE OF A BIRD. IT'S HARD TO DISCERN ITS SPECIES, BECAUSE EVERY INCH IS CRUSTED WITH GEMS."
+de = ""
+
+[[text]]
+id = "M097_062"
+befehl = ["PRINTCLEAR"]
+en = "A SERVANT IS TAKING A BREAK HERE. HE'S WEARING FRENCH REVOLUTION REGALIA. 'PSST,' HE WHISPERS, 'LOOKING FOR THE SUN KING?"
+de = ""
+
+[[text]]
+id = "M097_063"
+befehl = ["PRINTCLEAR"]
+en = "'YOU SHOULD BE! ONLY HE CAN TURN OFF THE WEAPONS IN THE CORE.'"
+de = ""
+
+[[text]]
+id = "M097_064"
+befehl = ["PRINTCLEAR"]
+en = "'YOU HAVE TO BRING GIFTS IF YOU WANT TO TALK TO THE SUN KING,' HE WARNS. 'LOOK FOR ONE ON EACH LEVEL BELOW US.'"
+de = ""
+
+[[text]]
+id = "M097_065"
+befehl = ["PRINTCLEAR"]
+en = "THE SERVANT IN FRENCH REVOLUTION REGALIA IS HERE. 'I'VE BEEN ORDERED TO SEE THAT THE SUN KING'S INTERESTS ARE MET. I'LL BE AROUND.'"
+de = ""
+
+[[text]]
+id = "M097_066"
+befehl = ["PRINTCLEAR"]
+en = "A ROBOT HERE HAS BEEN PROGRAMMED FOR MAINTENANCE. IT IS VACUUMING THE FLOOR. ITS VACUUM NEARS A COPPER MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_067"
+befehl = ["HMENU"]
+menue = true
+en = "GRAB MEDALLION"
+de = ""
+
+[[text]]
+id = "M097_068"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT ROBOT"
+de = ""
+
+[[text]]
+id = "M097_069"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M097_070"
+befehl = ["WHO"]
+en = "WHO GRABS THE MEDALLION?"
+de = ""
+
+[[text]]
+id = "M097_071"
+befehl = ["PRINTCLEAR"]
+en = "YOU MISS! THE MEDALLION VANISHES UP THE VACUUM. WORSE, YOUR ACTION HAS ATTRACTED THE ROBOT'S ATTENTION AND IT SOUNDS AN ALARM."
+de = ""
+
+[[text]]
+id = "M097_072"
+befehl = ["PRINTCLEAR"]
+en = "JUST BEFORE YOU LEAP INTO BATTLE, THE MEDALLION VANISHES UP THE VACUUM. THE ROBOT SEES YOU COMING AND SOUNDS AN ALARM!"
+de = ""
+
+[[text]]
+id = "M097_073"
+befehl = ["PRINTCLEAR"]
+en = "SECURITY ROBOTS HOME IN ON YOU!"
+de = ""
+
+[[text]]
+id = "M097_074"
+befehl = ["PRINTCLEAR"]
+en = "IN THE WRECKAGE ON THE FLOOR, YOU SEE THE COPPER MEDALLION!"
+de = ""
+
+[[text]]
+id = "M097_075"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A COPPER MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_076"
+befehl = ["PRINTCLEAR"]
+en = "THE ROBOT DETECTS YOUR MOTION, THEN SOUNDS AN ALARM!"
+de = ""
+
+[[text]]
+id = "M097_077"
+befehl = ["PRINTCLEAR"]
+en = "YOU SNATCH THE MEDALLION. THE ROBOT COMPLETES ITS DUTIES AND VANISHES INTO A STORAGE COMPARTMENT."
+de = ""
+
+[[text]]
+id = "M097_078"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A COPPER MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_079"
+befehl = ["PRINTCLEAR"]
+en = "DOODADS AND KNICKKNACKS FILL THIS STORAGE AREA. PAPER FLAGS AND OLD MEDALS ARE ONLY A SMALL SAMPLE. SEARCH THE CLOSET?"
+de = ""
+
+[[text]]
+id = "M097_080"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A BATTLE TRUMPET AND LINEN NAPKINS. KEEP SEARCHING?"
+de = ""
+
+[[text]]
+id = "M097_081"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND AN IVORY SHOE RACK AND TWO POWDERED WIGS. KEEP SEARCHING?"
+de = ""
+
+[[text]]
+id = "M097_082"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A SILVER MEDALLION WITH AN OWL STAMPED ON IT! YOU HOLD ON TO THE MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_083"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A SILVER MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_084"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS NOTHING MORE OF VALUE IN THIS CLOSET."
+de = ""
+
+[[text]]
+id = "M097_085"
+befehl = ["PRINTCLEAR"]
+en = "DEACTIVATED ROBOTS FILL THE ROOM. ON THE WALL IS A PLAQUE WITH A GOLD MEDALLION EMBOSSED WITH AN EAGLE. GET THE MEDALLION?"
+de = ""
+
+[[text]]
+id = "M097_086"
+befehl = ["PRINTCLEAR"]
+en = "ALARM WIRES PROTRUDE FROM THE BASE OF THE PLAQUE."
+de = ""
+
+[[text]]
+id = "M097_087"
+befehl = ["WHO"]
+en = "WHO BYPASSES SECURITY?"
+de = ""
+
+[[text]]
+id = "M097_088"
+befehl = ["PRINTCLEAR"]
+en = "YOU PULL THE WRONG WIRE AND THE ROBOTS ACTIVATE. 'SURRENDER AT ONCE,' THEY ORDER, THEN BEGIN FIRING."
+de = ""
+
+[[text]]
+id = "M097_089"
+befehl = ["PRINTCLEAR"]
+en = "THE ROBOTS LIE STREWN AROUND YOU IN SMOKING PILES OF METAL. YOU PRY THE GOLD MEDALLION OFF THE PLAQUE."
+de = ""
+
+[[text]]
+id = "M097_090"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A GOLD MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_091"
+befehl = ["PRINTCLEAR"]
+en = "YOU DISCONNECT THE SECURITY, AND PRY THE MEDALLION OFF THE PLAQUE."
+de = ""
+
+[[text]]
+id = "M097_092"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE A GOLD MEDALLION."
+de = ""
+
+[[text]]
+id = "M097_093"
+befehl = ["PRINTCLEAR"]
+en = "YOU TIPTOE OUT OF THE ROOM."
+de = ""
+
+[[text]]
+id = "M097_094"
+befehl = ["PRINTCLEAR"]
+en = "THIS BEDROOM IS DRAPED WITH STRINGS OF PEARLS. THE WALLS ARE COVERED WITH SILK AND VELVET."
+de = ""
+
+[[text]]
+id = "M097_095"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE SUN KING'S WARDROBE. MILITARY UNIFORMS FROM HISTORIC FRANCE, AMERICA, AND RUSSIA FILL THE ROOM."
+de = ""
+
+[[text]]
+id = "M097_096"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A CHESSBOARD. THE PIECES ARE MODELS OF RAM OFFICERS AND FRENCH REVOLUTIONARY SOLDIERS."
+de = ""
+
+[[text]]
+id = "M097_097"
+befehl = ["PRINTCLEAR"]
+en = "AN OLD MAN IN THE ROOM ASKS 'WOULD YOU LIKE TO PLAY A GAME OF CHESS?'"
+de = ""
+
+[[text]]
+id = "M097_098"
+befehl = ["PRINTCLEAR"]
+en = "THE OLD MAN LOOKS DISAPPOINTED. HE SHUFFLES OUT OF THE ROOM."
+de = ""
+
+[[text]]
+id = "M097_099"
+befehl = ["PRINTCLEAR"]
+en = "YOU PLAY CHESS WITH THE OLD MAN. HE WINS BY A SMALL MARGIN. 'IF YOU MEET THE SUN KING,' HE ADVISES, 'TELL HIM YOU SPEAK FRENCH.'"
+de = ""
+
+[[text]]
+id = "M097_100"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU STEP INTO THIS AVIARY, DOZENS OF BIRDS FLY OUT."
+de = ""
+
+[[text]]
+id = "M097_101"
+befehl = ["PRINTCLEAR"]
+en = "WEAPONS CONTROL"
+de = ""
+
+[[text]]
+id = "M097_102"
+befehl = ["PRINT"]
+en = "AUTHORIZED PERSONNEL ONLY"
+de = ""
+
+[[text]]
+id = "M097_103"
+befehl = ["PRINT"]
+en = "TRY TO DISARM THE CORE WEAPONS?"
+de = ""
+
+[[text]]
+id = "M097_104"
+befehl = ["PRINTCLEAR"]
+en = "A COMPUTERIZED VOICE SAYS 'YOU ARE UNAUTHORIZED TO USE THIS CONSOLE.' CONTINUE TRYING TO DISARM THE WEAPONS?"
+de = ""
+
+[[text]]
+id = "M097_105"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE GUILTY OF DISOBEYING SECTION 52-A OF THE SUN KING'S AUTHORIZATION CODE.' PANELS OPEN, REVEALING WEAPONS."
+de = ""
+
+[[text]]
+id = "M097_106"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M097_107"
+befehl = ["PRINTCLEAR"]
+en = "LEAVE THE CONSOLE?"
+de = ""
+
+[[text]]
+id = "M097_108"
+befehl = ["PRINTCLEAR"]
+en = "'WEAPONS CONTROL -- AUTHORIZED PERSONNEL ONLY.' A GREEN LIGHT IS FLASHING."
+de = ""
+
+[[text]]
+id = "M097_109"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROOM IS FILLED WITH MACHINERY AND GIGANTIC GEARS. AN INFORMATION SCREEN ON THE WALL READS: 'OPERATION CONDITIONS NORMAL.'"
+de = ""
+
+[[text]]
+id = "M097_110"
+befehl = ["PRINTCLEAR"]
+en = "A PLAQUE READS -- "
+de = ""
+
+[[text]]
+id = "M097_111"
+befehl = ["PRINT"]
+en = "ABANDON ALL HOPE YE WHO ENTER HERE."
+de = ""
+
+[[text]]
+id = "M097_112"
+befehl = ["PRINTCLEAR"]
+en = "A SMALLER SIGN READS -- "
+de = ""
+
+[[text]]
+id = "M097_113"
+befehl = ["PRINT"]
+en = "ICI ON PARLE FRANCAIS"
+de = ""
+
+[[text]]
+id = "M097_114"
+befehl = ["PRINTCLEAR"]
+en = "A FEMALE VOICE ISSUES FROM AN INTERCOM. 'FIRING CLEARANCE GRANTED. COUNTDOWN TO FIRING WILL COMMENCE IMMEDIATELY. "
+de = ""
+
+[[text]]
+id = "M097_115"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M097_116"
+befehl = ["PRINT"]
+en = "COUNT "
+de = ""
+
+[[text]]
+id = "M097_117"
+befehl = ["PRINT"]
+en = " TO FIRE.'"
+de = ""
+
+[[text]]
+id = "M097_118"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS APPEARS. 'YOU'RE TOO LATE! WILMA IS ABOUT TO CRASH HER SHIP INTO THE DOOMSDAY WEAPON FROM ABOVE TO DESTROY IT!'"
+de = ""
+
+[[text]]
+id = "M097_119"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR THE SQUEAL OF SHREDDING METAL FAR ABOVE YOU, AND AN EXPLOSION BATHES THE ENTIRE TOP OF THE MARIPOSA IN FLAME!"
+de = ""
+
+[[text]]
+id = "M097_120"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""

@@ -100,12 +100,15 @@ Verweise**, keinen Verweis ins Leere.
 - Dialoge nutzen nur: Leerzeichen, `! # % ' ( ) , - . 0–9 : ; < = ?` und `A–Z`.
 - Systemtexte zusätzlich `a–z`, `+ /`, `~`.
 - Umlaute/ß kommen nicht vor → Font-Kacheln müssen ergänzt werden (Phase 1, Zeichensatz.md).
+- **Nachtrag 23.10.2026:** Die Schrift hat nur Großbuchstaben; Kleinbuchstaben in Systemtexten
+  erscheinen groß (`Zeichensatz.md`).
 
 ## Entscheidung (21.10.2026, Marcel): Textablage A
 
 **A gilt:** Der deutsche Dialogtext liegt unkomprimiert in der ROM, `sub_40D0` setzt
 `$FFFFB9A4` auf die ROM-Adresse des Textblocks statt ihn zu entpacken. ROM wächst auf 2 MB.
-Umsetzung in Phase 1. Status: entschieden, **gebaut: nein, Test offen.**
+Umsetzung in Phase 1. Status: **gebaut 23.10.2026, im Testemulator geprüft, Ares offen** – Details `Textablage.md`.
+(Umgesetzt als Zeigertabelle je Modul statt Textblock-Adresse, damit der ECL-Code unverändert bleibt.)
 
 Begründung: RAM-Grenze (0x2C00) fällt für den Text weg, kein Kürzen in M050/M032 nötig,
 kein LZW-Packer nötig, kleiner Eingriff mit klarem Rückfallwert.

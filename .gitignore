@@ -27,3 +27,6 @@ __pycache__/
 
 # Platzhalter fuer leere Ordner auf H:
 .platzhalter.txt
+
+# Erzeugte Bau-Eingaben der deutschen Fassung (enthalten Spieldaten)
+02_Extracted/deutsch/

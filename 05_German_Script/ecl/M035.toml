@@ -1,0 +1,147 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 35
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M035_000"
+befehl = ["PRINTCLEAR"]
+en = "THE EMERGENCY LIGHTING IS ON, BUT FLICKERING. IT IS DIFFICULT TO SEE CLEARLY ANY DISTANCE."
+de = ""
+
+[[text]]
+id = "M035_001"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO RETREAT INTO YOUR SHIP?"
+de = ""
+
+[[text]]
+id = "M035_002"
+befehl = ["PRINTCLEAR"]
+en = "YOUR SHIP IS BUFFETED BY THE EXPLOSION FROM THE ASTEROID."
+de = ""
+
+[[text]]
+id = "M035_003"
+befehl = ["PRINTCLEAR"]
+en = "FROM NOWHERE COME DEADLY ECGS."
+de = ""
+
+[[text]]
+id = "M035_004"
+befehl = ["PRINTCLEAR"]
+en = "ECGS ATTEMPT TO SEIZE YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M035_005"
+befehl = ["PRINTCLEAR"]
+en = "THIS AIRLOCK DOOR IS LEAKING. SOMETHING HAS BEEN TEARING AT THE SEALS. A TATTERED BIT OF SPACESUIT FLOATS PAST."
+de = ""
+
+[[text]]
+id = "M035_006"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE COMMUNICATIONS ROOM. DAMAGED ELECTRONICS FLOAT EVERYWHERE."
+de = ""
+
+[[text]]
+id = "M035_007"
+befehl = ["PRINTCLEAR"]
+en = "SUDDENLY SHAPES WHIRL TOWARD YOU FROM EVERY DIRECTION."
+de = ""
+
+[[text]]
+id = "M035_008"
+befehl = ["PRINTCLEAR"]
+en = "A BLEEDING MINER IN A SPACESUIT WHISPERS, 'TALON BETRAYED US. THAT WAS NO TREASURE.' HE STOPS BREATHING."
+de = ""
+
+[[text]]
+id = "M035_009"
+befehl = ["PRINTCLEAR"]
+en = "SEVERAL MINERS FLOAT PAST, THEIR BODIES SAVAGED BY SOMETHING."
+de = ""
+
+[[text]]
+id = "M035_010"
+befehl = ["PRINTCLEAR"]
+en = "SEVERAL MINERS WERE OVERCOME BY THE ECGS WHILE STRAPPED TO THEIR BUNKS."
+de = ""
+
+[[text]]
+id = "M035_011"
+befehl = ["PRINTCLEAR"]
+en = "YOU DISCOVER A NOTE SIGNED BY TALON."
+de = ""
+
+[[text]]
+id = "M035_012"
+befehl = ["PRINTCLEAR"]
+en = "'YOU HAVE PROFITED BY SAFEKEEPING THINGS FOR ME BEFORE. STORE THESE CYLINDERS AND YOU WILL BE WELL REWARDED.'"
+de = ""
+
+[[text]]
+id = "M035_013"
+befehl = ["PRINTCLEAR"]
+en = "ECGS GUARD THIS DOORWAY. BEYOND YOU SEE CRUDE CORRIDORS WITH MUCH FLOATING DEBRIS."
+de = ""
+
+[[text]]
+id = "M035_014"
+befehl = ["PRINTCLEAR"]
+en = "RANDOM OBJECTS HAVE BEEN CRUDELY LASHED TOGETHER HERE. ECGS BOIL OUT TO PROTECT SOMETHING WITHIN."
+de = ""
+
+[[text]]
+id = "M035_015"
+befehl = ["PRINTCLEAR"]
+en = "YOU DISCOVER SEVERAL MOLTING SHAPES HIDDEN WITHIN THE PILE AND DESTROY THEM."
+de = ""
+
+[[text]]
+id = "M035_016"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND A CACHE OF EXPLOSIVES AND SEVERAL EMPTY CYLINDERS MARKED, 'PROPERTY OF DR. WILLIAMS. BIOHAZARD.'"
+de = ""
+
+[[text]]
+id = "M035_017"
+befehl = ["PRINTCLEAR"]
+en = "THE OTHER EXPLOSIVE COULD BE SET TO DETONATE AND DESTROY THE ASTEROID. "
+de = ""
+
+[[text]]
+id = "M035_018"
+befehl = ["PRINT"]
+en = "DO YOU WISH TO SET UP AN EXPLOSION?"
+de = ""
+
+[[text]]
+id = "M035_019"
+befehl = ["PRINTCLEAR"]
+en = "YOU CAN SET A DELAY BETWEEN 0 AND 99. WHAT NUMBER DO YOU CHOOSE?"
+de = ""
+
+[[text]]
+id = "M035_020"
+befehl = ["PRINTCLEAR"]
+en = "THE COUNTDOWN HAS BEEN ACTIVATED."
+de = ""
+
+[[text]]
+id = "M035_021"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M035_022"
+befehl = ["PRINT"]
+en = ".'"
+de = ""
+
+[[text]]
+id = "M035_023"
+befehl = ["PRINTCLEAR"]
+en = "THE ASTEROID ERUPTS IN A HUGE EXPLOSION!"
+de = ""

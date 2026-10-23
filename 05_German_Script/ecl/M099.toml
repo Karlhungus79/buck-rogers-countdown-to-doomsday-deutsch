@@ -1,0 +1,1064 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 99
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M099_000"
+befehl = ["PRINTCLEAR"]
+en = "THE REST OF THE BASE IS RESTRICTED."
+de = ""
+
+[[text]]
+id = "M099_001"
+befehl = ["PRINTCLEAR"]
+en = "RAM GARRISON TROOPS ARE WAITING FOR YOUR RETURN. THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M099_002"
+befehl = ["PRINT"]
+en = "PORT FACILITIES.'"
+de = ""
+
+[[text]]
+id = "M099_003"
+befehl = ["PRINT"]
+en = "SUPPLIES.'"
+de = ""
+
+[[text]]
+id = "M099_004"
+befehl = ["PRINT"]
+en = "TRAINING FACILITIES.'"
+de = ""
+
+[[text]]
+id = "M099_005"
+befehl = ["PRINT"]
+en = "LIBRARY.'"
+de = ""
+
+[[text]]
+id = "M099_006"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE MAIN PORT AREA."
+de = ""
+
+[[text]]
+id = "M099_007"
+befehl = ["WHMENU"]
+menue = true
+en = "LAUNCH"
+de = ""
+
+[[text]]
+id = "M099_008"
+befehl = ["WHMENU"]
+menue = true
+en = "REPAIR"
+de = ""
+
+[[text]]
+id = "M099_009"
+befehl = ["WHMENU"]
+menue = true
+en = "AMMO"
+de = ""
+
+[[text]]
+id = "M099_010"
+befehl = ["WHMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M099_011"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE CLEARED FOR LAUNCH.'"
+de = ""
+
+[[text]]
+id = "M099_012"
+befehl = ["PRINTCLEAR"]
+en = "NEO ACCT.: "
+de = ""
+
+[[text]]
+id = "M099_013"
+befehl = ["PRINT"]
+en = "00 CR"
+de = ""
+
+[[text]]
+id = "M099_014"
+befehl = ["PRINT"]
+en = "CHOOSE:"
+de = ""
+
+[[text]]
+id = "M099_015"
+befehl = ["HMENU"]
+menue = true
+en = "ESTIMATE"
+de = ""
+
+[[text]]
+id = "M099_016"
+befehl = ["HMENU"]
+menue = true
+en = "REPAIR"
+de = ""
+
+[[text]]
+id = "M099_017"
+befehl = ["HMENU"]
+menue = true
+en = "DONE"
+de = ""
+
+[[text]]
+id = "M099_018"
+befehl = ["PRINTCLEAR"]
+en = "  HULL:     "
+de = ""
+
+[[text]]
+id = "M099_019"
+befehl = ["PRINT"]
+en = "00"
+de = ""
+
+[[text]]
+id = "M099_020"
+befehl = ["PRINT"]
+en = "  CONTROLS: "
+de = ""
+
+[[text]]
+id = "M099_021"
+befehl = ["PRINT"]
+en = "00"
+de = ""
+
+[[text]]
+id = "M099_022"
+befehl = ["PRINT"]
+en = "  ENGINES:  "
+de = ""
+
+[[text]]
+id = "M099_023"
+befehl = ["PRINT"]
+en = "00"
+de = ""
+
+[[text]]
+id = "M099_024"
+befehl = ["PRINT"]
+en = "  WEAPONS:  "
+de = ""
+
+[[text]]
+id = "M099_025"
+befehl = ["PRINT"]
+en = "00    "
+de = ""
+
+[[text]]
+id = "M099_026"
+befehl = ["PRINT"]
+en = "00    "
+de = ""
+
+[[text]]
+id = "M099_027"
+befehl = ["PRINT"]
+en = "00"
+de = ""
+
+[[text]]
+id = "M099_028"
+befehl = ["PRINTCLEAR"]
+en = "WHICH SYSTEM?"
+de = ""
+
+[[text]]
+id = "M099_029"
+befehl = ["HMENU"]
+menue = true
+en = "HULL"
+de = ""
+
+[[text]]
+id = "M099_030"
+befehl = ["HMENU"]
+menue = true
+en = "CONT"
+de = ""
+
+[[text]]
+id = "M099_031"
+befehl = ["HMENU"]
+menue = true
+en = "ENGN"
+de = ""
+
+[[text]]
+id = "M099_032"
+befehl = ["HMENU"]
+menue = true
+en = "WEAP"
+de = ""
+
+[[text]]
+id = "M099_033"
+befehl = ["HMENU"]
+menue = true
+en = "DONE"
+de = ""
+
+[[text]]
+id = "M099_034"
+befehl = ["SAVE"]
+en = "HULL HAS"
+de = ""
+
+[[text]]
+id = "M099_035"
+befehl = ["SAVE"]
+en = "CONTROLS HAVE"
+de = ""
+
+[[text]]
+id = "M099_036"
+befehl = ["SAVE"]
+en = "ENGINE HAS"
+de = ""
+
+[[text]]
+id = "M099_037"
+befehl = ["PRINTCLEAR"]
+en = "WHICH WEAPON?"
+de = ""
+
+[[text]]
+id = "M099_038"
+befehl = ["HMENU"]
+menue = true
+en = "K-CANNON"
+de = ""
+
+[[text]]
+id = "M099_039"
+befehl = ["HMENU"]
+menue = true
+en = "MISSILE"
+de = ""
+
+[[text]]
+id = "M099_040"
+befehl = ["HMENU"]
+menue = true
+en = "LASER"
+de = ""
+
+[[text]]
+id = "M099_041"
+befehl = ["HMENU"]
+menue = true
+en = "DONE"
+de = ""
+
+[[text]]
+id = "M099_042"
+befehl = ["SAVE"]
+en = "K-CANNON(S) HAVE"
+de = ""
+
+[[text]]
+id = "M099_043"
+befehl = ["SAVE"]
+en = "MISSILE MOUNT(S) HAVE"
+de = ""
+
+[[text]]
+id = "M099_044"
+befehl = ["SAVE"]
+en = "LASER(S) HAVE"
+de = ""
+
+[[text]]
+id = "M099_045"
+befehl = ["PRINTCLEAR"]
+en = "THE "
+de = ""
+
+[[text]]
+id = "M099_046"
+befehl = ["PRINT"]
+en = " BEEN REPAIRED."
+de = ""
+
+[[text]]
+id = "M099_047"
+befehl = ["PRINTCLEAR"]
+en = "THIS SYSTEM IS NOT DAMAGED."
+de = ""
+
+[[text]]
+id = "M099_048"
+befehl = ["PRINTCLEAR"]
+en = "YOU NEED MORE MONEY TO FIX THIS SYSTEM."
+de = ""
+
+[[text]]
+id = "M099_049"
+befehl = ["PRINTCLEAR"]
+en = "NEO ACCT.: "
+de = ""
+
+[[text]]
+id = "M099_050"
+befehl = ["PRINT"]
+en = "00 CR"
+de = ""
+
+[[text]]
+id = "M099_051"
+befehl = ["PRINT"]
+en = "RELOADING K-CANNON COSTS: "
+de = ""
+
+[[text]]
+id = "M099_052"
+befehl = ["PRINT"]
+en = "00 CR"
+de = ""
+
+[[text]]
+id = "M099_053"
+befehl = ["PRINT"]
+en = "RELOADING MISSILES COSTS: "
+de = ""
+
+[[text]]
+id = "M099_054"
+befehl = ["PRINT"]
+en = "00 CR"
+de = ""
+
+[[text]]
+id = "M099_055"
+befehl = ["HMENU"]
+menue = true
+en = "K-CANNON"
+de = ""
+
+[[text]]
+id = "M099_056"
+befehl = ["HMENU"]
+menue = true
+en = "MISSILE"
+de = ""
+
+[[text]]
+id = "M099_057"
+befehl = ["HMENU"]
+menue = true
+en = "DONE"
+de = ""
+
+[[text]]
+id = "M099_058"
+befehl = ["PRINTCLEAR"]
+en = "YOU NEED MORE MONEY."
+de = ""
+
+[[text]]
+id = "M099_059"
+befehl = ["PRINTCLEAR"]
+en = "WHAT WOULD YOU LIKE TO DO?"
+de = ""
+
+[[text]]
+id = "M099_060"
+befehl = ["HMENU"]
+menue = true
+en = "MINGLE"
+de = ""
+
+[[text]]
+id = "M099_061"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M099_062"
+befehl = ["PRINTCLEAR"]
+en = "THE CROWD IS PRETTY QUIET."
+de = ""
+
+[[text]]
+id = "M099_063"
+befehl = ["PRINTCLEAR"]
+en = "EVERYONE IS WATCHING A NULL-G BOXING MATCH."
+de = ""
+
+[[text]]
+id = "M099_064"
+befehl = ["PRINTCLEAR"]
+en = "THE MUSIC IS TERRIBLE, YOU WANT TO LEAVE."
+de = ""
+
+[[text]]
+id = "M099_065"
+befehl = ["PRINTCLEAR"]
+en = "YOU TALK AND DANCE, BUT FIND LITTLE EXCITEMENT."
+de = ""
+
+[[text]]
+id = "M099_066"
+befehl = ["PRINT"]
+en = " RUSHES UP. 'YOU LOOK WELL ARMED. I'LL PAY YOU WELL IF YOU TAKE CARE OF SOME TROUBLE.'"
+de = ""
+
+[[text]]
+id = "M099_067"
+befehl = ["PRINTCLEAR"]
+en = "A GROUP RUSHES UP AS "
+de = ""
+
+[[text]]
+id = "M099_068"
+befehl = ["PRINT"]
+en = " DIVES BENEATH YOUR TABLE."
+de = ""
+
+[[text]]
+id = "M099_069"
+befehl = ["PRINTCLEAR"]
+en = "AS THE DUST SETTLES, "
+de = ""
+
+[[text]]
+id = "M099_070"
+befehl = ["PRINT"]
+en = " HANDS YOU SOME CREDITS. 'THANKS!'"
+de = ""
+
+[[text]]
+id = "M099_071"
+befehl = ["PRINT"]
+en = " DARTS AWAY. YOU HEAR A GUN BATTLE RECEDE DOWN THE CORRIDOR."
+de = ""
+
+[[text]]
+id = "M099_072"
+befehl = ["PRINTCLEAR"]
+en = "A BRAWL BEGINS. WEAPONS ARE DRAWN."
+de = ""
+
+[[text]]
+id = "M099_073"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M099_074"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M099_075"
+befehl = ["PRINTCLEAR"]
+en = "YOU LEAVE BEFORE SECURITY ARRIVES."
+de = ""
+
+[[text]]
+id = "M099_076"
+befehl = ["PRINT"]
+en = " SLIPS UP TO YOU. 'TRANSMIT THIS TO NEO WHEN YOU CLEAR THE BASE. GOOD LUCK.' "
+de = ""
+
+[[text]]
+id = "M099_077"
+befehl = ["PRINT"]
+en = " DROPS A PACKET AND SLIPS AWAY."
+de = ""
+
+[[text]]
+id = "M099_078"
+befehl = ["PRINTCLEAR"]
+en = "TWO RAM OFFICERS ARE COMMISERATING. 'I NEVER THOUGHT THAT JUSTIN ROBENO WOULD LOSE US ON CERES.'"
+de = ""
+
+[[text]]
+id = "M099_079"
+befehl = ["PRINTCLEAR"]
+en = "'HEARD HE MANAGED TO CATCH A FAST TRANSPORT TO FORTUNA.'"
+de = ""
+
+[[text]]
+id = "M099_080"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE A TECHNICIAN BEING DRAGGED OFF BY RAM SECURITY. YOU DRAW YOUR WEAPONS AND ATTACK."
+de = ""
+
+[[text]]
+id = "M099_081"
+befehl = ["PRINTCLEAR"]
+en = "'I'M JUSTIN ROBENO. WE NEED TO GO TO PAVONIS STARPORT TO RECOVER A KEY PROTOTYPE FOR NEO.'"
+de = ""
+
+[[text]]
+id = "M099_082"
+befehl = ["PRINTCLEAR"]
+en = "A WOMAN WAVES YOU OVER. 'I'M WILMA DEERING. I'VE BEEN EXPECTING YOU. I NEED A DISTRACTION SO I CAN MEET SOMEONE."
+de = ""
+
+[[text]]
+id = "M099_083"
+befehl = ["PRINTCLEAR"]
+en = "'A SECURITY ROBOT WILL PASS BY IN THE CORRIDOR. DESTROY IT AND I CAN GET PAST THE SECURITY. HERE IS SOMETHING USEFUL.'"
+de = ""
+
+[[text]]
+id = "M099_084"
+befehl = ["PRINTCLEAR"]
+en = "SHE MOVES OFF."
+de = ""
+
+[[text]]
+id = "M099_085"
+befehl = ["PRINTCLEAR"]
+en = "YOU ATTACK THE ROBOT."
+de = ""
+
+[[text]]
+id = "M099_086"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE WILMA MEET A DARK MAN AND MOVE OFF."
+de = ""
+
+[[text]]
+id = "M099_087"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND GARRITY FACE DOWN IN A BOOTH. YOU QUESTION HIM ABOUT TALON'S BASE."
+de = ""
+
+[[text]]
+id = "M099_088"
+befehl = ["PRINTCLEAR"]
+en = "'IT'S SOMEWHERE IN THE BELT. I GOTTA PASSWORD, BUT IT'LL COST YA.' YOU PAY HIM OFF."
+de = ""
+
+[[text]]
+id = "M099_089"
+befehl = ["PRINTCLEAR"]
+en = "'THERE'S A HEAVY CRUISER FILLED WITH LOWLANDER PRISONERS AND VALUABLE GRAVITOL.'"
+de = ""
+
+[[text]]
+id = "M099_090"
+befehl = ["PRINTCLEAR"]
+en = "'DESERT RUNNERS ONLY RESPECT WARRIORS.'"
+de = ""
+
+[[text]]
+id = "M099_091"
+befehl = ["PRINTCLEAR"]
+en = "'I ALWAYS CARRY AT LEAST THREE NEEDLE GUNS,' BOASTS A MERCENARY."
+de = ""
+
+[[text]]
+id = "M099_092"
+befehl = ["PRINTCLEAR"]
+en = "'ACID FROGS ATTACK ANYTHING THAT MOVES.'"
+de = ""
+
+[[text]]
+id = "M099_093"
+befehl = ["PRINTCLEAR"]
+en = "'ALWAYS SPREAD OUT YOUR TEAM IN COMBAT! AND PROTECT THE MEDIC!'"
+de = ""
+
+[[text]]
+id = "M099_094"
+befehl = ["PRINTCLEAR"]
+en = "A YOUNG PIRATE BOASTS, 'TALON'S ALL TALK, HE'S REALLY A WEAKLING.'"
+de = ""
+
+[[text]]
+id = "M099_095"
+befehl = ["PRINTCLEAR"]
+en = "'THE ACID FROG KING IS AN AWE INSPIRING AMPHIBIAN. HIGHLY INTELLIGENT AND RESPECTFUL OF LEADERS.'"
+de = ""
+
+[[text]]
+id = "M099_096"
+befehl = ["PRINTCLEAR"]
+en = "'BUCK ROGERS AND WILMA DEERING ARE SECRETLY ENGAGED.'"
+de = ""
+
+[[text]]
+id = "M099_097"
+befehl = ["PRINTCLEAR"]
+en = "CARE TO SEARCH THE STACKS?"
+de = ""
+
+[[text]]
+id = "M099_098"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEARCH THE STACKS FOR ANY IMPORTANT INFORMATION."
+de = ""
+
+[[text]]
+id = "M099_099"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEARCH, BUT YOU FIND NOTHING NEW."
+de = ""
+
+[[text]]
+id = "M099_100"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEARCH, BUT YOU FIND NOTHING INTERESTING."
+de = ""
+
+[[text]]
+id = "M099_101"
+befehl = ["PRINT"]
+en = " FINDS SOME INTERESTING INFORMATION."
+de = ""
+
+[[text]]
+id = "M099_102"
+befehl = ["PRINTCLEAR"]
+en = "DESERT RUNNERS ARE PROVOKED BY PROLONGED CONVERSATION."
+de = ""
+
+[[text]]
+id = "M099_103"
+befehl = ["PRINTCLEAR"]
+en = "A LARGE COMMUNITY OF ACID FROGS INHABIT THE CENTRAL LAKE OF THE VENUSIAN LOWLANDS."
+de = ""
+
+[[text]]
+id = "M099_104"
+befehl = ["PRINTCLEAR"]
+en = "A SHOP ON JUNO SELLS BOTH CHAFF GRENADES AND ECM'S FOR A STIFF PRICE."
+de = ""
+
+[[text]]
+id = "M099_105"
+befehl = ["PRINTCLEAR"]
+en = "RAM CRUISERS ALWAYS REPAIR WEAPONS BEFORE ANY OTHER DAMAGED SYSTEMS."
+de = ""
+
+[[text]]
+id = "M099_106"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS A RAM SCIENCE LAB IN THE SOUTHWESTERN VENUS LOWLANDS."
+de = ""
+
+[[text]]
+id = "M099_107"
+befehl = ["PRINTCLEAR"]
+en = "RAM HAS BUILT A SECRET COMMUNICATIONS BASE ON HYGEIA."
+de = ""
+
+[[text]]
+id = "M099_108"
+befehl = ["PRINTCLEAR"]
+en = "ACID FROGS ARE EASILY DOMESTICATED BY EXPERTS IN LEADERSHIP."
+de = ""
+
+[[text]]
+id = "M099_109"
+befehl = ["PRINTCLEAR"]
+en = "SUN KINGS RULE THE MERCURIAN MARIPOSAS. MANY DIFFERENT LANGUAGES ARE SPOKEN THERE."
+de = ""
+
+[[text]]
+id = "M099_110"
+befehl = ["PRINTCLEAR"]
+en = "JUSTIN RUMMAGES AROUND AND FINDS THE PROTOTYPE. SUDDENLY, RAM FORCES RUSH INTO THE ROOM."
+de = ""
+
+[[text]]
+id = "M099_111"
+befehl = ["PRINTCLEAR"]
+en = "ONE SAYS, 'WE KNEW THAT WITH THE PROTOTYPE AS BAIT, WE COULD COLLECT NEO SPIES!'"
+de = ""
+
+[[text]]
+id = "M099_112"
+befehl = ["PRINTCLEAR"]
+en = "YOU DRAW YOUR WEAPONS."
+de = ""
+
+[[text]]
+id = "M099_113"
+befehl = ["PRINTCLEAR"]
+en = "JUSTIN HOLDS UP THE UNDAMAGED DEVICE, 'LET'S GET OUT OF HERE BEFORE MORE TROOPS SHOW UP.'"
+de = ""
+
+[[text]]
+id = "M099_114"
+befehl = ["PRINTCLEAR"]
+en = "TROOPS TRY TO PREVENT YOU FROM REACHING YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M099_115"
+befehl = ["PRINTCLEAR"]
+en = "YOU RUSH ONTO YOUR SHIP BEFIRE MORE ARRIVE."
+de = ""
+
+[[text]]
+id = "M099_116"
+befehl = ["PRINTCLEAR"]
+en = "GOOD DAY."
+de = ""
+
+[[text]]
+id = "M099_117"
+befehl = ["SAVE"]
+en = "A HEAVILY BEARDED MINER"
+de = ""
+
+[[text]]
+id = "M099_118"
+befehl = ["SAVE"]
+en = "A BRIGHT FACED YOUTH"
+de = ""
+
+[[text]]
+id = "M099_119"
+befehl = ["SAVE"]
+en = "A MIDDLE-AGED GENTLEMAN"
+de = ""
+
+[[text]]
+id = "M099_120"
+befehl = ["SAVE"]
+en = "A QUIET LIBRARIAN"
+de = ""
+
+[[text]]
+id = "M099_121"
+befehl = ["SAVE"]
+en = "A SHORT TANNED GIRL"
+de = ""
+
+[[text]]
+id = "M099_122"
+befehl = ["SAVE"]
+en = "A SCRUFFY URCHIN"
+de = ""
+
+[[text]]
+id = "M099_123"
+befehl = ["SAVE"]
+en = "A SHADY FELLOW"
+de = ""
+
+[[text]]
+id = "M099_124"
+befehl = ["SAVE"]
+en = "A HOLLOW CHEEKED MAN"
+de = ""
+
+[[text]]
+id = "M099_125"
+befehl = ["SAVE"]
+en = "A DARK-HAIRED ROGUE"
+de = ""
+
+[[text]]
+id = "M099_126"
+befehl = ["SAVE"]
+en = "A LEATHER-SUITED WOMAN"
+de = ""
+
+[[text]]
+id = "M099_127"
+befehl = ["SAVE"]
+en = "A RAVEN-HAIRED BEAUTY"
+de = ""
+
+[[text]]
+id = "M099_128"
+befehl = ["SAVE"]
+en = "A HARD-EDGED LADY"
+de = ""
+
+[[text]]
+id = "M099_129"
+befehl = ["SAVE"]
+en = "HE"
+de = ""
+
+[[text]]
+id = "M099_130"
+befehl = ["SAVE"]
+en = "SHE"
+de = ""
+
+[[text]]
+id = "M099_131"
+befehl = ["PRINTCLEAR"]
+en = "IT IS FULLY SUPPLIED."
+de = ""
+
+[[text]]
+id = "M099_132"
+befehl = ["PRINT"]
+en = " CR"
+de = ""
+
+[[text]]
+id = "M099_133"
+befehl = ["PRINT"]
+en = "HOW MUCH?"
+de = ""
+
+[[text]]
+id = "M099_134"
+befehl = ["PRINT"]
+en = "MERCURY"
+de = ""
+
+[[text]]
+id = "M099_135"
+befehl = ["PRINT"]
+en = "VENUS"
+de = ""
+
+[[text]]
+id = "M099_136"
+befehl = ["PRINT"]
+en = "LUNA"
+de = ""
+
+[[text]]
+id = "M099_137"
+befehl = ["PRINT"]
+en = "MARS"
+de = ""
+
+[[text]]
+id = "M099_138"
+befehl = ["PRINT"]
+en = "CERES"
+de = ""
+
+[[text]]
+id = "M099_139"
+befehl = ["PRINT"]
+en = "FORTUNA"
+de = ""
+
+[[text]]
+id = "M099_140"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE AT THE "
+de = ""
+
+[[text]]
+id = "M099_141"
+befehl = ["PRINT"]
+en = "HIELO ORBITAL SPACESTATION"
+de = ""
+
+[[text]]
+id = "M099_142"
+befehl = ["PRINT"]
+en = "NEW ELYSIUM SPACEPORT."
+de = ""
+
+[[text]]
+id = "M099_143"
+befehl = ["PRINT"]
+en = "TYCHO SPACEPORT"
+de = ""
+
+[[text]]
+id = "M099_144"
+befehl = ["PRINT"]
+en = "PAVONIS SPACEPORT"
+de = ""
+
+[[text]]
+id = "M099_145"
+befehl = ["PRINT"]
+en = "SPACEPORT AT "
+de = ""
+
+[[text]]
+id = "M099_146"
+befehl = ["PRINT"]
+en = "CERES"
+de = ""
+
+[[text]]
+id = "M099_147"
+befehl = ["PRINT"]
+en = "VESTA"
+de = ""
+
+[[text]]
+id = "M099_148"
+befehl = ["PRINT"]
+en = "FORTUNA"
+de = ""
+
+[[text]]
+id = "M099_149"
+befehl = ["PRINT"]
+en = "PALLAS"
+de = ""
+
+[[text]]
+id = "M099_150"
+befehl = ["PRINT"]
+en = "PSYCHE"
+de = ""
+
+[[text]]
+id = "M099_151"
+befehl = ["PRINT"]
+en = "JUNO"
+de = ""
+
+[[text]]
+id = "M099_152"
+befehl = ["PRINT"]
+en = "HYGEIA"
+de = ""
+
+[[text]]
+id = "M099_153"
+befehl = ["PRINT"]
+en = "AURORA"
+de = ""
+
+[[text]]
+id = "M099_154"
+befehl = ["PRINT"]
+en = "THULE"
+de = ""
+
+[[text]]
+id = "M099_155"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M099_156"
+befehl = ["PRINT"]
+en = "GABE'S SALOON"
+de = ""
+
+[[text]]
+id = "M099_157"
+befehl = ["PRINT"]
+en = "BRETSKI'S"
+de = ""
+
+[[text]]
+id = "M099_158"
+befehl = ["PRINT"]
+en = "EATBUGS BAR AND GRILL"
+de = ""
+
+[[text]]
+id = "M099_159"
+befehl = ["PRINT"]
+en = "CHEZ LUNA"
+de = ""
+
+[[text]]
+id = "M099_160"
+befehl = ["PRINT"]
+en = "DAVE'S DINER"
+de = ""
+
+[[text]]
+id = "M099_161"
+befehl = ["PRINT"]
+en = "FREEFALL BAR AND GRILL"
+de = ""
+
+[[text]]
+id = "M099_162"
+befehl = ["PRINT"]
+en = "HEXABURGER"
+de = ""
+
+[[text]]
+id = "M099_163"
+befehl = ["PRINT"]
+en = "RHONDA'S CAFE"
+de = ""
+
+[[text]]
+id = "M099_164"
+befehl = ["PRINT"]
+en = "UDU'S CAFE"
+de = ""
+
+[[text]]
+id = "M099_165"
+befehl = ["PRINT"]
+en = "DEB'S PUB"
+de = ""
+
+[[text]]
+id = "M099_166"
+befehl = ["PRINT"]
+en = "QUEEN OF HEARTS"
+de = ""
+
+[[text]]
+id = "M099_167"
+befehl = ["PRINT"]
+en = "JASPER'S JAZZ"
+de = ""
+
+[[text]]
+id = "M099_168"
+befehl = ["PRINT"]
+en = "CARNIVAL"
+de = ""
+
+[[text]]
+id = "M099_169"
+befehl = ["PRINT"]
+en = ".'"
+de = ""
+
+[[text]]
+id = "M099_170"
+befehl = ["PRINTCLEAR"]
+en = "A SIGN READS: "
+de = ""
+
+[[text]]
+id = "M099_171"
+befehl = ["PRINT"]
+en = "        '"
+de = ""
+
+[[text]]
+id = "M099_172"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU DEPART THE STATION, SCOT TRANSMITS THE COURIER'S INFORMATION."
+de = ""

@@ -1,10 +1,10 @@
 # Projektstatus – Buck Rogers: Countdown to Doomsday Deutsch
 
-Stand: 21.10.2026 (spät)
+Stand: 23.10.2026
 
 ## Aktuelle Phase
 
-Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
+Phase 1 – Technisches Gerüst. Läuft (Fahrplan: `Fahrplan.md`). Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Erledigt
 
@@ -43,21 +43,33 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
   deutsche AD&D-Kürzel, km, Sprachfärbungen bleiben (`Glossar.md`).
 - **Glossar abgenommen (21.10.2026, „Listen alles A“):** alle 186 Einträge = A.
   **Tor Phase 0 erreicht.**
+- **Phase 1, 23.10.2026 (Details `Textablage.md`, `Zeichensatz.md`):**
+  - Schrift gefunden: nur Großbuchstaben (64 Zeichen, ROM `$051102`); Kleinbuchstaben werden
+    vom Spiel groß angezeigt. **G1-Annahme vom 21.10. war falsch** → G1 neu zur Entscheidung.
+  - Ä Ö Ü in die Schrift (Plätze `[ £ ]`), Kodierung festgelegt (`zeichensatz.py`).
+  - Textablage A umgesetzt: 4 Hooks in `buckrogers.asm` (`if DEUTSCH`), `src\deutsch.asm`,
+    Texte + Zeigertabellen ab `$108000`, ROM 2 MB, SRAM-Header, Sollwert der Selbstprüfung
+    (`sub_FFFB0`) wird neu gesetzt. Original-Bau weiterhin bit-genau.
+  - Einsetz-Skript `text_einsetzen.py` mit Prüfregeln (Zeichen, Steuerzeichen, Menü 39, Wortlänge 36),
+    getestet. Deutsche Textdateien `05_German_Script\ecl\M000–M099.toml` angelegt.
+  - Intro M016_000–003 deutsch. **Gebaut 23.10.2026, CRC32 E60AE2AA** (2 MB).
+    Im Testemulator (Genesis Plus GX) gesehen: Start, Spielstand laden, Intro deutsch mit Ä Ö Ü.
+    **Test in Ares offen.**
+  - Testumgebung für Claude: `Testumgebung.md`.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
 ## Offen / nächste Schritte
 
-0. Marcel: Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-1. Marcel: Savestate (Ares v147) vor dem Briefing in Chicagorg in `08_Savestates\` ablegen
-2. `Fahrplan.md` für Phase 1 anlegen (Reihenfolge: Font finden → Umlaute/ß →
-   Textablage A umsetzen → ein Intro-Text deutsch im Spiel)
-3. Zeichensatz: Font-Kacheln finden, 7 neue Zeichen ä ö ü ß Ä Ö Ü (`Zeichensatz.md`)
-4. Textablage A umsetzen: `sub_40D0` ändern, ROM auf 2 MB, Einsetz-Skript
-   (Prüfregeln aus Projektanweisung 7.5), Kleinbuchstaben im Dialogfenster testen
-5. Tor Phase 1: Intro (M016/M003) läuft deutsch – Marcel bestätigt im Emulator
-6. Monsternamen, vorgefertigte Figuren, Abspann: Datenstruktur analysieren und
-   in die Extraktion aufnehmen
+1. Marcel: **Entscheidung G1 neu** – A Kleinbuchstaben nachrüsten / B Großbuchstaben wie Original
+   (Empfehlung B), Vorlage `Zeichensatz.md`, Bilder `claude\Vorschau\`
+2. Marcel: in Ares Saves-Pfad auf `08_Savestates` stellen, Testdatei
+   `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md` starten, Spielstand 1 laden,
+   „Begin Adventure“ → Intro deutsch? (Screenshot) = **Tor Phase 1**
+3. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
+4. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
+5. Danach Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
+   Monsternamen/Figuren/Abspann analysieren
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 
@@ -67,4 +79,8 @@ Phase 1 – Technisches Gerüst. Beginnt. Phase 0 abgeschlossen am 21.10.2026 (G
 - LZW-Nachbau entspricht dem Spiel (per Blockgrenzen geprüft, im Spiel erst mit dem
   ersten Einsetz-Test bestätigt)
 - Deutsche Texte werden 10–30 % länger (Annahme); durch Entscheidung A unkritisch
-- Annahme zu A: Kein ECL-Befehl schreibt in den Textblock (im Spieltest prüfen)
+- Annahme zu A: Kein ECL-Befehl schreibt in den Textblock – per Code geprüft (nur 3 Zugriffe auf
+  `$FFFFB9A4`, SAVE kopiert aus dem Text heraus), im Spieltest weiter beobachten
+- Ares erkennt die SRAM der 2-MB-ROM über die neue Header-Angabe (Annahme, Test offen)
+- Zeilenzahl je Dialogfenster: 4 Zeilen im kleinen Fenster, 6 im Bildfenster gesehen; Grenze bei
+  längeren Texten noch nicht gemessen

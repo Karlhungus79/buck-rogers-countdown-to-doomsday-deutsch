@@ -1,0 +1,834 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 32
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M032_000"
+befehl = ["PRINTCLEAR"]
+en = "SIGNS OF FIERCE COMBAT ARE APPARENT. DARK SPHERES FLOAT PAST AND SMEAR AGAINST THE STAINED WALLS."
+de = ""
+
+[[text]]
+id = "M032_001"
+befehl = ["PRINTCLEAR"]
+en = "A BODY RISES, TRANSLUCENT IN THE RED LIGHT. GLOWING GLOBULES SPIRAL AWAY FROM THE FIGURE'S FLAILING ARM."
+de = ""
+
+[[text]]
+id = "M032_002"
+befehl = ["PRINTCLEAR"]
+en = "IT SCREAMS AND PASSES THROUGH THE LEFT WALL. SILENCE DESCENDS AGAIN..."
+de = ""
+
+[[text]]
+id = "M032_003"
+befehl = ["PRINTCLEAR"]
+en = "ONLY TO BE PUNCTUATED BY THE RUMBLE OF SHIP'S WEAPONS FIRING!"
+de = ""
+
+[[text]]
+id = "M032_004"
+befehl = ["PRINTCLEAR"]
+en = "THE AIRLOCK IS SEALED."
+de = ""
+
+[[text]]
+id = "M032_005"
+befehl = ["PRINTCLEAR"]
+en = "THE AIRLOCK IS SEALED. THE EXTERIOR DAMAGE WARNING IS FLASHING."
+de = ""
+
+[[text]]
+id = "M032_006"
+befehl = ["PRINT"]
+en = " YOUR SHIP IS NOWHERE TO BE SEEN."
+de = ""
+
+[[text]]
+id = "M032_007"
+befehl = ["PRINT"]
+en = "SOME OF THE STAGE 3S HAVE EMERGED. THEY ARE WEAK.'"
+de = ""
+
+[[text]]
+id = "M032_008"
+befehl = ["PRINT"]
+en = "A STAGE 3 IS MOVING ABOUT, EXAMINING THE CONTROLS.'"
+de = ""
+
+[[text]]
+id = "M032_009"
+befehl = ["PRINT"]
+en = "THE GENNIE HAS ACTIVATED A COMPUTER. IT IS LEARNING QUICKLY.'"
+de = ""
+
+[[text]]
+id = "M032_010"
+befehl = ["PRINT"]
+en = "ITS MANIPULATING THE CONTROLS, LEARNING TO PILOT.'"
+de = ""
+
+[[text]]
+id = "M032_011"
+befehl = ["PRINT"]
+en = " AWAKES SCREAMING, EYES UNFOCUSED."
+de = ""
+
+[[text]]
+id = "M032_012"
+befehl = ["PRINT"]
+en = " ATTACKS."
+de = ""
+
+[[text]]
+id = "M032_013"
+befehl = ["PRINT"]
+en = " SUDDENLY KEELS OVER."
+de = ""
+
+[[text]]
+id = "M032_014"
+befehl = ["PRINT"]
+en = " GETS A SPLITTING HEADACHE."
+de = ""
+
+[[text]]
+id = "M032_015"
+befehl = ["PRINT"]
+en = " NOTICES A SLOWLY SPREADING RASH."
+de = ""
+
+[[text]]
+id = "M032_016"
+befehl = ["PRINT"]
+en = "'S LEG ITCHES FOR A MOMENT."
+de = ""
+
+[[text]]
+id = "M032_017"
+befehl = ["PRINTCLEAR"]
+en = "SMALL, FANGED CREATURES FLASH TOWARDS YOU."
+de = ""
+
+[[text]]
+id = "M032_018"
+befehl = ["PRINTCLEAR"]
+en = "DEFENSE ROBOTS ARRIVE. ONE INTONES, 'YOU HAVE BROKEN ISOLATION ORDER. TERMINATION IS REQUIRED.'"
+de = ""
+
+[[text]]
+id = "M032_019"
+befehl = ["PRINTCLEAR"]
+en = "ROBOTS ATTACK, CHANTING, 'TERMINATE, TERMINATE...'"
+de = ""
+
+[[text]]
+id = "M032_020"
+befehl = ["PRINTCLEAR"]
+en = "THE TURRET CONTROLS ARE DEACTIVATED. YOUR SHIP IS NOT ON THE SCANNERS."
+de = ""
+
+[[text]]
+id = "M032_021"
+befehl = ["PRINTCLEAR"]
+en = "YOUR EYES RIVET ON A FLOATING BODY WRAPPED IN A STAINED COAT AND MISSING AN ARM."
+de = ""
+
+[[text]]
+id = "M032_022"
+befehl = ["PRINTCLEAR"]
+en = "NEAR THE CORPSE IS A RECORDER AND A HOLOGRAPHIC PROJECTOR. BITS OF TAPE FLOAT AROUND THE ROOM."
+de = ""
+
+[[text]]
+id = "M032_023"
+befehl = ["PRINTCLEAR"]
+en = "'...WE WILL BE ON SCHEDULE FOR DEPLOYMENT AFTER EARTH'S STERILIZATION.'"
+de = ""
+
+[[text]]
+id = "M032_024"
+befehl = ["PRINTCLEAR"]
+en = "'OH, NO! POWER FLUCTUATIONS...DISRUPTION OF CONTAINMENT FIELDS...'"
+de = ""
+
+[[text]]
+id = "M032_025"
+befehl = ["PRINTCLEAR"]
+en = "'SCOT! EMERGENCY SHUT DOWN NOW! WHERE ARE YOU?'"
+de = ""
+
+[[text]]
+id = "M032_026"
+befehl = ["PRINTCLEAR"]
+en = "'SCOT IS NONFUNCTIONAL...SECURITY IS NOTIFIED...PREPARING HOLOGRAM...JUST A PRECAUTION...'"
+de = ""
+
+[[text]]
+id = "M032_027"
+befehl = ["PRINTCLEAR"]
+en = "'PROJECTOR COMING ON LINE...WAIT! SO QUICKLY!? THE GLEAMING EYES...NO! GET BACK!"
+de = ""
+
+[[text]]
+id = "M032_028"
+befehl = ["PRINT"]
+en = "'AAAAAAAAAAAHHHHHHHHHHH!!!!!'"
+de = ""
+
+[[text]]
+id = "M032_029"
+befehl = ["PRINTCLEAR"]
+en = "'THIS IS DR. WILLIAMS AND MY SIGMA CODE IS...' A STRING OF NUMBERS FOLLOWS."
+de = ""
+
+[[text]]
+id = "M032_030"
+befehl = ["PRINTCLEAR"]
+en = "THIS ONE IS DATED EARLIER. 'THE ECG CANISTERS ARE LOADED FOR EARTH. THEY WILL MOLT ON PLANET.'"
+de = ""
+
+[[text]]
+id = "M032_031"
+befehl = ["PRINTCLEAR"]
+en = "YOU RECOVER A BIT OF TAPE. DO YOU PLAY IT?"
+de = ""
+
+[[text]]
+id = "M032_032"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M032_033"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M032_034"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_035"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M032_036"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_037"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M032_038"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_039"
+befehl = ["PRINTCLEAR"]
+en = "YOU COULD JUST FIT INTO THE AIRSHAFT. "
+de = ""
+
+[[text]]
+id = "M032_040"
+befehl = ["PRINT"]
+en = "YOU HAVE TO TRAVEL IN SINGLE FILE. SOMEONE MAY HAVE TO FIGHT ALONE. "
+de = ""
+
+[[text]]
+id = "M032_041"
+befehl = ["PRINT"]
+en = "DO YOU ENTER?"
+de = ""
+
+[[text]]
+id = "M032_042"
+befehl = ["PRINTCLEAR"]
+en = "A STENCILLED NUMBER INDICATES YOU ARE ON DECK "
+de = ""
+
+[[text]]
+id = "M032_043"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M032_044"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M032_045"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M032_046"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_047"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M032_048"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_049"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M032_050"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M032_051"
+befehl = ["PRINTCLEAR"]
+en = "HORRID GENNIES SLIP INTO THE AIRSHAFT FROM "
+de = ""
+
+[[text]]
+id = "M032_052"
+befehl = ["PRINT"]
+en = ". "
+de = ""
+
+[[text]]
+id = "M032_053"
+befehl = ["PRINT"]
+en = " WILL HAVE TO FACE THE DRIPPING FANGS ALONE."
+de = ""
+
+[[text]]
+id = "M032_054"
+befehl = ["PRINTCLEAR"]
+en = "THE ECGS DISAPPEAR INTO A CONDUIT."
+de = ""
+
+[[text]]
+id = "M032_055"
+befehl = ["SAVE"]
+en = "ABOVE"
+de = ""
+
+[[text]]
+id = "M032_056"
+befehl = ["SAVE"]
+en = "BELOW"
+de = ""
+
+[[text]]
+id = "M032_057"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROOM IS FILLED WITH INNUMERABLE PIECES OF EQUIPMENT AND SUPPLIES."
+de = ""
+
+[[text]]
+id = "M032_058"
+befehl = ["PRINTCLEAR"]
+en = "NOTHING HERE SEEMS OF IMMEDIATE USE."
+de = ""
+
+[[text]]
+id = "M032_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU LOCATE AN ARGON TANK. SCOT SAYS, 'HEAD UP TO DECK 2.'"
+de = ""
+
+[[text]]
+id = "M032_060"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE ENGINEERING DECK. THE ENGINES ARE SILENT."
+de = ""
+
+[[text]]
+id = "M032_061"
+befehl = ["PRINTCLEAR"]
+en = "THE SHIP'S OASIS -- THE HYDROPONICS GARDEN -- SEEMS PEACEFUL."
+de = ""
+
+[[text]]
+id = "M032_062"
+befehl = ["PRINTCLEAR"]
+en = "THE SOUNDS AND SMELLS OF THIS ROOM BEGIN TO RELAX YOU. "
+de = ""
+
+[[text]]
+id = "M032_063"
+befehl = ["PRINT"]
+en = " REMEMBERS A QUIET EVENING WITH AN OLD "
+de = ""
+
+[[text]]
+id = "M032_064"
+befehl = ["PRINT"]
+en = "FRIEND."
+de = ""
+
+[[text]]
+id = "M032_065"
+befehl = ["PRINT"]
+en = " REMEMBERS THE QUIET NIGHTS AND FEELS AGAIN THE PLEASANT EMBRACE."
+de = ""
+
+[[text]]
+id = "M032_066"
+befehl = ["PRINT"]
+en = " AWAKES FROM PEACEFUL CONTEMPLATION IN TIME TO SEE "
+de = ""
+
+[[text]]
+id = "M032_067"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M032_068"
+befehl = ["HMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M032_069"
+befehl = ["HMENU"]
+menue = true
+en = "WATCH"
+de = ""
+
+[[text]]
+id = "M032_070"
+befehl = ["PRINT"]
+en = " AWAKES FROM THE DREAM TO FIND "
+de = ""
+
+[[text]]
+id = "M032_071"
+befehl = ["PRINT"]
+en = "SELF"
+de = ""
+
+[[text]]
+id = "M032_072"
+befehl = ["HMENU"]
+menue = true
+en = "FREE SELF"
+de = ""
+
+[[text]]
+id = "M032_073"
+befehl = ["HMENU"]
+menue = true
+en = "WATCH"
+de = ""
+
+[[text]]
+id = "M032_074"
+befehl = ["PRINT"]
+en = " NEVER STRUGGLES. THE BODY IS HELD GENTLY IN THE PULSING VINES. THE BEAUTIFUL SOUNDS RETURN."
+de = ""
+
+[[text]]
+id = "M032_075"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M032_076"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS NO PAIN AND THE HORROR QUICKLY FADES. "
+de = ""
+
+[[text]]
+id = "M032_077"
+befehl = ["PRINT"]
+en = "SOON THE DREAM RETURNS. YOU SLEEP FOREVER."
+de = ""
+
+[[text]]
+id = "M032_078"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M032_079"
+befehl = ["PRINTCLEAR"]
+en = "IN A FRENZY YOU TEAR INTO THE PLANT. THE WOUNDS BEGIN TO BURN."
+de = ""
+
+[[text]]
+id = "M032_080"
+befehl = ["PRINTCLEAR"]
+en = "NEARBY A PLAQUE READS, 'STAGE 4 ECG. USES SONIC AND SCENT CUES TO LURE VICTIMS. SIMILAR TO EARTH'S PITCHER PLANT.'"
+de = ""
+
+[[text]]
+id = "M032_081"
+befehl = ["PRINTCLEAR"]
+en = "YOU ABANDON YOUR FRIENDS AND BEGIN TO MOVE AWAY. UNLUCKILY, THE PLEASANT SOUNDS HAVE INCREASED IN POWER."
+de = ""
+
+[[text]]
+id = "M032_082"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M032_083"
+befehl = ["PRINT"]
+en = " IMPRISONED IN THE VINES OF AN UNKNOWN PLANT."
+de = ""
+
+[[text]]
+id = "M032_084"
+befehl = ["PRINTCLEAR"]
+en = "SMALL THORNS PENETRATE THE ARMOR. THE VINES PULSE IN TIME TO "
+de = ""
+
+[[text]]
+id = "M032_085"
+befehl = ["PRINT"]
+en = "'S HEARTBEAT. "
+de = ""
+
+[[text]]
+id = "M032_086"
+befehl = ["SAVE"]
+en = "BOY"
+de = ""
+
+[[text]]
+id = "M032_087"
+befehl = ["SAVE"]
+en = "GIRL"
+de = ""
+
+[[text]]
+id = "M032_088"
+befehl = ["SAVE"]
+en = "HER"
+de = ""
+
+[[text]]
+id = "M032_089"
+befehl = ["SAVE"]
+en = "HIM"
+de = ""
+
+[[text]]
+id = "M032_090"
+befehl = ["PRINTCLEAR"]
+en = "AN ECG STRIKES IMMEDIATELY."
+de = ""
+
+[[text]]
+id = "M032_091"
+befehl = ["PRINTCLEAR"]
+en = "ANOTHER ECG APPROACHES WITH DRIPPING FANGS."
+de = ""
+
+[[text]]
+id = "M032_092"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROOM CONTAINS THE AIR SAMPLING EQUIPMENT FOR THE SHIP. "
+de = ""
+
+[[text]]
+id = "M032_093"
+befehl = ["PRINT"]
+en = "YOU CAN HOOK UP THE ARGON HERE."
+de = ""
+
+[[text]]
+id = "M032_094"
+befehl = ["PRINTCLEAR"]
+en = "THE ARGON CANISTER CONNECTS. IT HISSES INTO THE AIR SYSTEM."
+de = ""
+
+[[text]]
+id = "M032_095"
+befehl = ["PRINTCLEAR"]
+en = "'ITS WORKING! THEY ARE STARTING TO COLLAPSE..."
+de = ""
+
+[[text]]
+id = "M032_096"
+befehl = ["PRINT"]
+en = "THE STAGE 3S ARE ALSO AFFECTED!"
+de = ""
+
+[[text]]
+id = "M032_097"
+befehl = ["PRINTCLEAR"]
+en = "'HOLD IT! ONE IS REVERSING THE FLOW! THEY ARE REVIVING! QUICKLY, GO TO ENGINEERING AND FIND THE OVERRIDE!'"
+de = ""
+
+[[text]]
+id = "M032_098"
+befehl = ["PRINTCLEAR"]
+en = "THE ENGINES HAVE BEEN SHUT DOWN. TO RESTART REQUIRES ACCESS TO THE CONTROL ROOM."
+de = ""
+
+[[text]]
+id = "M032_099"
+befehl = ["PRINTCLEAR"]
+en = "THE OVERRIDE CAN BE CANCELED HERE."
+de = ""
+
+[[text]]
+id = "M032_100"
+befehl = ["PRINT"]
+en = " PULLS OFF THE CONSOLE COVER AND STARTS CROSS-CIRCUITING THE CONTROLS."
+de = ""
+
+[[text]]
+id = "M032_101"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU EXAMINE THE UNFAMILIAR CIRCUITRY, SCOT SPEAKS, 'LET ME EXPLAIN THE PROCEDURE.' "
+de = ""
+
+[[text]]
+id = "M032_102"
+befehl = ["PRINT"]
+en = " BEGINS TO FOLLOW HIS INSTRUCTIONS."
+de = ""
+
+[[text]]
+id = "M032_103"
+befehl = ["PRINTCLEAR"]
+en = "WITH THE ARGON HALTED, THE CREATURES ARE FREE. LARGE NUMBERS ARE RUSHING TOWARDS YOU."
+de = ""
+
+[[text]]
+id = "M032_104"
+befehl = ["PRINTCLEAR"]
+en = "YOU CAN MAKE A STAND HERE OR ABANDON THE DECK TO THE ECGS. "
+de = ""
+
+[[text]]
+id = "M032_105"
+befehl = ["WHMENU"]
+menue = true
+en = "STAND"
+de = ""
+
+[[text]]
+id = "M032_106"
+befehl = ["WHMENU"]
+menue = true
+en = "RETREAT"
+de = ""
+
+[[text]]
+id = "M032_107"
+befehl = ["PRINTCLEAR"]
+en = "THE GENNIES SKITTER FORWARD. "
+de = ""
+
+[[text]]
+id = "M032_108"
+befehl = ["PRINT"]
+en = " IS STILL TRYING TO OVERRIDE THE CONTROLS."
+de = ""
+
+[[text]]
+id = "M032_109"
+befehl = ["PRINTCLEAR"]
+en = "THE HORDE OF ECGS LEAP FORWARD, EYES GLITTERING IN ANTICIPATION."
+de = ""
+
+[[text]]
+id = "M032_110"
+befehl = ["PRINT"]
+en = " TWISTS THE LAST CONNECTION."
+de = ""
+
+[[text]]
+id = "M032_111"
+befehl = ["PRINTCLEAR"]
+en = "THE ECGS SLAM INTO YOU, BUT THEY ARE ALREADY COLLAPSING. THEY WRITHE IN THE AIR AND THEN ARE STILL."
+de = ""
+
+[[text]]
+id = "M032_112"
+befehl = ["PRINTCLEAR"]
+en = "'CONGRATULATIONS! MY MONITORS SHOW LETHAL ARGON CONCENTRATIONS THROUGHOUT THE SHIP. HEAD UP TO THE CONTROL ROOM AND CONTACT NEO.'"
+de = ""
+
+[[text]]
+id = "M032_113"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY TO MAKE A BREAK FOR IT, BUT THE GENNIES ARE QUICKER. THEY ATTACK RELENTLESSLY."
+de = ""
+
+[[text]]
+id = "M032_114"
+befehl = ["PRINTCLEAR"]
+en = "THE DECK IS CLEAR OF ECGS AT LAST. YOU RETURN AND FINISH MODIFYING THE CONTROLS. ARGON HISSES THROUGHOUT THE SHIP."
+de = ""
+
+[[text]]
+id = "M032_115"
+befehl = ["PRINTCLEAR"]
+en = "A MECHANICAL VOICE BOOMS, 'DESTRUCT SYSTEM ARMED AND COUNTING. 20...'"
+de = ""
+
+[[text]]
+id = "M032_116"
+befehl = ["PRINTCLEAR"]
+en = "SCOT SAYS, 'ONE OF THE ECGS MUST HAVE STRUCK THE CONTROL PANELS. GET TO DECK 6 IMMEDIATELY!'"
+de = ""
+
+[[text]]
+id = "M032_117"
+befehl = ["PRINTCLEAR"]
+en = "SHATTERED TABLES FLOAT HERE SMEARED WITH STRANGE ICHOR. THE RAM FORCES MADE A STAND HERE."
+de = ""
+
+[[text]]
+id = "M032_118"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM IS SPARTAN. IN THE BACK IS A FOLDER."
+de = ""
+
+[[text]]
+id = "M032_119"
+befehl = ["PRINTCLEAR"]
+en = "THE FOLDER READS, 'I HAVE DESIGNED THE ECGS TO DROP BRAIN PARASITES AS THEY TRAVEL, CREATING A MINEFIELD.'"
+de = ""
+
+[[text]]
+id = "M032_120"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM LOOKS QUICKLY RANSACKED, CLOTHING AND PERSONAL EFFECTS FLOAT EVERYWHERE. YOU SPOT A DIARY TOWARDS THE BACK."
+de = ""
+
+[[text]]
+id = "M032_121"
+befehl = ["PRINTCLEAR"]
+en = "THE DIARY READS, 'SCOT IS ACTING STRANGELY. HE RHAPSODIZES ABOUT THE EARTH. THE ECGS WILL STERILIZE THE PLANET THOUGH.'"
+de = ""
+
+[[text]]
+id = "M032_122"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM IS FILLED WITH BODIES. ONLY ONE IS HUMAN. HE LEANS AGAINST THE FAR WALL CLASPING A LOG IN HIS HANDS."
+de = ""
+
+[[text]]
+id = "M032_123"
+befehl = ["PRINTCLEAR"]
+en = "THE LOG CONTAINS THE NAME VILNIKOV, A SIGMA NUMBER AND A PLAN TO CONTROL THE ECGS WITH HARMLESS GAS."
+de = ""
+
+[[text]]
+id = "M032_124"
+befehl = ["WHO"]
+en = "WHO WILL JURYRIG?"
+de = ""
+
+[[text]]
+id = "M032_125"
+befehl = ["PRINTCLEAR"]
+en = "THAT ONE CANNOT."
+de = ""
+
+[[text]]
+id = "M032_126"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE AT A LADDER."
+de = ""
+
+[[text]]
+id = "M032_127"
+befehl = ["PRINT"]
+en = " WHERE DO YOU GO?"
+de = ""
+
+[[text]]
+id = "M032_128"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE ON DECK "
+de = ""
+
+[[text]]
+id = "M032_129"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M032_130"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M032_131"
+befehl = ["PRINT"]
+en = ".'"
+de = ""
+
+[[text]]
+id = "M032_132"
+befehl = ["PRINTCLEAR"]
+en = "THE SHIP ERUPTS IN A HUGE EXPLOSION!"
+de = ""
+
+[[text]]
+id = "M032_133"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M032_134"
+befehl = ["PRINTCLEAR"]
+en = "SCOT SPEAKS, '"
+de = ""

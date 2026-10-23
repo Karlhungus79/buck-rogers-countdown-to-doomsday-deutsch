@@ -1,0 +1,787 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 98
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M098_000"
+befehl = ["PRINTCLEAR"]
+en = "EMERGENCY STAIRS. "
+de = ""
+
+[[text]]
+id = "M098_001"
+befehl = ["PRINT"]
+en = "ALARM WILL SOUND."
+de = ""
+
+[[text]]
+id = "M098_002"
+befehl = ["PRINT"]
+en = "OPEN DOOR ANYWAY?"
+de = ""
+
+[[text]]
+id = "M098_003"
+befehl = ["PRINT"]
+en = "A RED LIGHT FLASHES ABOVE THE DOOR."
+de = ""
+
+[[text]]
+id = "M098_004"
+befehl = ["PRINTCLEAR"]
+en = "A VOICE ISSUES FROM AN INTERCOM. 'FIRING CLEARANCE GRANTED. COUNTDOWN COMMENCING.'"
+de = ""
+
+[[text]]
+id = "M098_005"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M098_006"
+befehl = ["PRINT"]
+en = "COUNT "
+de = ""
+
+[[text]]
+id = "M098_007"
+befehl = ["PRINT"]
+en = " TO FIRE.'"
+de = ""
+
+[[text]]
+id = "M098_008"
+befehl = ["PRINTCLEAR"]
+en = "'YOU'RE TOO LATE! WILMA IS ABOUT TO CRASH HER SHIP INTO THE WEAPON TO DESTROY IT!'"
+de = ""
+
+[[text]]
+id = "M098_009"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR THE SQUEAL OF SHREDDING METAL FAR ABOVE, AND THE MARIPOSA IS BATHED IN FLAME!"
+de = ""
+
+[[text]]
+id = "M098_010"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M098_011"
+befehl = ["PRINTCLEAR"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M098_012"
+befehl = ["PRINT"]
+en = "COUNT "
+de = ""
+
+[[text]]
+id = "M098_013"
+befehl = ["PRINT"]
+en = " TO STATION DESTRUCTION.'"
+de = ""
+
+[[text]]
+id = "M098_014"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M098_015"
+befehl = ["PRINTCLEAR"]
+en = "SECURITY ROBOTS IDENTIFY YOU AS INTRUDERS."
+de = ""
+
+[[text]]
+id = "M098_016"
+befehl = ["PRINTCLEAR"]
+en = "WARRIORS SENT BY THE SUN KING DESCEND ON YOU! 'VIVE LA REVOLUTION!'"
+de = ""
+
+[[text]]
+id = "M098_017"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE AT THE BOTTOM OF AN EMERGENCY STAIRWELL. CLIMB THE STAIRS?"
+de = ""
+
+[[text]]
+id = "M098_018"
+befehl = ["PRINTCLEAR"]
+en = "YOU CLIMB THE STAIRS."
+de = ""
+
+[[text]]
+id = "M098_019"
+befehl = ["PRINTCLEAR"]
+en = "'ESCAPE POD CONTROL'"
+de = ""
+
+[[text]]
+id = "M098_020"
+befehl = ["PRINTCLEAR"]
+en = "AN EMERGENCY STAIRWELL LEADS UP AND DOWN."
+de = ""
+
+[[text]]
+id = "M098_021"
+befehl = ["HMENU"]
+menue = true
+en = "CLIMB STAIRS"
+de = ""
+
+[[text]]
+id = "M098_022"
+befehl = ["HMENU"]
+menue = true
+en = "DESCEND STAIRS"
+de = ""
+
+[[text]]
+id = "M098_023"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M098_024"
+befehl = ["PRINTCLEAR"]
+en = "YOU CLIMB THE STAIRS."
+de = ""
+
+[[text]]
+id = "M098_025"
+befehl = ["PRINTCLEAR"]
+en = "'WEAPONS CONTROL'"
+de = ""
+
+[[text]]
+id = "M098_026"
+befehl = ["PRINTCLEAR"]
+en = "YOU DESCEND THE STAIRS"
+de = ""
+
+[[text]]
+id = "M098_027"
+befehl = ["PRINTCLEAR"]
+en = "'SECURITY'"
+de = ""
+
+[[text]]
+id = "M098_028"
+befehl = ["PRINTCLEAR"]
+en = "YOU'RE ON THE TOP OF AN EMERGENCY STAIRWELL. "
+de = ""
+
+[[text]]
+id = "M098_029"
+befehl = ["PRINT"]
+en = "DESCEND THE STAIRS?"
+de = ""
+
+[[text]]
+id = "M098_030"
+befehl = ["PRINTCLEAR"]
+en = "YOU DESCEND THE STAIRS."
+de = ""
+
+[[text]]
+id = "M098_031"
+befehl = ["PRINTCLEAR"]
+en = "THIS ELEVATOR HAS FOUR BUTTONS ON A HIGH-TECH PANEL."
+de = ""
+
+[[text]]
+id = "M098_032"
+befehl = ["PRINTCLEAR"]
+en = "PRESS WHICH BUTTON?"
+de = ""
+
+[[text]]
+id = "M098_033"
+befehl = ["HMENU"]
+menue = true
+en = "SECURITY"
+de = ""
+
+[[text]]
+id = "M098_034"
+befehl = ["HMENU"]
+menue = true
+en = "PODS"
+de = ""
+
+[[text]]
+id = "M098_035"
+befehl = ["HMENU"]
+menue = true
+en = "CONTROL AREA"
+de = ""
+
+[[text]]
+id = "M098_036"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M098_037"
+befehl = ["PRINTCLEAR"]
+en = "THE CONTROL PANEL GOES DARK."
+de = ""
+
+[[text]]
+id = "M098_038"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE ARRIVED IN THE SECURITY AREA."
+de = ""
+
+[[text]]
+id = "M098_039"
+befehl = ["PRINTCLEAR"]
+en = "YOU'VE ARRIVED IN THE ESCAPE POD STORAGE AREA."
+de = ""
+
+[[text]]
+id = "M098_040"
+befehl = ["PRINTCLEAR"]
+en = "'ACCESS DENIED'"
+de = ""
+
+[[text]]
+id = "M098_041"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE ALREADY THERE'"
+de = ""
+
+[[text]]
+id = "M098_042"
+befehl = ["PRINTCLEAR"]
+en = "A SIGN ABOVE YOU FLASHES:"
+de = ""
+
+[[text]]
+id = "M098_043"
+befehl = ["PRINT"]
+en = "NO BACKUP POWER ALLOCATED FOR ELEVATOR USE. PLEASE USE THE STAIRS."
+de = ""
+
+[[text]]
+id = "M098_044"
+befehl = ["PRINTCLEAR"]
+en = "THE PANEL IS DARK. A RECORDED VOICE SAYS 'ELEVATOR ACCESS DENIED.'"
+de = ""
+
+[[text]]
+id = "M098_045"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE THE DOOMSDAY DEVICE THROUGH A SHIELDED DOME."
+de = ""
+
+[[text]]
+id = "M098_046"
+befehl = ["PRINTCLEAR"]
+en = "'TARGETING -- EARTH'"
+de = ""
+
+[[text]]
+id = "M098_047"
+befehl = ["PRINT"]
+en = "FLASHES ON THE VIEWSCREENS."
+de = ""
+
+[[text]]
+id = "M098_048"
+befehl = ["PRINTCLEAR"]
+en = "THE VIEWSCREENS FLASH --"
+de = ""
+
+[[text]]
+id = "M098_049"
+befehl = ["PRINT"]
+en = "DANGER. DESTRUCT SEQUENCE ACTIVATED"
+de = ""
+
+[[text]]
+id = "M098_050"
+befehl = ["PRINTCLEAR"]
+en = "THE VIEWSCREENS ARE DARK."
+de = ""
+
+[[text]]
+id = "M098_051"
+befehl = ["PRINTCLEAR"]
+en = "POWER ROOM -- DANGER"
+de = ""
+
+[[text]]
+id = "M098_052"
+befehl = ["PRINTCLEAR"]
+en = "CABLES FILL THE ROOM. IT'S POSSIBLE, BUT DANGEROUS, TO CUT THE POWER TO THE DOOMSDAY DEVICE."
+de = ""
+
+[[text]]
+id = "M098_053"
+befehl = ["PRINTCLEAR"]
+en = "THE POWER COUPLER IS HIGH ABOVE YOU. TRY TO TURN OFF THE POWER?"
+de = ""
+
+[[text]]
+id = "M098_054"
+befehl = ["WHO"]
+en = "WHO CLIMBS?"
+de = ""
+
+[[text]]
+id = "M098_055"
+befehl = ["PRINTCLEAR"]
+en = "ELECTRICITY ARCHES OUT OF THE POWER BOARDS."
+de = ""
+
+[[text]]
+id = "M098_056"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M098_057"
+befehl = ["PRINTCLEAR"]
+en = "THE CEILING LIGHTS FLICKER. AN INTERCOM BLARES, 'BACKUP POWER IN USE. COUNTDOWN TEMPORARILY ABORTED.'"
+de = ""
+
+[[text]]
+id = "M098_058"
+befehl = ["PRINTCLEAR"]
+en = "TECHNICIANS ARE FEVERISHLY REWIRING THE DESTRUCT SYSTEM. THEY SEE YOU AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M098_059"
+befehl = ["PRINTCLEAR"]
+en = "A HUGE SQUADRON OF GUARDS IS STATIONED AT THIS ELEVATOR. THEY DEMAND YOUR SURRENDER."
+de = ""
+
+[[text]]
+id = "M098_060"
+befehl = ["PRINT"]
+en = "WHAT DO YOU DO?"
+de = ""
+
+[[text]]
+id = "M098_061"
+befehl = ["HMENU"]
+menue = true
+en = "SURRENDER"
+de = ""
+
+[[text]]
+id = "M098_062"
+befehl = ["HMENU"]
+menue = true
+en = "RUN"
+de = ""
+
+[[text]]
+id = "M098_063"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M098_064"
+befehl = ["PRINTCLEAR"]
+en = "THE GUARDS JEER AFTER YOU AS YOU FLEE, BUT REMAIN AT THEIR POSTS."
+de = ""
+
+[[text]]
+id = "M098_065"
+befehl = ["PRINTCLEAR"]
+en = "THE INTERCOM SPEAKS. 'INTRUDERS HAVE ENTERED A FORBIDDEN AREA. INTRUDER ALERT!' "
+de = ""
+
+[[text]]
+id = "M098_066"
+befehl = ["PRINTCLEAR"]
+en = "YOU SURRENDER. YOU ARE HANDCUFFED AND YOUR GEAR IS TAKEN."
+de = ""
+
+[[text]]
+id = "M098_067"
+befehl = ["PRINTCLEAR"]
+en = "YOU CAN'T ESCAPE OR RESIST. TIME PASSES."
+de = ""
+
+[[text]]
+id = "M098_068"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR A MESSAGE ON THE LOUDSPEAKER. 'FULL POWER HAS BEEN RESTORED. COUNTDOWN COMMENCING. 10."
+de = ""
+
+[[text]]
+id = "M098_069"
+befehl = ["PRINT"]
+en = " 9"
+de = ""
+
+[[text]]
+id = "M098_070"
+befehl = ["PRINT"]
+en = " 8"
+de = ""
+
+[[text]]
+id = "M098_071"
+befehl = ["PRINT"]
+en = " 7"
+de = ""
+
+[[text]]
+id = "M098_072"
+befehl = ["PRINT"]
+en = " 6' "
+de = ""
+
+[[text]]
+id = "M098_073"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS A WHINE OF SHIP ENGINES FROM ABOVE, THE SCREAM OF METAL, AND THE ROAR OF AN EXPLOSION. A FIRESTORM ENGULFS THE MARIPOSA."
+de = ""
+
+[[text]]
+id = "M098_074"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M098_075"
+befehl = ["PRINTCLEAR"]
+en = "YOU ATTACK!"
+de = ""
+
+[[text]]
+id = "M098_076"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE TOP OF THE CORE. WILL YOU DESCEND?"
+de = ""
+
+[[text]]
+id = "M098_077"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING HAS ACTIVATED A LASER FIELD ACROSS THE CORE. THERE IS NO WAY TO GET DOWN THE CORE."
+de = ""
+
+[[text]]
+id = "M098_078"
+befehl = ["PRINTCLEAR"]
+en = "A BABBLE OF INFORMATION ISSUES FROM AN INTERCOM."
+de = ""
+
+[[text]]
+id = "M098_079"
+befehl = ["PRINTCLEAR"]
+en = "'WEAPONS SYSTEM ARMED... TARGETING SYSTEM TESTING... COUNTDOWN TO COMMENCE UPON SYSTEM VERIFICATION...'"
+de = ""
+
+[[text]]
+id = "M098_080"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS APPEARS. 'YOU'RE JUST IN TIME! THEY'RE DOING FINAL CHECKS ON THE LASER.' HE DISPLAYS A HOLOGRAM OF THE LASER BEING TESTED."
+de = ""
+
+[[text]]
+id = "M098_081"
+befehl = ["PRINTCLEAR"]
+en = "'THE POWER ROOM IS ON THE WEAPONS CONTROL LEVEL. FIND IT AND CUT THE POWER. THEN YOU CAN DESTROY THE WEAPON."
+de = ""
+
+[[text]]
+id = "M098_082"
+befehl = ["PRINTCLEAR"]
+en = "TAKE THE EMERGENCY STAIRS TO THE NORTH, DON'T WORRY ABOUT THE ALARM!'"
+de = ""
+
+[[text]]
+id = "M098_083"
+befehl = ["PRINTCLEAR"]
+en = "POD 1"
+de = ""
+
+[[text]]
+id = "M098_084"
+befehl = ["PRINTCLEAR"]
+en = "POD 2"
+de = ""
+
+[[text]]
+id = "M098_085"
+befehl = ["PRINTCLEAR"]
+en = "POD 3"
+de = ""
+
+[[text]]
+id = "M098_086"
+befehl = ["PRINTCLEAR"]
+en = "POD 4"
+de = ""
+
+[[text]]
+id = "M098_087"
+befehl = ["PRINTCLEAR"]
+en = "A WARNING LIGHT BLINKS WHEN YOU TRY TO OPEN THE DOOR. A SIGN FLASHES -- "
+de = ""
+
+[[text]]
+id = "M098_088"
+befehl = ["PRINT"]
+en = "POD HANGAR EMPTY "
+de = ""
+
+[[text]]
+id = "M098_089"
+befehl = ["PRINTCLEAR"]
+en = "A SENSOR BEAM SWEEPS OVER YOUR TEAM AND THE DOORS SLIDE OPEN. 'AUTHORIZATION ACCEPTED.'"
+de = ""
+
+[[text]]
+id = "M098_090"
+befehl = ["PRINTCLEAR"]
+en = "THE SMOLDERING REMAINS OF THIS POD WOULD NEVER GET YOU OFF THE MARIPOSA."
+de = ""
+
+[[text]]
+id = "M098_091"
+befehl = ["PRINTCLEAR"]
+en = "A SIGN FLASHES. 'POD ENTRY MUST BE PREAPPROVED THROUGH POD CONTROL CENTER. ENTRY DENIED.'"
+de = ""
+
+[[text]]
+id = "M098_092"
+befehl = ["PRINTCLEAR"]
+en = "DEMO CHARGING THE DOOR WOULD BE DANGEROUS, BUT POSSIBLE. TRY IT?"
+de = ""
+
+[[text]]
+id = "M098_093"
+befehl = ["PRINTCLEAR"]
+en = "YOU DON'T HAVE A DEMO CHARGE."
+de = ""
+
+[[text]]
+id = "M098_094"
+befehl = ["WHO"]
+en = "WHO DEMO CHARGES THE DOOR?"
+de = ""
+
+[[text]]
+id = "M098_095"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE TEMPORARILY BLINDED BY AN EXPLOSION. WHEN THE SMOKE CLEARS, YOU SEE THAT MOST OF THE ESCAPE POD EXPLODED ALONG WITH THE DOOR."
+de = ""
+
+[[text]]
+id = "M098_096"
+befehl = ["PRINTCLEAR"]
+en = "THE CONTROLS ARE LIT, BUT UNRESPONSIVE. AFTER A FEW MOMENTS, SCOT.DOS APPEARS ON ONE OF THE MONITORS."
+de = ""
+
+[[text]]
+id = "M098_097"
+befehl = ["PRINTCLEAR"]
+en = "GOOD WORK! I'LL GET YOU CLEARANCE.' HIS PICTURE FREEZES WHILE HE WORKS."
+de = ""
+
+[[text]]
+id = "M098_098"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS FINALLY REANIMATES. 'FIND AN AVAILABLE POD. WILMA'S WAITING OUTSIDE WITH THE SHIP!'"
+de = ""
+
+[[text]]
+id = "M098_099"
+befehl = ["PRINTCLEAR"]
+en = "THE CONTROLS ARE DARK. A SIGN READS -- "
+de = ""
+
+[[text]]
+id = "M098_100"
+befehl = ["PRINT"]
+en = "POWER ONLY ALLOCATED DURING EMERGENCY STATUS."
+de = ""
+
+[[text]]
+id = "M098_101"
+befehl = ["PRINTCLEAR"]
+en = "CONTROL TERMINALS LINE THE WALLS, MANNED BY RAM TECHNICIANS. GUARDS LUNGE TOWARDS YOU."
+de = ""
+
+[[text]]
+id = "M098_102"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE THE ROOM TO YOURSELF. YOU FIND THE EMERGENCY DESTRUCT MECHANISM FOR THE DOOMSDAY DEVICE AND ACTIVATE IT."
+de = ""
+
+[[text]]
+id = "M098_103"
+befehl = ["PRINTCLEAR"]
+en = "'STATION ON EMERGENCY STATUS. DESTRUCTION OF WEAPON IN TWO MINUTES.'"
+de = ""
+
+[[text]]
+id = "M098_104"
+befehl = ["PRINTCLEAR"]
+en = "TECHNICIANS RUSH INTO THE ROOM, HOPING TO DEACTIVATE THE SELF-DESTRUCT."
+de = ""
+
+[[text]]
+id = "M098_105"
+befehl = ["PRINTCLEAR"]
+en = "MORE WARRIORS ATTACK!"
+de = ""
+
+[[text]]
+id = "M098_106"
+befehl = ["PRINTCLEAR"]
+en = "'DESTRUCT SEQUENCE NOW IRREVERSIBLE. DESTRUCTION OF DOOMSDAY WEAPON COMMENCING.' SAYS A WALL SPEAKER CALMLY."
+de = ""
+
+[[text]]
+id = "M098_107"
+befehl = ["PRINTCLEAR"]
+en = "FLASHING RED LIGHTS FILL THE ROOM. "
+de = ""
+
+[[text]]
+id = "M098_108"
+befehl = ["PRINT"]
+en = "5.. "
+de = ""
+
+[[text]]
+id = "M098_109"
+befehl = ["PRINT"]
+en = "4.. "
+de = ""
+
+[[text]]
+id = "M098_110"
+befehl = ["PRINT"]
+en = "3.. "
+de = ""
+
+[[text]]
+id = "M098_111"
+befehl = ["PRINT"]
+en = "2.. "
+de = ""
+
+[[text]]
+id = "M098_112"
+befehl = ["PRINT"]
+en = "1.. "
+de = ""
+
+[[text]]
+id = "M098_113"
+befehl = ["PRINTCLEAR"]
+en = "WITH A ROAR OF SOUND, THE DOOMSDAY DEVICE BREAKS APART. THE REST OF THE MARIPOSA GROANS AS THE STRUCTURES RIP. YOU REALIZE WITHIN MINUTES THE WHOLE SPACE STATION WILL GO UP IN A BALL OF FLAME."
+de = ""
+
+[[text]]
+id = "M098_114"
+befehl = ["PRINTCLEAR"]
+en = "THE SUN KING'S SERVANT SLIPS OUT OF A SHADOW. 'THE SUN KING WANTS THE DOOMSDAY DEVICE INTACT! DEACTIVATE THE DESTRUCT IMMEDIATELY!'"
+de = ""
+
+[[text]]
+id = "M098_115"
+befehl = ["PRINTCLEAR"]
+en = "WHEN YOU FAIL TO OBEY, HE RUNS FOR THE DOOR. 'THE WRATH OF THE SUN KING IS UPON YOU!'"
+de = ""
+
+[[text]]
+id = "M098_116"
+befehl = ["PRINTCLEAR"]
+en = "YOU DEMO CHARGE THE DOOR AND ENTER THE POD!"
+de = ""
+
+[[text]]
+id = "M098_117"
+befehl = ["PRINTCLEAR"]
+en = "YOU TAKE THE CONTROLS AND MANEUVER AS FAR AWAY FROM THE MARIPOSA AS POSSIBLE."
+de = ""
+
+[[text]]
+id = "M098_118"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE RAM SECURITY OFFICE FOR THE TOP PORTION OF THE MARIPOSA. "
+de = ""
+
+[[text]]
+id = "M098_119"
+befehl = ["PRINT"]
+en = "GENNIES CHARGE IN YOUR DIRECTION."
+de = ""
+
+[[text]]
+id = "M098_120"
+befehl = ["PRINTCLEAR"]
+en = "MONITORS SHOW THE MARIPOSA'S STATUS. ONE READS: 'ALL SYSTEMS NORMAL, PROCEEDING ON COUNTDOWN TO EARTH STERILIZATION.'"
+de = ""
+
+[[text]]
+id = "M098_121"
+befehl = ["PRINTCLEAR"]
+en = "MOST OF THE MONITORS ARE DARK. ONE READS: 'POWER INTERRUPTION. WEAPON STATUS INACTIVE.'"
+de = ""
+
+[[text]]
+id = "M098_122"
+befehl = ["PRINTCLEAR"]
+en = "A MONITOR BLINKS: WEAPON SELF-DESTRUCT ACTIVATED. EVACUATE."
+de = ""
+
+[[text]]
+id = "M098_123"
+befehl = ["PRINTCLEAR"]
+en = "SECURITY OFFICE"
+de = ""
+
+[[text]]
+id = "M098_124"
+befehl = ["PRINTCLEAR"]
+en = "WEAPONS CONTROL"
+de = ""
+
+[[text]]
+id = "M098_125"
+befehl = ["PRINTCLEAR"]
+en = "THIS DOOR IS SEALED. BLASTING THROUGH WOULD CAUSE A LARGE ENOUGH EXPLOSION TO KILL YOU. "
+de = ""
+
+[[text]]
+id = "M098_126"
+befehl = ["PRINTCLEAR"]
+en = "THE ELECTRONIC DOORS HAVE BEEN SHORTED OUT BY THE POWER INTERRUPTION. YOU CAN ENTER."
+de = ""
+
+[[text]]
+id = "M098_127"
+befehl = ["PRINTCLEAR"]
+en = "YOU USE YOUR RETINAL LOCKPICK TO PASS THE RETINAL IDENTIFICATION REQUIRED BY THIS DOOR."
+de = ""
+
+[[text]]
+id = "M098_128"
+befehl = ["PRINTCLEAR"]
+en = "POD CONTROL CENTER"
+de = ""

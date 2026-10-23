@@ -10,8 +10,17 @@ Ablauf:
   4. Legt das Ergebnis in 07_Output_ROM/<Zeitstempel>/ ab.
   5. Mit --pruefen: Vergleich mit der Original-ROM (bit-genau?).
 
-Aufruf:  5_rom_bauen.bat  bzw.  6_bitgenau_pruefen.bat
-         python 03_Tools/build.py [--pruefen]
+  Mit --deutsch (deutsche Fassung, claude/Textablage.md):
+  - assembliert mit -D DEUTSCH=1 (Hooks in buckrogers.asm, Erweiterung src/deutsch.asm),
+    vorher muss 4_text_einsetzen.bat gelaufen sein (02_Extracted/deutsch/*.bin)
+  - ROM auf 2 MB aufgefuellt, Header: ROM-Ende $1FFFFF, SRAM-Angabe ($200001-$203FFF, ungerade)
+  - Selbstpruefung des Spiels (sub_FFFB0, Summe der Langworte $0-$FFFAF ohne $18C)
+    bekommt den neuen Sollwert (Immediate bei $FFFCC), sonst haengt das Spiel beim Start
+  - Kopie als feste Testdatei 07_Output_ROM/Buck Rogers - Countdown to Doomsday (gebaut).md,
+    damit der Spielstand in Ares (gleicher Dateiname) bei jedem Bau weiter passt
+
+Aufruf:  5_rom_bauen.bat  bzw.  6_bitgenau_pruefen.bat  bzw.  7_deutsch_bauen.bat
+         python 03_Tools/build.py [--pruefen] [--deutsch]
 """
 import sys, os, subprocess, zlib, struct, datetime, shutil
 
@@ -58,19 +67,44 @@ def fix_checksum(rom):
     return bytes(rom), old, s
 
 
+SELBSTTEST_SOLL = 0xFFFCC   # Immediate von "cmpi.l #$10D1310C,d0" in sub_FFFB0
+TESTDATEI = "Buck Rogers - Countdown to Doomsday (gebaut).md"
+
+
+def deutsch_nachbearbeiten(rom):
+    rom = bytearray(rom)
+    if len(rom) > 0x200000:
+        sys.exit("FEHLER: ROM groesser als 2 MB (%d Byte)" % len(rom))
+    rom += b"\xFF" * (0x200000 - len(rom))
+    struct.pack_into(">I", rom, 0x1A4, 0x1FFFFF)                  # ROM-Ende
+    rom[0x1B0:0x1BC] = b"RA\xF8\x20" + struct.pack(">II", 0x200001, 0x203FFF)   # SRAM
+    s = 0
+    for a in range(0, 0xFFFB0, 4):
+        if a != 0x18C:
+            s = (s + struct.unpack(">I", rom[a:a + 4])[0]) & 0xFFFFFFFF
+    struct.pack_into(">I", rom, SELBSTTEST_SOLL, s)
+    return bytes(rom), s
+
+
 def main():
     pruefen = "--pruefen" in sys.argv
+    deutsch = "--deutsch" in sys.argv
+    if deutsch:
+        for f in ("texte.bin", "font_1bpp.bin"):
+            if not os.path.exists(os.path.join(DIS, "deutsch", f)):
+                sys.exit("FEHLER: 02_Extracted/deutsch/%s fehlt - zuerst 4_text_einsetzen.bat ausfuehren" % f)
     if not data_ok():
         print("Datenbloecke fehlen oder sind veraltet -> Extraktion aus der Original-ROM ...")
         r = subprocess.run([sys.executable, os.path.join(HERE, "extract.py")])
         if r.returncode != 0:
             sys.exit(1)
     ts = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    out = os.path.join(OUTROOT, ts + ("_pruefung" if pruefen else ""))
+    out = os.path.join(OUTROOT, ts + ("_pruefung" if pruefen else "") + ("_deutsch" if deutsch else ""))
     os.makedirs(out, exist_ok=True)
     pfile = os.path.join(out, "buckrogers.p")
     print("Assembliere ...")
-    r = subprocess.run([ASL, "-xx", "-q", "-U", "-L", "src/buckrogers.asm", "-o", pfile],
+    r = subprocess.run([ASL, "-xx", "-q", "-U", "-L"] + (["-D", "DEUTSCH=1"] if deutsch else [])
+                       + ["src/buckrogers.asm", "-o", pfile],
                        cwd=DIS, capture_output=True, text=True, errors="replace")
     log = r.stdout + r.stderr
     open(os.path.join(out, "bau.log"), "w", encoding="utf-8").write(log)
@@ -81,18 +115,27 @@ def main():
         print(log[-4000:])
         print("\nFEHLER beim Assemblieren. Details: %s" % os.path.join(out, "bau.log"))
         sys.exit(1)
-    rom_out = os.path.join(out, "Buck Rogers - Countdown to Doomsday (gebaut).md")
+    rom_out = os.path.join(out, "Buck Rogers - Countdown to Doomsday (%s).md" % ("deutsch" if deutsch else "gebaut"))
     r = subprocess.run([P2BIN, "-l", "0", pfile, rom_out], capture_output=True, text=True, errors="replace")
     if r.returncode != 0 or not os.path.exists(rom_out):
         print(r.stdout + r.stderr)
         sys.exit("FEHLER bei p2bin")
     os.remove(pfile)
-    rom, old, new = fix_checksum(open(rom_out, "rb").read())
+    rom = open(rom_out, "rb").read()
+    if deutsch:
+        rom, soll = deutsch_nachbearbeiten(rom)
+        print("Selbstpruefung: neuer Sollwert %08X" % soll)
+    rom, old, new = fix_checksum(rom)
     open(rom_out, "wb").write(rom)
     c = crc(rom)
     print("Fertig: %s" % rom_out)
     print("Groesse: %d Byte, Header-Checksumme: %04X%s, CRC32: %08X"
           % (len(rom), new, "" if old == new else " (neu gesetzt, vorher %04X)" % old, c))
+    open(os.path.join(out, "crc32.txt"), "w").write("%08X  %s\n" % (c, os.path.basename(rom_out)))
+    if deutsch:
+        test = os.path.join(OUTROOT, TESTDATEI)
+        shutil.copyfile(rom_out, test)
+        print("Testdatei (fester Name fuer Ares-Spielstand): %s" % test)
     if pruefen:
         orig = open(ORIG, "rb").read()
         if rom == orig:

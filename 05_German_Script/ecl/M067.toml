@@ -1,0 +1,525 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 67
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M067_000"
+befehl = ["PRINTCLEAR"]
+en = "RAM FORCES ATTACK."
+de = ""
+
+[[text]]
+id = "M067_001"
+befehl = ["PRINTCLEAR"]
+en = "A ROBOT ATTACKS."
+de = ""
+
+[[text]]
+id = "M067_002"
+befehl = ["PRINTCLEAR"]
+en = "RAM HAS A RECEPTION COMMITTEE WAITING FOR YOU."
+de = ""
+
+[[text]]
+id = "M067_003"
+befehl = ["PRINTCLEAR"]
+en = "A VOICE ECHOES THROUGH THE TUNNELS, 'I AM COMMANDER GILBERT. YOU ARE AS FORMIDABLE AS YOUR REPORT INDICATES. YOU HAVE NOW MET YOUR MATCH.'"
+de = ""
+
+[[text]]
+id = "M067_004"
+befehl = ["PRINTCLEAR"]
+en = "A HORDE OF RABID DESERT APES IS DRIVEN FORWARD BY A ROBOT."
+de = ""
+
+[[text]]
+id = "M067_005"
+befehl = ["PRINTCLEAR"]
+en = "GILBERT LAUGHS, 'A PRESENT FROM THE HOMELAND. YOUR PRIMITIVE IS NOT HERE.'"
+de = ""
+
+[[text]]
+id = "M067_006"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER SAYS, 'GETTING WARMER, BUT WRONG.' ANOTHER MINE EXPLODES."
+de = ""
+
+[[text]]
+id = "M067_007"
+befehl = ["PRINTCLEAR"]
+en = "RAM WARRIORS RUSH IN FROM THE OPPOSITE DOOR."
+de = ""
+
+[[text]]
+id = "M067_008"
+befehl = ["PRINTCLEAR"]
+en = "A COMMANDER SPEAKS, 'TALON, FOR YOUR FAILURES THIS BASE IS CONFISCATED AND YOUR LIFE FORFEIT.'"
+de = ""
+
+[[text]]
+id = "M067_009"
+befehl = ["PRINTCLEAR"]
+en = "SOMEONE WHISPERS IN HIS EAR. HE LOOKS STARTLED. 'WELL KILL WHOEVER THEY ARE ANYWAY.' HE LEAVES."
+de = ""
+
+[[text]]
+id = "M067_010"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER LOOKS STARTLED WHEN YOU ENTER. 'THIS IS HIGHLY IRREGULAR.'"
+de = ""
+
+[[text]]
+id = "M067_011"
+befehl = ["PRINTCLEAR"]
+en = "HE TURNS TO HIS MEN. 'DISPOSE OF THEM. I HAVE A TREASURE TO LOCATE.' HE LEAVES."
+de = ""
+
+[[text]]
+id = "M067_012"
+befehl = ["PRINTCLEAR"]
+en = "DOG GENNIES ATTACK."
+de = ""
+
+[[text]]
+id = "M067_013"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROOM ONCE CONTAINED BUNKS. SHREDDED BEDDING AND BROKEN FRAMES FLOAT AT RANDOM."
+de = ""
+
+[[text]]
+id = "M067_014"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM IS FULL OF ROBOT MAINTENANCE EQUIPMENT. NO ROBOTS ARE IN EVIDENCE."
+de = ""
+
+[[text]]
+id = "M067_015"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS AN OLD MINE AREA. OLD TAILINGS FLOAT IN THE AIR."
+de = ""
+
+[[text]]
+id = "M067_016"
+befehl = ["PRINTCLEAR"]
+en = "TECHNICIANS ARE WORKING HERE. GUARDS TURN AND ATTACK."
+de = ""
+
+[[text]]
+id = "M067_017"
+befehl = ["PRINT"]
+en = " REALIZES THAT THIS CONSOLE IS RELAYING INFORMATION TO SOMETHING NEARBY. YOU CANNOT PINPOINT THE TARGET."
+de = ""
+
+[[text]]
+id = "M067_018"
+befehl = ["SAVE"]
+en = "COMMUNICATIONS"
+de = ""
+
+[[text]]
+id = "M067_019"
+befehl = ["PRINT"]
+en = " NOTES THAT THIS INTERNAL SENSOR SYSTEM IS FEEDING INFORMATION TO THE CONSOLE TO ITS RIGHT."
+de = ""
+
+[[text]]
+id = "M067_020"
+befehl = ["SAVE"]
+en = "SENSOR"
+de = ""
+
+[[text]]
+id = "M067_021"
+befehl = ["SAVE"]
+en = "WEAPONS"
+de = ""
+
+[[text]]
+id = "M067_022"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER SCUTTLES THROUGH THE FAR DOOR. HIS GUARDS ATTACK."
+de = ""
+
+[[text]]
+id = "M067_023"
+befehl = ["PRINTCLEAR"]
+en = "MORE FORCES ATTACK."
+de = ""
+
+[[text]]
+id = "M067_024"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER MARSHALS HIS PERSONAL FORCES."
+de = ""
+
+[[text]]
+id = "M067_025"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER COWERS UNDER THE FAR CONSOLE."
+de = ""
+
+[[text]]
+id = "M067_026"
+befehl = ["PRINTCLEAR"]
+en = "A VOICE ISSUES FROM THE CONSOLE, 'I'M GLAD TO SEE MY ENEMIES FIGHTING."
+de = ""
+
+[[text]]
+id = "M067_027"
+befehl = ["PRINTCLEAR"]
+en = "'LITTLE TREASURE REMAINS, BUT YOU MAY HAVE IT ALL!' HE LAUGHS WILDLY."
+de = ""
+
+[[text]]
+id = "M067_028"
+befehl = ["PRINTCLEAR"]
+en = "HIDDEN WALL PANELS SLIDE OPEN. A ROBOT SCUTTLES OUT AND BLASTS THE COMMANDER TO ASHES."
+de = ""
+
+[[text]]
+id = "M067_029"
+befehl = ["PRINTCLEAR"]
+en = "'READINGS INDICATE HIGH RADIATION. THIS IS DEFINITELY A RADIUM MINE. DON'T WASTE TIME!'"
+de = ""
+
+[[text]]
+id = "M067_030"
+befehl = ["PRINTCLEAR"]
+en = "A ROBOT INTONES, 'THIS IS A RESTRICTED AREA. I WILL USE DEADLY FORCE.'"
+de = ""
+
+[[text]]
+id = "M067_031"
+befehl = ["PRINTCLEAR"]
+en = "AN ALARM HAS BEEN RAISED. ROBOTS CONVERGE ON YOU."
+de = ""
+
+[[text]]
+id = "M067_032"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS ARE MARKED WITH RADIATION SIGNS. YOUR SKIN PRICKLES."
+de = ""
+
+[[text]]
+id = "M067_033"
+befehl = ["PRINTCLEAR"]
+en = "HAIRLESS BODIES ARE VIRTUALLY MUMMIFIED IN THE DRY AIR."
+de = ""
+
+[[text]]
+id = "M067_034"
+befehl = ["PRINTCLEAR"]
+en = "A MAN IS CRUSHED BETWEEN TWO BOULDERS. HE HAS SOME EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M067_035"
+befehl = ["PRINTCLEAR"]
+en = "ANOTHER ROBOT BLOCKS YOUR PATH."
+de = ""
+
+[[text]]
+id = "M067_036"
+befehl = ["PRINTCLEAR"]
+en = "THIS RADIATION MONITOR IS WELL INTO THE FATAL RANGE."
+de = ""
+
+[[text]]
+id = "M067_037"
+befehl = ["PRINTCLEAR"]
+en = "THIS CONSOLE CONTROLS AN INTERNAL DEFENSE MECHANISM. DO YOU WANT TO REPROGRAM IT TO ACCEPT YOU?"
+de = ""
+
+[[text]]
+id = "M067_038"
+befehl = ["PRINT"]
+en = " SUCCEEDS. THE SYSTEM RECOGNIZES YOU AS FRIENDLY."
+de = ""
+
+[[text]]
+id = "M067_039"
+befehl = ["PRINTCLEAR"]
+en = "YOU PROVE UNSUCCESSFUL. A ROBOT IS ALERTED."
+de = ""
+
+[[text]]
+id = "M067_040"
+befehl = ["PRINTCLEAR"]
+en = "AN AUTOMATIC DEFENSE SYSTEM LOCKS ONTO YOU AND FIRES."
+de = ""
+
+[[text]]
+id = "M067_041"
+befehl = ["PRINTCLEAR"]
+en = "THE WEAPONS DRIVE YOU BACK."
+de = ""
+
+[[text]]
+id = "M067_042"
+befehl = ["PRINTCLEAR"]
+en = "THE WEAPONS REMAIN INACTIVE."
+de = ""
+
+[[text]]
+id = "M067_043"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND JASON DUPARE. HE IS EXTREMELY EMACIATED. 'RAM IS BUILDING A DEADLY DEVICE OVER MERCURY. WARN NEO.'"
+de = ""
+
+[[text]]
+id = "M067_044"
+befehl = ["PRINTCLEAR"]
+en = "HE FAINTS AND YOU CARRY HIM."
+de = ""
+
+[[text]]
+id = "M067_045"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND ANOTHER WEAK PRISONER HERE. HE THANKS YOU PROFUSELY."
+de = ""
+
+[[text]]
+id = "M067_046"
+befehl = ["PRINTCLEAR"]
+en = "'INTRUDER ALERT!' AS YOU ENTER THE CRUDE BASE, ALARMS BLARE. A WALL PANEL OPENS AND A ROBOT EMERGES."
+de = ""
+
+[[text]]
+id = "M067_047"
+befehl = ["PRINTCLEAR"]
+en = "ALARMS CONTINUE TO BLARE."
+de = ""
+
+[[text]]
+id = "M067_048"
+befehl = ["PRINTCLEAR"]
+en = "THE WALLS ARE LINED WITH CAGED DESERT APES. THEIR TRAINER OPENS THE CAGES AND RUNS AWAY."
+de = ""
+
+[[text]]
+id = "M067_049"
+befehl = ["PRINTCLEAR"]
+en = "SHRIEKING DESERT APES THROW HANDFULS OF DIRT AND PEBBLES AT THE TEAM, THEN RUN AWAY."
+de = ""
+
+[[text]]
+id = "M067_050"
+befehl = ["PRINTCLEAR"]
+en = "THE DESERT APES COWER AGAINST THE FAR WALL OF THE CAGE."
+de = ""
+
+[[text]]
+id = "M067_051"
+befehl = ["PRINTCLEAR"]
+en = "DESERT APES WATCH YOU PITEOUSLY FROM TINY, DIRTY CAGES. OPEN THE CAGES?"
+de = ""
+
+[[text]]
+id = "M067_052"
+befehl = ["PRINTCLEAR"]
+en = "THE APES SWING OVER YOUR HEADS AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M067_053"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROOM IS FULL OF BACKUP COMMUNICATIONS EQUIPMENT. IT IS GUARDED BY A ROBOT!"
+de = ""
+
+[[text]]
+id = "M067_054"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMASH THE BACKUP EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M067_055"
+befehl = ["PRINTCLEAR"]
+en = "YOU STARTLE THE BASE COMMANDER. HE RETREATS THROUGH THE FAR DOOR, LEAVING HIS GUARDS TO FIGHT."
+de = ""
+
+[[text]]
+id = "M067_056"
+befehl = ["PRINTCLEAR"]
+en = "YOU USE THE CONTROL PANEL TO CONTACT NEO. THEY CONGRATULATE YOU AND BEGIN TO REVIEW PAST COMMUNICATIONS FOR SECURITY LEAKS."
+de = ""
+
+[[text]]
+id = "M067_057"
+befehl = ["PRINTCLEAR"]
+en = "WHEN YOUR TRANSMISSION IS COMPLETE, YOU SMASH THE PANEL."
+de = ""
+
+[[text]]
+id = "M067_058"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER HASTENS THROUGH ANOTHER DOOR. A GUARD ROBOT INTERRUPTS YOUR PURSUIT."
+de = ""
+
+[[text]]
+id = "M067_059"
+befehl = ["PRINTCLEAR"]
+en = "YOU SMASH MORE COMMUNICATIONS EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M067_060"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER FLEES INTO YET ANOTHER ROOM. NO GUARDS ARE PRESENT. YOU DESTROY THE EQUIPMENT IN THE ROOM."
+de = ""
+
+[[text]]
+id = "M067_061"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER SUMMONS THE LAST OF HIS GUARDS, A SMALL GROUP OF UNPREPARED TECHNICIANS."
+de = ""
+
+[[text]]
+id = "M067_062"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER TRIES TO SHIELD HIMSELF BEHIND THE LAST OF THE COMMUNICATIONS EQUIPMENT."
+de = ""
+
+[[text]]
+id = "M067_063"
+befehl = ["PRINTCLEAR"]
+en = "YOU ANNIHILATE HIM AND THE EQUIPMENT IN A BARRAGE OF FIRE."
+de = ""
+
+[[text]]
+id = "M067_064"
+befehl = ["PRINTCLEAR"]
+en = "SAND SQUIDS ARE BEING USED TO DRILL TUNNELS IN THE ASTEROID. THEIR TRAINERS DIRECT THEM TOWARDS THE TEAM."
+de = ""
+
+[[text]]
+id = "M067_065"
+befehl = ["PRINTCLEAR"]
+en = "YOU NOTICE A CACHE OF HIDDEN GRENADES."
+de = ""
+
+[[text]]
+id = "M067_066"
+befehl = ["PRINTCLEAR"]
+en = "FROM YOUR RIGHT COMES SNIPER FIRE."
+de = ""
+
+[[text]]
+id = "M067_067"
+befehl = ["PRINTCLEAR"]
+en = "YOU CATCH UP WITH THE SNIPERS. FROM BEHIND, MORE ENEMY APPEAR."
+de = ""
+
+[[text]]
+id = "M067_068"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER'S SWEET VOICE PURRS, 'SO MUCH EFFORT TO RESCUE A PRIMITIVE. THAT IS WHY RAM SHALL PROVE VICTORIOUS.'"
+de = ""
+
+[[text]]
+id = "M067_069"
+befehl = ["PRINTCLEAR"]
+en = "ROBOTS EMERGE FROM BENEATH THE TUNNEL. GILBERT LAUGHS, 'ARE THINGS GETTING WARMER?'"
+de = ""
+
+[[text]]
+id = "M067_070"
+befehl = ["PRINTCLEAR"]
+en = "A MINE EXPLODES!"
+de = ""
+
+[[text]]
+id = "M067_071"
+befehl = ["PRINTCLEAR"]
+en = "COMBAT GENNIES ATTACK."
+de = ""
+
+[[text]]
+id = "M067_072"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE PERSISTENT! AND GETTING WARMER!' AN AMUSED VOICE LAUGHS."
+de = ""
+
+[[text]]
+id = "M067_073"
+befehl = ["PRINTCLEAR"]
+en = "A ROBOT CUTS OFF YOUR ESCAPE."
+de = ""
+
+[[text]]
+id = "M067_074"
+befehl = ["PRINTCLEAR"]
+en = "COMMANDER GILBERT IS HERE HOLDING ATHA. A CAGED DESERT APE IS BEHIND THEM."
+de = ""
+
+[[text]]
+id = "M067_075"
+befehl = ["PRINTCLEAR"]
+en = "GILBERT TOSSES ATHA INTO THE CAGE AND SAYS, 'ALL YOUR EFFORT WAS FOR NOUGHT! WATCH HER DEATH AND LEARN RAM'S STRENGTH!'"
+de = ""
+
+[[text]]
+id = "M067_076"
+befehl = ["PRINTCLEAR"]
+en = "A CLEAR SHIELD DESCENDS IN FRONT OF GILBERT AND GUNS POP FROM THE WALLS. SHE READIES A CONTROL BOX. 'HAVE ONE LAST BATTLE. THEN YOU DIE!'"
+de = ""
+
+[[text]]
+id = "M067_077"
+befehl = ["PRINTCLEAR"]
+en = "A ROBOT ENTERS."
+de = ""
+
+[[text]]
+id = "M067_078"
+befehl = ["PRINTCLEAR"]
+en = "GILBERT SMILES AND HER FINGER DESCENDS TOWARD THE BUTTON."
+de = ""
+
+[[text]]
+id = "M067_079"
+befehl = ["PRINTCLEAR"]
+en = "A PUZZLED EXPRESSION CROSSES HER FACE AND SHE COLLAPSES. ATHA IS BEHIND HER, HOLDING THE BROKEN ARM SPIKE OF THE APE."
+de = ""
+
+[[text]]
+id = "M067_080"
+befehl = ["PRINTCLEAR"]
+en = "SHE SMILES AND PLAYS WITH THE SPIKE. 'SHE OVERESTIMATED THE APE'S STRENGTH.'"
+de = ""
+
+[[text]]
+id = "M067_081"
+befehl = ["PRINTCLEAR"]
+en = "'I REQUIRE YOUR HELP IN GETTING TO AN OUTPOST. FRIENDS WILL HELP ME BACK TO MARS.'"
+de = ""
+
+[[text]]
+id = "M067_082"
+befehl = ["PRINTCLEAR"]
+en = "DESPITE HER BRAVADO, ATHA IS BADLY WOUNDED AND YOU AID HER TO THE SHIP. SHE BEGRUDGINGLY THANKS YOU. THE BOX OPENS THE AIRLOCK."
+de = ""
+
+[[text]]
+id = "M067_083"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO RETURN TO YOUR SHIP?"
+de = ""
+
+[[text]]
+id = "M067_084"
+befehl = ["PRINTCLEAR"]
+en = "THE LOCK IS SEALED. YOU WILL NEED TO FIND THE CONTROLS TO OPEN IT."
+de = ""
+
+[[text]]
+id = "M067_085"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS AN INACTIVE "
+de = ""
+
+[[text]]
+id = "M067_086"
+befehl = ["PRINT"]
+en = " CONSOLE."
+de = ""

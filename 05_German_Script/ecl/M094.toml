@@ -1,0 +1,91 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 94
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M094_000"
+befehl = ["PRINTCLEAR"]
+en = "MARIPOSA THREE LOCATED..."
+de = ""
+
+[[text]]
+id = "M094_001"
+befehl = ["PRINTCLEAR"]
+en = "SCOT.DOS FEEDS THE SHIP CODE TO THE MARIPOSA."
+de = ""
+
+[[text]]
+id = "M094_002"
+befehl = ["PRINTCLEAR"]
+en = "'YOU ARE CLEARED TO LAND.'"
+de = ""
+
+[[text]]
+id = "M094_003"
+befehl = ["PRINTCLEAR"]
+en = "THE MARIPOSA BROADCASTS,"
+de = ""
+
+[[text]]
+id = "M094_004"
+befehl = ["PRINTCLEAR"]
+en = "'YOU DO NOT HAVE THE PROPER CLEARANCE. YOU CANNOT LAND.'"
+de = ""
+
+[[text]]
+id = "M094_005"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M094_006"
+befehl = ["WHMENU"]
+menue = true
+en = "FLEE"
+de = ""
+
+[[text]]
+id = "M094_007"
+befehl = ["WHMENU"]
+menue = true
+en = "CHARGE"
+de = ""
+
+[[text]]
+id = "M094_008"
+befehl = ["PRINTCLEAR"]
+en = "THE MARIPOSA FIRES AND YOU RUN..."
+de = ""
+
+[[text]]
+id = "M094_009"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS A BLAST DOOR HERE."
+de = ""
+
+[[text]]
+id = "M094_010"
+befehl = ["PRINTCLEAR"]
+en = "IT WON'T OPEN."
+de = ""
+
+[[text]]
+id = "M094_011"
+befehl = ["WHMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M094_012"
+befehl = ["WHMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M094_013"
+befehl = ["PRINTCLEAR"]
+en = "IT STILL WON'T OPEN."
+de = ""

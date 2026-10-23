@@ -1,0 +1,342 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 64
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M064_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU ESCAPE INTO THE WILDERNESS AND WATCH THE HEAVY TRANSPORTS LAND."
+de = ""
+
+[[text]]
+id = "M064_001"
+befehl = ["PRINTCLEAR"]
+en = "THE VILLAGE EXPLODES, CONSUMING THE ENEMY FORCES. THE DESERT RUNNERS CHEER."
+de = ""
+
+[[text]]
+id = "M064_002"
+befehl = ["PRINTCLEAR"]
+en = "'WE HAVE SACRIFICED THE VILLAGE. NOW RAM SHALL PAY. THEY HAVE A BASE CALLED GRADIVUS MONS."
+de = ""
+
+[[text]]
+id = "M064_003"
+befehl = ["PRINTCLEAR"]
+en = "'IT HOUSES A DEADLY WEAPON. YOU HAVE SEEN THE MANY BURNED AREAS IN THE DESERT. EACH WAS ONCE ANOTHER VILLAGE."
+de = ""
+
+[[text]]
+id = "M064_004"
+befehl = ["PRINTCLEAR"]
+en = "'WE HAD SEEN THEM TESTING THEIR HUGE LASER, SO THEY DECIDED TO ELIMINATE ALL OF THE RUNNERS."
+de = ""
+
+[[text]]
+id = "M064_005"
+befehl = ["PRINTCLEAR"]
+en = "'THE HILLS PROTECTED US FROM THE WEAPON, BUT NOT FROM RAM'S TROOPS. WE WILL NOW COLLECT THE SURVIVING VILLAGERS."
+de = ""
+
+[[text]]
+id = "M064_006"
+befehl = ["PRINTCLEAR"]
+en = "'MEET US AT THE BLUE ROCK TO THE NORTH. WE SHALL CREATE A RUNNER ARMY.'"
+de = ""
+
+[[text]]
+id = "M064_007"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARRIVE ON MARS. SCOT.DOS SAYS, 'GETTING REPORTS OF A RAM GLIDER ATTACK ON A VILLAGE."
+de = ""
+
+[[text]]
+id = "M064_008"
+befehl = ["PRINTCLEAR"]
+en = "'HEAD OVER AND SEE WHY. PERHAPS THE VILLAGERS CAN AID YOU.'"
+de = ""
+
+[[text]]
+id = "M064_009"
+befehl = ["PRINTCLEAR"]
+en = "THE BASE EXPLODES AND COLLAPSES BEHIND YOU. THE REMAINING DESERT RUNNERS HOWL FOR VICTORY AND THEIR DEAD."
+de = ""
+
+[[text]]
+id = "M064_010"
+befehl = ["PRINTCLEAR"]
+en = "'THIS IS A VICTORY FOR US AND NEO. WE SHALL DISPERSE AND CARRY ON HERE. TAKE THE WAR BACK TO THE STARS. GOOD HUNTING!'"
+de = ""
+
+[[text]]
+id = "M064_011"
+befehl = ["PRINTCLEAR"]
+en = "'YOU HAVEN'T VISITED THAT VILLAGE. WE MUST KNOW WHY RAM IS AFTER THEM' LEAVE ANYWAY?"
+de = ""
+
+[[text]]
+id = "M064_012"
+befehl = ["PRINTCLEAR"]
+en = "'YOU NEED TO GO TO THAT BLUE ROCK AND CHECK OUT GRADIVUS MONS.' LEAVE ANYWAY?"
+de = ""
+
+[[text]]
+id = "M064_013"
+befehl = ["PRINTCLEAR"]
+en = "YOU CLIMB INTO THE ROCKET AND LAUNCH AWAY!"
+de = ""
+
+[[text]]
+id = "M064_014"
+befehl = ["PRINTCLEAR"]
+en = "THIS ROCK HAS A MYSTERIOUS BLUE HUE, UNIQUE IN THE AREA."
+de = ""
+
+[[text]]
+id = "M064_015"
+befehl = ["PRINTCLEAR"]
+en = "HIDDEN AROUND THE ROCK IS A LARGE FORCE OF DESERT RUNNERS, RESTLESSLY CLEANING THEIR WEAPONS."
+de = ""
+
+[[text]]
+id = "M064_016"
+befehl = ["PRINTCLEAR"]
+en = "ATHA STEPS FORWARD. 'WE ARE PREPARED FOR THE ASSAULT. HOWEVER, THEIR MAIN GATE IS IMPREGNABLE.'"
+de = ""
+
+[[text]]
+id = "M064_017"
+befehl = ["PRINTCLEAR"]
+en = "'I AM SENDING TUSKON IN THROUGH A BASEMENT ENTRANCE. HE WILL OPEN THE MAIN GATE. I WOULD LIKE YOU TO AID HIM. WILL YOU?'"
+de = ""
+
+[[text]]
+id = "M064_018"
+befehl = ["PRINTCLEAR"]
+en = "TUSKON SHOWS YOU THE PATH."
+de = ""
+
+[[text]]
+id = "M064_019"
+befehl = ["PRINTCLEAR"]
+en = "'MAKE YOUR OWN WAY THEN. OUR ASSAULT WILL PROCEED AS PLANNED.'"
+de = ""
+
+[[text]]
+id = "M064_020"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A HIGH SECURITY BASE. IT IS IMPOSSIBLE TO ENTER."
+de = ""
+
+[[text]]
+id = "M064_021"
+befehl = ["PRINTCLEAR"]
+en = "THE BASE LIES IN RUINS."
+de = ""
+
+[[text]]
+id = "M064_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE THE BLUE ROCK IN THE DISTANCE. THE BASE STILL APPEARS SECURE."
+de = ""
+
+[[text]]
+id = "M064_023"
+befehl = ["PRINTCLEAR"]
+en = "YOU FIND TUSKON SLAIN BY A BOOBY TRAP NEAR THE BASEMENT ENTRANCE."
+de = ""
+
+[[text]]
+id = "M064_024"
+befehl = ["PRINTCLEAR"]
+en = "A HUGE GUARD FORCE IS DESCENDING TO INVESTIGATE. YOU SLIP INTO THE BASE TO AVOID DISCOVERY."
+de = ""
+
+[[text]]
+id = "M064_025"
+befehl = ["PRINTCLEAR"]
+en = "AN INTENSE HEAT DESTROYED THIS VILLAGE."
+de = ""
+
+[[text]]
+id = "M064_026"
+befehl = ["PRINTCLEAR"]
+en = "THE DESTRUCTION WAS CAUSED BY SOME WEAPON."
+de = ""
+
+[[text]]
+id = "M064_027"
+befehl = ["PRINTCLEAR"]
+en = "SOMETHING GLINTS TO THE NORTHEAST IN THE DISTANCE."
+de = ""
+
+[[text]]
+id = "M064_028"
+befehl = ["PRINTCLEAR"]
+en = "RAM HAS TO HAVE DEVELOPED SOME NEW WEAPON TO DO THIS KIND OF DAMAGE."
+de = ""
+
+[[text]]
+id = "M064_029"
+befehl = ["PRINTCLEAR"]
+en = "THE HEAT WAS SO INTENSE THAT SAND WAS MELTED INTO OBSIDIAN."
+de = ""
+
+[[text]]
+id = "M064_030"
+befehl = ["PRINTCLEAR"]
+en = "ALL OF THESE BURNED PATCHES RADIATE FROM SOMEWHERE TO THE NORTHEAST."
+de = ""
+
+[[text]]
+id = "M064_031"
+befehl = ["PRINTCLEAR"]
+en = "YOU KNOW OF NO WEAPON THAT CAN DO THIS KIND OF FOCUSED DESTRUCTION."
+de = ""
+
+[[text]]
+id = "M064_032"
+befehl = ["PRINTCLEAR"]
+en = "ALL THE BURNED AREAS WERE ONCE AREAS INHABITED BY DESERT RUNNERS."
+de = ""
+
+[[text]]
+id = "M064_033"
+befehl = ["PRINTCLEAR"]
+en = "YOU SIGHT A WALLED VILLAGE. DO YOU ENTER?"
+de = ""
+
+[[text]]
+id = "M064_034"
+befehl = ["PRINTCLEAR"]
+en = "THE FIRES HAVE DIED, LEAVING NOTHING LEFT."
+de = ""
+
+[[text]]
+id = "M064_035"
+befehl = ["PRINTCLEAR"]
+en = "DESERT APES CATCH YOUR SCENT AND SURROUND YOU."
+de = ""
+
+[[text]]
+id = "M064_036"
+befehl = ["PRINTCLEAR"]
+en = "A HERD OF HEXADILLOS BLOCKS YOUR WAY."
+de = ""
+
+[[text]]
+id = "M064_037"
+befehl = ["PRINTCLEAR"]
+en = "SAND SQUIDS!"
+de = ""
+
+[[text]]
+id = "M064_038"
+befehl = ["PRINTCLEAR"]
+en = "RAM SKIMMERS FLY OVERHEAD... "
+de = ""
+
+[[text]]
+id = "M064_039"
+befehl = ["PRINT"]
+en = "AND VANISH."
+de = ""
+
+[[text]]
+id = "M064_040"
+befehl = ["PRINT"]
+en = "AND CIRCLE BACK. "
+de = ""
+
+[[text]]
+id = "M064_041"
+befehl = ["WHMENU"]
+menue = true
+en = "HIDE"
+de = ""
+
+[[text]]
+id = "M064_042"
+befehl = ["WHMENU"]
+menue = true
+en = "RUN"
+de = ""
+
+[[text]]
+id = "M064_043"
+befehl = ["WHMENU"]
+menue = true
+en = "STAND"
+de = ""
+
+[[text]]
+id = "M064_044"
+befehl = ["PRINTCLEAR"]
+en = "YOUR TEAM TRIES TO HIDE."
+de = ""
+
+[[text]]
+id = "M064_045"
+befehl = ["PRINTCLEAR"]
+en = "THEY BEAT THE BRUSH FOR YOU. SOON THEY ZOOM OFF."
+de = ""
+
+[[text]]
+id = "M064_046"
+befehl = ["PRINTCLEAR"]
+en = "THEY FIND YOU."
+de = ""
+
+[[text]]
+id = "M064_047"
+befehl = ["PRINTCLEAR"]
+en = "THEY'VE FLOWN AHEAD TO SET AN AMBUSH!"
+de = ""
+
+[[text]]
+id = "M064_048"
+befehl = ["PRINTCLEAR"]
+en = "THEY CHARGE!"
+de = ""
+
+[[text]]
+id = "M064_049"
+befehl = ["PRINTCLEAR"]
+en = "YOU DRIVE ONTO A FIELD OF ASH."
+de = ""
+
+[[text]]
+id = "M064_050"
+befehl = ["PRINTCLEAR"]
+en = "YOU DESCEND INTO A CANYON."
+de = ""
+
+[[text]]
+id = "M064_051"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRAVEL THROUGH THE ASHEN REMAINS OF A VILLAGE."
+de = ""
+
+[[text]]
+id = "M064_052"
+befehl = ["PRINTCLEAR"]
+en = "YOU ASCEND INTO THE MOUNTAINS."
+de = ""
+
+[[text]]
+id = "M064_053"
+befehl = ["PRINTCLEAR"]
+en = "YOU DESCEND IN A CRATER."
+de = ""
+
+[[text]]
+id = "M064_054"
+befehl = ["COMPARE"]
+en = "TUSKON"
+de = ""
+
+[[text]]
+id = "M064_055"
+befehl = ["COMPARE"]
+en = "TUSKON"
+de = ""

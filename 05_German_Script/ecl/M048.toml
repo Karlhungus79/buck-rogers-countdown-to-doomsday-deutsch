@@ -1,0 +1,583 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 48
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M048_000"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO REBOARD YOUR SHIP?"
+de = ""
+
+[[text]]
+id = "M048_001"
+befehl = ["PRINTCLEAR"]
+en = "YOU ENTER YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M048_002"
+befehl = ["PRINT"]
+en = " MILO STATES, 'WE SHALL HEAD TO OUR OWN EVACUATION STATION. I WILL SEE THAT YOU GET THE HIGHEST RAM HONORS.'"
+de = ""
+
+[[text]]
+id = "M048_003"
+befehl = ["PRINTCLEAR"]
+en = "THE KIDS FILE OUT OF THE AIRLOCK."
+de = ""
+
+[[text]]
+id = "M048_004"
+befehl = ["PRINTCLEAR"]
+en = "AN ESCAPE SHIP IS HERE. A PILOT STATES, 'THIS IS A RELIEF SHIP FOR THE CHILDREN.'"
+de = ""
+
+[[text]]
+id = "M048_005"
+befehl = ["PRINTCLEAR"]
+en = "THE KIDS THANK YOU. "
+de = ""
+
+[[text]]
+id = "M048_006"
+befehl = ["PRINT"]
+en = "THE GENNIES ARE LOADED. "
+de = ""
+
+[[text]]
+id = "M048_007"
+befehl = ["PRINT"]
+en = "JIM'S GRANDFATHER WAVES GOODBYE. "
+de = ""
+
+[[text]]
+id = "M048_008"
+befehl = ["PRINT"]
+en = "THE RABBITS ARE LOADED. "
+de = ""
+
+[[text]]
+id = "M048_009"
+befehl = ["PRINT"]
+en = "THEY LAUNCH SAFELY AWAY."
+de = ""
+
+[[text]]
+id = "M048_010"
+befehl = ["PRINTCLEAR"]
+en = "'HEAD BACK TO THE LOWER LEVEL. WE NEED MORE INFORMATION ON WHAT IS GOING ON.'"
+de = ""
+
+[[text]]
+id = "M048_011"
+befehl = ["PRINTCLEAR"]
+en = "THE DOCK IS EMPTY."
+de = ""
+
+[[text]]
+id = "M048_012"
+befehl = ["PRINTCLEAR"]
+en = "A GROUP OF GUARDS APPROACH. "
+de = ""
+
+[[text]]
+id = "M048_013"
+befehl = ["WHMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M048_014"
+befehl = ["WHMENU"]
+menue = true
+en = "HIDE"
+de = ""
+
+[[text]]
+id = "M048_015"
+befehl = ["WHMENU"]
+menue = true
+en = "TALK"
+de = ""
+
+[[text]]
+id = "M048_016"
+befehl = ["PRINT"]
+en = " TALKS THEM OUT OF ATTACKING. THEY LEAVE."
+de = ""
+
+[[text]]
+id = "M048_017"
+befehl = ["PRINTCLEAR"]
+en = "THEY DRAW THEIR WEAPONS."
+de = ""
+
+[[text]]
+id = "M048_018"
+befehl = ["PRINTCLEAR"]
+en = "THEY SPOT YOU!"
+de = ""
+
+[[text]]
+id = "M048_019"
+befehl = ["PRINTCLEAR"]
+en = "RATS ATTACK."
+de = ""
+
+[[text]]
+id = "M048_020"
+befehl = ["PRINTCLEAR"]
+en = "A SPEAKER BLARES, '"
+de = ""
+
+[[text]]
+id = "M048_021"
+befehl = ["PRINT"]
+en = "BIOHAZARD STILL CONFINED TO LOWER LEVEL.'"
+de = ""
+
+[[text]]
+id = "M048_022"
+befehl = ["PRINT"]
+en = "RATS HAVE ESCAPED THE LOWER LEVEL. BEWARE, THEY ARE HOSTILE.'"
+de = ""
+
+[[text]]
+id = "M048_023"
+befehl = ["PRINT"]
+en = "THOSE WHO DO NOT OBEY EVACUATION ORDERS WILL BE ABANDONED.'"
+de = ""
+
+[[text]]
+id = "M048_024"
+befehl = ["PRINT"]
+en = "DO NOT PANIC. REPEAT, DO NOT PANIC.'"
+de = ""
+
+[[text]]
+id = "M048_025"
+befehl = ["PRINT"]
+en = "ELEVATOR DEMOLITION TO PROCEED ON SCHEDULE.'"
+de = ""
+
+[[text]]
+id = "M048_026"
+befehl = ["PRINT"]
+en = "CODE RED EVACUATION IN PROGRESS.'"
+de = ""
+
+[[text]]
+id = "M048_027"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE AIRLOCK OF A RAM DOCKING BAY."
+de = ""
+
+[[text]]
+id = "M048_028"
+befehl = ["PRINTCLEAR"]
+en = "A RAM OFFICIAL IS WAITING FOR YOU. 'THANK GOD! WE HAVE A BIOEMERGENCY. SOME CHILDREN TRIGGERED THE RELEASE SYSTEM.'"
+de = ""
+
+[[text]]
+id = "M048_029"
+befehl = ["PRINTCLEAR"]
+en = "'WAIT. WHERE IS DR. WILLIAMS?' "
+de = ""
+
+[[text]]
+id = "M048_030"
+befehl = ["WHMENU"]
+menue = true
+en = "BLUFF"
+de = ""
+
+[[text]]
+id = "M048_031"
+befehl = ["WHMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M048_032"
+befehl = ["WHO"]
+en = "WHO WILL BLUFF?"
+de = ""
+
+[[text]]
+id = "M048_033"
+befehl = ["PRINTCLEAR"]
+en = "HE SEEMS CONVINCED. 'YOU MUST BE SOME OF TALON'S PEOPLE. GO RIGHT TO THE BRIEFING ROOM. I MUST OVERSEE THE EVACUATION.'"
+de = ""
+
+[[text]]
+id = "M048_034"
+befehl = ["PRINTCLEAR"]
+en = "HE BACKS AWAY."
+de = ""
+
+[[text]]
+id = "M048_035"
+befehl = ["PRINT"]
+en = "'GUARDS DISPOSE OF THE INTRUDERS!'"
+de = ""
+
+[[text]]
+id = "M048_036"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS NOWHERE TO RUN."
+de = ""
+
+[[text]]
+id = "M048_037"
+befehl = ["PRINTCLEAR"]
+en = "SOLDIERS SALUTE AS YOU APPROACH. 'THE DIRECTOR SAID YOU WERE COMING. THE BRIEFING ROOM IS THROUGH THE NORTH DOOR.'"
+de = ""
+
+[[text]]
+id = "M048_038"
+befehl = ["PRINTCLEAR"]
+en = "A MAN GREETS YOU. 'WE HAVE CHILDREN TRAPPED ON THE LOWER LEVEL. I'VE LOST TWO SQUADS OF MEN TRYING TO RETRIEVE THEM."
+de = ""
+
+[[text]]
+id = "M048_039"
+befehl = ["PRINTCLEAR"]
+en = "'TAKE THE CORRIDOR SOUTH TO THE ELEVATOR. WE WILL DEMO THE SHAFT, BUT YOU CAN ESCAPE UP THE EAST ELEVATOR.'"
+de = ""
+
+[[text]]
+id = "M048_040"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMUNICATIONS GEAR IS AUTOMATICALLY TRANSMITTING, 'EB3 NOW IN QUARANTINE. ALL PERSONNEL EVACUATING.'"
+de = ""
+
+[[text]]
+id = "M048_041"
+befehl = ["PRINTCLEAR"]
+en = "A FRANTIC WOMAN CRIES, 'HAVE YOU SEEN THE CHILDREN? I HAVEN'T HEARD FROM THEM!' WHAT DO YOU SAY?"
+de = ""
+
+[[text]]
+id = "M048_042"
+befehl = ["HMENU"]
+menue = true
+en = "YES"
+de = ""
+
+[[text]]
+id = "M048_043"
+befehl = ["HMENU"]
+menue = true
+en = "NO"
+de = ""
+
+[[text]]
+id = "M048_044"
+befehl = ["HMENU"]
+menue = true
+en = "REMAIN SILENT"
+de = ""
+
+[[text]]
+id = "M048_045"
+befehl = ["PRINTCLEAR"]
+en = "SHE RELAXES. 'THANK GOD! I'LL GO TO THE SHIP IMMEDIATELY.' SHE RUSHES OFF."
+de = ""
+
+[[text]]
+id = "M048_046"
+befehl = ["PRINTCLEAR"]
+en = "SHE SCREAMS, 'OH NO! I'LL GO FIND THEM MYSELF!' SHE RUNS OFF."
+de = ""
+
+[[text]]
+id = "M048_047"
+befehl = ["PRINTCLEAR"]
+en = "A TENSE WARRIOR SALUTES. 'YOU MUST BE THE SPECIALISTS. AS SOON AS YOU'RE DOWN, WE'LL DEMO THE SHAFT. TAKE THIS EQUIPMENT.'"
+de = ""
+
+[[text]]
+id = "M048_048"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE ENTERED THE ELEVATOR. "
+de = ""
+
+[[text]]
+id = "M048_049"
+befehl = ["PRINT"]
+en = "DO YOU WANT TO DESCEND?"
+de = ""
+
+[[text]]
+id = "M048_050"
+befehl = ["PRINTCLEAR"]
+en = "THIS ELEVATOR SHAFT HAS BEEN SEALED. YOU CANNOT DESCEND."
+de = ""
+
+[[text]]
+id = "M048_051"
+befehl = ["PRINTCLEAR"]
+en = "YOU CAN DESCEND BY ROPE. "
+de = ""
+
+[[text]]
+id = "M048_052"
+befehl = ["PRINTCLEAR"]
+en = "POISONED WORKER GENNIES SPRAWL AROUND THE ROOM."
+de = ""
+
+[[text]]
+id = "M048_053"
+befehl = ["PRINTCLEAR"]
+en = "A FEW GASP WEAKLY, 'WE ARE OBJECTS TO RAM, TO BE DESTROYED RATHER THAN EVACUATED.'"
+de = ""
+
+[[text]]
+id = "M048_054"
+befehl = ["PRINTCLEAR"]
+en = "MILO LOOKS ON DISDAINFULLY. JIM WHISPERS, 'ANYTHING YOU CAN DO FOR THEM?'"
+de = ""
+
+[[text]]
+id = "M048_055"
+befehl = ["HMENU"]
+menue = true
+en = "HEAL"
+de = ""
+
+[[text]]
+id = "M048_056"
+befehl = ["HMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M048_057"
+befehl = ["WHO"]
+en = "WHO WILL HEAL THE GENNIES?"
+de = ""
+
+[[text]]
+id = "M048_058"
+befehl = ["PRINT"]
+en = " SUCCEEDS AT REVIVING THE WORKER GENNIES. "
+de = ""
+
+[[text]]
+id = "M048_059"
+befehl = ["PRINT"]
+en = "MILO SAYS, 'SINCE YOU SALVAGED THESE ASSETS, LET'S TAKE THEM ON THE EVAC SHIP.'"
+de = ""
+
+[[text]]
+id = "M048_060"
+befehl = ["PRINTCLEAR"]
+en = "JIM WHISPERS, 'THANKS A LOT. I DON'T LIKE ANYONE DYING.'"
+de = ""
+
+[[text]]
+id = "M048_061"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY VALIANTLY, BUT THEY ARE TOO FAR GONE."
+de = ""
+
+[[text]]
+id = "M048_062"
+befehl = ["PRINTCLEAR"]
+en = "AN ELDERLY MAN POINTS A SMALL PISTOL AT YOU. HE DROPS IT AS JIM RUSHES FORWARD AND YELLS, 'GRANDPA!'"
+de = ""
+
+[[text]]
+id = "M048_063"
+befehl = ["PRINTCLEAR"]
+en = "WIPING AWAY A TEAR HE SAYS, 'THANKS FOR SAVING JIM. I SLIPPED OUT TO WAIT FOR THE KIDS. LET'S GO, I'LL FOLLOW.'"
+de = ""
+
+[[text]]
+id = "M048_064"
+befehl = ["PRINTCLEAR"]
+en = "THE FLASHING OF A SMALL NOTEBOARD CATCHES YOUR EYE. IT READS, 'DAD, I HAVE CLASS AT THE GENNIE LABS. BACK SOONEST.'"
+de = ""
+
+[[text]]
+id = "M048_065"
+befehl = ["PRINTCLEAR"]
+en = "A HOLOTERMINAL'S SCREEN FLASHES RED. 'CODE RED EVACUATION. BIOHAZARD ON LOWER LEVEL. RELOCATE TO GRADIVUS MONS.'"
+de = ""
+
+[[text]]
+id = "M048_066"
+befehl = ["PRINTCLEAR"]
+en = "THERE ARE GUARDS BLOCKING THE CORRIDOR. "
+de = ""
+
+[[text]]
+id = "M048_067"
+befehl = ["PRINT"]
+en = "ONE SPEAKS, 'ADMINISTRATOR WARNED US YOU MIGHT GET LOST.'"
+de = ""
+
+[[text]]
+id = "M048_068"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M048_069"
+befehl = ["WHMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M048_070"
+befehl = ["WHMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M048_071"
+befehl = ["WHMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M048_072"
+befehl = ["WHMENU"]
+menue = true
+en = "LEAVE"
+de = ""
+
+[[text]]
+id = "M048_073"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS A WORKING MEDICAL OFFICE."
+de = ""
+
+[[text]]
+id = "M048_074"
+befehl = ["PRINTCLEAR"]
+en = "SOME EQUIPMENT WAS LEFT HERE..."
+de = ""
+
+[[text]]
+id = "M048_075"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS RUSH TO ENGAGE YOU AS OTHERS FLEE THIS CONTROL ROOM."
+de = ""
+
+[[text]]
+id = "M048_076"
+befehl = ["PRINTCLEAR"]
+en = "THIS WAS THE NERVE CENTER FOR THE EVACUATION. A MAP SHOWS RED LIGHTS EVERYWHERE. 'BIOHAZARD' FLASHES DULLY ABOVE EACH CONSOLE."
+de = ""
+
+[[text]]
+id = "M048_077"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS RUSH TO DEFEND THIS ROOM."
+de = ""
+
+[[text]]
+id = "M048_078"
+befehl = ["PRINTCLEAR"]
+en = "MONITORS LINE THE WALLS. THOSE SCANNING THE LOWER LEVEL ARE DARK. TWO SQUADS ARE LISTED AS MISSING IN ACTION."
+de = ""
+
+[[text]]
+id = "M048_079"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE ENTERED A POWER ROOM. VARIOUS DISPLAYS LINE THE WALLS."
+de = ""
+
+[[text]]
+id = "M048_080"
+befehl = ["PRINT"]
+en = " NOTICES THE ROBOT GUARDS CAN BE SHUT DOWN HERE."
+de = ""
+
+[[text]]
+id = "M048_081"
+befehl = ["WHMENU"]
+menue = true
+en = "SHUT DOWN"
+de = ""
+
+[[text]]
+id = "M048_082"
+befehl = ["WHMENU"]
+menue = true
+en = "IGNORE"
+de = ""
+
+[[text]]
+id = "M048_083"
+befehl = ["PRINTCLEAR"]
+en = "THE ROBOTS' POWER HAS BEEN CUT OFF."
+de = ""
+
+[[text]]
+id = "M048_084"
+befehl = ["PRINTCLEAR"]
+en = "THIS IS THE PERSONNEL DIRECTOR'S OFFICE. SEARCHING THE FILES, REVEALS THAT THE LASER RESEARCH TEAM WAS REASSIGNED TO GRADIVUS MONS."
+de = ""
+
+[[text]]
+id = "M048_085"
+befehl = ["PRINTCLEAR"]
+en = "JIM YELLS, 'THE EVACUATION SHIP SHOULD BE TO THE NORTH. WE'RE ALMOST OUT. YAY!'"
+de = ""
+
+[[text]]
+id = "M048_086"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR THROUGH THE SWIFTLY CLOSING AIRLOCK, 'HOSTILES IN THE BAY! LAUNCH!' A RUMBLE OF ROCKETS SIGNALS THE SHIP'S DEPARTURE."
+de = ""
+
+[[text]]
+id = "M048_087"
+befehl = ["PRINTCLEAR"]
+en = "THE KIDS SHOUT, 'THAT'S WHERE OUR SHIP IS. YAY!'"
+de = ""
+
+[[text]]
+id = "M048_088"
+befehl = ["PRINTCLEAR"]
+en = "A CART HAS SPILLED, LEAVING USEFUL ITEMS."
+de = ""
+
+[[text]]
+id = "M048_089"
+befehl = ["PRINTCLEAR"]
+en = "YOU LEAVE."
+de = ""
+
+[[text]]
+id = "M048_090"
+befehl = ["PRINTCLEAR"]
+en = "YOU HIDE."
+de = ""
+
+[[text]]
+id = "M048_091"
+befehl = ["PRINT"]
+en = "THEY ATTACK!"
+de = ""
+
+[[text]]
+id = "M048_092"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WANT TO BE HEALED?"
+de = ""
+
+[[text]]
+id = "M048_093"
+befehl = ["PRINTCLEAR"]
+en = "THE AUTODOC HEALS THE TEAM."
+de = ""

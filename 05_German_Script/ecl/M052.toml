@@ -1,0 +1,330 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 52
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M052_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU CHARGE THROUGH THE BOARDING TUBE AND ATTACK!"
+de = ""
+
+[[text]]
+id = "M052_001"
+befehl = ["PRINTCLEAR"]
+en = "THE PIRATE CAPTAIN STEPS FORWARD. 'LET'S SETTLE THIS AMICABLY. WE'LL PAY YOU OFF AND WE LEAVE. HOW ABOUT IT?'"
+de = ""
+
+[[text]]
+id = "M052_002"
+befehl = ["PRINTCLEAR"]
+en = "THIS LEADS TO THE BOARDING TUBE TO YOUR SHIP. DO YOU CONTINUE?'"
+de = ""
+
+[[text]]
+id = "M052_003"
+befehl = ["PRINTCLEAR"]
+en = "THE ENEMY TRIES TO STOP YOU FROM REENTERING YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M052_004"
+befehl = ["PRINTCLEAR"]
+en = "THAT WAS THE LAST OF THE CREW."
+de = ""
+
+[[text]]
+id = "M052_005"
+befehl = ["PRINTCLEAR"]
+en = "THE BATTLE HAS SEALED THE DOOR."
+de = ""
+
+[[text]]
+id = "M052_006"
+befehl = ["PRINTCLEAR"]
+en = "THIS DOOR IS SEALED SHUT."
+de = ""
+
+[[text]]
+id = "M052_007"
+befehl = ["PRINTCLEAR"]
+en = "THE REMAINING FORCES ARE CUTTING THROUGH THE AIRLOCK."
+de = ""
+
+[[text]]
+id = "M052_008"
+befehl = ["PRINTCLEAR"]
+en = "WITH THIS VICTORY THE ENEMY CRUMBLES."
+de = ""
+
+[[text]]
+id = "M052_009"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE AT A LADDER. WHERE DO YOU GO?"
+de = ""
+
+[[text]]
+id = "M052_010"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M052_011"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M052_012"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M052_013"
+befehl = ["HMENU"]
+menue = true
+en = "UP"
+de = ""
+
+[[text]]
+id = "M052_014"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M052_015"
+befehl = ["HMENU"]
+menue = true
+en = "DOWN"
+de = ""
+
+[[text]]
+id = "M052_016"
+befehl = ["HMENU"]
+menue = true
+en = "STAY"
+de = ""
+
+[[text]]
+id = "M052_017"
+befehl = ["PRINTCLEAR"]
+en = "IT IS NOT SAFE TO LEAVE THE LADDER."
+de = ""
+
+[[text]]
+id = "M052_018"
+befehl = ["PRINTCLEAR"]
+en = "EXPLOSIONS SHATTER THIS DECK. LITTLE REMAINS BUT THE LADDER."
+de = ""
+
+[[text]]
+id = "M052_019"
+befehl = ["PRINTCLEAR"]
+en = "THIS HAS ELIMINATED THE LAST OF THE ENEMY. THE SHIP IS YOURS."
+de = ""
+
+[[text]]
+id = "M052_020"
+befehl = ["PRINTCLEAR"]
+en = "THESE CONTROLS ARE DAMAGED."
+de = ""
+
+[[text]]
+id = "M052_021"
+befehl = ["PRINTCLEAR"]
+en = "AN EXPERT PROGRAMMER MIGHT BE ABLE TO REROUTE CONTROL THROUGH HERE, BUT THE SYSTEM IS DEGRADING FAST. DO YOU TRY?"
+de = ""
+
+[[text]]
+id = "M052_022"
+befehl = ["PRINTCLEAR"]
+en = "YOU SUCCEED IN TAKING CONTROL OF THE SHIP."
+de = ""
+
+[[text]]
+id = "M052_023"
+befehl = ["PRINTCLEAR"]
+en = "IT IS BEYOND YOUR ABILITY."
+de = ""
+
+[[text]]
+id = "M052_024"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS HOLD THE BRIDGE CONTROLS."
+de = ""
+
+[[text]]
+id = "M052_025"
+befehl = ["PRINTCLEAR"]
+en = "YOU SECURE THE BRIDGE."
+de = ""
+
+[[text]]
+id = "M052_026"
+befehl = ["PRINTCLEAR"]
+en = "THIS SECURES THE SHIP. THE CREW SURRENDERS."
+de = ""
+
+[[text]]
+id = "M052_027"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS HOLD THE ENGINE CONTROLS."
+de = ""
+
+[[text]]
+id = "M052_028"
+befehl = ["PRINTCLEAR"]
+en = "YOU SECURE THE ENGINE ROOM."
+de = ""
+
+[[text]]
+id = "M052_029"
+befehl = ["PRINTCLEAR"]
+en = "A GUARD SHOUTS TO ANOTHER, 'KILL THE PRISONERS! WE'LL DELAY THEM.'"
+de = ""
+
+[[text]]
+id = "M052_030"
+befehl = ["PRINTCLEAR"]
+en = "THE REMAINING GUARDS ENTER THE ROOM JUST NORTH."
+de = ""
+
+[[text]]
+id = "M052_031"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE JUST IN TIME TO PREVENT A SLAUGHTER."
+de = ""
+
+[[text]]
+id = "M052_032"
+befehl = ["PRINTCLEAR"]
+en = "THE PRISONERS THANK YOU. WITH THEIR HELP YOU QUICKLY SECURE THE SHIP."
+de = ""
+
+[[text]]
+id = "M052_033"
+befehl = ["PRINTCLEAR"]
+en = "A SIGN ABOVE THE DOOR READS, "
+de = ""
+
+[[text]]
+id = "M052_034"
+befehl = ["PRINT"]
+en = "        'CAPTAIN'S QUARTERS'"
+de = ""
+
+[[text]]
+id = "M052_035"
+befehl = ["PRINTCLEAR"]
+en = "THE CAPTAIN'S GUARDS TRY TO STOP YOU."
+de = ""
+
+[[text]]
+id = "M052_036"
+befehl = ["PRINTCLEAR"]
+en = "THE CAPTAIN WAS KILLED IN THE EXCHANGE. YOU QUICKLY DISARM THE SELF-DESTRUCT. THE CREW SURRENDERS TO YOU."
+de = ""
+
+[[text]]
+id = "M052_037"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE CAPTURED THEIR SHIP."
+de = ""
+
+[[text]]
+id = "M052_038"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE GUARDS APPROACHING."
+de = ""
+
+[[text]]
+id = "M052_039"
+befehl = ["WHMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M052_040"
+befehl = ["WHMENU"]
+menue = true
+en = "HIDE"
+de = ""
+
+[[text]]
+id = "M052_041"
+befehl = ["PRINTCLEAR"]
+en = "YOU TRY TO FIND SOMEWHERE TO HIDE."
+de = ""
+
+[[text]]
+id = "M052_042"
+befehl = ["PRINTCLEAR"]
+en = "THEY SPOT YOU!"
+de = ""
+
+[[text]]
+id = "M052_043"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M052_044"
+befehl = ["PRINT"]
+en = "RAM ASSASSINS ARE SWARMING THE SHIP. THIS IS A TRAP! "
+de = ""
+
+[[text]]
+id = "M052_045"
+befehl = ["PRINT"]
+en = "ASSASSINS ATTACK!"
+de = ""
+
+[[text]]
+id = "M052_046"
+befehl = ["PRINTCLEAR"]
+en = "SCOT CALLS. 'TAKE CARE OF THAT SHIP QUICKLY! ANOTHER ONE IS APPROACHING -- AND ITS BIGGER!"
+de = ""
+
+[[text]]
+id = "M052_047"
+befehl = ["PRINTCLEAR"]
+en = "A MECHANICAL VOICE INTONES, 'CAPTAIN HAS ACTIVATED SELF-DESTRUCT FROM HIS CABIN. DETONATION IN 50.'"
+de = ""
+
+[[text]]
+id = "M052_048"
+befehl = ["PRINTCLEAR"]
+en = "A SPEAKER BLARES. 'IF INTRUDERS REACH PRISON LEVEL, KILL THE PRISONERS.'"
+de = ""
+
+[[text]]
+id = "M052_049"
+befehl = ["PRINTCLEAR"]
+en = "SCOT CONTACTS YOU. 'ENEMY FORCES ARE TRYING TO FORCE THEIR WAY INTO THE SHIP. RETURN IMMEDIATELY!'"
+de = ""
+
+[[text]]
+id = "M052_050"
+befehl = ["PRINT"]
+en = " TO DETONATION."
+de = ""
+
+[[text]]
+id = "M052_051"
+befehl = ["PRINT"]
+en = " THE SHIP EXPLODES AROUND YOU."
+de = ""
+
+[[text]]
+id = "M052_052"
+befehl = ["PRINTCLEAR"]
+en = "SCOT PICKS YOU UP."
+de = ""

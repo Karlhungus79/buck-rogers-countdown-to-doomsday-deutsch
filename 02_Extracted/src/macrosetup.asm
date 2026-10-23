@@ -4,3 +4,8 @@
 	supmode on		; keine Warnungen fuer privilegierte Befehle
 	listing purecode
 	page 0
+
+; Deutsche Fassung: Aufruf mit -D DEUTSCH=1 (build.py --deutsch). Ohne: Original, bit-genau.
+	ifndef DEUTSCH
+DEUTSCH = 0
+	endif

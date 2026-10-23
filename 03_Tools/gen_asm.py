@@ -179,6 +179,14 @@ def verify_instructions(rom, d, fmt):
 
 
 def main():
+    # Schutz: Seit Phase 1 enthaelt buckrogers.asm die Hooks der deutschen Fassung ("DEUTSCH-HOOK").
+    # Ein Neuerzeugen wuerde sie loeschen. Nur mit --erzwingen (danach Hooks aus Sicherung einsetzen).
+    ziel = os.path.join(DIS_DIR, "src", "buckrogers.asm")
+    if os.path.exists(ziel) and "DEUTSCH-HOOK" in open(ziel, encoding="utf-8").read() \
+            and "--erzwingen" not in sys.argv:
+        sys.exit("ABBRUCH: buckrogers.asm enthaelt die Hooks der deutschen Fassung (DEUTSCH-HOOK).\n"
+                 "Neu erzeugen wuerde sie loeschen. Siehe claude/Textablage.md.")
+    sys.argv = [a for a in sys.argv if a != "--erzwingen"]
     rom_path = sys.argv[1] if len(sys.argv) > 1 else ROM_DEFAULT
     rom = load_rom(rom_path)
     os.chdir(DIS_DIR)

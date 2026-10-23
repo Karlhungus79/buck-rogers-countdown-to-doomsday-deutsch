@@ -1,0 +1,769 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 96
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M096_000"
+befehl = ["PRINTCLEAR"]
+en = "YOU MANAGE TO SLIP THROUGH THE AIRLOCK AND INTO THE MARIPOSA. THIS IS THE EMBARKATION SECTION."
+de = ""
+
+[[text]]
+id = "M096_001"
+befehl = ["PRINTCLEAR"]
+en = "YOUR BLUE PASSCARD SHOULD GET YOU THROUGH THE SECURITY STATION AHEAD."
+de = ""
+
+[[text]]
+id = "M096_002"
+befehl = ["PRINTCLEAR"]
+en = "THE DOOR IS LOCKED IN THIS DIRECTION."
+de = ""
+
+[[text]]
+id = "M096_003"
+befehl = ["PRINTCLEAR"]
+en = "A MECHANICAL VOICE STATES, 'NO ENTRY WITHOUT VALID PASSCARD.'"
+de = ""
+
+[[text]]
+id = "M096_004"
+befehl = ["PRINTCLEAR"]
+en = "THE ENTRANCE TO THE HANGAR HAS BEEN SEALED DUE TO A SECURITY ALERT. YOU CANNOT ENTER."
+de = ""
+
+[[text]]
+id = "M096_005"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO RETURN TO YOUR SHIP?"
+de = ""
+
+[[text]]
+id = "M096_006"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE ABOUT TO ENTER THE CORE. DO YOU CONTINUE?"
+de = ""
+
+[[text]]
+id = "M096_007"
+befehl = ["PRINTCLEAR"]
+en = "A SENSOR BEAM SCANS YOUR STOLEN BADGES. A MECHANICAL VOICE SAYS, 'PASSED. WELCOME TO MERCURY. HAVE A NICE DAY.'"
+de = ""
+
+[[text]]
+id = "M096_008"
+befehl = ["PRINTCLEAR"]
+en = "SOMEONE HAS SABOTAGED THE SECURITY STATION. IT IS NO LONGER OPERATIONAL."
+de = ""
+
+[[text]]
+id = "M096_009"
+befehl = ["PRINTCLEAR"]
+en = "COLONEL WILMA DEERING STEPS UP THE MOMENT YOU CLEAR SECURITY."
+de = ""
+
+[[text]]
+id = "M096_010"
+befehl = ["PRINTCLEAR"]
+en = "'GLAD YOU'RE HERE. THE DOOMSDAY DEVICE IS AT THE TOP OF THE MARIPOSA. YOU MUST TRY TO REACH IT THROUGH THE CORE."
+de = ""
+
+[[text]]
+id = "M096_011"
+befehl = ["PRINTCLEAR"]
+en = "'I'LL TAKE YOUR PASSES NOW. MY TEAM WILL USE THEM TO DISTRACT THE SECURITY HERE. AVOID THE SECURITY GATES. GOOD LUCK.'"
+de = ""
+
+[[text]]
+id = "M096_012"
+befehl = ["PRINTCLEAR"]
+en = "A MAN BUSTLES PAST AND MUMBLES, "
+de = ""
+
+[[text]]
+id = "M096_013"
+befehl = ["PRINT"]
+en = "'ONE IF BY LAND'."
+de = ""
+
+[[text]]
+id = "M096_014"
+befehl = ["HMENU"]
+menue = true
+en = "IGNORE"
+de = ""
+
+[[text]]
+id = "M096_015"
+befehl = ["HMENU"]
+menue = true
+en = "SPEAK"
+de = ""
+
+[[text]]
+id = "M096_016"
+befehl = ["HMENU"]
+menue = true
+en = "ACCOST"
+de = ""
+
+[[text]]
+id = "M096_017"
+befehl = ["PRINTCLEAR"]
+en = "THE MAN CONTINUES ON AND DISAPPEARS."
+de = ""
+
+[[text]]
+id = "M096_018"
+befehl = ["PRINTCLEAR"]
+en = "HE LOOKS AROUND NERVOUSLY. 'ARE YOU THE DANCERS?'"
+de = ""
+
+[[text]]
+id = "M096_019"
+befehl = ["PRINTCLEAR"]
+en = "HE MOTIONS YOU TO THE SIDE OF THE CORRIDOR AND WHISPERS, 'WELCOME, DANCERS. GLAD YOU COULD MAKE IT UP."
+de = ""
+
+[[text]]
+id = "M096_020"
+befehl = ["PRINTCLEAR"]
+en = "'THE SUN KING AWAITS YOU ABOVE. FIND THE MARIPOSA CORE AND RISE TO MEET HIM. VIVE LA REVOLUTION!'"
+de = ""
+
+[[text]]
+id = "M096_021"
+befehl = ["PRINTCLEAR"]
+en = "HE LEAVES."
+de = ""
+
+[[text]]
+id = "M096_022"
+befehl = ["PRINTCLEAR"]
+en = "HE LAUGHS IN YOUR FACE, PULLS AWAY AND DISAPPEARS INTO THE CROWDS."
+de = ""
+
+[[text]]
+id = "M096_023"
+befehl = ["PRINTCLEAR"]
+en = "WELCOME TO MARAT'S BAZAAR. ANYTHING YOU COULD WISH IN THE WAY OF ARCANA IS HERE."
+de = ""
+
+[[text]]
+id = "M096_024"
+befehl = ["PRINTCLEAR"]
+en = "A PARROT IS SITTING ON A WOODEN POST HERE, SQUAWKING LOUDLY. "
+de = ""
+
+[[text]]
+id = "M096_025"
+befehl = ["HMENU"]
+menue = true
+en = "FEED"
+de = ""
+
+[[text]]
+id = "M096_026"
+befehl = ["HMENU"]
+menue = true
+en = "PLAY"
+de = ""
+
+[[text]]
+id = "M096_027"
+befehl = ["HMENU"]
+menue = true
+en = "IGNORE"
+de = ""
+
+[[text]]
+id = "M096_028"
+befehl = ["WHO"]
+en = "WHO WILL FEED IT?"
+de = ""
+
+[[text]]
+id = "M096_029"
+befehl = ["PRINTCLEAR"]
+en = "YOU FISH OUT SOME CRUMBS AND FEED THEM TO THE PARROT. IT STOPS SQUAWKING LONG ENOUGH TO SWALLOW THE MORSELS."
+de = ""
+
+[[text]]
+id = "M096_030"
+befehl = ["WHO"]
+en = "WHO WILL DO IT?"
+de = ""
+
+[[text]]
+id = "M096_031"
+befehl = ["PRINTCLEAR"]
+en = "YOU COAX IT TO SPEAK AND IT HOPS ONTO YOUR SHOULDERS."
+de = ""
+
+[[text]]
+id = "M096_032"
+befehl = ["PRINTCLEAR"]
+en = "THE PARROT TAKES A SUDDEN DISLIKE TO "
+de = ""
+
+[[text]]
+id = "M096_033"
+befehl = ["PRINT"]
+en = " AND NIPS A FINGER."
+de = ""
+
+[[text]]
+id = "M096_034"
+befehl = ["PRINTCLEAR"]
+en = "THE PARROT BABBLES AWAY, 'DANCERS WANT A CRACKER...STORM THE BASTILLE...HOW ABOUT A KISS...SQUAWK!!!' IT FLIES OFF."
+de = ""
+
+[[text]]
+id = "M096_035"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEEM TO HAVE MADE A FRIEND OF THE PARROT."
+de = ""
+
+[[text]]
+id = "M096_036"
+befehl = ["PRINTCLEAR"]
+en = "IT BABBLES AWAY, 'FRENCH!...OUI, I SPEAK FRENCH!...DANCERS SEIZE THE LASER...'"
+de = ""
+
+[[text]]
+id = "M096_037"
+befehl = ["PRINTCLEAR"]
+en = "THE BIRD CONTINUES, 'COUNTER GAVILAN'S PRO-RAM...EARTH FRIES...AIM AT MARS...SQUAWK!!!'"
+de = ""
+
+[[text]]
+id = "M096_038"
+befehl = ["PRINTCLEAR"]
+en = "THE PARROT WINDS DOWN AND FLAPS AWAY."
+de = ""
+
+[[text]]
+id = "M096_039"
+befehl = ["PRINTCLEAR"]
+en = "AN OLD DESKCOMP SITS HERE, COMPLETE WITH ARCHAIC KEYBOARD. AS YOU PEER AT THE DUSTY LENS, THE VIDEO SCREEN BEGINS TO PRINT."
+de = ""
+
+[[text]]
+id = "M096_040"
+befehl = ["PRINTCLEAR"]
+en = "'SCOT HERE. IN STOCK EXCHANGE COMPUTER. GAVILAN SELLING SHORT ON EARTH COMPANY STOCK. MUST EXPECT DEVICE TO FIRE SOON."
+de = ""
+
+[[text]]
+id = "M096_041"
+befehl = ["PRINTCLEAR"]
+en = "'STRANGE THING THOUGH, A RIVAL CONSORTIUM OF SUN KINGS ARE SELLING SHORT ON GAVILAN'S STOCKS."
+de = ""
+
+[[text]]
+id = "M096_042"
+befehl = ["PRINTCLEAR"]
+en = "'SOMEONE THINKS HE'S ABOUT TO BE IN BIG TROUBLE. HAVE TO GO, SOMEONE'S TRYING TO TRACE ME. KEEP SHARP.'"
+de = ""
+
+[[text]]
+id = "M096_043"
+befehl = ["PRINTCLEAR"]
+en = "THROUGH THE DUST ON THE DOOR YOU MAKE OUT, 'TO RUE DE S.'"
+de = ""
+
+[[text]]
+id = "M096_044"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE AT THE ENTRANCE TO HOLST PLAZA."
+de = ""
+
+[[text]]
+id = "M096_045"
+befehl = ["PRINTCLEAR"]
+en = "AHEAD YOU CAN SEE A HEAVY SECURITY STATION. ANTI-PERSONNEL GUNS ARE MOUNTED ABOVE THE DOORS. IT MIGHT BE WISE TO GO BACK. DO YOU?"
+de = ""
+
+[[text]]
+id = "M096_046"
+befehl = ["PRINTCLEAR"]
+en = "SECURITY IS DOING A PAT SEARCH ON EVERYONE TRYING TO PASS THESE GATES. LASER CANNON TRACK THE SQUARE. DO YOU LET THEM SEARCH YOU OR ATTACK?"
+de = ""
+
+[[text]]
+id = "M096_047"
+befehl = ["HMENU"]
+menue = true
+en = "BE SEARCHED"
+de = ""
+
+[[text]]
+id = "M096_048"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M096_049"
+befehl = ["PRINTCLEAR"]
+en = "THE LASERS SWIVEL TOWARD YOU. 'SURRENDER OR DIE!' BLARES A SPEAKER. "
+de = ""
+
+[[text]]
+id = "M096_050"
+befehl = ["HMENU"]
+menue = true
+en = "SURRENDER"
+de = ""
+
+[[text]]
+id = "M096_051"
+befehl = ["HMENU"]
+menue = true
+en = "ATTACK"
+de = ""
+
+[[text]]
+id = "M096_052"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU PULL YOUR WEAPONS, THE LASER AUTOCANNON ERUPT INTO LIFE!"
+de = ""
+
+[[text]]
+id = "M096_053"
+befehl = ["PRINTCLEAR"]
+en = "TROOPS CHARGE. DO YOU SURRENDER?"
+de = ""
+
+[[text]]
+id = "M096_054"
+befehl = ["PRINTCLEAR"]
+en = "THE LASERS FIRE AGAIN."
+de = ""
+
+[[text]]
+id = "M096_055"
+befehl = ["PRINTCLEAR"]
+en = "THESE DOORS HAVE BEEN SEALED."
+de = ""
+
+[[text]]
+id = "M096_056"
+befehl = ["PRINTCLEAR"]
+en = "THE ONLY PLACE NOT BLOCKED OFF IS HOLST PLAZA. YOU SLIP INSIDE."
+de = ""
+
+[[text]]
+id = "M096_057"
+befehl = ["SAVE"]
+en = "SECURITY GATE"
+de = ""
+
+[[text]]
+id = "M096_058"
+befehl = ["PRINTCLEAR"]
+en = "A SECURITY WARNING BLARES. THE GUARDS REACH FOR THEIR WEAPONS."
+de = ""
+
+[[text]]
+id = "M096_059"
+befehl = ["PRINTCLEAR"]
+en = "THE SIGN ABOVE THE DOOR READS "
+de = ""
+
+[[text]]
+id = "M096_060"
+befehl = ["PRINT"]
+en = "      'MERCURIAN STOCK EXCHANGE'"
+de = ""
+
+[[text]]
+id = "M096_061"
+befehl = ["PRINTCLEAR"]
+en = "'DON'T PROCEED FURTHER! BIG TRAP INSIDE FOR TERRORISTS!' HE FADES AWAY."
+de = ""
+
+[[text]]
+id = "M096_062"
+befehl = ["PRINTCLEAR"]
+en = "GUARDS BURST OUT FROM EVERYWHERE, GUNS BLAZING."
+de = ""
+
+[[text]]
+id = "M096_063"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE DRIVEN BACK."
+de = ""
+
+[[text]]
+id = "M096_064"
+befehl = ["PRINTCLEAR"]
+en = "THE COMPUTERS IN THE ROOM HAVE BEEN PROTECTED BY STEEL PLATES."
+de = ""
+
+[[text]]
+id = "M096_065"
+befehl = ["PRINTCLEAR"]
+en = "THIS CORRIDOR IS DUSTY AND DISUSED."
+de = ""
+
+[[text]]
+id = "M096_066"
+befehl = ["PRINTCLEAR"]
+en = "MAINTENANCE ROBOTS ARE LINED UP HERE."
+de = ""
+
+[[text]]
+id = "M096_067"
+befehl = ["SAVE"]
+en = "JOHJI'S MAGNETIC FOOTWEAR"
+de = ""
+
+[[text]]
+id = "M096_068"
+befehl = ["PRINTCLEAR"]
+en = "MAGNETIZED BOOTS OF ALL DESCRIPTIONS ADORN THE SHELVES. NO ONE IS IN THE STORE."
+de = ""
+
+[[text]]
+id = "M096_069"
+befehl = ["SAVE"]
+en = "MICHELANGELO'S FAUX MARBLE"
+de = ""
+
+[[text]]
+id = "M096_070"
+befehl = ["PRINTCLEAR"]
+en = "SPRAY CANS OF FAKE MARBLE AND LITTLE SCULPTURES LIE ABOUT THE CLOSED STORE."
+de = ""
+
+[[text]]
+id = "M096_071"
+befehl = ["SAVE"]
+en = "LE OLDE BODY SHOPPE"
+de = ""
+
+[[text]]
+id = "M096_072"
+befehl = ["PRINTCLEAR"]
+en = "THE CLOSED STORE HAS QUICK PLASTIC SURGERY KITS. A SPECIAL IS OFFERED ON ELVIS LOOKALIKES."
+de = ""
+
+[[text]]
+id = "M096_073"
+befehl = ["SAVE"]
+en = "U R U HOLOPORTRAITURE"
+de = ""
+
+[[text]]
+id = "M096_074"
+befehl = ["PRINTCLEAR"]
+en = "THE MOMENT YOU ENTER, YOU COME FACE TO FACE WITH YOURSELF. THE HOLOGRAMS MATCH YOUR EVERY MOVEMENT UNTIL YOU LEAVE."
+de = ""
+
+[[text]]
+id = "M096_075"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE BURIED UNDER A HUGE PILE INCLUDING AN OLD BLACKBOARD, TWO SPITTOONS AND A COPY OF THE MONA LISA."
+de = ""
+
+[[text]]
+id = "M096_076"
+befehl = ["PRINTCLEAR"]
+en = "THIS SHOP IS CLOSED. IT SELLS CHEAP HOLOGRAMS OF MERCURIAN SIGHTS."
+de = ""
+
+[[text]]
+id = "M096_077"
+befehl = ["PRINTCLEAR"]
+en = "THE ROOM IS DARK. STALE DOUGHNUTS LINE A COUNTER."
+de = ""
+
+[[text]]
+id = "M096_078"
+befehl = ["PRINTCLEAR"]
+en = "IN THIS OFFICE ARE A NUMBER OF INTERESTING RECORDS. TWO OF THEM CATCH YOUR EYE."
+de = ""
+
+[[text]]
+id = "M096_079"
+befehl = ["PRINTCLEAR"]
+en = "'SIX MERCURIAN DANCERS PICKED UP EN ROUTE TO YOUR MARIPOSA. BELIEVED TO BE SERVANTS OF SUN KING ABOVE.'"
+de = ""
+
+[[text]]
+id = "M096_080"
+befehl = ["PRINTCLEAR"]
+en = "'STOCK EXCHANGE THOUGHT TO BE MAIN TARGET. SET UP AN AMBUSH THERE FOR ADDITIONAL DANCERS.'"
+de = ""
+
+[[text]]
+id = "M096_081"
+befehl = ["PRINTCLEAR"]
+en = "THE PLAZA IS NEARLY EMPTY."
+de = ""
+
+[[text]]
+id = "M096_082"
+befehl = ["PRINTCLEAR"]
+en = "TROOPS ARE POURING INTO THE PLAZA AND RACING TOWARDS YOU. DO YOU FLEE?"
+de = ""
+
+[[text]]
+id = "M096_083"
+befehl = ["PRINTCLEAR"]
+en = "MORE ARE COMING. DO YOU FLEE?"
+de = ""
+
+[[text]]
+id = "M096_084"
+befehl = ["PRINTCLEAR"]
+en = "BOLTS OF ANCIENT DAMASK SILK LIE ATOP A SLIGHTLY NEWER TABLETOP VIDEO GAME."
+de = ""
+
+[[text]]
+id = "M096_085"
+befehl = ["PRINTCLEAR"]
+en = "A MECHANICAL DOG COCKS ITS HEAD AND BARKS IN TIME TO A DUSTY PHONOGRAPH."
+de = ""
+
+[[text]]
+id = "M096_086"
+befehl = ["PRINTCLEAR"]
+en = "A MOLDERING BOX OF COMPUTER DISKS LIES HERE. THE ONLY LETTERS YOU CAN MAKE OUT ARE 'SOMETHING SI.'"
+de = ""
+
+[[text]]
+id = "M096_087"
+befehl = ["PRINTCLEAR"]
+en = "A HOLOGRAM FORMS OVER THE DOOR:"
+de = ""
+
+[[text]]
+id = "M096_088"
+befehl = ["PRINT"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M096_089"
+befehl = ["PRINT"]
+en = "'"
+de = ""
+
+[[text]]
+id = "M096_090"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE BLINDFOLDED, MANACLED AND LED AWAY."
+de = ""
+
+[[text]]
+id = "M096_091"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU ARE JOSTLED ABOUT, YOU HEAR SOMEONE SAY, 'ONE IF BY LAND'. "
+de = ""
+
+[[text]]
+id = "M096_092"
+befehl = ["HMENU"]
+menue = true
+en = "SPEAK"
+de = ""
+
+[[text]]
+id = "M096_093"
+befehl = ["HMENU"]
+menue = true
+en = "IGNORE"
+de = ""
+
+[[text]]
+id = "M096_094"
+befehl = ["PRINTCLEAR"]
+en = "THE VOICE WHISPERS 'ARE YOU THE DANCERS?'"
+de = ""
+
+[[text]]
+id = "M096_095"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR THE PERSON LEAVE."
+de = ""
+
+[[text]]
+id = "M096_096"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE BOWLED OVER BY A MASSIVE EXPLOSION AND A BRIEF FIREFIGHT."
+de = ""
+
+[[text]]
+id = "M096_097"
+befehl = ["PRINTCLEAR"]
+en = "YOUR MANACLES ARE CUT AND YOU ARE LED OUT."
+de = ""
+
+[[text]]
+id = "M096_098"
+befehl = ["PRINTCLEAR"]
+en = "WILMA IS HERE, LOOKING GRIM. 'PLEASE REMEMBER THAT WE ARE THE ONES ATTRACTING ATTENTION, NOT YOU!"
+de = ""
+
+[[text]]
+id = "M096_099"
+befehl = ["PRINTCLEAR"]
+en = "'THE ENTRANCE TO THE CORE IS JUST AHEAD. GET MOVING! NEO IS SUPPOSED TO BE DEPENDING ON YOU.' SHE LEAVES."
+de = ""
+
+[[text]]
+id = "M096_100"
+befehl = ["PRINTCLEAR"]
+en = "LASERS WHINE AS SOMEONE GRABS YOUR ARMS AND HUSTLES YOU AWAY."
+de = ""
+
+[[text]]
+id = "M096_101"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE CUT FREE BY A STRANGER. 'MY BOSS WANTS YOU DANCERS ALIVE. THROUGH THE CORE TO MEET THE KING.' HE LEAVES."
+de = ""
+
+[[text]]
+id = "M096_102"
+befehl = ["PRINTCLEAR"]
+en = "A SECURITY TEAM HAS SPOTTED YOU AND IS APPROACHING QUICKLY."
+de = ""
+
+[[text]]
+id = "M096_103"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M096_104"
+befehl = ["HMENU"]
+menue = true
+en = "EVADE"
+de = ""
+
+[[text]]
+id = "M096_105"
+befehl = ["HMENU"]
+menue = true
+en = "WAIT"
+de = ""
+
+[[text]]
+id = "M096_106"
+befehl = ["PRINTCLEAR"]
+en = "A FIREFIGHT HERE WOULD KILL INNOCENT CIVILIANS AND ATTRACT A LOT OF ATTENTION."
+de = ""
+
+[[text]]
+id = "M096_107"
+befehl = ["HMENU"]
+menue = true
+en = "FIREFIGHT"
+de = ""
+
+[[text]]
+id = "M096_108"
+befehl = ["HMENU"]
+menue = true
+en = "TALK"
+de = ""
+
+[[text]]
+id = "M096_109"
+befehl = ["PRINTCLEAR"]
+en = "THE TROOPS SEE YOU PULLING OUT WEAPONS AND ONE TALKS TO HIS LAPEL. ROBOTS DESCEND FROM THE CEILING."
+de = ""
+
+[[text]]
+id = "M096_110"
+befehl = ["PRINTCLEAR"]
+en = "YOU MANAGE TO ESCAPE BEFORE MORE REINFORCEMENTS ARRIVE."
+de = ""
+
+[[text]]
+id = "M096_111"
+befehl = ["PRINTCLEAR"]
+en = "REINFORCEMENTS CONTINUE TO ARRIVE."
+de = ""
+
+[[text]]
+id = "M096_112"
+befehl = ["PRINTCLEAR"]
+en = "YOU EVADE THE SECURITY TEAM."
+de = ""
+
+[[text]]
+id = "M096_113"
+befehl = ["PRINTCLEAR"]
+en = "THE SECURITY PEOPLE HAVE REACHED YOU. "
+de = ""
+
+[[text]]
+id = "M096_114"
+befehl = ["HMENU"]
+menue = true
+en = "TALK"
+de = ""
+
+[[text]]
+id = "M096_115"
+befehl = ["HMENU"]
+menue = true
+en = "FIGHT"
+de = ""
+
+[[text]]
+id = "M096_116"
+befehl = ["PRINTCLEAR"]
+en = "THEY LOOK YOU OVER SUSPICIOUSLY. WHAT TONE DO YOU TAKE WITH THEM?"
+de = ""
+
+[[text]]
+id = "M096_117"
+befehl = ["HMENU"]
+menue = true
+en = "AGGRESSIVE"
+de = ""
+
+[[text]]
+id = "M096_118"
+befehl = ["HMENU"]
+menue = true
+en = "FAST TALK"
+de = ""
+
+[[text]]
+id = "M096_119"
+befehl = ["HMENU"]
+menue = true
+en = "INNOCENT"
+de = ""
+
+[[text]]
+id = "M096_120"
+befehl = ["PRINTCLEAR"]
+en = "YOU CONVINCE THEM THAT YOU WORK FOR ONE OF THE SUN KINGS. THEY APOLOGIZE PROFUSELY AND BACK AWAY."
+de = ""
+
+[[text]]
+id = "M096_121"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER IS CONFUSED AND GOES BACK TO HUDDLE WITH HIS MEN. YOU'RE FREE TO LEAVE."
+de = ""
+
+[[text]]
+id = "M096_122"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER APOLOGIZES, 'SORRY, BUT WE HAVE REPORTS OF TERRORIST ACTIVITY. WE HAVE TO BE CAREFUL. GOOD DAY.' THEY MOVE OFF."
+de = ""
+
+[[text]]
+id = "M096_123"
+befehl = ["PRINTCLEAR"]
+en = "THERE IS A CLOSED SHOP HERE THAT YOU COULD ENTER IF YOU WISHED. DO YOU ENTER?"
+de = ""

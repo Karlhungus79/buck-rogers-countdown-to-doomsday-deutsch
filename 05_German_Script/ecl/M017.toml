@@ -1,0 +1,436 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 17
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M017_000"
+befehl = ["PRINTCLEAR"]
+en = "A NEO OFFICER GREETS YOU."
+de = ""
+
+[[text]]
+id = "M017_001"
+befehl = ["PRINTCLEAR"]
+en = "'I AM CARLTON TURABIAN. WELCOME TO SALVATION III. WHEN YOU ARE READY, COME SEE ME AT HEADQUARTERS FOR YOUR FIRST ASSIGNMENT.'"
+de = ""
+
+[[text]]
+id = "M017_002"
+befehl = ["PRINTCLEAR"]
+en = "'RAM HAS KIDNAPPED THE DESERT RUNNER ATHA. THEY THREATEN TO KILL HER IF YOU DON'T TRAVEL TO JUNO.'"
+de = ""
+
+[[text]]
+id = "M017_003"
+befehl = ["PRINTCLEAR"]
+en = "TURABIAN LOOKS PAINED. 'I'M AFRAID YOUR CURRENT MISSION IS MORE IMPORTANT. THERE JUST ISN'T ENOUGH TIME."
+de = ""
+
+[[text]]
+id = "M017_004"
+befehl = ["PRINTCLEAR"]
+en = "'GO TO MERCURY FIRST. THAT'S AN ORDER.' TURABIAN THEN LEAVES THE BAY."
+de = ""
+
+[[text]]
+id = "M017_005"
+befehl = ["PRINTCLEAR"]
+en = "BUCK COMES UP AFTER TURABIAN LEAVES."
+de = ""
+
+[[text]]
+id = "M017_006"
+befehl = ["PRINTCLEAR"]
+en = "'SOMETIMES RULES ARE MADE TO BE BROKEN. INDIVIDUALS ARE MORE IMPORTANT THAN ORDERS.'"
+de = ""
+
+[[text]]
+id = "M017_007"
+befehl = ["PRINTCLEAR"]
+en = "HE GIVES YOU THE THUMBS UP SIGN AND SAUNTERS OFF."
+de = ""
+
+[[text]]
+id = "M017_008"
+befehl = ["PRINTCLEAR"]
+en = "'YOU'VE DONE WELL. I SEE YOU'VE CAPTURED A RAM ROCKETSHIP. IT'S NAMED THE MAELSTROM RIDER."
+de = ""
+
+[[text]]
+id = "M017_009"
+befehl = ["PRINTCLEAR"]
+en = "'I'VE ASSIGNED YOU TO INVESTIGATE THE RAM PLOT WHICH SCOT.DOS MENTIONED. USE THIS SHIP FOR TRANSPORTATION AND DEFENSE."
+de = ""
+
+[[text]]
+id = "M017_010"
+befehl = ["PRINTCLEAR"]
+en = "'MEET ME IN HQ WHEN YOU ARE READY FOR THE DETAILS OF THIS ASSIGNMENT.'"
+de = ""
+
+[[text]]
+id = "M017_011"
+befehl = ["PRINTCLEAR"]
+en = "'I'M IMPRESSED. THE RAM ASTEROID BASE HAS BEEN COMPLETELY ABANDONED, AND YOU HAVE MANAGED TO DEAL WITH TALON."
+de = ""
+
+[[text]]
+id = "M017_012"
+befehl = ["PRINTCLEAR"]
+en = "'I'LL SEE YOU AT HEADQUARTERS FOR A MISSION UPDATE.'"
+de = ""
+
+[[text]]
+id = "M017_013"
+befehl = ["COMPARE"]
+en = "BUCK ROGERS"
+de = ""
+
+[[text]]
+id = "M017_014"
+befehl = ["PRINTCLEAR"]
+en = "BUCK LEAVES WITH THE COMMANDER."
+de = ""
+
+[[text]]
+id = "M017_015"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU DEBARK, WILMA CONGRATULATES YOU. 'NOW THAT YOU HAVE DESTROYED THE DOOMSDAY DEVICE, RAM IS CRIPPLED."
+de = ""
+
+[[text]]
+id = "M017_016"
+befehl = ["PRINTCLEAR"]
+en = "'THE ENTIRE SYSTEM IS NOW AWARE OF HOW UNDERHANDEDLY RAM HAS ACTED. IT WILL LOSE MANY IMPORTANT ALLIES.'"
+de = ""
+
+[[text]]
+id = "M017_017"
+befehl = ["PRINTCLEAR"]
+en = "TURABIAN COMES UP TO MEET YOU. 'WELCOME BACK. YOU HAVE SAVED EARTH FROM THE EVIL SCOURGE OF RAM...'"
+de = ""
+
+[[text]]
+id = "M017_018"
+befehl = ["PRINTCLEAR"]
+en = "BUCK ROGERS SAUNTERS UP AND INTERRUPTS TURABIAN, 'I JUST WANTED TO THANK YOU FOR SAVING EARTH."
+de = ""
+
+[[text]]
+id = "M017_019"
+befehl = ["PRINTCLEAR"]
+en = "'YOU GUYS HAVE THE GUTS AND DETERMINATION I ADMIRE. EARTH WILL BE SAFE AS HEROES LIKE YOU STRIVE TO PROTECT HER.'"
+de = ""
+
+[[text]]
+id = "M017_020"
+befehl = ["PRINTCLEAR"]
+en = "NEO TECHNICIANS RUSH UP TO COLLECT THE DEVICE. COMMANDER TURABIAN ARRIVES."
+de = ""
+
+[[text]]
+id = "M017_021"
+befehl = ["PRINTCLEAR"]
+en = "'GOOD WORK! THIS IS VITAL INFORMATION. NOW CONTINUE INVESTIGATING THE DOOMSDAY DEVICE.' HE SHAKES YOUR HAND AND LEAVES."
+de = ""
+
+[[text]]
+id = "M017_022"
+befehl = ["PRINTCLEAR"]
+en = "THE COMMANDER INTERVIEWS JUSTIN, THEN TURNS TO YOU."
+de = ""
+
+[[text]]
+id = "M017_023"
+befehl = ["PRINTCLEAR"]
+en = "'TAKE MR. ROBENO TO THE PAVONIS LIBRARY AND COLLECT HIS DEVICE. IT IS AN IMPORTANT ASSET FOR NEO.'"
+de = ""
+
+[[text]]
+id = "M017_024"
+befehl = ["PRINTCLEAR"]
+en = "THANK YOU FOR RESCUING JASON DUPARE."
+de = ""
+
+[[text]]
+id = "M017_025"
+befehl = ["PRINTCLEAR"]
+en = "BEYOND THIS HATCHWAY LIES SALVATION'S HEADQUARTERS."
+de = ""
+
+[[text]]
+id = "M017_026"
+befehl = ["PRINTCLEAR"]
+en = "'TAKE A TUG OUT AND EXPLORE THE DEBRIS IN THE EARTH'S NEAR ORBIT. IF YOU FIND SOMETHING UNUSUAL, INVESTIGATE.'"
+de = ""
+
+[[text]]
+id = "M017_027"
+befehl = ["PRINTCLEAR"]
+en = "'DATA INDICATES THREE RAM INSTALLATIONS MAY BE LINKED TO THIS PLOT: ONE NEAR CERES, GRADIVUS MONS ON MARS AND A VENUSIAN BASE."
+de = ""
+
+[[text]]
+id = "M017_028"
+befehl = ["PRINTCLEAR"]
+en = "'THIS SHIP WAS HEADED TO CERES IN THE ASTEROID BELT. I SUGGEST YOU CHECK OUT THE ASTEROID BASE THERE FOR MORE INFORMATION.'"
+de = ""
+
+[[text]]
+id = "M017_029"
+befehl = ["PRINTCLEAR"]
+en = "'FROM THE DATA YOU HAVE GATHERED, THE MARS BASE AT GRADIVUS MONS MUST BE INVESTIGATED."
+de = ""
+
+[[text]]
+id = "M017_030"
+befehl = ["PRINTCLEAR"]
+en = "'BE CAREFUL, MARS IS TEEMING WITH RAM AGENTS. BE SURE YOU ARE WELL EQUIPPED BEFORE LANDING THERE.'"
+de = ""
+
+[[text]]
+id = "M017_031"
+befehl = ["PRINTCLEAR"]
+en = "'OUR INFORMATION INDICATES THAT THE RAM BASE ON VENUS IS THE PLACE TO GO NEXT.'"
+de = ""
+
+[[text]]
+id = "M017_032"
+befehl = ["PRINTCLEAR"]
+en = "'HUER.DOS HAS LOCATED THE DOOMSDAY WEAPON. IT IS IN MARIPOSA 3 AT MERCURY. GO THERE AND DESTROY IT.'"
+de = ""
+
+[[text]]
+id = "M017_033"
+befehl = ["PRINTCLEAR"]
+en = "'NOW I WILL TURN YOU OVER TO OUR TRAINING STAFF.'"
+de = ""
+
+[[text]]
+id = "M017_034"
+befehl = ["PRINTCLEAR"]
+en = "'JASON DUPARE, A NEO TOP AGENT, HAS PENETRATED RAM'S DOOMSDAY PROJECT. RESCUE HIM FROM THE RADIUM MINES ON THULE AS SOON AS YOU CAN.'"
+de = ""
+
+[[text]]
+id = "M017_035"
+befehl = ["PRINTCLEAR"]
+en = "SALVATION'S DEPOT IS BEHIND THIS DOOR. NEO MEMBERS PURCHASE WEAPONS, AND ARMOR HERE."
+de = ""
+
+[[text]]
+id = "M017_036"
+befehl = ["PRINTCLEAR"]
+en = "'COME AGAIN!'"
+de = ""
+
+[[text]]
+id = "M017_037"
+befehl = ["PRINTCLEAR"]
+en = "SALVATION'S MEDICAL FACILITIES ARE HERE FOR YOUR USE."
+de = ""
+
+[[text]]
+id = "M017_038"
+befehl = ["PRINTCLEAR"]
+en = "SALVATION'S MEDICS RESTORE THE ENTIRE TEAM TO PERFECT HEALTH."
+de = ""
+
+[[text]]
+id = "M017_039"
+befehl = ["PRINTCLEAR"]
+en = "YOU HEAR WILD MUSIC BEHIND THE DOOR."
+de = ""
+
+[[text]]
+id = "M017_040"
+befehl = ["PRINTCLEAR"]
+en = "YOU ENTER THE SALVATION LOUNGE."
+de = ""
+
+[[text]]
+id = "M017_041"
+befehl = ["HMENU"]
+menue = true
+en = "MINGLE"
+de = ""
+
+[[text]]
+id = "M017_042"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M017_043"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE SALVATION LOUNGE."
+de = ""
+
+[[text]]
+id = "M017_044"
+befehl = ["PRINTCLEAR"]
+en = "YOU GET SOME COFFEE."
+de = ""
+
+[[text]]
+id = "M017_045"
+befehl = ["PRINTCLEAR"]
+en = "YOU GET A DRINK."
+de = ""
+
+[[text]]
+id = "M017_046"
+befehl = ["PRINTCLEAR"]
+en = "CREW MEMBERS COME BY AND CONGRATULATE YOU."
+de = ""
+
+[[text]]
+id = "M017_047"
+befehl = ["PRINTCLEAR"]
+en = "'I'VE HEARD THAT NEO IS FILLED WITH RAM SPIES. BE CAREFUL WHO YOU TRUST.'"
+de = ""
+
+[[text]]
+id = "M017_048"
+befehl = ["PRINTCLEAR"]
+en = "'RAM HAS DEVELOPED HEAVY BATTLE ARMOR WITH ECM FORCE FIELDS BUILT IN.'"
+de = ""
+
+[[text]]
+id = "M017_049"
+befehl = ["PRINTCLEAR"]
+en = "'IN SPACE COMBAT, SHOOT OUT THE CONTROLS AND WEAPONS. THEN YOU CAN BOARD.'"
+de = ""
+
+[[text]]
+id = "M017_050"
+befehl = ["PRINTCLEAR"]
+en = "'I HEAR A RAM PACKING COMPANY LOST THEIR CONTRACT FOR GENNIE CONTAINMENT UNITS.'"
+de = ""
+
+[[text]]
+id = "M017_051"
+befehl = ["PRINTCLEAR"]
+en = "'BEWARE OF SURPRISE ATTACKS WHEN TRAVELING OVERLAND.'"
+de = ""
+
+[[text]]
+id = "M017_052"
+befehl = ["PRINTCLEAR"]
+en = "'THE THULE RADIUM MINE IS THE MOST BRUTAL PRISON IN THE SOLAR SYSTEM. NO ONE SURVIVES.'"
+de = ""
+
+[[text]]
+id = "M017_053"
+befehl = ["PRINTCLEAR"]
+en = "'NEVER TRUST A DIGITAL PERSONALITY!' URGES A BAR PATRON.'"
+de = ""
+
+[[text]]
+id = "M017_054"
+befehl = ["PRINTCLEAR"]
+en = "'THE SUN KING ON THE THIRD MERCURIAN MARIPOSA IS KNOWN TO BE...ECCENTRIC,' "
+de = ""
+
+[[text]]
+id = "M017_055"
+befehl = ["PRINTCLEAR"]
+en = "THIS HATCHWAY LEADS TO THE ROCKETBAY."
+de = ""
+
+[[text]]
+id = "M017_056"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE IN THE SALVATION PORT AREA."
+de = ""
+
+[[text]]
+id = "M017_057"
+befehl = ["HMENU"]
+menue = true
+en = "LAUNCH"
+de = ""
+
+[[text]]
+id = "M017_058"
+befehl = ["HMENU"]
+menue = true
+en = "RESUPPLY"
+de = ""
+
+[[text]]
+id = "M017_059"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M017_060"
+befehl = ["HMENU"]
+menue = true
+en = "LAUNCH"
+de = ""
+
+[[text]]
+id = "M017_061"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M017_062"
+befehl = ["PRINTCLEAR"]
+en = "LAUNCH ACCESS DENIED UNTIL YOU HAVE BEEN BRIEFED. REPORT TO HQ."
+de = ""
+
+[[text]]
+id = "M017_063"
+befehl = ["PRINTCLEAR"]
+en = "'ALL PREPARATIONS ARE COMPLETE. YOU ARE CLEARED FOR LAUNCH'"
+de = ""
+
+[[text]]
+id = "M017_064"
+befehl = ["PRINTCLEAR"]
+en = "AS YOU PREPARE YOUR TUG, TURABIAN CALLS. 'GOOD LUCK ON YOUR FIRST MISSION FOR NEO.'"
+de = ""
+
+[[text]]
+id = "M017_065"
+befehl = ["PRINTCLEAR"]
+en = "THE ENGINES ROAR AS YOU SHOOT DOWN THE LAUNCHING BAY. YOU BEGIN YOUR SEARCH OF THE SPACE DEBRIS THAT ORBITS EARTH..."
+de = ""
+
+[[text]]
+id = "M017_066"
+befehl = ["PRINTCLEAR"]
+en = "AFTER A FEW DAYS, YOU LOCATE SOMETHING UNUSUAL."
+de = ""
+
+[[text]]
+id = "M017_067"
+befehl = ["PRINTCLEAR"]
+en = "YOU HAVE FOUND A DERELICT SPACESHIP DRIFTING AMONGST THE DEBRIS. IT HAS NO MARKINGS TO IDENTIFY IT, AND NO NOTICEABLE EXTERNAL DAMAGE. YOU DOCK AND ENTER THE SHIP."
+de = ""
+
+[[text]]
+id = "M017_068"
+befehl = ["PRINTCLEAR"]
+en = "THE NEO MECHANICS REPAIR YOUR SHIP."
+de = ""
+
+[[text]]
+id = "M017_069"
+befehl = ["PRINTCLEAR"]
+en = "NEO TECHNICIANS RELOAD YOUR WEAPONS AND RESTOCK YOUR EXTRA AMMO."
+de = ""
+
+[[text]]
+id = "M017_070"
+befehl = ["PRINTCLEAR"]
+en = "THE REST OF SALVATION IS OFF LIMITS."
+de = ""

@@ -4764,9 +4764,14 @@ loc_40AA:
 	cmp.b	#$80,d1
 	bne.s	loc_40BC
 	move.l	($FFFFD5F8).w,d0
+	if DEUTSCH	; DEUTSCH-HOOK 2: Text-Operand ueber Zeigertabelle (8 Byte wie Original)
+	jmp	(DE_TextZeiger).l
+	dc.w	$4E71
+	else
 	add.l	($FFFFB9A4).w,d0
 	movea.l	d0,a0
 	rts
+	endif
 loc_40BC:
 	move.w	#$FFFF,($FFFFD5F8).w
 	move.l	($FFFFD5F8).w,d0
@@ -4800,6 +4805,13 @@ loc_4100:
 	move.l	#$FFFF6AF6,d0
 	move.w	#$2C00,d1
 	bsr.w	sub_9ED8
+	if DEUTSCH	; DEUTSCH-HOOK 1: Textablage A - Text bleibt in der ROM (32 Byte wie Original)
+	lea	(DE_Modultabelle).l,a0
+	move.l	(a0,d2.w),($FFFFB9A4).w	; Basis = Zeigertabelle des Moduls
+	bra.s	de_hook1_ende
+	dc.w	$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71
+de_hook1_ende:
+	else
 	move.l	d0,($FFFFB9A4).w
 	movea.l	(dat_42B0A).l,a0
 	adda.l	(a0,d2.w),a0
@@ -4807,6 +4819,7 @@ loc_4100:
 	move.l	($FFFFB9A4).w,d0
 	move.l	#$2C00,d1
 	bsr.w	sub_9ED8
+	endif
 	move.l	(a7)+,d2
 	rts
 loc_4140:
@@ -33054,7 +33067,11 @@ dat_390E2:
 dat_42B0A:
 	binclude	"data/042B0A.bin"
 dat_51102:
+	if DEUTSCH	; DEUTSCH-HOOK 3: Zeichensatz mit Umlauten
+	binclude	"deutsch/font_1bpp.bin"
+	else
 	binclude	"data/051102.bin"
+	endif
 dat_51302:
 	dc.b	$70,$73,$74,$75,$76,$77,$78,$FF
 dat_5130A:
@@ -33235,5 +33252,9 @@ loc_FFFF2:
 	dbf	d1,loc_FFFF2
 loc_FFFFE:
 	bra.s	loc_FFFFE
+
+	if DEUTSCH	; DEUTSCH-HOOK 4: Erweiterung ab $100000
+	include	"src/deutsch.asm"
+	endif
 
 	END

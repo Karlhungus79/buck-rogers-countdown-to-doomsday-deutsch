@@ -1,0 +1,917 @@
+# Buck Rogers: Countdown to Doomsday - deutscher Dialogtext, ECL-Modul 0
+# de = deutscher Text (leer = englisches Original bleibt). en = nur Referenz, nicht aendern.
+# Zeichen: normale Gross-/Kleinschreibung, ä ö ü Ä Ö Ü, ß; \n = Zeilenumbruch (nur wo das Original einen hat).
+
+[[text]]
+id = "M000_000"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WANT TO START FROM SCRATCH OR USE THE JUMPER?"
+de = ""
+
+[[text]]
+id = "M000_001"
+befehl = ["HMENU"]
+menue = true
+en = "JUMPER"
+de = ""
+
+[[text]]
+id = "M000_002"
+befehl = ["HMENU"]
+menue = true
+en = "START"
+de = ""
+
+[[text]]
+id = "M000_003"
+befehl = ["PRINTCLEAR"]
+en = "YOU SEE A TECHNICIAN BEING DRAGGED OFF BY RAM SECURITY. YOU DRAW YOUR WEAPONS AND ATTACK."
+de = ""
+
+[[text]]
+id = "M000_004"
+befehl = ["PRINTCLEAR"]
+en = "WHERE DO YOU WISH TO GO?"
+de = ""
+
+[[text]]
+id = "M000_005"
+befehl = ["HMENU"]
+menue = true
+en = "JUMP"
+de = ""
+
+[[text]]
+id = "M000_006"
+befehl = ["HMENU"]
+menue = true
+en = "ARENA"
+de = ""
+
+[[text]]
+id = "M000_007"
+befehl = ["HMENU"]
+menue = true
+en = "GO UP"
+de = ""
+
+[[text]]
+id = "M000_008"
+befehl = ["HMENU"]
+menue = true
+en = "TREASURE"
+de = ""
+
+[[text]]
+id = "M000_009"
+befehl = ["HMENU"]
+menue = true
+en = "PREV"
+de = ""
+
+[[text]]
+id = "M000_010"
+befehl = ["HMENU"]
+menue = true
+en = "NEXT"
+de = ""
+
+[[text]]
+id = "M000_011"
+befehl = ["HMENU"]
+menue = true
+en = "EXP"
+de = ""
+
+[[text]]
+id = "M000_012"
+befehl = ["HMENU"]
+menue = true
+en = "STORE"
+de = ""
+
+[[text]]
+id = "M000_013"
+befehl = ["HMENU"]
+menue = true
+en = "ADDBUCK"
+de = ""
+
+[[text]]
+id = "M000_014"
+befehl = ["HMENU"]
+menue = true
+en = "SOUND"
+de = ""
+
+[[text]]
+id = "M000_015"
+befehl = ["HMENU"]
+menue = true
+en = "PREV"
+de = ""
+
+[[text]]
+id = "M000_016"
+befehl = ["HMENU"]
+menue = true
+en = "NEXT"
+de = ""
+
+[[text]]
+id = "M000_017"
+befehl = ["HMENU"]
+menue = true
+en = "SPRITE"
+de = ""
+
+[[text]]
+id = "M000_018"
+befehl = ["HMENU"]
+menue = true
+en = "ARTTOOL"
+de = ""
+
+[[text]]
+id = "M000_019"
+befehl = ["HMENU"]
+menue = true
+en = "TESTS"
+de = ""
+
+[[text]]
+id = "M000_020"
+befehl = ["HMENU"]
+menue = true
+en = "DEMO"
+de = ""
+
+[[text]]
+id = "M000_021"
+befehl = ["HMENU"]
+menue = true
+en = "PREV"
+de = ""
+
+[[text]]
+id = "M000_022"
+befehl = ["HMENU"]
+menue = true
+en = "NEXT"
+de = ""
+
+[[text]]
+id = "M000_023"
+befehl = ["PRINTCLEAR"]
+en = "WHAT ECL DO YOU WISH TO GO TO? (IN DECIMAL)"
+de = ""
+
+[[text]]
+id = "M000_024"
+befehl = ["PRINTCLEAR"]
+en = "WHAT DO YOU WANT TO SET CURDISK TO?"
+de = ""
+
+[[text]]
+id = "M000_025"
+befehl = ["PRINTCLEAR"]
+en = "YOU ARE GOING TO ECL: "
+de = ""
+
+[[text]]
+id = "M000_026"
+befehl = ["PRINT"]
+en = "THE CURRENT DISK IS: "
+de = ""
+
+[[text]]
+id = "M000_027"
+befehl = ["PRINT"]
+en = "IS THIS OK?"
+de = ""
+
+[[text]]
+id = "M000_028"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO SET X,Y POSITIONS?"
+de = ""
+
+[[text]]
+id = "M000_029"
+befehl = ["PRINTCLEAR"]
+en = "X POSITION:"
+de = ""
+
+[[text]]
+id = "M000_030"
+befehl = ["PRINTCLEAR"]
+en = "Y POSITION:"
+de = ""
+
+[[text]]
+id = "M000_031"
+befehl = ["PRINTCLEAR"]
+en = "FACING:"
+de = ""
+
+[[text]]
+id = "M000_032"
+befehl = ["PRINTCLEAR"]
+en = "DO YOU WISH TO SET ANY PARTY VARIABLES?"
+de = ""
+
+[[text]]
+id = "M000_033"
+befehl = ["PRINTCLEAR"]
+en = "PARTY PLUS WHAT OFFSET? ( <= 256 EXITS ROUTINE)"
+de = ""
+
+[[text]]
+id = "M000_034"
+befehl = ["PRINTCLEAR"]
+en = "WHAT WILL THE VARIABLE BE SET TO?"
+de = ""
+
+[[text]]
+id = "M000_035"
+befehl = ["PRINTCLEAR"]
+en = "SPACE ..."
+de = ""
+
+[[text]]
+id = "M000_036"
+befehl = ["HMENU"]
+menue = true
+en = "SPACE COMBAT"
+de = ""
+
+[[text]]
+id = "M000_037"
+befehl = ["HMENU"]
+menue = true
+en = "QUIT"
+de = ""
+
+[[text]]
+id = "M000_038"
+befehl = ["PRINTCLEAR"]
+en = "FIGHT WHICH SHIP TYPE?"
+de = ""
+
+[[text]]
+id = "M000_039"
+befehl = ["HMENU"]
+menue = true
+en = "A"
+de = ""
+
+[[text]]
+id = "M000_040"
+befehl = ["HMENU"]
+menue = true
+en = "B"
+de = ""
+
+[[text]]
+id = "M000_041"
+befehl = ["HMENU"]
+menue = true
+en = "C"
+de = ""
+
+[[text]]
+id = "M000_042"
+befehl = ["HMENU"]
+menue = true
+en = "D"
+de = ""
+
+[[text]]
+id = "M000_043"
+befehl = ["HMENU"]
+menue = true
+en = "E"
+de = ""
+
+[[text]]
+id = "M000_044"
+befehl = ["PRINTCLEAR"]
+en = "INPUT SURPRISE."
+de = ""
+
+[[text]]
+id = "M000_045"
+befehl = ["PRINTCLEAR"]
+en = "SHIP # "
+de = ""
+
+[[text]]
+id = "M000_046"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M000_047"
+befehl = ["PRINT"]
+en = "E. RJ: "
+de = ""
+
+[[text]]
+id = "M000_048"
+befehl = ["PRINT"]
+en = "%"
+de = ""
+
+[[text]]
+id = "M000_049"
+befehl = ["PRINT"]
+en = "E. THACO: "
+de = ""
+
+[[text]]
+id = "M000_050"
+befehl = ["PRINT"]
+en = "    OK?"
+de = ""
+
+[[text]]
+id = "M000_051"
+befehl = ["PRINTCLEAR"]
+en = "ABORT?"
+de = ""
+
+[[text]]
+id = "M000_052"
+befehl = ["PRINTCLEAR"]
+en = "WHICH STORE NUMBER?"
+de = ""
+
+[[text]]
+id = "M000_053"
+befehl = ["PRINT"]
+en = " (1-16, 0=EXIT)"
+de = ""
+
+[[text]]
+id = "M000_054"
+befehl = ["PRINTCLEAR"]
+en = "TOO HIGH!!!"
+de = ""
+
+[[text]]
+id = "M000_055"
+befehl = ["PRINTCLEAR"]
+en = "HOW MANY EXPERIENCE POINTS FOR THE PARTY?"
+de = ""
+
+[[text]]
+id = "M000_056"
+befehl = ["PRINTCLEAR"]
+en = "WHICH SPRITE # DO YOU WISH?"
+de = ""
+
+[[text]]
+id = "M000_057"
+befehl = ["PRINTCLEAR"]
+en = "AT RANGE 2."
+de = ""
+
+[[text]]
+id = "M000_058"
+befehl = ["PRINTCLEAR"]
+en = "AT RANGE 1."
+de = ""
+
+[[text]]
+id = "M000_059"
+befehl = ["PRINTCLEAR"]
+en = "AT RANGE 0."
+de = ""
+
+[[text]]
+id = "M000_060"
+befehl = ["PRINTCLEAR"]
+en = "WHICH FUNCTION DO YOU WISH TO TEST?"
+de = ""
+
+[[text]]
+id = "M000_061"
+befehl = ["HMENU"]
+menue = true
+en = "MARIPOSA"
+de = ""
+
+[[text]]
+id = "M000_062"
+befehl = ["HMENU"]
+menue = true
+en = "CREDITS"
+de = ""
+
+[[text]]
+id = "M000_063"
+befehl = ["PRINTCLEAR"]
+en = "WHICH SKILL TYPE DO YOU WISH TO TEST?"
+de = ""
+
+[[text]]
+id = "M000_064"
+befehl = ["HMENU"]
+menue = true
+en = "STSKILL"
+de = ""
+
+[[text]]
+id = "M000_065"
+befehl = ["HMENU"]
+menue = true
+en = "PRSKILL"
+de = ""
+
+[[text]]
+id = "M000_066"
+befehl = ["HMENU"]
+menue = true
+en = "DAMSKILL"
+de = ""
+
+[[text]]
+id = "M000_067"
+befehl = ["HMENU"]
+menue = true
+en = "QUIT"
+de = ""
+
+[[text]]
+id = "M000_068"
+befehl = ["PRINTCLEAR"]
+en = "WHAT SKILL # DO YOU WISH TO TEST?"
+de = ""
+
+[[text]]
+id = "M000_069"
+befehl = ["PRINTCLEAR"]
+en = "CHECK ONLY A SINGLE PERSON?"
+de = ""
+
+[[text]]
+id = "M000_070"
+befehl = ["WHO"]
+en = "WHICH ONE?"
+de = ""
+
+[[text]]
+id = "M000_071"
+befehl = ["PRINTCLEAR"]
+en = "WHAT DIFFICULTY LEVEL?"
+de = ""
+
+[[text]]
+id = "M000_072"
+befehl = ["HMENU"]
+menue = true
+en = "V. EASY"
+de = ""
+
+[[text]]
+id = "M000_073"
+befehl = ["HMENU"]
+menue = true
+en = "EASY"
+de = ""
+
+[[text]]
+id = "M000_074"
+befehl = ["HMENU"]
+menue = true
+en = "AVG"
+de = ""
+
+[[text]]
+id = "M000_075"
+befehl = ["HMENU"]
+menue = true
+en = "DIFF"
+de = ""
+
+[[text]]
+id = "M000_076"
+befehl = ["HMENU"]
+menue = true
+en = "IMPOSSIBLE"
+de = ""
+
+[[text]]
+id = "M000_077"
+befehl = ["PRINTCLEAR"]
+en = "PERSON # "
+de = ""
+
+[[text]]
+id = "M000_078"
+befehl = ["PRINT"]
+en = " PERFORMED AT # "
+de = ""
+
+[[text]]
+id = "M000_079"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M000_080"
+befehl = ["PRINTCLEAR"]
+en = "WHAT SKILL # DO YOU WISH TO TEST?"
+de = ""
+
+[[text]]
+id = "M000_081"
+befehl = ["PRINTCLEAR"]
+en = "CHECK ONLY A SINGLE PERSON?"
+de = ""
+
+[[text]]
+id = "M000_082"
+befehl = ["WHO"]
+en = "WHICH ONE?"
+de = ""
+
+[[text]]
+id = "M000_083"
+befehl = ["PRINTCLEAR"]
+en = "WHAT DIFFICULTY LEVEL?"
+de = ""
+
+[[text]]
+id = "M000_084"
+befehl = ["HMENU"]
+menue = true
+en = "V. EASY"
+de = ""
+
+[[text]]
+id = "M000_085"
+befehl = ["HMENU"]
+menue = true
+en = "EASY"
+de = ""
+
+[[text]]
+id = "M000_086"
+befehl = ["HMENU"]
+menue = true
+en = "AVG"
+de = ""
+
+[[text]]
+id = "M000_087"
+befehl = ["HMENU"]
+menue = true
+en = "DIFF"
+de = ""
+
+[[text]]
+id = "M000_088"
+befehl = ["HMENU"]
+menue = true
+en = "IMPOSSIBLE"
+de = ""
+
+[[text]]
+id = "M000_089"
+befehl = ["PRINTCLEAR"]
+en = "PERSON # "
+de = ""
+
+[[text]]
+id = "M000_090"
+befehl = ["PRINT"]
+en = " PERFORMED AT # "
+de = ""
+
+[[text]]
+id = "M000_091"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M000_092"
+befehl = ["PRINTCLEAR"]
+en = "WHAT SKILL # DO YOU WISH TO TEST?"
+de = ""
+
+[[text]]
+id = "M000_093"
+befehl = ["PRINTCLEAR"]
+en = "CHECK ONLY A SINGLE PERSON?"
+de = ""
+
+[[text]]
+id = "M000_094"
+befehl = ["WHO"]
+en = "WHICH ONE?"
+de = ""
+
+[[text]]
+id = "M000_095"
+befehl = ["PRINTCLEAR"]
+en = "WHAT DIFFICULTY LEVEL?"
+de = ""
+
+[[text]]
+id = "M000_096"
+befehl = ["HMENU"]
+menue = true
+en = "V. EASY"
+de = ""
+
+[[text]]
+id = "M000_097"
+befehl = ["HMENU"]
+menue = true
+en = "EASY"
+de = ""
+
+[[text]]
+id = "M000_098"
+befehl = ["HMENU"]
+menue = true
+en = "AVG"
+de = ""
+
+[[text]]
+id = "M000_099"
+befehl = ["HMENU"]
+menue = true
+en = "DIFF"
+de = ""
+
+[[text]]
+id = "M000_100"
+befehl = ["HMENU"]
+menue = true
+en = "IMPOSSIBLE"
+de = ""
+
+[[text]]
+id = "M000_101"
+befehl = ["PRINTCLEAR"]
+en = "WHAT # OF DICE FOR DAMAGE?"
+de = ""
+
+[[text]]
+id = "M000_102"
+befehl = ["PRINTCLEAR"]
+en = "HOW MANY FACES ON THE DICE?"
+de = ""
+
+[[text]]
+id = "M000_103"
+befehl = ["PRINTCLEAR"]
+en = "BONUS # TO DAMAGE?"
+de = ""
+
+[[text]]
+id = "M000_104"
+befehl = ["PRINTCLEAR"]
+en = "PERSON # "
+de = ""
+
+[[text]]
+id = "M000_105"
+befehl = ["PRINT"]
+en = " PERFORMED AT # "
+de = ""
+
+[[text]]
+id = "M000_106"
+befehl = ["PRINT"]
+en = "."
+de = ""
+
+[[text]]
+id = "M000_107"
+befehl = ["INPUTSTRING"]
+en = "JOURNAL STRING?"
+de = ""
+
+[[text]]
+id = "M000_108"
+befehl = ["PRINTCLEAR"]
+en = "JOURNAL NUMBER?"
+de = ""
+
+[[text]]
+id = "M000_109"
+befehl = ["PRINTCLEAR"]
+en = ""
+de = ""
+
+[[text]]
+id = "M000_110"
+befehl = ["PRINTCLEAR"]
+en = "WHAT DIRECTION DO YOU WISH?"
+de = ""
+
+[[text]]
+id = "M000_111"
+befehl = ["HMENU"]
+menue = true
+en = "NORTH"
+de = ""
+
+[[text]]
+id = "M000_112"
+befehl = ["HMENU"]
+menue = true
+en = "EAST"
+de = ""
+
+[[text]]
+id = "M000_113"
+befehl = ["HMENU"]
+menue = true
+en = "SOUTH"
+de = ""
+
+[[text]]
+id = "M000_114"
+befehl = ["HMENU"]
+menue = true
+en = "WEST"
+de = ""
+
+[[text]]
+id = "M000_115"
+befehl = ["PRINTCLEAR"]
+en = "THERE ARE "
+de = ""
+
+[[text]]
+id = "M000_116"
+befehl = ["PRINT"]
+en = " SQUARES TO THE NEXT WALL."
+de = ""
+
+[[text]]
+id = "M000_117"
+befehl = ["PRINTCLEAR"]
+en = "WHAT SOUND # DO YOU WISH?"
+de = ""
+
+[[text]]
+id = "M000_118"
+befehl = ["PRINTCLEAR"]
+en = "WHAT MODE?"
+de = ""
+
+[[text]]
+id = "M000_119"
+befehl = ["HMENU"]
+menue = true
+en = "3D"
+de = ""
+
+[[text]]
+id = "M000_120"
+befehl = ["HMENU"]
+menue = true
+en = "BIGPIC"
+de = ""
+
+[[text]]
+id = "M000_121"
+befehl = ["HMENU"]
+menue = true
+en = "SPACE"
+de = ""
+
+[[text]]
+id = "M000_122"
+befehl = ["HMENU"]
+menue = true
+en = "OUTPOST"
+de = ""
+
+[[text]]
+id = "M000_123"
+befehl = ["HMENU"]
+menue = true
+en = "WILD"
+de = ""
+
+[[text]]
+id = "M000_124"
+befehl = ["HMENU"]
+menue = true
+en = "EXIT"
+de = ""
+
+[[text]]
+id = "M000_125"
+befehl = ["PRINTCLEAR"]
+en = "PICTURE:"
+de = ""
+
+[[text]]
+id = "M000_126"
+befehl = ["PRINT"]
+en = "(255 FOR NONE)"
+de = ""
+
+[[text]]
+id = "M000_127"
+befehl = ["PRINTCLEAR"]
+en = "TOO HIGH."
+de = ""
+
+[[text]]
+id = "M000_128"
+befehl = ["PRINTCLEAR"]
+en = "TOO LOW."
+de = ""
+
+[[text]]
+id = "M000_129"
+befehl = ["COMPARE"]
+en = "BUCK ROGERS"
+de = ""
+
+[[text]]
+id = "M000_130"
+befehl = ["PRINTCLEAR"]
+en = "YOU ALREADY HAVE HIM."
+de = ""
+
+[[text]]
+id = "M000_131"
+befehl = ["PRINTCLEAR"]
+en = "BUCK JOINS THE TEAM."
+de = ""
+
+[[text]]
+id = "M000_132"
+befehl = ["COMPARE"]
+en = "BUCK ROGERS"
+de = ""
+
+[[text]]
+id = "M000_133"
+befehl = ["PRINTCLEAR"]
+en = "BUCK LEAVES."
+de = ""
+
+[[text]]
+id = "M000_134"
+befehl = ["PRINTCLEAR"]
+en = "IBM BOX SHOTS OR C64?"
+de = ""
+
+[[text]]
+id = "M000_135"
+befehl = ["HMENU"]
+menue = true
+en = "IBM"
+de = ""
+
+[[text]]
+id = "M000_136"
+befehl = ["HMENU"]
+menue = true
+en = "COMMODORE"
+de = ""
+
+[[text]]
+id = "M000_137"
+befehl = ["PRINTCLEAR"]
+en = "NOT IMPLEMENTED!!!"
+de = ""
+
+[[text]]
+id = "M000_138"
+befehl = ["PRINTCLEAR"]
+en = "NOT IMPLEMENTED!!!"
+de = ""
+
+[[text]]
+id = "M000_139"
+befehl = ["PRINTCLEAR"]
+en = "WHICH SOUND (0-90)?"
+de = ""
+
+[[text]]
+id = "M000_140"
+befehl = ["HMENU"]
+menue = true
+en = "NO"
+de = ""
+
+[[text]]
+id = "M000_141"
+befehl = ["HMENU"]
+menue = true
+en = "YES"
+de = ""
