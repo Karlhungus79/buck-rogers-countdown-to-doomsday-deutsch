@@ -1,4 +1,4 @@
-# Übergabe 24.10.2026, ca. 20:45
+# Übergabe 24.10.2026, ca. 20:55
 
 ## Auftrag
 Marcel (24.10.2026, 17:44 und 20:21): eigenständig weiterarbeiten, selbst entscheiden (Entscheidungen
@@ -7,9 +7,11 @@ schriftlich, „im Spieltest prüfen“), Ziel: Projekt fertigstellen. Marcel is
 ## Stand
 - Tor Phase 0, 1, 2 erreicht. Phase 3 (Grafik) gebaut: deutsch **814E4C76**, Test **F436B9D1**
   (`Grafik.md`, `Testliste_Phase3.md`). Ares-Test durch Marcel offen.
-- Phase 5 (Dialog): 2407 Texte in 27 Modulen, übersetzt nur M016_000–003 (Intro).
-- Bauten liegen auf H: in `07_Output_ROM\2026-10-24_20-22-…_deutsch\` / `_test\` und unter den festen
-  Namen `(gebaut).md` / `(test).md`. Vorheriger Stand: `2026-10-24_17-28-…` (0B58AE77 / 37DE7A79).
+- Phase 5 (Dialog): Erstübersetzung aller Spielmodule fertig (2130 Texte, `Dialog.md`), gebaut deutsch
+  **59F0785A**, Test **9CF3FBF3**, Ares offen (`Testliste_Phase5.md`).
+- Bauten liegen auf H: in `07_Output_ROM\2026-10-24_20-44-…_deutsch\` / `_test\` und unter den festen
+  Namen `(gebaut).md` / `(test).md`. Vorher: `2026-10-24_20-22-08_…` (Grafik, 814E4C76 / F436B9D1),
+  `2026-10-24_17-28-…` (Tor Phase 2, 0B58AE77 / 37DE7A79).
 
 ## Arbeitsumgebung neu aufsetzen (Claude-Container)
 1. Repo klonen (`add_repo` Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch, push).
@@ -23,7 +25,9 @@ schriftlich, „im Spieltest prüfen“), Ziel: Projekt fertigstellen. Marcel is
 
 ## Nächste Schritte
 1. Marcel: Phase 3 in Ares testen (`Testliste_Phase3.md`), vor allem G7 (Raumkampf-Anzeige).
-2. Claude: Phase 5 Dialog – Reihenfolge nach Spielverlauf (M016, M017, M032 …), Grundsätze G1–G9,
+2. ~~Claude: Phase 5 Dialog~~ Erstübersetzung erledigt. Nächster Claude-Schritt: Korrekturen aus Marcels
+   Spieltests; danach Phase 6 vorbereiten (BPS/IPS-Patch gegen CRC32 44E3BFFF, Readme deutsch/englisch).
+   Alt: Phase 5 Dialog – Reihenfolge nach Spielverlauf (M016, M017, M032 …), Grundsätze G1–G9,
    Glossar, Anrede („ihr“ NEO/Verbündete, „Sie“ Fremde). Nach jedem Modul: einsetzen, bauen, Prüfregeln,
    Stichprobe im Testemulator, Commit + H:. Entscheidungen in `Dialog.md` („im Spieltest prüfen“).
    Begründung für die Reihenfolge (Dialog vor Phase-4-Abnahme): Marcel nicht erreichbar, Phase 4

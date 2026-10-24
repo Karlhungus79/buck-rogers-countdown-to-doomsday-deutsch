@@ -541,13 +541,13 @@ de = ". "
 id = "M032_086"
 befehl = ["SAVE"]
 en = "BOY"
-de = "einem alten Freund"
+de = "einem Freund"
 
 [[text]]
 id = "M032_087"
 befehl = ["SAVE"]
 en = "GIRL"
-de = "einer alten Freundin"
+de = "einer Freundin"
 
 [[text]]
 id = "M032_088"

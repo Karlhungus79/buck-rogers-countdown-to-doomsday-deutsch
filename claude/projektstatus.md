@@ -4,7 +4,8 @@ Stand: 24.10.2026
 
 ## Aktuelle Phase
 
-Phase 3 – Grafik. Gebaut, Spieltest in Ares offen (`Grafik.md`, `Testliste_Phase3.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
+Phase 3 – Grafik: gebaut, Ares offen. **Phase 5 – Dialog: Erstübersetzung aller Spielmodule fertig, gebaut
+(deutsch 59F0785A, Test 9CF3FBF3), Ares offen** (`Dialog.md`, `Testliste_Phase5.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
 Bau deutsch 0B58AE77 / Test 37DE7A79).
 Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares bestätigt).
 Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
@@ -118,6 +119,11 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - **Wecker 19:10 (24.10.2026)** hat ausgelöst und wurde zugestellt, aber keine Arbeitsrunde gestartet
   (vermutlich Nutzungslimit noch aufgebraucht). Künftig Übergabe auf H: vor dem Wecker ablegen.
 
+- **Phase 5 Dialog (24.10.2026, Claude selbständig):** alle Spielmodule übersetzt (2130 von 2407 Texten; Rest:
+  Entwicklermodule M000/M001, Eigennamen, Passwörter, Satzzeichen). Fenstergrenze gemessen (Fenster
+  überschreibt reihum) → Zeilenprüfung ist jetzt Fehler. SAVE-Längen geprüft. Textblock-Grenze $1C0000.
+  **Gebaut: deutsch 59F0785A, Test 9CF3FBF3**, Original bit-genau. Intro im Testemulator gesehen. Ares offen.
+
 ## Offen / nächste Schritte
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
@@ -131,7 +137,8 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 8. ~~Phase 3 Grafik (Opus): Schritt 3.1 Bestandsaufnahme aller Grafiken mit englischem Text → `Grafik.md`
    (Titelbild, Abspann-Kopf „CREATED BY THE …“, weitere Bilder), dann Grafik-Werkzeug mit
    Rundreise-Prüfung, Wortlisten und Entwürfe A/B/C je Bild (`Fahrplan.md`, Phase 3).~~ gebaut 24.10.2026.
-9. Claude (selbständig): Phase 4 vorbereiten (Testpaket), dann Phase 5 Dialog (2407 Texte, 27 Module).
+9. ~~Phase 5 Dialog~~ Erstübersetzung fertig 24.10.2026 → Marcel: Spieltest nach `Testliste_Phase5.md`.
+10. Danach: Korrekturen aus den Spieltests, Phase 4/6 (Testpaket, Patch, Readme, Release).
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

@@ -24,6 +24,8 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `Testfassung.md` – Testfassung mit Entwickler-Jumper: Sprung in jedes Spielmodul, Sprungziele, Bedienung
 - `Grafik.md` – Phase 3: Bildformat, Werkzeuge `grafik.py`/`grafik_deutsch.py`, Bilder G1–G7, Hooks 14–19
 - `Testliste_Phase3.md` – Spieltest Grafik
+- `Dialog.md` – Phase 5: Stand, technische Regeln (Fenster, SAVE, Satzteile), Sprachentscheidungen
+- `Testliste_Phase5.md` – Spieltest Dialog je Station
 - `Uebergabe_2026-10-24.md` – Übergabe für die nächste Sitzung
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
 - `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand

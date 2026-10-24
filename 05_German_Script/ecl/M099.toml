@@ -6,122 +6,122 @@
 id = "M099_000"
 befehl = ["PRINTCLEAR"]
 en = "THE REST OF THE BASE IS RESTRICTED."
-de = ""
+de = "Der übrige Teil der Basis ist gesperrt."
 
 [[text]]
 id = "M099_001"
 befehl = ["PRINTCLEAR"]
 en = "RAM GARRISON TROOPS ARE WAITING FOR YOUR RETURN. THEY ATTACK!"
-de = ""
+de = "RAM-Garnisonstruppen erwarten eure Rückkehr. Sie greifen an!"
 
 [[text]]
 id = "M099_002"
 befehl = ["PRINT"]
 en = "PORT FACILITIES.'"
-de = ""
+de = "Hafenanlagen.'"
 
 [[text]]
 id = "M099_003"
 befehl = ["PRINT"]
 en = "SUPPLIES.'"
-de = ""
+de = "Versorgung.'"
 
 [[text]]
 id = "M099_004"
 befehl = ["PRINT"]
 en = "TRAINING FACILITIES.'"
-de = ""
+de = "Ausbildung.'"
 
 [[text]]
 id = "M099_005"
 befehl = ["PRINT"]
 en = "LIBRARY.'"
-de = ""
+de = "Bibliothek.'"
 
 [[text]]
 id = "M099_006"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE MAIN PORT AREA."
-de = ""
+de = "Ihr seid im Haupthafenbereich."
 
 [[text]]
 id = "M099_007"
 befehl = ["WHMENU"]
 menue = true
 en = "LAUNCH"
-de = ""
+de = "Starten"
 
 [[text]]
 id = "M099_008"
 befehl = ["WHMENU"]
 menue = true
 en = "REPAIR"
-de = ""
+de = "Reparieren"
 
 [[text]]
 id = "M099_009"
 befehl = ["WHMENU"]
 menue = true
 en = "AMMO"
-de = ""
+de = "Munition"
 
 [[text]]
 id = "M099_010"
 befehl = ["WHMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M099_011"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE CLEARED FOR LAUNCH.'"
-de = ""
+de = "'Ihr habt Starterlaubnis.'"
 
 [[text]]
 id = "M099_012"
 befehl = ["PRINTCLEAR"]
 en = "NEO ACCT.: "
-de = ""
+de = "NEO-Konto: "
 
 [[text]]
 id = "M099_013"
 befehl = ["PRINT"]
 en = "00 CR"
-de = ""
+de = "00 Cr"
 
 [[text]]
 id = "M099_014"
 befehl = ["PRINT"]
 en = "CHOOSE:"
-de = ""
+de = "Wählt:"
 
 [[text]]
 id = "M099_015"
 befehl = ["HMENU"]
 menue = true
 en = "ESTIMATE"
-de = ""
+de = "Kosten"
 
 [[text]]
 id = "M099_016"
 befehl = ["HMENU"]
 menue = true
 en = "REPAIR"
-de = ""
+de = "Reparieren"
 
 [[text]]
 id = "M099_017"
 befehl = ["HMENU"]
 menue = true
 en = "DONE"
-de = ""
+de = "Fertig"
 
 [[text]]
 id = "M099_018"
 befehl = ["PRINTCLEAR"]
 en = "  HULL:     "
-de = ""
+de = "  Rumpf:     "
 
 [[text]]
 id = "M099_019"
@@ -133,7 +133,7 @@ de = ""
 id = "M099_020"
 befehl = ["PRINT"]
 en = "  CONTROLS: "
-de = ""
+de = "  Steuerung: "
 
 [[text]]
 id = "M099_021"
@@ -145,7 +145,7 @@ de = ""
 id = "M099_022"
 befehl = ["PRINT"]
 en = "  ENGINES:  "
-de = ""
+de = "  Antrieb:   "
 
 [[text]]
 id = "M099_023"
@@ -157,7 +157,7 @@ de = ""
 id = "M099_024"
 befehl = ["PRINT"]
 en = "  WEAPONS:  "
-de = ""
+de = "  Waffen:    "
 
 [[text]]
 id = "M099_025"
@@ -181,725 +181,725 @@ de = ""
 id = "M099_028"
 befehl = ["PRINTCLEAR"]
 en = "WHICH SYSTEM?"
-de = ""
+de = "Welches System?"
 
 [[text]]
 id = "M099_029"
 befehl = ["HMENU"]
 menue = true
 en = "HULL"
-de = ""
+de = "Rumpf"
 
 [[text]]
 id = "M099_030"
 befehl = ["HMENU"]
 menue = true
 en = "CONT"
-de = ""
+de = "Steuer."
 
 [[text]]
 id = "M099_031"
 befehl = ["HMENU"]
 menue = true
 en = "ENGN"
-de = ""
+de = "Antrieb"
 
 [[text]]
 id = "M099_032"
 befehl = ["HMENU"]
 menue = true
 en = "WEAP"
-de = ""
+de = "Waffen"
 
 [[text]]
 id = "M099_033"
 befehl = ["HMENU"]
 menue = true
 en = "DONE"
-de = ""
+de = "Fertig"
 
 [[text]]
 id = "M099_034"
 befehl = ["SAVE"]
 en = "HULL HAS"
-de = ""
+de = "Rumpf"
 
 [[text]]
 id = "M099_035"
 befehl = ["SAVE"]
 en = "CONTROLS HAVE"
-de = ""
+de = "Steuerung"
 
 [[text]]
 id = "M099_036"
 befehl = ["SAVE"]
 en = "ENGINE HAS"
-de = ""
+de = "Antrieb"
 
 [[text]]
 id = "M099_037"
 befehl = ["PRINTCLEAR"]
 en = "WHICH WEAPON?"
-de = ""
+de = "Welche Waffe?"
 
 [[text]]
 id = "M099_038"
 befehl = ["HMENU"]
 menue = true
 en = "K-CANNON"
-de = ""
+de = "K-Kanone"
 
 [[text]]
 id = "M099_039"
 befehl = ["HMENU"]
 menue = true
 en = "MISSILE"
-de = ""
+de = "Rakete"
 
 [[text]]
 id = "M099_040"
 befehl = ["HMENU"]
 menue = true
 en = "LASER"
-de = ""
+de = "Laser"
 
 [[text]]
 id = "M099_041"
 befehl = ["HMENU"]
 menue = true
 en = "DONE"
-de = ""
+de = "Fertig"
 
 [[text]]
 id = "M099_042"
 befehl = ["SAVE"]
 en = "K-CANNON(S) HAVE"
-de = ""
+de = "K-Kanone(n)"
 
 [[text]]
 id = "M099_043"
 befehl = ["SAVE"]
 en = "MISSILE MOUNT(S) HAVE"
-de = ""
+de = "Raketenwerfer"
 
 [[text]]
 id = "M099_044"
 befehl = ["SAVE"]
 en = "LASER(S) HAVE"
-de = ""
+de = "Laser"
 
 [[text]]
 id = "M099_045"
 befehl = ["PRINTCLEAR"]
 en = "THE "
-de = ""
+de = "Repariert: "
 
 [[text]]
 id = "M099_046"
 befehl = ["PRINT"]
 en = " BEEN REPAIRED."
-de = ""
+de = "."
 
 [[text]]
 id = "M099_047"
 befehl = ["PRINTCLEAR"]
 en = "THIS SYSTEM IS NOT DAMAGED."
-de = ""
+de = "Dieses System ist nicht beschädigt."
 
 [[text]]
 id = "M099_048"
 befehl = ["PRINTCLEAR"]
 en = "YOU NEED MORE MONEY TO FIX THIS SYSTEM."
-de = ""
+de = "Für diese Reparatur braucht ihr mehr Geld."
 
 [[text]]
 id = "M099_049"
 befehl = ["PRINTCLEAR"]
 en = "NEO ACCT.: "
-de = ""
+de = "NEO-Konto: "
 
 [[text]]
 id = "M099_050"
 befehl = ["PRINT"]
 en = "00 CR"
-de = ""
+de = "00 Cr"
 
 [[text]]
 id = "M099_051"
 befehl = ["PRINT"]
 en = "RELOADING K-CANNON COSTS: "
-de = ""
+de = "Nachladen K-Kanone: "
 
 [[text]]
 id = "M099_052"
 befehl = ["PRINT"]
 en = "00 CR"
-de = ""
+de = "00 Cr"
 
 [[text]]
 id = "M099_053"
 befehl = ["PRINT"]
 en = "RELOADING MISSILES COSTS: "
-de = ""
+de = "Nachladen Raketen: "
 
 [[text]]
 id = "M099_054"
 befehl = ["PRINT"]
 en = "00 CR"
-de = ""
+de = "00 Cr"
 
 [[text]]
 id = "M099_055"
 befehl = ["HMENU"]
 menue = true
 en = "K-CANNON"
-de = ""
+de = "K-Kanone"
 
 [[text]]
 id = "M099_056"
 befehl = ["HMENU"]
 menue = true
 en = "MISSILE"
-de = ""
+de = "Rakete"
 
 [[text]]
 id = "M099_057"
 befehl = ["HMENU"]
 menue = true
 en = "DONE"
-de = ""
+de = "Fertig"
 
 [[text]]
 id = "M099_058"
 befehl = ["PRINTCLEAR"]
 en = "YOU NEED MORE MONEY."
-de = ""
+de = "Ihr braucht mehr Geld."
 
 [[text]]
 id = "M099_059"
 befehl = ["PRINTCLEAR"]
 en = "WHAT WOULD YOU LIKE TO DO?"
-de = ""
+de = "Was wollt ihr tun?"
 
 [[text]]
 id = "M099_060"
 befehl = ["HMENU"]
 menue = true
 en = "MINGLE"
-de = ""
+de = "Unterhalten"
 
 [[text]]
 id = "M099_061"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M099_062"
 befehl = ["PRINTCLEAR"]
 en = "THE CROWD IS PRETTY QUIET."
-de = ""
+de = "Die Leute sind ziemlich ruhig."
 
 [[text]]
 id = "M099_063"
 befehl = ["PRINTCLEAR"]
 en = "EVERYONE IS WATCHING A NULL-G BOXING MATCH."
-de = ""
+de = "Alle schauen einen Boxkampf in Schwerelosigkeit."
 
 [[text]]
 id = "M099_064"
 befehl = ["PRINTCLEAR"]
 en = "THE MUSIC IS TERRIBLE, YOU WANT TO LEAVE."
-de = ""
+de = "Die Musik ist furchtbar, ihr wollt gehen."
 
 [[text]]
 id = "M099_065"
 befehl = ["PRINTCLEAR"]
 en = "YOU TALK AND DANCE, BUT FIND LITTLE EXCITEMENT."
-de = ""
+de = "Ihr redet und tanzt, aber es ist nicht viel los."
 
 [[text]]
 id = "M099_066"
 befehl = ["PRINT"]
 en = " RUSHES UP. 'YOU LOOK WELL ARMED. I'LL PAY YOU WELL IF YOU TAKE CARE OF SOME TROUBLE.'"
-de = ""
+de = " eilt herbei. 'Ihr seht gut bewaffnet aus. Ich zahle gut, wenn ihr mir ein Problem vom Hals schafft.'"
 
 [[text]]
 id = "M099_067"
 befehl = ["PRINTCLEAR"]
 en = "A GROUP RUSHES UP AS "
-de = ""
+de = "Eine Gruppe stürmt heran, und "
 
 [[text]]
 id = "M099_068"
 befehl = ["PRINT"]
 en = " DIVES BENEATH YOUR TABLE."
-de = ""
+de = " taucht unter euren Tisch."
 
 [[text]]
 id = "M099_069"
 befehl = ["PRINTCLEAR"]
 en = "AS THE DUST SETTLES, "
-de = ""
+de = "Als sich der Staub legt, reicht euch "
 
 [[text]]
 id = "M099_070"
 befehl = ["PRINT"]
 en = " HANDS YOU SOME CREDITS. 'THANKS!'"
-de = ""
+de = " ein paar Credits. 'Danke!'"
 
 [[text]]
 id = "M099_071"
 befehl = ["PRINT"]
 en = " DARTS AWAY. YOU HEAR A GUN BATTLE RECEDE DOWN THE CORRIDOR."
-de = ""
+de = " flitzt davon. Ein Feuergefecht entfernt sich den Gang hinunter."
 
 [[text]]
 id = "M099_072"
 befehl = ["PRINTCLEAR"]
 en = "A BRAWL BEGINS. WEAPONS ARE DRAWN."
-de = ""
+de = "Eine Schlägerei bricht aus. Waffen werden gezogen."
 
 [[text]]
 id = "M099_073"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M099_074"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M099_075"
 befehl = ["PRINTCLEAR"]
 en = "YOU LEAVE BEFORE SECURITY ARRIVES."
-de = ""
+de = "Ihr geht, bevor die Sicherheit kommt."
 
 [[text]]
 id = "M099_076"
 befehl = ["PRINT"]
 en = " SLIPS UP TO YOU. 'TRANSMIT THIS TO NEO WHEN YOU CLEAR THE BASE. GOOD LUCK.' "
-de = ""
+de = " schleicht zu euch. 'Sendet das an die NEO, wenn ihr von der Basis weg seid. Viel Glück.' "
 
 [[text]]
 id = "M099_077"
 befehl = ["PRINT"]
 en = " DROPS A PACKET AND SLIPS AWAY."
-de = ""
+de = " lässt ein Päckchen fallen und verschwindet."
 
 [[text]]
 id = "M099_078"
 befehl = ["PRINTCLEAR"]
 en = "TWO RAM OFFICERS ARE COMMISERATING. 'I NEVER THOUGHT THAT JUSTIN ROBENO WOULD LOSE US ON CERES.'"
-de = ""
+de = "Zwei RAM-Offiziere jammern sich gegenseitig vor: 'Hätte nie gedacht, dass Justin Robeno uns auf Ceres entwischt.'"
 
 [[text]]
 id = "M099_079"
 befehl = ["PRINTCLEAR"]
 en = "'HEARD HE MANAGED TO CATCH A FAST TRANSPORT TO FORTUNA.'"
-de = ""
+de = "'Er soll einen schnellen Transporter nach Fortuna erwischt haben.'"
 
 [[text]]
 id = "M099_080"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE A TECHNICIAN BEING DRAGGED OFF BY RAM SECURITY. YOU DRAW YOUR WEAPONS AND ATTACK."
-de = ""
+de = "Ihr seht, wie die RAM-Sicherheit einen Techniker abführt. Ihr zieht eure Waffen und greift an."
 
 [[text]]
 id = "M099_081"
 befehl = ["PRINTCLEAR"]
 en = "'I'M JUSTIN ROBENO. WE NEED TO GO TO PAVONIS STARPORT TO RECOVER A KEY PROTOTYPE FOR NEO.'"
-de = ""
+de = "'Ich bin Justin Robeno. Wir müssen zum Raumhafen Pavonis, um einen wichtigen Prototyp für die NEO zu holen.'"
 
 [[text]]
 id = "M099_082"
 befehl = ["PRINTCLEAR"]
 en = "A WOMAN WAVES YOU OVER. 'I'M WILMA DEERING. I'VE BEEN EXPECTING YOU. I NEED A DISTRACTION SO I CAN MEET SOMEONE."
-de = ""
+de = "Eine Frau winkt euch heran. 'Ich bin Wilma Deering. Ich habe euch erwartet. Ich brauche eine Ablenkung, um jemanden zu treffen."
 
 [[text]]
 id = "M099_083"
 befehl = ["PRINTCLEAR"]
 en = "'A SECURITY ROBOT WILL PASS BY IN THE CORRIDOR. DESTROY IT AND I CAN GET PAST THE SECURITY. HERE IS SOMETHING USEFUL.'"
-de = ""
+de = "'Gleich kommt ein Sicherheitsroboter durch den Gang. Zerstört ihn, dann komme ich an der Sicherheit vorbei. Hier, das hilft euch.'"
 
 [[text]]
 id = "M099_084"
 befehl = ["PRINTCLEAR"]
 en = "SHE MOVES OFF."
-de = ""
+de = "Sie geht."
 
 [[text]]
 id = "M099_085"
 befehl = ["PRINTCLEAR"]
 en = "YOU ATTACK THE ROBOT."
-de = ""
+de = "Ihr greift den Roboter an."
 
 [[text]]
 id = "M099_086"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE WILMA MEET A DARK MAN AND MOVE OFF."
-de = ""
+de = "Ihr seht, wie Wilma einen dunklen Mann trifft und mit ihm geht."
 
 [[text]]
 id = "M099_087"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND GARRITY FACE DOWN IN A BOOTH. YOU QUESTION HIM ABOUT TALON'S BASE."
-de = ""
+de = "Ihr findet Garrity mit dem Gesicht nach unten in einer Nische. Ihr fragt ihn nach Talons Basis."
 
 [[text]]
 id = "M099_088"
 befehl = ["PRINTCLEAR"]
 en = "'IT'S SOMEWHERE IN THE BELT. I GOTTA PASSWORD, BUT IT'LL COST YA.' YOU PAY HIM OFF."
-de = ""
+de = "'Irgendwo im Gürtel. Ich hab 'n Passwort, aber das kostet.' Ihr bezahlt ihn."
 
 [[text]]
 id = "M099_089"
 befehl = ["PRINTCLEAR"]
 en = "'THERE'S A HEAVY CRUISER FILLED WITH LOWLANDER PRISONERS AND VALUABLE GRAVITOL.'"
-de = ""
+de = "'Da draußen ist ein schwerer Kreuzer voller Tiefländer-Gefangener und wertvollem Gravitol.'"
 
 [[text]]
 id = "M099_090"
 befehl = ["PRINTCLEAR"]
 en = "'DESERT RUNNERS ONLY RESPECT WARRIORS.'"
-de = ""
+de = "'Wüstenläufer respektieren nur Krieger.'"
 
 [[text]]
 id = "M099_091"
 befehl = ["PRINTCLEAR"]
 en = "'I ALWAYS CARRY AT LEAST THREE NEEDLE GUNS,' BOASTS A MERCENARY."
-de = ""
+de = "'Ich trage immer mindestens drei Nadelpistolen', prahlt ein Söldner."
 
 [[text]]
 id = "M099_092"
 befehl = ["PRINTCLEAR"]
 en = "'ACID FROGS ATTACK ANYTHING THAT MOVES.'"
-de = ""
+de = "'Säurefrösche greifen alles an, was sich bewegt.'"
 
 [[text]]
 id = "M099_093"
 befehl = ["PRINTCLEAR"]
 en = "'ALWAYS SPREAD OUT YOUR TEAM IN COMBAT! AND PROTECT THE MEDIC!'"
-de = ""
+de = "'Verteilt euer Team im Kampf! Und beschützt den Sanitäter!'"
 
 [[text]]
 id = "M099_094"
 befehl = ["PRINTCLEAR"]
 en = "A YOUNG PIRATE BOASTS, 'TALON'S ALL TALK, HE'S REALLY A WEAKLING.'"
-de = ""
+de = "Ein junger Pirat prahlt: 'Talon redet nur. In Wahrheit ist er ein Schwächling.'"
 
 [[text]]
 id = "M099_095"
 befehl = ["PRINTCLEAR"]
 en = "'THE ACID FROG KING IS AN AWE INSPIRING AMPHIBIAN. HIGHLY INTELLIGENT AND RESPECTFUL OF LEADERS.'"
-de = ""
+de = "'Der Säurefroschkönig ist eine ehrfurchtgebietende Amphibie. Hochintelligent und achtet Anführer.'"
 
 [[text]]
 id = "M099_096"
 befehl = ["PRINTCLEAR"]
 en = "'BUCK ROGERS AND WILMA DEERING ARE SECRETLY ENGAGED.'"
-de = ""
+de = "'Buck Rogers und Wilma Deering sind heimlich verlobt.'"
 
 [[text]]
 id = "M099_097"
 befehl = ["PRINTCLEAR"]
 en = "CARE TO SEARCH THE STACKS?"
-de = ""
+de = "Wollt ihr die Regale durchsuchen?"
 
 [[text]]
 id = "M099_098"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEARCH THE STACKS FOR ANY IMPORTANT INFORMATION."
-de = ""
+de = "Ihr durchsucht die Regale nach wichtigen Informationen."
 
 [[text]]
 id = "M099_099"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEARCH, BUT YOU FIND NOTHING NEW."
-de = ""
+de = "Ihr sucht, findet aber nichts Neues."
 
 [[text]]
 id = "M099_100"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEARCH, BUT YOU FIND NOTHING INTERESTING."
-de = ""
+de = "Ihr sucht, findet aber nichts Interessantes."
 
 [[text]]
 id = "M099_101"
 befehl = ["PRINT"]
 en = " FINDS SOME INTERESTING INFORMATION."
-de = ""
+de = " findet interessante Informationen."
 
 [[text]]
 id = "M099_102"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS ARE PROVOKED BY PROLONGED CONVERSATION."
-de = ""
+de = "Wüstenläufer fühlen sich durch lange Gespräche herausgefordert."
 
 [[text]]
 id = "M099_103"
 befehl = ["PRINTCLEAR"]
 en = "A LARGE COMMUNITY OF ACID FROGS INHABIT THE CENTRAL LAKE OF THE VENUSIAN LOWLANDS."
-de = ""
+de = "Im zentralen See des venusianischen Tieflands lebt eine große Kolonie Säurefrösche."
 
 [[text]]
 id = "M099_104"
 befehl = ["PRINTCLEAR"]
 en = "A SHOP ON JUNO SELLS BOTH CHAFF GRENADES AND ECM'S FOR A STIFF PRICE."
-de = ""
+de = "Ein Laden auf Juno verkauft Düppelgranaten und ECM-Pakete, zu gesalzenen Preisen."
 
 [[text]]
 id = "M099_105"
 befehl = ["PRINTCLEAR"]
 en = "RAM CRUISERS ALWAYS REPAIR WEAPONS BEFORE ANY OTHER DAMAGED SYSTEMS."
-de = ""
+de = "RAM-Kreuzer reparieren immer zuerst ihre Waffen, dann andere beschädigte Systeme."
 
 [[text]]
 id = "M099_106"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS A RAM SCIENCE LAB IN THE SOUTHWESTERN VENUS LOWLANDS."
-de = ""
+de = "Im südwestlichen Tiefland der Venus gibt es ein RAM-Forschungslabor."
 
 [[text]]
 id = "M099_107"
 befehl = ["PRINTCLEAR"]
 en = "RAM HAS BUILT A SECRET COMMUNICATIONS BASE ON HYGEIA."
-de = ""
+de = "RAM hat auf Hygeia eine geheime Funkbasis gebaut."
 
 [[text]]
 id = "M099_108"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS ARE EASILY DOMESTICATED BY EXPERTS IN LEADERSHIP."
-de = ""
+de = "Säurefrösche lassen sich von Fachleuten für Führung leicht zähmen."
 
 [[text]]
 id = "M099_109"
 befehl = ["PRINTCLEAR"]
 en = "SUN KINGS RULE THE MERCURIAN MARIPOSAS. MANY DIFFERENT LANGUAGES ARE SPOKEN THERE."
-de = ""
+de = "Sonnenkönige herrschen über die Mariposas am Merkur. Dort werden viele verschiedene Sprachen gesprochen."
 
 [[text]]
 id = "M099_110"
 befehl = ["PRINTCLEAR"]
 en = "JUSTIN RUMMAGES AROUND AND FINDS THE PROTOTYPE. SUDDENLY, RAM FORCES RUSH INTO THE ROOM."
-de = ""
+de = "Justin kramt herum und findet den Prototyp. Plötzlich stürmen RAM-Truppen in den Raum."
 
 [[text]]
 id = "M099_111"
 befehl = ["PRINTCLEAR"]
 en = "ONE SAYS, 'WE KNEW THAT WITH THE PROTOTYPE AS BAIT, WE COULD COLLECT NEO SPIES!'"
-de = ""
+de = "Einer sagt: 'Wir wussten, dass wir mit dem Prototyp als Köder NEO-Spione fangen!'"
 
 [[text]]
 id = "M099_112"
 befehl = ["PRINTCLEAR"]
 en = "YOU DRAW YOUR WEAPONS."
-de = ""
+de = "Ihr zieht eure Waffen."
 
 [[text]]
 id = "M099_113"
 befehl = ["PRINTCLEAR"]
 en = "JUSTIN HOLDS UP THE UNDAMAGED DEVICE, 'LET'S GET OUT OF HERE BEFORE MORE TROOPS SHOW UP.'"
-de = ""
+de = "Justin hält das unversehrte Gerät hoch. 'Nichts wie weg, bevor noch mehr Truppen kommen.'"
 
 [[text]]
 id = "M099_114"
 befehl = ["PRINTCLEAR"]
 en = "TROOPS TRY TO PREVENT YOU FROM REACHING YOUR SHIP."
-de = ""
+de = "Truppen wollen euch daran hindern, euer Schiff zu erreichen."
 
 [[text]]
 id = "M099_115"
 befehl = ["PRINTCLEAR"]
 en = "YOU RUSH ONTO YOUR SHIP BEFIRE MORE ARRIVE."
-de = ""
+de = "Ihr stürmt auf euer Schiff, bevor weitere kommen."
 
 [[text]]
 id = "M099_116"
 befehl = ["PRINTCLEAR"]
 en = "GOOD DAY."
-de = ""
+de = "Guten Tag."
 
 [[text]]
 id = "M099_117"
 befehl = ["SAVE"]
 en = "A HEAVILY BEARDED MINER"
-de = ""
+de = "ein bärtiger Bergmann"
 
 [[text]]
 id = "M099_118"
 befehl = ["SAVE"]
 en = "A BRIGHT FACED YOUTH"
-de = ""
+de = "ein frischer junger Kerl"
 
 [[text]]
 id = "M099_119"
 befehl = ["SAVE"]
 en = "A MIDDLE-AGED GENTLEMAN"
-de = ""
+de = "ein Herr mittleren Alters"
 
 [[text]]
 id = "M099_120"
 befehl = ["SAVE"]
 en = "A QUIET LIBRARIAN"
-de = ""
+de = "eine stille Bibliothekarin"
 
 [[text]]
 id = "M099_121"
 befehl = ["SAVE"]
 en = "A SHORT TANNED GIRL"
-de = ""
+de = "ein kleines braunes Mädchen"
 
 [[text]]
 id = "M099_122"
 befehl = ["SAVE"]
 en = "A SCRUFFY URCHIN"
-de = ""
+de = "ein zerlumptes Gassenkind"
 
 [[text]]
 id = "M099_123"
 befehl = ["SAVE"]
 en = "A SHADY FELLOW"
-de = ""
+de = "ein zwielichtiger Typ"
 
 [[text]]
 id = "M099_124"
 befehl = ["SAVE"]
 en = "A HOLLOW CHEEKED MAN"
-de = ""
+de = "ein hohlwangiger Mann"
 
 [[text]]
 id = "M099_125"
 befehl = ["SAVE"]
 en = "A DARK-HAIRED ROGUE"
-de = ""
+de = "ein dunkelhaariger Schurke"
 
 [[text]]
 id = "M099_126"
 befehl = ["SAVE"]
 en = "A LEATHER-SUITED WOMAN"
-de = ""
+de = "eine Frau in Leder"
 
 [[text]]
 id = "M099_127"
 befehl = ["SAVE"]
 en = "A RAVEN-HAIRED BEAUTY"
-de = ""
+de = "eine rabenhaarige Schönheit"
 
 [[text]]
 id = "M099_128"
 befehl = ["SAVE"]
 en = "A HARD-EDGED LADY"
-de = ""
+de = "eine knallharte Dame"
 
 [[text]]
 id = "M099_129"
 befehl = ["SAVE"]
 en = "HE"
-de = ""
+de = "er"
 
 [[text]]
 id = "M099_130"
 befehl = ["SAVE"]
 en = "SHE"
-de = ""
+de = "sie"
 
 [[text]]
 id = "M099_131"
 befehl = ["PRINTCLEAR"]
 en = "IT IS FULLY SUPPLIED."
-de = ""
+de = "Es ist voll ausgerüstet."
 
 [[text]]
 id = "M099_132"
 befehl = ["PRINT"]
 en = " CR"
-de = ""
+de = " Cr"
 
 [[text]]
 id = "M099_133"
 befehl = ["PRINT"]
 en = "HOW MUCH?"
-de = ""
+de = "Wie viel?"
 
 [[text]]
 id = "M099_134"
 befehl = ["PRINT"]
 en = "MERCURY"
-de = ""
+de = "Merkur"
 
 [[text]]
 id = "M099_135"
 befehl = ["PRINT"]
 en = "VENUS"
-de = ""
+de = "Venus"
 
 [[text]]
 id = "M099_136"
 befehl = ["PRINT"]
 en = "LUNA"
-de = ""
+de = "Luna"
 
 [[text]]
 id = "M099_137"
 befehl = ["PRINT"]
 en = "MARS"
-de = ""
+de = "Mars"
 
 [[text]]
 id = "M099_138"
 befehl = ["PRINT"]
 en = "CERES"
-de = ""
+de = "Ceres"
 
 [[text]]
 id = "M099_139"
 befehl = ["PRINT"]
 en = "FORTUNA"
-de = ""
+de = "Fortuna"
 
 [[text]]
 id = "M099_140"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE AT THE "
-de = ""
+de = "Ihr seid "
 
 [[text]]
 id = "M099_141"
 befehl = ["PRINT"]
 en = "HIELO ORBITAL SPACESTATION"
-de = ""
+de = "auf der Orbitalstation Hielo"
 
 [[text]]
 id = "M099_142"
 befehl = ["PRINT"]
 en = "NEW ELYSIUM SPACEPORT."
-de = ""
+de = "im Raumhafen New Elysium."
 
 [[text]]
 id = "M099_143"
 befehl = ["PRINT"]
 en = "TYCHO SPACEPORT"
-de = ""
+de = "im Raumhafen Tycho"
 
 [[text]]
 id = "M099_144"
 befehl = ["PRINT"]
 en = "PAVONIS SPACEPORT"
-de = ""
+de = "im Raumhafen Pavonis"
 
 [[text]]
 id = "M099_145"
 befehl = ["PRINT"]
 en = "SPACEPORT AT "
-de = ""
+de = "im Raumhafen "
 
 [[text]]
 id = "M099_146"
@@ -965,19 +965,19 @@ de = ""
 id = "M099_156"
 befehl = ["PRINT"]
 en = "GABE'S SALOON"
-de = ""
+de = "Gabes Saloon"
 
 [[text]]
 id = "M099_157"
 befehl = ["PRINT"]
 en = "BRETSKI'S"
-de = ""
+de = "Bretskis"
 
 [[text]]
 id = "M099_158"
 befehl = ["PRINT"]
 en = "EATBUGS BAR AND GRILL"
-de = ""
+de = "Eatbugs Bar und Grill"
 
 [[text]]
 id = "M099_159"
@@ -989,13 +989,13 @@ de = ""
 id = "M099_160"
 befehl = ["PRINT"]
 en = "DAVE'S DINER"
-de = ""
+de = "Daves Diner"
 
 [[text]]
 id = "M099_161"
 befehl = ["PRINT"]
 en = "FREEFALL BAR AND GRILL"
-de = ""
+de = "Freefall Bar und Grill"
 
 [[text]]
 id = "M099_162"
@@ -1007,19 +1007,19 @@ de = ""
 id = "M099_163"
 befehl = ["PRINT"]
 en = "RHONDA'S CAFE"
-de = ""
+de = "Rhondas Cafe"
 
 [[text]]
 id = "M099_164"
 befehl = ["PRINT"]
 en = "UDU'S CAFE"
-de = ""
+de = "Udus Cafe"
 
 [[text]]
 id = "M099_165"
 befehl = ["PRINT"]
 en = "DEB'S PUB"
-de = ""
+de = "Debs Pub"
 
 [[text]]
 id = "M099_166"
@@ -1031,7 +1031,7 @@ de = ""
 id = "M099_167"
 befehl = ["PRINT"]
 en = "JASPER'S JAZZ"
-de = ""
+de = "Jaspers Jazz"
 
 [[text]]
 id = "M099_168"
@@ -1049,7 +1049,7 @@ de = ""
 id = "M099_170"
 befehl = ["PRINTCLEAR"]
 en = "A SIGN READS: "
-de = ""
+de = "Ein Schild: "
 
 [[text]]
 id = "M099_171"
@@ -1061,4 +1061,4 @@ de = ""
 id = "M099_172"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU DEPART THE STATION, SCOT TRANSMITS THE COURIER'S INFORMATION."
-de = ""
+de = "Beim Abflug von der Station sendet Scot die Informationen des Kuriers."

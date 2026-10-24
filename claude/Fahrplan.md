@@ -47,3 +47,15 @@ TERRINE-KRIEGER (2.7), 2.9, M016_003 in Ares, Musik beim echten Spielende.
 | 3.4 | Marcel entscheidet je Bild | Claude selbständig entschieden 24.10.2026 (Auftrag Marcel), **im Spieltest prüfen** |
 | 3.5 | Einsetzen, bauen, Testemulator, dann Spieltest in Ares (`Testliste_Phase3.md`) | gebaut 24.10.2026, deutsch CRC32 814E4C76, Test F436B9D1; Vorspann + Abspann-Kopf im Testemulator gesehen; G7 und Ares offen |
 | 3.6 | Tor Phase 3: Marcel bestätigt Grafiken im Spiel | offen |
+
+## Phase 5 – Dialog (Tor: durchgespielt)
+
+Reihenfolge angepasst (Claude 24.10.2026): Dialog vor der Gerüst-Abnahme (Phase 4), weil Marcel nicht
+erreichbar war und Phase 4 seine Tests braucht. Details `Dialog.md`.
+
+| Nr | Schritt | Stand |
+|---|---|---|
+| 5.1 | Fenstergrenze messen, Zeilenprüfung als Fehler | erledigt 24.10.2026 (Fenster überschreibt reihum, max(4, Original)) |
+| 5.2 | Erstübersetzung aller Spielmodule | erledigt 24.10.2026 (2130 Texte), gebaut deutsch 59F0785A, Test 9CF3FBF3 |
+| 5.3 | Spieltest je Station (`Testliste_Phase5.md`) | offen (Marcel, Ares) |
+| 5.4 | Korrekturen, Durchspielen | offen |

@@ -422,14 +422,14 @@ id = "M097_067"
 befehl = ["HMENU"]
 menue = true
 en = "GRAB MEDALLION"
-de = "Medaillon schnappen"
+de = "Schnappen"
 
 [[text]]
 id = "M097_068"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT ROBOT"
-de = "Roboter bekämpfen"
+de = "Kämpfen"
 
 [[text]]
 id = "M097_069"

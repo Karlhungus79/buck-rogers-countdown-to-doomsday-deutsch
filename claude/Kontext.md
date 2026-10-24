@@ -87,7 +87,8 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 
 Aktueller Stand: **Tor Phase 2 erreicht 24.10.2026** (Systemtexte, Gegenstands- und Monsternamen, Abspann;
 Bau deutsch CRC32 0B58AE77, Testfassung mit Jumper 37DE7A79, `Testfassung.md`). Phase 3 Grafik gebaut 24.10.2026
-(deutsch 814E4C76, Test F436B9D1, `Grafik.md`), Ares offen. Marcel hat am 24.10.2026 beauftragt:
+(`Grafik.md`), Phase 5 Dialog erstübersetzt und gebaut 24.10.2026 (deutsch 59F0785A, Test 9CF3FBF3,
+`Dialog.md`), beides Ares offen. Marcel hat am 24.10.2026 beauftragt:
 eigenständig weiterarbeiten und selbst entscheiden (Entscheidungen „im Spieltest prüfen“).
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
