@@ -94,6 +94,7 @@ Verweise**, keinen Verweis ins Leere.
   Bedarf komplett verschoben werden (nur diese 4 Verweise anpassen).
 - Steuerzeichen: `$0D` = Zeilenumbruch, `~` = Menütrenner.
 - S103 ist ein Datumsstempel aus der Entwicklung („9/5/91 3:19:13 PM").
+- Umsetzung der deutschen Systemtexte (Phase 2): `Systemtexte.md`.
 
 ## Zeichensatz (Stand der Analyse)
 

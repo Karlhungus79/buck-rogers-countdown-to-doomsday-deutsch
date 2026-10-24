@@ -1,6 +1,6 @@
 # MEMORY – Index aller Themendokumente
 
-Stand: 23.10.2026
+Stand: 24.10.2026
 
 Einstieg in jede Sitzung: `Kontext.md`, `projektstatus.md`, dieses Dokument,
 dann nur die neueste Übergabe (falls vorhanden).
@@ -15,8 +15,13 @@ dann nur die neueste Übergabe (falls vorhanden).
   RAM-Grenze je Modul, Menügrenze, Entscheidung Textablage A
 - `Textablage.md` – Umsetzung von A: Hooks, Zeigertabellen ab `$108000`, 2 MB, Selbstprüfung,
   SRAM-Header, Prüfregeln, Bauablauf
+- `Systemtexte.md` – Phase 2: Systemtexttabelle ab `$101000`, Hooks 5–9, fertige
+  Gegenstandsnamen, Satzbausteine, gemessene Fenstergrenzen, Prüfregeln
+- `Phase2_Entscheidungen.md` – Entscheidungen E1–E4 (Glossar-Abweichungen, Item-Kuriositäten,
+  Artikel Feindschiffe, Copyright)
+- `Testliste_Phase2.md` – Spieltest Systemtexte (Stelle, Weg, Erwartung)
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
-- `Fahrplan.md` – Schritte Phase 1 mit Stand, Vorschau Phase 2
+- `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand
 - `Testumgebung.md` – Claudes automatischer Testemulator (Genesis Plus GX)
 - `Vorschau\` – Bilder zu Entscheidungen und Testständen
 - `Glossar.md` – Grundsätze G1–G9, Listenübersicht, Grenzen, Entscheidungen

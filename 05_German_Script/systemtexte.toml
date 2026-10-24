@@ -1,0 +1,2664 @@
+# Buck Rogers: Countdown to Doomsday - deutsche Systemtexte (Tabelle dat_11DC4)
+# de = deutsch (leer = englisches Original bleibt), leer = true: absichtlich leerer Text.
+# Leerzeichen am Anfang/Ende sind Teil des Textes (Satzbausteine) und muessen bleiben.
+# leerzeichen_geprueft = true: Abweichung bei Leerzeichen am Anfang/Ende ist gewollt.
+# \n = Zeilenumbruch (nur wo das Original einen hat), ~ = Trenner zwischen Menuepunkten.
+
+[[text]]
+id = "S000"
+en = ""
+de = ""
+
+[[text]]
+id = "S001"
+en = "knife"
+de = "Messer"
+hinweis = "Namensteil Gegenstand (Ersatz, wenn kein fertiger Name in [[gegenstand]])"
+
+[[text]]
+id = "S002"
+en = "mono"
+de = "Mono"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S003"
+en = "cutlass"
+de = "Entermesser"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S004"
+en = "sword"
+de = "Schwert"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S005"
+en = "d.r. x-bow"
+de = "W.L.-Armbrust"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S006"
+en = "needle"
+de = "Nadel"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S007"
+en = "gun"
+de = "Pistole"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S008"
+en = "bolt"
+de = "Bolzen"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S009"
+en = "laser"
+de = "Laser"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S010"
+en = "pistol"
+de = "Pistole"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S011"
+en = "rocket"
+de = "Raketen"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S012"
+en = "behind cover"
+de = "in Deckung"
+hinweis = "Namensteil (Original-Kuriosum: 'behind cover gun')"
+
+[[text]]
+id = "S013"
+en = "rifle"
+de = "Gewehr"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S014"
+en = "heat"
+de = "Hitze"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S015"
+en = "sonic stunner"
+de = "Schallbetäuber"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S016"
+en = "grenade"
+de = "Granate"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S017"
+en = "launcher"
+de = "Werfer"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S018"
+en = "plasma thrower"
+de = "Plasmawerfer"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S019"
+en = "martian"
+de = "Mars"
+hinweis = "Namensteil Herkunft"
+
+[[text]]
+id = "S020"
+en = "venusian"
+de = "Venus"
+hinweis = "Namensteil Herkunft"
+
+[[text]]
+id = "S021"
+en = "mercurian"
+de = "Merkur"
+hinweis = "Namensteil Herkunft"
+
+[[text]]
+id = "S022"
+en = "lunarian"
+de = "Luna"
+hinweis = "Namensteil Herkunft"
+
+[[text]]
+id = "S023"
+en = "spacesuit"
+de = "Raumanzug"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S024"
+en = "smartsuit"
+de = "Smartsuit"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S025"
+en = "heavy body"
+de = "schwere Körper"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S026"
+en = "armor"
+de = "Panzerung"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S027"
+en = "battle armor"
+de = "Kampfpanzerung"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S028"
+en = "w/fields"
+de = "m. Feld"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S029"
+en = "explosive"
+de = "Spreng"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S030"
+en = "treating wounds"
+de = "Wundversorgung"
+hinweis = "Namensteil und Überschrift nach dem Kampf"
+
+[[text]]
+id = "S031"
+en = "stun"
+de = "Betäubungs"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S032"
+en = "dazzle"
+de = "Blend"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S033"
+en = "chaff"
+de = "Düppel"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S034"
+en = "aerosol mist"
+de = "Aerosolnebel"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S035"
+en = "demo charge"
+de = "Sprengladung"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S036"
+en = "ecm package"
+de = "ECM-Paket"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S037"
+en = "protective"
+de = "Schutz"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S038"
+en = "goggles"
+de = "Brille"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S039"
+en = "lost."
+de = "verloren."
+hinweis = "'Das Team hat ' + verloren. (auch Namensteil eines unbenutzten Gegenstands)"
+
+[[text]]
+id = "S040"
+en = "rope"
+de = "Seil"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S041"
+en = "belt"
+de = "Gürtel"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S042"
+en = "poison antidote"
+de = "Gegengift"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S043"
+en = "polearm"
+de = "Stangenwaffe"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S044"
+en = "mini"
+de = "Mini"
+hinweis = "Namensteil"
+
+[[text]]
+id = "S045"
+en = "what do you do?"
+de = "Was tut ihr?"
+
+[[text]]
+id = "S046"
+en = " and you record "
+de = " und ihr notiert "
+hinweis = "Logbuch: ... + S046 + <Text> + S047 + <Nummer>"
+
+[[text]]
+id = "S047"
+en = " as logbook entry "
+de = " als Logbucheintrag "
+hinweis = "siehe S046"
+
+[[text]]
+id = "S048"
+en = "str"
+de = "ST"
+hinweis = "Charakterbogen x=6"
+
+[[text]]
+id = "S049"
+en = "dex"
+de = "GE"
+hinweis = "Charakterbogen"
+
+[[text]]
+id = "S050"
+en = "con"
+de = "KO"
+hinweis = "Charakterbogen"
+
+[[text]]
+id = "S051"
+en = "cha"
+de = "CH"
+hinweis = "Charakterbogen"
+
+[[text]]
+id = "S052"
+en = "tch"
+de = "TE"
+hinweis = "Charakterbogen"
+
+[[text]]
+id = "S053"
+en = "hp"
+de = "TP"
+hinweis = "G7"
+
+[[text]]
+id = "S054"
+en = "ac"
+de = "RK"
+hinweis = "G7"
+
+[[text]]
+id = "S055"
+en = "thac0"
+de = "ETW0"
+hinweis = "Charakterbogen x=21, Wert ab x=29"
+
+[[text]]
+id = "S056"
+en = "level"
+de = "Stufe"
+hinweis = "Charakterbogen x=25, Wert ab x=30"
+
+[[text]]
+id = "S057"
+en = "move"
+de = "Bew."
+hinweis = "Charakterbogen x=21, Wert ab x=30"
+
+[[text]]
+id = "S058"
+en = "damage"
+de = "Schaden"
+hinweis = "Charakterbogen x=21"
+
+[[text]]
+id = "S059"
+en = "exp"
+de = "EP"
+hinweis = "Charakterbogen x=25, Wert ab x=30"
+
+[[text]]
+id = "S060"
+en = "enter number:"
+de = "Zahl eingeben:"
+
+[[text]]
+id = "S061"
+en = "create character"
+de = "Figur erschaffen"
+
+[[text]]
+id = "S062"
+en = "train character"
+de = "Figur ausbilden"
+
+[[text]]
+id = "S063"
+en = "drop character"
+de = "Figur entlassen"
+
+[[text]]
+id = "S064"
+en = "save game"
+de = "Spiel speichern"
+
+[[text]]
+id = "S065"
+en = "restore game"
+de = "Spiel laden"
+
+[[text]]
+id = "S066"
+en = "begin adventure"
+de = "Abenteuer starten"
+
+[[text]]
+id = "S067"
+en = "rocket jock"
+de = "Raketenpilot"
+hinweis = "Klasse; auch '... ist jetzt Stufe' + Zahl + Klasse"
+
+[[text]]
+id = "S068"
+en = "medic"
+de = "Sanitäter"
+
+[[text]]
+id = "S069"
+en = "warrior"
+de = "Krieger"
+
+[[text]]
+id = "S070"
+en = "rogue"
+de = "Schurke"
+
+[[text]]
+id = "S071"
+en = "human"
+de = "Mensch"
+
+[[text]]
+id = "S072"
+en = "desert runner"
+de = "Wüstenläufer"
+
+[[text]]
+id = "S073"
+en = "tinker"
+de = "Tüftler"
+
+[[text]]
+id = "S074"
+en = "male"
+de = "männlich"
+
+[[text]]
+id = "S075"
+en = "female"
+de = "weiblich"
+
+[[text]]
+id = "S076"
+en = "reroll stats"
+de = "neu würfeln"
+
+[[text]]
+id = "S077"
+en = "done"
+de = "OK"
+max = 4
+hinweis = "Namenseingabe x+9, Fensterrand x+12 -> höchstens 4 Zeichen (gemessen 24.10.2026, 'fertig' brach um); Glossar 3-09 'fertig' passt nicht"
+
+[[text]]
+id = "S078"
+en = "enter character's name "
+de = "Name der Figur: "
+
+[[text]]
+id = "S079"
+en = "exit"
+de = "Ende"
+
+[[text]]
+id = "S080"
+en = "del"
+de = "Lö"
+hinweis = "Namenseingabe x+10"
+
+[[text]]
+id = "S081"
+en = "spc"
+de = "Lz"
+hinweis = "Namenseingabe x+6, höchstens 4 Zeichen"
+
+[[text]]
+id = "S082"
+en = "congratulations"
+de = "Glückwunsch"
+hinweis = "Ausbildung: Überschrift"
+
+[[text]]
+id = "S083"
+en = "is now a level"
+de = "ist jetzt Stufe"
+hinweis = "<Name> + S083 / Zahl + Klasse"
+
+[[text]]
+id = "S084"
+en = "pilot rocket/juryrig"
+de = "Raketenflug/Notreparatur"
+max = 24
+
+[[text]]
+id = "S085"
+en = "treat wounds"
+de = "Wunden versorgen"
+max = 24
+
+[[text]]
+id = "S086"
+en = "tactics/leadership"
+de = "Taktik/Führung"
+max = 24
+
+[[text]]
+id = "S087"
+en = "bypass security"
+de = "Sicherung umgehen"
+max = 24
+
+[[text]]
+id = "S088"
+en = "zero gravity maneuvering"
+de = "Schwerelosigkeit"
+max = 24
+
+[[text]]
+id = "S089"
+en = "perception"
+de = "Wahrnehmung"
+max = 24
+
+[[text]]
+id = "S090"
+en = "demolition"
+de = "Sprengen"
+max = 24
+
+[[text]]
+id = "S091"
+en = "stealth"
+de = "Schleichen"
+max = 24
+
+[[text]]
+id = "S092"
+en = "climbing"
+de = "Klettern"
+max = 24
+
+[[text]]
+id = "S093"
+en = "fast talk"
+de = "Überreden"
+max = 24
+
+[[text]]
+id = "S094"
+en = "first aid"
+de = "Erste Hilfe"
+max = 24
+
+[[text]]
+id = "S095"
+en = "repair rocket"
+de = "Rakete reparieren"
+max = 24
+
+[[text]]
+id = "S096"
+en = "library search"
+de = "Recherche"
+max = 24
+
+[[text]]
+id = "S097"
+en = "programming"
+de = "Programmieren"
+max = 24
+
+[[text]]
+id = "S098"
+en = "mono sword"
+de = "Monoschwert"
+
+[[text]]
+id = "S099"
+en = "needle gun"
+de = "Nadelpistole"
+
+[[text]]
+id = "S100"
+en = "heat gun"
+de = "Hitzepistole"
+
+[[text]]
+id = "S101"
+en = "laser pistol"
+de = "Laserpistole"
+
+[[text]]
+id = "S102"
+en = "rocket pistol"
+de = "Raketenpistole"
+
+[[text]]
+id = "S103"
+en = "\n9/5/91 3:19:13 PM"
+de = ""
+
+[[text]]
+id = "S104"
+en = "abort"
+de = "Zurück"
+max = 6
+hinweis = "Namenseingabe x+2, vor 'fertig' (x+9) -> höchstens 6 Zeichen; Glossar 3-15 'Abbruch' passt nicht"
+
+[[text]]
+id = "S105"
+en = "yes~no"
+de = "ja~nein"
+hinweis = "Menü nach Frage"
+
+[[text]]
+id = "S106"
+en = "press c to continue"
+de = "C: weiter"
+
+[[text]]
+id = "S107"
+en = "the team is full"
+de = "Das Team ist voll"
+
+[[text]]
+id = "S108"
+en = "the team is empty"
+de = "Das Team ist leer"
+
+[[text]]
+id = "S109"
+en = "view team"
+de = "Team"
+
+[[text]]
+id = "S110"
+en = " succeeds at "
+de = " hat Erfolg: "
+hinweis = "<Name>/S111 + S110/S112 + Fertigkeit"
+
+[[text]]
+id = "S111"
+en = "team"
+de = "Das Team"
+hinweis = "siehe S110"
+
+[[text]]
+id = "S112"
+en = " fails at "
+de = " scheitert: "
+hinweis = "siehe S110"
+
+[[text]]
+id = "S113"
+en = "Your team has been destroyed."
+de = "Euer Team wurde vernichtet."
+
+[[text]]
+id = "S114"
+en = "RAM continues its plans unopposed."
+de = "RAM setzt seine Pläne ungehindert fort."
+
+[[text]]
+id = "S115"
+en = " takes "
+de = " erleidet "
+hinweis = "<Name> + S115 + Zahl + S116"
+
+[[text]]
+id = "S116"
+en = " points of Damage."
+de = " Schaden."
+hinweis = "siehe S115"
+
+[[text]]
+id = "S117"
+en = " explodes."
+de = " explodiert."
+
+[[text]]
+id = "S118"
+en = " dies."
+de = " stirbt."
+
+[[text]]
+id = "S119"
+en = " is dying."
+de = " liegt im Sterben."
+
+[[text]]
+id = "S120"
+en = " goes down."
+de = " geht zu Boden."
+
+[[text]]
+id = "S121"
+en = " is poisoned."
+de = " ist vergiftet."
+
+[[text]]
+id = "S122"
+en = " slips into a coma."
+de = " fällt ins Koma."
+
+[[text]]
+id = "S123"
+en = "view skills"
+de = "Fertigkeiten"
+
+[[text]]
+id = "S124"
+en = "view items"
+de = "Gegenstände"
+
+[[text]]
+id = "S125"
+en = "reorder team"
+de = "Team ordnen"
+
+[[text]]
+id = "S126"
+en = "change game speed"
+de = "Spieltempo"
+
+[[text]]
+id = "S127"
+en = "debug ecl"
+de = ""
+
+[[text]]
+id = "S128"
+en = "choose combat figure"
+de = "Kampffigur wählen"
+
+[[text]]
+id = "S129"
+en = "select race,"
+de = "Wähle Rasse,"
+hinweis = "Erschaffung x=25 (bis 15 Zeichen)"
+
+[[text]]
+id = "S130"
+en = "career and"
+de = "Klasse und"
+hinweis = "x=25"
+
+[[text]]
+id = "S131"
+en = "train in skill:"
+de = "Ausbilden in:"
+
+[[text]]
+id = "S132"
+en = "pick warrior weapon specialization:"
+de = "Waffenspezialisierung wählen:"
+
+[[text]]
+id = "S133"
+en = "using leadership skill"
+de = "Einsatz von Taktik/Führung"
+hinweis = "Überschrift, zentriert"
+
+[[text]]
+id = "S134"
+en = "takes control of..."
+de = "befehligt..."
+hinweis = "<Name> + S134 (Zeile ab x=3)"
+
+[[text]]
+id = "S135"
+en = "treating wounds"
+de = "Wunden versorgen"
+
+[[text]]
+id = "S136"
+en = "no injuries occured"
+de = "Keine Verletzungen."
+
+[[text]]
+id = "S137"
+en = "no medics are available"
+de = "Kein Sanitäter verfügbar."
+
+[[text]]
+id = "S138"
+en = "target"
+de = "Ziel"
+
+[[text]]
+id = "S139"
+en = "How many items?"
+de = "Wie viele Stück?"
+
+[[text]]
+id = "S140"
+en = "I'll offer "
+de = "Ich biete "
+
+[[text]]
+id = "S141"
+en = "Okay?"
+de = "Okay?"
+hinweis = "Frage vor ja~nein"
+
+[[text]]
+id = "S142"
+en = "Congratulations. "
+de = "Glückwunsch. "
+hinweis = "S142 + S143/<Name> + S144 + Zahl + S390"
+
+[[text]]
+id = "S143"
+en = "the team"
+de = "Das Team"
+
+[[text]]
+id = "S144"
+en = " gains "
+de = " erhält "
+
+[[text]]
+id = "S145"
+en = "the team has "
+de = "Das Team hat "
+hinweis = "+ S039/S146/S147 bzw. + S150 + S151 + S152"
+
+[[text]]
+id = "S146"
+en = "fled."
+de = "die Flucht ergriffen."
+
+[[text]]
+id = "S147"
+en = "won."
+de = "gewonnen."
+
+[[text]]
+id = "S148"
+en = "each character received "
+de = "Jede Figur erhält "
+hinweis = "+ Zahl + S149"
+
+[[text]]
+id = "S149"
+en = "experience points."
+de = "Erfahrungspunkte."
+
+[[text]]
+id = "S150"
+en = "found "
+de = ""
+leer = true
+hinweis = "'found ': deutsch steht 'gefunden' am Satzende (S152)"
+
+[[text]]
+id = "S151"
+en = "no "
+de = "keine "
+
+[[text]]
+id = "S152"
+en = "spoils."
+de = "Beute gefunden."
+
+[[text]]
+id = "S153"
+en = "readied"
+de = "bereit:"
+hinweis = "vor dem Gegenstandsnamen"
+
+[[text]]
+id = "S154"
+en = "slow"
+de = "langsam"
+
+[[text]]
+id = "S155"
+en = "medium"
+de = "mittel"
+
+[[text]]
+id = "S156"
+en = "fast"
+de = "schnell"
+
+[[text]]
+id = "S157"
+en = "est"
+de = "ste"
+hinweis = "Spieltempo: langsam+ste, schnell+ste"
+
+[[text]]
+id = "S158"
+en = "er"
+de = "er"
+hinweis = "Spieltempo: langsam+er, schnell+er"
+
+[[text]]
+id = "S159"
+en = "credits"
+de = "Credits"
+
+[[text]]
+id = "S160"
+en = "drop"
+de = "ablegen"
+
+[[text]]
+id = "S161"
+en = "sell"
+de = "verkaufen"
+
+[[text]]
+id = "S162"
+en = "in team"
+de = "im Team"
+
+[[text]]
+id = "S163"
+en = "move"
+de = "bewegen"
+
+[[text]]
+id = "S164"
+en = "quick combat"
+de = "Schnellkampf"
+
+[[text]]
+id = "S165"
+en = "wait"
+de = "warten"
+
+[[text]]
+id = "S166"
+en = "no one is ready to train"
+de = "Niemand kann ausgebildet werden"
+
+[[text]]
+id = "S167"
+en = "move left:"
+de = "Bew. übrig:"
+
+[[text]]
+id = "S168"
+en = "to hit:"
+de = "Treffer:"
+
+[[text]]
+id = "S169"
+en = "dead"
+de = "tot"
+
+[[text]]
+id = "S170"
+en = "dying"
+de = "sterbend"
+
+[[text]]
+id = "S171"
+en = "unconscious"
+de = "bewusstlos"
+
+[[text]]
+id = "S172"
+en = "fleeing"
+de = "flieht"
+
+[[text]]
+id = "S173"
+en = "poisoned"
+de = "vergiftet"
+
+[[text]]
+id = "S174"
+en = "comatose"
+de = "im Koma"
+
+[[text]]
+id = "S175"
+en = "blinded"
+de = "geblendet"
+
+[[text]]
+id = "S176"
+en = "stunned"
+de = "betäubt"
+
+[[text]]
+id = "S177"
+en = "tactics"
+de = "Taktik"
+
+[[text]]
+id = "S178"
+en = "each"
+de = "je Stück"
+hinweis = "Laden: S179 + Preis + S178"
+
+[[text]]
+id = "S179"
+en = "sell for"
+de = "Preis:"
+hinweis = "wird vor den Preis gesetzt"
+
+[[text]]
+id = "S180"
+en = "trade with"
+de = "geben an"
+
+[[text]]
+id = "S181"
+en = "flee the battle?"
+de = "Aus dem Kampf fliehen?"
+hinweis = "Glossar 3-24 'Kampf fliehen?' grammatisch ergänzt"
+
+[[text]]
+id = "S182"
+en = "escape is blocked."
+de = "Fluchtweg versperrt."
+
+[[text]]
+id = "S183"
+en = " escapes."
+de = " entkommt."
+
+[[text]]
+id = "S184"
+en = "failed zero g"
+de = "0-G misslungen"
+
+[[text]]
+id = "S185"
+en = "attacks "
+de = "Angriffe "
+hinweis = "Charakterbogen x=21, Wert ab x=30 (höchstens 9 Zeichen)"
+
+[[text]]
+id = "S186"
+en = "out of sight"
+de = "nicht in Sicht"
+
+[[text]]
+id = "S187"
+en = "out of range"
+de = "außer Reichweite"
+
+[[text]]
+id = "S188"
+en = "friendly"
+de = "verbündet"
+
+[[text]]
+id = "S189"
+en = "blocked by mist"
+de = "Nebel blockiert"
+
+[[text]]
+id = "S190"
+en = "blocked by chaff"
+de = "Düppel blockiert"
+
+[[text]]
+id = "S191"
+en = "beam laser"
+de = "Strahllaser"
+
+[[text]]
+id = "S192"
+en = "pumped laser"
+de = "Pumplaser"
+
+[[text]]
+id = "S193"
+en = "gyrocannon"
+de = "Gyrokanone"
+
+[[text]]
+id = "S194"
+en = "missile"
+de = "Rakete"
+
+[[text]]
+id = "S195"
+en = "heavy missile"
+de = "schwere Rakete"
+
+[[text]]
+id = "S196"
+en = "K-Cannon"
+de = "K-Kanone"
+
+[[text]]
+id = "S197"
+en = "Light Acceleration Gun"
+de = "Leichte Beschl.-Kanone"
+
+[[text]]
+id = "S198"
+en = "Heavy Acceleration Gun"
+de = "Schwere Beschl.-Kanone"
+
+[[text]]
+id = "S199"
+en = "Maelstrom Rider"
+de = ""
+
+[[text]]
+id = "S200"
+en = "Van Allen"
+de = ""
+
+[[text]]
+id = "S201"
+en = "Hubble"
+de = ""
+
+[[text]]
+id = "S202"
+en = "Copernicus"
+de = ""
+
+[[text]]
+id = "S203"
+en = "Kepler"
+de = ""
+
+[[text]]
+id = "S204"
+en = "Goddard"
+de = ""
+
+[[text]]
+id = "S205"
+en = "Adder"
+de = ""
+
+[[text]]
+id = "S206"
+en = "Viper"
+de = ""
+
+[[text]]
+id = "S207"
+en = "Anaconda"
+de = ""
+
+[[text]]
+id = "S208"
+en = "Sidewinder"
+de = ""
+
+[[text]]
+id = "S209"
+en = "Boomslang"
+de = ""
+
+[[text]]
+id = "S210"
+en = "Mohave"
+de = ""
+
+[[text]]
+id = "S211"
+en = "Sahara"
+de = ""
+
+[[text]]
+id = "S212"
+en = "Gobi"
+de = ""
+
+[[text]]
+id = "S213"
+en = "OutBack"
+de = ""
+
+[[text]]
+id = "S214"
+en = "Kalihari"
+de = ""
+
+[[text]]
+id = "S215"
+en = "Flare"
+de = ""
+
+[[text]]
+id = "S216"
+en = "Corona"
+de = ""
+
+[[text]]
+id = "S217"
+en = "Hermes"
+de = ""
+
+[[text]]
+id = "S218"
+en = "Osiris"
+de = ""
+
+[[text]]
+id = "S219"
+en = "Apollo"
+de = ""
+
+[[text]]
+id = "S220"
+en = "Liberator"
+de = ""
+
+[[text]]
+id = "S221"
+en = "Eclipse"
+de = ""
+
+[[text]]
+id = "S222"
+en = "Daisy"
+de = ""
+
+[[text]]
+id = "S223"
+en = "Gambit"
+de = ""
+
+[[text]]
+id = "S224"
+en = "Dervish"
+de = ""
+
+[[text]]
+id = "S225"
+en = "Scout Cruiser"
+de = "Aufklärer"
+
+[[text]]
+id = "S226"
+en = "Medium Cruiser"
+de = "Mittl. Kreuzer"
+
+[[text]]
+id = "S227"
+en = "Heavy Cruiser"
+de = "Schw. Kreuzer"
+
+[[text]]
+id = "S228"
+en = "view"
+de = "ansehen"
+
+[[text]]
+id = "S229"
+en = "There is still booty left."
+de = "Es ist noch Beute übrig."
+
+[[text]]
+id = "S230"
+en = "Go back and claim it?"
+de = "Zurück und mitnehmen?"
+
+[[text]]
+id = "S231"
+en = " closes."
+de = " nähert sich."
+
+[[text]]
+id = "S232"
+en = " withdraws."
+de = " dreht ab."
+
+[[text]]
+id = "S233"
+en = " flees the battle!"
+de = " flieht aus dem Kampf!"
+
+[[text]]
+id = "S234"
+en = "the ships drift apart."
+de = "Die Schiffe treiben auseinander."
+
+[[text]]
+id = "S235"
+en = "the ships are drifting"
+de = "Die Schiffe treiben"
+
+[[text]]
+id = "S236"
+en = "Maelstrom Rider is drifting helplessly."
+de = "Maelstrom Rider treibt hilflos."
+
+[[text]]
+id = "S237"
+en = " is outmaneuvered "
+de = " wird ausmanövriert durch "
+hinweis = "<Schiff> + S237..S240 + <Feindschiff>"
+
+[[text]]
+id = "S238"
+en = " outmaneuvers "
+de = " überlistet "
+
+[[text]]
+id = "S239"
+en = " lines up "
+de = " zielt auf "
+
+[[text]]
+id = "S240"
+en = " has got "
+de = " hat "
+
+[[text]]
+id = "S241"
+en = " right where he wants it!"
+de = " genau im Visier!"
+hinweis = "nach S240 + Feindschiff"
+
+[[text]]
+id = "S242"
+en = "the"
+de = "die"
+hinweis = "Artikel vor Feindschiff (Schiffe weiblich): nur Nominativ/Akkusativ verwenden"
+
+[[text]]
+id = "S243"
+en = " is attempting to ram..."
+de = " versucht zu rammen..."
+
+[[text]]
+id = "S244"
+en = "... and succeeds!"
+de = "... mit Erfolg!"
+
+[[text]]
+id = "S245"
+en = " and misses."
+de = " und verfehlt."
+
+[[text]]
+id = "S246"
+en = " pts of damage to "
+de = " Schaden für "
+hinweis = "Zahl + S246 + Schiff + S247 + System"
+
+[[text]]
+id = "S247"
+en = "'s "
+de = ": "
+hinweis = "siehe S246"
+
+[[text]]
+id = "S248"
+en = "hull"
+de = "Rumpf"
+
+[[text]]
+id = "S249"
+en = "controls"
+de = "Steuerung"
+
+[[text]]
+id = "S250"
+en = " destroyed on "
+de = " zerstört: "
+hinweis = "Waffe + S250 + Schiff"
+
+[[text]]
+id = "S251"
+en = "Engines"
+de = "Triebwerke"
+
+[[text]]
+id = "S252"
+en = " Explodes!"
+de = " explodiert!"
+
+[[text]]
+id = "S253"
+en = " takes "
+de = " erleidet "
+
+[[text]]
+id = "S254"
+en = " pts of damage"
+de = " Schaden"
+
+[[text]]
+id = "S255"
+en = " and falls unconcious."
+de = " und wird bewusstlos."
+
+[[text]]
+id = "S256"
+en = " hit in already destroyed system."
+de = " Treffer in bereits zerstörtem System."
+
+[[text]]
+id = "S257"
+en = " fires a "
+de = " feuert: "
+hinweis = "Schiff + S257 + Waffe"
+
+[[text]]
+id = "S258"
+en = "sensors show enemy ship being repaired."
+de = "Sensoren: Feindschiff wird repariert."
+
+[[text]]
+id = "S259"
+en = " successfully jury rigs "
+de = " flickt: "
+hinweis = "<Name> + S259/S260 + S261/S262 + System"
+
+[[text]]
+id = "S260"
+en = " fails to jury rig "
+de = " scheitert beim Flicken: "
+
+[[text]]
+id = "S261"
+en = "the "
+de = ""
+leer = true
+hinweis = "Artikel vor System entfällt (Geschlecht)"
+
+[[text]]
+id = "S262"
+en = "a "
+de = ""
+leer = true
+hinweis = "Artikel vor System entfällt"
+
+[[text]]
+id = "S263"
+en = " is bandaged."
+de = " wird verbunden."
+
+[[text]]
+id = "S264"
+en = " is bandaged and healed for "
+de = " wird verbunden und heilt "
+hinweis = "+ Zahl + S266"
+
+[[text]]
+id = "S265"
+en = " is healed for "
+de = " heilt "
+hinweis = "+ Zahl + S266"
+
+[[text]]
+id = "S266"
+en = " hit point"
+de = " Trefferpunkt"
+hinweis = "Mehrzahl hängt das Spiel an (deutsch: 'e', DEUTSCH-HOOK 9)"
+
+[[text]]
+id = "S267"
+en = "s"
+de = ""
+
+[[text]]
+id = "S268"
+en = "weapons"
+de = "Waffen"
+
+[[text]]
+id = "S269"
+en = "range:"
+de = "Reichweite:"
+
+[[text]]
+id = "S270"
+en = "repair:"
+de = "Reparatur:"
+
+[[text]]
+id = "S271"
+en = "to hit:"
+de = "Treffer:"
+
+[[text]]
+id = "S272"
+en = "%"
+de = ""
+
+[[text]]
+id = "S273"
+en = "fire"
+de = "Feuer"
+
+[[text]]
+id = "S274"
+en = "reload"
+de = "laden"
+
+[[text]]
+id = "S275"
+en = "aid"
+de = "Hilfe"
+
+[[text]]
+id = "S276"
+en = "end turn"
+de = "Zugende"
+
+[[text]]
+id = "S277"
+en = "close"
+de = "annähern"
+
+[[text]]
+id = "S278"
+en = "withdraw"
+de = "abdrehen"
+
+[[text]]
+id = "S279"
+en = "ram!"
+de = "rammen!"
+
+[[text]]
+id = "S280"
+en = "board"
+de = "entern"
+
+[[text]]
+id = "S281"
+en = "maneuver"
+de = "manövrieren"
+
+[[text]]
+id = "S282"
+en = "max range:"
+de = "max. Reichw.:"
+
+[[text]]
+id = "S283"
+en = "ammo left:"
+de = "Munition:"
+
+[[text]]
+id = "S284"
+en = "ready:"
+de = "bereit:"
+
+[[text]]
+id = "S285"
+en = "destroyed:"
+de = "zerstört:"
+
+[[text]]
+id = "S286"
+en = "to ram:"
+de = "Rammen:"
+
+[[text]]
+id = "S287"
+en = "s reloaded"
+de = " nachgeladen"
+leerzeichen_geprueft = true
+hinweis = "Waffe + S287"
+
+[[text]]
+id = "S288"
+en = " reloads"
+de = " lädt nach"
+
+[[text]]
+id = "S289"
+en = "(c) 1991 TSR, Inc."
+de = ""
+
+[[text]]
+id = "S290"
+en = "(c) 1991 The Dille Family Trust"
+de = ""
+
+[[text]]
+id = "S291"
+en = "(c) 1991 Strategic Simulations, Inc."
+de = ""
+
+[[text]]
+id = "S292"
+en = "\nAll rights reserved"
+de = ""
+
+[[text]]
+id = "S293"
+en = "pic~sq+~sq-~fr+~fr-~fig~pal~quit"
+de = ""
+
+[[text]]
+id = "S294"
+en = "the team is repairing the maelstrom rider."
+de = "Das Team repariert die Maelstrom Rider."
+
+[[text]]
+id = "S295"
+en = " to "
+de = " an "
+
+[[text]]
+id = "S296"
+en = "side attack"
+de = "Flankenangriff"
+
+[[text]]
+id = "S297"
+en = "rear attack"
+de = "Angriff von hinten"
+
+[[text]]
+id = "S298"
+en = "backstab!!!"
+de = "Meuchelstoß!!!"
+
+[[text]]
+id = "S299"
+en = "reloading"
+de = "lädt nach"
+
+[[text]]
+id = "S300"
+en = "Enter wallset as decimal (1,4,7..)"
+de = ""
+
+[[text]]
+id = "S301"
+en = "Enter figure number as decimal Monsters: 0,1,.. Team: 128,129,.."
+de = ""
+
+[[text]]
+id = "S302"
+en = "A-Add B-Subtract C-Menu"
+de = ""
+
+[[text]]
+id = "S303"
+en = "dizzy"
+de = "benommen"
+
+[[text]]
+id = "S304"
+en = " is dying of poison."
+de = " stirbt an Gift."
+
+[[text]]
+id = "S305"
+en = "using "
+de = "Gegengift von "
+hinweis = "S305 + <Name> + S306"
+
+[[text]]
+id = "S306"
+en = "'s antidote."
+de = " wird benutzt."
+leerzeichen_geprueft = true
+
+[[text]]
+id = "S307"
+en = " fires "
+de = " feuert Salve: "
+hinweis = "Schiff + S307 + Waffe (Mehrzahl-s entfällt, DEUTSCH-HOOK 8)"
+
+[[text]]
+id = "S308"
+en = "destroyed"
+de = "zerstört"
+
+[[text]]
+id = "S309"
+en = "your teammate is dying!"
+de = "Euer Kamerad stirbt!"
+
+[[text]]
+id = "S310"
+en = "career skill: pilot rocket/juryrig"
+de = "Klasse: Raketenflug/Notreparatur"
+
+[[text]]
+id = "S311"
+en = "Career skill: treat wounds"
+de = "Klasse: Wunden versorgen"
+
+[[text]]
+id = "S312"
+en = "Career skill: tactics/leadership"
+de = "Klasse: Taktik/Führung"
+
+[[text]]
+id = "S313"
+en = "Career skill: bypass security"
+de = "Klasse: Sicherung umgehen"
+
+[[text]]
+id = "S314"
+en = "aid:"
+de = "Hilfe:"
+
+[[text]]
+id = "S315"
+en = "heal:"
+de = "Heilen:"
+
+[[text]]
+id = "S316"
+en = "toggle music"
+de = "Musik an/aus"
+
+[[text]]
+id = "S317"
+en = " : pregenerated"
+de = " : vorgefertigtes"
+hinweis = "Spielstand: S388/S389 + S328 + Nr + S317..S320/S326 + S321"
+
+[[text]]
+id = "S318"
+en = " : oldest"
+de = " : ältestes"
+
+[[text]]
+id = "S319"
+en = " : old"
+de = " : älteres"
+
+[[text]]
+id = "S320"
+en = " : newest"
+de = " : neuestes"
+
+[[text]]
+id = "S321"
+en = " team"
+de = " Team"
+
+[[text]]
+id = "S322"
+en = "mercury"
+de = "Merkur"
+
+[[text]]
+id = "S323"
+en = "venus"
+de = "Venus"
+
+[[text]]
+id = "S324"
+en = "earth"
+de = "Erde"
+
+[[text]]
+id = "S325"
+en = "mars"
+de = "Mars"
+
+[[text]]
+id = "S326"
+en = " : empty"
+de = " : leeres"
+
+[[text]]
+id = "S327"
+en = "sex "
+de = "Geschlecht "
+hinweis = "Erschaffung x=25"
+
+[[text]]
+id = "S328"
+en = " game "
+de = " Spiel "
+
+[[text]]
+id = "S329"
+en = "vesta"
+de = "Vesta"
+
+[[text]]
+id = "S330"
+en = "fortuna"
+de = "Fortuna"
+
+[[text]]
+id = "S331"
+en = "pallas"
+de = "Pallas"
+
+[[text]]
+id = "S332"
+en = "psyche"
+de = "Psyche"
+
+[[text]]
+id = "S333"
+en = "juno"
+de = "Juno"
+
+[[text]]
+id = "S334"
+en = "hygeia"
+de = "Hygiea"
+
+[[text]]
+id = "S335"
+en = "aurora"
+de = "Aurora"
+
+[[text]]
+id = "S336"
+en = "thule"
+de = "Thule"
+
+[[text]]
+id = "S337"
+en = "ceres"
+de = "Ceres"
+
+[[text]]
+id = "S338"
+en = "scanning:"
+de = "Scan:"
+
+[[text]]
+id = "S339"
+en = "population:"
+de = "Bevölkerung:"
+
+[[text]]
+id = "S340"
+en = "atmosphere:"
+de = "Atmosphäre:"
+
+[[text]]
+id = "S341"
+en = "gravity:"
+de = "Schwerkraft:"
+
+[[text]]
+id = "S342"
+en = "revolution:"
+de = "Umlauf:"
+
+[[text]]
+id = "S343"
+en = "rotation:"
+de = "Rotation:"
+
+[[text]]
+id = "S344"
+en = "diameter:"
+de = "Durchmesser:"
+
+[[text]]
+id = "S345"
+en = "253 million"
+de = "253 Millionen"
+
+[[text]]
+id = "S346"
+en = "thin, cold"
+de = "dünn, kalt"
+
+[[text]]
+id = "S347"
+en = "38% earth"
+de = "38% Erde"
+
+[[text]]
+id = "S348"
+en = "687 days"
+de = "687 Tage"
+
+[[text]]
+id = "S349"
+en = "24.5 hours"
+de = "24,5 Stunden"
+
+[[text]]
+id = "S350"
+en = "3 billion"
+de = "3 Milliarden"
+
+[[text]]
+id = "S351"
+en = "polluted"
+de = "verschmutzt"
+
+[[text]]
+id = "S352"
+en = "100% earth"
+de = "100% Erde"
+
+[[text]]
+id = "S353"
+en = "365 days"
+de = "365 Tage"
+
+[[text]]
+id = "S354"
+en = "24 hours"
+de = "24 Stunden"
+
+[[text]]
+id = "S355"
+en = "90 million"
+de = "90 Millionen"
+
+[[text]]
+id = "S356"
+en = "dense, hot"
+de = "dicht, heiß"
+
+[[text]]
+id = "S357"
+en = "90% earth"
+de = "90% Erde"
+
+[[text]]
+id = "S358"
+en = "225 days"
+de = "225 Tage"
+
+[[text]]
+id = "S359"
+en = "243 days"
+de = "243 Tage"
+
+[[text]]
+id = "S360"
+en = "20 million"
+de = "20 Millionen"
+
+[[text]]
+id = "S361"
+en = "none"
+de = "keine"
+
+[[text]]
+id = "S362"
+en = "33% earth"
+de = "33% Erde"
+
+[[text]]
+id = "S363"
+en = "88 days"
+de = "88 Tage"
+
+[[text]]
+id = "S364"
+en = "59 days"
+de = "59 Tage"
+
+[[text]]
+id = "S365"
+en = "negligible"
+de = "minimal"
+
+[[text]]
+id = "S366"
+en = "10,000"
+de = "10.000"
+
+[[text]]
+id = "S367"
+en = "3.6 years"
+de = "3,6 Jahre"
+
+[[text]]
+id = "S368"
+en = "310 miles"
+de = "499 km"
+hinweis = "G8: 310 Meilen"
+
+[[text]]
+id = "S369"
+en = "5,000"
+de = "5.000"
+
+[[text]]
+id = "S370"
+en = "135 miles"
+de = "217 km"
+hinweis = "135 Meilen"
+
+[[text]]
+id = "S371"
+en = "7,000"
+de = "7.000"
+
+[[text]]
+id = "S372"
+en = "4.6 years"
+de = "4,6 Jahre"
+
+[[text]]
+id = "S373"
+en = "335 miles"
+de = "539 km"
+hinweis = "335 Meilen"
+
+[[text]]
+id = "S374"
+en = "4.5 years"
+de = "4,5 Jahre"
+
+[[text]]
+id = "S375"
+en = "127 miles"
+de = "204 km"
+hinweis = "127 Meilen"
+
+[[text]]
+id = "S376"
+en = "6,000"
+de = "6.000"
+
+[[text]]
+id = "S377"
+en = "145 miles"
+de = "233 km"
+hinweis = "145 Meilen"
+
+[[text]]
+id = "S378"
+en = "9,000"
+de = "9.000"
+
+[[text]]
+id = "S379"
+en = "5.1 years"
+de = "5,1 Jahre"
+
+[[text]]
+id = "S380"
+en = "254 miles"
+de = "409 km"
+hinweis = "254 Meilen"
+
+[[text]]
+id = "S381"
+en = "3,000"
+de = "3.000"
+
+[[text]]
+id = "S382"
+en = "136 miles"
+de = "219 km"
+hinweis = "136 Meilen"
+
+[[text]]
+id = "S383"
+en = "100"
+de = "100"
+
+[[text]]
+id = "S384"
+en = "6.6 years"
+de = "6,6 Jahre"
+
+[[text]]
+id = "S385"
+en = "100 miles"
+de = "161 km"
+hinweis = "100 Meilen"
+
+[[text]]
+id = "S386"
+en = "20,000"
+de = "20.000"
+
+[[text]]
+id = "S387"
+en = "663 miles"
+de = "1.067 km"
+hinweis = "663 Meilen"
+
+[[text]]
+id = "S388"
+en = "save"
+de = "speichern"
+
+[[text]]
+id = "S389"
+en = "restore"
+de = "laden"
+
+[[text]]
+id = "S390"
+en = "experience points!"
+de = "Erfahrungspunkte!"
+
+[[text]]
+id = "S391"
+en = "(c) 1991 Electronic arts"
+de = ""
+
+[[text]]
+id = "S392"
+en = "\nLicensed by Sega Enterprises, ltd."
+de = ""
+
+# Fertige Gegenstandsnamen (DEUTSCH-HOOK 6/7): teile = Namensteile p1,p2,p3 aus der
+# Gegenstandstabelle (ROM $F17D6). Leeres de = aus den Teilen zusammengesetzt.
+# de_mehrzahl: Form fuer Anzahl ab 2 (leer = wie Einzahl).
+
+[[gegenstand]]
+teile = [0, 0, 1]
+en = "knife"
+de = "Messer"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 1, 2]
+en = "mono knife"
+de = "Monomesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 3]
+en = "cutlass"
+de = "Entermesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 4]
+en = "sword"
+de = "Schwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 5]
+en = "d.r. x-bow"
+de = "W.L.-Armbrust"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 7, 6]
+en = "needle gun"
+de = "Nadelpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 7, 8]
+en = "bolt gun"
+de = "Bolzenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 4, 2]
+en = "mono sword"
+de = "Monoschwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 10, 9]
+en = "laser pistol"
+de = "Laserpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 10, 11]
+en = "rocket pistol"
+de = "Raketenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 13, 11]
+en = "rocket rifle"
+de = "Raketengewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 7, 12]
+en = "behind cover gun"
+de = "Mikrowellenpistole"
+de_mehrzahl = ""
+hinweis = "Annahme: 'behind cover gun' = Mikrowellenpistole der PC-Fassung (Entscheidung offen)"
+
+[[gegenstand]]
+teile = [0, 13, 9]
+en = "laser rifle"
+de = "Lasergewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 7, 14]
+en = "heat gun"
+de = "Hitzepistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 15]
+en = "sonic stunner"
+de = "Schallbetäuber"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 17, 16]
+en = "grenade launcher"
+de = "Granatwerfer"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 18]
+en = "plasma thrower"
+de = "Plasmawerfer"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 17, 11]
+en = "rocket launcher"
+de = "Raketenwerfer"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 43]
+en = "polearm"
+de = "Stangenwaffe"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 23]
+en = "spacesuit"
+de = "Raumanzug"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 24]
+en = "smartsuit"
+de = "Smartsuit"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 26, 25]
+en = "heavy body armor"
+de = "Schwere Körperpanzerung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 27]
+en = "battle armor"
+de = "Kampfpanzerung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 28, 27]
+en = "battle armor w/fields"
+de = "Kampfpanzerung m. Feld"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 35]
+en = "demo charge"
+de = "Sprengladung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 36]
+en = "ecm package"
+de = "ECM-Paket"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 38, 37]
+en = "protective goggles"
+de = "Schutzbrille"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 39]
+en = "lost."
+de = ""
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 40]
+en = "rope"
+de = "Seil"
+de_mehrzahl = "Seile"
+
+[[gegenstand]]
+teile = [0, 0, 41]
+en = "belt"
+de = "Gürtel"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 0, 42]
+en = "poison antidote"
+de = "Gegengift"
+de_mehrzahl = "Gegengifte"
+
+[[gegenstand]]
+teile = [16, 29, 44]
+en = "mini explosive grenade"
+de = "Mini-Sprenggranate"
+de_mehrzahl = "Mini-Sprenggranaten"
+
+[[gegenstand]]
+teile = [0, 16, 29]
+en = "explosive grenade"
+de = "Sprenggranate"
+de_mehrzahl = "Sprenggranaten"
+
+[[gegenstand]]
+teile = [0, 16, 30]
+en = "treating wounds grenade"
+de = "Sanitätsgranate"
+de_mehrzahl = "Sanitätsgranaten"
+hinweis = "Original 'treating wounds grenade' (Entscheidung offen)"
+
+[[gegenstand]]
+teile = [0, 16, 31]
+en = "stun grenade"
+de = "Betäubungsgranate"
+de_mehrzahl = "Betäubungsgranaten"
+
+[[gegenstand]]
+teile = [0, 16, 32]
+en = "dazzle grenade"
+de = "Blendgranate"
+de_mehrzahl = "Blendgranaten"
+
+[[gegenstand]]
+teile = [0, 16, 33]
+en = "chaff grenade"
+de = "Düppelgranate"
+de_mehrzahl = "Düppelgranaten"
+
+[[gegenstand]]
+teile = [0, 16, 34]
+en = "aerosol mist grenade"
+de = "Nebelgranate"
+de_mehrzahl = "Nebelgranaten"
+
+[[gegenstand]]
+teile = [1, 2, 19]
+en = "martian mono knife"
+de = "Mars-Monomesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 3, 19]
+en = "martian cutlass"
+de = "Mars-Entermesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 4, 19]
+en = "martian sword"
+de = "Mars-Schwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [4, 2, 19]
+en = "martian mono sword"
+de = "Mars-Monoschwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 6, 19]
+en = "martian needle gun"
+de = "Mars-Nadelpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 8, 19]
+en = "martian bolt gun"
+de = "Mars-Bolzenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 9, 19]
+en = "martian laser pistol"
+de = "Mars-Laserpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 11, 19]
+en = "martian rocket pistol"
+de = "Mars-Raketenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 12, 19]
+en = "martian behind cover gun"
+de = "Mars-Mikrowellenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [13, 9, 19]
+en = "martian laser rifle"
+de = "Mars-Lasergewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 4, 19]
+en = "martian sword gun"
+de = "Mars-Hitzepistole"
+de_mehrzahl = ""
+hinweis = "Original-Datenfehler 'martian sword gun', Typ = Hitzepistole (Entscheidung offen)"
+
+[[gegenstand]]
+teile = [13, 11, 19]
+en = "martian rocket rifle"
+de = "Mars-Raketengewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 15, 19]
+en = "martian sonic stunner"
+de = "Mars-Schallbetäuber"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [1, 2, 20]
+en = "venusian mono knife"
+de = "Venus-Monomesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 4, 20]
+en = "venusian sword"
+de = "Venus-Schwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [4, 2, 20]
+en = "venusian mono sword"
+de = "Venus-Monoschwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 6, 20]
+en = "venusian needle gun"
+de = "Venus-Nadelpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 8, 20]
+en = "venusian bolt gun"
+de = "Venus-Bolzenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 9, 20]
+en = "venusian laser pistol"
+de = "Venus-Laserpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [13, 9, 20]
+en = "venusian laser rifle"
+de = "Venus-Lasergewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 14, 20]
+en = "venusian heat gun"
+de = "Venus-Hitzepistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 6, 21]
+en = "mercurian needle gun"
+de = "Merkur-Nadelpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [8, 2, 21]
+en = "mercurian mono bolt"
+de = "Merkur-Monoschwert"
+de_mehrzahl = ""
+hinweis = "Original-Datenfehler 'mercurian mono bolt', Typ = Monoschwert (Entscheidung offen)"
+
+[[gegenstand]]
+teile = [0, 3, 21]
+en = "mercurian cutlass"
+de = "Merkur-Entermesser"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 43, 21]
+en = "mercurian polearm"
+de = "Merkur-Stangenwaffe"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 12, 21]
+en = "mercurian behind cover gun"
+de = "Merkur-Mikrowellenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 9, 21]
+en = "mercurian laser pistol"
+de = "Merkur-Laserpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [13, 9, 21]
+en = "mercurian laser rifle"
+de = "Merkur-Lasergewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 11, 21]
+en = "mercurian rocket pistol"
+de = "Merkur-Raketenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 14, 21]
+en = "mercurian heat gun"
+de = "Merkur-Hitzepistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 1, 22]
+en = "lunarian knife"
+de = "Luna-Messer"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [4, 2, 22]
+en = "lunarian mono sword"
+de = "Luna-Monoschwert"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 8, 22]
+en = "lunarian bolt gun"
+de = "Luna-Bolzenpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [10, 9, 22]
+en = "lunarian laser pistol"
+de = "Luna-Laserpistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [13, 9, 22]
+en = "lunarian laser rifle"
+de = "Luna-Lasergewehr"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [7, 14, 22]
+en = "lunarian heat gun"
+de = "Luna-Hitzepistole"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 15, 22]
+en = "lunarian sonic stunner"
+de = "Luna-Schallbetäuber"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 23, 19]
+en = "martian spacesuit"
+de = "Mars-Raumanzug"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 24, 19]
+en = "martian smartsuit"
+de = "Mars-Smartsuit"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [26, 25, 19]
+en = "martian heavy body armor"
+de = "Mars-Schwerpanzerung"
+hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 27, 19]
+en = "martian battle armor"
+de = "Mars-Kampfpanzerung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [28, 27, 19]
+en = "martian battle armor w/fields"
+de = "Mars-Kampfpanz. m. Feld"
+hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 23, 20]
+en = "venusian spacesuit"
+de = "Venus-Raumanzug"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 24, 20]
+en = "venusian smartsuit"
+de = "Venus-Smartsuit"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [26, 25, 20]
+en = "venusian heavy body armor"
+de = "Venus-Schwerpanzerung"
+hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 27, 20]
+en = "venusian battle armor"
+de = "Venus-Kampfpanzerung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 23, 21]
+en = "mercurian spacesuit"
+de = "Merkur-Raumanzug"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 24, 21]
+en = "mercurian smartsuit"
+de = "Merkur-Smartsuit"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [26, 25, 21]
+en = "mercurian heavy body armor"
+de = "Merkur-Schwerpanzerung"
+hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 27, 21]
+en = "mercurian battle armor"
+de = "Merkur-Kampfpanzerung"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 23, 22]
+en = "lunarian spacesuit"
+de = "Luna-Raumanzug"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [0, 24, 22]
+en = "lunarian smartsuit"
+de = "Luna-Smartsuit"
+de_mehrzahl = ""
+
+[[gegenstand]]
+teile = [26, 25, 22]
+en = "lunarian heavy body armor"
+de = "Luna-Schwerpanzerung"
+hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
+de_mehrzahl = ""

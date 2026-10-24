@@ -2,10 +2,14 @@
 """
 Setzt die deutschen Dialogtexte ein (Textablage A, Beschreibung: claude/Textablage.md).
 
-Eingang:  05_German_Script\\ecl\\Mxxx.toml  (Feld "de"; leer = englischer Originaltext)
+Eingang:  05_German_Script\\ecl\\Mxxx.toml        (Feld "de"; leer = englischer Originaltext)
+          05_German_Script\\systemtexte.toml      Systemtexte S000-S392 + fertige Gegenstandsnamen
           Original-ROM (englische Texte, Offsets, ECL-Code, Schrift)
-Ausgang:  02_Extracted\\deutsch\\texte.bin      Zeigertabellen + Texte ab ROM $108000
-          02_Extracted\\deutsch\\font_1bpp.bin  Schrift mit Ä Ö Ü
+Ausgang:  02_Extracted\\deutsch\\texte.bin        Zeigertabellen + Texte ab ROM $108000
+          02_Extracted\\deutsch\\systemtexte.bin  Systemtexttabelle ab ROM $101000 (claude/Systemtexte.md)
+          02_Extracted\\deutsch\\namen.bin        Tabelle fertiger Gegenstandsnamen
+          02_Extracted\\deutsch\\optionen.inc     Mehrzahl-Zeichen fuer DEUTSCH-HOOK 8/9
+          02_Extracted\\deutsch\\font_1bpp.bin    Schrift mit Ä Ö Ü
           02_Extracted\\deutsch\\pruefbericht.txt
 
 Prueft (Projektanweisung 7.5), Fehler mit Text-ID:
@@ -14,6 +18,9 @@ Prueft (Projektanweisung 7.5), Fehler mit Text-ID:
   - Menues (HMENU/WHMENU): alle Punkte zusammen hoechstens 39 Zeichen inkl. Trennern
   - Dialog (PRINT/PRINTCLEAR): kein Wort laenger als eine Zeile (36 Zeichen);
     Zeilenzahl wird gemeldet (Grenze noch nicht gemessen -> nur Hinweis)
+Systemtexte: Zeichen, Steuerzeichen, Leerzeichen am Anfang/Ende wie im Original (Satzbausteine),
+  (Ausnahme: leerzeichen_geprueft = true), Menues (~) hoechstens 41 Zeichen, Gegenstandsnamen hoechstens 25 Zeichen (Mehrzahl 21),
+  Tabelle kleiner 32 KB (16-Bit-Offsets).
 Bei Fehlern wird nichts geschrieben (Rueckgabe 1).
 
 Aufruf:  4_text_einsetzen.bat  bzw.  python 03_Tools/text_einsetzen.py [--nur-englisch]
@@ -30,6 +37,7 @@ except ImportError:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import brtext as bt
 import zeichensatz as zs
+import deutsch_vorlage as dv
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -44,6 +52,93 @@ MENUE_MAX = 39            # Puffer $FFFFD5AE-$FFFFD5D5
 OP_MENUE = {43, 49}       # HMENU, WHMENU
 OP_DIALOG = {"PRINT", "PRINTCLEAR"}
 SENTINEL = b"?TEXT?\0"    # Ziel fuer Offsets, die im Original kein Textanfang sind
+SYS_DE = os.path.join(ROOT, "05_German_Script", "systemtexte.toml")
+SYS_BASIS = 0x101000      # muss zu "org $101000" in deutsch.asm passen
+SYS_GRENZE = 0x108000     # danach beginnt DE_Modultabelle
+SYS_MENUE_MAX = 41        # sub_136DA: Puffer -$2A(a6), 42 Byte inkl. Ende
+NAME_MAX = 25             # Gegenstandszeile: Fenster x2-34 (sub_7FC0) = 33 Zeichen minus "bereit: "
+NAME_MAX_ANZAHL = 21      # dazu Anzahl "  3 "
+
+
+def systemtexte_bauen(rom, fehler, hinweise, stat):
+    """Systemtexttabelle (wie dat_11DC4) + Namenstabelle + Optionen. Rueckgabe (sys_bin, namen_bin, optionen)."""
+    englisch = "--nur-englisch" in sys.argv
+    sys_en = dv.systemtexte(rom)
+    d = {} if englisch or not os.path.exists(SYS_DE) else tomllib.load(open(SYS_DE, "rb"))
+    texte = {t["id"]: t for t in d.get("text", [])}
+    out = []
+    for i, en in enumerate(sys_en):
+        tid = "S%03d" % i
+        t = texte.get(tid, {})
+        if t.get("leer"):
+            out.append(b"")
+            stat["sys_deutsch"] += 1
+            continue
+        de = t.get("de", "")
+        if not de:
+            out.append(en)
+            continue
+        stat["sys_deutsch"] += 1
+        try:
+            b = zs.kodieren(de)
+        except zs.ZeichenFehler as x:
+            fehler.append("%s: %s" % (tid, x))
+            continue
+        if [c for c in en if c in (0x0D, 0x7E)] != [c for c in b if c in (0x0D, 0x7E)]:
+            fehler.append("%s: Steuerzeichen (Umbruch/~) weichen vom Original ab" % tid)
+        for name, f in (("Anfang", lambda x: len(x) - len(x.lstrip(b" "))),
+                        ("Ende", lambda x: len(x) - len(x.rstrip(b" ")))):
+            if f(en) != f(b) and not t.get("leerzeichen_geprueft"):
+                fehler.append("%s: Leerzeichen am %s weichen ab (Original %d, deutsch %d): %r"
+                              % (tid, name, f(en), f(b), de))
+        if 0x7E in en and len(b) > SYS_MENUE_MAX:
+            fehler.append("%s: Menue %d Zeichen > %d" % (tid, len(b), SYS_MENUE_MAX))
+        if "max" in t and len(zs.anzeigen(b)) > t["max"]:
+            fehler.append("%s: %d Zeichen > %d (max): %r" % (tid, len(zs.anzeigen(b)), t["max"], de))
+        out.append(b)
+
+    # Fertige Gegenstandsnamen -> neue Systemtexte ab Nr. 393
+    namen = bytearray(b"\0s" if englisch else b"\0\0")   # Kopf: Mehrzahl-Zeichen beim Zusammensetzen
+    for g in d.get("gegenstand", []):
+        if not g.get("de"):
+            continue
+        gid = "Gegenstand %s (%s)" % (g["teile"], g["en"])
+        nr = []
+        for feld, grenze in (("de", NAME_MAX), ("de_mehrzahl", NAME_MAX_ANZAHL)):
+            v = g.get(feld, "")
+            if not v:
+                nr.append(0)
+                continue
+            try:
+                b = zs.kodieren(v)
+            except zs.ZeichenFehler as x:
+                fehler.append("%s: %s" % (gid, x))
+                b = b"?"
+            if len(b) > grenze:
+                fehler.append("%s: %s %d Zeichen > %d: %r" % (gid, feld, len(b), grenze, v))
+            nr.append(len(out))
+            out.append(b)
+        namen += bytes(g["teile"]) + b"\0" + struct.pack(">HH", nr[0], nr[1])
+        stat["namen"] += 1
+    namen += bytes(4)
+
+    tab = bytearray(2 * len(out))
+    blob = bytearray()
+    for i, b in enumerate(out):
+        struct.pack_into(">H", tab, 2 * i, len(tab) + len(blob))
+        blob += b + b"\0"
+    sys_bin = bytes(tab + blob)
+    if len(sys_bin) >= 0x8000:
+        fehler.append("Systemtexttabelle %d Byte >= 32 KB (16-Bit-Offsets)" % len(sys_bin))
+    gesamt = len(sys_bin) + (len(sys_bin) & 1) + len(namen)
+    if SYS_BASIS + gesamt > SYS_GRENZE:
+        fehler.append("Systemtexte + Namen %d Byte passen nicht vor $%06X" % (gesamt, SYS_GRENZE))
+    stat["sys_byte"] = gesamt
+    optionen = ("; erzeugt von text_einsetzen.py - nicht von Hand aendern\n"
+                "DE_PLURAL_WAFFE = $%02X\t; Mehrzahl Schiffswaffe (DEUTSCH-HOOK 8), Original $73 's'\n"
+                "DE_PLURAL_TP = $%02X\t; Mehrzahl ' Trefferpunkt' (DEUTSCH-HOOK 9), Original $73 's'\n"
+                % ((0x73, 0x73) if englisch else (0x20, 0x65)))
+    return sys_bin, bytes(namen), optionen
 
 
 def umbrechen(s, breite=ZEILE):
@@ -84,7 +179,7 @@ def main():
     names = bt.opnames(rom)
     mods = bt.ecl_modules(rom)
     fehler, hinweise = [], []
-    stat = dict(gesamt=0, deutsch=0)
+    stat = dict(gesamt=0, deutsch=0, sys_deutsch=0, namen=0, sys_byte=0)
 
     # 1. Texte je Modul kodieren und pruefen
     module = []
@@ -149,6 +244,7 @@ def main():
             blob += b + b"\0"
         if len(blob) & 1:
             blob += b"\0"
+    sys_bin, namen_bin, optionen = systemtexte_bauen(rom, fehler, hinweise, stat)
     frei = ROM_ENDE - BASIS - len(blob)
     if frei < 0:
         fehler.append("Texte passen nicht in die ROM (%d Byte zu viel)" % -frei)
@@ -156,8 +252,11 @@ def main():
     bericht = ["Pruefbericht text_einsetzen.py",
                "Texte: %d, davon deutsch: %d" % (stat["gesamt"], stat["deutsch"]),
                "Textblock ab $%06X: %d Byte, frei bis 2 MB: %d Byte" % (BASIS, len(blob), frei),
+               "Systemtexte: %d, davon deutsch: %d, fertige Gegenstandsnamen: %d, Block ab $%06X: %d Byte (Grenze %d)"
+               % (len(dv.systemtexte(rom)), stat["sys_deutsch"], stat["namen"], SYS_BASIS, stat["sys_byte"],
+                  SYS_GRENZE - SYS_BASIS),
                "", "FEHLER (%d):" % len(fehler)] + fehler + ["", "HINWEISE (%d):" % len(hinweise)] + hinweise
-    print("\n".join(bericht[:4]))
+    print("\n".join(bericht[:5]))
     os.makedirs(OUT, exist_ok=True)
     open(os.path.join(OUT, "pruefbericht.txt"), "w", encoding="utf-8").write("\n".join(bericht) + "\n")
     for h in hinweise[:20]:
@@ -170,9 +269,12 @@ def main():
 
     # 3. Schreiben
     open(os.path.join(OUT, "texte.bin"), "wb").write(blob)
+    open(os.path.join(OUT, "systemtexte.bin"), "wb").write(sys_bin)
+    open(os.path.join(OUT, "namen.bin"), "wb").write(namen_bin)
+    open(os.path.join(OUT, "optionen.inc"), "w", encoding="ascii", newline="\n").write(optionen)
     font = rom[0x51102:0x51102 + 512]
     open(os.path.join(OUT, "font_1bpp.bin"), "wb").write(zs.font_1bpp(font))
-    print("Geschrieben nach %s (texte.bin, font_1bpp.bin, pruefbericht.txt)" % OUT)
+    print("Geschrieben nach %s (texte.bin, systemtexte.bin, namen.bin, optionen.inc, font_1bpp.bin, pruefbericht.txt)" % OUT)
     return 0
 
 

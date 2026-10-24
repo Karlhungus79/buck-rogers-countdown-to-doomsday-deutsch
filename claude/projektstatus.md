@@ -4,7 +4,7 @@ Stand: 24.10.2026
 
 ## Aktuelle Phase
 
-Phase 2 – Systemtexte. Beginnt. **Tor Phase 1 erreicht am 24.10.2026** (Intro deutsch in Ares bestätigt).
+Phase 2 – Systemtexte. Läuft (`Fahrplan.md`). **Tor Phase 1 erreicht am 24.10.2026** (Intro deutsch in Ares bestätigt).
 Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Erledigt
@@ -64,15 +64,28 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   Bestätigt: Start trotz Selbstprüfung, SRAM der 2-MB-ROM, Text aus der ROM, Ä Ö Ü, ß → SS („DRAUSSEN“),
   Zeilenumbruch bei 36 Zeichen, 4 Zeilen + „PRESS C“ passen ins Fenster.
   M016_003 (Schlachtbild, 6 Zeilen) nur im Testemulator gesehen.
+- **Repo mit H: verbunden (24.10.2026):** `03_Tools\8_repo_verbinden.bat` (Marcel), Abgleich mit
+  `9_repo_abgleich.bat`. Unterschiede nur bei PNGs (Claude-App hängt C2PA-Herkunft an, Pixel gleich).
+- **Phase 2, 24.10.2026 (Details `Systemtexte.md`):**
+  - Systemtexte in der Pipeline: Tabelle neu ab `$101000` (Hook 5), 393 Texte, davon 352 deutsch
+    (Rest: Schiffsnamen, Copyright, Debug-Texte, Datum bleiben englisch).
+  - Gegenstandsnamen: Tabelle fertiger Namen (Hook 6/7, 90 Namen), deutsche Mehrzahl (Hook 8/9).
+  - Prüfregeln erweitert (Leerzeichen der Satzbausteine, Menüs 41, Namen 25/21, `max`).
+  - Grenzen im Testemulator gemessen; „fertig“ (Namenseingabe) und „Raketen fliegen/Notreparatur“
+    passten nicht → E1.
+  - **Gebaut 24.10.2026, CRC32 598A9641.** Im Testemulator gesehen: Hauptmenü, Laden, Bogen,
+    Gegenstände, Erschaffung, Namenseingabe, Ausbildung, Spieltempo, Kampfleiste. **Ares offen.**
+  - Original-Bau weiterhin bit-genau; `--nur-englisch`: Systemtexte identisch zum Original.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
 ## Offen / nächste Schritte
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
-2. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-3. Claude, Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
-   Monsternamen/Figuren/Abspann analysieren
+2. ~~Repo verbinden~~ erledigt 24.10.2026.
+3. Marcel: `7_deutsch_bauen.bat` → CRC32 598A9641? Dann Spieltest nach `Testliste_Phase2.md`.
+4. Marcel: Entscheidungen E1–E4 (`Phase2_Entscheidungen.md`).
+5. Claude: Monsternamen, vorgefertigte Figuren, Abspann in die Pipeline (Fahrplan 2.7/2.8).
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

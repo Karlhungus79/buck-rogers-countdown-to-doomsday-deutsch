@@ -31,6 +31,7 @@ Nur aktiv mit `-D DEUTSCH=1` (`build.py --deutsch`). Ohne bleibt der Bau bit-gen
 
 Größe gleich geblieben (32 bzw. 8 Byte), alle übrigen Adressen unverändert (Byte-Vergleich: nur
 `$18E`, `$1A5`, `$1B0–$1BB`, `$40B4`, `$411C`, `$512DA–$512F0`, `$FFFCC` geändert).
+Hooks 5–9 (Systemtexte, Gegenstandsnamen, Mehrzahl) seit 24.10.2026: `Systemtexte.md`.
 
 ## Nachbearbeitung in `build.py --deutsch`
 

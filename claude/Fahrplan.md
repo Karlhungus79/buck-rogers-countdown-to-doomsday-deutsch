@@ -15,10 +15,16 @@ Stand: 24.10.2026
 | 1.7 | Bau unter Windows reproduzieren (gleiche CRC32) | **bestätigt 24.10.2026**: Windows-Bau 14:27 (`2026-10-24_14-27-16_deutsch`), CRC32 E60AE2AA, 2.097.152 Byte, Header-Checksumme D034, Selbstprüfung 141FB059 (Screenshot `claude\Vorschau\Windows_Bau_2026-10-24.png`) |
 | 1.8 | Tor Phase 1: Marcel bestätigt Intro in Ares | **erreicht 24.10.2026** (Screenshots `claude\Vorschau\Ares_Intro_2026-10-24_1–3.png`) |
 
-## Danach (Phase 2 – Systemtexte), vorläufige Reihenfolge
+## Phase 2 – Systemtexte (Tor: im Spiel bestätigt)
 
-1. Systemtexte (393, Tabelle `$011DC4`) in die Pipeline: Einsetzen, Tabelle bei Bedarf nach `$1xxxxx`
-   verschieben (4 Verweise), Fensterbreiten messen.
-2. Monsternamen (`dat_9E77C`, LZW, 15 Zeichen), vorgefertigte Figuren, Abspann: Struktur analysieren.
-3. Zusammengesetzte Gegenstandsnamen (S001–S044) prüfen.
-4. Menüs (HMENU) im Spiel ansehen, ja/nein-Breite.
+| Nr | Schritt | Stand |
+|---|---|---|
+| 2.1 | Systemtexte (393, `dat_11DC4`) in die Pipeline: Tabelle nach `$101000` (Hook 5), Prüfregeln | gebaut 24.10.2026 (`Systemtexte.md`) |
+| 2.2 | Gegenstandsnamen: Tabelle fertiger Namen (Hook 6/7), Mehrzahl (Hook 8/9) | gebaut 24.10.2026 |
+| 2.3 | Erstübersetzung aller Systemtexte + 90 Gegenstandsnamen | gebaut 24.10.2026, CRC32 598A9641 |
+| 2.4 | Fensterbreiten messen (Testemulator) | teilweise: Menüs, Bogen, Gegenstände, Erschaffung, Namenseingabe, Ausbildung, Tempo, Kampfleiste |
+| 2.5 | Entscheidungen E1–E4 (`Phase2_Entscheidungen.md`) | wartet auf Marcel |
+| 2.6 | Spieltest Systemtexte in Ares (`Testliste_Phase2.md`) | wartet auf Marcel |
+| 2.7 | Monsternamen (`dat_9E77C`, LZW, 15 Zeichen) | offen |
+| 2.8 | Vorgefertigte Figuren (`dat_6BAAD`), Abspann (`$006331`) | offen |
+| 2.9 | Menüs (HMENU) und ja/nein im Spiel ansehen | offen |

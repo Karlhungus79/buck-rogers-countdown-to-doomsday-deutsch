@@ -9659,6 +9659,13 @@ loc_7EB2:
 	jsr	(sub_13376).l
 	jsr	(sub_1368C).l
 loc_7EE4:
+	if DEUTSCH	; DEUTSCH-HOOK 6: Gegenstandsname (Inventar) ueber Namenstabelle (66 Byte wie Original)
+	movea.l	a2,a0
+	move.b	$8(a2),d1
+	jsr	(DE_Gegenstandsname).l
+	bra.w	loc_7FA6
+	dc.w	$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71
+	else
 	moveq	#$2,d2
 loc_7EE6:
 	moveq	#$0,d0
@@ -9678,6 +9685,7 @@ loc_7EF4:
 	move.b	d1,(a0,d0.w)
 	clr.b	$1(a0,d0.w)
 	bra.w	loc_7FA6
+	endif
 loc_7F26:
 	bne.s	loc_7F74
 	move.w	#$A0,d0
@@ -23150,7 +23158,11 @@ loc_11B80:
 sub_11B9A:
 	movem.l	d2,-(a7)
 	asl.w	#$1,d0
+	if DEUTSCH	; DEUTSCH-HOOK 5: Systemtexte aus DE_Systemtexte (6 Byte wie Original)
+	lea	(DE_Systemtexte).l,a1
+	else
 	lea	(dat_11DC4).l,a1
+	endif
 	move.w	(a1,d0.w),d0
 	adda.w	d0,a1
 	movea.l	a1,a0
@@ -23181,7 +23193,11 @@ sub_11BE0:
 	moveq	#$0,d1
 loc_11BE2:
 	asl.w	#$1,d0
+	if DEUTSCH	; DEUTSCH-HOOK 5: Systemtexte aus DE_Systemtexte (6 Byte wie Original)
+	lea	(DE_Systemtexte).l,a1
+	else
 	lea	(dat_11DC4).l,a1
+	endif
 	move.w	(a1,d0.w),d0
 	adda.w	d0,a1
 	bra.s	loc_11BF8
@@ -23273,7 +23289,11 @@ loc_11C86:
 
 ; ---------------------------------------------------------------------------
 sub_11C8E:
+	if DEUTSCH	; DEUTSCH-HOOK 5: Systemtexte aus DE_Systemtexte (6 Byte wie Original)
+	lea	(DE_Systemtexte).l,a0
+	else
 	lea	(dat_11DC4).l,a0
+	endif
 	asl.w	#$1,d0
 	move.w	(a0,d0.w),d0
 	adda.w	d0,a0
@@ -23908,7 +23928,11 @@ loc_136F6:
 	bsr.w	sub_11C8E
 	addq.w	#$1,($FFFFD5D6).w
 loc_13714:
+	if DEUTSCH	; DEUTSCH-HOOK 5: Systemtexte aus DE_Systemtexte (6 Byte wie Original)
+	lea	(DE_Systemtexte).l,a0
+	else
 	lea	(dat_11DC4).l,a0
+	endif
 	asl.w	#$1,d2
 	adda.w	(a0,d2.w),a0
 loc_13720:
@@ -28407,6 +28431,20 @@ loc_16A30:
 	bsr.w	sub_13376
 	bsr.w	sub_1368C
 loc_16A52:
+	if DEUTSCH	; DEUTSCH-HOOK 7: Gegenstandsname (Laden/Beute) ueber Namenstabelle (70 Byte wie Original)
+	movea.l	a3,a0
+	moveq	#0,d1
+	tst.b	($FFFFBA60).w
+	bne.s	de_hook7_a
+	move.b	$8(a3),d1
+	andi.b	#$7F,d1
+de_hook7_a:
+	jsr	(DE_Gegenstandsname).l
+	tst.b	($FFFFBA60).w
+	bne.s	loc_16A98
+	bra.s	loc_16AC4
+	dc.w	$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71,$4E71
+	else
 	moveq	#$2,d2
 loc_16A54:
 	moveq	#$0,d0
@@ -28429,6 +28467,7 @@ loc_16A60:
 	move.b	d1,(a0,d0.w)
 	clr.b	$1(a0,d0.w)
 	bra.s	loc_16AC4
+	endif
 loc_16A98:
 	bsr.w	sub_16ACE
 	clr.b	($FFFFD5AE).w
@@ -30442,7 +30481,11 @@ loc_18204:
 	beq.s	loc_18234
 	lea	($FFFFD5AE).w,a0
 	jsr	(sub_11C18).l
+	if DEUTSCH	; DEUTSCH-HOOK 8: Plural Schiffswaffe (Zeichen aus deutsch/optionen.inc)
+	move.b	#DE_PLURAL_WAFFE,(a0,d0.w)
+	else
 	move.b	#$73,(a0,d0.w)
+	endif
 	addq.l	#$1,d0
 	move.b	#$0,(a0,d0.w)
 loc_18234:
@@ -31417,7 +31460,11 @@ loc_18ED4:
 	beq.s	loc_18F34
 	lea	($FFFFD5AE).w,a0
 	jsr	(sub_11C18).l
+	if DEUTSCH	; DEUTSCH-HOOK 9: Plural Trefferpunkt (Zeichen aus deutsch/optionen.inc)
+	move.b	#DE_PLURAL_TP,(a0,d0.w)
+	else
 	move.b	#$73,(a0,d0.w)
+	endif
 	addq.l	#$1,d0
 	move.b	#$0,(a0,d0.w)
 loc_18F34:

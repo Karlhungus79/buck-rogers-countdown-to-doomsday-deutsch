@@ -85,7 +85,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares). Phase 2 (Systemtexte) beginnt.
+Aktueller Stand: Phase 2 läuft. Systemtexte + Gegenstandsnamen gebaut 24.10.2026 (CRC32 598A9641, `Systemtexte.md`), Ares-Test und E1–E4 offen.
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 
