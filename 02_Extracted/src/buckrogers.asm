@@ -27955,7 +27955,11 @@ loc_164BA:
 loc_164FE:
 	move.w	#$5,($FFFFD5D6).w
 	addq.w	#$2,($FFFFD5D8).w
+	if DEUTSCH	; DEUTSCH-HOOK 11: Kampfende, Beute-Zeile mit eigenem Anfangstext (4 Byte wie Original)
+	move.w	#DE_TXT_KAMPFBEUTE,d0
+	else
 	move.w	#$91,d0
+	endif
 	bsr.w	sub_11C8E
 	move.w	#$96,d0
 	bsr.w	sub_11C8E

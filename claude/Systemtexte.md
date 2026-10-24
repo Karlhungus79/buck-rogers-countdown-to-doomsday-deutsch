@@ -25,6 +25,7 @@ Erschaffung, Namenseingabe, Ausbildung, Spieltempo, Kampfleiste); Test in Ares o
 | 6 | `$7EE4` (66 Byte, `sub_7E6E`, Gegenstandszeile Inventar) | Namensteile 3-2-1 + Mehrzahl-„s“ | `jsr DE_Gegenstandsname` + NOPs | dito |
 | 7 | `$16A52` (70 Byte, `sub_169C6`, Laden/Beute) | dito, Anzahl `& $7F` | dito | dito |
 | 8 | `$18226` (Immediate-Byte `$18229`) | Mehrzahl Schiffswaffe `'s'` | `' '` (`DE_PLURAL_WAFFE`) | `$73` |
+| 11 | `loc_164FE` (`move.w #imm,d0`, 4 Byte) | S145 („the team has “) | Zusatztext `DE_TXT_KAMPFBEUTE` (S393 „Erbeutet: “) | `$91` |
 | 9 | `$18F26` (Immediate-Byte `$18F29`) | Mehrzahl „ hit point“ `'s'` | `'e'` → „Trefferpunkte“ (`DE_PLURAL_TP`) | `$73` |
 
 Byte-Vergleich deutsch ↔ Original (erstes MB): nur Header, Hooks 1–9, Schrift, Selbstprüfung
@@ -45,6 +46,8 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 `05_German_Script\systemtexte.toml` (angelegt von `3_deutsch_vorlage.bat`, nie überschrieben):
 - `[[text]]`: `id`, `en`, `de` (leer = Englisch), `leer = true` (absichtlich leer), `max`,
   `hinweis` (Satzbau/Fundort), `leerzeichen_geprueft = true` (Ausnahme, s. u.).
+- `[[zusatz]]`: `name`, `de`, `max` – neue Texte ab S393, im Code als Symbol `DE_TXT_<name>`
+  (`optionen.inc`; im englischen Vergleichsbau = Originalnummer).
 - `[[gegenstand]]`: `teile = [p1, p2, p3]`, `en`, `de`, `de_mehrzahl`, `hinweis`.
 
 `text_einsetzen.py` prüft (Fehler mit ID, dann wird nichts geschrieben):
@@ -80,7 +83,10 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 
 - „<Name> hat Erfolg: <Fertigkeit>“ / „<Name> scheitert: …“ / „Das Team scheitert: …“
 - „<Name> erleidet 5 Schaden.“ (keine Einzahl/Mehrzahl-Frage)
-- Kampfende: „Das Team hat erbeutet: keine Beute.“ / „… erbeutet: Beute.“ / „… erbeutet: 500 Credits“
+- Kampfende 3. Zeile (seit 24.10.2026 abends, Hook 11): eigener Anfangstext „Erbeutet: “ statt S145:
+  „Erbeutet: keine Beute.“ / „Erbeutet: Beute.“ / „Erbeutet: 500 Credits“ (S150 leer).
+  Vorher „Das Team hat erbeutet: keine Beute.“ (35 Zeichen) – brach um (Marcel-Screenshot).
+- (alt) Kampfende: „Das Team hat erbeutet: keine Beute.“ / „… erbeutet: Beute.“ / „… erbeutet: 500 Credits“
   (S150 trägt das Verb, weil bei gefundenen Credits nach S150 die Zahl folgt; geändert 24.10.2026
   nach Marcels Screenshot, vorher fehlte im Credits-Fall das Verb). Zeilen ab x=5 umbrechen wie im
   Original an den linken Rand.

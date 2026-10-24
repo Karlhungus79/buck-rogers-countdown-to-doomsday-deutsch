@@ -85,7 +85,11 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - **Befund Marcel (24.10.2026, Kampfende/Team vernichtet):** Texte erscheinen deutsch, korrekt:
   „Jede Figur erhält 50 Erfahrungspunkte.“, „Euer Team wurde vernichtet.“ Geändert: S150–S152
   („Das Team hat erbeutet: keine Beute.“ – vorher fehlte im Credits-Fall das Verb), S114 kürzer
-  (eine Zeile). Neu gebaut: deutsch F1129EAD, Test 85474848. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
+  (eine Zeile). Neu gebaut: deutsch F1129EAD, Test 85474848.
+- **Spieltest Systemtexte: Marcel „alle Tests erfolgreich“ (24.10.2026, Ares)** – Testliste Nr. 1–15
+  bestätigt (inkl. Laden, Raumkampf mit ANTRIEB, Kampfmeldungen, Stufenaufstieg, Planetenscan).
+  Danach Beute-Zeile korrigiert (Hook 11, Zusatztext S393 „Erbeutet: “, eine Zeile).
+  Neu gebaut: deutsch **2E33C97D**, Test **5BD1A1AE**; Original-Bau bit-genau. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -93,8 +97,8 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
 2. ~~Repo verbinden~~ erledigt 24.10.2026.
-3. Marcel: `7_deutsch_bauen.bat` → CRC32 F1129EAD? Dann Spieltest nach `Testliste_Phase2.md`.
-   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 85474848, Bedienung `Testfassung.md`.
+3. Marcel: `7_deutsch_bauen.bat` → CRC32 2E33C97D? Dann Spieltest nach `Testliste_Phase2.md`.
+   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 5BD1A1AE, Bedienung `Testfassung.md`.
    E5 entschieden 24.10.2026: A („Antrieb“), im Glossar eingetragen.
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
 5. Claude: Monsternamen, vorgefertigte Figuren, Abspann in die Pipeline (Fahrplan 2.7/2.8).

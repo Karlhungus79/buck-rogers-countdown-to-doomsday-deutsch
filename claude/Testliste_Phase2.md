@@ -1,14 +1,15 @@
 # Testliste Phase 2 – Systemtexte
 
-Stand: 24.10.2026. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
-**CRC32 F1129EAD** (Testfassung 85474848) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
+Stand: 24.10.2026. **Marcel: „alle Tests erfolgreich“ (24.10.2026, Ares)** – Nr. 1–15 bestätigt;
+Nr. 12 Beute-Zeile danach geändert (Hook 11, „ERBEUTET: KEINE BEUTE.“), Nachtest offen. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
+**CRC32 2E33C97D** (Testfassung 5BD1A1AE) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
 Spielstand: Ares lädt `08_Savestates\Buck Rogers - Countdown to Doomsday (gebaut).ram` (Spielstand 1).
 Schneller: Testfassung `(test).md` mit Jumper (`Testfassung.md`) – Spalte „Jumper“ = ECL/Disk.
 
 Bitte Screenshot bei allem, was abgeschnitten, umgebrochen, überschrieben oder englisch ist.
 „Im Testemulator gesehen“ = Claude hat es schon geprüft, in Ares noch offen.
 
-| Nr | Stelle | So hinkommen | Erwartung | Testemulator |
+| Nr | Stelle | So hinkommen | Erwartung | Testemulator / Ares |
 |---|---|---|---|---|
 | 1 | Hauptmenü | Start | Symbole beschriftet: FIGUR ERSCHAFFEN, FIGUR AUSBILDEN, FIGUR ENTLASSEN, SPIEL SPEICHERN, SPIEL LADEN, ABENTEUER STARTEN | gesehen |
 | 2 | Spielstand laden | SPIEL LADEN | „LADEN SPIEL 1 : VORGEFERTIGTES TEAM“, leere Plätze „: LEERES TEAM“ | gesehen |

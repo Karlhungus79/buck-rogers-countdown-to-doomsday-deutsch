@@ -853,8 +853,9 @@ de = "Erfahrungspunkte."
 [[text]]
 id = "S150"
 en = "found "
-de = "erbeutet: "
-hinweis = "Kampfende ab x=5: 'Das Team hat ' + S150 + (S151 + S152 | S152 | Zahl + ' Credits'). Fall Credits braucht das Verb hier (Befund 24.10.2026)"
+de = ""
+leer = true
+hinweis = "Kampfende: Zusatztext KAMPFBEUTE ('Erbeutet: ') + S150 + (S151 + S152 | S152 | Zahl + ' Credits'), DEUTSCH-HOOK 11"
 
 [[text]]
 id = "S151"
@@ -2106,6 +2107,15 @@ de = ""
 id = "S392"
 en = "\nLicensed by Sega Enterprises, ltd."
 de = ""
+
+# Zusatztexte (neue Systemtexte ab Nr. 393, im Code ueber DE_TXT_<name>, siehe claude/Systemtexte.md)
+
+[[zusatz]]
+name = "KAMPFBEUTE"
+en = "(Original: S145 'the team has ' + 'found ')"
+de = "Erbeutet: "
+max = 12
+hinweis = "Kampfende, 3. Zeile ab x=5 (Hook 11). 'Das Team hat erbeutet: keine Beute.' (35) brach um, Fenster bis ca. x=37 (Marcel 24.10.2026)"
 
 # Fertige Gegenstandsnamen (DEUTSCH-HOOK 6/7): teile = Namensteile p1,p2,p3 aus der
 # Gegenstandstabelle (ROM $F17D6). Leeres de = aus den Teilen zusammengesetzt.

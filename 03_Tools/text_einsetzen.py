@@ -56,6 +56,7 @@ SYS_DE = os.path.join(ROOT, "05_German_Script", "systemtexte.toml")
 SYS_BASIS = 0x101000      # muss zu "org $101000" in deutsch.asm passen
 SYS_GRENZE = 0x108000     # danach beginnt DE_Modultabelle
 SYS_MENUE_MAX = 41        # sub_136DA: Puffer -$2A(a6), 42 Byte inkl. Ende
+ZUSATZ_ORIGINAL = {"KAMPFBEUTE": 0x91}   # Hook 11: Rueckfallwert S145 'the team has '
 NAME_MAX = 25             # Gegenstandszeile: Fenster x2-34 (sub_7FC0) = 33 Zeichen minus "bereit: "
 NAME_MAX_ANZAHL = 21      # dazu Anzahl "  3 "
 
@@ -97,7 +98,21 @@ def systemtexte_bauen(rom, fehler, hinweise, stat):
             fehler.append("%s: %d Zeichen > %d (max): %r" % (tid, len(zs.anzeigen(b)), t["max"], de))
         out.append(b)
 
-    # Fertige Gegenstandsnamen -> neue Systemtexte ab Nr. 393
+    # Zusatztexte (neue Systemtexte direkt ab Nr. 393, Nummer als Symbol DE_TXT_<NAME> in optionen.inc)
+    zusatz_sym = {}
+    for z in d.get("zusatz", []):
+        try:
+            b = zs.kodieren(z["de"])
+        except zs.ZeichenFehler as x:
+            fehler.append("Zusatz %s: %s" % (z["name"], x))
+            b = b"?"
+        if "max" in z and len(b) > z["max"]:
+            fehler.append("Zusatz %s: %d Zeichen > %d" % (z["name"], len(b), z["max"]))
+        zusatz_sym[z["name"]] = len(out)
+        out.append(b)
+        stat["sys_deutsch"] += 1
+
+    # Fertige Gegenstandsnamen -> neue Systemtexte nach den Zusatztexten
     namen = bytearray(b"\0s" if englisch else b"\0\0")   # Kopf: Mehrzahl-Zeichen beim Zusammensetzen
     for g in d.get("gegenstand", []):
         if not g.get("de"):
@@ -138,6 +153,9 @@ def systemtexte_bauen(rom, fehler, hinweise, stat):
                 "DE_PLURAL_WAFFE = $%02X\t; Mehrzahl Schiffswaffe (DEUTSCH-HOOK 8), Original $73 's'\n"
                 "DE_PLURAL_TP = $%02X\t; Mehrzahl ' Trefferpunkt' (DEUTSCH-HOOK 9), Original $73 's'\n"
                 % ((0x73, 0x73) if englisch else (0x20, 0x65)))
+    # Zusatztexte: im englischen Vergleichsbau der Originaltext (Rueckfallwert)
+    for name, orig in ZUSATZ_ORIGINAL.items():
+        optionen += "DE_TXT_%s = $%X\t; Zusatztext (Original S%03d)\n" % (name, zusatz_sym.get(name, orig), orig)
     return sys_bin, bytes(namen), optionen
 
 
