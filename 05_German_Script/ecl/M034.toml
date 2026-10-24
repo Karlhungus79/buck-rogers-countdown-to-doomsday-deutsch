@@ -6,728 +6,728 @@
 id = "M034_000"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC QUICKLY HEALS THE TEAM."
-de = ""
+de = "Der Autodoc heilt das Team rasch."
 
 [[text]]
 id = "M034_001"
 befehl = ["HMENU"]
 menue = true
 en = "THULE"
-de = ""
+de = "Thule"
 
 [[text]]
 id = "M034_002"
 befehl = ["HMENU"]
 menue = true
 en = "PRISON"
-de = ""
+de = "Gefängnis"
 
 [[text]]
 id = "M034_003"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_004"
 befehl = ["HMENU"]
 menue = true
 en = "THULE"
-de = ""
+de = "Thule"
 
 [[text]]
 id = "M034_005"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_006"
 befehl = ["HMENU"]
 menue = true
 en = "HIELO"
-de = ""
+de = "Hielo"
 
 [[text]]
 id = "M034_007"
 befehl = ["HMENU"]
 menue = true
 en = "MARIPOSA THREE"
-de = ""
+de = "Mariposa Three"
 
 [[text]]
 id = "M034_008"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_009"
 befehl = ["HMENU"]
 menue = true
 en = "NEW ELYSIUM"
-de = ""
+de = "New Elysium"
 
 [[text]]
 id = "M034_010"
 befehl = ["HMENU"]
 menue = true
 en = "VENUS LOWLANDS"
-de = ""
+de = "Venus-Tiefland"
 
 [[text]]
 id = "M034_011"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_012"
 befehl = ["HMENU"]
 menue = true
 en = "SALVATION"
-de = ""
+de = "Salvation"
 
 [[text]]
 id = "M034_013"
 befehl = ["HMENU"]
 menue = true
 en = "TYCHO"
-de = ""
+de = "Tycho"
 
 [[text]]
 id = "M034_014"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_015"
 befehl = ["HMENU"]
 menue = true
 en = "PAVONIS"
-de = ""
+de = "Pavonis"
 
 [[text]]
 id = "M034_016"
 befehl = ["HMENU"]
 menue = true
 en = "MARS HIGH DESERT"
-de = ""
+de = "Mars-Hochwüste"
 
 [[text]]
 id = "M034_017"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_018"
 befehl = ["HMENU"]
 menue = true
 en = "CERES"
-de = ""
+de = "Ceres"
 
 [[text]]
 id = "M034_019"
 befehl = ["HMENU"]
 menue = true
 en = "ASTEROID BASE"
-de = ""
+de = "Asteroidenbasis"
 
 [[text]]
 id = "M034_020"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_021"
 befehl = ["HMENU"]
 menue = true
 en = "VESTA"
-de = ""
+de = "Vesta"
 
 [[text]]
 id = "M034_022"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_023"
 befehl = ["HMENU"]
 menue = true
 en = "FORTUNA"
-de = ""
+de = "Fortuna"
 
 [[text]]
 id = "M034_024"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_025"
 befehl = ["HMENU"]
 menue = true
 en = "PALLAS"
-de = ""
+de = "Pallas"
 
 [[text]]
 id = "M034_026"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_027"
 befehl = ["PRINTCLEAR"]
 en = "YOU PICK UP A WEAK DISTRESS SIGNAL FROM A SMALL ASTEROID."
-de = ""
+de = "Ihr empfangt ein schwaches Notsignal von einem kleinen Asteroiden."
 
 [[text]]
 id = "M034_028"
 befehl = ["HMENU"]
 menue = true
 en = "PSYCHE"
-de = ""
+de = "Psyche"
 
 [[text]]
 id = "M034_029"
 befehl = ["HMENU"]
 menue = true
 en = "ASTEROID"
-de = ""
+de = "Asteroid"
 
 [[text]]
 id = "M034_030"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_031"
 befehl = ["HMENU"]
 menue = true
 en = "PSYCHE"
-de = ""
+de = "Psyche"
 
 [[text]]
 id = "M034_032"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_033"
 befehl = ["HMENU"]
 menue = true
 en = "JUNO"
-de = ""
+de = "Juno"
 
 [[text]]
 id = "M034_034"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_035"
 befehl = ["HMENU"]
 menue = true
 en = "JUNO"
-de = ""
+de = "Juno"
 
 [[text]]
 id = "M034_036"
 befehl = ["HMENU"]
 menue = true
 en = "RENDEZVOUS"
-de = ""
+de = "Treffpunkt"
 
 [[text]]
 id = "M034_037"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_038"
 befehl = ["PRINT"]
 en = " NOTICES SOMETHING STRANGE ON THE SCANNER. SCOT.DOS BEGINS AN ANALYSIS."
-de = ""
+de = " bemerkt etwas Seltsames auf dem Scanner. Scot.DOS beginnt eine Analyse."
 
 [[text]]
 id = "M034_039"
 befehl = ["PRINTCLEAR"]
 en = "'GETTING AN ECHO OFF A SMALL ASTEROID NEARBY. SOMEONE APPEARS TO BE MONITORING US.'"
-de = ""
+de = "'Ich empfange ein Echo von einem kleinen Asteroiden in der Nähe. Jemand scheint uns zu beobachten.'"
 
 [[text]]
 id = "M034_040"
 befehl = ["HMENU"]
 menue = true
 en = "HYGEIA"
-de = ""
+de = "Hygeia"
 
 [[text]]
 id = "M034_041"
 befehl = ["HMENU"]
 menue = true
 en = "COMM CENTER"
-de = ""
+de = "Funkzentrale"
 
 [[text]]
 id = "M034_042"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_043"
 befehl = ["HMENU"]
 menue = true
 en = "HYGEIA"
-de = ""
+de = "Hygeia"
 
 [[text]]
 id = "M034_044"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_045"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY THE PASSWORD. A TRANSPONDER RESPONDS."
-de = ""
+de = "Ihr probiert das Passwort. Ein Transponder antwortet."
 
 [[text]]
 id = "M034_046"
 befehl = ["HMENU"]
 menue = true
 en = "AURORA"
-de = ""
+de = "Aurora"
 
 [[text]]
 id = "M034_047"
 befehl = ["HMENU"]
 menue = true
 en = "TALON'S BASE"
-de = ""
+de = "Talons Basis"
 
 [[text]]
 id = "M034_048"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_049"
 befehl = ["HMENU"]
 menue = true
 en = "AURORA"
-de = ""
+de = "Aurora"
 
 [[text]]
 id = "M034_050"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Weg"
 
 [[text]]
 id = "M034_051"
 befehl = ["PRINTCLEAR"]
 en = "BASE UNDER REPAIR."
-de = ""
+de = "Basis wird repariert."
 
 [[text]]
 id = "M034_052"
 befehl = ["PRINTCLEAR"]
 en = "MARIPOSA THREE LOCATED..."
-de = ""
+de = "Mariposa Three geortet..."
 
 [[text]]
 id = "M034_053"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS FEEDS THE SHIP CODE TO THE MARIPOSA."
-de = ""
+de = "Scot.DOS übermittelt der Mariposa den Schiffscode."
 
 [[text]]
 id = "M034_054"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE CLEARED TO LAND.'"
-de = ""
+de = "'Landeerlaubnis erteilt.'"
 
 [[text]]
 id = "M034_055"
 befehl = ["PRINTCLEAR"]
 en = "'YOU DO NOT HAVE THE PROPER CLEARANCE. YOU CANNOT LAND.'"
-de = ""
+de = "'Sie haben keine gültige Freigabe. Sie dürfen nicht landen.'"
 
 [[text]]
 id = "M034_056"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M034_057"
 befehl = ["HMENU"]
 menue = true
 en = "CHARGE"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M034_058"
 befehl = ["PRINTCLEAR"]
 en = "THE MARIPOSA FIRES AND YOU RUN..."
-de = ""
+de = "Die Mariposa feuert, und ihr flieht..."
 
 [[text]]
 id = "M034_059"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE BLOCKED BY A BLAST DOOR AND HAVE TO LEAVE."
-de = ""
+de = "Ein Explosionsschott versperrt euch den Weg, ihr müsst umkehren."
 
 [[text]]
 id = "M034_060"
 befehl = ["PRINTCLEAR"]
 en = "SCANNING..."
-de = ""
+de = "Scan läuft..."
 
 [[text]]
 id = "M034_061"
 befehl = ["PRINTCLEAR"]
 en = "SCANNING..."
-de = ""
+de = "Scan läuft..."
 
 [[text]]
 id = "M034_062"
 befehl = ["PRINTCLEAR"]
 en = "YOU START TO LAND, BUT ARE INTERCEPTED BY A SCOUT."
-de = ""
+de = "Ihr setzt zur Landung an, werdet aber von einem Aufklärer abgefangen."
 
 [[text]]
 id = "M034_063"
 befehl = ["HMENU"]
 menue = true
 en = "BLUFF"
-de = ""
+de = "Bluffen"
 
 [[text]]
 id = "M034_064"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M034_065"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M034_066"
 befehl = ["PRINTCLEAR"]
 en = "THEY DON'T BELIEVE YOU. THEY DEMAND YOUR SURRENDER."
-de = ""
+de = "Sie glauben euch nicht und fordern eure Kapitulation."
 
 [[text]]
 id = "M034_067"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M034_068"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M034_069"
 befehl = ["PRINTCLEAR"]
 en = "YOU DESCEND TO THE PARCHED AND WINDBLOWN DESERTS OF MARS."
-de = ""
+de = "Ihr steigt hinab in die ausgedörrten, windgepeitschten Wüsten des Mars."
 
 [[text]]
 id = "M034_070"
 befehl = ["PRINTCLEAR"]
 en = "BASE LOCATED..."
-de = ""
+de = "Basis geortet..."
 
 [[text]]
 id = "M034_071"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IDENTIFIED AND GUIDED INTO ONE OF THE DOCKING BAYS."
-de = ""
+de = "Ihr werdet erkannt und in eine der Andockbuchten gelotst."
 
 [[text]]
 id = "M034_072"
 befehl = ["PRINTCLEAR"]
 en = "SCANNING..."
-de = ""
+de = "Scan läuft..."
 
 [[text]]
 id = "M034_073"
 befehl = ["PRINTCLEAR"]
 en = "YOU LOCATE THE ASTEROID AND DOCK."
-de = ""
+de = "Ihr findet den Asteroiden und dockt an."
 
 [[text]]
 id = "M034_074"
 befehl = ["PRINTCLEAR"]
 en = "BASE LOCATED..."
-de = ""
+de = "Basis geortet..."
 
 [[text]]
 id = "M034_075"
 befehl = ["PRINTCLEAR"]
 en = "DOCKING..."
-de = ""
+de = "Andocken..."
 
 [[text]]
 id = "M034_076"
 befehl = ["PRINTCLEAR"]
 en = "PRISON LOCATED..."
-de = ""
+de = "Gefängnis geortet..."
 
 [[text]]
 id = "M034_077"
 befehl = ["PRINTCLEAR"]
 en = "LANDING..."
-de = ""
+de = "Landung..."
 
 [[text]]
 id = "M034_078"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARRIVE AT THE RENDEZVOUS..."
-de = ""
+de = "Ihr erreicht den Treffpunkt..."
 
 [[text]]
 id = "M034_079"
 befehl = ["PRINTCLEAR"]
 en = "LANDING..."
-de = ""
+de = "Landung..."
 
 [[text]]
 id = "M034_080"
 befehl = ["PRINTCLEAR"]
 en = "ASTEROID LOCATED..."
-de = ""
+de = "Asteroid geortet..."
 
 [[text]]
 id = "M034_081"
 befehl = ["PRINTCLEAR"]
 en = "LANDING..."
-de = ""
+de = "Landung..."
 
 [[text]]
 id = "M034_082"
 befehl = ["PRINTCLEAR"]
 en = "SENSOR ALERT!"
-de = ""
+de = "Sensoralarm!"
 
 [[text]]
 id = "M034_083"
 befehl = ["HMENU"]
 menue = true
 en = "HAIL"
-de = ""
+de = "Funken"
 
 [[text]]
 id = "M034_084"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M034_085"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M034_086"
 befehl = ["PRINTCLEAR"]
 en = "THE SHIP HAILS YOU."
-de = ""
+de = "Das Schiff funkt euch an."
 
 [[text]]
 id = "M034_087"
 befehl = ["HMENU"]
 menue = true
 en = "BLUFF"
-de = ""
+de = "Bluffen"
 
 [[text]]
 id = "M034_088"
 befehl = ["HMENU"]
 menue = true
 en = "INTIMIDATE"
-de = ""
+de = "Drohen"
 
 [[text]]
 id = "M034_089"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY TO BLUFF YOUR WAY OUT."
-de = ""
+de = "Ihr versucht, euch herauszubluffen."
 
 [[text]]
 id = "M034_090"
 befehl = ["PRINTCLEAR"]
 en = "YOU CONVINCE THEM THAT YOU ARE ON THEIR SIDE."
-de = ""
+de = "Ihr überzeugt sie, dass ihr auf ihrer Seite steht."
 
 [[text]]
 id = "M034_091"
 befehl = ["PRINTCLEAR"]
 en = "YOU CHALLENGE THE SHIP."
-de = ""
+de = "Ihr fordert das Schiff heraus."
 
 [[text]]
 id = "M034_092"
 befehl = ["PRINTCLEAR"]
 en = "THEY BACK DOWN AND RUN."
-de = ""
+de = "Sie geben klein bei und fliehen."
 
 [[text]]
 id = "M034_093"
 befehl = ["PRINTCLEAR"]
 en = "THEY WEREN'T IMPRESSED."
-de = ""
+de = "Das hat sie nicht beeindruckt."
 
 [[text]]
 id = "M034_094"
 befehl = ["PRINTCLEAR"]
 en = "YOU CANNOT ESCAPE."
-de = ""
+de = "Ihr könnt nicht entkommen."
 
 [[text]]
 id = "M034_095"
 befehl = ["PRINTCLEAR"]
 en = "'RECEIVING A MESSAGE FROM SALVATION. NEO ASKS THAT WE VISIT THE RESTAURANT CHEZ LUNA ON TYCHO.'"
-de = ""
+de = "'Nachricht von Salvation. Die NEO bittet uns, das Restaurant Chez Luna auf Tycho aufzusuchen.'"
 
 [[text]]
 id = "M034_096"
 befehl = ["PRINTCLEAR"]
 en = "DOCKING AT SPACEPORT..."
-de = ""
+de = "Andocken am Raumhafen..."
 
 [[text]]
 id = "M034_097"
 befehl = ["PRINTCLEAR"]
 en = "YOU ESCAPE..."
-de = ""
+de = "Ihr entkommt..."
 
 [[text]]
 id = "M034_098"
 befehl = ["PRINTCLEAR"]
 en = "CLOSING..."
-de = ""
+de = "Annäherung..."
 
 [[text]]
 id = "M034_099"
 befehl = ["PRINT"]
 en = "LANDING..."
-de = ""
+de = "Landung..."
 
 [[text]]
 id = "M034_100"
 befehl = ["PRINT"]
 en = "RAM SCOUT"
-de = ""
+de = "Ein RAM-Aufklärer"
 
 [[text]]
 id = "M034_101"
 befehl = ["PRINT"]
 en = "RAM MEDIUM"
-de = ""
+de = "Ein mittlerer RAM-Kreuzer"
 
 [[text]]
 id = "M034_102"
 befehl = ["PRINT"]
 en = "RAM HEAVY"
-de = ""
+de = "Ein schwerer RAM-Kreuzer"
 
 [[text]]
 id = "M034_103"
 befehl = ["PRINT"]
 en = "PIRATE MEDIUM"
-de = ""
+de = "Ein mittlerer Piratenkreuzer"
 
 [[text]]
 id = "M034_104"
 befehl = ["PRINT"]
 en = "MERCURIAN MEDIUM"
-de = ""
+de = "Ein mittlerer merkurianischer Kreuzer"
 
 [[text]]
 id = "M034_105"
 befehl = ["PRINT"]
 en = " CRUISER APPROACHING."
-de = ""
+de = " nähert sich."
 
 [[text]]
 id = "M034_106"
 befehl = ["PRINTCLEAR"]
 en = "YOU SALVAGE: "
-de = ""
+de = "Ihr bergt: "
 
 [[text]]
 id = "M034_107"
 befehl = ["PRINT"]
 en = "00 CREDITS FROM THE BATTLE."
-de = ""
+de = "00 Credits aus dem Kampf."
 
 [[text]]
 id = "M034_108"
 befehl = ["PRINTCLEAR"]
 en = "THE PIRATE SHIP LEAVES YOUR SENSOR RANGE."
-de = ""
+de = "Das Piratenschiff verlässt eure Sensorreichweite."
 
 [[text]]
 id = "M034_109"
 befehl = ["PRINTCLEAR"]
 en = "THE NEXT SHIP ARRIVES IN FIRING RANGE."
-de = ""
+de = "Das nächste Schiff kommt in Schussweite."
 
 [[text]]
 id = "M034_110"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS REPORTS, 'SCANNERS SHOW A LONE SHIP TRAVELLING AT A HIGH VELOCITY."
-de = ""
+de = "Scot.DOS meldet: 'Die Scanner zeigen ein einzelnes Schiff mit hoher Geschwindigkeit."
 
 [[text]]
 id = "M034_111"
 befehl = ["PRINTCLEAR"]
 en = "'IT'S HEADED FOR CERES WITH RAM SHIPS IN PURSUIT.'"
-de = ""
+de = "'Es fliegt nach Ceres, RAM-Schiffe sind ihm auf den Fersen.'"

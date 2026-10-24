@@ -6,104 +6,104 @@
 id = "M050_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU PASS A SMALL ASTEROID WITH A PIRATE CRUISER LURKING IN ITS SHADOW. BEFORE YOU CAN REACT, THE CRUISER FIRES!"
-de = ""
+de = "Ihr passiert einen kleinen Asteroiden, in dessen Schatten ein Piratenkreuzer lauert. Bevor ihr reagieren könnt, feuert der Kreuzer!"
 
 [[text]]
 id = "M050_001"
 befehl = ["PRINTCLEAR"]
 en = "YOUR ENGINES AND WEAPONS ARE BADLY DAMAGED. THE CRUISER CLOSES AND EXTENDS A BOARDING TUBE. "
-de = ""
+de = "Antrieb und Waffen sind schwer beschädigt. Der Kreuzer kommt näher und fährt eine Enterröhre aus. "
 
 [[text]]
 id = "M050_002"
 befehl = ["HMENU"]
 menue = true
 en = "HAIL"
-de = ""
+de = "Funken"
 
 [[text]]
 id = "M050_003"
 befehl = ["HMENU"]
 menue = true
 en = "RAM"
-de = ""
+de = "Rammen"
 
 [[text]]
 id = "M050_004"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M050_005"
 befehl = ["PRINTCLEAR"]
 en = "YOU RECEIVE A BROADCAST FROM THE ENEMY SHIP."
-de = ""
+de = "Ihr empfangt eine Nachricht vom feindlichen Schiff."
 
 [[text]]
 id = "M050_006"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY TO MANEUVER INTO RAMMING POSITION, BUT YOU ARE TOO SLOW. THEY BROADCAST A MESSAGE. "
-de = ""
+de = "Ihr versucht, in Rammposition zu kommen, seid aber zu langsam. Sie senden eine Nachricht. "
 
 [[text]]
 id = "M050_007"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY TO FLEE, BUT THE OTHER SHIP IS FASTER. THEY BROADCAST A MESSAGE. "
-de = ""
+de = "Ihr versucht zu fliehen, aber das andere Schiff ist schneller. Sie senden eine Nachricht. "
 
 [[text]]
 id = "M050_008"
 befehl = ["PRINT"]
 en = "'SURRENDER OR DIE!'"
-de = ""
+de = "'Ergebt euch oder sterbt!'"
 
 [[text]]
 id = "M050_009"
 befehl = ["PRINTCLEAR"]
 en = "THE BOARDING TUBE CLANKS AGAINST YOUR SHIP."
-de = ""
+de = "Die Enterröhre schlägt scheppernd gegen euer Schiff."
 
 [[text]]
 id = "M050_010"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK BOARDING PARTY"
-de = ""
+de = "Enterer angreifen"
 
 [[text]]
 id = "M050_011"
 befehl = ["HMENU"]
 menue = true
 en = "SURRENDER"
-de = ""
+de = "Ergeben"
 
 [[text]]
 id = "M050_012"
 befehl = ["PRINTCLEAR"]
 en = "THE PIRATES LOVE NOTHING MORE THAN A GOOD FIGHT."
-de = ""
+de = "Nichts lieben Piraten mehr als einen guten Kampf."
 
 [[text]]
 id = "M050_013"
 befehl = ["PRINTCLEAR"]
 en = "MORE PIRATES CHARGE TOWARDS YOU!"
-de = ""
+de = "Weitere Piraten stürmen heran!"
 
 [[text]]
 id = "M050_014"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M050_015"
 befehl = ["HMENU"]
 menue = true
 en = "SURRENDER"
-de = ""
+de = "Ergeben"
 
 [[text]]
 id = "M050_016"
@@ -115,416 +115,416 @@ de = ""
 id = "M050_017"
 befehl = ["PRINTCLEAR"]
 en = "A FEW STUN GRENADES FLY INTO THE ROOM JUST BEFORE THE AIRLOCK DOOR SLAMS SHUT. THE ENTIRE TEAM PASSES OUT."
-de = ""
+de = "Kurz bevor das Schleusentor zuschlägt, fliegen Betäubungsgranaten in den Raum. Das ganze Team verliert das Bewusstsein."
 
 [[text]]
 id = "M050_018"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE AWAKENED BY PIRATE GUARDS. AS YOUR HEAD CLEARS, YOU SEE THAT YOU ARE IMPRISONED IN A HOLDING CELL ON THE PIRATE SHIP."
-de = ""
+de = "Piratenwachen wecken euch. Als ihr klarer werdet, seht ihr: Ihr sitzt in einer Arrestzelle auf dem Piratenschiff."
 
 [[text]]
 id = "M050_019"
 befehl = ["PRINTCLEAR"]
 en = "A GUARD SAYS, 'TALON SUMMONS YOU.' HE OPENS THE DOOR AND ORDERS YOU TO FOLLOW."
-de = ""
+de = "Eine Wache sagt: 'Talon will euch sehen.' Sie öffnet die Tür und befiehlt euch, zu folgen."
 
 [[text]]
 id = "M050_020"
 befehl = ["PRINTCLEAR"]
 en = "YOU STEP OUT OF THE CELL."
-de = ""
+de = "Ihr tretet aus der Zelle."
 
 [[text]]
 id = "M050_021"
 befehl = ["HMENU"]
 menue = true
 en = "FOLLOW"
-de = ""
+de = "Folgen"
 
 [[text]]
 id = "M050_022"
 befehl = ["HMENU"]
 menue = true
 en = "RUN"
-de = ""
+de = "Rennen"
 
 [[text]]
 id = "M050_023"
 befehl = ["PRINTCLEAR"]
 en = "A MAN IN BATTLE ARMOR TOWERS OVER YOU. 'I AM TALON, PRISONERS, CAPTAIN OF THIS SHIP. RAM WILL PAY RICHLY FOR YOUR PITIFUL BAND.'"
-de = ""
+de = "Ein Mann in Kampfpanzerung baut sich vor euch auf. 'Ich bin Talon, Kapitän dieses Schiffs. RAM zahlt gut für euren jämmerlichen Haufen.'"
 
 [[text]]
 id = "M050_024"
 befehl = ["PRINTCLEAR"]
 en = "HE SNEERS. 'HOWEVER, ONE OF YOU MAY CHALLENGE ME IN SINGLE COMBAT, TO WIN YOUR FREEDOM.'"
-de = ""
+de = "Er grinst höhnisch. 'Allerdings darf einer von euch mich zum Zweikampf fordern, um eure Freiheit zu gewinnen.'"
 
 [[text]]
 id = "M050_025"
 befehl = ["HMENU"]
 menue = true
 en = "ACCEPT"
-de = ""
+de = "Annehmen"
 
 [[text]]
 id = "M050_026"
 befehl = ["HMENU"]
 menue = true
 en = "DECLINE"
-de = ""
+de = "Ablehnen"
 
 [[text]]
 id = "M050_027"
 befehl = ["WHO"]
 en = "WHO FIGHTS"
-de = ""
+de = "Wer kämpft?"
 
 [[text]]
 id = "M050_028"
 befehl = ["PRINTCLEAR"]
 en = "'I WAS BEATEN FAIRLY. YOU'VE WON YOUR FREEDOM.'"
-de = ""
+de = "'Ich wurde fair besiegt. Ihr habt eure Freiheit gewonnen.'"
 
 [[text]]
 id = "M050_029"
 befehl = ["PRINTCLEAR"]
 en = "A MAN BURSTS INTO THE ROOM. HE LOOKS AT "
-de = ""
+de = "Ein Mann stürmt in den Raum. Er blickt auf "
 
 [[text]]
 id = "M050_030"
 befehl = ["PRINT"]
 en = ". 'CONGRATULATIONS! EVEN I WOULDN'T HAVE TRIED THAT.'"
-de = ""
+de = ". 'Glückwunsch! Nicht mal ich hätte das versucht.'"
 
 [[text]]
 id = "M050_031"
 befehl = ["PRINTCLEAR"]
 en = "'LET'S GET OUT OF HERE, BEFORE WE WEAR OUT OUR WELCOME.'"
-de = ""
+de = "'Lasst uns verschwinden, bevor wir hier nicht mehr willkommen sind.'"
 
 [[text]]
 id = "M050_032"
 befehl = ["PRINTCLEAR"]
 en = "THE AIRLOCK DOORS SLIDE OPEN AND YOU ENTER YOUR SHIP."
-de = ""
+de = "Die Schleusentore gleiten auf, und ihr betretet euer Schiff."
 
 [[text]]
 id = "M050_033"
 befehl = ["PRINTCLEAR"]
 en = "YOU FLY BACK TO SALVATION."
-de = ""
+de = "Ihr fliegt zurück nach Salvation."
 
 [[text]]
 id = "M050_034"
 befehl = ["PRINTCLEAR"]
 en = "BUCK LEAVES BEFORE YOU REACH SALVATION."
-de = ""
+de = "Buck geht, bevor ihr Salvation erreicht."
 
 [[text]]
 id = "M050_035"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARD SHRUGS AND RAISES A WEAPON. YOU ARE STUNNED AGAIN."
-de = ""
+de = "Die Wache zuckt die Schultern und hebt eine Waffe. Ihr werdet erneut betäubt."
 
 [[text]]
 id = "M050_036"
 befehl = ["PRINTCLEAR"]
 en = "YOU AWAKEN ON THE BRIDGE."
-de = ""
+de = "Ihr erwacht auf der Brücke."
 
 [[text]]
 id = "M050_037"
 befehl = ["PRINTCLEAR"]
 en = "'WEAKLINGS! GET THEM OFF MY BRIDGE. THEY'RE RAM'S PROBLEM NOW.'"
-de = ""
+de = "'Schwächlinge! Schafft sie von meiner Brücke. Sollen sich RAM um sie kümmern.'"
 
 [[text]]
 id = "M050_038"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARD RETURN YOU TO YOUR CELL."
-de = ""
+de = "Die Wachen bringen euch zurück in die Zelle."
 
 [[text]]
 id = "M050_039"
 befehl = ["PRINTCLEAR"]
 en = "'YOU CAN ROT HERE UNTIL RAM CLAIMS YOU.' THE GUARDS LEAVE."
-de = ""
+de = "'Hier könnt ihr verrotten, bis RAM euch abholt.' Die Wachen gehen."
 
 [[text]]
 id = "M050_040"
 befehl = ["PRINTCLEAR"]
 en = "THIS AIRLOCK HAS BEEN SEALED FOR SPACE TRAVEL. IT CAN ONLY BE OPENED THROUGH ENGINEERING."
-de = ""
+de = "Diese Schleuse ist für den Raumflug versiegelt. Sie lässt sich nur vom Maschinendeck aus öffnen."
 
 [[text]]
 id = "M050_041"
 befehl = ["PRINTCLEAR"]
 en = "THE AIRLOCK DOORS OPEN INTO YOUR SHIP. 'WE MUST RETURN TO SALVATION.' HE HURRIES YOU ABOARD."
-de = ""
+de = "Die Schleusentore öffnen sich zu eurem Schiff. 'Wir müssen zurück nach Salvation.' Er treibt euch an Bord."
 
 [[text]]
 id = "M050_042"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS REPORTS, 'I'VE GOTTEN INFORMATION FROM THE PIRATE'S COMPUTER."
-de = ""
+de = "Scot.DOS meldet: 'Ich habe Daten aus dem Piratencomputer."
 
 [[text]]
 id = "M050_043"
 befehl = ["PRINTCLEAR"]
 en = "'TALON HAS ECG CANISTERS STASHED IN A SECRET BASE SOMEWHERE IN THE BELT. WE SHOULD DESTROY THEM BEFORE THEY HATCH!"
-de = ""
+de = "'Talon hat ECG-Behälter in einer geheimen Basis im Gürtel versteckt. Wir sollten sie zerstören, bevor sie schlüpfen!"
 
 [[text]]
 id = "M050_044"
 befehl = ["PRINTCLEAR"]
 en = "'I FOUND RECORDS OF A 'GARRITY' THAT JUMPED SHIP ON PALLAS, MAYBE HE KNOWS WHERE THE BASE IS.'"
-de = ""
+de = "'Ich fand Daten über einen gewissen Garrity, der auf Pallas abgehauen ist. Vielleicht kennt er die Basis.'"
 
 [[text]]
 id = "M050_045"
 befehl = ["PRINTCLEAR"]
 en = "'THE BRIDGE IS TOO HEAVILY GUARDED! STORMING IT WOULD BE SUICIDE!' "
-de = ""
+de = "'Die Brücke ist zu stark bewacht! Ein Sturmangriff wäre Selbstmord!' "
 
 [[text]]
 id = "M050_046"
 befehl = ["HMENU"]
 menue = true
 en = "CHARGE FORWARD"
-de = ""
+de = "Vorstürmen"
 
 [[text]]
 id = "M050_047"
 befehl = ["HMENU"]
 menue = true
 en = "STAY BACK"
-de = ""
+de = "Zurückbleiben"
 
 [[text]]
 id = "M050_048"
 befehl = ["PRINTCLEAR"]
 en = "BUCK GROANS TO HIMSELF BUT CHARGES WITH THE TEAM."
-de = ""
+de = "Buck stöhnt leise, stürmt aber mit dem Team vor."
 
 [[text]]
 id = "M050_049"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE DEFEATED TALON AND CAPTURED THE BRIDGE."
-de = ""
+de = "Ihr habt Talon besiegt und die Brücke erobert."
 
 [[text]]
 id = "M050_050"
 befehl = ["PRINTCLEAR"]
 en = "TALON IS ON THE BRIDGE WITH HIS PIRATES."
-de = ""
+de = "Talon ist mit seinen Piraten auf der Brücke."
 
 [[text]]
 id = "M050_051"
 befehl = ["PRINT"]
 en = " 'WHAT'S THAT I HEAR?' HE LAUGHS. 'COWARDLY MICE ON THE STAIRS!'"
-de = ""
+de = " 'Was höre ich da?' Er lacht. 'Feige Mäuse auf der Treppe!'"
 
 [[text]]
 id = "M050_052"
 befehl = ["PRINTCLEAR"]
 en = "YOU HIDE IN THE STAIRWAY."
-de = ""
+de = "Ihr versteckt euch im Treppenhaus."
 
 [[text]]
 id = "M050_053"
 befehl = ["PRINTCLEAR"]
 en = "TALON IS HERE, WITH THE LAST OF HIS PIRATES."
-de = ""
+de = "Talon ist hier, mit dem Rest seiner Piraten."
 
 [[text]]
 id = "M050_054"
 befehl = ["PRINTCLEAR"]
 en = "'LET'S FIND A WAY TO THIN OUT ALL THOSE GUARDS BEFORE WE JUST BARGE IN HERE.' "
-de = ""
+de = "'Wir sollten die vielen Wachen erst ausdünnen, bevor wir hier hereinplatzen.' "
 
 [[text]]
 id = "M050_055"
 befehl = ["PRINTCLEAR"]
 en = "THE ENGINEERING DECK LOOKS ESPECIALLY WELL GUARDED. "
-de = ""
+de = "Das Maschinendeck ist besonders gut bewacht. "
 
 [[text]]
 id = "M050_056"
 befehl = ["HMENU"]
 menue = true
 en = "CHARGE FORWARD"
-de = ""
+de = "Vorstürmen"
 
 [[text]]
 id = "M050_057"
 befehl = ["HMENU"]
 menue = true
 en = "STAY BACK"
-de = ""
+de = "Zurückbleiben"
 
 [[text]]
 id = "M050_058"
 befehl = ["PRINTCLEAR"]
 en = "THE ENGINEERING DECK IS ABANDONED."
-de = ""
+de = "Das Maschinendeck ist verlassen."
 
 [[text]]
 id = "M050_059"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARDS ON THE ENGINEERING DECK LOOK DISORGANIZED AND CONFUSED. "
-de = ""
+de = "Die Wachen auf dem Maschinendeck wirken ungeordnet und verwirrt. "
 
 [[text]]
 id = "M050_060"
 befehl = ["HMENU"]
 menue = true
 en = "CHARGE FORWARD"
-de = ""
+de = "Vorstürmen"
 
 [[text]]
 id = "M050_061"
 befehl = ["HMENU"]
 menue = true
 en = "STAY BACK"
-de = ""
+de = "Zurückbleiben"
 
 [[text]]
 id = "M050_062"
 befehl = ["PRINTCLEAR"]
 en = "YOUR TEAM IS ALONE ON THE ENGINEERING DECK."
-de = ""
+de = "Euer Team ist allein auf dem Maschinendeck."
 
 [[text]]
 id = "M050_063"
 befehl = ["PRINTCLEAR"]
 en = "YOUR TEAM IS ALONE ON THE ENGINEERING DECK."
-de = ""
+de = "Euer Team ist allein auf dem Maschinendeck."
 
 [[text]]
 id = "M050_064"
 befehl = ["PRINTCLEAR"]
 en = "YOU RETREAT TO THE STAIRWAY."
-de = ""
+de = "Ihr zieht euch ins Treppenhaus zurück."
 
 [[text]]
 id = "M050_065"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A SMALL HOLDING CELL. "
-de = ""
+de = "Das ist eine kleine Arrestzelle. "
 
 [[text]]
 id = "M050_066"
 befehl = ["PRINT"]
 en = "NO GUARDS ARE IN SIGHT. "
-de = ""
+de = "Keine Wachen in Sicht. "
 
 [[text]]
 id = "M050_067"
 befehl = ["WHMENU"]
 menue = true
 en = "BYPASS"
-de = ""
+de = "Umgehen"
 
 [[text]]
 id = "M050_068"
 befehl = ["WHMENU"]
 menue = true
 en = "REPROGRAM"
-de = ""
+de = "Umprogrammieren"
 
 [[text]]
 id = "M050_069"
 befehl = ["WHMENU"]
 menue = true
 en = "WAIT"
-de = ""
+de = "Warten"
 
 [[text]]
 id = "M050_070"
 befehl = ["WHO"]
 en = "WHO TRIES TO BYPASS SECURITY?"
-de = ""
+de = "Wer umgeht die Sicherung?"
 
 [[text]]
 id = "M050_071"
 befehl = ["PRINTCLEAR"]
 en = "THE FIELD IS STILL ACTIVE."
-de = ""
+de = "Das Feld ist noch aktiv."
 
 [[text]]
 id = "M050_072"
 befehl = ["WHO"]
 en = "WHO TRIES TO REPROGRAM THE FIELD?"
-de = ""
+de = "Wer programmiert das Feld um?"
 
 [[text]]
 id = "M050_073"
 befehl = ["PRINTCLEAR"]
 en = "THE FIELD IS STILL ACTIVE."
-de = ""
+de = "Das Feld ist noch aktiv."
 
 [[text]]
 id = "M050_074"
 befehl = ["PRINT"]
 en = " DISABLES THE SECURITY FIELD."
-de = ""
+de = " schaltet das Sicherheitsfeld ab."
 
 [[text]]
 id = "M050_075"
 befehl = ["PRINTCLEAR"]
 en = "BEFORE YOU STANDS A PERSON WHO, UNTIL NOW, YOU'VE ONLY READ ABOUT."
-de = ""
+de = "Vor euch steht jemand, den ihr bisher nur aus Erzählungen kennt."
 
 [[text]]
 id = "M050_076"
 befehl = ["PRINTCLEAR"]
 en = "'I'LL JOIN YOUR TEAM UNTIL WE MAKE IT OFF THIS SHIP. I BROUGHT YOUR EQUIPMENT."
-de = ""
+de = "'Ich schließe mich euch an, bis wir von diesem Schiff runter sind. Eure Ausrüstung habe ich mitgebracht."
 
 [[text]]
 id = "M050_077"
 befehl = ["PRINTCLEAR"]
 en = "'WE NEED TO DISABLE THIS SHIP, BUT A FRONTAL ASSAULT ON ENGINEERING WOULD BE SUICIDE."
-de = ""
+de = "'Wir müssen das Schiff lahmlegen, aber ein Frontalangriff auf den Maschinenraum wäre Selbstmord."
 
 [[text]]
 id = "M050_078"
 befehl = ["PRINTCLEAR"]
 en = "'TALON'S CABIN IS ON LEVEL TWO. MAYBE SOMETHING USEFUL IS THERE."
-de = ""
+de = "'Talons Kabine ist auf Ebene zwei. Vielleicht ist dort etwas Nützliches."
 
 [[text]]
 id = "M050_079"
 befehl = ["PRINTCLEAR"]
 en = "'I ALSO HID SOME EXTRA EQUIPMENT IN THE LAST CELL TO THE RIGHT.'"
-de = ""
+de = "'In der letzten Zelle rechts habe ich noch Ausrüstung versteckt.'"
 
 [[text]]
 id = "M050_080"
 befehl = ["PRINTCLEAR"]
 en = "YOU WAIT. A FEW MOMENTS PASS..."
-de = ""
+de = "Ihr wartet. Ein paar Augenblicke vergehen..."
 
 [[text]]
 id = "M050_081"
 befehl = ["PRINTCLEAR"]
 en = "THE SECURITY FIELD FLICKERS AND DIMS."
-de = ""
+de = "Das Sicherheitsfeld flackert und wird schwächer."
 
 [[text]]
 id = "M050_082"
 befehl = ["PRINTCLEAR"]
 en = "'I HID SOME EQUIPMENT HERE.'"
-de = ""
+de = "'Hier habe ich Ausrüstung versteckt.'"
 
 [[text]]
 id = "M050_083"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE ON A STAIRCASE. A SIGN READS: LEVEL "
-de = ""
+de = "Ihr seid in einem Treppenhaus. Ein Schild: Ebene "
 
 [[text]]
 id = "M050_084"
@@ -537,346 +537,346 @@ id = "M050_085"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M050_086"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M050_087"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M050_088"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M050_089"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M050_090"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M050_091"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M050_092"
 befehl = ["PRINTCLEAR"]
 en = "LEVEL 4"
-de = ""
+de = "Ebene 4"
 
 [[text]]
 id = "M050_093"
 befehl = ["PRINTCLEAR"]
 en = "LEVEL 1"
-de = ""
+de = "Ebene 1"
 
 [[text]]
 id = "M050_094"
 befehl = ["PRINTCLEAR"]
 en = "LEVEL 2"
-de = ""
+de = "Ebene 2"
 
 [[text]]
 id = "M050_095"
 befehl = ["PRINTCLEAR"]
 en = "LEVEL 3"
-de = ""
+de = "Ebene 3"
 
 [[text]]
 id = "M050_096"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE CLINIC. THE AUTODOC IS A SMOKING WRECK."
-de = ""
+de = "Ihr seid in der Krankenstation. Der Autodoc ist ein qualmendes Wrack."
 
 [[text]]
 id = "M050_097"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE CLINIC. AN AUTODOC STANDS BEFORE YOU."
-de = ""
+de = "Ihr seid in der Krankenstation. Vor euch steht ein Autodoc."
 
 [[text]]
 id = "M050_098"
 befehl = ["HMENU"]
 menue = true
 en = "REPROGRAM DOC"
-de = ""
+de = "Umprogrammieren"
 
 [[text]]
 id = "M050_099"
 befehl = ["HMENU"]
 menue = true
 en = "HEAL TEAM"
-de = ""
+de = "Team heilen"
 
 [[text]]
 id = "M050_100"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M050_101"
 befehl = ["PRINTCLEAR"]
 en = "THE DOC HAS ALREADY BEEN REPROGRAMMED."
-de = ""
+de = "Der Autodoc wurde schon umprogrammiert."
 
 [[text]]
 id = "M050_102"
 befehl = ["WHO"]
 en = "WHO REPROGRAMS THE DOC?"
-de = ""
+de = "Wer programmiert den Doc um?"
 
 [[text]]
 id = "M050_103"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC WILL NOW ACCEPT YOU AS PATIENTS."
-de = ""
+de = "Der Autodoc nimmt euch jetzt als Patienten an."
 
 [[text]]
 id = "M050_104"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC'S SENSORS SCAN OVER YOU AND ALARMS FLASH. 'INTRUDER ALERT!'"
-de = ""
+de = "Die Sensoren des Autodocs tasten euch ab, Alarmlichter blinken. 'Eindringlingsalarm!'"
 
 [[text]]
 id = "M050_105"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU RETREAT?"
-de = ""
+de = "Zieht ihr euch zurück?"
 
 [[text]]
 id = "M050_106"
 befehl = ["PRINTCLEAR"]
 en = "PIRATES RESPOND TO THE ALARM!"
-de = ""
+de = "Piraten reagieren auf den Alarm!"
 
 [[text]]
 id = "M050_107"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC WAS DESTROYED IN THE BATTLE."
-de = ""
+de = "Der Autodoc wurde im Kampf zerstört."
 
 [[text]]
 id = "M050_108"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE ENTERED A MEDICAL SUPPLY ROOM."
-de = ""
+de = "Ihr betretet einen Lagerraum für Medizinbedarf."
 
 [[text]]
 id = "M050_109"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE ENTERED A CABIN. "
-de = ""
+de = "Ihr betretet eine Kabine. "
 
 [[text]]
 id = "M050_110"
 befehl = ["PRINT"]
 en = "PIRATES ATTACK!"
-de = ""
+de = "Piraten greifen an!"
 
 [[text]]
 id = "M050_111"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE ENTERED THE DINING AREA. THE PIRATES WOULD MUCH RATHER FIGHT THAN EAT."
-de = ""
+de = "Ihr betretet die Messe. Die Piraten kämpfen viel lieber, als zu essen."
 
 [[text]]
 id = "M050_112"
 befehl = ["PRINTCLEAR"]
 en = "GARBAGE AND ROTTING FOOD ARE STREWN THROUGHOUT THE GALLEY."
-de = ""
+de = "Abfall und verrottendes Essen liegen überall in der Kombüse verstreut."
 
 [[text]]
 id = "M050_113"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WIRE THE ROOM TO BLOW?"
-de = ""
+de = "Präpariert ihr den Raum zur Sprengung?"
 
 [[text]]
 id = "M050_114"
 befehl = ["PRINTCLEAR"]
 en = "YOU NEED DEMO CHARGES."
-de = ""
+de = "Ihr braucht Sprengladungen."
 
 [[text]]
 id = "M050_115"
 befehl = ["PRINTCLEAR"]
 en = "YOU RIG A DEMO CHARGE ON A SHORT FUSE AND RUN."
-de = ""
+de = "Ihr bringt eine Sprengladung mit kurzer Zündschnur an und rennt."
 
 [[text]]
 id = "M050_116"
 befehl = ["PRINTCLEAR"]
 en = "FOR A LONG MOMENT, ALL IS STILL."
-de = ""
+de = "Einen langen Moment ist alles still."
 
 [[text]]
 id = "M050_117"
 befehl = ["PRINTCLEAR"]
 en = "ALARMS SOUND THROUGHOUT THE SHIP, AND THE OVERHEAD LIGHTS FLICKER."
-de = ""
+de = "Im ganzen Schiff heulen Alarme, die Deckenlichter flackern."
 
 [[text]]
 id = "M050_118"
 befehl = ["PRINTCLEAR"]
 en = "THE GALLEY IS IN RUINS."
-de = ""
+de = "Die Kombüse liegt in Trümmern."
 
 [[text]]
 id = "M050_119"
 befehl = ["PRINTCLEAR"]
 en = "TALON'S ROOM IS DECORATED WITH GROTESQUE WAR TROPHIES. A COMPUTER DOMINATES THE ROOM."
-de = ""
+de = "Talons Kabine ist mit grausigen Kriegstrophäen geschmückt. Ein Computer beherrscht den Raum."
 
 [[text]]
 id = "M050_120"
 befehl = ["PRINTCLEAR"]
 en = "WILL ANYONE TRY TO USE THE COMPUTER?"
-de = ""
+de = "Versucht jemand, den Computer zu benutzen?"
 
 [[text]]
 id = "M050_121"
 befehl = ["WHO"]
 en = "WHO TRIES TO USE THE COMPUTER?"
-de = ""
+de = "Wer versucht es am Computer?"
 
 [[text]]
 id = "M050_122"
 befehl = ["PRINTCLEAR"]
 en = "THAT PERSON CAN'T!"
-de = ""
+de = "Diese Figur kann das nicht!"
 
 [[text]]
 id = "M050_123"
 befehl = ["PRINTCLEAR"]
 en = "ONLY GARBAGE SCROLLS OVER THE SCREEN."
-de = ""
+de = "Über den Schirm läuft nur Datenmüll."
 
 [[text]]
 id = "M050_124"
 befehl = ["PRINTCLEAR"]
 en = "'LOOKS LIKE YOU'RE HAVING TROUBLE THERE. DO YOU WANT ME TO TRY?'"
-de = ""
+de = "'Sieht aus, als hättet ihr Probleme. Soll ich es mal versuchen?'"
 
 [[text]]
 id = "M050_125"
 befehl = ["PRINTCLEAR"]
 en = "THE COMPUTER DISPLAYS A SCHEMATIC OF THE PIRATE SHIP'S LAYOUT."
-de = ""
+de = "Der Computer zeigt einen Lageplan des Piratenschiffs."
 
 [[text]]
 id = "M050_126"
 befehl = ["PRINTCLEAR"]
 en = "EXPLOSIVES IN THE GALLEY COULD DESTROY THE COMMUNICATION AND SECURITY SYSTEMS..."
-de = ""
+de = "Sprengstoff in der Kombüse könnte Funk- und Sicherheitssysteme zerstören..."
 
 [[text]]
 id = "M050_127"
 befehl = ["PRINTCLEAR"]
 en = "CAUSING CHAOS THROUGHOUT THE SHIP AND MAKING ENGINEERING, LEVEL 4, VULNERABLE."
-de = ""
+de = "Das stiftet Chaos im ganzen Schiff und macht den Maschinenraum auf Ebene 4 angreifbar."
 
 [[text]]
 id = "M050_128"
 befehl = ["PRINTCLEAR"]
 en = "YOU ENTER THE ARMORY."
-de = ""
+de = "Ihr betretet die Waffenkammer."
 
 [[text]]
 id = "M050_129"
 befehl = ["PRINT"]
 en = " GUARDS ATTACK!"
-de = ""
+de = " Wachen greifen an!"
 
 [[text]]
 id = "M050_130"
 befehl = ["PRINTCLEAR"]
 en = "'GEAR UP, EVERYONE!'"
-de = ""
+de = "'Alle ausrüsten!'"
 
 [[text]]
 id = "M050_131"
 befehl = ["PRINTCLEAR"]
 en = "YOU SMASH PANELS AND CONTROLS!"
-de = ""
+de = "Ihr zertrümmert Pulte und Steuerung!"
 
 [[text]]
 id = "M050_132"
 befehl = ["PRINTCLEAR"]
 en = "THE POWER PLANT IS STILL HUMMING."
-de = ""
+de = "Das Kraftwerk summt noch."
 
 [[text]]
 id = "M050_133"
 befehl = ["PRINTCLEAR"]
 en = "THESE PANELS ARE SMASHED."
-de = ""
+de = "Diese Pulte sind zertrümmert."
 
 [[text]]
 id = "M050_134"
 befehl = ["PRINTCLEAR"]
 en = "YOU SMASH PANELS AND CONTROLS!"
-de = ""
+de = "Ihr zertrümmert Pulte und Steuerung!"
 
 [[text]]
 id = "M050_135"
 befehl = ["PRINTCLEAR"]
 en = "THE POWER PLANT IS STILL HUMMING."
-de = ""
+de = "Das Kraftwerk summt noch."
 
 [[text]]
 id = "M050_136"
 befehl = ["PRINTCLEAR"]
 en = "YOU SMASH PANELS AND CONTROLS!"
-de = ""
+de = "Ihr zertrümmert Pulte und Steuerung!"
 
 [[text]]
 id = "M050_137"
 befehl = ["PRINTCLEAR"]
 en = "THE POWER PLANT IS STILL HUMMING."
-de = ""
+de = "Das Kraftwerk summt noch."
 
 [[text]]
 id = "M050_138"
 befehl = ["PRINTCLEAR"]
 en = "A KLAXON SOUNDS. THE POWER PLANT SQUEALS, THEN FALLS SILENT."
-de = ""
+de = "Eine Sirene heult. Das Kraftwerk kreischt auf und verstummt."
 
 [[text]]
 id = "M050_139"
 befehl = ["PRINTCLEAR"]
 en = "'LET'S GET OUT OF HERE. THE BOARDING TUBE IS ON LEVEL 2.'"
-de = ""
+de = "'Nichts wie weg. Die Enterröhre ist auf Ebene 2.'"
 
 [[text]]
 id = "M050_140"
 befehl = ["PRINTCLEAR"]
 en = "THE BRIDGE CONTROLS WERE DAMAGED IN THE BATTLE."
-de = ""
+de = "Die Brückensteuerung wurde im Kampf beschädigt."
 
 [[text]]
 id = "M050_141"
@@ -888,84 +888,84 @@ de = ""
 id = "M050_142"
 befehl = ["PRINTCLEAR"]
 en = "'I'M CAPTAIN ROGERS. YOU CAN CALL ME BUCK. I SAW YOU WERE IN TROUBLE SO I SNUCK ABOARD TO HELP OUT."
-de = ""
+de = "'Ich bin Captain Rogers. Nennt mich Buck. Ich sah, dass ihr in Schwierigkeiten wart, und hab mich an Bord geschlichen."
 
 [[text]]
 id = "M050_143"
 befehl = ["PRINTCLEAR"]
 en = "THE ENTRANCE TO TALON'S QUARTERS APPEARS TO BE TRAPPED. TRY TO DISABLE THE SECURITY?"
-de = ""
+de = "Der Eingang zu Talons Quartier scheint mit einer Falle gesichert. Versucht ihr, sie zu entschärfen?"
 
 [[text]]
 id = "M050_144"
 befehl = ["PRINTCLEAR"]
 en = "BUCK WANDERS OFF FOR A MOMENT."
-de = ""
+de = "Buck verschwindet kurz."
 
 [[text]]
 id = "M050_145"
 befehl = ["WHO"]
 en = "WHO WILL TRY?"
-de = ""
+de = "Wer versucht es?"
 
 [[text]]
 id = "M050_146"
 befehl = ["PRINTCLEAR"]
 en = "THAT PERSON CAN'T!"
-de = ""
+de = "Diese Figur kann das nicht!"
 
 [[text]]
 id = "M050_147"
 befehl = ["PRINTCLEAR"]
 en = "AN ALARM GOES OFF!"
-de = ""
+de = "Ein Alarm geht los!"
 
 [[text]]
 id = "M050_148"
 befehl = ["PRINTCLEAR"]
 en = "'WAIT! LOOK, THE DOOR IS TRAPPED. SHOULD I TRY TO OPEN IT OR WOULD YOU LIKE TO?'"
-de = ""
+de = "'Wartet! Seht mal, die Tür hat eine Falle. Soll ich sie öffnen, oder wollt ihr?'"
 
 [[text]]
 id = "M050_149"
 befehl = ["HMENU"]
 menue = true
 en = "YOU TRY"
-de = ""
+de = "Ihr"
 
 [[text]]
 id = "M050_150"
 befehl = ["HMENU"]
 menue = true
 en = "BUCK TRIES"
-de = ""
+de = "Buck"
 
 [[text]]
 id = "M050_151"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISABLED THE SECURITY! THE DOOR UNLOCKS."
-de = ""
+de = "Ihr habt die Sicherung entschärft! Die Tür entriegelt sich."
 
 [[text]]
 id = "M050_152"
 befehl = ["PRINTCLEAR"]
 en = "BUCK FIDDLES WITH THE CONTROL PANEL. 'GOT IT! IT'S SAFE NOW.'"
-de = ""
+de = "Buck fummelt an der Steuerung. 'Hab's! Jetzt ist es sicher.'"
 
 [[text]]
 id = "M050_153"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR VOICES WITHIN THE ROOM. ENTER ANYWAY?"
-de = ""
+de = "Ihr hört Stimmen im Raum. Trotzdem hinein?"
 
 [[text]]
 id = "M050_154"
 befehl = ["PRINTCLEAR"]
 en = "'I HEAR VOICES IN THERE. SHOULD WE BURST IN AND SURPRISE THEM?'"
-de = ""
+de = "'Da drin sind Stimmen. Sollen wir reinplatzen und sie überraschen?'"
 
 [[text]]
 id = "M050_155"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC QUICKLY HEALS THE TEAM."
-de = ""
+de = "Der Autodoc heilt das Team rasch."

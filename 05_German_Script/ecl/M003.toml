@@ -6,58 +6,58 @@
 id = "M003_000"
 befehl = ["PRINTCLEAR"]
 en = "THE ONCE-PROUD EARTH HAS BEEN REDUCED TO DESOLATE RUINS BY THE GREED OF RAM. ONLY NEO PROTECTS THE PLANET FROM FURTHER PLUNDER."
-de = ""
+de = "Die einst stolze Erde wurde durch die Gier von RAM in trostlose Ruinen verwandelt. Nur die NEO schützt den Planeten vor weiterer Plünderung."
 
 [[text]]
 id = "M003_001"
 befehl = ["PRINTCLEAR"]
 en = "BUCK ROGER'S TIRELESS EFFORTS FOR THE NEW EARTH ORGANIZATION HAVE PROVEN AN INSPIRATION FOR ALL IN THIS TIME OF NEED."
-de = ""
+de = "Buck Rogers' unermüdlicher Einsatz für die New Earth Organization ist in dieser Notzeit allen ein Vorbild."
 
 [[text]]
 id = "M003_002"
 befehl = ["PRINTCLEAR"]
 en = "BASED ON MARS, THE RUSSO-AMERICAN MERCANTILE CARES ONLY FOR PROFIT. TO DOMINATE THE SOLAR SYSTEM, THEY MUST ENSLAVE EARTH."
-de = ""
+de = "Die Russo-American Mercantile vom Mars kennt nur Profit. Um das Sonnensystem zu beherrschen, muss sie die Erde versklaven."
 
 [[text]]
 id = "M003_003"
 befehl = ["PRINTCLEAR"]
 en = "RAM IS NOT ABOVE CREATING GENETICALLY ENGINEERED HORRORS, SUCH AS THE TERRINE, TO FURTHER ITS CAUSE."
-de = ""
+de = "RAM schreckt nicht davor zurück, Schreckenswesen wie die Terrine genetisch zu erschaffen, um ihre Ziele zu erreichen."
 
 [[text]]
 id = "M003_004"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE A SIMULATED COMBAT BETWEEN NEO FORCES AND THE TERRINES."
-de = ""
+de = "Ihr seht einen simulierten Kampf zwischen NEO-Truppen und Terrine."
 
 [[text]]
 id = "M003_005"
 befehl = ["PRINTCLEAR"]
 en = "THE VENUS LOWLANDS PRODUCE GRAVITOL, A DRUG ESSENTIAL FOR SPACE TRAVEL."
-de = ""
+de = "Das Tiefland der Venus liefert Gravitol, ein Mittel, ohne das keine Raumfahrt möglich ist."
 
 [[text]]
 id = "M003_006"
 befehl = ["PRINTCLEAR"]
 en = "ONLY THE LOWLANDERS CAN SURVIVE IN THE ACID SWAMPS OF VENUS."
-de = ""
+de = "Nur die Tiefländer überleben in den Säuresümpfen der Venus."
 
 [[text]]
 id = "M003_007"
 befehl = ["PRINTCLEAR"]
 en = "THE PROUD DESERT RUNNERS MUST SHARE MARS WITH RAM. AGAINST RAM'S MIGHT, THEIR RACE FACES CERTAIN EXTINCTION."
-de = ""
+de = "Die stolzen Wüstenläufer müssen den Mars mit RAM teilen. Gegen die Macht von RAM droht ihrem Volk die sichere Ausrottung."
 
 [[text]]
 id = "M003_008"
 befehl = ["PRINTCLEAR"]
 en = "THE CORRUPT MARIPOSAS, IN ORBIT AROUND MERCURY, HAVE A MONOPOLY ON ENERGY SOURCES FOR THE SOLAR SYSTEM."
-de = ""
+de = "Die korrupten Mariposas im Merkurorbit haben ein Monopol auf die Energiequellen des Sonnensystems."
 
 [[text]]
 id = "M003_009"
 befehl = ["PRINTCLEAR"]
 en = "NEO RELIES ON NEW RECRUITS SUCH AS YOURSELVES TO GIVE IT STRENGTH AND TO PROVIDE HOPE FOR THE FUTURE."
-de = ""
+de = "Die NEO braucht neue Rekruten wie euch. Ihr gebt ihr Kraft und Hoffnung für die Zukunft."

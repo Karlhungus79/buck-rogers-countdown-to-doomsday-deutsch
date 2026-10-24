@@ -6,21 +6,21 @@
 id = "M049_000"
 befehl = ["PRINTCLEAR"]
 en = "KILLER GENNIES APPROACH."
-de = ""
+de = "Killergennies nähern sich."
 
 [[text]]
 id = "M049_001"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M049_002"
 befehl = ["HMENU"]
 menue = true
 en = "HIDE"
-de = ""
+de = "Verstecken"
 
 [[text]]
 id = "M049_003"
@@ -32,401 +32,401 @@ de = ""
 id = "M049_004"
 befehl = ["PRINT"]
 en = "A KID BITES BACK A GASP OF FEAR, BUT TOO LATE. "
-de = ""
+de = "Ein Kind unterdrückt einen Angstschrei, doch zu spät. "
 
 [[text]]
 id = "M049_005"
 befehl = ["PRINT"]
 en = "YOU ARE SPOTTED."
-de = ""
+de = "Ihr seid entdeckt."
 
 [[text]]
 id = "M049_006"
 befehl = ["PRINTCLEAR"]
 en = "'I HAVE PENETRATED SOME SECTIONS OF THE BASE COMPUTER. MORE INFORMATION PRESENTLY, BUT I CAN ONLY TRANSMIT.'"
-de = ""
+de = "'Ich bin in Teile des Basiscomputers eingedrungen. Gleich mehr Informationen, aber ich kann nur senden.'"
 
 [[text]]
 id = "M049_007"
 befehl = ["PRINTCLEAR"]
 en = "'THIS LEVEL HAS MANY CLASSIFIED ROOMS. CHECK FOR USEFUL INFORMATION.'"
-de = ""
+de = "'Auf dieser Ebene gibt es viele Geheimräume. Sucht nach nützlichen Informationen.'"
 
 [[text]]
 id = "M049_008"
 befehl = ["PRINTCLEAR"]
 en = "'ONE OF THE CENTRAL SECTIONS HAS BEEN ISOLATED. YOU MIGHT INVESTIGATE.'"
-de = ""
+de = "'Einer der zentralen Bereiche wurde abgeriegelt. Seht euch das an.'"
 
 [[text]]
 id = "M049_009"
 befehl = ["PRINTCLEAR"]
 en = "'THE ONLY ELEVATOR SHAFT STILL OPEN IS IN THE SOUTHEAST. YOU MIGHT NEED ROPE TO SCALE IT.'"
-de = ""
+de = "'Der einzige offene Aufzugsschacht ist im Südosten. Zum Hochklettern braucht ihr vielleicht ein Seil.'"
 
 [[text]]
 id = "M049_010"
 befehl = ["PRINTCLEAR"]
 en = "'THE HYPER SERIES OF GENNIES ARE FAILED ATTEMPTS AT CREATING THE ECGS WE MET ON OUR SHIP.'"
-de = ""
+de = "'Die Hyper-Gennies sind gescheiterte Versuche, die ECGs von unserem Schiff zu erschaffen.'"
 
 [[text]]
 id = "M049_011"
 befehl = ["PRINTCLEAR"]
 en = "'I HAVE A REPORT OF AN ADMINISTRATOR'S LOST PASSCARD. MIGHT BE USEFUL.'"
-de = ""
+de = "'Ich habe eine Meldung über die verlorene Ausweiskarte eines Verwalters. Könnte nützlich sein.'"
 
 [[text]]
 id = "M049_012"
 befehl = ["PRINTCLEAR"]
 en = "THE ELEVATOR IS SHATTERED AND THE SHAFT BLOCKED."
-de = ""
+de = "Der Aufzug ist zertrümmert, der Schacht blockiert."
 
 [[text]]
 id = "M049_013"
 befehl = ["PRINTCLEAR"]
 en = "A RAM WARRIOR STAGGERS TOWARD YOU AND GASPS, 'UNABLE TO RETRIEVE CHILDREN, SIR.' HE STOPS BREATHING."
-de = ""
+de = "Ein RAM-Krieger taumelt auf euch zu und keucht: 'Kinder nicht geborgen, Sir.' Er hört auf zu atmen."
 
 [[text]]
 id = "M049_014"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A SCHEMATIC FOR AN INCREDIBLY POWERFUL LASER. THERE IS MENTION OF A TINY PROTOTYPE IN THIS BASE."
-de = ""
+de = "Ihr findet den Bauplan eines unglaublich starken Lasers. Erwähnt wird ein winziger Prototyp in dieser Basis."
 
 [[text]]
 id = "M049_015"
 befehl = ["PRINTCLEAR"]
 en = "THE LASER WOULD REQUIRE ENORMOUS POWER AND VERY PRECISE LENSES."
-de = ""
+de = "Der Laser bräuchte gewaltige Energie und sehr präzise Linsen."
 
 [[text]]
 id = "M049_016"
 befehl = ["PRINTCLEAR"]
 en = "AN UNUSUAL LASER DOMINATES THE ROOM."
-de = ""
+de = "Ein ungewöhnlicher Laser beherrscht den Raum."
 
 [[text]]
 id = "M049_017"
 befehl = ["PRINTCLEAR"]
 en = "WHEN TURNED ON, A BLINDING LIGHT SHATTERS THE ROCK WALL. THE LASER IS TREMENDOUSLY POWERFUL FOR ITS SIZE."
-de = ""
+de = "Eingeschaltet zertrümmert ein gleißendes Licht die Felswand. Für seine Größe ist der Laser ungeheuer stark."
 
 [[text]]
 id = "M049_018"
 befehl = ["PRINTCLEAR"]
 en = "KIDS LOOK YOU OVER. ONE COMES UP AND STATES, 'I'M MILO PHILLIPS, JR. THANK YOU FOR COMING TO OUR AID.'"
-de = ""
+de = "Kinder mustern euch. Eines tritt vor: 'Ich bin Milo Phillips Junior. Danke, dass ihr uns zu Hilfe kommt.'"
 
 [[text]]
 id = "M049_019"
 befehl = ["PRINTCLEAR"]
 en = "A CHILD WHISPERS TO MILO. YOU HEAR THE WORD 'DNA'."
-de = ""
+de = "Ein Kind flüstert Milo etwas zu. Ihr hört das Wort 'DNA'."
 
 [[text]]
 id = "M049_020"
 befehl = ["PRINTCLEAR"]
 en = "MILO SMILES. 'IGNORE JIM. HE WANTS ME TO USE THE PASSWORD. WE NEED TO GET TO THE EASTERN ELEVATOR. LET'S GO.'"
-de = ""
+de = "Milo lächelt. 'Achtet nicht auf Jim. Er will, dass ich das Passwort benutze. Wir müssen zum Ostaufzug. Los.'"
 
 [[text]]
 id = "M049_021"
 befehl = ["PRINTCLEAR"]
 en = "REFLECTORS FILL THE ROOM."
-de = ""
+de = "Reflektoren füllen den Raum."
 
 [[text]]
 id = "M049_022"
 befehl = ["PRINT"]
 en = " THEY SEEM WELL SUITED FOR COMPLEX TARGETING SYSTEMS. YOU PICK UP A DROPPED KEYCARD."
-de = ""
+de = " Sie scheinen für komplexe Zielsysteme gemacht. Ihr hebt eine verlorene Schlüsselkarte auf."
 
 [[text]]
 id = "M049_023"
 befehl = ["PRINTCLEAR"]
 en = "MILO STEPS UP TO A LARGE MIRROR. 'AH HEM, SINCE MY FATHER IS NOT HERE I FEEL THAT I SHOULD GIVE A SPEECH."
-de = ""
+de = "Milo tritt vor einen großen Spiegel. 'Ähem, da mein Vater nicht hier ist, sollte ich wohl eine Rede halten."
 
 [[text]]
 id = "M049_024"
 befehl = ["PRINTCLEAR"]
 en = "'THIS REFLECTS THE END OF NEO INSPIRED ANARCHY. RAM IS DESTINED FOR STILL GREATER ACHIEVEMENTS. THANK YOU ALL.'"
-de = ""
+de = "'Dies spiegelt das Ende der NEO-Anarchie. RAM ist zu noch Größerem bestimmt. Ich danke euch allen.'"
 
 [[text]]
 id = "M049_025"
 befehl = ["PRINTCLEAR"]
 en = "JIM LOOKS OVER AT YOU AND ROLLS HIS EYES."
-de = ""
+de = "Jim schaut zu euch herüber und verdreht die Augen."
 
 [[text]]
 id = "M049_026"
 befehl = ["PRINTCLEAR"]
 en = "SPECIAL GLASS MOLDS LIE HERE. A NOTE READS, 'MOLDS REJECTED BY VENUS TEAM. INSUFFICIENT FAULT TOLERANCE.'"
-de = ""
+de = "Hier liegen Spezialglasformen. Eine Notiz: 'Formen vom Venus-Team abgelehnt. Fehlertoleranz ungenügend.'"
 
 [[text]]
 id = "M049_027"
 befehl = ["PRINTCLEAR"]
 en = "THE ELEVATOR IS DAMAGED. YOU NEED A ROPE."
-de = ""
+de = "Der Aufzug ist beschädigt. Ihr braucht ein Seil."
 
 [[text]]
 id = "M049_028"
 befehl = ["PRINTCLEAR"]
 en = "JIM PULLS OUT A ROPE AND SAYS, 'RAM YOUTH PATROLMEN ARE ALWAYS PREPARED.'"
-de = ""
+de = "Jim zieht ein Seil hervor. 'Die RAM-Jugendpatrouille ist allzeit bereit.'"
 
 [[text]]
 id = "M049_029"
 befehl = ["PRINTCLEAR"]
 en = "THE ROPE ALLOWS YOU TO CLIMB THE SHAFT. DO YOU?"
-de = ""
+de = "Mit dem Seil könnt ihr den Schacht hochklettern. Wollt ihr?"
 
 [[text]]
 id = "M049_030"
 befehl = ["PRINTCLEAR"]
 en = "SHORTLY AFTER YOU DESCEND, EXPLOSIONS RIP THROUGH THE SHAFT. THIS ELEVATOR IS NOW OUT OF SERVICE."
-de = ""
+de = "Kurz nachdem ihr unten seid, zerreißen Explosionen den Schacht. Dieser Aufzug ist jetzt außer Betrieb."
 
 [[text]]
 id = "M049_031"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU REACH THE BOTTOM, THE SHAFT ERUPTS IN FLAME. THE ROPE IS BURNED TO ASH."
-de = ""
+de = "Als ihr unten ankommt, steht der Schacht in Flammen. Das Seil verbrennt zu Asche."
 
 [[text]]
 id = "M049_032"
 befehl = ["PRINTCLEAR"]
 en = "GENNIES ARE EXPLORING THIS LAB, POKING CLAWS INTO EVERYTHING. "
-de = ""
+de = "Gennies durchstöbern dieses Labor und stecken überall ihre Klauen hinein. "
 
 [[text]]
 id = "M049_033"
 befehl = ["WHMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M049_034"
 befehl = ["WHMENU"]
 menue = true
 en = "WITHDRAW"
-de = ""
+de = "Rückzug"
 
 [[text]]
 id = "M049_035"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU BEGIN TO PULL BACK, JIM DASHES FORWARD AND GRABS SOMETHING. WITH A SIGH YOU RUSH TO PROTECT HIM."
-de = ""
+de = "Als ihr euch zurückzieht, stürmt Jim vor und schnappt sich etwas. Seufzend eilt ihr ihm zu Hilfe."
 
 [[text]]
 id = "M049_036"
 befehl = ["PRINTCLEAR"]
 en = "YOU FALL UPON THE HIDEOUS GENNIES."
-de = ""
+de = "Ihr stürzt euch auf die scheußlichen Gennies."
 
 [[text]]
 id = "M049_037"
 befehl = ["PRINTCLEAR"]
 en = "A CHEER GOES UP FROM THE KIDS. JIM SHAKES YOUR HAND AND SLIPS A CARD INTO IT. HE WHISPERS, 'THOUGHT THIS MIGHT HELP.'"
-de = ""
+de = "Die Kinder jubeln. Jim schüttelt euch die Hand und steckt euch eine Karte zu. Er flüstert: 'Dachte, das hilft vielleicht.'"
 
 [[text]]
 id = "M049_038"
 befehl = ["PRINTCLEAR"]
 en = "IT IS THE PERSONAL ID CARD FOR ADMINISTRATOR, MILO PHILLIPS."
-de = ""
+de = "Es ist die Ausweiskarte des Verwalters Milo Phillips."
 
 [[text]]
 id = "M049_039"
 befehl = ["PRINTCLEAR"]
 en = "THE LAB CONTAINS A PARTIALLY CONSTRUCTED SATELLITE, DESIGNED TO REFLECT A LARGE POWERFUL LASER BEAM."
-de = ""
+de = "Im Labor steht ein halbfertiger Satellit, gebaut, um einen großen, starken Laserstrahl umzulenken."
 
 [[text]]
 id = "M049_040"
 befehl = ["PRINTCLEAR"]
 en = "WHEN NO ONE IS LISTENING, JIM SAYS, 'SOME GUY WITH DAGGERS IN HIS ARM IS SUPPOSED TO GET THESE. MILO'S DAD IS AFRAID OF HIM.'"
-de = ""
+de = "Als keiner zuhört, sagt Jim: 'Ein Typ mit Dolchen im Arm soll die kriegen. Milos Vater hat Angst vor ihm.'"
 
 [[text]]
 id = "M049_041"
 befehl = ["PRINTCLEAR"]
 en = "A WORKING COMPUTER LAB. TERMINALS LIE ALONG THE BACK WALL."
-de = ""
+de = "Ein betriebsbereites Computerlabor. An der hinteren Wand stehen Terminals."
 
 [[text]]
 id = "M049_042"
 befehl = ["PRINTCLEAR"]
 en = "EMPTY CONTAINERS HERE REMIND YOU OF THE GENNIE CANISTERS IN THE SPY SHIP."
-de = ""
+de = "Leere Behälter hier erinnern euch an die Gennie-Behälter im Spionageschiff."
 
 [[text]]
 id = "M049_043"
 befehl = ["PRINTCLEAR"]
 en = "A NOTEBOOK SHOWS THE FOLLOWING INFORMATION. 'HYPER-CRAB: SUPERIOR ARMOR; HYPER-SNAKE: SUPERIOR SPEED; HYPER-SCORP: DEADLY POISON.'"
-de = ""
+de = "Ein Notizbuch: 'Hyperkrabbe: überlegene Panzerung; Hyperschlange: überlegene Schnelligkeit; Hyperskorpion: tödliches Gift.'"
 
 [[text]]
 id = "M049_044"
 befehl = ["PRINTCLEAR"]
 en = "A SAPPER TEAM WAS OVERWHELMED HERE BY HYPER-GENNIES."
-de = ""
+de = "Ein Pioniertrupp wurde hier von Hyper-Gennies überwältigt."
 
 [[text]]
 id = "M049_045"
 befehl = ["PRINTCLEAR"]
 en = "THE LAB SEEMS DISUSED. A SHIPPING INVOICE TO 'GRADIVUS MONS, MARS' LIES IN THE DUST."
-de = ""
+de = "Das Labor wirkt verlassen. Ein Lieferschein an 'Gradivus Mons, Mars' liegt im Staub."
 
 [[text]]
 id = "M049_046"
 befehl = ["PRINTCLEAR"]
 en = "THERE ARE BLUEPRINTS OF THE GENNIE CONTAINMENT CANISTER, SHOWING IT EQUIPPED WITH A TRANSCEIVER."
-de = ""
+de = "Hier liegen Baupläne des Gennie-Behälters. Er ist mit einem Funkgerät ausgestattet."
 
 [[text]]
 id = "M049_047"
 befehl = ["PRINTCLEAR"]
 en = "A SMALL HOMEMADE RADIO SITS NEARBY. ONE OF THE KIDS SHEEPISHLY ADMITS THAT HER RADIO OPENED THE CANISTERS. 'BUT IT WAS AN ACCIDENT, REALLY.'"
-de = ""
+de = "Daneben steht ein Bastelfunkgerät. Ein Mädchen gibt kleinlaut zu, damit die Behälter geöffnet zu haben. 'Aus Versehen!'"
 
 [[text]]
 id = "M049_048"
 befehl = ["PRINTCLEAR"]
 en = "THE LAB HAS A NUMBER OF RABBIT GENNIES IN CAGES HERE. JIM RUSHES FORWARD STATING, 'IF WE'RE ESCAPING, THEN SO ARE THE BUNNIES.'"
-de = ""
+de = "In diesem Labor sind Kaninchengennies in Käfigen. Jim stürmt vor: 'Wenn wir fliehen, dann fliehen die Häschen auch.'"
 
 [[text]]
 id = "M049_049"
 befehl = ["PRINTCLEAR"]
 en = "HYPER-GENNIES CRAWL FROM BEHIND THE CAGES. YOU RUSH FORWARD TO SAVE THE CHILD."
-de = ""
+de = "Hinter den Käfigen kriechen Hyper-Gennies hervor. Ihr eilt dem Kind zu Hilfe."
 
 [[text]]
 id = "M049_050"
 befehl = ["PRINTCLEAR"]
 en = "THE CHILDREN APPLAUD YOUR DARING. JIM FREES THE RABBITS AND SMILES. 'KNEW YOU COULD DO IT. YOU'VE GOT THE RIGHT STUFF!'"
-de = ""
+de = "Die Kinder bejubeln euren Mut. Jim befreit die Kaninchen und grinst. 'Wusste, dass ihr das schafft. Ihr habt das Zeug dazu!'"
 
 [[text]]
 id = "M049_051"
 befehl = ["PRINTCLEAR"]
 en = "THIS OFFICE IS DISARRANGED. A NOTE READS, 'TALON IS A WEAK LINK. CAN HE BE TRUSTED WITH THE DL-SATS? MONEY IS NOT A RELIABLE CONTROL. MILO.'"
-de = ""
+de = "Das Büro ist durchwühlt. Eine Notiz: 'Talon ist ein schwaches Glied. Kann man ihm die DL-Sats anvertrauen? Geld bindet nicht. Milo.'"
 
 [[text]]
 id = "M049_052"
 befehl = ["PRINTCLEAR"]
 en = "THE REMAINS OF 50 LARGE CRATES MARKED FROM DL-SAT1 TO DL-SAT50 LIE AMONGST SHATTERED MIRRORS."
-de = ""
+de = "Zwischen zerbrochenen Spiegeln liegen die Reste von 50 großen Kisten, beschriftet DL-Sat1 bis DL-Sat50."
 
 [[text]]
 id = "M049_053"
 befehl = ["PRINTCLEAR"]
 en = "A NOTEPAD CONTAINS INFORMATION ON A NEW POWERFUL LASER AND THE LETTERS 'DNA'."
-de = ""
+de = "Ein Notizblock enthält Angaben zu einem neuen, starken Laser und die Buchstaben 'DNA'."
 
 [[text]]
 id = "M049_054"
 befehl = ["PRINTCLEAR"]
 en = "BOXES WITH THE SHIPPING LABEL OF 'GRADIVUS MONS' LINE THE FLOOR."
-de = ""
+de = "Kisten mit dem Etikett 'Gradivus Mons' stehen auf dem Boden."
 
 [[text]]
 id = "M049_055"
 befehl = ["PRINTCLEAR"]
 en = "JIM SLIPS UP TO YOU, LOOKS CAREFULLY AROUND AND WHISPERS, 'THAT'S THE DUSTY OLD MARTIAN BASE. BOBBY HAD TO GO THERE A FEW WEEKS AGO.'"
-de = ""
+de = "Jim schleicht zu euch, schaut sich um und flüstert: 'Das ist die staubige alte Marsbasis. Bobby musste vor ein paar Wochen hin.'"
 
 [[text]]
 id = "M049_056"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND NOTES INDICATING THAT FOUR DIFFERENT GENNIE PROJECTS ARE UNDER WAY."
-de = ""
+de = "Ihr findet Notizen: Vier verschiedene Gennie-Projekte laufen gerade."
 
 [[text]]
 id = "M049_057"
 befehl = ["PRINTCLEAR"]
 en = "JIM WHISPERS, 'I BET YOU'RE NEO SPIES HERE TO STEAL THE COMPUTER INFO. THAT'S OKAY, I DON'T LIKE MILO OR HIS DAD MUCH.'"
-de = ""
+de = "Jim flüstert: 'Wetten, ihr seid NEO-Spione und wollt die Daten klauen? Ist okay, ich mag Milo und seinen Vater nicht.'"
 
 [[text]]
 id = "M049_058"
 befehl = ["PRINTCLEAR"]
 en = "THIS ROOM IS CLEAN AND NOT RECENTLY USED. A NAME PLATE READS, 'DR. WILLIAMS.'"
-de = ""
+de = "Der Raum ist sauber und wurde lange nicht benutzt. Auf einem Namensschild steht: 'Dr. Williams'."
 
 [[text]]
 id = "M049_059"
 befehl = ["PRINTCLEAR"]
 en = "A DAMAGED VIDEO SCREEN IN THIS LAB ENDLESSLY REPLAYS SCENES OF ECGS DEFEATING HYPER CREATURES."
-de = ""
+de = "Ein beschädigter Bildschirm in diesem Labor zeigt endlos, wie ECGs Hyperwesen besiegen."
 
 [[text]]
 id = "M049_060"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR HERE, MARKED 'GENNIE DEVELOPMENT LAB 3', HAS BEEN BARRICADED. IT COULD BE OPENED BY A DEMO CHARGE. DO YOU TRY?"
-de = ""
+de = "Die Tür mit der Aufschrift 'Gennie-Entwicklungslabor 3' ist verbarrikadiert. Eine Sprengladung könnte sie öffnen. Versucht ihr es?"
 
 [[text]]
 id = "M049_061"
 befehl = ["PRINTCLEAR"]
 en = "YOU BLAST THE DOOR OPEN."
-de = ""
+de = "Ihr sprengt die Tür auf."
 
 [[text]]
 id = "M049_062"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE NO DEMO CHARGES."
-de = ""
+de = "Ihr habt keine Sprengladungen."
 
 [[text]]
 id = "M049_063"
 befehl = ["PRINTCLEAR"]
 en = "THE COMPUTER YIELDS NO NEW INFORMATION."
-de = ""
+de = "Der Computer liefert keine neuen Informationen."
 
 [[text]]
 id = "M049_064"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU HEAD TOWARD THE COMPUTERS, JIM WINKS AT YOU AND DISTRACTS THE OTHER KIDS."
-de = ""
+de = "Als ihr zu den Computern geht, zwinkert Jim euch zu und lenkt die anderen Kinder ab."
 
 [[text]]
 id = "M049_065"
 befehl = ["PRINTCLEAR"]
 en = "YOU ACTIVATE THE COMPUTER. IT SAYS,"
-de = ""
+de = "Ihr schaltet den Computer ein. Er sagt:"
 
 [[text]]
 id = "M049_066"
 befehl = ["PRINT"]
 en = "'INSERT KEYCARD AND GIVE THIS WEEK'S PASSCODE.' "
-de = ""
+de = "'Schlüsselkarte einführen und Wochenpasswort nennen.' "
 
 [[text]]
 id = "M049_067"
 befehl = ["WHMENU"]
 menue = true
 en = "INSERT CARD"
-de = ""
+de = "Karte einführen"
 
 [[text]]
 id = "M049_068"
 befehl = ["WHMENU"]
 menue = true
 en = "REPROGRAM"
-de = ""
+de = "Umprogrammieren"
 
 [[text]]
 id = "M049_069"
 befehl = ["PRINTCLEAR"]
 en = "WHAT PASSCODE DO YOU GIVE?"
-de = ""
+de = "Welches Passwort nennt ihr?"
 
 [[text]]
 id = "M049_070"
@@ -495,13 +495,13 @@ de = ""
 id = "M049_079"
 befehl = ["PRINTCLEAR"]
 en = "THE COMPUTER SPITS OUT THE KEYCARD AND SAYS, 'INVALID PASSCODE.'"
-de = ""
+de = "Der Computer spuckt die Schlüsselkarte aus: 'Ungültiges Passwort.'"
 
 [[text]]
 id = "M049_080"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE ALREADY TRIED THAT!"
-de = ""
+de = "Das habt ihr schon versucht!"
 
 [[text]]
 id = "M049_081"
@@ -513,52 +513,52 @@ de = ""
 id = "M049_082"
 befehl = ["PRINTCLEAR"]
 en = "THIS COMPUTER IS TOO COMPLEX."
-de = ""
+de = "Dieser Computer ist zu kompliziert."
 
 [[text]]
 id = "M049_083"
 befehl = ["PRINTCLEAR"]
 en = "YOU DON'T HAVE A KEYCARD."
-de = ""
+de = "Ihr habt keine Schlüsselkarte."
 
 [[text]]
 id = "M049_084"
 befehl = ["PRINTCLEAR"]
 en = "'GREETINGS MILO, YOU HAVE A MESSAGE.'"
-de = ""
+de = "'Grüße, Milo, du hast eine Nachricht.'"
 
 [[text]]
 id = "M049_085"
 befehl = ["PRINTCLEAR"]
 en = "THE MESSAGE READS, 'NEXT PHASE IS OPERATIONAL AT GRADIVUS MONS.' THE COORDINATES FOR A BASE ON MARS ARE DISPLAYED."
-de = ""
+de = "Die Nachricht lautet: 'Nächste Phase in Gradivus Mons einsatzbereit.' Die Koordinaten einer Basis auf dem Mars erscheinen."
 
 [[text]]
 id = "M049_086"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRANSMIT THE INFO TO SCOT.DOS AND HE STATES, 'WE HAVE FOUND EVERYTHING WE NEEDED HERE. RETURN TO THE SHIP.'"
-de = ""
+de = "Ihr übermittelt die Daten an Scot.DOS. Er sagt: 'Wir haben hier alles gefunden, was wir brauchen. Zurück zum Schiff.'"
 
 [[text]]
 id = "M049_087"
 befehl = ["PRINTCLEAR"]
 en = "JIM WHISPERS, 'IT'S NEAT WATCHING SPIES. YOU MUST BE AS GOOD AS BUCK ROGERS, THAT GUY MILO IS ALWAYS BAD MOUTHING.'"
-de = ""
+de = "Jim flüstert: 'Spione sind cool. Ihr seid bestimmt so gut wie Buck Rogers, über den Milo immer lästert.'"
 
 [[text]]
 id = "M049_088"
 befehl = ["PRINTCLEAR"]
 en = "YOU LEAVE."
-de = ""
+de = "Ihr geht."
 
 [[text]]
 id = "M049_089"
 befehl = ["PRINTCLEAR"]
 en = "YOU HIDE."
-de = ""
+de = "Ihr versteckt euch."
 
 [[text]]
 id = "M049_090"
 befehl = ["PRINT"]
 en = " THEY ATTACK!"
-de = ""
+de = " Sie greifen an!"

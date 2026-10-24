@@ -48,7 +48,7 @@ DE_DIR = os.path.join(ROOT, "05_German_Script", "ecl")
 OUT = os.path.join(ROOT, "02_Extracted", "deutsch")
 
 BASIS = 0x108000          # muss zu "org $108000" in 02_Extracted/src/deutsch.asm passen
-ROM_ENDE = 0x200000       # ROM wird 2 MB gross
+ROM_ENDE = 0x1C0000       # ab $1C0000 liegen die deutschen Grafiken (deutsch.asm, Phase 3)
 ZEILE = 36                # Zeichen je Dialogzeile (Fenster Spalte 2-37, gemessen 23.10.2026)
 MENUE_MAX = 39            # Puffer $FFFFD5AE-$FFFFD5D5
 OP_MENUE = {43, 49}       # HMENU, WHMENU
@@ -296,7 +296,9 @@ def main():
                 zl = len(umbrechen(zs.anzeigen(b)))
                 zl_en = len(umbrechen(en.decode("latin1").replace("\r", "\n")))
                 if zl > max(4, zl_en):
-                    hinweise.append("%s: %d Zeilen (Original %d)" % (tid, zl, zl_en))
+                    # Fenster scrollt nicht, sondern ueberschreibt reihum (Testemulator 24.10.2026):
+                    # mehr Zeilen als max(4, Original) sind deshalb ein Fehler
+                    fehler.append("%s: %d Zeilen, erlaubt %d (Original %d)" % (tid, zl, max(4, zl_en), zl_en))
             texte[off] = b
         # Menuegrenze je HMENU/WHMENU-Befehl
         code_ops, _ = bt.parse_ecl(m["code"])
@@ -338,7 +340,7 @@ def main():
 
     bericht = ["Pruefbericht text_einsetzen.py",
                "Texte: %d, davon deutsch: %d" % (stat["gesamt"], stat["deutsch"]),
-               "Textblock ab $%06X: %d Byte, frei bis 2 MB: %d Byte" % (BASIS, len(blob), frei),
+               "Textblock ab $%06X: %d Byte, frei bis $1C0000 (Grafiken): %d Byte" % (BASIS, len(blob), frei),
                "Systemtexte: %d, davon deutsch: %d, fertige Gegenstandsnamen: %d, Block ab $%06X: %d Byte (Grenze %d)"
                % (len(dv.systemtexte(rom)), stat["sys_deutsch"], stat["namen"], SYS_BASIS, stat["sys_byte"],
                   SYS_GRENZE - SYS_BASIS),

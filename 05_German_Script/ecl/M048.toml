@@ -6,419 +6,419 @@
 id = "M048_000"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WISH TO REBOARD YOUR SHIP?"
-de = ""
+de = "Wollt ihr wieder an Bord gehen?"
 
 [[text]]
 id = "M048_001"
 befehl = ["PRINTCLEAR"]
 en = "YOU ENTER YOUR SHIP."
-de = ""
+de = "Ihr betretet euer Schiff."
 
 [[text]]
 id = "M048_002"
 befehl = ["PRINT"]
 en = " MILO STATES, 'WE SHALL HEAD TO OUR OWN EVACUATION STATION. I WILL SEE THAT YOU GET THE HIGHEST RAM HONORS.'"
-de = ""
+de = " Milo erklärt: 'Wir fliegen zu unserer eigenen Evakuierungsstation. Ich sorge dafür, dass ihr die höchsten RAM-Ehren bekommt.'"
 
 [[text]]
 id = "M048_003"
 befehl = ["PRINTCLEAR"]
 en = "THE KIDS FILE OUT OF THE AIRLOCK."
-de = ""
+de = "Die Kinder gehen nacheinander durch die Schleuse hinaus."
 
 [[text]]
 id = "M048_004"
 befehl = ["PRINTCLEAR"]
 en = "AN ESCAPE SHIP IS HERE. A PILOT STATES, 'THIS IS A RELIEF SHIP FOR THE CHILDREN.'"
-de = ""
+de = "Hier liegt ein Rettungsschiff. Ein Pilot sagt: 'Das ist ein Hilfsschiff für die Kinder.'"
 
 [[text]]
 id = "M048_005"
 befehl = ["PRINTCLEAR"]
 en = "THE KIDS THANK YOU. "
-de = ""
+de = "Die Kinder danken euch. "
 
 [[text]]
 id = "M048_006"
 befehl = ["PRINT"]
 en = "THE GENNIES ARE LOADED. "
-de = ""
+de = "Die Gennies sind an Bord. "
 
 [[text]]
 id = "M048_007"
 befehl = ["PRINT"]
 en = "JIM'S GRANDFATHER WAVES GOODBYE. "
-de = ""
+de = "Jims Großvater winkt zum Abschied. "
 
 [[text]]
 id = "M048_008"
 befehl = ["PRINT"]
 en = "THE RABBITS ARE LOADED. "
-de = ""
+de = "Die Kaninchen sind an Bord. "
 
 [[text]]
 id = "M048_009"
 befehl = ["PRINT"]
 en = "THEY LAUNCH SAFELY AWAY."
-de = ""
+de = "Sie starten sicher."
 
 [[text]]
 id = "M048_010"
 befehl = ["PRINTCLEAR"]
 en = "'HEAD BACK TO THE LOWER LEVEL. WE NEED MORE INFORMATION ON WHAT IS GOING ON.'"
-de = ""
+de = "'Geht zurück auf die untere Ebene. Wir brauchen mehr Informationen darüber, was hier vorgeht.'"
 
 [[text]]
 id = "M048_011"
 befehl = ["PRINTCLEAR"]
 en = "THE DOCK IS EMPTY."
-de = ""
+de = "Das Dock ist leer."
 
 [[text]]
 id = "M048_012"
 befehl = ["PRINTCLEAR"]
 en = "A GROUP OF GUARDS APPROACH. "
-de = ""
+de = "Eine Gruppe Wachen nähert sich. "
 
 [[text]]
 id = "M048_013"
 befehl = ["WHMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M048_014"
 befehl = ["WHMENU"]
 menue = true
 en = "HIDE"
-de = ""
+de = "Verstecken"
 
 [[text]]
 id = "M048_015"
 befehl = ["WHMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M048_016"
 befehl = ["PRINT"]
 en = " TALKS THEM OUT OF ATTACKING. THEY LEAVE."
-de = ""
+de = " redet ihnen den Angriff aus. Sie gehen."
 
 [[text]]
 id = "M048_017"
 befehl = ["PRINTCLEAR"]
 en = "THEY DRAW THEIR WEAPONS."
-de = ""
+de = "Sie ziehen ihre Waffen."
 
 [[text]]
 id = "M048_018"
 befehl = ["PRINTCLEAR"]
 en = "THEY SPOT YOU!"
-de = ""
+de = "Sie entdecken euch!"
 
 [[text]]
 id = "M048_019"
 befehl = ["PRINTCLEAR"]
 en = "RATS ATTACK."
-de = ""
+de = "Ratten greifen an."
 
 [[text]]
 id = "M048_020"
 befehl = ["PRINTCLEAR"]
 en = "A SPEAKER BLARES, '"
-de = ""
+de = "Ein Lautsprecher plärrt: '"
 
 [[text]]
 id = "M048_021"
 befehl = ["PRINT"]
 en = "BIOHAZARD STILL CONFINED TO LOWER LEVEL.'"
-de = ""
+de = "Biogefahr weiterhin auf untere Ebene begrenzt.'"
 
 [[text]]
 id = "M048_022"
 befehl = ["PRINT"]
 en = "RATS HAVE ESCAPED THE LOWER LEVEL. BEWARE, THEY ARE HOSTILE.'"
-de = ""
+de = "Ratten sind aus der unteren Ebene entkommen. Vorsicht, sie sind aggressiv.'"
 
 [[text]]
 id = "M048_023"
 befehl = ["PRINT"]
 en = "THOSE WHO DO NOT OBEY EVACUATION ORDERS WILL BE ABANDONED.'"
-de = ""
+de = "Wer den Evakuierungsbefehlen nicht folgt, wird zurückgelassen.'"
 
 [[text]]
 id = "M048_024"
 befehl = ["PRINT"]
 en = "DO NOT PANIC. REPEAT, DO NOT PANIC.'"
-de = ""
+de = "Keine Panik. Ich wiederhole: keine Panik.'"
 
 [[text]]
 id = "M048_025"
 befehl = ["PRINT"]
 en = "ELEVATOR DEMOLITION TO PROCEED ON SCHEDULE.'"
-de = ""
+de = "Sprengung des Aufzugs erfolgt planmäßig.'"
 
 [[text]]
 id = "M048_026"
 befehl = ["PRINT"]
 en = "CODE RED EVACUATION IN PROGRESS.'"
-de = ""
+de = "Evakuierung, Stufe Rot, läuft.'"
 
 [[text]]
 id = "M048_027"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE AIRLOCK OF A RAM DOCKING BAY."
-de = ""
+de = "Ihr seid in der Schleuse einer RAM-Andockbucht."
 
 [[text]]
 id = "M048_028"
 befehl = ["PRINTCLEAR"]
 en = "A RAM OFFICIAL IS WAITING FOR YOU. 'THANK GOD! WE HAVE A BIOEMERGENCY. SOME CHILDREN TRIGGERED THE RELEASE SYSTEM.'"
-de = ""
+de = "Ein RAM-Beamter erwartet euch. 'Gott sei Dank! Wir haben einen Bionotfall. Ein paar Kinder haben das Freisetzungssystem ausgelöst.'"
 
 [[text]]
 id = "M048_029"
 befehl = ["PRINTCLEAR"]
 en = "'WAIT. WHERE IS DR. WILLIAMS?' "
-de = ""
+de = "'Moment. Wo ist Dr. Williams?' "
 
 [[text]]
 id = "M048_030"
 befehl = ["WHMENU"]
 menue = true
 en = "BLUFF"
-de = ""
+de = "Bluffen"
 
 [[text]]
 id = "M048_031"
 befehl = ["WHMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M048_032"
 befehl = ["WHO"]
 en = "WHO WILL BLUFF?"
-de = ""
+de = "Wer blufft?"
 
 [[text]]
 id = "M048_033"
 befehl = ["PRINTCLEAR"]
 en = "HE SEEMS CONVINCED. 'YOU MUST BE SOME OF TALON'S PEOPLE. GO RIGHT TO THE BRIEFING ROOM. I MUST OVERSEE THE EVACUATION.'"
-de = ""
+de = "Er wirkt überzeugt. 'Sie gehören wohl zu Talons Leuten. Gehen Sie direkt in den Besprechungsraum. Ich muss die Evakuierung leiten.'"
 
 [[text]]
 id = "M048_034"
 befehl = ["PRINTCLEAR"]
 en = "HE BACKS AWAY."
-de = ""
+de = "Er weicht zurück."
 
 [[text]]
 id = "M048_035"
 befehl = ["PRINT"]
 en = "'GUARDS DISPOSE OF THE INTRUDERS!'"
-de = ""
+de = "'Wachen, beseitigt die Eindringlinge!'"
 
 [[text]]
 id = "M048_036"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS NOWHERE TO RUN."
-de = ""
+de = "Es gibt keinen Fluchtweg."
 
 [[text]]
 id = "M048_037"
 befehl = ["PRINTCLEAR"]
 en = "SOLDIERS SALUTE AS YOU APPROACH. 'THE DIRECTOR SAID YOU WERE COMING. THE BRIEFING ROOM IS THROUGH THE NORTH DOOR.'"
-de = ""
+de = "Soldaten salutieren, als ihr näher kommt. 'Der Direktor hat Sie angekündigt. Der Besprechungsraum liegt hinter der Nordtür.'"
 
 [[text]]
 id = "M048_038"
 befehl = ["PRINTCLEAR"]
 en = "A MAN GREETS YOU. 'WE HAVE CHILDREN TRAPPED ON THE LOWER LEVEL. I'VE LOST TWO SQUADS OF MEN TRYING TO RETRIEVE THEM."
-de = ""
+de = "Ein Mann begrüßt euch. 'Auf der unteren Ebene sitzen Kinder fest. Ich habe zwei Trupps verloren, die sie holen sollten."
 
 [[text]]
 id = "M048_039"
 befehl = ["PRINTCLEAR"]
 en = "'TAKE THE CORRIDOR SOUTH TO THE ELEVATOR. WE WILL DEMO THE SHAFT, BUT YOU CAN ESCAPE UP THE EAST ELEVATOR.'"
-de = ""
+de = "'Nehmen Sie den Gang nach Süden zum Aufzug. Wir sprengen den Schacht, aber Sie können mit dem Ostaufzug entkommen.'"
 
 [[text]]
 id = "M048_040"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMUNICATIONS GEAR IS AUTOMATICALLY TRANSMITTING, 'EB3 NOW IN QUARANTINE. ALL PERSONNEL EVACUATING.'"
-de = ""
+de = "Die Funkanlage sendet automatisch: 'EB3 unter Quarantäne. Gesamtes Personal wird evakuiert.'"
 
 [[text]]
 id = "M048_041"
 befehl = ["PRINTCLEAR"]
 en = "A FRANTIC WOMAN CRIES, 'HAVE YOU SEEN THE CHILDREN? I HAVEN'T HEARD FROM THEM!' WHAT DO YOU SAY?"
-de = ""
+de = "Eine verzweifelte Frau ruft: 'Haben Sie die Kinder gesehen? Ich höre nichts von ihnen!' Was sagt ihr?"
 
 [[text]]
 id = "M048_042"
 befehl = ["HMENU"]
 menue = true
 en = "YES"
-de = ""
+de = "Ja"
 
 [[text]]
 id = "M048_043"
 befehl = ["HMENU"]
 menue = true
 en = "NO"
-de = ""
+de = "Nein"
 
 [[text]]
 id = "M048_044"
 befehl = ["HMENU"]
 menue = true
 en = "REMAIN SILENT"
-de = ""
+de = "Schweigen"
 
 [[text]]
 id = "M048_045"
 befehl = ["PRINTCLEAR"]
 en = "SHE RELAXES. 'THANK GOD! I'LL GO TO THE SHIP IMMEDIATELY.' SHE RUSHES OFF."
-de = ""
+de = "Sie atmet auf. 'Gott sei Dank! Ich gehe sofort zum Schiff.' Sie eilt davon."
 
 [[text]]
 id = "M048_046"
 befehl = ["PRINTCLEAR"]
 en = "SHE SCREAMS, 'OH NO! I'LL GO FIND THEM MYSELF!' SHE RUNS OFF."
-de = ""
+de = "Sie schreit: 'Oh nein! Dann suche ich sie selbst!' Sie rennt davon."
 
 [[text]]
 id = "M048_047"
 befehl = ["PRINTCLEAR"]
 en = "A TENSE WARRIOR SALUTES. 'YOU MUST BE THE SPECIALISTS. AS SOON AS YOU'RE DOWN, WE'LL DEMO THE SHAFT. TAKE THIS EQUIPMENT.'"
-de = ""
+de = "Ein nervöser Krieger salutiert. 'Sie sind wohl die Spezialisten. Sobald Sie unten sind, sprengen wir den Schacht. Nehmen Sie das hier.'"
 
 [[text]]
 id = "M048_048"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE ENTERED THE ELEVATOR. "
-de = ""
+de = "Ihr habt den Aufzug betreten. "
 
 [[text]]
 id = "M048_049"
 befehl = ["PRINT"]
 en = "DO YOU WANT TO DESCEND?"
-de = ""
+de = "Wollt ihr hinunterfahren?"
 
 [[text]]
 id = "M048_050"
 befehl = ["PRINTCLEAR"]
 en = "THIS ELEVATOR SHAFT HAS BEEN SEALED. YOU CANNOT DESCEND."
-de = ""
+de = "Dieser Aufzugsschacht ist versiegelt. Ihr könnt nicht hinunter."
 
 [[text]]
 id = "M048_051"
 befehl = ["PRINTCLEAR"]
 en = "YOU CAN DESCEND BY ROPE. "
-de = ""
+de = "Ihr könnt euch am Seil hinablassen. "
 
 [[text]]
 id = "M048_052"
 befehl = ["PRINTCLEAR"]
 en = "POISONED WORKER GENNIES SPRAWL AROUND THE ROOM."
-de = ""
+de = "Vergiftete Arbeitsgennies liegen überall im Raum."
 
 [[text]]
 id = "M048_053"
 befehl = ["PRINTCLEAR"]
 en = "A FEW GASP WEAKLY, 'WE ARE OBJECTS TO RAM, TO BE DESTROYED RATHER THAN EVACUATED.'"
-de = ""
+de = "Einige keuchen schwach: 'Für RAM sind wir nur Sachen. Man vernichtet uns, statt uns zu evakuieren.'"
 
 [[text]]
 id = "M048_054"
 befehl = ["PRINTCLEAR"]
 en = "MILO LOOKS ON DISDAINFULLY. JIM WHISPERS, 'ANYTHING YOU CAN DO FOR THEM?'"
-de = ""
+de = "Milo schaut verächtlich zu. Jim flüstert: 'Könnt ihr irgendwas für sie tun?'"
 
 [[text]]
 id = "M048_055"
 befehl = ["HMENU"]
 menue = true
 en = "HEAL"
-de = ""
+de = "Heilen"
 
 [[text]]
 id = "M048_056"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M048_057"
 befehl = ["WHO"]
 en = "WHO WILL HEAL THE GENNIES?"
-de = ""
+de = "Wer heilt die Gennies?"
 
 [[text]]
 id = "M048_058"
 befehl = ["PRINT"]
 en = " SUCCEEDS AT REVIVING THE WORKER GENNIES. "
-de = ""
+de = " gelingt es, die Arbeitsgennies wiederzubeleben. "
 
 [[text]]
 id = "M048_059"
 befehl = ["PRINT"]
 en = "MILO SAYS, 'SINCE YOU SALVAGED THESE ASSETS, LET'S TAKE THEM ON THE EVAC SHIP.'"
-de = ""
+de = "Milo sagt: 'Da ihr diese Güter gerettet habt, nehmen wir sie mit aufs Evakuierungsschiff.'"
 
 [[text]]
 id = "M048_060"
 befehl = ["PRINTCLEAR"]
 en = "JIM WHISPERS, 'THANKS A LOT. I DON'T LIKE ANYONE DYING.'"
-de = ""
+de = "Jim flüstert: 'Vielen Dank. Ich mag nicht, wenn jemand stirbt.'"
 
 [[text]]
 id = "M048_061"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY VALIANTLY, BUT THEY ARE TOO FAR GONE."
-de = ""
+de = "Ihr gebt euer Bestes, aber es ist zu spät für sie."
 
 [[text]]
 id = "M048_062"
 befehl = ["PRINTCLEAR"]
 en = "AN ELDERLY MAN POINTS A SMALL PISTOL AT YOU. HE DROPS IT AS JIM RUSHES FORWARD AND YELLS, 'GRANDPA!'"
-de = ""
+de = "Ein alter Mann richtet eine kleine Pistole auf euch. Er lässt sie fallen, als Jim nach vorn stürzt und ruft: 'Opa!'"
 
 [[text]]
 id = "M048_063"
 befehl = ["PRINTCLEAR"]
 en = "WIPING AWAY A TEAR HE SAYS, 'THANKS FOR SAVING JIM. I SLIPPED OUT TO WAIT FOR THE KIDS. LET'S GO, I'LL FOLLOW.'"
-de = ""
+de = "Er wischt sich eine Träne ab. 'Danke, dass ihr Jim gerettet habt. Ich wollte auf die Kinder warten. Geht, ich folge euch.'"
 
 [[text]]
 id = "M048_064"
 befehl = ["PRINTCLEAR"]
 en = "THE FLASHING OF A SMALL NOTEBOARD CATCHES YOUR EYE. IT READS, 'DAD, I HAVE CLASS AT THE GENNIE LABS. BACK SOONEST.'"
-de = ""
+de = "Ein blinkendes Notizbrett fällt euch auf. Darauf steht: 'Papa, ich habe Unterricht in den Gennie-Labors. Bin gleich zurück.'"
 
 [[text]]
 id = "M048_065"
 befehl = ["PRINTCLEAR"]
 en = "A HOLOTERMINAL'S SCREEN FLASHES RED. 'CODE RED EVACUATION. BIOHAZARD ON LOWER LEVEL. RELOCATE TO GRADIVUS MONS.'"
-de = ""
+de = "Der Schirm eines Holoterminals blinkt rot. 'Evakuierung Stufe Rot. Biogefahr auf unterer Ebene. Nach Gradivus Mons verlegen.'"
 
 [[text]]
 id = "M048_066"
 befehl = ["PRINTCLEAR"]
 en = "THERE ARE GUARDS BLOCKING THE CORRIDOR. "
-de = ""
+de = "Wachen versperren den Gang. "
 
 [[text]]
 id = "M048_067"
 befehl = ["PRINT"]
 en = "ONE SPEAKS, 'ADMINISTRATOR WARNED US YOU MIGHT GET LOST.'"
-de = ""
+de = "Einer sagt: 'Der Verwalter hat uns gewarnt, dass Sie sich verlaufen könnten.'"
 
 [[text]]
 id = "M048_068"
@@ -431,153 +431,153 @@ id = "M048_069"
 befehl = ["WHMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M048_070"
 befehl = ["WHMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M048_071"
 befehl = ["WHMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M048_072"
 befehl = ["WHMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M048_073"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A WORKING MEDICAL OFFICE."
-de = ""
+de = "Das ist eine betriebsbereite Krankenstation."
 
 [[text]]
 id = "M048_074"
 befehl = ["PRINTCLEAR"]
 en = "SOME EQUIPMENT WAS LEFT HERE..."
-de = ""
+de = "Hier wurde etwas Ausrüstung zurückgelassen..."
 
 [[text]]
 id = "M048_075"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS RUSH TO ENGAGE YOU AS OTHERS FLEE THIS CONTROL ROOM."
-de = ""
+de = "Wachen stürmen auf euch zu, während andere aus diesem Kontrollraum fliehen."
 
 [[text]]
 id = "M048_076"
 befehl = ["PRINTCLEAR"]
 en = "THIS WAS THE NERVE CENTER FOR THE EVACUATION. A MAP SHOWS RED LIGHTS EVERYWHERE. 'BIOHAZARD' FLASHES DULLY ABOVE EACH CONSOLE."
-de = ""
+de = "Hier war die Zentrale der Evakuierung. Eine Karte zeigt überall rote Lichter. Über jeder Konsole blinkt matt 'Biogefahr'."
 
 [[text]]
 id = "M048_077"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS RUSH TO DEFEND THIS ROOM."
-de = ""
+de = "Wachen eilen herbei, um diesen Raum zu verteidigen."
 
 [[text]]
 id = "M048_078"
 befehl = ["PRINTCLEAR"]
 en = "MONITORS LINE THE WALLS. THOSE SCANNING THE LOWER LEVEL ARE DARK. TWO SQUADS ARE LISTED AS MISSING IN ACTION."
-de = ""
+de = "Monitore säumen die Wände. Die Bildschirme der unteren Ebene sind dunkel. Zwei Trupps gelten als vermisst."
 
 [[text]]
 id = "M048_079"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE ENTERED A POWER ROOM. VARIOUS DISPLAYS LINE THE WALLS."
-de = ""
+de = "Ihr betretet einen Energieraum. An den Wänden sind verschiedene Anzeigen."
 
 [[text]]
 id = "M048_080"
 befehl = ["PRINT"]
 en = " NOTICES THE ROBOT GUARDS CAN BE SHUT DOWN HERE."
-de = ""
+de = " bemerkt, dass sich die Wachroboter hier abschalten lassen."
 
 [[text]]
 id = "M048_081"
 befehl = ["WHMENU"]
 menue = true
 en = "SHUT DOWN"
-de = ""
+de = "Abschalten"
 
 [[text]]
 id = "M048_082"
 befehl = ["WHMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M048_083"
 befehl = ["PRINTCLEAR"]
 en = "THE ROBOTS' POWER HAS BEEN CUT OFF."
-de = ""
+de = "Die Energie der Roboter ist abgeschaltet."
 
 [[text]]
 id = "M048_084"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE PERSONNEL DIRECTOR'S OFFICE. SEARCHING THE FILES, REVEALS THAT THE LASER RESEARCH TEAM WAS REASSIGNED TO GRADIVUS MONS."
-de = ""
+de = "Das ist das Büro des Personalchefs. Die Akten zeigen: Das Laserforschungsteam wurde nach Gradivus Mons versetzt."
 
 [[text]]
 id = "M048_085"
 befehl = ["PRINTCLEAR"]
 en = "JIM YELLS, 'THE EVACUATION SHIP SHOULD BE TO THE NORTH. WE'RE ALMOST OUT. YAY!'"
-de = ""
+de = "Jim ruft: 'Das Evakuierungsschiff müsste im Norden sein. Wir sind fast draußen. Juhu!'"
 
 [[text]]
 id = "M048_086"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR THROUGH THE SWIFTLY CLOSING AIRLOCK, 'HOSTILES IN THE BAY! LAUNCH!' A RUMBLE OF ROCKETS SIGNALS THE SHIP'S DEPARTURE."
-de = ""
+de = "Durch die sich schließende Schleuse hört ihr: 'Feinde in der Bucht! Start!' Raketendonnern verrät, dass das Schiff abfliegt."
 
 [[text]]
 id = "M048_087"
 befehl = ["PRINTCLEAR"]
 en = "THE KIDS SHOUT, 'THAT'S WHERE OUR SHIP IS. YAY!'"
-de = ""
+de = "Die Kinder rufen: 'Da ist unser Schiff. Juhu!'"
 
 [[text]]
 id = "M048_088"
 befehl = ["PRINTCLEAR"]
 en = "A CART HAS SPILLED, LEAVING USEFUL ITEMS."
-de = ""
+de = "Ein umgekippter Wagen hat nützliche Dinge verstreut."
 
 [[text]]
 id = "M048_089"
 befehl = ["PRINTCLEAR"]
 en = "YOU LEAVE."
-de = ""
+de = "Ihr geht."
 
 [[text]]
 id = "M048_090"
 befehl = ["PRINTCLEAR"]
 en = "YOU HIDE."
-de = ""
+de = "Ihr versteckt euch."
 
 [[text]]
 id = "M048_091"
 befehl = ["PRINT"]
 en = "THEY ATTACK!"
-de = ""
+de = "Sie greifen an!"
 
 [[text]]
 id = "M048_092"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WANT TO BE HEALED?"
-de = ""
+de = "Wollt ihr geheilt werden?"
 
 [[text]]
 id = "M048_093"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC HEALS THE TEAM."
-de = ""
+de = "Der Autodoc heilt das Team."

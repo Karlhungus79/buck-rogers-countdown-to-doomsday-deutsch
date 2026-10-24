@@ -6,79 +6,79 @@
 id = "M017_000"
 befehl = ["PRINTCLEAR"]
 en = "A NEO OFFICER GREETS YOU."
-de = ""
+de = "Ein NEO-Offizier begrüßt euch."
 
 [[text]]
 id = "M017_001"
 befehl = ["PRINTCLEAR"]
 en = "'I AM CARLTON TURABIAN. WELCOME TO SALVATION III. WHEN YOU ARE READY, COME SEE ME AT HEADQUARTERS FOR YOUR FIRST ASSIGNMENT.'"
-de = ""
+de = "'Ich bin Carlton Turabian. Willkommen auf Salvation III. Wenn ihr bereit seid, holt euch im Hauptquartier euren ersten Auftrag.'"
 
 [[text]]
 id = "M017_002"
 befehl = ["PRINTCLEAR"]
 en = "'RAM HAS KIDNAPPED THE DESERT RUNNER ATHA. THEY THREATEN TO KILL HER IF YOU DON'T TRAVEL TO JUNO.'"
-de = ""
+de = "'RAM hat die Wüstenläuferin Atha entführt. Sie wollen sie töten, wenn ihr nicht nach Juno fliegt.'"
 
 [[text]]
 id = "M017_003"
 befehl = ["PRINTCLEAR"]
 en = "TURABIAN LOOKS PAINED. 'I'M AFRAID YOUR CURRENT MISSION IS MORE IMPORTANT. THERE JUST ISN'T ENOUGH TIME."
-de = ""
+de = "Turabian blickt gequält. 'Leider ist eure jetzige Mission wichtiger. Es bleibt einfach nicht genug Zeit."
 
 [[text]]
 id = "M017_004"
 befehl = ["PRINTCLEAR"]
 en = "'GO TO MERCURY FIRST. THAT'S AN ORDER.' TURABIAN THEN LEAVES THE BAY."
-de = ""
+de = "'Fliegt zuerst zum Merkur. Das ist ein Befehl.' Dann verlässt Turabian den Hangar."
 
 [[text]]
 id = "M017_005"
 befehl = ["PRINTCLEAR"]
 en = "BUCK COMES UP AFTER TURABIAN LEAVES."
-de = ""
+de = "Als Turabian gegangen ist, kommt Buck herüber."
 
 [[text]]
 id = "M017_006"
 befehl = ["PRINTCLEAR"]
 en = "'SOMETIMES RULES ARE MADE TO BE BROKEN. INDIVIDUALS ARE MORE IMPORTANT THAN ORDERS.'"
-de = ""
+de = "'Manchmal sind Regeln dazu da, gebrochen zu werden. Menschen sind wichtiger als Befehle.'"
 
 [[text]]
 id = "M017_007"
 befehl = ["PRINTCLEAR"]
 en = "HE GIVES YOU THE THUMBS UP SIGN AND SAUNTERS OFF."
-de = ""
+de = "Er hebt den Daumen und schlendert davon."
 
 [[text]]
 id = "M017_008"
 befehl = ["PRINTCLEAR"]
 en = "'YOU'VE DONE WELL. I SEE YOU'VE CAPTURED A RAM ROCKETSHIP. IT'S NAMED THE MAELSTROM RIDER."
-de = ""
+de = "'Gute Arbeit. Wie ich sehe, habt ihr ein RAM-Raketenschiff erbeutet. Es heißt Maelstrom Rider."
 
 [[text]]
 id = "M017_009"
 befehl = ["PRINTCLEAR"]
 en = "'I'VE ASSIGNED YOU TO INVESTIGATE THE RAM PLOT WHICH SCOT.DOS MENTIONED. USE THIS SHIP FOR TRANSPORTATION AND DEFENSE."
-de = ""
+de = "'Ihr sollt die RAM-Verschwörung untersuchen, von der Scot.DOS sprach. Nutzt dieses Schiff für Reisen und Verteidigung."
 
 [[text]]
 id = "M017_010"
 befehl = ["PRINTCLEAR"]
 en = "'MEET ME IN HQ WHEN YOU ARE READY FOR THE DETAILS OF THIS ASSIGNMENT.'"
-de = ""
+de = "'Kommt ins Hauptquartier, wenn ihr bereit seid. Dort erfahrt ihr die Einzelheiten.'"
 
 [[text]]
 id = "M017_011"
 befehl = ["PRINTCLEAR"]
 en = "'I'M IMPRESSED. THE RAM ASTEROID BASE HAS BEEN COMPLETELY ABANDONED, AND YOU HAVE MANAGED TO DEAL WITH TALON."
-de = ""
+de = "'Ich bin beeindruckt. Die RAM-Asteroidenbasis ist völlig verlassen, und ihr habt Talon erledigt."
 
 [[text]]
 id = "M017_012"
 befehl = ["PRINTCLEAR"]
 en = "'I'LL SEE YOU AT HEADQUARTERS FOR A MISSION UPDATE.'"
-de = ""
+de = "'Wir sehen uns im Hauptquartier zur Lagebesprechung.'"
 
 [[text]]
 id = "M017_013"
@@ -90,347 +90,347 @@ de = ""
 id = "M017_014"
 befehl = ["PRINTCLEAR"]
 en = "BUCK LEAVES WITH THE COMMANDER."
-de = ""
+de = "Buck geht mit dem Kommandanten."
 
 [[text]]
 id = "M017_015"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU DEBARK, WILMA CONGRATULATES YOU. 'NOW THAT YOU HAVE DESTROYED THE DOOMSDAY DEVICE, RAM IS CRIPPLED."
-de = ""
+de = "Als ihr von Bord geht, gratuliert euch Wilma. 'Jetzt, da ihr die Doomsday-Waffe zerstört habt, ist RAM geschwächt."
 
 [[text]]
 id = "M017_016"
 befehl = ["PRINTCLEAR"]
 en = "'THE ENTIRE SYSTEM IS NOW AWARE OF HOW UNDERHANDEDLY RAM HAS ACTED. IT WILL LOSE MANY IMPORTANT ALLIES.'"
-de = ""
+de = "'Das ganze System weiß nun, wie hinterhältig RAM vorgegangen ist. RAM wird viele wichtige Verbündete verlieren.'"
 
 [[text]]
 id = "M017_017"
 befehl = ["PRINTCLEAR"]
 en = "TURABIAN COMES UP TO MEET YOU. 'WELCOME BACK. YOU HAVE SAVED EARTH FROM THE EVIL SCOURGE OF RAM...'"
-de = ""
+de = "Turabian kommt euch entgegen. 'Willkommen zurück. Ihr habt die Erde von der Geißel RAM befreit...'"
 
 [[text]]
 id = "M017_018"
 befehl = ["PRINTCLEAR"]
 en = "BUCK ROGERS SAUNTERS UP AND INTERRUPTS TURABIAN, 'I JUST WANTED TO THANK YOU FOR SAVING EARTH."
-de = ""
+de = "Buck Rogers schlendert heran und unterbricht Turabian: 'Ich wollte euch nur danken, dass ihr die Erde gerettet habt."
 
 [[text]]
 id = "M017_019"
 befehl = ["PRINTCLEAR"]
 en = "'YOU GUYS HAVE THE GUTS AND DETERMINATION I ADMIRE. EARTH WILL BE SAFE AS HEROES LIKE YOU STRIVE TO PROTECT HER.'"
-de = ""
+de = "'Ihr habt Mut und Entschlossenheit, das bewundere ich. Die Erde ist sicher, solange Helden wie ihr sie beschützen.'"
 
 [[text]]
 id = "M017_020"
 befehl = ["PRINTCLEAR"]
 en = "NEO TECHNICIANS RUSH UP TO COLLECT THE DEVICE. COMMANDER TURABIAN ARRIVES."
-de = ""
+de = "NEO-Techniker eilen herbei, um das Gerät abzuholen. Kommandant Turabian erscheint."
 
 [[text]]
 id = "M017_021"
 befehl = ["PRINTCLEAR"]
 en = "'GOOD WORK! THIS IS VITAL INFORMATION. NOW CONTINUE INVESTIGATING THE DOOMSDAY DEVICE.' HE SHAKES YOUR HAND AND LEAVES."
-de = ""
+de = "'Gute Arbeit! Das ist lebenswichtig. Untersucht weiter die Doomsday-Waffe.' Er schüttelt euch die Hand und geht."
 
 [[text]]
 id = "M017_022"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER INTERVIEWS JUSTIN, THEN TURNS TO YOU."
-de = ""
+de = "Der Kommandant befragt Justin und wendet sich dann an euch."
 
 [[text]]
 id = "M017_023"
 befehl = ["PRINTCLEAR"]
 en = "'TAKE MR. ROBENO TO THE PAVONIS LIBRARY AND COLLECT HIS DEVICE. IT IS AN IMPORTANT ASSET FOR NEO.'"
-de = ""
+de = "'Bringt Mr. Robeno zur Pavonis-Bibliothek und holt sein Gerät. Es ist für die NEO sehr wertvoll.'"
 
 [[text]]
 id = "M017_024"
 befehl = ["PRINTCLEAR"]
 en = "THANK YOU FOR RESCUING JASON DUPARE."
-de = ""
+de = "Danke, dass ihr Jason Dupare gerettet habt."
 
 [[text]]
 id = "M017_025"
 befehl = ["PRINTCLEAR"]
 en = "BEYOND THIS HATCHWAY LIES SALVATION'S HEADQUARTERS."
-de = ""
+de = "Hinter dieser Luke liegt das Hauptquartier von Salvation."
 
 [[text]]
 id = "M017_026"
 befehl = ["PRINTCLEAR"]
 en = "'TAKE A TUG OUT AND EXPLORE THE DEBRIS IN THE EARTH'S NEAR ORBIT. IF YOU FIND SOMETHING UNUSUAL, INVESTIGATE.'"
-de = ""
+de = "'Nehmt einen Schlepper und erkundet die Trümmer im nahen Erdorbit. Wenn ihr etwas Ungewöhnliches findet, geht dem nach.'"
 
 [[text]]
 id = "M017_027"
 befehl = ["PRINTCLEAR"]
 en = "'DATA INDICATES THREE RAM INSTALLATIONS MAY BE LINKED TO THIS PLOT: ONE NEAR CERES, GRADIVUS MONS ON MARS AND A VENUSIAN BASE."
-de = ""
+de = "'Laut Daten könnten drei RAM-Anlagen beteiligt sein: eine bei Ceres, Gradivus Mons auf dem Mars und eine Basis auf der Venus."
 
 [[text]]
 id = "M017_028"
 befehl = ["PRINTCLEAR"]
 en = "'THIS SHIP WAS HEADED TO CERES IN THE ASTEROID BELT. I SUGGEST YOU CHECK OUT THE ASTEROID BASE THERE FOR MORE INFORMATION.'"
-de = ""
+de = "'Dieses Schiff war unterwegs nach Ceres im Asteroidengürtel. Untersucht dort die Asteroidenbasis.'"
 
 [[text]]
 id = "M017_029"
 befehl = ["PRINTCLEAR"]
 en = "'FROM THE DATA YOU HAVE GATHERED, THE MARS BASE AT GRADIVUS MONS MUST BE INVESTIGATED."
-de = ""
+de = "'Nach euren Daten müssen wir die Marsbasis Gradivus Mons untersuchen."
 
 [[text]]
 id = "M017_030"
 befehl = ["PRINTCLEAR"]
 en = "'BE CAREFUL, MARS IS TEEMING WITH RAM AGENTS. BE SURE YOU ARE WELL EQUIPPED BEFORE LANDING THERE.'"
-de = ""
+de = "'Vorsicht, auf dem Mars wimmelt es von RAM-Agenten. Rüstet euch gut aus, bevor ihr dort landet.'"
 
 [[text]]
 id = "M017_031"
 befehl = ["PRINTCLEAR"]
 en = "'OUR INFORMATION INDICATES THAT THE RAM BASE ON VENUS IS THE PLACE TO GO NEXT.'"
-de = ""
+de = "'Nach unseren Informationen ist die RAM-Basis auf der Venus euer nächstes Ziel.'"
 
 [[text]]
 id = "M017_032"
 befehl = ["PRINTCLEAR"]
 en = "'HUER.DOS HAS LOCATED THE DOOMSDAY WEAPON. IT IS IN MARIPOSA 3 AT MERCURY. GO THERE AND DESTROY IT.'"
-de = ""
+de = "'Huer.DOS hat die Doomsday-Waffe gefunden. Sie ist auf Mariposa 3 beim Merkur. Fliegt hin und zerstört sie.'"
 
 [[text]]
 id = "M017_033"
 befehl = ["PRINTCLEAR"]
 en = "'NOW I WILL TURN YOU OVER TO OUR TRAINING STAFF.'"
-de = ""
+de = "'Jetzt übergebe ich euch an unsere Ausbilder.'"
 
 [[text]]
 id = "M017_034"
 befehl = ["PRINTCLEAR"]
 en = "'JASON DUPARE, A NEO TOP AGENT, HAS PENETRATED RAM'S DOOMSDAY PROJECT. RESCUE HIM FROM THE RADIUM MINES ON THULE AS SOON AS YOU CAN.'"
-de = ""
+de = "'Jason Dupare, ein NEO-Spitzenagent, hat RAMs Doomsday-Projekt unterwandert. Holt ihn schnell aus den Radiumminen auf Thule.'"
 
 [[text]]
 id = "M017_035"
 befehl = ["PRINTCLEAR"]
 en = "SALVATION'S DEPOT IS BEHIND THIS DOOR. NEO MEMBERS PURCHASE WEAPONS, AND ARMOR HERE."
-de = ""
+de = "Hinter dieser Tür liegt das Depot von Salvation. NEO-Mitglieder kaufen hier Waffen und Rüstungen."
 
 [[text]]
 id = "M017_036"
 befehl = ["PRINTCLEAR"]
 en = "'COME AGAIN!'"
-de = ""
+de = "'Beehrt uns bald wieder!'"
 
 [[text]]
 id = "M017_037"
 befehl = ["PRINTCLEAR"]
 en = "SALVATION'S MEDICAL FACILITIES ARE HERE FOR YOUR USE."
-de = ""
+de = "Die Krankenstation von Salvation steht euch zur Verfügung."
 
 [[text]]
 id = "M017_038"
 befehl = ["PRINTCLEAR"]
 en = "SALVATION'S MEDICS RESTORE THE ENTIRE TEAM TO PERFECT HEALTH."
-de = ""
+de = "Die Sanitäter von Salvation heilen das ganze Team vollständig."
 
 [[text]]
 id = "M017_039"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR WILD MUSIC BEHIND THE DOOR."
-de = ""
+de = "Hinter der Tür hört ihr wilde Musik."
 
 [[text]]
 id = "M017_040"
 befehl = ["PRINTCLEAR"]
 en = "YOU ENTER THE SALVATION LOUNGE."
-de = ""
+de = "Ihr betretet die Salvation-Lounge."
 
 [[text]]
 id = "M017_041"
 befehl = ["HMENU"]
 menue = true
 en = "MINGLE"
-de = ""
+de = "Unterhalten"
 
 [[text]]
 id = "M017_042"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M017_043"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE SALVATION LOUNGE."
-de = ""
+de = "Ihr seid in der Salvation-Lounge."
 
 [[text]]
 id = "M017_044"
 befehl = ["PRINTCLEAR"]
 en = "YOU GET SOME COFFEE."
-de = ""
+de = "Ihr holt euch einen Kaffee."
 
 [[text]]
 id = "M017_045"
 befehl = ["PRINTCLEAR"]
 en = "YOU GET A DRINK."
-de = ""
+de = "Ihr holt euch einen Drink."
 
 [[text]]
 id = "M017_046"
 befehl = ["PRINTCLEAR"]
 en = "CREW MEMBERS COME BY AND CONGRATULATE YOU."
-de = ""
+de = "Besatzungsmitglieder kommen vorbei und gratulieren euch."
 
 [[text]]
 id = "M017_047"
 befehl = ["PRINTCLEAR"]
 en = "'I'VE HEARD THAT NEO IS FILLED WITH RAM SPIES. BE CAREFUL WHO YOU TRUST.'"
-de = ""
+de = "'Ich habe gehört, die NEO ist voller RAM-Spione. Passt auf, wem ihr traut.'"
 
 [[text]]
 id = "M017_048"
 befehl = ["PRINTCLEAR"]
 en = "'RAM HAS DEVELOPED HEAVY BATTLE ARMOR WITH ECM FORCE FIELDS BUILT IN.'"
-de = ""
+de = "'RAM hat schwere Kampfpanzer mit eingebauten ECM-Kraftfeldern entwickelt.'"
 
 [[text]]
 id = "M017_049"
 befehl = ["PRINTCLEAR"]
 en = "'IN SPACE COMBAT, SHOOT OUT THE CONTROLS AND WEAPONS. THEN YOU CAN BOARD.'"
-de = ""
+de = "'Im Raumkampf schießt erst Steuerung und Waffen aus. Dann könnt ihr entern.'"
 
 [[text]]
 id = "M017_050"
 befehl = ["PRINTCLEAR"]
 en = "'I HEAR A RAM PACKING COMPANY LOST THEIR CONTRACT FOR GENNIE CONTAINMENT UNITS.'"
-de = ""
+de = "'Angeblich hat eine RAM-Verpackungsfirma ihren Auftrag für Gennie-Behälter verloren.'"
 
 [[text]]
 id = "M017_051"
 befehl = ["PRINTCLEAR"]
 en = "'BEWARE OF SURPRISE ATTACKS WHEN TRAVELING OVERLAND.'"
-de = ""
+de = "'Vorsicht vor Überfällen auf Reisen über Land.'"
 
 [[text]]
 id = "M017_052"
 befehl = ["PRINTCLEAR"]
 en = "'THE THULE RADIUM MINE IS THE MOST BRUTAL PRISON IN THE SOLAR SYSTEM. NO ONE SURVIVES.'"
-de = ""
+de = "'Die Radiummine auf Thule ist das brutalste Gefängnis im Sonnensystem. Niemand überlebt.'"
 
 [[text]]
 id = "M017_053"
 befehl = ["PRINTCLEAR"]
 en = "'NEVER TRUST A DIGITAL PERSONALITY!' URGES A BAR PATRON.'"
-de = ""
+de = "'Traut nie einer digitalen Persönlichkeit!', mahnt ein Gast an der Bar."
 
 [[text]]
 id = "M017_054"
 befehl = ["PRINTCLEAR"]
 en = "'THE SUN KING ON THE THIRD MERCURIAN MARIPOSA IS KNOWN TO BE...ECCENTRIC,' "
-de = ""
+de = "'Der Sonnenkönig auf der dritten Mariposa am Merkur gilt als ... exzentrisch.' "
 
 [[text]]
 id = "M017_055"
 befehl = ["PRINTCLEAR"]
 en = "THIS HATCHWAY LEADS TO THE ROCKETBAY."
-de = ""
+de = "Diese Luke führt zum Raketenhangar."
 
 [[text]]
 id = "M017_056"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE IN THE SALVATION PORT AREA."
-de = ""
+de = "Ihr seid im Hafenbereich von Salvation."
 
 [[text]]
 id = "M017_057"
 befehl = ["HMENU"]
 menue = true
 en = "LAUNCH"
-de = ""
+de = "Starten"
 
 [[text]]
 id = "M017_058"
 befehl = ["HMENU"]
 menue = true
 en = "RESUPPLY"
-de = ""
+de = "Auftanken"
 
 [[text]]
 id = "M017_059"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M017_060"
 befehl = ["HMENU"]
 menue = true
 en = "LAUNCH"
-de = ""
+de = "Starten"
 
 [[text]]
 id = "M017_061"
 befehl = ["HMENU"]
 menue = true
 en = "EXIT"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M017_062"
 befehl = ["PRINTCLEAR"]
 en = "LAUNCH ACCESS DENIED UNTIL YOU HAVE BEEN BRIEFED. REPORT TO HQ."
-de = ""
+de = "Kein Start ohne Einweisung. Meldet euch im Hauptquartier."
 
 [[text]]
 id = "M017_063"
 befehl = ["PRINTCLEAR"]
 en = "'ALL PREPARATIONS ARE COMPLETE. YOU ARE CLEARED FOR LAUNCH'"
-de = ""
+de = "'Alle Vorbereitungen abgeschlossen. Ihr habt Starterlaubnis.'"
 
 [[text]]
 id = "M017_064"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU PREPARE YOUR TUG, TURABIAN CALLS. 'GOOD LUCK ON YOUR FIRST MISSION FOR NEO.'"
-de = ""
+de = "Als ihr euren Schlepper vorbereitet, meldet sich Turabian. 'Viel Glück bei eurer ersten Mission für die NEO.'"
 
 [[text]]
 id = "M017_065"
 befehl = ["PRINTCLEAR"]
 en = "THE ENGINES ROAR AS YOU SHOOT DOWN THE LAUNCHING BAY. YOU BEGIN YOUR SEARCH OF THE SPACE DEBRIS THAT ORBITS EARTH..."
-de = ""
+de = "Die Triebwerke donnern, als ihr durch den Starttunnel schießt. Ihr beginnt, die Trümmer im Erdorbit abzusuchen ..."
 
 [[text]]
 id = "M017_066"
 befehl = ["PRINTCLEAR"]
 en = "AFTER A FEW DAYS, YOU LOCATE SOMETHING UNUSUAL."
-de = ""
+de = "Nach einigen Tagen entdeckt ihr etwas Ungewöhnliches."
 
 [[text]]
 id = "M017_067"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE FOUND A DERELICT SPACESHIP DRIFTING AMONGST THE DEBRIS. IT HAS NO MARKINGS TO IDENTIFY IT, AND NO NOTICEABLE EXTERNAL DAMAGE. YOU DOCK AND ENTER THE SHIP."
-de = ""
+de = "Ihr habt ein treibendes Wrack zwischen den Trümmern gefunden. Es hat keine Kennzeichen und keine sichtbaren Außenschäden. Ihr dockt an und betretet das Schiff."
 
 [[text]]
 id = "M017_068"
 befehl = ["PRINTCLEAR"]
 en = "THE NEO MECHANICS REPAIR YOUR SHIP."
-de = ""
+de = "Die NEO-Mechaniker reparieren euer Schiff."
 
 [[text]]
 id = "M017_069"
 befehl = ["PRINTCLEAR"]
 en = "NEO TECHNICIANS RELOAD YOUR WEAPONS AND RESTOCK YOUR EXTRA AMMO."
-de = ""
+de = "NEO-Techniker laden eure Waffen nach und füllen eure Munition auf."
 
 [[text]]
 id = "M017_070"
 befehl = ["PRINTCLEAR"]
 en = "THE REST OF SALVATION IS OFF LIMITS."
-de = ""
+de = "Der übrige Teil von Salvation ist gesperrt."

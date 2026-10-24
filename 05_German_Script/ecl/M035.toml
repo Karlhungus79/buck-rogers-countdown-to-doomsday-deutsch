@@ -6,127 +6,127 @@
 id = "M035_000"
 befehl = ["PRINTCLEAR"]
 en = "THE EMERGENCY LIGHTING IS ON, BUT FLICKERING. IT IS DIFFICULT TO SEE CLEARLY ANY DISTANCE."
-de = ""
+de = "Die Notbeleuchtung ist an, flackert aber. Man sieht kaum weiter als ein paar Schritte."
 
 [[text]]
 id = "M035_001"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WISH TO RETREAT INTO YOUR SHIP?"
-de = ""
+de = "Wollt ihr euch in euer Schiff zurückziehen?"
 
 [[text]]
 id = "M035_002"
 befehl = ["PRINTCLEAR"]
 en = "YOUR SHIP IS BUFFETED BY THE EXPLOSION FROM THE ASTEROID."
-de = ""
+de = "Die Explosion des Asteroiden schüttelt euer Schiff durch."
 
 [[text]]
 id = "M035_003"
 befehl = ["PRINTCLEAR"]
 en = "FROM NOWHERE COME DEADLY ECGS."
-de = ""
+de = "Aus dem Nichts tauchen tödliche ECGs auf."
 
 [[text]]
 id = "M035_004"
 befehl = ["PRINTCLEAR"]
 en = "ECGS ATTEMPT TO SEIZE YOUR SHIP."
-de = ""
+de = "ECGs versuchen, euer Schiff zu kapern."
 
 [[text]]
 id = "M035_005"
 befehl = ["PRINTCLEAR"]
 en = "THIS AIRLOCK DOOR IS LEAKING. SOMETHING HAS BEEN TEARING AT THE SEALS. A TATTERED BIT OF SPACESUIT FLOATS PAST."
-de = ""
+de = "Diese Schleusentür ist undicht. Etwas hat an den Dichtungen gerissen. Ein zerfetztes Stück Raumanzug schwebt vorbei."
 
 [[text]]
 id = "M035_006"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE COMMUNICATIONS ROOM. DAMAGED ELECTRONICS FLOAT EVERYWHERE."
-de = ""
+de = "Das ist der Funkraum. Überall schweben beschädigte Geräte."
 
 [[text]]
 id = "M035_007"
 befehl = ["PRINTCLEAR"]
 en = "SUDDENLY SHAPES WHIRL TOWARD YOU FROM EVERY DIRECTION."
-de = ""
+de = "Plötzlich wirbeln Gestalten von allen Seiten auf euch zu."
 
 [[text]]
 id = "M035_008"
 befehl = ["PRINTCLEAR"]
 en = "A BLEEDING MINER IN A SPACESUIT WHISPERS, 'TALON BETRAYED US. THAT WAS NO TREASURE.' HE STOPS BREATHING."
-de = ""
+de = "Ein blutender Bergmann im Raumanzug flüstert: 'Talon hat uns verraten. Das war kein Schatz.' Er hört auf zu atmen."
 
 [[text]]
 id = "M035_009"
 befehl = ["PRINTCLEAR"]
 en = "SEVERAL MINERS FLOAT PAST, THEIR BODIES SAVAGED BY SOMETHING."
-de = ""
+de = "Mehrere Bergleute schweben vorbei, ihre Körper von etwas zerfleischt."
 
 [[text]]
 id = "M035_010"
 befehl = ["PRINTCLEAR"]
 en = "SEVERAL MINERS WERE OVERCOME BY THE ECGS WHILE STRAPPED TO THEIR BUNKS."
-de = ""
+de = "Mehrere Bergleute wurden von den ECGs überwältigt, während sie in ihren Kojen festgeschnallt waren."
 
 [[text]]
 id = "M035_011"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISCOVER A NOTE SIGNED BY TALON."
-de = ""
+de = "Ihr findet eine Notiz, unterschrieben von Talon."
 
 [[text]]
 id = "M035_012"
 befehl = ["PRINTCLEAR"]
 en = "'YOU HAVE PROFITED BY SAFEKEEPING THINGS FOR ME BEFORE. STORE THESE CYLINDERS AND YOU WILL BE WELL REWARDED.'"
-de = ""
+de = "'Ihr habt schon früher gut daran verdient, Dinge für mich zu verwahren. Lagert diese Behälter, und ihr werdet reich belohnt.'"
 
 [[text]]
 id = "M035_013"
 befehl = ["PRINTCLEAR"]
 en = "ECGS GUARD THIS DOORWAY. BEYOND YOU SEE CRUDE CORRIDORS WITH MUCH FLOATING DEBRIS."
-de = ""
+de = "ECGs bewachen diesen Durchgang. Dahinter seht ihr grob gehauene Gänge voller schwebender Trümmer."
 
 [[text]]
 id = "M035_014"
 befehl = ["PRINTCLEAR"]
 en = "RANDOM OBJECTS HAVE BEEN CRUDELY LASHED TOGETHER HERE. ECGS BOIL OUT TO PROTECT SOMETHING WITHIN."
-de = ""
+de = "Hier wurde allerlei Zeug grob zusammengebunden. ECGs quellen heraus, um etwas darin zu schützen."
 
 [[text]]
 id = "M035_015"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISCOVER SEVERAL MOLTING SHAPES HIDDEN WITHIN THE PILE AND DESTROY THEM."
-de = ""
+de = "Ihr entdeckt mehrere sich häutende Gestalten im Haufen und vernichtet sie."
 
 [[text]]
 id = "M035_016"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A CACHE OF EXPLOSIVES AND SEVERAL EMPTY CYLINDERS MARKED, 'PROPERTY OF DR. WILLIAMS. BIOHAZARD.'"
-de = ""
+de = "Ihr findet ein Sprengstofflager und mehrere leere Behälter mit der Aufschrift: 'Eigentum von Dr. Williams. Biogefährdung.'"
 
 [[text]]
 id = "M035_017"
 befehl = ["PRINTCLEAR"]
 en = "THE OTHER EXPLOSIVE COULD BE SET TO DETONATE AND DESTROY THE ASTEROID. "
-de = ""
+de = "Mit dem übrigen Sprengstoff ließe sich der Asteroid sprengen. "
 
 [[text]]
 id = "M035_018"
 befehl = ["PRINT"]
 en = "DO YOU WISH TO SET UP AN EXPLOSION?"
-de = ""
+de = "Wollt ihr eine Sprengung vorbereiten?"
 
 [[text]]
 id = "M035_019"
 befehl = ["PRINTCLEAR"]
 en = "YOU CAN SET A DELAY BETWEEN 0 AND 99. WHAT NUMBER DO YOU CHOOSE?"
-de = ""
+de = "Ihr könnt eine Verzögerung von 0 bis 99 einstellen. Welche Zahl wählt ihr?"
 
 [[text]]
 id = "M035_020"
 befehl = ["PRINTCLEAR"]
 en = "THE COUNTDOWN HAS BEEN ACTIVATED."
-de = ""
+de = "Der Countdown läuft."
 
 [[text]]
 id = "M035_021"
@@ -144,4 +144,4 @@ de = ""
 id = "M035_023"
 befehl = ["PRINTCLEAR"]
 en = "THE ASTEROID ERUPTS IN A HUGE EXPLOSION!"
-de = ""
+de = "Der Asteroid vergeht in einer gewaltigen Explosion!"

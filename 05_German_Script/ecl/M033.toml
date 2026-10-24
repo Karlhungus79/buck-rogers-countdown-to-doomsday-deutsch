@@ -6,318 +6,318 @@
 id = "M033_000"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS BARRICADED. THE CREATURES CAN SLIP THROUGH THE WALL CONDUITS."
-de = ""
+de = "Die Tür ist verbarrikadiert. Die Wesen können durch die Kanäle in den Wänden schlüpfen."
 
 [[text]]
 id = "M033_001"
 befehl = ["PRINTCLEAR"]
 en = "A GENNIE SPRINGS OUT OF A SOLID WALL."
-de = ""
+de = "Ein Gennie springt aus einer massiven Wand."
 
 [[text]]
 id = "M033_002"
 befehl = ["PRINTCLEAR"]
 en = "WITH THE BARRICADE UNGUARDED, YOU RIP IT APART EASILY."
-de = ""
+de = "Die Barrikade ist unbewacht, ihr reißt sie mühelos ein."
 
 [[text]]
 id = "M033_003"
 befehl = ["PRINT"]
 en = "A STAGE 3 HAS EMERGED. IT IS WEAK.'"
-de = ""
+de = "Ein Stufe-3-ECG ist geschlüpft. Er ist noch schwach.'"
 
 [[text]]
 id = "M033_004"
 befehl = ["PRINT"]
 en = "IT IS MOVING ABOUT, EXAMINING THE CONTROLS.'"
-de = ""
+de = "Er bewegt sich umher und untersucht die Steuerung.'"
 
 [[text]]
 id = "M033_005"
 befehl = ["PRINT"]
 en = "IT HAS ACTIVATED A COMPUTER. IT IS LEARNING QUICKLY.'"
-de = ""
+de = "Er hat einen Computer eingeschaltet. Er lernt schnell.'"
 
 [[text]]
 id = "M033_006"
 befehl = ["PRINT"]
 en = "ITS MANIPULATING THE CONTROLS, LEARNING TO PILOT.'"
-de = ""
+de = "Er bedient die Steuerung und lernt zu fliegen.'"
 
 [[text]]
 id = "M033_007"
 befehl = ["PRINT"]
 en = " AWAKES SCREAMING, EYES UNFOCUSED."
-de = ""
+de = " erwacht schreiend, mit leerem Blick."
 
 [[text]]
 id = "M033_008"
 befehl = ["PRINT"]
 en = " ATTACKS."
-de = ""
+de = " greift an."
 
 [[text]]
 id = "M033_009"
 befehl = ["PRINT"]
 en = " SUDDENLY KEELS OVER."
-de = ""
+de = " kippt plötzlich um."
 
 [[text]]
 id = "M033_010"
 befehl = ["PRINT"]
 en = " GETS A SPLITTING HEADACHE."
-de = ""
+de = " bekommt rasende Kopfschmerzen."
 
 [[text]]
 id = "M033_011"
 befehl = ["PRINT"]
 en = " NOTICES A SLOWLY SPREADING RASH."
-de = ""
+de = " bemerkt einen Ausschlag, der sich langsam ausbreitet."
 
 [[text]]
 id = "M033_012"
 befehl = ["PRINT"]
 en = "'S LEG ITCHES FOR A MOMENT."
-de = ""
+de = " spürt kurz ein Jucken im Bein."
 
 [[text]]
 id = "M033_013"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M033_014"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M033_015"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M033_016"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M033_017"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M033_018"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M033_019"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M033_020"
 befehl = ["PRINTCLEAR"]
 en = "A HORDE OF HIDEOUS GENNIES RUSH YOU. THEY ARE VERY QUICK."
-de = ""
+de = "Eine Horde scheußlicher Gennies stürmt auf euch zu. Sie sind sehr schnell."
 
 [[text]]
 id = "M033_021"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR SCRABBLING BEHIND THE WALLS. MORE WILL SOON BE HERE."
-de = ""
+de = "Hinter den Wänden hört ihr Scharren. Bald kommen mehr."
 
 [[text]]
 id = "M033_022"
 befehl = ["PRINTCLEAR"]
 en = "YOU COULD JUST FIT INTO THE AIRSHAFT. "
-de = ""
+de = "Ihr würdet gerade so in den Luftschacht passen. "
 
 [[text]]
 id = "M033_023"
 befehl = ["PRINT"]
 en = "YOU HAVE TO TRAVEL IN SINGLE FILE. SOMEONE MIGHT HAVE TO FIGHT ALONE. "
-de = ""
+de = "Ihr müsst hintereinander gehen. Vielleicht muss jemand allein kämpfen. "
 
 [[text]]
 id = "M033_024"
 befehl = ["PRINT"]
 en = "DO YOU ENTER?"
-de = ""
+de = "Hineingehen?"
 
 [[text]]
 id = "M033_025"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE BIO-MONITORING STATION. "
-de = ""
+de = "Das ist die Biomonitor-Station. "
 
 [[text]]
 id = "M033_026"
 befehl = ["WHMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M033_027"
 befehl = ["WHMENU"]
 menue = true
 en = "OPERATE"
-de = ""
+de = "Bedienen"
 
 [[text]]
 id = "M033_028"
 befehl = ["PRINTCLEAR"]
 en = "IT INDICATES THAT YOU ARE THE ONLY HUMANS ON BOARD. MANY LIFE FORMS ARE ON DECK 6."
-de = ""
+de = "Laut Anzeige seid ihr die einzigen Menschen an Bord. Auf Deck 6 sind viele Lebensformen."
 
 [[text]]
 id = "M033_029"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU WATCH, A NEW READING APPEARS. "
-de = ""
+de = "Während ihr zuseht, erscheint ein neuer Messwert. "
 
 [[text]]
 id = "M033_030"
 befehl = ["PRINTCLEAR"]
 en = "A GENNIE PULLS ITSELF OUT OF THE AIRSHAFT AND FLASHES TOWARD YOU."
-de = ""
+de = "Ein Gennie zieht sich aus dem Luftschacht und schnellt auf euch zu."
 
 [[text]]
 id = "M033_031"
 befehl = ["PRINTCLEAR"]
 en = "THE MEDICAL LAB IS PRISTINE. A SMALL DATA COMPUTER IS ATTACHED TO A TABLE."
-de = ""
+de = "Das Medizinlabor ist makellos. Ein kleiner Datencomputer ist an einem Tisch befestigt."
 
 [[text]]
 id = "M033_032"
 befehl = ["HMENU"]
 menue = true
 en = "USE"
-de = ""
+de = "Benutzen"
 
 [[text]]
 id = "M033_033"
 befehl = ["HMENU"]
 menue = true
 en = "TAKE"
-de = ""
+de = "Nehmen"
 
 [[text]]
 id = "M033_034"
 befehl = ["HMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M033_035"
 befehl = ["PRINTCLEAR"]
 en = "THE COMPUTER STATES, 'REQUIRE VALID VOICE PRINT.' "
-de = ""
+de = "Der Computer meldet: 'Gültiger Stimmabdruck erforderlich.' "
 
 [[text]]
 id = "M033_036"
 befehl = ["HMENU"]
 menue = true
 en = "TAKE"
-de = ""
+de = "Nehmen"
 
 [[text]]
 id = "M033_037"
 befehl = ["HMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M033_038"
 befehl = ["PRINTCLEAR"]
 en = "YOU SCOOP UP THE COMPUTER AND FIND SOME POISON ANTIDOTES."
-de = ""
+de = "Ihr nehmt den Computer und findet einige Gegengifte."
 
 [[text]]
 id = "M033_039"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS APPEARS AND SAYS, 'DATACOMP1, THIS IS SCOT. GIVE ME FULL INFORMATION FEED.'"
-de = ""
+de = "Scot.DOS erscheint und sagt: 'Datacomp1, hier ist Scot. Gib mir alle Informationen.'"
 
 [[text]]
 id = "M033_040"
 befehl = ["PRINTCLEAR"]
 en = "AUTOMATED SURGEONS DANGLE ABOVE TABLES. ON ONE AN AUTOPSY WAS PERFORMED. NEXT TO THE CORPSE IS A UNIFORM AND A READOUT."
-de = ""
+de = "Über den Tischen hängen OP-Automaten. Auf einem Tisch liegt eine obduzierte Leiche, daneben eine Uniform und ein Ausdruck."
 
 [[text]]
 id = "M033_041"
 befehl = ["PRINTCLEAR"]
 en = "THE UNIFORM HAS THE NAME 'DR. CONCHITEZ' AND A NUMBER. THE READOUT LISTS A PROTECTION AGAINST THE PARASITE."
-de = ""
+de = "Auf der Uniform stehen der Name 'Dr. Conchitez' und eine Nummer. Der Ausdruck nennt einen Schutz gegen den Parasiten."
 
 [[text]]
 id = "M033_042"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU USE THE SURGEON TO EXTRACT A PARASITE?"
-de = ""
+de = "Lasst ihr den Automaten einen Parasiten entfernen?"
 
 [[text]]
 id = "M033_043"
 befehl = ["WHO"]
 en = "WHO WILL BE OPERATED ON?"
-de = ""
+de = "Wer wird operiert?"
 
 [[text]]
 id = "M033_044"
 befehl = ["PRINTCLEAR"]
 en = "THAT ONE IS NOT INFECTED. OPERATE ANYWAY?"
-de = ""
+de = "Diese Figur ist nicht befallen. Trotzdem operieren?"
 
 [[text]]
 id = "M033_045"
 befehl = ["PRINTCLEAR"]
 en = "YOU ACTIVATE THE SURGEON. IT INTONES, 'SIGMA NUMBER.' "
-de = ""
+de = "Ihr schaltet den Automaten ein. Er verkündet: 'Sigma-Nummer.' "
 
 [[text]]
 id = "M033_046"
 befehl = ["WHMENU"]
 menue = true
 en = "SPEAK"
-de = ""
+de = "Sprechen"
 
 [[text]]
 id = "M033_047"
 befehl = ["WHMENU"]
 menue = true
 en = "TURN IT OFF"
-de = ""
+de = "Abschalten"
 
 [[text]]
 id = "M033_048"
 befehl = ["WHMENU"]
 menue = true
 en = "REPROGRAM"
-de = ""
+de = "Umprogrammieren"
 
 [[text]]
 id = "M033_049"
 befehl = ["PRINTCLEAR"]
 en = "WHOSE NUMBER DO YOU SAY?"
-de = ""
+de = "Wessen Nummer nennt ihr?"
 
 [[text]]
 id = "M033_050"
@@ -397,219 +397,219 @@ de = ""
 id = "M033_061"
 befehl = ["PRINT"]
 en = "INVALID SIGMA NUMBER. SECURITY ALERT.' THE LASER SCALPEL ATTACKS. OTHER SURGEONS ACTIVATE."
-de = ""
+de = "Ungültige Sigma-Nummer. Sicherheitsalarm.' Das Laserskalpell greift an. Weitere Automaten schalten sich ein."
 
 [[text]]
 id = "M033_062"
 befehl = ["HMENU"]
 menue = true
 en = "DESTROY SURGEONS"
-de = ""
+de = "Automaten zerstören"
 
 [[text]]
 id = "M033_063"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M033_064"
 befehl = ["PRINTCLEAR"]
 en = "'REGISTERED DEATH CERTIFICATE. "
-de = ""
+de = "'Sterbeurkunde registriert. "
 
 [[text]]
 id = "M033_065"
 befehl = ["PRINTCLEAR"]
 en = "YOU STOP THE LASER FIRE. UNLUCKILY, YOU HAVE NO WAY TO REMOVE THE BRAIN PARASITES."
-de = ""
+de = "Ihr stoppt das Laserfeuer. Leider könnt ihr die Hirnparasiten jetzt nicht mehr entfernen."
 
 [[text]]
 id = "M033_066"
 befehl = ["PRINTCLEAR"]
 en = "YOU LEAVE IN A HAIL OF LASER FIRE."
-de = ""
+de = "Ihr flieht im Laserhagel."
 
 [[text]]
 id = "M033_067"
 befehl = ["PRINTCLEAR"]
 en = "DEFENSE ROBOTS RESPOND TO THE ALERT."
-de = ""
+de = "Abwehrroboter reagieren auf den Alarm."
 
 [[text]]
 id = "M033_068"
 befehl = ["PRINTCLEAR"]
 en = "YOU SHUT IT DOWN. SILENCE DESCENDS AGAIN."
-de = ""
+de = "Ihr schaltet ihn ab. Wieder kehrt Stille ein."
 
 [[text]]
 id = "M033_069"
 befehl = ["WHO"]
 en = "WHO WILL REPROGRAM?"
-de = ""
+de = "Wer programmiert um?"
 
 [[text]]
 id = "M033_070"
 befehl = ["PRINTCLEAR"]
 en = "THAT ONE IS UNABLE TO."
-de = ""
+de = "Diese Figur kann das nicht."
 
 [[text]]
 id = "M033_071"
 befehl = ["PRINT"]
 en = " FAILS. '"
-de = ""
+de = " scheitert. '"
 
 [[text]]
 id = "M033_072"
 befehl = ["PRINTCLEAR"]
 en = "THE OPERATION IS QUICK AND SUCCESSFUL. THE OTHERS UNDERGO THE PROCEDURE AND ARE CURED."
-de = ""
+de = "Die Operation verläuft schnell und erfolgreich. Die anderen lassen sich ebenfalls behandeln und sind geheilt."
 
 [[text]]
 id = "M033_073"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WANT BRAIN SURGERY PERFORMED?"
-de = ""
+de = "Wollt ihr eine Hirnoperation durchführen lassen?"
 
 [[text]]
 id = "M033_074"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WANT TO HEAL THE TEAM?"
-de = ""
+de = "Wollt ihr das Team heilen?"
 
 [[text]]
 id = "M033_075"
 befehl = ["PRINTCLEAR"]
 en = "THE TEAM IS HEALED."
-de = ""
+de = "Das Team ist geheilt."
 
 [[text]]
 id = "M033_076"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE MAIN SECURITY CONSOLE. "
-de = ""
+de = "Das ist die zentrale Sicherheitskonsole. "
 
 [[text]]
 id = "M033_077"
 befehl = ["PRINT"]
 en = "A ROGUE COULD BYPASS THE PROGRAM AND SHUT DOWN THE ROBOTS HERE. DO YOU TRY?"
-de = ""
+de = "Ein Schurke könnte das Programm umgehen und die Roboter hier abschalten. Versucht ihr es?"
 
 [[text]]
 id = "M033_078"
 befehl = ["WHO"]
 en = "WHO WILL TRY?"
-de = ""
+de = "Wer versucht es?"
 
 [[text]]
 id = "M033_079"
 befehl = ["PRINTCLEAR"]
 en = "THAT ONE CANNOT."
-de = ""
+de = "Diese Figur kann das nicht."
 
 [[text]]
 id = "M033_080"
 befehl = ["PRINTCLEAR"]
 en = "THE SECURITY PROGRAM HAS DETECTED YOUR TAMPERING. "
-de = ""
+de = "Das Sicherheitsprogramm hat eure Manipulation bemerkt. "
 
 [[text]]
 id = "M033_081"
 befehl = ["PRINT"]
 en = "BEFORE YOU CAN PULL AWAY,"
-de = ""
+de = "Zu spät:"
 
 [[text]]
 id = "M033_082"
 befehl = ["PRINTCLEAR"]
 en = "YOU PULL AWAY AS"
-de = ""
+de = "Ihr springt zurück, und"
 
 [[text]]
 id = "M033_083"
 befehl = ["PRINTCLEAR"]
 en = "ROBOTS RUSH OUT FROM A CLOSET SAYING, 'RAM SECURITY VIOLATION. OFFENDERS FACE TERMINATION.'"
-de = ""
+de = "Roboter stürmen aus einem Schrank: 'RAM-Sicherheitsverstoß. Den Tätern droht die Eliminierung.'"
 
 [[text]]
 id = "M033_084"
 befehl = ["PRINTCLEAR"]
 en = "THE SECURITY MONITORS ARE DEAD."
-de = ""
+de = "Die Sicherheitsmonitore sind tot."
 
 [[text]]
 id = "M033_085"
 befehl = ["PRINT"]
 en = " THE CONSOLE ERUPTS WITH ELECTRICITY."
-de = ""
+de = " die Konsole sprüht Blitze."
 
 [[text]]
 id = "M033_086"
 befehl = ["PRINTCLEAR"]
 en = "ROBOTS BURST OUT OF THIS CLOSET AS THE DOOR OPENS."
-de = ""
+de = "Als sich die Tür öffnet, stürmen Roboter aus diesem Schrank."
 
 [[text]]
 id = "M033_087"
 befehl = ["PRINTCLEAR"]
 en = "THIS CLOSET IS FILLED WITH INACTIVE SECURITY ROBOTS."
-de = ""
+de = "Dieser Schrank ist voller abgeschalteter Sicherheitsroboter."
 
 [[text]]
 id = "M033_088"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS AN EMPTY SECURITY ROBOT CLOSET."
-de = ""
+de = "Dies ist ein leerer Schrank für Sicherheitsroboter."
 
 [[text]]
 id = "M033_089"
 befehl = ["PRINTCLEAR"]
 en = "A HOLOGRAM APPEARS. 'I AM SCOT.DOS. I WAS TRYING TO DEFECT TO NEO WHEN SECURITY DETECTED ME."
-de = ""
+de = "Ein Hologramm erscheint. 'Ich bin Scot.DOS. Ich wollte zur NEO überlaufen, als die Sicherheit mich entdeckte."
 
 [[text]]
 id = "M033_090"
 befehl = ["PRINTCLEAR"]
 en = "'THE PROGRAM SEALED ME INTO THIS CONSOLE. I CAN HELP YOU IF YOU CONNECT ME TO THE NEXT PANEL.'"
-de = ""
+de = "'Das Programm hat mich in dieser Konsole eingesperrt. Ich helfe euch, wenn ihr mich mit dem nächsten Pult verbindet.'"
 
 [[text]]
 id = "M033_091"
 befehl = ["PRINTCLEAR"]
 en = "THIS COMPUTER IS RAM'S BEST. THE CONNECTIONS TO THE NEXT CONSOLE ARE STRANGELY FUSED."
-de = ""
+de = "Dies ist der beste Computer von RAM. Die Verbindungen zum nächsten Pult sind seltsam verschmolzen."
 
 [[text]]
 id = "M033_092"
 befehl = ["PRINTCLEAR"]
 en = "YOU CONNECT THE CONSOLES. 'UNTIL THE ECGS ARE DEFEATED WE CANNOT ESCAPE. THEY WILL MOLT SOON TO STAGE 3."
-de = ""
+de = "Ihr verbindet die Pulte. 'Solange die ECGs nicht besiegt sind, kommen wir nicht weg. Bald häuten sie sich zu Stufe 3."
 
 [[text]]
 id = "M033_093"
 befehl = ["PRINTCLEAR"]
 en = "'SEARCH FOR RECORDS. DR. WILLIAMS TALKED OF WAYS TO CONTROL THE ECGS.'"
-de = ""
+de = "'Sucht nach Aufzeichnungen. Dr. Williams sprach davon, wie man die ECGs kontrollieren kann.'"
 
 [[text]]
 id = "M033_094"
 befehl = ["PRINTCLEAR"]
 en = "'FIRST, LETS SCAN THOSE BIORECORDS YOU FOUND IN MED LAB."
-de = ""
+de = "'Zuerst scannen wir die Bioaufzeichnungen, die ihr im Medizinlabor gefunden habt."
 
 [[text]]
 id = "M033_095"
 befehl = ["PRINTCLEAR"]
 en = "'HMM, ARGON GAS WOULD BE EFFECTIVE AGAINST ECGS. ANY WOULD BE ON DECKS 4 OR 1. FEED IT INTO THE AIR PUMPS.'"
-de = ""
+de = "'Hmm, Argongas würde gegen ECGs wirken. Welches gäbe es auf Deck 4 oder 1. Leitet es in die Luftpumpen.'"
 
 [[text]]
 id = "M033_096"
 befehl = ["PRINTCLEAR"]
 en = "YOU CANCEL THE DESTRUCT SEQUENCE."
-de = ""
+de = "Ihr brecht die Selbstzerstörung ab."
 
 [[text]]
 id = "M033_097"
@@ -621,69 +621,69 @@ de = ""
 id = "M033_098"
 befehl = ["PRINTCLEAR"]
 en = "A SPACESUITED FIGURE IS FIRING AT YOU FROM THE AIRLOCK."
-de = ""
+de = "Eine Gestalt im Raumanzug feuert aus der Luftschleuse auf euch."
 
 [[text]]
 id = "M033_099"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU GET CLOSER YOU SEE THAT THE FACE IS EXPRESSIONLESS AND ITS EYES DEAD BLACK."
-de = ""
+de = "Als ihr näher kommt, seht ihr: Das Gesicht ist ausdruckslos, die Augen tiefschwarz."
 
 [[text]]
 id = "M033_100"
 befehl = ["PRINTCLEAR"]
 en = "YOU REACH THE STRANGE GENNIE. ANOTHER APPEARS."
-de = ""
+de = "Ihr erreicht den seltsamen Gennie. Ein weiterer erscheint."
 
 [[text]]
 id = "M033_101"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS SOMETHING IN THE AIRLOCK. YOU LOOK IN AND SEE..."
-de = ""
+de = "In der Luftschleuse ist etwas. Ihr schaut hinein und seht..."
 
 [[text]]
 id = "M033_102"
 befehl = ["PRINTCLEAR"]
 en = "A LONE STAGE 3 IS SETTING A DEMO CHARGE. ITS SOULLESS EYES PEER AT YOU INTENTLY."
-de = ""
+de = "Ein einzelner Stufe-3-ECG bringt eine Sprengladung an. Seine seelenlosen Augen mustern euch."
 
 [[text]]
 id = "M033_103"
 befehl = ["HMENU"]
 menue = true
 en = "SHOOT IT"
-de = ""
+de = "Schießen"
 
 [[text]]
 id = "M033_104"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M033_105"
 befehl = ["PRINTCLEAR"]
 en = "WHEN HIT, IT FALLS BACK THROUGH THE ESCAPE POD'S CLOSING AIRLOCK. YOU ARE ROCKED BY THE EXPLODING CHARGE AS THE POD DISINTEGRATES."
-de = ""
+de = "Getroffen stürzt er durch die sich schließende Schleuse der Rettungskapsel zurück. Die Ladung explodiert, die Kapsel zerbirst."
 
 [[text]]
 id = "M033_106"
 befehl = ["PRINTCLEAR"]
 en = "SCOT APPEARS. 'CONGRATULATIONS! I CAN FIND NO ECGS AT ALL. CONTACT NEO AND FIGURE OUT HOW RAM PLANS TO STERILIZE THE EARTH.'"
-de = ""
+de = "Scot erscheint. 'Glückwunsch! Ich finde keine ECGs mehr. Ruft die NEO und findet heraus, wie RAM die Erde sterilisieren will.'"
 
 [[text]]
 id = "M033_107"
 befehl = ["PRINTCLEAR"]
 en = "YOU PILOT THE SHIP BACK TO SALVATION AND GIVE YOUR REPORT."
-de = ""
+de = "Ihr fliegt das Schiff zurück nach Salvation und erstattet Bericht."
 
 [[text]]
 id = "M033_108"
 befehl = ["PRINTCLEAR"]
 en = "THE ECG TOSSES THE CHARGE AFTER YOU."
-de = ""
+de = "Der ECG wirft euch die Ladung hinterher."
 
 [[text]]
 id = "M033_109"
@@ -695,49 +695,49 @@ de = ""
 id = "M033_110"
 befehl = ["PRINTCLEAR"]
 en = "YOU CRAWL TO THE SHIP'S WEAPONRY CONTROLS. EXPLOSIONS LIGHT UP THE SCREEN AS THE POD FLARES TO INCANDESCENCE."
-de = ""
+de = "Ihr kriecht zur Waffensteuerung des Schiffs. Explosionen erhellen den Schirm, als die Kapsel aufglüht."
 
 [[text]]
 id = "M033_111"
 befehl = ["PRINTCLEAR"]
 en = "THE ROOM HOLDS MANY MAINTENANCE TOOLS. SOMETHING CATCHES YOUR EYE TO EITHER SIDE."
-de = ""
+de = "Der Raum enthält viele Wartungswerkzeuge. Zu beiden Seiten fällt euch etwas auf."
 
 [[text]]
 id = "M033_112"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISCOVER A SMALL HIDEAWAY. FLOATING WITHIN IS A LOG OF DR. CONCHITEZ. ON THE FINAL PAGE, 'THE RASH...I HAVE LITTLE TIME.'"
-de = ""
+de = "Ihr findet ein kleines Versteck. Darin schwebt ein Logbuch von Dr. Conchitez. Letzte Seite: 'Der Ausschlag... mir bleibt wenig Zeit.'"
 
 [[text]]
 id = "M033_113"
 befehl = ["PRINTCLEAR"]
 en = "A PAPER CATCHES YOUR EYE. 'I WISH DR. WILLIAMS REVEALED HOW THE ECGS COULD BE CONTROLLED. HE MUST HAVE RECORDED THE INFORMATION.'"
-de = ""
+de = "Ein Zettel fällt euch auf. 'Hätte Dr. Williams nur verraten, wie man die ECGs kontrollieren kann. Er muss es aufgezeichnet haben.'"
 
 [[text]]
 id = "M033_114"
 befehl = ["PRINTCLEAR"]
 en = "THE CARGO BAY IS FILLED WITH EMPTY CANISTERS. ONE ECG COULD FIT IN EACH AND SURVIVE REENTRY."
-de = ""
+de = "Der Frachtraum ist voller leerer Behälter. In jeden passt ein ECG und würde den Wiedereintritt überleben."
 
 [[text]]
 id = "M033_115"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE AT A LADDER."
-de = ""
+de = "Ihr steht an einer Leiter."
 
 [[text]]
 id = "M033_116"
 befehl = ["PRINT"]
 en = " WHERE DO YOU GO?"
-de = ""
+de = " Wohin geht ihr?"
 
 [[text]]
 id = "M033_117"
 befehl = ["PRINTCLEAR"]
 en = "YOU STEP OFF ONTO THE NEW LANDING ON DECK "
-de = ""
+de = "Ihr steigt auf den neuen Absatz auf Deck "
 
 [[text]]
 id = "M033_118"
@@ -761,7 +761,7 @@ de = ""
 id = "M033_121"
 befehl = ["PRINTCLEAR"]
 en = "THE SHIP ERUPTS IN A HUGE EXPLOSION!"
-de = ""
+de = "Das Schiff vergeht in einer gewaltigen Explosion!"
 
 [[text]]
 id = "M033_122"
@@ -773,4 +773,4 @@ de = ""
 id = "M033_123"
 befehl = ["PRINTCLEAR"]
 en = "SCOT SPEAKS, '"
-de = ""
+de = "Scot sagt: '"
