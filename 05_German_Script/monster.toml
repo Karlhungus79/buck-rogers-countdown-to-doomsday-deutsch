@@ -1,0 +1,272 @@
+# Buck Rogers: Countdown to Doomsday - Monsternamen (dat_9E77C), DEUTSCH-HOOK 12
+# de = deutsch, hoechstens 15 Zeichen, GROSS wie im Original (leer = englisch bleibt).
+
+[[monster]]
+nr = 0
+en = "D.R. WARRIOR"
+de = "W.L. KRIEGER"
+
+[[monster]]
+nr = 1
+en = "LL. WARRIOR"
+de = "T.L. KRIEGER"
+
+[[monster]]
+nr = 2
+en = "LL. TECHNICIAN"
+de = "T.L. TECHNIKER"
+
+[[monster]]
+nr = 3
+en = "LL. WARRIOR"
+de = "T.L. KRIEGER"
+
+[[monster]]
+nr = 4
+en = "DESERT APE"
+de = "WÜSTENAFFE"
+
+[[monster]]
+nr = 5
+en = "HEXADILLO"
+de = ""
+
+[[monster]]
+nr = 6
+en = "SAND SQUID"
+de = "SANDKRAKE"
+
+[[monster]]
+nr = 7
+en = "MER. LEADER"
+de = "MER. ANFÜHRER"
+
+[[monster]]
+nr = 8
+en = "MER. TECHNICIAN"
+de = "MER. TECHNIKER"
+
+[[monster]]
+nr = 9
+en = "MER. H.S. ROBOT"
+de = ""
+
+[[monster]]
+nr = 10
+en = "SM. E.C. GENNIE"
+de = "KL. E.C. GENNIE"
+
+[[monster]]
+nr = 11
+en = "LG. E.C. GENNIE"
+de = "GR. E.C. GENNIE"
+
+[[monster]]
+nr = 12
+en = "PIRATE WARRIOR"
+de = "PIRATENKRIEGER"
+
+[[monster]]
+nr = 13
+en = "PIRATE LEADER"
+de = "PIRATENANFÜHRER"
+
+[[monster]]
+nr = 14
+en = "P. COMBAT ROBOT"
+de = "P. KAMPFROBOT"
+
+[[monster]]
+nr = 15
+en = "RAM ASSASSIN"
+de = "RAM-ATTENTÄTER"
+
+[[monster]]
+nr = 16
+en = "RAM G.D. GENNIE"
+de = ""
+
+[[monster]]
+nr = 17
+en = "HYPERCRAB"
+de = "HYPERKRABBE"
+
+[[monster]]
+nr = 18
+en = "HYPERSCORP"
+de = "HYPERSKORPION"
+
+[[monster]]
+nr = 19
+en = "HYPERSNAKE"
+de = "HYPERSCHLANGE"
+
+[[monster]]
+nr = 20
+en = "RAM MAR CGENNIE"
+de = ""
+
+[[monster]]
+nr = 21
+en = "RAM MER CGENNIE"
+de = ""
+
+[[monster]]
+nr = 22
+en = "RAM VEN CGENNIE"
+de = ""
+
+[[monster]]
+nr = 23
+en = "RAM ASSAULT BOT"
+de = "RAM STURMBOT"
+
+[[monster]]
+nr = 24
+en = "RAM COMBAT BOT"
+de = "RAM KAMPFBOT"
+
+[[monster]]
+nr = 25
+en = "RAM L.D. ROBOT"
+de = ""
+
+[[monster]]
+nr = 26
+en = "RAM H.D. ROBOT"
+de = ""
+
+[[monster]]
+nr = 27
+en = "RAM L.S. ROBOT"
+de = ""
+
+[[monster]]
+nr = 28
+en = "RAM H.S. ROBOT"
+de = ""
+
+[[monster]]
+nr = 29
+en = "RAM TECHNICIAN"
+de = "RAM TECHNIKER"
+
+[[monster]]
+nr = 30
+en = "RAM WARRIOR"
+de = "RAM KRIEGER"
+
+[[monster]]
+nr = 31
+en = "SPACE RAT"
+de = "RAUMRATTE"
+
+[[monster]]
+nr = 32
+en = "TERRINE LEADER"
+de = "TERRINE-FÜHRER"
+
+[[monster]]
+nr = 33
+en = "SWAMP HORNET"
+de = "SUMPFHORNISSE"
+
+[[monster]]
+nr = 34
+en = "URSADDER"
+de = ""
+
+[[monster]]
+nr = 35
+en = "ACID FROG"
+de = "SÄUREFROSCH"
+
+[[monster]]
+nr = 36
+en = "ACIDICIUM"
+de = ""
+
+[[monster]]
+nr = 37
+en = "VEN. H.S. ROBOT"
+de = ""
+
+[[monster]]
+nr = 38
+en = "MER. WARRIOR"
+de = "MER. KRIEGER"
+
+[[monster]]
+nr = 39
+en = "NEO WARRIOR"
+de = "NEO-KRIEGER"
+
+[[monster]]
+nr = 40
+en = "ACID FROG"
+de = "SÄUREFROSCH"
+
+[[monster]]
+nr = 41
+en = "TERRINE WARRIOR"
+de = "TERRINE-KRIEGER"
+
+[[monster]]
+nr = 42
+en = "STAGE 3  ECG"
+de = "ECG STUFE 3"
+
+[[monster]]
+nr = 43
+en = "D.R. WARRIOR"
+de = "W.L. KRIEGER"
+
+[[monster]]
+nr = 44
+en = "RAM TECHNICIAN"
+de = "RAM TECHNIKER"
+
+[[monster]]
+nr = 45
+en = "MER. WARRIOR"
+de = "MER. KRIEGER"
+
+[[monster]]
+nr = 58
+en = "TALON"
+de = ""
+
+[[monster]]
+nr = 59
+en = "TUSKON"
+de = ""
+
+[[monster]]
+nr = 60
+en = "LEANDER"
+de = ""
+
+[[monster]]
+nr = 61
+en = "ZANE"
+de = ""
+
+[[monster]]
+nr = 62
+en = "BUCK ROGERS"
+de = ""
+
+[[monster]]
+nr = 106
+en = "BEOWULF SAND"
+de = ""
+
+[[monster]]
+nr = 107
+en = "JASON BRAGA"
+de = ""
+
+[[monster]]
+nr = 108
+en = "CARLOS RIOJA"
+de = ""

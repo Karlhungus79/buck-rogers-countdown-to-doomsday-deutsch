@@ -2,7 +2,7 @@
 
 Stand: 24.10.2026. **Marcel: „alle Tests erfolgreich“ (24.10.2026, Ares)** – Nr. 1–15 bestätigt;
 Nr. 12 Beute-Zeile danach geändert (Hook 11, „ERBEUTET: KEINE BEUTE.“), Nachtest offen. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
-**CRC32 2E33C97D** (Testfassung 5BD1A1AE) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
+**CRC32 5D421395** (Testfassung C719F1FC) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
 Spielstand: Ares lädt `08_Savestates\Buck Rogers - Countdown to Doomsday (gebaut).ram` (Spielstand 1).
 Schneller: Testfassung `(test).md` mit Jumper (`Testfassung.md`) – Spalte „Jumper“ = ECL/Disk.
 
@@ -26,6 +26,7 @@ Bitte Screenshot bei allem, was abgeschnitten, umgebrochen, überschrieben oder 
 | 13 | Laden (Chicagorg) | Raumhafen-Shop (Jumper: ECL 99 / Disk 6) | Gegenstandsnamen (z. B. MARS-LASERPISTOLE), „PREIS: … CREDITS JE STÜCK“, „WIE VIELE STÜCK?“, „ICH BIETE …“, „OKAY? JA NEIN“ | offen |
 | 14 | Raumkampf | Jumper: ECL 50 / Disk 3 (Piraten); Schiffsstatus: RUMPF / ANTRIEB (rechts), WAFFEN / STEUERUNG (links) ohne Überdeckung | Menü FEUER/LADEN/HILFE/ZUGENDE/ANNÄHERN/ABDREHEN/RAMMEN!/ENTERN/MANÖVRIEREN, Meldungen „… FEUERT: RAKETE“, „5 SCHADEN FÜR DIE VIPER: RUMPF“ | offen |
 | 15 | Planetenscan | Jumper: ECL 34 / Disk 2 | SCAN:, BEVÖLKERUNG:, ATMOSPHÄRE:, SCHWERKRAFT:, UMLAUF:, ROTATION:, DURCHMESSER: mit Werten in km | Erde gesehen (passt) |
+| 16 | Monsternamen | jeder Kampf (z. B. Jumper Arena, ECL 16 nach dem Intro) | deutsch: TERRINE-KRIEGER, PIRATENKRIEGER, WÜSTENAFFE, SÄUREFROSCH …, nichts abgeschnitten (max. 15) | TERRINE-KRIEGER gesehen |
+| 17 | Abspann | Testfassung: Jumper → NEXT → NEXT → TESTS → CREDITS | Überschriften deutsch (SPIELENTWICKLUNG … PRODUZENT FÜR EA), Namen unverändert, nichts im Planeten | Seiten 1–3 gesehen |
 
-Noch englisch (kommt später in Phase 2): Monsternamen (z. B. „TERRINE WARRIOR“), vorgefertigte
-Figuren, Abspann, alle Dialoge außer dem Intro.
+Noch englisch: Grafiken (Titel, Abspann-Kopf „CREATED BY THE …“ → Phase 3), alle Dialoge außer dem Intro (Phase 5).

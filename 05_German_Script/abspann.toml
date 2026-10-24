@@ -1,0 +1,312 @@
+# Buck Rogers: Countdown to Doomsday - Abspann (dat_632E), DEUTSCH-HOOK 13
+# art: bild/seite (wert = Zahl, nicht aendern), ueberschrift, name, ende.
+# de = deutsch (leer = englisch). Neue Zeilen (z. B. Uebersetzung) duerfen eingefuegt werden.
+
+[[zeile]]
+art = "bild"
+wert = 50
+
+[[zeile]]
+art = "ueberschrift"
+en = "Game Development"
+de = "Spielentwicklung"
+
+[[zeile]]
+art = "name"
+en = "Tony Van"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Bret Berry"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 67
+
+[[zeile]]
+art = "ueberschrift"
+en = "Lead Programmer"
+de = "Chefprogrammierer"
+
+[[zeile]]
+art = "name"
+en = "Michael McNally"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Assistant Programmer"
+de = "Programmierassistenz"
+
+[[zeile]]
+art = "name"
+en = "Paul Murray"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Technical Assistance"
+de = "Technische Hilfe"
+
+[[zeile]]
+art = "name"
+en = "Steve Hayes"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 84
+
+[[zeile]]
+art = "ueberschrift"
+en = "Encounter Design"
+de = "Begegnungsdesign"
+
+[[zeile]]
+art = "name"
+en = "Rhonda Gilbert"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Dave Shelley"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 66
+
+[[zeile]]
+art = "ueberschrift"
+en = "Art Management"
+de = "Grafikleitung"
+
+[[zeile]]
+art = "name"
+en = "Tom Wahl"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Lead Artist"
+de = "Chefgrafiker"
+
+[[zeile]]
+art = "name"
+en = "Laura Bowen"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Portrait Artists"
+de = "Porträts"
+
+[[zeile]]
+art = "name"
+en = "Laura Bowen"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Fred Butts"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Maurine Starkey"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 52
+
+[[zeile]]
+art = "ueberschrift"
+en = "Large Graphics"
+de = "Großgrafiken"
+
+[[zeile]]
+art = "name"
+en = "Michael Provenza"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Maurine Starkey"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Mark Johnson"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Walls and Floors"
+de = "Wände und Böden"
+
+[[zeile]]
+art = "name"
+en = "Frank Saxon"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Space Combat Ships"
+de = "Raumkampfschiffe"
+
+[[zeile]]
+art = "name"
+en = "Cyrus Lum"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Michael Provenza"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 87
+
+[[zeile]]
+art = "ueberschrift"
+en = "Combat Figures"
+de = "Kampffiguren"
+
+[[zeile]]
+art = "name"
+en = "Frank Saxon"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Scott Sava"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Mark Johnson"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Music and Sounds"
+de = "Musik und Klänge"
+
+[[zeile]]
+art = "name"
+en = "Jon Medek"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 79
+
+[[zeile]]
+art = "ueberschrift"
+en = "Playtesting"
+de = "Spieltests"
+
+[[zeile]]
+art = "name"
+en = "Chris Warshauer"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Rob Lupo"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Peter Winch"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Jeff Walter"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Jeff Shotwell"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 76
+
+[[zeile]]
+art = "ueberschrift"
+en = "Additional Playtesting"
+de = "Weitere Spieltests"
+
+[[zeile]]
+art = "name"
+en = "Phil Alne"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Mike Balajadia"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Glen Cureton"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Cyrus Harris"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Brian Lowe"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Eduardo Trillo"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Andre Vrignaud"
+de = ""
+
+[[zeile]]
+art = "name"
+en = "Dennis Zahina"
+de = ""
+
+[[zeile]]
+art = "seite"
+wert = 93
+
+[[zeile]]
+art = "ueberschrift"
+en = "Project Manager"
+de = "Projektleitung"
+
+[[zeile]]
+art = "name"
+en = "Victor Penman"
+de = ""
+
+[[zeile]]
+art = "ueberschrift"
+en = "Producer for EA"
+de = "Produzent für EA"
+
+[[zeile]]
+art = "name"
+en = "Keith Francart"
+de = ""
+
+[[zeile]]
+art = "ende"

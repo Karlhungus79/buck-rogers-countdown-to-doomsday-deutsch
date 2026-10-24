@@ -11,9 +11,9 @@ gegengeprüft. **Im Spiel noch nicht bestätigt** (kein Einsetz-Test bisher).
 |---|---|---|---|---|
 | Dialog/Ereignisse (ECL) | Textblöcke `$042B96–$051100` | LZW-gepackt, ASCII, nur Großbuchstaben, `$00`-Ende | 27 Module, 2407 Texte, 107.674 Zeichen | 16-Bit-Offset im ECL-Operand `$80` |
 | Systemtexte | `$0120D6–$013268` (in `data/011DC4.bin`) | ASCII Klartext, meist Kleinbuchstaben, `$00`-Ende | 393 Einträge | Tabelle 16-Bit-Offsets ab `$011DC4` |
-| Monsternamen | in `dat_9E77C` (LZW) | ASCII, feste Feldlänge (ca. 15 Zeichen) | ca. 50 | Datensatz 0xD6 Byte, noch nicht analysiert |
-| Vorgefertigte Figuren | in `dat_6BAAD` (LZW) | ASCII | 6 Namen | noch nicht analysiert |
-| Abspann | `$006331–$00664C` | ASCII Klartext | ca. 60 Zeilen | noch nicht analysiert |
+| Monsternamen | in `dat_9E77C` (LZW) | ASCII, Feld 16 Byte (Byte 0–15 des Datensatzes) | 54 | Datensatz 0xD6 Byte, Umsetzung `Monster_Abspann.md` |
+| Vorgefertigte Figuren | in `dat_6BAAD` (LZW) | ASCII | 6 Namen | nur Eigennamen, bleiben (G6) |
+| Abspann | `$00632E–$00664C` | ASCII, Steuerbytes `$FC $FD $FE $FF` | 64 Einträge | Umsetzung `Monster_Abspann.md` |
 | Grafiktexte (Titel usw.) | komprimierte Grafik | Kacheln | ? | Phase 3 |
 
 Extraktion: `03_Tools\2_text_extrahieren.bat` → `04_English_Script\` (nicht im Repo).

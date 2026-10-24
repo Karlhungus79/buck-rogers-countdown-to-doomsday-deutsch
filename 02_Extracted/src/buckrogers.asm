@@ -5168,8 +5168,12 @@ loc_4964:
 	move.l	#$D6,d1
 	bsr.w	sub_9ED8
 	dbf	d5,loc_4964
+	if DEUTSCH	; DEUTSCH-HOOK 12: Monstername aus DE_Monstertabelle (6 Byte wie Original)
+	jsr	(DE_Monstername).l
+	else
 	move.b	d3,$3F(a3)
 	moveq	#$0,d0
+	endif
 	move.b	$24(a3),d0
 	asl.b	#$1,d0
 	divu.w	#$3,d0
@@ -7347,7 +7351,11 @@ loc_6160:
 	bsr.w	sub_8A90
 	move.w	#$A000,($FFFFD5A8).w
 	clr.w	-$38A(a6)
+	if DEUTSCH	; DEUTSCH-HOOK 13: Abspann aus DE_Abspann (6 Byte wie Original)
+	lea	(DE_Abspann).l,a2
+	else
 	lea	(dat_632E).l,a2
+	endif
 loc_61CA:
 	move.b	(a2)+,d0
 	cmp.b	#$FF,d0

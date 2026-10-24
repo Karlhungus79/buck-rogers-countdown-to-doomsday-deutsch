@@ -85,7 +85,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 2 läuft. Systemtexte + Gegenstandsnamen in Ares bestätigt 24.10.2026 (`Systemtexte.md`), E1–E5 entschieden. Bau deutsch CRC32 2E33C97D, Testfassung mit Jumper 5BD1A1AE (`Testfassung.md`). Als Nächstes: Monsternamen, vorgefertigte Figuren, Abspann.
+Aktueller Stand: Phase 2 läuft. Systemtexte + Gegenstandsnamen in Ares bestätigt 24.10.2026 (`Systemtexte.md`), E1–E5 entschieden. Monsternamen + Abspann gebaut 24.10.2026 (`Monster_Abspann.md`). Bau deutsch CRC32 5D421395, Testfassung mit Jumper C719F1FC (`Testfassung.md`). Als Nächstes: Ares-Test, Tor Phase 2, dann Phase 3 Grafik.
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 

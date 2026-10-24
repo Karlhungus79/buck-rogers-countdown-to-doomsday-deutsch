@@ -89,7 +89,11 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - **Spieltest Systemtexte: Marcel „alle Tests erfolgreich“ (24.10.2026, Ares)** – Testliste Nr. 1–15
   bestätigt (inkl. Laden, Raumkampf mit ANTRIEB, Kampfmeldungen, Stufenaufstieg, Planetenscan).
   Danach Beute-Zeile korrigiert (Hook 11, Zusatztext S393 „Erbeutet: “, eine Zeile).
-  Neu gebaut: deutsch **2E33C97D**, Test **5BD1A1AE**; Original-Bau bit-genau. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
+  Neu gebaut: deutsch **2E33C97D**, Test **5BD1A1AE**; Original-Bau bit-genau.
+- **Monsternamen und Abspann (24.10.2026, `Monster_Abspann.md`):** Hook 12 (Monstername nach dem
+  Laden ersetzen, 33 deutsche Namen nach Glossar), Hook 13 (Abspann aus `abspann.toml`, 17 Überschriften
+  deutsch). Vorgefertigte Figuren: nur Eigennamen, nichts zu tun. Abspann-Kopf ist Grafik → Phase 3.
+  Gebaut: deutsch **5D421395**, Test **C719F1FC**; im Testemulator gesehen, Ares offen. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -97,11 +101,12 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
 2. ~~Repo verbinden~~ erledigt 24.10.2026.
-3. Marcel: `7_deutsch_bauen.bat` → CRC32 2E33C97D? Dann Spieltest nach `Testliste_Phase2.md`.
-   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 5BD1A1AE, Bedienung `Testfassung.md`.
+3. Marcel: `7_deutsch_bauen.bat` → CRC32 5D421395? Dann Spieltest nach `Testliste_Phase2.md`.
+   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 C719F1FC, Bedienung `Testfassung.md`.
    E5 entschieden 24.10.2026: A („Antrieb“), im Glossar eingetragen.
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
-5. Claude: Monsternamen, vorgefertigte Figuren, Abspann in die Pipeline (Fahrplan 2.7/2.8).
+5. ~~Monsternamen, Figuren, Abspann~~ gebaut 24.10.2026 → Spieltest Marcel (Testliste Nr. 16–17).
+6. Danach Tor Phase 2 (Marcel bestätigt) → Phase 3 Grafik.
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

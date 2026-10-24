@@ -106,4 +106,6 @@ Vorbehalte (Breite/Technik, im Spieltest prüfen, ggf. Glossar mit Datum ändern
 - **E3:** Feindschiffe mit Artikel **„die“** (5-59).
 - **E4:** Copyright-Zeilen bleiben **englisch**.
 - **E5 (24.10.2026, „E5:A“):** 3-38 engines → **Antrieb** statt Triebwerke (Schiffsstatus: 7 Zeichen).
-Alle im Spieltest prüfen (`Testliste_Phase2.md`). Entspricht dem Bau CRC32 598A9641, kein Neubau.
+Alle im Spieltest prüfen (`Testliste_Phase2.md`).
+- Monsternamen (Liste 5, 5-33 bis 5-53) seit 24.10.2026 im Spiel (`Monster_Abspann.md`);
+  „RAM G.D. GENNIE“ (nicht in der Liste) bleibt wie die anderen Kürzel unverändert. Entspricht dem Bau CRC32 598A9641, kein Neubau.

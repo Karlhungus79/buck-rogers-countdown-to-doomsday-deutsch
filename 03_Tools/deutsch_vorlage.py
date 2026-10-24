@@ -3,6 +3,8 @@
 Legt die deutschen Textdateien an:
   05_German_Script\\ecl\\Mxxx.toml        Dialogtexte, eine Datei je ECL-Modul
   05_German_Script\\systemtexte.toml      Systemtexte S000-S392 + fertige Gegenstandsnamen
+  05_German_Script\\monster.toml          Monsternamen (dat_9E77C, 15 Zeichen)
+  05_German_Script\\abspann.toml          Abspann (dat_632E): Ueberschriften und Namen
 
 Je Text: id, befehl, en (englisches Original, nur Referenz), de (deutsch, anfangs leer).
 Leeres "de" bedeutet: im Bau steht der englische Text.
@@ -46,6 +48,73 @@ def gegenstaende(rom):
         if t not in seen:
             seen.append(t)
     return seen
+
+
+MONSTER_DE = os.path.join(ROOT, "05_German_Script", "monster.toml")
+ABSPANN_DE = os.path.join(ROOT, "05_German_Script", "abspann.toml")
+MONSTER_LZW = 0x9E77C      # dat_9E77C: Anzahl (2), Nummern, dann Datensaetze je $D6 Byte, Name = Byte 0-15
+ABSPANN = 0x632E           # dat_632E: $FC n Bild, $FF n Seite, $FE Ueberschrift, Text\0 Name, $FD Ende
+
+
+def monster(rom):
+    """Liste (Nummer, englischer Name) der Monster in dat_9E77C."""
+    import brtext as bt
+    z = bt.LZW(rom, MONSTER_LZW)
+    n = int.from_bytes(z.read(2), "big")
+    ids = z.read((n + 1) & ~1)[:n]
+    out = []
+    for i in range(n):
+        r = z.read(0xD6)
+        out.append((ids[i], r[:16].split(b"\0")[0].decode("latin1")))
+    return out
+
+
+def abspann(rom):
+    """Abspann als Liste von (art, wert): bild/seite (Zahl), ueberschrift/name (Text), ende."""
+    a, out = ABSPANN, []
+    while True:
+        c = rom[a]
+        if c == 0xFD:
+            out.append(("ende", None))
+            return out
+        if c in (0xFC, 0xFF):
+            out.append(("bild" if c == 0xFC else "seite", rom[a + 1]))
+            a += 2
+            continue
+        art = "name"
+        if c == 0xFE:
+            art, a = "ueberschrift", a + 1
+        e = rom.index(b"\0", a)
+        out.append((art, rom[a:e].decode("latin1")))
+        a = e + 1
+
+
+def monster_vorlage(rom):
+    if os.path.exists(MONSTER_DE):
+        return False
+    lines = ["# Buck Rogers: Countdown to Doomsday - Monsternamen (dat_9E77C), DEUTSCH-HOOK 12",
+             "# de = deutsch, hoechstens 15 Zeichen, GROSS wie im Original (leer = englisch bleibt).", ""]
+    for nr, en in monster(rom):
+        lines += ["[[monster]]", "nr = %d" % nr, "en = " + q(en), 'de = ""', ""]
+    open(MONSTER_DE, "w", encoding="utf-8", newline="\n").write("\n".join(lines))
+    return True
+
+
+def abspann_vorlage(rom):
+    if os.path.exists(ABSPANN_DE):
+        return False
+    lines = ["# Buck Rogers: Countdown to Doomsday - Abspann (dat_632E), DEUTSCH-HOOK 13",
+             "# art: bild/seite (wert = Zahl, nicht aendern), ueberschrift, name, ende.",
+             "# de = deutsch (leer = englisch). Neue Zeilen (z. B. Uebersetzung) duerfen eingefuegt werden.", ""]
+    for art, wert in abspann(rom):
+        lines += ["[[zeile]]", 'art = "%s"' % art]
+        if art in ("bild", "seite"):
+            lines.append("wert = %d" % wert)
+        elif art != "ende":
+            lines += ["en = " + q(wert), 'de = ""']
+        lines.append("")
+    open(ABSPANN_DE, "w", encoding="utf-8", newline="\n").write("\n".join(lines))
+    return True
 
 
 def systemtexte_vorlage(rom):
@@ -104,6 +173,8 @@ def main():
         open(p, "w", encoding="utf-8", newline="\n").write("\n".join(lines))
         neu += 1
     print("%d Dateien neu angelegt, %d vorhandene unveraendert gelassen (%s)." % (neu, alt, DE_DIR))
+    for f, name in ((monster_vorlage, MONSTER_DE), (abspann_vorlage, ABSPANN_DE)):
+        print(("angelegt: %s" if f(rom) else "vorhanden, unveraendert gelassen: %s") % name)
     if systemtexte_vorlage(rom):
         print("Systemtexte angelegt: %s" % SYS_DE)
     else:

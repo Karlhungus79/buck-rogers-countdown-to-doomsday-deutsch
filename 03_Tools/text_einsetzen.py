@@ -8,7 +8,9 @@ Eingang:  05_German_Script\\ecl\\Mxxx.toml        (Feld "de"; leer = englischer 
 Ausgang:  02_Extracted\\deutsch\\texte.bin        Zeigertabellen + Texte ab ROM $108000
           02_Extracted\\deutsch\\systemtexte.bin  Systemtexttabelle ab ROM $101000 (claude/Systemtexte.md)
           02_Extracted\\deutsch\\namen.bin        Tabelle fertiger Gegenstandsnamen
-          02_Extracted\\deutsch\\optionen.inc     Mehrzahl-Zeichen fuer DEUTSCH-HOOK 8/9
+          02_Extracted\\deutsch\\optionen.inc     Mehrzahl-Zeichen fuer DEUTSCH-HOOK 8/9, Zusatztext-Nummern
+          02_Extracted\\deutsch\\monster.bin      Monsternamen (DEUTSCH-HOOK 12)
+          02_Extracted\\deutsch\\abspann.bin      Abspann (DEUTSCH-HOOK 13)
           02_Extracted\\deutsch\\font_1bpp.bin    Schrift mit Ä Ö Ü
           02_Extracted\\deutsch\\pruefbericht.txt
 
@@ -59,6 +61,68 @@ SYS_MENUE_MAX = 41        # sub_136DA: Puffer -$2A(a6), 42 Byte inkl. Ende
 ZUSATZ_ORIGINAL = {"KAMPFBEUTE": 0x91}   # Hook 11: Rueckfallwert S145 'the team has '
 NAME_MAX = 25             # Gegenstandszeile: Fenster x2-34 (sub_7FC0) = 33 Zeichen minus "bereit: "
 NAME_MAX_ANZAHL = 21      # dazu Anzahl "  3 "
+
+
+MONSTER_DE = os.path.join(ROOT, "05_German_Script", "monster.toml")
+ABSPANN_DE = os.path.join(ROOT, "05_German_Script", "abspann.toml")
+MONSTER_MAX = 15          # Namensfeld 16 Byte inkl. Ende
+ABSPANN_MAX = 24          # laengste Originalzeile 22 (Ueberschrift), Fenster nicht gemessen
+
+
+def monster_bauen(rom, fehler, stat):
+    """DE_Monstertabelle: je Eintrag Nummer (1 Byte) + Name (16 Byte, mit 0 aufgefuellt), Ende $FF."""
+    englisch = "--nur-englisch" in sys.argv
+    out = bytearray()
+    if not englisch and os.path.exists(MONSTER_DE):
+        gesehen = set()
+        for m in tomllib.load(open(MONSTER_DE, "rb")).get("monster", []):
+            if not m.get("de") or m["nr"] in gesehen:
+                continue
+            gesehen.add(m["nr"])
+            try:
+                b = zs.kodieren(m["de"])
+            except zs.ZeichenFehler as x:
+                fehler.append("Monster %d: %s" % (m["nr"], x))
+                continue
+            if len(b) > MONSTER_MAX:
+                fehler.append("Monster %d: %d Zeichen > %d: %r" % (m["nr"], len(b), MONSTER_MAX, m["de"]))
+                continue
+            out += bytes([m["nr"]]) + b + bytes(16 - len(b))
+            stat["monster"] += 1
+    return bytes(out + b"\xFF")
+
+
+def abspann_bauen(rom, fehler, stat):
+    """DE_Abspann im Format von dat_632E; englischer Vergleichsbau = Original-Bytes."""
+    if "--nur-englisch" in sys.argv or not os.path.exists(ABSPANN_DE):
+        zeilen = [{"art": a, "wert": w} if a in ("bild", "seite") else {"art": a, "en": w or ""}
+                  for a, w in dv.abspann(rom)]
+    else:
+        zeilen = tomllib.load(open(ABSPANN_DE, "rb")).get("zeile", [])
+    out = bytearray()
+    for n, z in enumerate(zeilen):
+        art = z["art"]
+        if art in ("bild", "seite"):
+            out += bytes([0xFC if art == "bild" else 0xFF, z["wert"]])
+        elif art == "ende":
+            out.append(0xFD)
+        elif art in ("ueberschrift", "name"):
+            t = z.get("de") or z.get("en", "")
+            try:
+                b = zs.kodieren(t) if z.get("de") else t.encode("latin1")
+            except zs.ZeichenFehler as x:
+                fehler.append("Abspann Zeile %d: %s" % (n, x))
+                continue
+            if len(b) > ABSPANN_MAX:
+                fehler.append("Abspann Zeile %d: %d Zeichen > %d: %r" % (n, len(b), ABSPANN_MAX, t))
+            if z.get("de"):
+                stat["abspann"] += 1
+            out += (b"\xFE" if art == "ueberschrift" else b"") + b + b"\0"
+        else:
+            fehler.append("Abspann Zeile %d: unbekannte art %r" % (n, art))
+    if not out or out[-1] != 0xFD:
+        fehler.append("Abspann: letzte Zeile muss art = \"ende\" sein")
+    return bytes(out)
 
 
 def systemtexte_bauen(rom, fehler, hinweise, stat):
@@ -197,7 +261,7 @@ def main():
     names = bt.opnames(rom)
     mods = bt.ecl_modules(rom)
     fehler, hinweise = [], []
-    stat = dict(gesamt=0, deutsch=0, sys_deutsch=0, namen=0, sys_byte=0)
+    stat = dict(gesamt=0, deutsch=0, sys_deutsch=0, namen=0, sys_byte=0, monster=0, abspann=0)
 
     # 1. Texte je Modul kodieren und pruefen
     module = []
@@ -263,6 +327,11 @@ def main():
         if len(blob) & 1:
             blob += b"\0"
     sys_bin, namen_bin, optionen = systemtexte_bauen(rom, fehler, hinweise, stat)
+    monster_bin = monster_bauen(rom, fehler, stat)
+    abspann_bin = abspann_bauen(rom, fehler, stat)
+    sys_gesamt = stat["sys_byte"] + len(monster_bin) + (len(monster_bin) & 1) + len(abspann_bin)
+    if SYS_BASIS + sys_gesamt > SYS_GRENZE:
+        fehler.append("Systemtexte + Monster + Abspann %d Byte passen nicht vor $%06X" % (sys_gesamt, SYS_GRENZE))
     frei = ROM_ENDE - BASIS - len(blob)
     if frei < 0:
         fehler.append("Texte passen nicht in die ROM (%d Byte zu viel)" % -frei)
@@ -273,8 +342,9 @@ def main():
                "Systemtexte: %d, davon deutsch: %d, fertige Gegenstandsnamen: %d, Block ab $%06X: %d Byte (Grenze %d)"
                % (len(dv.systemtexte(rom)), stat["sys_deutsch"], stat["namen"], SYS_BASIS, stat["sys_byte"],
                   SYS_GRENZE - SYS_BASIS),
+               "Monsternamen deutsch: %d, Abspann-Zeilen deutsch: %d" % (stat["monster"], stat["abspann"]),
                "", "FEHLER (%d):" % len(fehler)] + fehler + ["", "HINWEISE (%d):" % len(hinweise)] + hinweise
-    print("\n".join(bericht[:5]))
+    print("\n".join(bericht[:6]))
     os.makedirs(OUT, exist_ok=True)
     open(os.path.join(OUT, "pruefbericht.txt"), "w", encoding="utf-8").write("\n".join(bericht) + "\n")
     for h in hinweise[:20]:
@@ -289,10 +359,12 @@ def main():
     open(os.path.join(OUT, "texte.bin"), "wb").write(blob)
     open(os.path.join(OUT, "systemtexte.bin"), "wb").write(sys_bin)
     open(os.path.join(OUT, "namen.bin"), "wb").write(namen_bin)
+    open(os.path.join(OUT, "monster.bin"), "wb").write(monster_bin)
+    open(os.path.join(OUT, "abspann.bin"), "wb").write(abspann_bin)
     open(os.path.join(OUT, "optionen.inc"), "w", encoding="ascii", newline="\n").write(optionen)
     font = rom[0x51102:0x51102 + 512]
     open(os.path.join(OUT, "font_1bpp.bin"), "wb").write(zs.font_1bpp(font))
-    print("Geschrieben nach %s (texte.bin, systemtexte.bin, namen.bin, optionen.inc, font_1bpp.bin, pruefbericht.txt)" % OUT)
+    print("Geschrieben nach %s (texte.bin, systemtexte.bin, namen.bin, monster.bin, abspann.bin, optionen.inc, font_1bpp.bin, pruefbericht.txt)" % OUT)
     return 0
 
 

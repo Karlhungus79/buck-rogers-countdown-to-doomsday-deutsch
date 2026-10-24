@@ -83,6 +83,34 @@ de_gn_ende:
 	rts
 
 ; ---------------------------------------------------------------------------
+; Monstername ersetzen (Sprungziel von DEUTSCH-HOOK 12, Ende des Ladens in sub_48E8).
+; Eingang: a3 = geladener Datensatz (Name = Byte 0-15), d2 = Monster-Nummer, d3 wie Original
+; Ersetzt die 2 Original-Befehle "move.b d3,$3F(a3) / moveq #0,d0".
+; DE_Monstertabelle: je Eintrag 1 Byte Nummer + 16 Byte Name, Ende $FF.
+DE_Monstername:
+	move.b	d3,$3F(a3)
+	movem.l	d1/a0-a1,-(a7)
+	lea	(DE_Monstertabelle).l,a0
+de_mn_suchen:
+	move.b	(a0)+,d0
+	cmp.b	#$FF,d0
+	beq.s	de_mn_ende
+	cmp.b	d2,d0
+	beq.s	de_mn_gefunden
+	lea	$10(a0),a0
+	bra.s	de_mn_suchen
+de_mn_gefunden:
+	movea.l	a3,a1
+	moveq	#$F,d1
+de_mn_kopie:
+	move.b	(a0)+,(a1)+
+	dbf	d1,de_mn_kopie
+de_mn_ende:
+	movem.l	(a7)+,d1/a0-a1
+	moveq	#$0,d0
+	rts
+
+; ---------------------------------------------------------------------------
 ; Erzeugt von 03_Tools/text_einsetzen.py (nicht von Hand aendern):
 ;   DE_Systemtexte: Systemtexttabelle (16-Bit-Offsets wie dat_11DC4, Nr. 0-392 wie Original,
 ;                   ab 393 neue Texte, z. B. fertige Gegenstandsnamen), danach die Texte
@@ -93,6 +121,12 @@ DE_Systemtexte:
 	align	2
 DE_Namenstabelle:
 	binclude	"deutsch/namen.bin"
+	align	2
+DE_Monstertabelle:
+	binclude	"deutsch/monster.bin"
+	align	2
+DE_Abspann:
+	binclude	"deutsch/abspann.bin"
 	align	2
 DE_Systemende:
 	if DE_Systemende > $108000

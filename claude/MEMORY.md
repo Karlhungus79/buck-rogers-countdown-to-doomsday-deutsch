@@ -20,6 +20,7 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `Phase2_Entscheidungen.md` – Entscheidungen E1–E4 (Glossar-Abweichungen, Item-Kuriositäten,
   Artikel Feindschiffe, Copyright)
 - `Testliste_Phase2.md` – Spieltest Systemtexte (Stelle, Weg, Erwartung)
+- `Monster_Abspann.md` – Monsternamen (Hook 12), vorgefertigte Figuren, Abspann (Hook 13)
 - `Testfassung.md` – Testfassung mit Entwickler-Jumper: Sprung in jedes Spielmodul, Sprungziele, Bedienung
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
 - `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand
