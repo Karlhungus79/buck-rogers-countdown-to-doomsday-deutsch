@@ -69,7 +69,7 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Offen / nächste Schritte
 
-1. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
+1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
 2. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
 3. Claude, Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
    Monsternamen/Figuren/Abspann analysieren

@@ -90,4 +90,5 @@ Bei einem Fehler wird nichts geschrieben; Bericht in `02_Extracted\deutsch\pruef
   Bau lädt Module schneller (kein Entpacken), dadurch verschieben sich Zeitpunkte und der
   Zufallsgenerator. Abweichungen waren nur Zeit-/Zufallseffekte (Explosionen, Blitze).
 - Ares v147 (Marcel, 24.10.2026): Start, Spielstand 1, Intro M016_000–002 deutsch – bestätigt.
-- **Offen:** Menüs (HMENU) im Spiel gesehen; SAVE/COMPARE-Texte; Bau unter Windows (gleiche CRC32).
+- Windows-Bau (Marcel, 24.10.2026, `7_deutsch_bauen.bat`): CRC32 E60AE2AA = identisch mit Linux-Bau, bestätigt.
+- **Offen:** Menüs (HMENU) im Spiel gesehen; SAVE/COMPARE-Texte.

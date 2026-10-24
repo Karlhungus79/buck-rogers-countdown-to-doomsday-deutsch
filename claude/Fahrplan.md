@@ -12,7 +12,7 @@ Stand: 24.10.2026
 | 1.4 | Einsetz-Skript mit Prüfregeln, deutsche Textdateien, Vollbau-.bat | erledigt, Prüfregeln getestet |
 | 1.5 | Intro M016_000–003 deutsch | **M016_000–002 bestätigt in Ares 24.10.2026**; M016_003 (Schlachtbild) nur im Testemulator gesehen |
 | 1.6 | Entscheidung G1 neu (Kleinbuchstaben A/B) | entschieden 23.10.2026: B (Großbuchstaben, ß → SS) |
-| 1.7 | Bau unter Windows reproduzieren (gleiche CRC32) | wartet auf Marcel |
+| 1.7 | Bau unter Windows reproduzieren (gleiche CRC32) | **bestätigt 24.10.2026**: Windows-Bau 14:27 (`2026-10-24_14-27-16_deutsch`), CRC32 E60AE2AA, 2.097.152 Byte, Header-Checksumme D034, Selbstprüfung 141FB059 (Screenshot `claude\Vorschau\Windows_Bau_2026-10-24.png`) |
 | 1.8 | Tor Phase 1: Marcel bestätigt Intro in Ares | **erreicht 24.10.2026** (Screenshots `claude\Vorschau\Ares_Intro_2026-10-24_1–3.png`) |
 
 ## Danach (Phase 2 – Systemtexte), vorläufige Reihenfolge
