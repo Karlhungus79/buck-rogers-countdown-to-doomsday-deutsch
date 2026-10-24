@@ -59,3 +59,11 @@ erreichbar war und Phase 4 seine Tests braucht. Details `Dialog.md`.
 | 5.2 | Erstübersetzung aller Spielmodule | erledigt 24.10.2026 (2130 Texte), gebaut deutsch 59F0785A, Test 9CF3FBF3 |
 | 5.3 | Spieltest je Station (`Testliste_Phase5.md`) | offen (Marcel, Ares) |
 | 5.4 | Korrekturen, Durchspielen | offen |
+
+## Phase 6 – Release (Tor: veröffentlicht)
+
+| Nr | Schritt | Stand |
+|---|---|---|
+| 6.1 | Patch-Werkzeug BPS + IPS mit Selbstprüfung, Readme-Vorlagen DE/EN | erledigt 24.10.2026 (`10_patch_erstellen.bat`) |
+| 6.2 | Gegenprobe mit Floating IPS (Marcel) | offen |
+| 6.3 | Endtest, Veröffentlichung (romhacking.net, Community) | offen, nach Phase 4/5 |

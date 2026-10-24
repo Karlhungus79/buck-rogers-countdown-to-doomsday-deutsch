@@ -116,8 +116,12 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   (G1–G7, `Grafik.md`). Deutsch gebaut: PRÄSENTIERT, AKTIV, ZIEL?, ERDE, ENTWICKELT VOM,
   WAFF/STRG/ANTR/RUMPF (Hooks 14–19). **Gebaut: deutsch 814E4C76, Test F436B9D1.** Vorspann und
   Abspann-Kopf im Testemulator gesehen, G7 nur Vorschau, Ares offen. Original-Bau bit-genau.
-- **Wecker 19:10 (24.10.2026)** hat ausgelöst und wurde zugestellt, aber keine Arbeitsrunde gestartet
-  (vermutlich Nutzungslimit noch aufgebraucht). Künftig Übergabe auf H: vor dem Wecker ablegen.
+- **Wecker 19:10 (24.10.2026)** hat ausgelöst, die Meldung kam aber erst um ca. 20:22 in der Sitzung an
+  (als Marcel schrieb) – die Sitzung war bis dahin inaktiv. Künftig Übergabe auf H: vor dem Wecker ablegen.
+- **Phase 6 vorbereitet (24.10.2026):** `03_Tools\10_patch_erstellen.bat` (`patch_erstellen.py`) erzeugt BPS + IPS
+  gegen das Original (CRC32 44E3BFFF), prüft beide durch Anwenden, schreibt LIESMICH/README aus
+  `03_Tools\release\`. Erster Lauf: `07_Output_ROM\2026-10-24_20-48-03_patch\` (Ziel-CRC32 59F0785A).
+  Gegenprobe mit einem fremden Patch-Programm (Floating IPS) offen. Erst nach den Spieltests veröffentlichen.
 
 - **Phase 5 Dialog (24.10.2026, Claude selbständig):** alle Spielmodule übersetzt (2130 von 2407 Texten; Rest:
   Entwicklermodule M000/M001, Eigennamen, Passwörter, Satzzeichen). Fenstergrenze gemessen (Fenster

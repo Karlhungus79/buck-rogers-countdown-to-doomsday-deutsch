@@ -23,6 +23,9 @@ schriftlich, „im Spieltest prüfen“), Ziel: Projekt fertigstellen. Marcel is
 6. Testemulator-Weg zum Jumper: 900 Bilder, 7 × Start (je 60 Bilder), 3 × rechts, C, C, rechts, C →
    „Jumper/Start“ → C. Seiten mit NEXT (5 × rechts, C). Zahleneingabe: RECHTS = Zehner, OBEN = +1.
 
+## Phase 6 vorbereitet
+- `03_Tools\10_patch_erstellen.bat` → `07_Output_ROM\<Zeit>_patch\` mit .bps, .ips, LIESMICH.txt, README.txt.
+
 ## Nächste Schritte
 1. Marcel: Phase 3 in Ares testen (`Testliste_Phase3.md`), vor allem G7 (Raumkampf-Anzeige).
 2. ~~Claude: Phase 5 Dialog~~ Erstübersetzung erledigt. Nächster Claude-Schritt: Korrekturen aus Marcels

@@ -1,0 +1,32 @@
+Buck Rogers: Countdown to Doomsday (Sega Mega Drive) - Deutsche Fan-Übersetzung
+Stand: {DATUM}
+
+Deutsche Lokalisierung
+  Projektleitung, Übersetzung, Tests: Karlhungus
+
+INHALT
+  Buck Rogers - Countdown to Doomsday (Deutsch).bps   Patch (empfohlen, z. B. mit Floating IPS / beat)
+  Buck Rogers - Countdown to Doomsday (Deutsch).ips   derselbe Patch im IPS-Format
+
+BENÖTIGTE ROM
+  Buck Rogers - Countdown to Doomsday (USA, Europe)
+  Größe 1.048.576 Byte, CRC32 {ORIG_CRC}
+  Nach dem Patchen: 2.097.152 Byte, CRC32 {NEU_CRC}
+
+ANWENDUNG
+  1. Patch-Programm öffnen (z. B. Floating IPS), Patch wählen, dann die Original-ROM.
+  2. Neue Datei speichern und im Emulator oder auf einem Flash-Modul starten.
+  Die gepatchte ROM ist 2 MB groß und nutzt Batteriespeicher (SRAM) wie das Original.
+
+WAS IST ÜBERSETZT
+  Menüs, Systemtexte, Gegenstände, Monster, sämtliche Dialoge und Ereignistexte,
+  Grafiktexte im Vorspann, Abspann.
+  Hinweise: Das Spiel zeigt nur Großbuchstaben (ß wird SS). Eigennamen (NEO, RAM,
+  Buck Rogers, Wilma Deering, Scot.DOS ...) bleiben wie im Original. Copyright-Zeilen
+  im Titelbild bleiben englisch.
+
+GETESTET MIT
+  Ares v147
+
+Dies ist ein nicht-kommerzielles Fanprojekt. Buck Rogers ist eine Marke der Dille Family
+Trust; das Spiel stammt von SSI und Electronic Arts. Es wird keine ROM verbreitet.
