@@ -308,7 +308,7 @@ art = "name"
 en = "Keith Francart"
 de = ""
 
-# --- Deutsche Lokalisierung (Marcel 24.10.2026), eigene Seite mit Bild 62 = Buck Rogers ---
+# --- Deutsche Lokalisierung (Marcel 24.10.2026, Variante C), eigene Seite mit Bild 62 = Buck Rogers ---
 [[zeile]]
 art = "seite"
 wert = 62
@@ -321,12 +321,27 @@ de = "Deutsche Lokalisierung"
 [[zeile]]
 art = "ueberschrift"
 en = ""
-de = "Projektleitung,"
+de = "Projektleitung"
+
+[[zeile]]
+art = "name"
+en = ""
+de = "Karlhungus"
 
 [[zeile]]
 art = "ueberschrift"
 en = ""
-de = "Übersetzung, Tests"
+de = "Übersetzung"
+
+[[zeile]]
+art = "name"
+en = ""
+de = "Karlhungus"
+
+[[zeile]]
+art = "ueberschrift"
+en = ""
+de = "Tests"
 
 [[zeile]]
 art = "name"

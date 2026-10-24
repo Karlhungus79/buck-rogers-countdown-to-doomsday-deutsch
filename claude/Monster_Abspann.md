@@ -42,10 +42,11 @@ ROARKE, JANELLE und Werte – **keine Übersetzung nötig** (G6 Eigennamen).
 - Der Kopf „BUCK ROGERS / COUNTDOWN TO DOOMSDAY / CREATED BY THE SSI SPECIAL PROJECTS TEAM“
   ist **Grafik** (nicht in den Texten gefunden) → Phase 3.
 - **Deutsche Lokalisierung (Marcel 24.10.2026):** eigene letzte Seite vor dem Ende, Bild 62
-  (Buck-Rogers-Porträt): „DEUTSCHE LOKALISIERUNG“ / „PROJEKTLEITUNG,“ / „ÜBERSETZUNG, TESTS“
-  (alle weiß, Überschriften) / „KARLHUNGUS“ (grün). Im Testemulator gesehen
-  (`Vorschau\Abspann_Ende_2026-10-24.png`). Variante C (je Aufgabe eine Überschrift mit Name)
-  als Bild `Vorschau\Abspann_Lokalisierung_A_C_2026-10-24.png`, auf Wunsch umstellbar.
+  (Buck-Rogers-Porträt), **Variante C (Marcel 24.10.2026: „C“)**: „DEUTSCHE LOKALISIERUNG“, dann
+  je Aufgabe Überschrift (weiß) + Name (grün): PROJEKTLEITUNG / KARLHUNGUS, ÜBERSETZUNG /
+  KARLHUNGUS, TESTS / KARLHUNGUS. Im Testemulator gesehen (`Vorschau\Abspann_Ende_2026-10-24.png`).
+  Vergleich A/C: `Vorschau\Abspann_Lokalisierung_A_C_2026-10-24.png`; A gesichert in
+  `03_Tools\bak\credits_2026-10-24\abspann_variante_A.toml`.
 - Bildnummern für `seite`/`bild` (Testemulator 24.10.2026): 48 Venus-Berg, 49 Skorpion, 50 Terrine,
   51 Dschungelruine, 52 Desert Runner, 53–57 und 63 Sternenhimmel, 58 Pirat, 59 Lowlander,
   60 Echsenkrieger, 61 Gennie, **62 Buck Rogers**, 64 Scot.DOS, 65 Station, 66 NEO-Offizier,
