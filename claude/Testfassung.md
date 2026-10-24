@@ -26,7 +26,9 @@ der Bogen zeigt weiter die normalen TP, der Balken ist entsprechend länger). Ke
 kommt beim Abenteuerstart die Jumper-Frage. Spielstände 1–3 sind unverändert. Alte Datei:
 `08_Savestates\bak_vor_starkes_team_2026-10-24\`. Achtung: Heilen (Autodoc, Ruhe) setzt die TP vermutlich auf
 den Normalwert zurück – dann Spielstand 4 neu laden. Im Testemulator geprüft: lädt, Jumper-Frage erscheint.
-Kampf mit 120 TP noch nicht im Spiel gesehen.
+Kampf mit 120 TP noch nicht im Spiel gesehen. **Marcel 24.10.2026 21:13: „klappt nicht“** – Ursache offen
+(Verdacht: Ares-Saves-Pfad zeigt woanders hin, oder Ares hat die Datei beim Beenden überschrieben). Gute Datei:
+CRC32 4FC48986 (im Chat angehängt; neu erzeugen mit `03_Tools\claude_werkzeuge\starkes_team.py`).
 
 ## Bedienung
 
@@ -80,7 +82,7 @@ Disk = ECL geteilt durch 16 (abgerundet). ECL 0, 1, 3 sind Test-/Vorspannmodule.
 |---|---|---|---|
 | 1 | ARENA | Testkarte für Bodenkämpfe | Karte erscheint |
 | 1 | GO UP / TREASURE | nicht geprüft | – |
-| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). Danach Stufenaufstieg über Hauptmenü FIGUR AUSBILDEN (Spiel vorher speichern: START, vermutlich Schubladen-Symbol – nicht geprüft) | geprüft 24.10.2026 im Testemulator |
+| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). **Nutzen offen:** in den Figurendaten danach kein EP-Wert gefunden; das Hauptmenü hat mit geladenem Team kein „Figur ausbilden“ (2. Symbol = Figur entlassen!). Speichern im Spiel: START → 2. Symbol (Kiste) = Spiel speichern, 3. = Spiel laden. Stattdessen Spielstand 4 „starkes Team“ benutzen | geprüft 24.10.2026 im Testemulator |
 | 2 | STORE | Laden Nr. 1–16 öffnen | nicht geprüft |
 | 2 | ADDBUCK / SOUND | nicht geprüft | – |
 | 3 | TESTS → CREDITS | **Abspann** (ohne Musik – auch mit Original-Abspann so) | läuft, deutsch |

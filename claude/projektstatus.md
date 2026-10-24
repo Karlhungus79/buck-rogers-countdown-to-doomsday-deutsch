@@ -128,6 +128,9 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   überschreibt reihum) → Zeilenprüfung ist jetzt Fehler. SAVE-Längen geprüft. Textblock-Grenze $1C0000.
   **Gebaut: deutsch 59F0785A, Test 9CF3FBF3**, Original bit-genau. Intro im Testemulator gesehen. Ares offen.
 
+- **Test-Spielstand „starkes Team“ (24.10.2026):** Spielstand 4 mit 120 TP je Figur (`Testfassung.md`), von Claude
+  im Testemulator erzeugt (CRC32 4FC48986). Marcel 21:13: „klappt nicht“ – Ursache offen (Übergabe Punkt 1).
+
 ## Offen / nächste Schritte
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.

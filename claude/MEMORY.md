@@ -27,6 +27,7 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `Dialog.md` – Phase 5: Stand, technische Regeln (Fenster, SAVE, Satzteile), Sprachentscheidungen
 - `Testliste_Phase5.md` – Spieltest Dialog je Station
 - `Uebergabe_2026-10-24.md` – Übergabe für die nächste Sitzung
+- `03_Tools\claude_werkzeuge\LIESMICH.md` – Claudes Container-Werkzeuge (Dialog setzen/prüfen, Emulator steuern, starkes Team)
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
 - `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand
 - `Testumgebung.md` – Claudes automatischer Testemulator (Genesis Plus GX)

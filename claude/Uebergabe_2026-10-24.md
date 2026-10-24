@@ -1,37 +1,52 @@
-# Übergabe 24.10.2026, ca. 20:55
+# Übergabe 24.10.2026, 21:20
 
-## Auftrag
-Marcel (24.10.2026, 17:44 und 20:21): eigenständig weiterarbeiten, selbst entscheiden (Entscheidungen
-schriftlich, „im Spieltest prüfen“), Ziel: Projekt fertigstellen. Marcel ist meist nicht am PC.
+Auftrag Marcel (24.10.2026): eigenständig weiterarbeiten, selbst entscheiden (schriftlich, „im Spieltest prüfen“),
+Ziel Projekt fertigstellen. Marcel testet in Ares v147 und meldet per Screenshot.
 
-## Stand
-- Tor Phase 0, 1, 2 erreicht. Phase 3 (Grafik) gebaut: deutsch **814E4C76**, Test **F436B9D1**
-  (`Grafik.md`, `Testliste_Phase3.md`). Ares-Test durch Marcel offen.
-- Phase 5 (Dialog): Erstübersetzung aller Spielmodule fertig (2130 Texte, `Dialog.md`), gebaut deutsch
-  **59F0785A**, Test **9CF3FBF3**, Ares offen (`Testliste_Phase5.md`).
-- Bauten liegen auf H: in `07_Output_ROM\2026-10-24_20-44-…_deutsch\` / `_test\` und unter den festen
-  Namen `(gebaut).md` / `(test).md`. Vorher: `2026-10-24_20-22-08_…` (Grafik, 814E4C76 / F436B9D1),
-  `2026-10-24_17-28-…` (Tor Phase 2, 0B58AE77 / 37DE7A79).
+## Was gilt
 
-## Arbeitsumgebung neu aufsetzen (Claude-Container)
-1. Repo klonen (`add_repo` Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch, push).
-2. Original-ROM und Spielstände von H: stagen → `01_Original_ROM\`, `08_Savestates\`; `python3 03_Tools/extract.py`;
-   `python3 03_Tools/text_extrahieren.py` (englischer Referenztext).
-3. AS-Assembler bauen (flamewing asl, Commit 592c5fa) nach `/home/claude/tools/asl/build`, PATH setzen.
-4. Testkern: `sh 03_Tools/emu_test/kern_bauen.sh`.
-5. Bauen: `text_einsetzen.py`, `grafik_deutsch.py`, `build.py --deutsch` / `--test`, `build.py --pruefen`.
-6. Testemulator-Weg zum Jumper: 900 Bilder, 7 × Start (je 60 Bilder), 3 × rechts, C, C, rechts, C →
-   „Jumper/Start“ → C. Seiten mit NEXT (5 × rechts, C). Zahleneingabe: RECHTS = Zehner, OBEN = +1.
+- Tore erreicht: Phase 0, 1, 2 (24.10.2026). Phase 3 Grafik gebaut, Phase 5 Dialog erstübersetzt und gebaut,
+  Phase 6 Patch-Werkzeug fertig. **Nichts davon in Ares bestätigt.**
+- Aktueller Bau: deutsch **59F0785A**, Testfassung **9CF3FBF3** (H: `07_Output_ROM\2026-10-24_20-44-45_*`,
+  feste Namen `(gebaut).md` / `(test).md`). Original-Bau bit-genau (44E3BFFF).
+- Patch: `07_Output_ROM\2026-10-24_20-48-03_patch\` (BPS + IPS + LIESMICH/README), selbst geprüft.
+- Dialog: 2130 von 2407 Texten deutsch; Rest Absicht (M000/M001 Entwicklermodule, Namen, Passwörter).
+  Regeln und Sprachentscheidungen: `Dialog.md`. Grafik: `Grafik.md` (Hooks 14–19, ab `$1C0000`).
+- Test-Spielstand „starkes Team“: Spielstand 4, 120 TP je Figur, ohne Spielort (Jumper-Frage kommt).
+  Gute Datei CRC32 **4FC48986** (im Chat angehängt, nicht im Repo; neu erzeugen: `03_Tools\claude_werkzeuge\starkes_team.py`).
 
-## Phase 6 vorbereitet
-- `03_Tools\10_patch_erstellen.bat` → `07_Output_ROM\<Zeit>_patch\` mit .bps, .ips, LIESMICH.txt, README.txt.
+## Wie es entsteht (Claude-Container)
 
-## Nächste Schritte
-1. Marcel: Phase 3 in Ares testen (`Testliste_Phase3.md`), vor allem G7 (Raumkampf-Anzeige).
-2. ~~Claude: Phase 5 Dialog~~ Erstübersetzung erledigt. Nächster Claude-Schritt: Korrekturen aus Marcels
-   Spieltests; danach Phase 6 vorbereiten (BPS/IPS-Patch gegen CRC32 44E3BFFF, Readme deutsch/englisch).
-   Alt: Phase 5 Dialog – Reihenfolge nach Spielverlauf (M016, M017, M032 …), Grundsätze G1–G9,
-   Glossar, Anrede („ihr“ NEO/Verbündete, „Sie“ Fremde). Nach jedem Modul: einsetzen, bauen, Prüfregeln,
-   Stichprobe im Testemulator, Commit + H:. Entscheidungen in `Dialog.md` („im Spieltest prüfen“).
-   Begründung für die Reihenfolge (Dialog vor Phase-4-Abnahme): Marcel nicht erreichbar, Phase 4
-   braucht seine Tests; Dialog braucht sie nicht sofort.
+1. Repo klonen (add_repo Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch, push), ROM + `.ram` von H: stagen.
+2. `python3 03_Tools/extract.py`, `python3 03_Tools/text_extrahieren.py`.
+3. AS-Assembler (flamewing, Commit 592c5fa) nach `/home/claude/tools/asl/build` bauen, PATH setzen.
+4. Testkern: `sh 03_Tools/emu_test/kern_bauen.sh`. Werkzeuge: `03_Tools/claude_werkzeuge/LIESMICH.md`.
+5. Bau: `text_einsetzen.py` → `grafik_deutsch.py` → `build.py --deutsch` / `--test`; `build.py --pruefen`.
+6. Nach jedem Schritt: commit + push, geänderte Dateien per device_commit_files nach H:.
+
+## Fallen
+
+- Dialogfenster scrollt nicht, es überschreibt reihum → mehr als max(4, Original) Zeilen = Fehler (Prüfung aktiv).
+- SAVE-Texte werden per strcpy in 20/40/50-Byte-Variablen kopiert → nie länger als Original/Variable.
+- Textblock darf nur bis `$1C0000` (danach Grafiken).
+- Schrift hat keine Akzente (é, è) → Französisch ohne Akzente.
+- Jumper-Zahleneingabe: **LINKS** = nächsthöhere Stelle (nicht RECHTS). EXP höchstens 65535 (Überlauf).
+- Jumper-EXP: danach in den Figurendaten kein EP-Wert gefunden; Hauptmenü hat mit Team **kein**
+  „Figur ausbilden“ – 2. Symbol ist **Figur entlassen**. Nicht als Weg zum Aufleveln empfehlen.
+- Im Spiel speichern (START → Kiste) speichert den Spielort → keine Jumper-Frage mehr. Teststände daher im
+  Hauptmenü speichern.
+- Savestates des Testkerns enthalten keine SRAM: Speichern im Spiel und SRAM-Auslesen im selben Lauf.
+- Ares schreibt die `.ram` beim Beenden zurück → Dateien nur bei geschlossenem Ares ersetzen.
+- Wecker (send_later) feuert, wird aber erst zugestellt, wenn die Sitzung wieder aktiv ist → vorher Übergabe ablegen.
+- Bricht die PC-Verbindung (remote-devices) ab, kann die Sitzung sie nicht neu aufbauen → neue Aufgabe starten.
+
+## Noch offen (nächste Schritte)
+
+1. **Spielstand 4 „klappt nicht“ (Marcel 21:13)** – Ursache klären: Ares Einstellungen → Pfade → Saves,
+   Änderungsdatum der `(test).ram`, steht bei „Spiel laden“ Spielstand 4 „Neuestes“ oder „Leeres Team“?
+   Ggf. Datei mit CRC32 4FC48986 neu ablegen (Ares geschlossen). Falls weiter zu schwach: Schadensmodus
+   nur für die Testfassung bauen (Schadensroutine suchen, TP-Feld = Byte 46 des Figurendatensatzes).
+2. Marcel: CRC32 der .bat-Bauten bestätigen (59F0785A / 9CF3FBF3), Spieltests `Testliste_Phase3.md`,
+   `Testliste_Phase5.md`, Raumkampf-Anzeige G7.
+3. Korrekturen einarbeiten, Anrede-Regeln von Marcel abnehmen lassen (`Dialog.md`).
+4. Patch-Gegenprobe mit Floating IPS, dann Phase 4 (Testpaket) und Release.
