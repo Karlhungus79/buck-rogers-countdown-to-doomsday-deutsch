@@ -22,8 +22,8 @@ Frage „Start from scratch or use the jumper?“. Damit springt man in jedes Sp
 
 1. Testdatei in Ares starten, **Spiel laden → Spielstand 1 (vorgefertigtes Team)**, **Abenteuer starten**.
 2. „JUMPER“ wählen (C), Text mit C weiter → Menü „WHERE DO YOU WISH TO GO?“.
-3. **JUMP** → „What ECL …“: Zahl eingeben. OBEN/UNTEN ändert die Einerstelle, **RECHTS** wechselt
-   zur Zehnerstelle, C bestätigt.
+3. **JUMP** → „What ECL …“: Zahl eingeben. OBEN/UNTEN ändert die Stelle, **LINKS** wechselt zur
+   nächsthöheren Stelle (RECHTS springt reihum), C bestätigt.
 4. „Set CURDISK to?“: Disk aus der Tabelle eingeben, C.
 5. „IS THIS OK?“ → JA. „Set X,Y positions?“ → **NO**. „Set party variables?“ → **NO**.
 6. Man steht am Anfang des Moduls. Jetzt **Ares-Speicherstand** anlegen (Schnellspeichern) –
@@ -70,7 +70,7 @@ Disk = ECL geteilt durch 16 (abgerundet). ECL 0, 1, 3 sind Test-/Vorspannmodule.
 |---|---|---|---|
 | 1 | ARENA | Testkarte für Bodenkämpfe | Karte erscheint |
 | 1 | GO UP / TREASURE | nicht geprüft | – |
-| 2 | EXP | Erfahrungspunkte für das Team | nicht geprüft |
+| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). Danach Stufenaufstieg über Hauptmenü FIGUR AUSBILDEN (Spiel vorher speichern: START → Schubladen-Symbol) | geprüft 24.10.2026 im Testemulator |
 | 2 | STORE | Laden Nr. 1–16 öffnen | nicht geprüft |
 | 2 | ADDBUCK / SOUND | nicht geprüft | – |
 | 3 | TESTS → CREDITS | **Abspann** (ohne Musik – auch mit Original-Abspann so) | läuft, deutsch |
