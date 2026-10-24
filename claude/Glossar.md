@@ -105,4 +105,5 @@ Vorbehalte (Breite/Technik, im Spieltest prüfen, ggf. Glossar mit Datum ändern
   **Mars-Hitzepistole**, **Merkur-Monoschwert** (5-56 bis 5-58).
 - **E3:** Feindschiffe mit Artikel **„die“** (5-59).
 - **E4:** Copyright-Zeilen bleiben **englisch**.
+- **E5 (24.10.2026, „E5:A“):** 3-38 engines → **Antrieb** statt Triebwerke (Schiffsstatus: 7 Zeichen).
 Alle im Spieltest prüfen (`Testliste_Phase2.md`). Entspricht dem Bau CRC32 598A9641, kein Neubau.

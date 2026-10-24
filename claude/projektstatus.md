@@ -81,7 +81,7 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   (Hook 10, nur `--test`), Sprung in alle 23 Spielmodule im Testemulator geprüft, Abspann-Test
   gefunden. Gebaut, CRC32 AD97A30C, Ares offen.
 - **Befund Marcel (24.10.2026, Ares-Screenshot Schiffsstatus):** „TRIEBWERKE“ brach um und wurde
-  überdeckt → S251 „Antrieb“ (7 Zeichen, E5 offen). Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
+  überdeckt → S251 „Antrieb“ (7 Zeichen, E5 = A am 24.10.2026). Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -91,7 +91,7 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 2. ~~Repo verbinden~~ erledigt 24.10.2026.
 3. Marcel: `7_deutsch_bauen.bat` → CRC32 88E08E82? Dann Spieltest nach `Testliste_Phase2.md`.
    Zum Springen: `7b_testfassung_bauen.bat` → CRC32 7FF6DF75, Bedienung `Testfassung.md`.
-   E5 („Antrieb“ statt „Triebwerke“) bestätigen.
+   E5 entschieden 24.10.2026: A („Antrieb“), im Glossar eingetragen.
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
 5. Claude: Monsternamen, vorgefertigte Figuren, Abspann in die Pipeline (Fahrplan 2.7/2.8).
 

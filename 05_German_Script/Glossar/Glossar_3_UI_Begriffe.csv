@@ -36,7 +36,7 @@
 3-35;logbook entry;Logbucheintrag;;;13;14;;;A;S047
 3-36;fire / reload / aid / end turn;Feuer / laden / Hilfe / Zugende;;;30;31;;Raumkampf-Menü;A;S276
 3-37;close / withdraw / ram! / board / maneuver;annähern / abdrehen / rammen! / entern / manövrieren;;;42;52;;Raumkampf-Menü;A;"S278; Dialog 2× (M049_034, M065_043)"
-3-38;hull / controls / engines / weapons;Rumpf / Steuerung / Triebwerke / Waffen;;;35;39;;Schiffssysteme;A;"S249; Dialog 31× (M016_032, M016_033)"
+3-38;hull / controls / engines / weapons;Rumpf / Steuerung / Antrieb / Waffen;;;35;36;;Schiffssysteme;A, geändert E5 24.10.2026: Antrieb statt Triebwerke (Schiffsstatus 7 Zeichen);"S249; Dialog 31× (M016_032, M016_033)"
 3-39;range / to hit / ammo left / ready;Reichweite / Treffer / Munition / bereit;;;34;40;;Raumkampf-Anzeige, Breite offen;A;S283
 3-40;scanning / population / atmosphere / gravity / revolution / rotation / diameter;Scan / Bevölkerung / Atmosphäre / Schwerkraft / Umlauf / Rotation / Durchmesser;;;79;79;;Planetendaten;A;S339
 3-41;miles;km (umgerechnet);Meilen;;5;16;;Grundsatz G8;A (G8);S368 S370 S373 S375 …

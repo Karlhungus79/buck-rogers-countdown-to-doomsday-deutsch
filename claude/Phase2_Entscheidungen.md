@@ -28,7 +28,7 @@ Der Text brach in die nächste Zeile um und wurde von den Statuskästchen überd
 |---|---|---|
 | S251 (Glossar 3-38) | **Antrieb** (7) – gilt auch in Schadensmeldungen („5 Schaden für die Viper: Antrieb“) | Triebw. (7) |
 
-**Offen: Marcel bestätigt A oder B.**
+**Entschieden 24.10.2026, Marcel: „E5:A“ → Antrieb.** Glossar 3-38 geändert.
 
 ## E2 – Kuriositäten in den Original-Gegenstandsnamen
 
