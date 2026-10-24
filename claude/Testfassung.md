@@ -1,6 +1,6 @@
 # Testfassung mit Entwickler-Jumper
 
-Stand: 24.10.2026 (Bau CRC32 C719F1FC) – **gebaut, im Testemulator geprüft (Sprünge in alle 23 Spielmodule, Arena,
+Stand: 24.10.2026 (Bau CRC32 BACCC158) – **gebaut, im Testemulator geprüft (Sprünge in alle 23 Spielmodule, Arena,
 Abspann-Test); Test in Ares offen.** Nur zum Testen, **nicht veröffentlichen**.
 
 ## Was es ist
@@ -73,6 +73,6 @@ Disk = ECL geteilt durch 16 (abgerundet). ECL 0, 1, 3 sind Test-/Vorspannmodule.
 | 2 | EXP | Erfahrungspunkte für das Team | nicht geprüft |
 | 2 | STORE | Laden Nr. 1–16 öffnen | nicht geprüft |
 | 2 | ADDBUCK / SOUND | nicht geprüft | – |
-| 3 | TESTS → CREDITS | **Abspann** | läuft (noch englisch) |
+| 3 | TESTS → CREDITS | **Abspann** (ohne Musik – auch mit Original-Abspann so) | läuft, deutsch |
 | 3 | TESTS → MARIPOSA | nicht geprüft | – |
 | 3 | SPRITE / ARTTOOL / DEMO | Entwicklerwerkzeuge | – |

@@ -93,7 +93,11 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - **Monsternamen und Abspann (24.10.2026, `Monster_Abspann.md`):** Hook 12 (Monstername nach dem
   Laden ersetzen, 33 deutsche Namen nach Glossar), Hook 13 (Abspann aus `abspann.toml`, 17 Überschriften
   deutsch). Vorgefertigte Figuren: nur Eigennamen, nichts zu tun. Abspann-Kopf ist Grafik → Phase 3.
-  Gebaut: deutsch **5D421395**, Test **C719F1FC**; im Testemulator gesehen, Ares offen. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
+  Gebaut: deutsch **5D421395**, Test **C719F1FC**; im Testemulator gesehen, Ares offen.
+- **Abspann-Seite „Deutsche Lokalisierung“ (Marcel 24.10.2026):** Projektleitung, Übersetzung, Tests:
+  Karlhungus; eigene Seite mit Buck-Rogers-Porträt (Bild 62). Fehlende Musik im Test-Abspann ist
+  Verhalten des Entwicklertests (auch mit englischem Abspann stumm). Gebaut: deutsch **D1F2D473**,
+  Test **BACCC158**. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -101,8 +105,8 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
 2. ~~Repo verbinden~~ erledigt 24.10.2026.
-3. Marcel: `7_deutsch_bauen.bat` → CRC32 5D421395? Dann Spieltest nach `Testliste_Phase2.md`.
-   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 C719F1FC, Bedienung `Testfassung.md`.
+3. Marcel: `7_deutsch_bauen.bat` → CRC32 D1F2D473? Dann Spieltest nach `Testliste_Phase2.md`.
+   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 BACCC158, Bedienung `Testfassung.md`.
    E5 entschieden 24.10.2026: A („Antrieb“), im Glossar eingetragen.
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
 5. ~~Monsternamen, Figuren, Abspann~~ gebaut 24.10.2026 → Spieltest Marcel (Testliste Nr. 16–17).
