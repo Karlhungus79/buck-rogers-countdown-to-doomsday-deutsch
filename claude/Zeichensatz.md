@@ -32,8 +32,7 @@ Wichtig: Übersetzt wird **immer in normaler Groß-/Kleinschreibung**. Ob das Sp
 groß anzeigt, entscheidet nur die Schrift. Die Entscheidung G1 kostet also keine Nacharbeit
 an den Texten.
 
-Ä Ö Ü: im Spiel bestätigt (Emulator, 23.10.2026, Intro „BEKÄMPFEN“, „VERWÜSTET“, „KÖNNEN“).
-Test in Ares offen.
+Ä Ö Ü: **in Ares bestätigt am 24.10.2026** (Intro „BEKÄMPFEN“, „VERWÜSTET“, „KÖNNEN“), ß → SS („DRAUSSEN“).
 
 ## Entscheidung G1 neu: Kleinbuchstaben ja oder nein?
 

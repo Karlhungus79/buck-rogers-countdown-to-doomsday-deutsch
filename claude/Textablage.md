@@ -1,6 +1,6 @@
 # Textablage A – Umsetzung (Dialogtexte direkt aus der ROM)
 
-Stand: 23.10.2026 – **gebaut, im Emulator (Genesis Plus GX) geprüft; Test in Ares offen.**
+Stand: 24.10.2026 – **in Ares bestätigt am 24.10.2026** (Bau CRC32 E60AE2AA: Start, Spielstand, Intro M016_000–002).
 
 Entscheidung A vom 21.10.2026 (Begründung: `Textformat.md`). Dieses Dokument beschreibt,
 wie sie umgesetzt ist.
@@ -89,4 +89,5 @@ Bei einem Fehler wird nichts geschrieben; Bericht in `02_Extracted\deutsch\pruef
 - Ein Bild-für-Bild-Vergleich Original ↔ Vergleichsbau ist nicht aussagekräftig: Der deutsche
   Bau lädt Module schneller (kein Entpacken), dadurch verschieben sich Zeitpunkte und der
   Zufallsgenerator. Abweichungen waren nur Zeit-/Zufallseffekte (Explosionen, Blitze).
-- **Offen:** Test in Ares (Marcel); Menüs (HMENU) im Spiel gesehen; SAVE/COMPARE-Texte.
+- Ares v147 (Marcel, 24.10.2026): Start, Spielstand 1, Intro M016_000–002 deutsch – bestätigt.
+- **Offen:** Menüs (HMENU) im Spiel gesehen; SAVE/COMPARE-Texte; Bau unter Windows (gleiche CRC32).

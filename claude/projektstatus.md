@@ -1,10 +1,11 @@
 # Projektstatus – Buck Rogers: Countdown to Doomsday Deutsch
 
-Stand: 23.10.2026
+Stand: 24.10.2026
 
 ## Aktuelle Phase
 
-Phase 1 – Technisches Gerüst. Läuft (Fahrplan: `Fahrplan.md`). Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
+Phase 2 – Systemtexte. Beginnt. **Tor Phase 1 erreicht am 24.10.2026** (Intro deutsch in Ares bestätigt).
+Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Erledigt
 
@@ -58,17 +59,19 @@ Phase 1 – Technisches Gerüst. Läuft (Fahrplan: `Fahrplan.md`). Phase 0 abges
   - Testumgebung für Claude: `Testumgebung.md`.
   - **G1/G2 neu entschieden (23.10.2026, Marcel „G1 = B“):** Großbuchstaben wie Original, ß → SS.
     Entspricht dem gebauten Stand, kein Neubau nötig.
+- **Tor Phase 1 erreicht (24.10.2026):** Marcel hat in Ares v147 mit der Testdatei (CRC32 E60AE2AA)
+  den Spielstand geladen und M016_000–002 deutsch gesehen (Screenshots `claude\Vorschau\Ares_Intro_2026-10-24_1–3.png`).
+  Bestätigt: Start trotz Selbstprüfung, SRAM der 2-MB-ROM, Text aus der ROM, Ä Ö Ü, ß → SS („DRAUSSEN“),
+  Zeilenumbruch bei 36 Zeichen, 4 Zeilen + „PRESS C“ passen ins Fenster.
+  M016_003 (Schlachtbild, 6 Zeilen) nur im Testemulator gesehen.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
 ## Offen / nächste Schritte
 
-1. Marcel: in Ares Saves-Pfad auf `08_Savestates` stellen, Testdatei
-   `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md` starten, Spielstand 1 laden,
-   „Begin Adventure“ → Intro deutsch? (Screenshot) = **Tor Phase 1**
-2. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
-3. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
-4. Danach Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
+1. Marcel: `03_Tools\7_deutsch_bauen.bat` ausführen → CRC32 muss E60AE2AA sein (Bau unter Windows reproduzierbar)
+2. Marcel (offen seit 21.10.): Projektordner auf H: lokal mit dem Repo verbinden (git init/fetch/reset)
+3. Claude, Phase 2 (Fahrplan.md): Systemtexte in die Pipeline, Fensterbreiten messen,
    Monsternamen/Figuren/Abspann analysieren
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
@@ -81,6 +84,6 @@ Phase 1 – Technisches Gerüst. Läuft (Fahrplan: `Fahrplan.md`). Phase 0 abges
 - Deutsche Texte werden 10–30 % länger (Annahme); durch Entscheidung A unkritisch
 - Annahme zu A: Kein ECL-Befehl schreibt in den Textblock – per Code geprüft (nur 3 Zugriffe auf
   `$FFFFB9A4`, SAVE kopiert aus dem Text heraus), im Spieltest weiter beobachten
-- Ares erkennt die SRAM der 2-MB-ROM über die neue Header-Angabe (Annahme, Test offen)
+- Ares erkennt die SRAM der 2-MB-ROM: bestätigt 24.10.2026 (Spielstand geladen)
 - Zeilenzahl je Dialogfenster: 4 Zeilen im kleinen Fenster, 6 im Bildfenster gesehen; Grenze bei
   längeren Texten noch nicht gemessen

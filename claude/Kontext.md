@@ -85,7 +85,7 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 1 läuft (`Fahrplan.md`). Intro deutsch gebaut 23.10.2026, Test in Ares offen.
+Aktueller Stand: Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares). Phase 2 (Systemtexte) beginnt.
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 
