@@ -30,5 +30,5 @@ Stand: 24.10.2026
 | 2.6d | Beute-Zeile „Erbeutet: keine Beute.“ (Hook 11, Zusatztext S393) | gebaut, deutsch CRC32 2E33C97D, Test 5BD1A1AE, Nachtest offen |
 | 2.6b | Befund Marcel 24.10.2026: „Triebwerke“ im Schiffsstatus zu lang → „Antrieb“ (E5 = A) | gebaut, deutsch CRC32 88E08E82, Test offen |
 | 2.7 | Monsternamen (`dat_9E77C`, Hook 12, `Monster_Abspann.md`) | gebaut 24.10.2026, Testemulator gesehen, Ares offen |
-| 2.8 | Vorgefertigte Figuren (nur Eigennamen → nichts zu tun), Abspann (Hook 13) | gebaut 24.10.2026, deutsch CRC32 5D421395, Test 5BD1A1AE→C719F1FC, Ares offen |
+| 2.8 | Vorgefertigte Figuren (nur Eigennamen → nichts zu tun), Abspann (Hook 13) | gebaut 24.10.2026, deutsch CRC32 5D421395, Test C719F1FC, Ares offen |
 | 2.9 | Menüs (HMENU) und ja/nein im Spiel ansehen | offen |
