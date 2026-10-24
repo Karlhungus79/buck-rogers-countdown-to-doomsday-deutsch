@@ -1,6 +1,6 @@
 # Zeichensatz – Schrift, Umlaute, Kodierung
 
-Stand: 23.10.2026
+Stand: 24.10.2026
 
 ## Befund (23.10.2026, aus Code und VRAM im Emulator)
 
