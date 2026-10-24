@@ -6,190 +6,190 @@
 id = "M095_000"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS ARE PROVOKED BY PROLONGED EYE CONTACT."
-de = ""
+de = "Wüstenläufer fühlen sich durch langen Blickkontakt herausgefordert."
 
 [[text]]
 id = "M095_001"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS ARE EASILY DOMESTICATED."
-de = ""
+de = "Säurefrösche lassen sich leicht zähmen."
 
 [[text]]
 id = "M095_002"
 befehl = ["PRINTCLEAR"]
 en = "WITHOUT THE DRUG GRAVITOL PRODUCED BY THE VENUSIAN LOWLANDERS, SPACE TRAVEL WOULD BE IMPOSSIBLE."
-de = ""
+de = "Ohne Gravitol, das die venusianischen Tiefländer herstellen, wäre Raumfahrt unmöglich."
 
 [[text]]
 id = "M095_003"
 befehl = ["PRINTCLEAR"]
 en = "RAM IS RUN BY AN ADVANCED DIGITAL PERSONALITY NAMED HOLZERHEIN.DOS."
-de = ""
+de = "RAM wird von einer hochentwickelten digitalen Persönlichkeit namens Holzerhein.DOS geführt."
 
 [[text]]
 id = "M095_004"
 befehl = ["PRINTCLEAR"]
 en = "LOWLANDERS AND DESERT RUNNERS HARDLY EVER LEAVE THEIR HOME PLANETS."
-de = ""
+de = "Tiefländer und Wüstenläufer verlassen ihre Heimatplaneten fast nie."
 
 [[text]]
 id = "M095_005"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS A SPACE STATION ON EACH OF THE MAJOR ASTEROIDS IN THE BELT."
-de = ""
+de = "Auf jedem großen Asteroiden im Gürtel gibt es eine Raumstation."
 
 [[text]]
 id = "M095_006"
 befehl = ["PRINTCLEAR"]
 en = "SUN KINGS RULE THE MERCURIAN MARIPOSAS."
-de = ""
+de = "Sonnenkönige herrschen über die Mariposas am Merkur."
 
 [[text]]
 id = "M095_007"
 befehl = ["PRINTCLEAR"]
 en = "THE MOST DANGEROUS GENNIE CREATED BY RAM IS THE EXPERIMENTAL COMBAT GENNIE."
-de = ""
+de = "Der gefährlichste Gennie von RAM ist der experimentelle Kampfgennie."
 
 [[text]]
 id = "M095_008"
 befehl = ["PRINTCLEAR"]
 en = "A VENUSIAN TELLS YOU 'THERE'S A RAM HEAVY CRUISER OUT THERE FILLED WITH LOWLANDER PRISONERS AND VALUABLE GRAVITOL.'"
-de = ""
+de = "Ein Venusianer erzählt: 'Da draußen ist ein schwerer RAM-Kreuzer voller Tiefländer-Gefangener und wertvollem Gravitol.'"
 
 [[text]]
 id = "M095_009"
 befehl = ["PRINTCLEAR"]
 en = "'DESERT RUNNERS LIKE YOU TO LOOK 'EM STRAIGHT IN THE EYE,' SAYS A BARTENDER."
-de = ""
+de = "'Wüstenläufer mögen es, wenn man ihnen gerade in die Augen schaut', sagt ein Barkeeper."
 
 [[text]]
 id = "M095_010"
 befehl = ["PRINTCLEAR"]
 en = "'I ALWAYS CARRY AT LEAST THREE NEEDLE GUNS,' BOASTS A MERCENARY."
-de = ""
+de = "'Ich trage immer mindestens drei Nadelpistolen', prahlt ein Söldner."
 
 [[text]]
 id = "M095_011"
 befehl = ["PRINTCLEAR"]
 en = "'ACID FROGS ATTACK ANYTHING THAT MOVES,' YOU ARE TOLD."
-de = ""
+de = "'Säurefrösche greifen alles an, was sich bewegt', erzählt man euch."
 
 [[text]]
 id = "M095_012"
 befehl = ["PRINTCLEAR"]
 en = "AN OLD SOLDIER ADVISES YOU 'ALWAYS SPREAD OUT YOUR TEAM IN COMBAT! AND PROTECT THE MEDIC!'"
-de = ""
+de = "Ein alter Soldat rät euch: 'Verteilt euer Team im Kampf! Und beschützt den Sanitäter!'"
 
 [[text]]
 id = "M095_013"
 befehl = ["PRINTCLEAR"]
 en = "A YOUNG PIRATE SAYS, 'TALON'S ALL TALK, HE'S REALLY A WEAKLING.'"
-de = ""
+de = "Ein junger Pirat sagt: 'Talon redet nur. In Wahrheit ist er ein Schwächling.'"
 
 [[text]]
 id = "M095_014"
 befehl = ["PRINTCLEAR"]
 en = "AN ASTEROID TRADER TELLS YOU ABOUT THE ACID FROG KING, AN AWE INSPIRING AMPHIBIAN."
-de = ""
+de = "Ein Asteroidenhändler erzählt euch vom Säurefroschkönig, einer ehrfurchtgebietenden Amphibie."
 
 [[text]]
 id = "M095_015"
 befehl = ["PRINTCLEAR"]
 en = "A BARFLY CLAIMS THAT BUCK ROGERS AND WILMA DEERING ARE SECRETLY ENGAGED."
-de = ""
+de = "Ein Tresenhocker behauptet, Buck Rogers und Wilma Deering seien heimlich verlobt."
 
 [[text]]
 id = "M095_016"
 befehl = ["PRINTCLEAR"]
 en = "'IF A SCOUT CRUISER MAKES A 'WOOP-WOOP' SOUND ON YOUR SCANNER, IT'S CARRYING HIDDEN WEAPONS,' WARNS THE WAITER."
-de = ""
+de = "'Wenn ein Aufklärer auf dem Scanner wuppwupp macht, hat er versteckte Waffen', warnt der Kellner."
 
 [[text]]
 id = "M095_017"
 befehl = ["PRINTCLEAR"]
 en = "A PATRON YELLS 'HEY! AREN'T YOU THE ONE WHO SAVED CHICAGORG?' YOU ARE APPLAUDED AND TREATED TO DINNER."
-de = ""
+de = "Ein Gast ruft: 'He! Seid ihr nicht die, die Chicagorg gerettet haben?' Man applaudiert euch und lädt euch zum Essen ein."
 
 [[text]]
 id = "M095_018"
 befehl = ["PRINTCLEAR"]
 en = "A BADLY SCARRED WARRIOR TELLS YOU THAT A HEAVY COMBAT ROBOT DROPPED AN EXPLOSIVE GRENADE ON HIM."
-de = ""
+de = "Ein vernarbter Krieger erzählt, ein schwerer Kampfroboter habe ihm eine Sprenggranate vor die Füße geworfen."
 
 [[text]]
 id = "M095_019"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR PEOPLE AT ANOTHER TABLE TALKING ABOUT A BASE NEAR THE LARGEST ASTEROID IN THE BELT."
-de = ""
+de = "Am Nebentisch spricht man über eine Basis beim größten Asteroiden im Gürtel."
 
 [[text]]
 id = "M095_020"
 befehl = ["PRINTCLEAR"]
 en = "A WEALTHY PILOT CLAIMS TO HAVE MADE HIS FORTUNE BATTLING RAM HEAVY CRUISERS."
-de = ""
+de = "Ein reicher Pilot behauptet, sein Vermögen im Kampf gegen schwere RAM-Kreuzer gemacht zu haben."
 
 [[text]]
 id = "M095_021"
 befehl = ["PRINTCLEAR"]
 en = "A BLIND BEGGAR WARNS YOU TO ALWAYS WEAR GOGGLES ON VENUS, OR THE ACID WILL BURN OUT YOUR EYES."
-de = ""
+de = "Ein blinder Bettler warnt euch: Tragt auf der Venus immer eine Schutzbrille, sonst verätzt die Säure eure Augen."
 
 [[text]]
 id = "M095_022"
 befehl = ["PRINTCLEAR"]
 en = "A MAN RUNS SCREAMING THROUGH THE RESTAURANT, CLAWING AT HIS HEAD. A PATRON WHISPERS 'BRAIN PARASITES.'"
-de = ""
+de = "Ein Mann rennt schreiend durchs Restaurant und kratzt sich am Kopf. Ein Gast flüstert: 'Hirnparasiten.'"
 
 [[text]]
 id = "M095_023"
 befehl = ["PRINTCLEAR"]
 en = "A SQUAD OF RAM YOUTH PATROLMEN MARCH PAST THE RESTAURANT. ONE OF THEM WAVES."
-de = ""
+de = "Ein Trupp der RAM-Jugendpatrouille marschiert am Restaurant vorbei. Einer winkt."
 
 [[text]]
 id = "M095_024"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR A RUMOR THAT BUCK ROGERS IS A RAM MOLE, PLOTTING THE DESTRUCTION OF NEO FROM WITHIN."
-de = ""
+de = "Gerüchten zufolge ist Buck Rogers ein RAM-Maulwurf, der die NEO von innen zerstören will."
 
 [[text]]
 id = "M095_025"
 befehl = ["PRINTCLEAR"]
 en = "JUSTIN RUMMAGES THROUGH THE SHELVES AND PRODUCES A PROTOTYPE. SUDDENLY, RAM FORCES RUSH INTO THE ROOM."
-de = ""
+de = "Justin wühlt in den Regalen und holt einen Prototyp hervor. Plötzlich stürmen RAM-Truppen in den Raum."
 
 [[text]]
 id = "M095_026"
 befehl = ["PRINTCLEAR"]
 en = "ONE MAN STEPS FORWARD, 'WE KNEW THAT WITH THE PROTOTYPE AS BAIT, WE COULD COLLECT NEO SPIES!' JUSTIN DIVES FOR COVER."
-de = ""
+de = "Ein Mann tritt vor: 'Wir wussten, dass wir mit dem Prototyp als Köder NEO-Spione fangen!' Justin springt in Deckung."
 
 [[text]]
 id = "M095_027"
 befehl = ["PRINTCLEAR"]
 en = "YOU DRAW YOUR WEAPONS."
-de = ""
+de = "Ihr zieht eure Waffen."
 
 [[text]]
 id = "M095_028"
 befehl = ["PRINTCLEAR"]
 en = "JUSTIN HOLDS UP THE UNDAMAGED DEVICE, 'LET'S GET OUT OF HERE BEFORE MORE TROOPS SHOW UP.'"
-de = ""
+de = "Justin hält das unversehrte Gerät hoch. 'Nichts wie weg, bevor noch mehr Truppen kommen.'"
 
 [[text]]
 id = "M095_029"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAD FOR YOUR SHIP, BUT MEET OTHER FORCES WAITING IN THE BOARDING TUBE."
-de = ""
+de = "Ihr eilt zu eurem Schiff, doch in der Enterröhre warten weitere Truppen."
 
 [[text]]
 id = "M095_030"
 befehl = ["PRINTCLEAR"]
 en = "YOU CHARGE INTO THE BOARDING TUBE AND ATTACK!"
-de = ""
+de = "Ihr stürmt in die Enterröhre und greift an!"
 
 [[text]]
 id = "M095_031"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE CAPTURED AND EXECUTED."
-de = ""
+de = "Ihr werdet gefangen und hingerichtet."

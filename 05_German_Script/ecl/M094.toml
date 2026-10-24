@@ -6,31 +6,31 @@
 id = "M094_000"
 befehl = ["PRINTCLEAR"]
 en = "MARIPOSA THREE LOCATED..."
-de = ""
+de = "Mariposa Three geortet..."
 
 [[text]]
 id = "M094_001"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS FEEDS THE SHIP CODE TO THE MARIPOSA."
-de = ""
+de = "Scot.DOS übermittelt der Mariposa den Schiffscode."
 
 [[text]]
 id = "M094_002"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE CLEARED TO LAND.'"
-de = ""
+de = "'Landeerlaubnis erteilt.'"
 
 [[text]]
 id = "M094_003"
 befehl = ["PRINTCLEAR"]
 en = "THE MARIPOSA BROADCASTS,"
-de = ""
+de = "Die Mariposa sendet:"
 
 [[text]]
 id = "M094_004"
 befehl = ["PRINTCLEAR"]
 en = "'YOU DO NOT HAVE THE PROPER CLEARANCE. YOU CANNOT LAND.'"
-de = ""
+de = "'Sie haben keine gültige Freigabe. Sie dürfen nicht landen.'"
 
 [[text]]
 id = "M094_005"
@@ -43,49 +43,49 @@ id = "M094_006"
 befehl = ["WHMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M094_007"
 befehl = ["WHMENU"]
 menue = true
 en = "CHARGE"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M094_008"
 befehl = ["PRINTCLEAR"]
 en = "THE MARIPOSA FIRES AND YOU RUN..."
-de = ""
+de = "Die Mariposa feuert, und ihr flieht..."
 
 [[text]]
 id = "M094_009"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS A BLAST DOOR HERE."
-de = ""
+de = "Hier ist ein Explosionsschott."
 
 [[text]]
 id = "M094_010"
 befehl = ["PRINTCLEAR"]
 en = "IT WON'T OPEN."
-de = ""
+de = "Es geht nicht auf."
 
 [[text]]
 id = "M094_011"
 befehl = ["WHMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M094_012"
 befehl = ["WHMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M094_013"
 befehl = ["PRINTCLEAR"]
 en = "IT STILL WON'T OPEN."
-de = ""
+de = "Es geht immer noch nicht auf."

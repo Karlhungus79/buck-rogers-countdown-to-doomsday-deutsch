@@ -6,108 +6,108 @@
 id = "M097_000"
 befehl = ["PRINTCLEAR"]
 en = "THIS CORE RUNS THE LENGTH OF THE MARIPOSA. YOU CAN GO UPWARD OR DOWNWARD. "
-de = ""
+de = "Dieser Kern durchzieht die ganze Mariposa. Ihr könnt nach oben oder nach unten. "
 
 [[text]]
 id = "M097_001"
 befehl = ["HMENU"]
 menue = true
 en = "GO UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M097_002"
 befehl = ["HMENU"]
 menue = true
 en = "DESCEND"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M097_003"
 befehl = ["PRINT"]
 en = "YOU MAY ALSO LEAVE THE CORE FROM HERE."
-de = ""
+de = "Von hier könnt ihr den Kern auch verlassen."
 
 [[text]]
 id = "M097_004"
 befehl = ["HMENU"]
 menue = true
 en = "GO UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M097_005"
 befehl = ["HMENU"]
 menue = true
 en = "DESCEND"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M097_006"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE CORE"
-de = ""
+de = "Kern verlassen"
 
 [[text]]
 id = "M097_007"
 befehl = ["PRINTCLEAR"]
 en = "YOU RISE INTO THE TOPMOST PORTION OF THE MARIPOSA."
-de = ""
+de = "Ihr steigt in den obersten Teil der Mariposa auf."
 
 [[text]]
 id = "M097_008"
 befehl = ["PRINTCLEAR"]
 en = "1 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 1."
 
 [[text]]
 id = "M097_009"
 befehl = ["PRINTCLEAR"]
 en = "2 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 2."
 
 [[text]]
 id = "M097_010"
 befehl = ["PRINTCLEAR"]
 en = "3 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 3."
 
 [[text]]
 id = "M097_011"
 befehl = ["PRINTCLEAR"]
 en = "4 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 4."
 
 [[text]]
 id = "M097_012"
 befehl = ["PRINTCLEAR"]
 en = "5 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 5."
 
 [[text]]
 id = "M097_013"
 befehl = ["PRINTCLEAR"]
 en = "6 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 6."
 
 [[text]]
 id = "M097_014"
 befehl = ["PRINTCLEAR"]
 en = "7 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 7."
 
 [[text]]
 id = "M097_015"
 befehl = ["PRINTCLEAR"]
 en = "8 IS PAINTED ON THE SIDE OF THE CORE."
-de = ""
+de = "An der Kernwand steht eine 8."
 
 [[text]]
 id = "M097_016"
 befehl = ["PRINTCLEAR"]
 en = "LASER PISTOLS AND OTHER WEAPONS ARE MOUNTED ON THE WALLS. THEY FOCUS ON THE TEAM AND FIRE."
-de = ""
+de = "An den Wänden hängen Laserpistolen und andere Waffen. Sie richten sich auf das Team und feuern."
 
 [[text]]
 id = "M097_017"
@@ -125,534 +125,534 @@ de = ""
 id = "M097_019"
 befehl = ["PRINTCLEAR"]
 en = "THE WALLS OF THE CORE BRISTLE WITH WEAPONRY, BUT THE SENSORS ARE BLIND TO YOU."
-de = ""
+de = "Die Wände des Kerns starren vor Waffen, aber die Sensoren sehen euch nicht."
 
 [[text]]
 id = "M097_020"
 befehl = ["PRINTCLEAR"]
 en = "MANY ROBOTS AWAIT, ARMED FOR BATTLE. DO YOU FLEE?"
-de = ""
+de = "Viele kampfbereite Roboter warten. Flieht ihr?"
 
 [[text]]
 id = "M097_021"
 befehl = ["PRINTCLEAR"]
 en = "MANY MORE ROBOTS APPROACH! DO YOU FLEE?"
-de = ""
+de = "Noch viel mehr Roboter kommen! Flieht ihr?"
 
 [[text]]
 id = "M097_022"
 befehl = ["PRINTCLEAR"]
 en = "YOU STRUGGLE BACK UP THE CORE."
-de = ""
+de = "Ihr kämpft euch den Kern wieder hinauf."
 
 [[text]]
 id = "M097_023"
 befehl = ["PRINTCLEAR"]
 en = "SECURITY ROBOTS IDENTIFY YOU AS INTRUDERS!"
-de = ""
+de = "Sicherheitsroboter erkennen euch als Eindringlinge!"
 
 [[text]]
 id = "M097_024"
 befehl = ["PRINTCLEAR"]
 en = "YOU ENTER THE AUDIENCE CHAMBER. THE SUN KING SITS BEFORE YOU ON A GOLDEN THRONE."
-de = ""
+de = "Ihr betretet den Audienzsaal. Vor euch sitzt der Sonnenkönig auf einem goldenen Thron."
 
 [[text]]
 id = "M097_025"
 befehl = ["PRINTCLEAR"]
 en = "'PARLEZ-VOUS FRANCAIS?' THE SUN KING DEMANDS."
-de = ""
+de = "'Parlez-vous francais?', verlangt der Sonnenkönig zu wissen."
 
 [[text]]
 id = "M097_026"
 befehl = ["HMENU"]
 menue = true
 en = "OUI"
-de = ""
+de = "Oui"
 
 [[text]]
 id = "M097_027"
 befehl = ["HMENU"]
 menue = true
 en = "NON"
-de = ""
+de = "Non"
 
 [[text]]
 id = "M097_028"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING SNEERS. 'GUARD! REMOVE THESE INFIDELS.'"
-de = ""
+de = "Der Sonnenkönig rümpft die Nase. 'Wache! Entfernt diese Barbaren.'"
 
 [[text]]
 id = "M097_029"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE USHERED OUT OF THE AUDIENCE CHAMBER."
-de = ""
+de = "Man geleitet euch aus dem Audienzsaal."
 
 [[text]]
 id = "M097_030"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING BEAMS. 'VERY GOOD! ICI ON PARLE FRANCAIS. "
-de = ""
+de = "Der Sonnenkönig strahlt. 'Tres bien! Ici on parle francais. "
 
 [[text]]
 id = "M097_031"
 befehl = ["PRINT"]
 en = "NOW, WHY ARE YOU HERE? ETES-VOUS LES DANSEURS?' "
-de = ""
+de = "Nun, warum seid ihr hier? Etes-vous les danseurs?' "
 
 [[text]]
 id = "M097_032"
 befehl = ["HMENU"]
 menue = true
 en = "OUI"
-de = ""
+de = "Oui"
 
 [[text]]
 id = "M097_033"
 befehl = ["HMENU"]
 menue = true
 en = "NON"
-de = ""
+de = "Non"
 
 [[text]]
 id = "M097_034"
 befehl = ["PRINTCLEAR"]
 en = "'NO? ABOMINABLE...BUT PERHAPS I CAN MAKE USE OF YOU. "
-de = ""
+de = "'Nein? Abominable... doch vielleicht kann ich euch gebrauchen. "
 
 [[text]]
 id = "M097_035"
 befehl = ["PRINTCLEAR"]
 en = "'A HA! VIVE LA REVOLUTION! I'VE BEEN WAITING FOR YOU. "
-de = ""
+de = "'Aha! Vive la revolution! Ich habe euch erwartet. "
 
 [[text]]
 id = "M097_036"
 befehl = ["PRINT"]
 en = "YOU WILL TAKE OVER THE DOOMSDAY DEVICE AND DELIVER IT TO MY CONTROL, OUI?'"
-de = ""
+de = "Ihr erobert die Doomsday-Waffe und übergebt sie meiner Kontrolle, oui?'"
 
 [[text]]
 id = "M097_037"
 befehl = ["HMENU"]
 menue = true
 en = "OUI"
-de = ""
+de = "Oui"
 
 [[text]]
 id = "M097_038"
 befehl = ["HMENU"]
 menue = true
 en = "NON"
-de = ""
+de = "Non"
 
 [[text]]
 id = "M097_039"
 befehl = ["PRINTCLEAR"]
 en = "'YOU DARE REFUSE MY WISHES? BEGONE!'"
-de = ""
+de = "'Ihr wagt es, meine Wünsche abzulehnen? Hinfort!'"
 
 [[text]]
 id = "M097_040"
 befehl = ["PRINTCLEAR"]
 en = "'FANTASTIQUE! WITH THE DEVICE IN MY POWER I'LL RULE THE SOLAR SYSTEM! VIVE LE ROI!"
-de = ""
+de = "'Fantastique! Mit der Waffe in meiner Hand beherrsche ich das Sonnensystem! Vive le roi!"
 
 [[text]]
 id = "M097_041"
 befehl = ["PRINTCLEAR"]
 en = "'WE'LL DISABLE THE CORE LASERS, BUT THE GLORY OF BATTLE SHALL BE YOURS! AUX ARMES! YOU ARE GREAT WARRIORS, N'EST-CE PAUX? RETURN TRIUMPHANT!'"
-de = ""
+de = "'Wir schalten die Kernlaser ab, doch der Ruhm gehört euch! Aux armes! Ihr seid große Krieger, n'est-ce paux? Kehrt siegreich heim!'"
 
 [[text]]
 id = "M097_042"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING GLOWERS AT YOU. 'YOU MAY NOW BEG FORGIVENESS FOR YOUR HEATHEN BEHAVIOR. IF YOU PLEASE ME, I MIGHT FORGIVE YOU.'"
-de = ""
+de = "Der Sonnenkönig funkelt euch an. 'Bittet um Vergebung für euer barbarisches Benehmen. Wenn ihr mir gefallt, verzeihe ich vielleicht.'"
 
 [[text]]
 id = "M097_043"
 befehl = ["HMENU"]
 menue = true
 en = "GROVEL"
-de = ""
+de = "Kriechen"
 
 [[text]]
 id = "M097_044"
 befehl = ["HMENU"]
 menue = true
 en = "REFUSE"
-de = ""
+de = "Weigern"
 
 [[text]]
 id = "M097_045"
 befehl = ["PRINTCLEAR"]
 en = "'QUEL HORROR!'"
-de = ""
+de = "'Quel horreur!'"
 
 [[text]]
 id = "M097_046"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING IS PLEASED. 'YOUR ERROR IS FORGIVEN. "
-de = ""
+de = "Der Sonnenkönig ist zufrieden. 'Euer Fehler sei verziehen. "
 
 [[text]]
 id = "M097_047"
 befehl = ["PRINTCLEAR"]
 en = "'I TOLD YOU NOT TO RETURN WITHOUT CONTROL OF THE DOOMSDAY DEVICE. RAM IS STILL UP THERE. HURRY UP!"
-de = ""
+de = "'Ich sagte, kehrt nicht ohne die Doomsday-Waffe zurück. RAM ist noch dort oben. Beeilt euch!"
 
 [[text]]
 id = "M097_048"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS IMPENETRABLY LOCKED. GUARDS JEER AND TOSS GARBAGE THROUGH A TINY GRILLE."
-de = ""
+de = "Die Tür ist fest verschlossen. Wachen johlen und werfen Abfall durch ein winziges Gitter."
 
 [[text]]
 id = "M097_049"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS CLOSED. A GUARD PEERS AT YOU THROUGH A TINY GRILLE AND ASKS IF YOU WISH TO APOLOGIZE TO THE SUN KING."
-de = ""
+de = "Die Tür ist zu. Eine Wache späht durch ein winziges Gitter und fragt, ob ihr euch beim Sonnenkönig entschuldigen wollt."
 
 [[text]]
 id = "M097_050"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR OPENS."
-de = ""
+de = "Die Tür öffnet sich."
 
 [[text]]
 id = "M097_051"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS LOCKED. THE GUARDS TELL YOU NOT TO RETURN UNTIL YOU'VE DONE THE SUN KING'S BIDDING. "
-de = ""
+de = "Die Tür ist verschlossen. Die Wachen sagen, ihr sollt erst wiederkommen, wenn ihr den Auftrag des Sonnenkönigs erledigt habt. "
 
 [[text]]
 id = "M097_052"
 befehl = ["PRINTCLEAR"]
 en = "A GUARD PEERS AT YOU THROUGH A TINY GRILLE IN THIS ORNATE DOOR. 'VIVE LA REVOLUTION! DO YOU WISH AN AUDIENCE WITH THE SUN KING?'"
-de = ""
+de = "Eine Wache späht durch ein winziges Gitter in dieser prunkvollen Tür. 'Vive la revolution! Wünschen Sie eine Audienz beim Sonnenkönig?'"
 
 [[text]]
 id = "M097_053"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARD SEES THE MEDALLIONS. 'I'LL PRESENT THOSE TO THE SUN KING. WAIT HERE.'"
-de = ""
+de = "Die Wache sieht die Medaillons. 'Die überreiche ich dem Sonnenkönig. Warten Sie hier.'"
 
 [[text]]
 id = "M097_054"
 befehl = ["PRINTCLEAR"]
 en = "YOU PASS THE MEDALLIONS THROUGH THE GRILLE. THE GUARD LEAVES."
-de = ""
+de = "Ihr reicht die Medaillons durch das Gitter. Die Wache geht."
 
 [[text]]
 id = "M097_055"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR FINALLY UNLOCKS. 'THE SUN KING GRANTS YOU AN AUDIENCE.'"
-de = ""
+de = "Endlich öffnet sich die Tür. 'Der Sonnenkönig gewährt Ihnen eine Audienz.'"
 
 [[text]]
 id = "M097_056"
 befehl = ["PRINTCLEAR"]
 en = "'THEN GET LOST!'"
-de = ""
+de = "'Dann verschwinden Sie!'"
 
 [[text]]
 id = "M097_057"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARD SNICKERS. 'YOU MUST BRING AT LEAST THREE GIFTS TO BE GRANTED AN AUDIENCE.' "
-de = ""
+de = "Die Wache kichert. 'Für eine Audienz müssen Sie mindestens drei Geschenke bringen.' "
 
 [[text]]
 id = "M097_058"
 befehl = ["PRINTCLEAR"]
 en = "A STATUE OF AN OWL FACES THE TEAM. ITS WINGS ARE PLATED WITH SILVER. "
-de = ""
+de = "Eine Eulenstatue blickt auf das Team. Ihre Flügel sind versilbert. "
 
 [[text]]
 id = "M097_059"
 befehl = ["PRINTCLEAR"]
 en = "YOU FACE A STATUE OF AN EAGLE. EVERY FEATHER IS WOVEN FROM STRANDS OF GOLD."
-de = ""
+de = "Vor euch steht eine Adlerstatue. Jede Feder ist aus Goldfäden gewoben."
 
 [[text]]
 id = "M097_060"
 befehl = ["PRINTCLEAR"]
 en = "LOOMING OVER YOU IS A STATUE OF A HAWK. ITS COPPER PLATING HAS RECENTLY BEEN POLISHED."
-de = ""
+de = "Über euch ragt eine Falkenstatue auf. Ihre Kupferverkleidung wurde frisch poliert."
 
 [[text]]
 id = "M097_061"
 befehl = ["PRINTCLEAR"]
 en = "HERE IS A GIGANTIC STATUE OF A BIRD. IT'S HARD TO DISCERN ITS SPECIES, BECAUSE EVERY INCH IS CRUSTED WITH GEMS."
-de = ""
+de = "Hier steht eine riesige Vogelstatue. Die Art ist kaum zu erkennen, denn jeder Zentimeter ist mit Edelsteinen besetzt."
 
 [[text]]
 id = "M097_062"
 befehl = ["PRINTCLEAR"]
 en = "A SERVANT IS TAKING A BREAK HERE. HE'S WEARING FRENCH REVOLUTION REGALIA. 'PSST,' HE WHISPERS, 'LOOKING FOR THE SUN KING?"
-de = ""
+de = "Hier macht ein Diener Pause. Er trägt Kleidung der Französischen Revolution. 'Psst', flüstert er, 'suchen Sie den Sonnenkönig?"
 
 [[text]]
 id = "M097_063"
 befehl = ["PRINTCLEAR"]
 en = "'YOU SHOULD BE! ONLY HE CAN TURN OFF THE WEAPONS IN THE CORE.'"
-de = ""
+de = "'Das sollten Sie! Nur er kann die Waffen im Kern abschalten.'"
 
 [[text]]
 id = "M097_064"
 befehl = ["PRINTCLEAR"]
 en = "'YOU HAVE TO BRING GIFTS IF YOU WANT TO TALK TO THE SUN KING,' HE WARNS. 'LOOK FOR ONE ON EACH LEVEL BELOW US.'"
-de = ""
+de = "'Ohne Geschenke spricht der Sonnenkönig nicht mit Ihnen', warnt er. 'Sucht auf jeder Ebene unter uns nach einem.'"
 
 [[text]]
 id = "M097_065"
 befehl = ["PRINTCLEAR"]
 en = "THE SERVANT IN FRENCH REVOLUTION REGALIA IS HERE. 'I'VE BEEN ORDERED TO SEE THAT THE SUN KING'S INTERESTS ARE MET. I'LL BE AROUND.'"
-de = ""
+de = "Der Diener im Revolutionskostüm ist hier. 'Ich soll dafür sorgen, dass die Wünsche des Sonnenkönigs erfüllt werden. Ich bin in der Nähe.'"
 
 [[text]]
 id = "M097_066"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT HERE HAS BEEN PROGRAMMED FOR MAINTENANCE. IT IS VACUUMING THE FLOOR. ITS VACUUM NEARS A COPPER MEDALLION."
-de = ""
+de = "Ein Wartungsroboter saugt hier den Boden. Sein Sauger nähert sich einem Kupfermedaillon."
 
 [[text]]
 id = "M097_067"
 befehl = ["HMENU"]
 menue = true
 en = "GRAB MEDALLION"
-de = ""
+de = "Medaillon schnappen"
 
 [[text]]
 id = "M097_068"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT ROBOT"
-de = ""
+de = "Roboter bekämpfen"
 
 [[text]]
 id = "M097_069"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M097_070"
 befehl = ["WHO"]
 en = "WHO GRABS THE MEDALLION?"
-de = ""
+de = "Wer schnappt das Medaillon?"
 
 [[text]]
 id = "M097_071"
 befehl = ["PRINTCLEAR"]
 en = "YOU MISS! THE MEDALLION VANISHES UP THE VACUUM. WORSE, YOUR ACTION HAS ATTRACTED THE ROBOT'S ATTENTION AND IT SOUNDS AN ALARM."
-de = ""
+de = "Daneben! Das Medaillon verschwindet im Sauger. Schlimmer noch: Der Roboter wird aufmerksam und löst Alarm aus."
 
 [[text]]
 id = "M097_072"
 befehl = ["PRINTCLEAR"]
 en = "JUST BEFORE YOU LEAP INTO BATTLE, THE MEDALLION VANISHES UP THE VACUUM. THE ROBOT SEES YOU COMING AND SOUNDS AN ALARM!"
-de = ""
+de = "Kurz bevor ihr angreift, verschwindet das Medaillon im Sauger. Der Roboter sieht euch kommen und löst Alarm aus!"
 
 [[text]]
 id = "M097_073"
 befehl = ["PRINTCLEAR"]
 en = "SECURITY ROBOTS HOME IN ON YOU!"
-de = ""
+de = "Sicherheitsroboter nehmen euch ins Visier!"
 
 [[text]]
 id = "M097_074"
 befehl = ["PRINTCLEAR"]
 en = "IN THE WRECKAGE ON THE FLOOR, YOU SEE THE COPPER MEDALLION!"
-de = ""
+de = "In den Trümmern am Boden seht ihr das Kupfermedaillon!"
 
 [[text]]
 id = "M097_075"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A COPPER MEDALLION."
-de = ""
+de = "Ihr habt ein Kupfermedaillon."
 
 [[text]]
 id = "M097_076"
 befehl = ["PRINTCLEAR"]
 en = "THE ROBOT DETECTS YOUR MOTION, THEN SOUNDS AN ALARM!"
-de = ""
+de = "Der Roboter bemerkt eure Bewegung und löst Alarm aus!"
 
 [[text]]
 id = "M097_077"
 befehl = ["PRINTCLEAR"]
 en = "YOU SNATCH THE MEDALLION. THE ROBOT COMPLETES ITS DUTIES AND VANISHES INTO A STORAGE COMPARTMENT."
-de = ""
+de = "Ihr schnappt euch das Medaillon. Der Roboter beendet seine Arbeit und verschwindet in einem Abstellfach."
 
 [[text]]
 id = "M097_078"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A COPPER MEDALLION."
-de = ""
+de = "Ihr habt ein Kupfermedaillon."
 
 [[text]]
 id = "M097_079"
 befehl = ["PRINTCLEAR"]
 en = "DOODADS AND KNICKKNACKS FILL THIS STORAGE AREA. PAPER FLAGS AND OLD MEDALS ARE ONLY A SMALL SAMPLE. SEARCH THE CLOSET?"
-de = ""
+de = "Krimskrams füllt diesen Abstellraum. Papierfähnchen und alte Orden sind nur ein kleiner Teil davon. Den Schrank durchsuchen?"
 
 [[text]]
 id = "M097_080"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A BATTLE TRUMPET AND LINEN NAPKINS. KEEP SEARCHING?"
-de = ""
+de = "Ihr findet eine Schlachttrompete und Leinenservietten. Weitersuchen?"
 
 [[text]]
 id = "M097_081"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND AN IVORY SHOE RACK AND TWO POWDERED WIGS. KEEP SEARCHING?"
-de = ""
+de = "Ihr findet ein Schuhregal aus Elfenbein und zwei gepuderte Perücken. Weitersuchen?"
 
 [[text]]
 id = "M097_082"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A SILVER MEDALLION WITH AN OWL STAMPED ON IT! YOU HOLD ON TO THE MEDALLION."
-de = ""
+de = "Ihr findet ein Silbermedaillon mit einer Eule darauf! Ihr behaltet das Medaillon."
 
 [[text]]
 id = "M097_083"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A SILVER MEDALLION."
-de = ""
+de = "Ihr habt ein Silbermedaillon."
 
 [[text]]
 id = "M097_084"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS NOTHING MORE OF VALUE IN THIS CLOSET."
-de = ""
+de = "In diesem Schrank ist nichts Wertvolles mehr."
 
 [[text]]
 id = "M097_085"
 befehl = ["PRINTCLEAR"]
 en = "DEACTIVATED ROBOTS FILL THE ROOM. ON THE WALL IS A PLAQUE WITH A GOLD MEDALLION EMBOSSED WITH AN EAGLE. GET THE MEDALLION?"
-de = ""
+de = "Abgeschaltete Roboter füllen den Raum. An der Wand hängt eine Tafel mit einem Goldmedaillon, darauf ein Adler. Medaillon nehmen?"
 
 [[text]]
 id = "M097_086"
 befehl = ["PRINTCLEAR"]
 en = "ALARM WIRES PROTRUDE FROM THE BASE OF THE PLAQUE."
-de = ""
+de = "Aus dem Sockel der Tafel ragen Alarmdrähte."
 
 [[text]]
 id = "M097_087"
 befehl = ["WHO"]
 en = "WHO BYPASSES SECURITY?"
-de = ""
+de = "Wer umgeht die Sicherung?"
 
 [[text]]
 id = "M097_088"
 befehl = ["PRINTCLEAR"]
 en = "YOU PULL THE WRONG WIRE AND THE ROBOTS ACTIVATE. 'SURRENDER AT ONCE,' THEY ORDER, THEN BEGIN FIRING."
-de = ""
+de = "Ihr zieht am falschen Draht, die Roboter erwachen. 'Ergeben Sie sich sofort', befehlen sie und feuern los."
 
 [[text]]
 id = "M097_089"
 befehl = ["PRINTCLEAR"]
 en = "THE ROBOTS LIE STREWN AROUND YOU IN SMOKING PILES OF METAL. YOU PRY THE GOLD MEDALLION OFF THE PLAQUE."
-de = ""
+de = "Die Roboter liegen als qualmende Metallhaufen um euch herum. Ihr hebelt das Goldmedaillon von der Tafel."
 
 [[text]]
 id = "M097_090"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A GOLD MEDALLION."
-de = ""
+de = "Ihr habt ein Goldmedaillon."
 
 [[text]]
 id = "M097_091"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISCONNECT THE SECURITY, AND PRY THE MEDALLION OFF THE PLAQUE."
-de = ""
+de = "Ihr schaltet die Sicherung ab und hebelt das Medaillon von der Tafel."
 
 [[text]]
 id = "M097_092"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A GOLD MEDALLION."
-de = ""
+de = "Ihr habt ein Goldmedaillon."
 
 [[text]]
 id = "M097_093"
 befehl = ["PRINTCLEAR"]
 en = "YOU TIPTOE OUT OF THE ROOM."
-de = ""
+de = "Ihr schleicht auf Zehenspitzen hinaus."
 
 [[text]]
 id = "M097_094"
 befehl = ["PRINTCLEAR"]
 en = "THIS BEDROOM IS DRAPED WITH STRINGS OF PEARLS. THE WALLS ARE COVERED WITH SILK AND VELVET."
-de = ""
+de = "Dieses Schlafgemach ist mit Perlenschnüren behängt. Die Wände sind mit Seide und Samt bespannt."
 
 [[text]]
 id = "M097_095"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE SUN KING'S WARDROBE. MILITARY UNIFORMS FROM HISTORIC FRANCE, AMERICA, AND RUSSIA FILL THE ROOM."
-de = ""
+de = "Das ist die Garderobe des Sonnenkönigs. Militäruniformen aus dem alten Frankreich, Amerika und Russland füllen den Raum."
 
 [[text]]
 id = "M097_096"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A CHESSBOARD. THE PIECES ARE MODELS OF RAM OFFICERS AND FRENCH REVOLUTIONARY SOLDIERS."
-de = ""
+de = "Ihr findet ein Schachbrett. Die Figuren stellen RAM-Offiziere und französische Revolutionssoldaten dar."
 
 [[text]]
 id = "M097_097"
 befehl = ["PRINTCLEAR"]
 en = "AN OLD MAN IN THE ROOM ASKS 'WOULD YOU LIKE TO PLAY A GAME OF CHESS?'"
-de = ""
+de = "Ein alter Mann im Raum fragt: 'Möchten Sie eine Partie Schach spielen?'"
 
 [[text]]
 id = "M097_098"
 befehl = ["PRINTCLEAR"]
 en = "THE OLD MAN LOOKS DISAPPOINTED. HE SHUFFLES OUT OF THE ROOM."
-de = ""
+de = "Der alte Mann ist enttäuscht. Er schlurft aus dem Raum."
 
 [[text]]
 id = "M097_099"
 befehl = ["PRINTCLEAR"]
 en = "YOU PLAY CHESS WITH THE OLD MAN. HE WINS BY A SMALL MARGIN. 'IF YOU MEET THE SUN KING,' HE ADVISES, 'TELL HIM YOU SPEAK FRENCH.'"
-de = ""
+de = "Ihr spielt mit dem alten Mann Schach. Er gewinnt knapp. 'Sagen Sie dem Sonnenkönig', rät er, 'dass Sie Französisch sprechen.'"
 
 [[text]]
 id = "M097_100"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU STEP INTO THIS AVIARY, DOZENS OF BIRDS FLY OUT."
-de = ""
+de = "Als ihr diese Voliere betretet, fliegen Dutzende Vögel heraus."
 
 [[text]]
 id = "M097_101"
 befehl = ["PRINTCLEAR"]
 en = "WEAPONS CONTROL"
-de = ""
+de = "Waffensteuerung"
 
 [[text]]
 id = "M097_102"
 befehl = ["PRINT"]
 en = "AUTHORIZED PERSONNEL ONLY"
-de = ""
+de = "Nur für befugtes Personal"
 
 [[text]]
 id = "M097_103"
 befehl = ["PRINT"]
 en = "TRY TO DISARM THE CORE WEAPONS?"
-de = ""
+de = "Versuchen, die Waffen im Kern abzuschalten?"
 
 [[text]]
 id = "M097_104"
 befehl = ["PRINTCLEAR"]
 en = "A COMPUTERIZED VOICE SAYS 'YOU ARE UNAUTHORIZED TO USE THIS CONSOLE.' CONTINUE TRYING TO DISARM THE WEAPONS?"
-de = ""
+de = "Eine Computerstimme sagt: 'Sie sind nicht befugt, diese Konsole zu benutzen.' Weiter versuchen, die Waffen abzuschalten?"
 
 [[text]]
 id = "M097_105"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE GUILTY OF DISOBEYING SECTION 52-A OF THE SUN KING'S AUTHORIZATION CODE.' PANELS OPEN, REVEALING WEAPONS."
-de = ""
+de = "'Sie haben gegen Abschnitt 52-A des Befugniskodex des Sonnenkönigs verstoßen.' Platten öffnen sich und geben Waffen frei."
 
 [[text]]
 id = "M097_106"
@@ -664,49 +664,49 @@ de = ""
 id = "M097_107"
 befehl = ["PRINTCLEAR"]
 en = "LEAVE THE CONSOLE?"
-de = ""
+de = "Die Konsole verlassen?"
 
 [[text]]
 id = "M097_108"
 befehl = ["PRINTCLEAR"]
 en = "'WEAPONS CONTROL -- AUTHORIZED PERSONNEL ONLY.' A GREEN LIGHT IS FLASHING."
-de = ""
+de = "'Waffensteuerung -- nur für befugtes Personal.' Ein grünes Licht blinkt."
 
 [[text]]
 id = "M097_109"
 befehl = ["PRINTCLEAR"]
 en = "THIS ROOM IS FILLED WITH MACHINERY AND GIGANTIC GEARS. AN INFORMATION SCREEN ON THE WALL READS: 'OPERATION CONDITIONS NORMAL.'"
-de = ""
+de = "Der Raum ist voller Maschinen und riesiger Zahnräder. Ein Infoschirm an der Wand zeigt: 'Betriebszustand normal.'"
 
 [[text]]
 id = "M097_110"
 befehl = ["PRINTCLEAR"]
 en = "A PLAQUE READS -- "
-de = ""
+de = "Eine Tafel verkündet -- "
 
 [[text]]
 id = "M097_111"
 befehl = ["PRINT"]
 en = "ABANDON ALL HOPE YE WHO ENTER HERE."
-de = ""
+de = "Lasst, die ihr eintretet, alle Hoffnung fahren."
 
 [[text]]
 id = "M097_112"
 befehl = ["PRINTCLEAR"]
 en = "A SMALLER SIGN READS -- "
-de = ""
+de = "Ein kleineres Schild verkündet -- "
 
 [[text]]
 id = "M097_113"
 befehl = ["PRINT"]
 en = "ICI ON PARLE FRANCAIS"
-de = ""
+de = "Ici on parle francais"
 
 [[text]]
 id = "M097_114"
 befehl = ["PRINTCLEAR"]
 en = "A FEMALE VOICE ISSUES FROM AN INTERCOM. 'FIRING CLEARANCE GRANTED. COUNTDOWN TO FIRING WILL COMMENCE IMMEDIATELY. "
-de = ""
+de = "Eine Frauenstimme aus der Sprechanlage: 'Feuerfreigabe erteilt. Countdown bis zum Feuern beginnt sofort. "
 
 [[text]]
 id = "M097_115"
@@ -718,25 +718,25 @@ de = ""
 id = "M097_116"
 befehl = ["PRINT"]
 en = "COUNT "
-de = ""
+de = "Noch "
 
 [[text]]
 id = "M097_117"
 befehl = ["PRINT"]
 en = " TO FIRE.'"
-de = ""
+de = " bis zum Feuern.'"
 
 [[text]]
 id = "M097_118"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS APPEARS. 'YOU'RE TOO LATE! WILMA IS ABOUT TO CRASH HER SHIP INTO THE DOOMSDAY WEAPON FROM ABOVE TO DESTROY IT!'"
-de = ""
+de = "Scot.DOS erscheint. 'Ihr kommt zu spät! Wilma will ihr Schiff von oben in die Doomsday-Waffe stürzen, um sie zu zerstören!'"
 
 [[text]]
 id = "M097_119"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR THE SQUEAL OF SHREDDING METAL FAR ABOVE YOU, AND AN EXPLOSION BATHES THE ENTIRE TOP OF THE MARIPOSA IN FLAME!"
-de = ""
+de = "Weit über euch kreischt zerreißendes Metall, und eine Explosion taucht die ganze Spitze der Mariposa in Flammen!"
 
 [[text]]
 id = "M097_120"

@@ -6,539 +6,539 @@
 id = "M096_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU MANAGE TO SLIP THROUGH THE AIRLOCK AND INTO THE MARIPOSA. THIS IS THE EMBARKATION SECTION."
-de = ""
+de = "Ihr schlüpft durch die Schleuse in die Mariposa. Dies ist der Einschiffungsbereich."
 
 [[text]]
 id = "M096_001"
 befehl = ["PRINTCLEAR"]
 en = "YOUR BLUE PASSCARD SHOULD GET YOU THROUGH THE SECURITY STATION AHEAD."
-de = ""
+de = "Mit eurer blauen Ausweiskarte solltet ihr durch die Sicherheitskontrolle vor euch kommen."
 
 [[text]]
 id = "M096_002"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS LOCKED IN THIS DIRECTION."
-de = ""
+de = "In diese Richtung ist die Tür verschlossen."
 
 [[text]]
 id = "M096_003"
 befehl = ["PRINTCLEAR"]
 en = "A MECHANICAL VOICE STATES, 'NO ENTRY WITHOUT VALID PASSCARD.'"
-de = ""
+de = "Eine Maschinenstimme sagt: 'Kein Zutritt ohne gültige Ausweiskarte.'"
 
 [[text]]
 id = "M096_004"
 befehl = ["PRINTCLEAR"]
 en = "THE ENTRANCE TO THE HANGAR HAS BEEN SEALED DUE TO A SECURITY ALERT. YOU CANNOT ENTER."
-de = ""
+de = "Der Hangareingang wurde wegen eines Sicherheitsalarms versiegelt. Ihr kommt nicht hinein."
 
 [[text]]
 id = "M096_005"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WISH TO RETURN TO YOUR SHIP?"
-de = ""
+de = "Wollt ihr zu eurem Schiff zurück?"
 
 [[text]]
 id = "M096_006"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE ABOUT TO ENTER THE CORE. DO YOU CONTINUE?"
-de = ""
+de = "Gleich betretet ihr den Kern. Weitergehen?"
 
 [[text]]
 id = "M096_007"
 befehl = ["PRINTCLEAR"]
 en = "A SENSOR BEAM SCANS YOUR STOLEN BADGES. A MECHANICAL VOICE SAYS, 'PASSED. WELCOME TO MERCURY. HAVE A NICE DAY.'"
-de = ""
+de = "Ein Sensorstrahl prüft eure gestohlenen Ausweise. Eine Maschinenstimme: 'Bestanden. Willkommen auf Merkur. Schönen Tag.'"
 
 [[text]]
 id = "M096_008"
 befehl = ["PRINTCLEAR"]
 en = "SOMEONE HAS SABOTAGED THE SECURITY STATION. IT IS NO LONGER OPERATIONAL."
-de = ""
+de = "Jemand hat die Sicherheitskontrolle sabotiert. Sie ist außer Betrieb."
 
 [[text]]
 id = "M096_009"
 befehl = ["PRINTCLEAR"]
 en = "COLONEL WILMA DEERING STEPS UP THE MOMENT YOU CLEAR SECURITY."
-de = ""
+de = "Kaum seid ihr durch die Kontrolle, tritt Colonel Wilma Deering heran."
 
 [[text]]
 id = "M096_010"
 befehl = ["PRINTCLEAR"]
 en = "'GLAD YOU'RE HERE. THE DOOMSDAY DEVICE IS AT THE TOP OF THE MARIPOSA. YOU MUST TRY TO REACH IT THROUGH THE CORE."
-de = ""
+de = "'Gut, dass ihr da seid. Die Doomsday-Waffe ist ganz oben in der Mariposa. Versucht, sie über den Kern zu erreichen."
 
 [[text]]
 id = "M096_011"
 befehl = ["PRINTCLEAR"]
 en = "'I'LL TAKE YOUR PASSES NOW. MY TEAM WILL USE THEM TO DISTRACT THE SECURITY HERE. AVOID THE SECURITY GATES. GOOD LUCK.'"
-de = ""
+de = "'Ich nehme jetzt eure Ausweise. Mein Team lenkt damit die Sicherheit hier ab. Meidet die Kontrolltore. Viel Glück.'"
 
 [[text]]
 id = "M096_012"
 befehl = ["PRINTCLEAR"]
 en = "A MAN BUSTLES PAST AND MUMBLES, "
-de = ""
+de = "Ein Mann hastet vorbei und murmelt: "
 
 [[text]]
 id = "M096_013"
 befehl = ["PRINT"]
 en = "'ONE IF BY LAND'."
-de = ""
+de = "'Einmal, wenn zu Land'."
 
 [[text]]
 id = "M096_014"
 befehl = ["HMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M096_015"
 befehl = ["HMENU"]
 menue = true
 en = "SPEAK"
-de = ""
+de = "Ansprechen"
 
 [[text]]
 id = "M096_016"
 befehl = ["HMENU"]
 menue = true
 en = "ACCOST"
-de = ""
+de = "Anhalten"
 
 [[text]]
 id = "M096_017"
 befehl = ["PRINTCLEAR"]
 en = "THE MAN CONTINUES ON AND DISAPPEARS."
-de = ""
+de = "Der Mann geht weiter und verschwindet."
 
 [[text]]
 id = "M096_018"
 befehl = ["PRINTCLEAR"]
 en = "HE LOOKS AROUND NERVOUSLY. 'ARE YOU THE DANCERS?'"
-de = ""
+de = "Er sieht sich nervös um. 'Sind Sie die Tänzer?'"
 
 [[text]]
 id = "M096_019"
 befehl = ["PRINTCLEAR"]
 en = "HE MOTIONS YOU TO THE SIDE OF THE CORRIDOR AND WHISPERS, 'WELCOME, DANCERS. GLAD YOU COULD MAKE IT UP."
-de = ""
+de = "Er winkt euch an die Seite des Gangs und flüstert: 'Willkommen, Tänzer. Schön, dass Sie es heraufgeschafft haben."
 
 [[text]]
 id = "M096_020"
 befehl = ["PRINTCLEAR"]
 en = "'THE SUN KING AWAITS YOU ABOVE. FIND THE MARIPOSA CORE AND RISE TO MEET HIM. VIVE LA REVOLUTION!'"
-de = ""
+de = "'Der Sonnenkönig erwartet Sie oben. Findet den Kern der Mariposa und steigt zu ihm hinauf. Vive la revolution!'"
 
 [[text]]
 id = "M096_021"
 befehl = ["PRINTCLEAR"]
 en = "HE LEAVES."
-de = ""
+de = "Er geht."
 
 [[text]]
 id = "M096_022"
 befehl = ["PRINTCLEAR"]
 en = "HE LAUGHS IN YOUR FACE, PULLS AWAY AND DISAPPEARS INTO THE CROWDS."
-de = ""
+de = "Er lacht euch ins Gesicht, reißt sich los und verschwindet in der Menge."
 
 [[text]]
 id = "M096_023"
 befehl = ["PRINTCLEAR"]
 en = "WELCOME TO MARAT'S BAZAAR. ANYTHING YOU COULD WISH IN THE WAY OF ARCANA IS HERE."
-de = ""
+de = "Willkommen in Marats Basar. Alles an Raritäten, was ihr euch wünschen könnt, gibt es hier."
 
 [[text]]
 id = "M096_024"
 befehl = ["PRINTCLEAR"]
 en = "A PARROT IS SITTING ON A WOODEN POST HERE, SQUAWKING LOUDLY. "
-de = ""
+de = "Auf einem Holzpfosten sitzt ein Papagei und kreischt laut. "
 
 [[text]]
 id = "M096_025"
 befehl = ["HMENU"]
 menue = true
 en = "FEED"
-de = ""
+de = "Füttern"
 
 [[text]]
 id = "M096_026"
 befehl = ["HMENU"]
 menue = true
 en = "PLAY"
-de = ""
+de = "Spielen"
 
 [[text]]
 id = "M096_027"
 befehl = ["HMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M096_028"
 befehl = ["WHO"]
 en = "WHO WILL FEED IT?"
-de = ""
+de = "Wer füttert ihn?"
 
 [[text]]
 id = "M096_029"
 befehl = ["PRINTCLEAR"]
 en = "YOU FISH OUT SOME CRUMBS AND FEED THEM TO THE PARROT. IT STOPS SQUAWKING LONG ENOUGH TO SWALLOW THE MORSELS."
-de = ""
+de = "Ihr kramt ein paar Krümel hervor und füttert den Papagei. Er hört lange genug auf zu kreischen, um sie zu schlucken."
 
 [[text]]
 id = "M096_030"
 befehl = ["WHO"]
 en = "WHO WILL DO IT?"
-de = ""
+de = "Wer macht es?"
 
 [[text]]
 id = "M096_031"
 befehl = ["PRINTCLEAR"]
 en = "YOU COAX IT TO SPEAK AND IT HOPS ONTO YOUR SHOULDERS."
-de = ""
+de = "Ihr lockt ihn zum Sprechen, und er hüpft euch auf die Schulter."
 
 [[text]]
 id = "M096_032"
 befehl = ["PRINTCLEAR"]
 en = "THE PARROT TAKES A SUDDEN DISLIKE TO "
-de = ""
+de = "Der Papagei kann plötzlich "
 
 [[text]]
 id = "M096_033"
 befehl = ["PRINT"]
 en = " AND NIPS A FINGER."
-de = ""
+de = " nicht leiden und zwickt in einen Finger."
 
 [[text]]
 id = "M096_034"
 befehl = ["PRINTCLEAR"]
 en = "THE PARROT BABBLES AWAY, 'DANCERS WANT A CRACKER...STORM THE BASTILLE...HOW ABOUT A KISS...SQUAWK!!!' IT FLIES OFF."
-de = ""
+de = "Der Papagei plappert: 'Tänzer wollen Keks... stürmt die Bastille... Küsschen... Kraah!!!' Er fliegt davon."
 
 [[text]]
 id = "M096_035"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEEM TO HAVE MADE A FRIEND OF THE PARROT."
-de = ""
+de = "Ihr habt euch wohl mit dem Papagei angefreundet."
 
 [[text]]
 id = "M096_036"
 befehl = ["PRINTCLEAR"]
 en = "IT BABBLES AWAY, 'FRENCH!...OUI, I SPEAK FRENCH!...DANCERS SEIZE THE LASER...'"
-de = ""
+de = "Er plappert: 'Französisch!... Oui, ich spreche Französisch!... Tänzer schnappen den Laser...'"
 
 [[text]]
 id = "M096_037"
 befehl = ["PRINTCLEAR"]
 en = "THE BIRD CONTINUES, 'COUNTER GAVILAN'S PRO-RAM...EARTH FRIES...AIM AT MARS...SQUAWK!!!'"
-de = ""
+de = "Der Vogel fährt fort: 'Gavilan pro RAM kontern... Erde brutzelt... Ziel Mars... Kraah!!!'"
 
 [[text]]
 id = "M096_038"
 befehl = ["PRINTCLEAR"]
 en = "THE PARROT WINDS DOWN AND FLAPS AWAY."
-de = ""
+de = "Der Papagei wird still und flattert davon."
 
 [[text]]
 id = "M096_039"
 befehl = ["PRINTCLEAR"]
 en = "AN OLD DESKCOMP SITS HERE, COMPLETE WITH ARCHAIC KEYBOARD. AS YOU PEER AT THE DUSTY LENS, THE VIDEO SCREEN BEGINS TO PRINT."
-de = ""
+de = "Hier steht ein alter Tischcomputer mit uralter Tastatur. Als ihr auf die staubige Linse schaut, schreibt der Bildschirm los."
 
 [[text]]
 id = "M096_040"
 befehl = ["PRINTCLEAR"]
 en = "'SCOT HERE. IN STOCK EXCHANGE COMPUTER. GAVILAN SELLING SHORT ON EARTH COMPANY STOCK. MUST EXPECT DEVICE TO FIRE SOON."
-de = ""
+de = "'Hier Scot. Im Börsencomputer. Gavilan verkauft Aktien von Erdfirmen leer. Erwartet wohl baldigen Einsatz der Waffe."
 
 [[text]]
 id = "M096_041"
 befehl = ["PRINTCLEAR"]
 en = "'STRANGE THING THOUGH, A RIVAL CONSORTIUM OF SUN KINGS ARE SELLING SHORT ON GAVILAN'S STOCKS."
-de = ""
+de = "'Seltsam allerdings: Ein rivalisierendes Konsortium von Sonnenkönigen verkauft Gavilans Aktien leer."
 
 [[text]]
 id = "M096_042"
 befehl = ["PRINTCLEAR"]
 en = "'SOMEONE THINKS HE'S ABOUT TO BE IN BIG TROUBLE. HAVE TO GO, SOMEONE'S TRYING TO TRACE ME. KEEP SHARP.'"
-de = ""
+de = "'Da glaubt jemand, dass er bald in großen Schwierigkeiten steckt. Muss weg, jemand versucht mich aufzuspüren. Bleibt wachsam.'"
 
 [[text]]
 id = "M096_043"
 befehl = ["PRINTCLEAR"]
 en = "THROUGH THE DUST ON THE DOOR YOU MAKE OUT, 'TO RUE DE S.'"
-de = ""
+de = "Durch den Staub auf der Tür entziffert ihr: 'Zur Rue de S.'"
 
 [[text]]
 id = "M096_044"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE AT THE ENTRANCE TO HOLST PLAZA."
-de = ""
+de = "Ihr seid am Eingang der Holst-Plaza."
 
 [[text]]
 id = "M096_045"
 befehl = ["PRINTCLEAR"]
 en = "AHEAD YOU CAN SEE A HEAVY SECURITY STATION. ANTI-PERSONNEL GUNS ARE MOUNTED ABOVE THE DOORS. IT MIGHT BE WISE TO GO BACK. DO YOU?"
-de = ""
+de = "Vor euch liegt eine schwere Sicherheitskontrolle. Über den Türen hängen Geschütze. Vielleicht solltet ihr umkehren. Tut ihr das?"
 
 [[text]]
 id = "M096_046"
 befehl = ["PRINTCLEAR"]
 en = "SECURITY IS DOING A PAT SEARCH ON EVERYONE TRYING TO PASS THESE GATES. LASER CANNON TRACK THE SQUARE. DO YOU LET THEM SEARCH YOU OR ATTACK?"
-de = ""
+de = "Die Sicherheit tastet jeden ab, der durch diese Tore will. Laserkanonen bestreichen den Platz. Durchsuchen lassen oder angreifen?"
 
 [[text]]
 id = "M096_047"
 befehl = ["HMENU"]
 menue = true
 en = "BE SEARCHED"
-de = ""
+de = "Durchsuchen lassen"
 
 [[text]]
 id = "M096_048"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M096_049"
 befehl = ["PRINTCLEAR"]
 en = "THE LASERS SWIVEL TOWARD YOU. 'SURRENDER OR DIE!' BLARES A SPEAKER. "
-de = ""
+de = "Die Laser schwenken auf euch. 'Ergeben Sie sich oder sterben Sie!', plärrt ein Lautsprecher. "
 
 [[text]]
 id = "M096_050"
 befehl = ["HMENU"]
 menue = true
 en = "SURRENDER"
-de = ""
+de = "Ergeben"
 
 [[text]]
 id = "M096_051"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M096_052"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU PULL YOUR WEAPONS, THE LASER AUTOCANNON ERUPT INTO LIFE!"
-de = ""
+de = "Als ihr die Waffen zieht, erwachen die Laserkanonen zum Leben!"
 
 [[text]]
 id = "M096_053"
 befehl = ["PRINTCLEAR"]
 en = "TROOPS CHARGE. DO YOU SURRENDER?"
-de = ""
+de = "Truppen stürmen heran. Ergebt ihr euch?"
 
 [[text]]
 id = "M096_054"
 befehl = ["PRINTCLEAR"]
 en = "THE LASERS FIRE AGAIN."
-de = ""
+de = "Die Laser feuern erneut."
 
 [[text]]
 id = "M096_055"
 befehl = ["PRINTCLEAR"]
 en = "THESE DOORS HAVE BEEN SEALED."
-de = ""
+de = "Diese Türen sind versiegelt."
 
 [[text]]
 id = "M096_056"
 befehl = ["PRINTCLEAR"]
 en = "THE ONLY PLACE NOT BLOCKED OFF IS HOLST PLAZA. YOU SLIP INSIDE."
-de = ""
+de = "Nur die Holst-Plaza ist nicht abgesperrt. Ihr schlüpft hinein."
 
 [[text]]
 id = "M096_057"
 befehl = ["SAVE"]
 en = "SECURITY GATE"
-de = ""
+de = "Kontrolltor"
 
 [[text]]
 id = "M096_058"
 befehl = ["PRINTCLEAR"]
 en = "A SECURITY WARNING BLARES. THE GUARDS REACH FOR THEIR WEAPONS."
-de = ""
+de = "Ein Sicherheitsalarm plärrt. Die Wachen greifen nach ihren Waffen."
 
 [[text]]
 id = "M096_059"
 befehl = ["PRINTCLEAR"]
 en = "THE SIGN ABOVE THE DOOR READS "
-de = ""
+de = "Das Schild über der Tür lautet: "
 
 [[text]]
 id = "M096_060"
 befehl = ["PRINT"]
 en = "      'MERCURIAN STOCK EXCHANGE'"
-de = ""
+de = "      'Merkurianische Börse'"
 
 [[text]]
 id = "M096_061"
 befehl = ["PRINTCLEAR"]
 en = "'DON'T PROCEED FURTHER! BIG TRAP INSIDE FOR TERRORISTS!' HE FADES AWAY."
-de = ""
+de = "'Geht nicht weiter! Drinnen wartet eine große Falle für Terroristen!' Er verblasst."
 
 [[text]]
 id = "M096_062"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS BURST OUT FROM EVERYWHERE, GUNS BLAZING."
-de = ""
+de = "Von überall stürmen Wachen mit feuernden Waffen hervor."
 
 [[text]]
 id = "M096_063"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE DRIVEN BACK."
-de = ""
+de = "Ihr werdet zurückgedrängt."
 
 [[text]]
 id = "M096_064"
 befehl = ["PRINTCLEAR"]
 en = "THE COMPUTERS IN THE ROOM HAVE BEEN PROTECTED BY STEEL PLATES."
-de = ""
+de = "Die Computer im Raum sind mit Stahlplatten geschützt."
 
 [[text]]
 id = "M096_065"
 befehl = ["PRINTCLEAR"]
 en = "THIS CORRIDOR IS DUSTY AND DISUSED."
-de = ""
+de = "Dieser Gang ist staubig und unbenutzt."
 
 [[text]]
 id = "M096_066"
 befehl = ["PRINTCLEAR"]
 en = "MAINTENANCE ROBOTS ARE LINED UP HERE."
-de = ""
+de = "Hier stehen Wartungsroboter aufgereiht."
 
 [[text]]
 id = "M096_067"
 befehl = ["SAVE"]
 en = "JOHJI'S MAGNETIC FOOTWEAR"
-de = ""
+de = "Johjis Magnetschuhe"
 
 [[text]]
 id = "M096_068"
 befehl = ["PRINTCLEAR"]
 en = "MAGNETIZED BOOTS OF ALL DESCRIPTIONS ADORN THE SHELVES. NO ONE IS IN THE STORE."
-de = ""
+de = "Magnetstiefel aller Art zieren die Regale. Niemand ist im Laden."
 
 [[text]]
 id = "M096_069"
 befehl = ["SAVE"]
 en = "MICHELANGELO'S FAUX MARBLE"
-de = ""
+de = "Michelangelos Kunstmarmor"
 
 [[text]]
 id = "M096_070"
 befehl = ["PRINTCLEAR"]
 en = "SPRAY CANS OF FAKE MARBLE AND LITTLE SCULPTURES LIE ABOUT THE CLOSED STORE."
-de = ""
+de = "Sprühdosen mit falschem Marmor und kleine Skulpturen liegen im geschlossenen Laden herum."
 
 [[text]]
 id = "M096_071"
 befehl = ["SAVE"]
 en = "LE OLDE BODY SHOPPE"
-de = ""
+de = "Le Olde Body Shoppe"
 
 [[text]]
 id = "M096_072"
 befehl = ["PRINTCLEAR"]
 en = "THE CLOSED STORE HAS QUICK PLASTIC SURGERY KITS. A SPECIAL IS OFFERED ON ELVIS LOOKALIKES."
-de = ""
+de = "Der geschlossene Laden hat Sets für schnelle Schönheitsoperationen. Sonderangebot: Elvis-Doppelgänger."
 
 [[text]]
 id = "M096_073"
 befehl = ["SAVE"]
 en = "U R U HOLOPORTRAITURE"
-de = ""
+de = "U R U Holoporträts"
 
 [[text]]
 id = "M096_074"
 befehl = ["PRINTCLEAR"]
 en = "THE MOMENT YOU ENTER, YOU COME FACE TO FACE WITH YOURSELF. THE HOLOGRAMS MATCH YOUR EVERY MOVEMENT UNTIL YOU LEAVE."
-de = ""
+de = "Kaum seid ihr drin, steht ihr euch selbst gegenüber. Die Hologramme ahmen jede Bewegung nach, bis ihr geht."
 
 [[text]]
 id = "M096_075"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE BURIED UNDER A HUGE PILE INCLUDING AN OLD BLACKBOARD, TWO SPITTOONS AND A COPY OF THE MONA LISA."
-de = ""
+de = "Ihr werdet unter einem riesigen Haufen begraben, darunter eine alte Tafel, zwei Spucknäpfe und eine Kopie der Mona Lisa."
 
 [[text]]
 id = "M096_076"
 befehl = ["PRINTCLEAR"]
 en = "THIS SHOP IS CLOSED. IT SELLS CHEAP HOLOGRAMS OF MERCURIAN SIGHTS."
-de = ""
+de = "Dieser Laden ist geschlossen. Er verkauft billige Hologramme merkurianischer Sehenswürdigkeiten."
 
 [[text]]
 id = "M096_077"
 befehl = ["PRINTCLEAR"]
 en = "THE ROOM IS DARK. STALE DOUGHNUTS LINE A COUNTER."
-de = ""
+de = "Der Raum ist dunkel. Auf einer Theke liegen alte Donuts."
 
 [[text]]
 id = "M096_078"
 befehl = ["PRINTCLEAR"]
 en = "IN THIS OFFICE ARE A NUMBER OF INTERESTING RECORDS. TWO OF THEM CATCH YOUR EYE."
-de = ""
+de = "In diesem Büro liegen einige interessante Akten. Zwei fallen euch auf."
 
 [[text]]
 id = "M096_079"
 befehl = ["PRINTCLEAR"]
 en = "'SIX MERCURIAN DANCERS PICKED UP EN ROUTE TO YOUR MARIPOSA. BELIEVED TO BE SERVANTS OF SUN KING ABOVE.'"
-de = ""
+de = "'Sechs merkurianische Tänzer auf dem Weg zu Ihrer Mariposa aufgegriffen. Vermutlich Diener des Sonnenkönigs oben.'"
 
 [[text]]
 id = "M096_080"
 befehl = ["PRINTCLEAR"]
 en = "'STOCK EXCHANGE THOUGHT TO BE MAIN TARGET. SET UP AN AMBUSH THERE FOR ADDITIONAL DANCERS.'"
-de = ""
+de = "'Börse vermutlich Hauptziel. Dort Hinterhalt für weitere Tänzer legen.'"
 
 [[text]]
 id = "M096_081"
 befehl = ["PRINTCLEAR"]
 en = "THE PLAZA IS NEARLY EMPTY."
-de = ""
+de = "Die Plaza ist fast leer."
 
 [[text]]
 id = "M096_082"
 befehl = ["PRINTCLEAR"]
 en = "TROOPS ARE POURING INTO THE PLAZA AND RACING TOWARDS YOU. DO YOU FLEE?"
-de = ""
+de = "Truppen strömen auf die Plaza und rennen auf euch zu. Flieht ihr?"
 
 [[text]]
 id = "M096_083"
 befehl = ["PRINTCLEAR"]
 en = "MORE ARE COMING. DO YOU FLEE?"
-de = ""
+de = "Es kommen noch mehr. Flieht ihr?"
 
 [[text]]
 id = "M096_084"
 befehl = ["PRINTCLEAR"]
 en = "BOLTS OF ANCIENT DAMASK SILK LIE ATOP A SLIGHTLY NEWER TABLETOP VIDEO GAME."
-de = ""
+de = "Ballen uralter Damastseide liegen auf einem etwas neueren Videospieltisch."
 
 [[text]]
 id = "M096_085"
 befehl = ["PRINTCLEAR"]
 en = "A MECHANICAL DOG COCKS ITS HEAD AND BARKS IN TIME TO A DUSTY PHONOGRAPH."
-de = ""
+de = "Ein mechanischer Hund legt den Kopf schief und bellt im Takt eines verstaubten Grammophons."
 
 [[text]]
 id = "M096_086"
 befehl = ["PRINTCLEAR"]
 en = "A MOLDERING BOX OF COMPUTER DISKS LIES HERE. THE ONLY LETTERS YOU CAN MAKE OUT ARE 'SOMETHING SI.'"
-de = ""
+de = "Hier liegt eine vermodernde Kiste mit Disketten. Lesbar sind nur die Buchstaben 'Irgendwas SI.'"
 
 [[text]]
 id = "M096_087"
 befehl = ["PRINTCLEAR"]
 en = "A HOLOGRAM FORMS OVER THE DOOR:"
-de = ""
+de = "Über der Tür bildet sich ein Hologramm:"
 
 [[text]]
 id = "M096_088"
@@ -556,214 +556,214 @@ de = ""
 id = "M096_090"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE BLINDFOLDED, MANACLED AND LED AWAY."
-de = ""
+de = "Man verbindet euch die Augen, legt euch Handschellen an und führt euch ab."
 
 [[text]]
 id = "M096_091"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU ARE JOSTLED ABOUT, YOU HEAR SOMEONE SAY, 'ONE IF BY LAND'. "
-de = ""
+de = "Im Gedränge hört ihr jemanden sagen: 'Einmal, wenn zu Land'. "
 
 [[text]]
 id = "M096_092"
 befehl = ["HMENU"]
 menue = true
 en = "SPEAK"
-de = ""
+de = "Ansprechen"
 
 [[text]]
 id = "M096_093"
 befehl = ["HMENU"]
 menue = true
 en = "IGNORE"
-de = ""
+de = "Ignorieren"
 
 [[text]]
 id = "M096_094"
 befehl = ["PRINTCLEAR"]
 en = "THE VOICE WHISPERS 'ARE YOU THE DANCERS?'"
-de = ""
+de = "Die Stimme flüstert: 'Sind Sie die Tänzer?'"
 
 [[text]]
 id = "M096_095"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR THE PERSON LEAVE."
-de = ""
+de = "Ihr hört, wie die Person geht."
 
 [[text]]
 id = "M096_096"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE BOWLED OVER BY A MASSIVE EXPLOSION AND A BRIEF FIREFIGHT."
-de = ""
+de = "Eine gewaltige Explosion und ein kurzes Feuergefecht werfen euch um."
 
 [[text]]
 id = "M096_097"
 befehl = ["PRINTCLEAR"]
 en = "YOUR MANACLES ARE CUT AND YOU ARE LED OUT."
-de = ""
+de = "Eure Fesseln werden durchtrennt, man führt euch hinaus."
 
 [[text]]
 id = "M096_098"
 befehl = ["PRINTCLEAR"]
 en = "WILMA IS HERE, LOOKING GRIM. 'PLEASE REMEMBER THAT WE ARE THE ONES ATTRACTING ATTENTION, NOT YOU!"
-de = ""
+de = "Wilma ist hier und blickt finster. 'Denkt bitte daran: Wir sollen Aufmerksamkeit erregen, nicht ihr!"
 
 [[text]]
 id = "M096_099"
 befehl = ["PRINTCLEAR"]
 en = "'THE ENTRANCE TO THE CORE IS JUST AHEAD. GET MOVING! NEO IS SUPPOSED TO BE DEPENDING ON YOU.' SHE LEAVES."
-de = ""
+de = "'Der Eingang zum Kern ist gleich vorn. Los! Die NEO verlässt sich angeblich auf euch.' Sie geht."
 
 [[text]]
 id = "M096_100"
 befehl = ["PRINTCLEAR"]
 en = "LASERS WHINE AS SOMEONE GRABS YOUR ARMS AND HUSTLES YOU AWAY."
-de = ""
+de = "Laser surren, als jemand euch an den Armen packt und fortzerrt."
 
 [[text]]
 id = "M096_101"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE CUT FREE BY A STRANGER. 'MY BOSS WANTS YOU DANCERS ALIVE. THROUGH THE CORE TO MEET THE KING.' HE LEAVES."
-de = ""
+de = "Ein Fremder schneidet euch los. 'Mein Boss will euch Tänzer lebend. Durch den Kern zum König.' Er geht."
 
 [[text]]
 id = "M096_102"
 befehl = ["PRINTCLEAR"]
 en = "A SECURITY TEAM HAS SPOTTED YOU AND IS APPROACHING QUICKLY."
-de = ""
+de = "Ein Sicherheitstrupp hat euch entdeckt und kommt schnell näher."
 
 [[text]]
 id = "M096_103"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M096_104"
 befehl = ["HMENU"]
 menue = true
 en = "EVADE"
-de = ""
+de = "Ausweichen"
 
 [[text]]
 id = "M096_105"
 befehl = ["HMENU"]
 menue = true
 en = "WAIT"
-de = ""
+de = "Warten"
 
 [[text]]
 id = "M096_106"
 befehl = ["PRINTCLEAR"]
 en = "A FIREFIGHT HERE WOULD KILL INNOCENT CIVILIANS AND ATTRACT A LOT OF ATTENTION."
-de = ""
+de = "Ein Feuergefecht hier würde unschuldige Bürger töten und viel Aufsehen erregen."
 
 [[text]]
 id = "M096_107"
 befehl = ["HMENU"]
 menue = true
 en = "FIREFIGHT"
-de = ""
+de = "Feuergefecht"
 
 [[text]]
 id = "M096_108"
 befehl = ["HMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M096_109"
 befehl = ["PRINTCLEAR"]
 en = "THE TROOPS SEE YOU PULLING OUT WEAPONS AND ONE TALKS TO HIS LAPEL. ROBOTS DESCEND FROM THE CEILING."
-de = ""
+de = "Die Truppen sehen euch die Waffen ziehen, einer spricht in sein Revers. Roboter senken sich von der Decke."
 
 [[text]]
 id = "M096_110"
 befehl = ["PRINTCLEAR"]
 en = "YOU MANAGE TO ESCAPE BEFORE MORE REINFORCEMENTS ARRIVE."
-de = ""
+de = "Ihr entkommt, bevor weitere Verstärkung eintrifft."
 
 [[text]]
 id = "M096_111"
 befehl = ["PRINTCLEAR"]
 en = "REINFORCEMENTS CONTINUE TO ARRIVE."
-de = ""
+de = "Es trifft weiter Verstärkung ein."
 
 [[text]]
 id = "M096_112"
 befehl = ["PRINTCLEAR"]
 en = "YOU EVADE THE SECURITY TEAM."
-de = ""
+de = "Ihr weicht dem Sicherheitstrupp aus."
 
 [[text]]
 id = "M096_113"
 befehl = ["PRINTCLEAR"]
 en = "THE SECURITY PEOPLE HAVE REACHED YOU. "
-de = ""
+de = "Die Sicherheitsleute haben euch erreicht. "
 
 [[text]]
 id = "M096_114"
 befehl = ["HMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M096_115"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M096_116"
 befehl = ["PRINTCLEAR"]
 en = "THEY LOOK YOU OVER SUSPICIOUSLY. WHAT TONE DO YOU TAKE WITH THEM?"
-de = ""
+de = "Sie mustern euch misstrauisch. Welchen Ton schlagt ihr an?"
 
 [[text]]
 id = "M096_117"
 befehl = ["HMENU"]
 menue = true
 en = "AGGRESSIVE"
-de = ""
+de = "Aggressiv"
 
 [[text]]
 id = "M096_118"
 befehl = ["HMENU"]
 menue = true
 en = "FAST TALK"
-de = ""
+de = "Überreden"
 
 [[text]]
 id = "M096_119"
 befehl = ["HMENU"]
 menue = true
 en = "INNOCENT"
-de = ""
+de = "Unschuldig"
 
 [[text]]
 id = "M096_120"
 befehl = ["PRINTCLEAR"]
 en = "YOU CONVINCE THEM THAT YOU WORK FOR ONE OF THE SUN KINGS. THEY APOLOGIZE PROFUSELY AND BACK AWAY."
-de = ""
+de = "Ihr überzeugt sie, dass ihr für einen der Sonnenkönige arbeitet. Sie entschuldigen sich wortreich und ziehen sich zurück."
 
 [[text]]
 id = "M096_121"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER IS CONFUSED AND GOES BACK TO HUDDLE WITH HIS MEN. YOU'RE FREE TO LEAVE."
-de = ""
+de = "Der Kommandant ist verwirrt und berät sich mit seinen Männern. Ihr könnt gehen."
 
 [[text]]
 id = "M096_122"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER APOLOGIZES, 'SORRY, BUT WE HAVE REPORTS OF TERRORIST ACTIVITY. WE HAVE TO BE CAREFUL. GOOD DAY.' THEY MOVE OFF."
-de = ""
+de = "Der Kommandant entschuldigt sich: 'Verzeihung, es gibt Berichte über Terroristen. Wir müssen vorsichtig sein. Guten Tag.' Sie gehen."
 
 [[text]]
 id = "M096_123"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS A CLOSED SHOP HERE THAT YOU COULD ENTER IF YOU WISHED. DO YOU ENTER?"
-de = ""
+de = "Hier ist ein geschlossener Laden, den ihr betreten könntet. Hineingehen?"

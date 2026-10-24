@@ -6,31 +6,31 @@
 id = "M098_000"
 befehl = ["PRINTCLEAR"]
 en = "EMERGENCY STAIRS. "
-de = ""
+de = "Nottreppe. "
 
 [[text]]
 id = "M098_001"
 befehl = ["PRINT"]
 en = "ALARM WILL SOUND."
-de = ""
+de = "Löst Alarm aus."
 
 [[text]]
 id = "M098_002"
 befehl = ["PRINT"]
 en = "OPEN DOOR ANYWAY?"
-de = ""
+de = "Tür trotzdem öffnen?"
 
 [[text]]
 id = "M098_003"
 befehl = ["PRINT"]
 en = "A RED LIGHT FLASHES ABOVE THE DOOR."
-de = ""
+de = "Über der Tür blinkt ein rotes Licht."
 
 [[text]]
 id = "M098_004"
 befehl = ["PRINTCLEAR"]
 en = "A VOICE ISSUES FROM AN INTERCOM. 'FIRING CLEARANCE GRANTED. COUNTDOWN COMMENCING.'"
-de = ""
+de = "Eine Stimme aus der Sprechanlage: 'Feuerfreigabe erteilt. Countdown beginnt.'"
 
 [[text]]
 id = "M098_005"
@@ -42,25 +42,25 @@ de = ""
 id = "M098_006"
 befehl = ["PRINT"]
 en = "COUNT "
-de = ""
+de = "Noch "
 
 [[text]]
 id = "M098_007"
 befehl = ["PRINT"]
 en = " TO FIRE.'"
-de = ""
+de = " bis zum Feuern.'"
 
 [[text]]
 id = "M098_008"
 befehl = ["PRINTCLEAR"]
 en = "'YOU'RE TOO LATE! WILMA IS ABOUT TO CRASH HER SHIP INTO THE WEAPON TO DESTROY IT!'"
-de = ""
+de = "'Ihr kommt zu spät! Wilma will ihr Schiff in die Waffe stürzen, um sie zu zerstören!'"
 
 [[text]]
 id = "M098_009"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR THE SQUEAL OF SHREDDING METAL FAR ABOVE, AND THE MARIPOSA IS BATHED IN FLAME!"
-de = ""
+de = "Weit über euch kreischt zerreißendes Metall, und die Mariposa steht in Flammen!"
 
 [[text]]
 id = "M098_010"
@@ -78,13 +78,13 @@ de = ""
 id = "M098_012"
 befehl = ["PRINT"]
 en = "COUNT "
-de = ""
+de = "Noch "
 
 [[text]]
 id = "M098_013"
 befehl = ["PRINT"]
 en = " TO STATION DESTRUCTION.'"
-de = ""
+de = " bis zur Zerstörung der Station.'"
 
 [[text]]
 id = "M098_014"
@@ -96,254 +96,254 @@ de = ""
 id = "M098_015"
 befehl = ["PRINTCLEAR"]
 en = "SECURITY ROBOTS IDENTIFY YOU AS INTRUDERS."
-de = ""
+de = "Sicherheitsroboter erkennen euch als Eindringlinge."
 
 [[text]]
 id = "M098_016"
 befehl = ["PRINTCLEAR"]
 en = "WARRIORS SENT BY THE SUN KING DESCEND ON YOU! 'VIVE LA REVOLUTION!'"
-de = ""
+de = "Krieger des Sonnenkönigs fallen über euch her! 'Vive la revolution!'"
 
 [[text]]
 id = "M098_017"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE AT THE BOTTOM OF AN EMERGENCY STAIRWELL. CLIMB THE STAIRS?"
-de = ""
+de = "Ihr seid am Fuß eines Nottreppenhauses. Die Treppe hinaufsteigen?"
 
 [[text]]
 id = "M098_018"
 befehl = ["PRINTCLEAR"]
 en = "YOU CLIMB THE STAIRS."
-de = ""
+de = "Ihr steigt die Treppe hinauf."
 
 [[text]]
 id = "M098_019"
 befehl = ["PRINTCLEAR"]
 en = "'ESCAPE POD CONTROL'"
-de = ""
+de = "'Rettungskapsel-Steuerung'"
 
 [[text]]
 id = "M098_020"
 befehl = ["PRINTCLEAR"]
 en = "AN EMERGENCY STAIRWELL LEADS UP AND DOWN."
-de = ""
+de = "Ein Nottreppenhaus führt nach oben und unten."
 
 [[text]]
 id = "M098_021"
 befehl = ["HMENU"]
 menue = true
 en = "CLIMB STAIRS"
-de = ""
+de = "Hinauf"
 
 [[text]]
 id = "M098_022"
 befehl = ["HMENU"]
 menue = true
 en = "DESCEND STAIRS"
-de = ""
+de = "Hinunter"
 
 [[text]]
 id = "M098_023"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M098_024"
 befehl = ["PRINTCLEAR"]
 en = "YOU CLIMB THE STAIRS."
-de = ""
+de = "Ihr steigt die Treppe hinauf."
 
 [[text]]
 id = "M098_025"
 befehl = ["PRINTCLEAR"]
 en = "'WEAPONS CONTROL'"
-de = ""
+de = "'Waffensteuerung'"
 
 [[text]]
 id = "M098_026"
 befehl = ["PRINTCLEAR"]
 en = "YOU DESCEND THE STAIRS"
-de = ""
+de = "Ihr steigt die Treppe hinunter."
 
 [[text]]
 id = "M098_027"
 befehl = ["PRINTCLEAR"]
 en = "'SECURITY'"
-de = ""
+de = "'Sicherheit'"
 
 [[text]]
 id = "M098_028"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE ON THE TOP OF AN EMERGENCY STAIRWELL. "
-de = ""
+de = "Ihr seid oben in einem Nottreppenhaus. "
 
 [[text]]
 id = "M098_029"
 befehl = ["PRINT"]
 en = "DESCEND THE STAIRS?"
-de = ""
+de = "Die Treppe hinuntergehen?"
 
 [[text]]
 id = "M098_030"
 befehl = ["PRINTCLEAR"]
 en = "YOU DESCEND THE STAIRS."
-de = ""
+de = "Ihr steigt die Treppe hinunter."
 
 [[text]]
 id = "M098_031"
 befehl = ["PRINTCLEAR"]
 en = "THIS ELEVATOR HAS FOUR BUTTONS ON A HIGH-TECH PANEL."
-de = ""
+de = "Dieser Aufzug hat vier Knöpfe auf einem Hightech-Pult."
 
 [[text]]
 id = "M098_032"
 befehl = ["PRINTCLEAR"]
 en = "PRESS WHICH BUTTON?"
-de = ""
+de = "Welchen Knopf drückt ihr?"
 
 [[text]]
 id = "M098_033"
 befehl = ["HMENU"]
 menue = true
 en = "SECURITY"
-de = ""
+de = "Sicherheit"
 
 [[text]]
 id = "M098_034"
 befehl = ["HMENU"]
 menue = true
 en = "PODS"
-de = ""
+de = "Kapseln"
 
 [[text]]
 id = "M098_035"
 befehl = ["HMENU"]
 menue = true
 en = "CONTROL AREA"
-de = ""
+de = "Steuerung"
 
 [[text]]
 id = "M098_036"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M098_037"
 befehl = ["PRINTCLEAR"]
 en = "THE CONTROL PANEL GOES DARK."
-de = ""
+de = "Das Pult wird dunkel."
 
 [[text]]
 id = "M098_038"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE ARRIVED IN THE SECURITY AREA."
-de = ""
+de = "Ihr seid im Sicherheitsbereich angekommen."
 
 [[text]]
 id = "M098_039"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE ARRIVED IN THE ESCAPE POD STORAGE AREA."
-de = ""
+de = "Ihr seid im Lager der Rettungskapseln angekommen."
 
 [[text]]
 id = "M098_040"
 befehl = ["PRINTCLEAR"]
 en = "'ACCESS DENIED'"
-de = ""
+de = "'Zugang verweigert'"
 
 [[text]]
 id = "M098_041"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE ALREADY THERE'"
-de = ""
+de = "'Sie sind bereits dort'"
 
 [[text]]
 id = "M098_042"
 befehl = ["PRINTCLEAR"]
 en = "A SIGN ABOVE YOU FLASHES:"
-de = ""
+de = "Über euch blinkt ein Schild:"
 
 [[text]]
 id = "M098_043"
 befehl = ["PRINT"]
 en = "NO BACKUP POWER ALLOCATED FOR ELEVATOR USE. PLEASE USE THE STAIRS."
-de = ""
+de = "Keine Notstromzuteilung für den Aufzug. Bitte benutzen Sie die Treppe."
 
 [[text]]
 id = "M098_044"
 befehl = ["PRINTCLEAR"]
 en = "THE PANEL IS DARK. A RECORDED VOICE SAYS 'ELEVATOR ACCESS DENIED.'"
-de = ""
+de = "Das Pult ist dunkel. Eine Ansage: 'Aufzugzugang verweigert.'"
 
 [[text]]
 id = "M098_045"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE THE DOOMSDAY DEVICE THROUGH A SHIELDED DOME."
-de = ""
+de = "Durch eine Schutzkuppel seht ihr die Doomsday-Waffe."
 
 [[text]]
 id = "M098_046"
 befehl = ["PRINTCLEAR"]
 en = "'TARGETING -- EARTH'"
-de = ""
+de = "'Zielerfassung -- Erde'"
 
 [[text]]
 id = "M098_047"
 befehl = ["PRINT"]
 en = "FLASHES ON THE VIEWSCREENS."
-de = ""
+de = "blinkt auf den Bildschirmen."
 
 [[text]]
 id = "M098_048"
 befehl = ["PRINTCLEAR"]
 en = "THE VIEWSCREENS FLASH --"
-de = ""
+de = "Die Bildschirme blinken --"
 
 [[text]]
 id = "M098_049"
 befehl = ["PRINT"]
 en = "DANGER. DESTRUCT SEQUENCE ACTIVATED"
-de = ""
+de = "Gefahr. Selbstzerstörung aktiviert"
 
 [[text]]
 id = "M098_050"
 befehl = ["PRINTCLEAR"]
 en = "THE VIEWSCREENS ARE DARK."
-de = ""
+de = "Die Bildschirme sind dunkel."
 
 [[text]]
 id = "M098_051"
 befehl = ["PRINTCLEAR"]
 en = "POWER ROOM -- DANGER"
-de = ""
+de = "Energieraum -- Gefahr"
 
 [[text]]
 id = "M098_052"
 befehl = ["PRINTCLEAR"]
 en = "CABLES FILL THE ROOM. IT'S POSSIBLE, BUT DANGEROUS, TO CUT THE POWER TO THE DOOMSDAY DEVICE."
-de = ""
+de = "Kabel füllen den Raum. Es ist möglich, aber gefährlich, der Doomsday-Waffe den Strom abzudrehen."
 
 [[text]]
 id = "M098_053"
 befehl = ["PRINTCLEAR"]
 en = "THE POWER COUPLER IS HIGH ABOVE YOU. TRY TO TURN OFF THE POWER?"
-de = ""
+de = "Der Energiekoppler ist hoch über euch. Versuchen, den Strom abzuschalten?"
 
 [[text]]
 id = "M098_054"
 befehl = ["WHO"]
 en = "WHO CLIMBS?"
-de = ""
+de = "Wer klettert?"
 
 [[text]]
 id = "M098_055"
 befehl = ["PRINTCLEAR"]
 en = "ELECTRICITY ARCHES OUT OF THE POWER BOARDS."
-de = ""
+de = "Elektrische Bögen schlagen aus den Schalttafeln."
 
 [[text]]
 id = "M098_056"
@@ -355,76 +355,76 @@ de = ""
 id = "M098_057"
 befehl = ["PRINTCLEAR"]
 en = "THE CEILING LIGHTS FLICKER. AN INTERCOM BLARES, 'BACKUP POWER IN USE. COUNTDOWN TEMPORARILY ABORTED.'"
-de = ""
+de = "Die Deckenlichter flackern. Eine Durchsage: 'Notstrom in Betrieb. Countdown vorübergehend abgebrochen.'"
 
 [[text]]
 id = "M098_058"
 befehl = ["PRINTCLEAR"]
 en = "TECHNICIANS ARE FEVERISHLY REWIRING THE DESTRUCT SYSTEM. THEY SEE YOU AND ATTACK!"
-de = ""
+de = "Techniker verkabeln fieberhaft die Selbstzerstörung neu. Sie sehen euch und greifen an!"
 
 [[text]]
 id = "M098_059"
 befehl = ["PRINTCLEAR"]
 en = "A HUGE SQUADRON OF GUARDS IS STATIONED AT THIS ELEVATOR. THEY DEMAND YOUR SURRENDER."
-de = ""
+de = "Eine riesige Wachstaffel ist an diesem Aufzug postiert. Sie fordert eure Kapitulation."
 
 [[text]]
 id = "M098_060"
 befehl = ["PRINT"]
 en = "WHAT DO YOU DO?"
-de = ""
+de = "Was tut ihr?"
 
 [[text]]
 id = "M098_061"
 befehl = ["HMENU"]
 menue = true
 en = "SURRENDER"
-de = ""
+de = "Ergeben"
 
 [[text]]
 id = "M098_062"
 befehl = ["HMENU"]
 menue = true
 en = "RUN"
-de = ""
+de = "Rennen"
 
 [[text]]
 id = "M098_063"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M098_064"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARDS JEER AFTER YOU AS YOU FLEE, BUT REMAIN AT THEIR POSTS."
-de = ""
+de = "Die Wachen johlen euch hinterher, bleiben aber auf ihren Posten."
 
 [[text]]
 id = "M098_065"
 befehl = ["PRINTCLEAR"]
 en = "THE INTERCOM SPEAKS. 'INTRUDERS HAVE ENTERED A FORBIDDEN AREA. INTRUDER ALERT!' "
-de = ""
+de = "Die Sprechanlage meldet: 'Eindringlinge im Sperrbereich. Eindringlingsalarm!' "
 
 [[text]]
 id = "M098_066"
 befehl = ["PRINTCLEAR"]
 en = "YOU SURRENDER. YOU ARE HANDCUFFED AND YOUR GEAR IS TAKEN."
-de = ""
+de = "Ihr ergebt euch. Man legt euch Handschellen an und nimmt eure Ausrüstung."
 
 [[text]]
 id = "M098_067"
 befehl = ["PRINTCLEAR"]
 en = "YOU CAN'T ESCAPE OR RESIST. TIME PASSES."
-de = ""
+de = "Ihr könnt weder fliehen noch euch wehren. Die Zeit vergeht."
 
 [[text]]
 id = "M098_068"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR A MESSAGE ON THE LOUDSPEAKER. 'FULL POWER HAS BEEN RESTORED. COUNTDOWN COMMENCING. 10."
-de = ""
+de = "Aus dem Lautsprecher: 'Volle Energie wiederhergestellt. Countdown beginnt. 10."
 
 [[text]]
 id = "M098_069"
@@ -448,13 +448,13 @@ de = ""
 id = "M098_072"
 befehl = ["PRINT"]
 en = " 6' "
-de = ""
+de = " 6.' "
 
 [[text]]
 id = "M098_073"
 befehl = ["PRINTCLEAR"]
 en = "THERE IS A WHINE OF SHIP ENGINES FROM ABOVE, THE SCREAM OF METAL, AND THE ROAR OF AN EXPLOSION. A FIRESTORM ENGULFS THE MARIPOSA."
-de = ""
+de = "Von oben heulen Schiffstriebwerke, Metall kreischt, eine Explosion donnert. Ein Feuersturm verschlingt die Mariposa."
 
 [[text]]
 id = "M098_074"
@@ -466,199 +466,199 @@ de = ""
 id = "M098_075"
 befehl = ["PRINTCLEAR"]
 en = "YOU ATTACK!"
-de = ""
+de = "Ihr greift an!"
 
 [[text]]
 id = "M098_076"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE TOP OF THE CORE. WILL YOU DESCEND?"
-de = ""
+de = "Hier ist die Spitze des Kerns. Hinabsteigen?"
 
 [[text]]
 id = "M098_077"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING HAS ACTIVATED A LASER FIELD ACROSS THE CORE. THERE IS NO WAY TO GET DOWN THE CORE."
-de = ""
+de = "Der Sonnenkönig hat ein Laserfeld quer über den Kern gelegt. Nach unten gibt es kein Durchkommen."
 
 [[text]]
 id = "M098_078"
 befehl = ["PRINTCLEAR"]
 en = "A BABBLE OF INFORMATION ISSUES FROM AN INTERCOM."
-de = ""
+de = "Aus einer Sprechanlage dringt ein Wirrwarr von Meldungen."
 
 [[text]]
 id = "M098_079"
 befehl = ["PRINTCLEAR"]
 en = "'WEAPONS SYSTEM ARMED... TARGETING SYSTEM TESTING... COUNTDOWN TO COMMENCE UPON SYSTEM VERIFICATION...'"
-de = ""
+de = "'Waffensystem scharf... Zielsystem im Test... Countdown beginnt nach Systemprüfung...'"
 
 [[text]]
 id = "M098_080"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS APPEARS. 'YOU'RE JUST IN TIME! THEY'RE DOING FINAL CHECKS ON THE LASER.' HE DISPLAYS A HOLOGRAM OF THE LASER BEING TESTED."
-de = ""
+de = "Scot.DOS erscheint. 'Gerade noch rechtzeitig! Sie machen die letzten Tests am Laser.' Er zeigt ein Hologramm des Lasertests."
 
 [[text]]
 id = "M098_081"
 befehl = ["PRINTCLEAR"]
 en = "'THE POWER ROOM IS ON THE WEAPONS CONTROL LEVEL. FIND IT AND CUT THE POWER. THEN YOU CAN DESTROY THE WEAPON."
-de = ""
+de = "'Der Energieraum ist auf der Ebene der Waffensteuerung. Findet ihn und kappt den Strom. Dann könnt ihr die Waffe zerstören."
 
 [[text]]
 id = "M098_082"
 befehl = ["PRINTCLEAR"]
 en = "TAKE THE EMERGENCY STAIRS TO THE NORTH, DON'T WORRY ABOUT THE ALARM!'"
-de = ""
+de = "Nehmt die Nottreppe im Norden. Kümmert euch nicht um den Alarm!'"
 
 [[text]]
 id = "M098_083"
 befehl = ["PRINTCLEAR"]
 en = "POD 1"
-de = ""
+de = "Kapsel 1"
 
 [[text]]
 id = "M098_084"
 befehl = ["PRINTCLEAR"]
 en = "POD 2"
-de = ""
+de = "Kapsel 2"
 
 [[text]]
 id = "M098_085"
 befehl = ["PRINTCLEAR"]
 en = "POD 3"
-de = ""
+de = "Kapsel 3"
 
 [[text]]
 id = "M098_086"
 befehl = ["PRINTCLEAR"]
 en = "POD 4"
-de = ""
+de = "Kapsel 4"
 
 [[text]]
 id = "M098_087"
 befehl = ["PRINTCLEAR"]
 en = "A WARNING LIGHT BLINKS WHEN YOU TRY TO OPEN THE DOOR. A SIGN FLASHES -- "
-de = ""
+de = "Als ihr die Tür öffnen wollt, blinkt ein Warnlicht. Ein Schild leuchtet auf -- "
 
 [[text]]
 id = "M098_088"
 befehl = ["PRINT"]
 en = "POD HANGAR EMPTY "
-de = ""
+de = "Kapselhangar leer "
 
 [[text]]
 id = "M098_089"
 befehl = ["PRINTCLEAR"]
 en = "A SENSOR BEAM SWEEPS OVER YOUR TEAM AND THE DOORS SLIDE OPEN. 'AUTHORIZATION ACCEPTED.'"
-de = ""
+de = "Ein Sensorstrahl tastet euer Team ab, die Türen gleiten auf. 'Freigabe erteilt.'"
 
 [[text]]
 id = "M098_090"
 befehl = ["PRINTCLEAR"]
 en = "THE SMOLDERING REMAINS OF THIS POD WOULD NEVER GET YOU OFF THE MARIPOSA."
-de = ""
+de = "Mit den qualmenden Resten dieser Kapsel kommt ihr nie von der Mariposa weg."
 
 [[text]]
 id = "M098_091"
 befehl = ["PRINTCLEAR"]
 en = "A SIGN FLASHES. 'POD ENTRY MUST BE PREAPPROVED THROUGH POD CONTROL CENTER. ENTRY DENIED.'"
-de = ""
+de = "Ein Schild leuchtet: 'Kapselzugang nur mit Freigabe der Kapselzentrale. Zugang verweigert.'"
 
 [[text]]
 id = "M098_092"
 befehl = ["PRINTCLEAR"]
 en = "DEMO CHARGING THE DOOR WOULD BE DANGEROUS, BUT POSSIBLE. TRY IT?"
-de = ""
+de = "Die Tür aufzusprengen wäre gefährlich, aber möglich. Versuchen?"
 
 [[text]]
 id = "M098_093"
 befehl = ["PRINTCLEAR"]
 en = "YOU DON'T HAVE A DEMO CHARGE."
-de = ""
+de = "Ihr habt keine Sprengladung."
 
 [[text]]
 id = "M098_094"
 befehl = ["WHO"]
 en = "WHO DEMO CHARGES THE DOOR?"
-de = ""
+de = "Wer sprengt die Tür?"
 
 [[text]]
 id = "M098_095"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE TEMPORARILY BLINDED BY AN EXPLOSION. WHEN THE SMOKE CLEARS, YOU SEE THAT MOST OF THE ESCAPE POD EXPLODED ALONG WITH THE DOOR."
-de = ""
+de = "Eine Explosion blendet euch kurz. Als sich der Rauch verzieht, seht ihr: Fast die ganze Kapsel ist mit der Tür explodiert."
 
 [[text]]
 id = "M098_096"
 befehl = ["PRINTCLEAR"]
 en = "THE CONTROLS ARE LIT, BUT UNRESPONSIVE. AFTER A FEW MOMENTS, SCOT.DOS APPEARS ON ONE OF THE MONITORS."
-de = ""
+de = "Die Steuerung leuchtet, reagiert aber nicht. Nach ein paar Augenblicken erscheint Scot.DOS auf einem Monitor."
 
 [[text]]
 id = "M098_097"
 befehl = ["PRINTCLEAR"]
 en = "GOOD WORK! I'LL GET YOU CLEARANCE.' HIS PICTURE FREEZES WHILE HE WORKS."
-de = ""
+de = "Gute Arbeit! Ich besorge euch eine Freigabe.' Sein Bild friert ein, während er arbeitet."
 
 [[text]]
 id = "M098_098"
 befehl = ["PRINTCLEAR"]
 en = "SCOT.DOS FINALLY REANIMATES. 'FIND AN AVAILABLE POD. WILMA'S WAITING OUTSIDE WITH THE SHIP!'"
-de = ""
+de = "Endlich bewegt sich Scot.DOS wieder. 'Sucht eine freie Kapsel. Wilma wartet draußen mit dem Schiff!'"
 
 [[text]]
 id = "M098_099"
 befehl = ["PRINTCLEAR"]
 en = "THE CONTROLS ARE DARK. A SIGN READS -- "
-de = ""
+de = "Die Steuerung ist dunkel. Ein Schild -- "
 
 [[text]]
 id = "M098_100"
 befehl = ["PRINT"]
 en = "POWER ONLY ALLOCATED DURING EMERGENCY STATUS."
-de = ""
+de = "Energie nur im Notfall freigegeben."
 
 [[text]]
 id = "M098_101"
 befehl = ["PRINTCLEAR"]
 en = "CONTROL TERMINALS LINE THE WALLS, MANNED BY RAM TECHNICIANS. GUARDS LUNGE TOWARDS YOU."
-de = ""
+de = "An den Wänden stehen Steuerterminals, besetzt mit RAM-Technikern. Wachen stürzen auf euch zu."
 
 [[text]]
 id = "M098_102"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE THE ROOM TO YOURSELF. YOU FIND THE EMERGENCY DESTRUCT MECHANISM FOR THE DOOMSDAY DEVICE AND ACTIVATE IT."
-de = ""
+de = "Ihr habt den Raum für euch. Ihr findet den Notzerstörungsmechanismus der Doomsday-Waffe und aktiviert ihn."
 
 [[text]]
 id = "M098_103"
 befehl = ["PRINTCLEAR"]
 en = "'STATION ON EMERGENCY STATUS. DESTRUCTION OF WEAPON IN TWO MINUTES.'"
-de = ""
+de = "'Station im Notfallstatus. Zerstörung der Waffe in zwei Minuten.'"
 
 [[text]]
 id = "M098_104"
 befehl = ["PRINTCLEAR"]
 en = "TECHNICIANS RUSH INTO THE ROOM, HOPING TO DEACTIVATE THE SELF-DESTRUCT."
-de = ""
+de = "Techniker stürmen herein, um die Selbstzerstörung abzuschalten."
 
 [[text]]
 id = "M098_105"
 befehl = ["PRINTCLEAR"]
 en = "MORE WARRIORS ATTACK!"
-de = ""
+de = "Weitere Krieger greifen an!"
 
 [[text]]
 id = "M098_106"
 befehl = ["PRINTCLEAR"]
 en = "'DESTRUCT SEQUENCE NOW IRREVERSIBLE. DESTRUCTION OF DOOMSDAY WEAPON COMMENCING.' SAYS A WALL SPEAKER CALMLY."
-de = ""
+de = "'Selbstzerstörung nicht mehr umkehrbar. Zerstörung der Doomsday-Waffe beginnt', sagt ein Wandlautsprecher ruhig."
 
 [[text]]
 id = "M098_107"
 befehl = ["PRINTCLEAR"]
 en = "FLASHING RED LIGHTS FILL THE ROOM. "
-de = ""
+de = "Rote Blinklichter erfüllen den Raum. "
 
 [[text]]
 id = "M098_108"
@@ -694,94 +694,94 @@ de = ""
 id = "M098_113"
 befehl = ["PRINTCLEAR"]
 en = "WITH A ROAR OF SOUND, THE DOOMSDAY DEVICE BREAKS APART. THE REST OF THE MARIPOSA GROANS AS THE STRUCTURES RIP. YOU REALIZE WITHIN MINUTES THE WHOLE SPACE STATION WILL GO UP IN A BALL OF FLAME."
-de = ""
+de = "Mit gewaltigem Getöse bricht die Doomsday-Waffe auseinander. Der Rest der Mariposa ächzt, Strukturen reißen. Euch ist klar: In Minuten geht die ganze Station in Flammen auf."
 
 [[text]]
 id = "M098_114"
 befehl = ["PRINTCLEAR"]
 en = "THE SUN KING'S SERVANT SLIPS OUT OF A SHADOW. 'THE SUN KING WANTS THE DOOMSDAY DEVICE INTACT! DEACTIVATE THE DESTRUCT IMMEDIATELY!'"
-de = ""
+de = "Der Diener des Sonnenkönigs schlüpft aus dem Schatten. 'Der Sonnenkönig will die Waffe unversehrt! Schalten Sie die Zerstörung sofort ab!'"
 
 [[text]]
 id = "M098_115"
 befehl = ["PRINTCLEAR"]
 en = "WHEN YOU FAIL TO OBEY, HE RUNS FOR THE DOOR. 'THE WRATH OF THE SUN KING IS UPON YOU!'"
-de = ""
+de = "Als ihr nicht gehorcht, rennt er zur Tür. 'Der Zorn des Sonnenkönigs komme über Sie!'"
 
 [[text]]
 id = "M098_116"
 befehl = ["PRINTCLEAR"]
 en = "YOU DEMO CHARGE THE DOOR AND ENTER THE POD!"
-de = ""
+de = "Ihr sprengt die Tür und steigt in die Kapsel!"
 
 [[text]]
 id = "M098_117"
 befehl = ["PRINTCLEAR"]
 en = "YOU TAKE THE CONTROLS AND MANEUVER AS FAR AWAY FROM THE MARIPOSA AS POSSIBLE."
-de = ""
+de = "Ihr übernehmt die Steuerung und manövriert so weit wie möglich von der Mariposa weg."
 
 [[text]]
 id = "M098_118"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE RAM SECURITY OFFICE FOR THE TOP PORTION OF THE MARIPOSA. "
-de = ""
+de = "Das ist das RAM-Sicherheitsbüro für den oberen Teil der Mariposa. "
 
 [[text]]
 id = "M098_119"
 befehl = ["PRINT"]
 en = "GENNIES CHARGE IN YOUR DIRECTION."
-de = ""
+de = "Gennies stürmen auf euch zu."
 
 [[text]]
 id = "M098_120"
 befehl = ["PRINTCLEAR"]
 en = "MONITORS SHOW THE MARIPOSA'S STATUS. ONE READS: 'ALL SYSTEMS NORMAL, PROCEEDING ON COUNTDOWN TO EARTH STERILIZATION.'"
-de = ""
+de = "Monitore zeigen den Zustand der Mariposa. Einer meldet: 'Alle Systeme normal, Countdown zur Sterilisierung der Erde läuft.'"
 
 [[text]]
 id = "M098_121"
 befehl = ["PRINTCLEAR"]
 en = "MOST OF THE MONITORS ARE DARK. ONE READS: 'POWER INTERRUPTION. WEAPON STATUS INACTIVE.'"
-de = ""
+de = "Die meisten Monitore sind dunkel. Einer meldet: 'Stromausfall. Waffe inaktiv.'"
 
 [[text]]
 id = "M098_122"
 befehl = ["PRINTCLEAR"]
 en = "A MONITOR BLINKS: WEAPON SELF-DESTRUCT ACTIVATED. EVACUATE."
-de = ""
+de = "Ein Monitor blinkt: Selbstzerstörung der Waffe aktiviert. Evakuieren."
 
 [[text]]
 id = "M098_123"
 befehl = ["PRINTCLEAR"]
 en = "SECURITY OFFICE"
-de = ""
+de = "Sicherheitsbüro"
 
 [[text]]
 id = "M098_124"
 befehl = ["PRINTCLEAR"]
 en = "WEAPONS CONTROL"
-de = ""
+de = "Waffensteuerung"
 
 [[text]]
 id = "M098_125"
 befehl = ["PRINTCLEAR"]
 en = "THIS DOOR IS SEALED. BLASTING THROUGH WOULD CAUSE A LARGE ENOUGH EXPLOSION TO KILL YOU. "
-de = ""
+de = "Diese Tür ist versiegelt. Eine Sprengung wäre so stark, dass sie euch töten würde. "
 
 [[text]]
 id = "M098_126"
 befehl = ["PRINTCLEAR"]
 en = "THE ELECTRONIC DOORS HAVE BEEN SHORTED OUT BY THE POWER INTERRUPTION. YOU CAN ENTER."
-de = ""
+de = "Der Stromausfall hat die elektronischen Türen kurzgeschlossen. Ihr könnt hinein."
 
 [[text]]
 id = "M098_127"
 befehl = ["PRINTCLEAR"]
 en = "YOU USE YOUR RETINAL LOCKPICK TO PASS THE RETINAL IDENTIFICATION REQUIRED BY THIS DOOR."
-de = ""
+de = "Mit eurem Netzhautdietrich überlistet ihr die Netzhautkontrolle dieser Tür."
 
 [[text]]
 id = "M098_128"
 befehl = ["PRINTCLEAR"]
 en = "POD CONTROL CENTER"
-de = ""
+de = "Kapselzentrale"
