@@ -70,7 +70,7 @@ Disk = ECL geteilt durch 16 (abgerundet). ECL 0, 1, 3 sind Test-/Vorspannmodule.
 |---|---|---|---|
 | 1 | ARENA | Testkarte für Bodenkämpfe | Karte erscheint |
 | 1 | GO UP / TREASURE | nicht geprüft | – |
-| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). Danach Stufenaufstieg über Hauptmenü FIGUR AUSBILDEN (Spiel vorher speichern: START → Schubladen-Symbol) | geprüft 24.10.2026 im Testemulator |
+| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). Danach Stufenaufstieg über Hauptmenü FIGUR AUSBILDEN (Spiel vorher speichern: START, vermutlich Schubladen-Symbol – nicht geprüft) | geprüft 24.10.2026 im Testemulator |
 | 2 | STORE | Laden Nr. 1–16 öffnen | nicht geprüft |
 | 2 | ADDBUCK / SOUND | nicht geprüft | – |
 | 3 | TESTS → CREDITS | **Abspann** (ohne Musik – auch mit Original-Abspann so) | läuft, deutsch |
