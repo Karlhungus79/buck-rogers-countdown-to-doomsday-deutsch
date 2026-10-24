@@ -18,9 +18,19 @@ Frage „Start from scratch or use the jumper?“. Damit springt man in jedes Sp
   (Kopie von Marcels `(gebaut).ram`, 24.10.2026). Getrennt vom normalen Spielstand.
 - Die Jumper-Texte sind Entwicklertexte (englisch) und werden nicht übersetzt.
 
+## Starkes Team zum Testen (Spielstand 4)
+
+Seit 24.10.2026 (Claude): In `08_Savestates\Buck Rogers - Countdown to Doomsday (test).ram` liegt in **Spielstand 4**
+das vorgefertigte Team mit **120 Trefferpunkten je Figur** (Feld Byte 46 im Figurendatensatz, sonst unverändert;
+der Bogen zeigt weiter die normalen TP, der Balken ist entsprechend länger). Kein Spielort gespeichert, daher
+kommt beim Abenteuerstart die Jumper-Frage. Spielstände 1–3 sind unverändert. Alte Datei:
+`08_Savestates\bak_vor_starkes_team_2026-10-24\`. Achtung: Heilen (Autodoc, Ruhe) setzt die TP vermutlich auf
+den Normalwert zurück – dann Spielstand 4 neu laden. Im Testemulator geprüft: lädt, Jumper-Frage erscheint.
+Kampf mit 120 TP noch nicht im Spiel gesehen.
+
 ## Bedienung
 
-1. Testdatei in Ares starten, **Spiel laden → Spielstand 1 (vorgefertigtes Team)**, **Abenteuer starten**.
+1. Testdatei in Ares starten, **Spiel laden → Spielstand 4 (starkes Team)** oder 1 (normales vorgefertigtes Team), **Abenteuer starten**.
 2. „JUMPER“ wählen (C), Text mit C weiter → Menü „WHERE DO YOU WISH TO GO?“.
 3. **JUMP** → „What ECL …“: Zahl eingeben. OBEN/UNTEN ändert die Stelle, **LINKS** wechselt zur
    nächsthöheren Stelle (RECHTS springt reihum), C bestätigt.
