@@ -88,7 +88,7 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 
 ## Offen
 
-- Entscheidungen E1–E4 (`Phase2_Entscheidungen.md`).
+- ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A.
 - Nicht im Testemulator gesehen: Kampfmeldungen (laufen zu schnell), Laden, Raumkampf,
   Planetenscan, Spielstandmeldungen, Ausbildung „ist jetzt Stufe“ → Spieltest Marcel.
 - Noch nicht in der Pipeline: Monsternamen (`dat_9E77C`), vorgefertigte Figuren, Abspann.

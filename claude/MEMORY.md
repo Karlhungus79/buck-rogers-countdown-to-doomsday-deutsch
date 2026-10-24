@@ -20,6 +20,7 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `Phase2_Entscheidungen.md` – Entscheidungen E1–E4 (Glossar-Abweichungen, Item-Kuriositäten,
   Artikel Feindschiffe, Copyright)
 - `Testliste_Phase2.md` – Spieltest Systemtexte (Stelle, Weg, Erwartung)
+- `Testfassung.md` – Testfassung mit Entwickler-Jumper: Sprung in jedes Spielmodul, Sprungziele, Bedienung
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
 - `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand
 - `Testumgebung.md` – Claudes automatischer Testemulator (Genesis Plus GX)

@@ -9,3 +9,6 @@
 	ifndef DEUTSCH
 DEUTSCH = 0
 	endif
+	ifndef DEUTSCH_TEST
+DEUTSCH_TEST = 0
+	endif

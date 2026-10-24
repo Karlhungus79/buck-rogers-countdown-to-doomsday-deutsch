@@ -1,7 +1,7 @@
 # Phase 2 – Entscheidungen Systemtexte
 
-Stand: 24.10.2026 – **zur Entscheidung durch Marcel.** Gebaut ist jeweils Option A
-(Bau CRC32 598A9641). Antwort kurz, z. B. „E alles A“ oder „E2 = B“.
+Stand: 24.10.2026 – **entschieden 24.10.2026, Marcel: „E alles A“.** Eingetragen in Glossar
+(CSV 3/4/5, `Glossar.md`). Entspricht dem Bau CRC32 598A9641, kein Neubau. Im Spieltest prüfen.
 
 ## E1 – Glossar-Abweichungen aus Platzgründen
 

@@ -7,13 +7,13 @@
 3-06;restore game;Spiel laden;;;12;11;;;A;S065
 3-07;begin adventure;Abenteuer starten;Los geht's;;15;17;;;A;S066
 3-08;reroll stats;neu würfeln;;;12;11;;;A;S076
-3-09;done;fertig;;;4;6;;;A;"S077; Dialog 6× (M017_008, M097_051)"
+3-09;done;OK;;;4;2;;;A, geändert E1 24.10.2026: Namenseingabe nur 4 Zeichen (S077);"S077; Dialog 6× (M017_008, M097_051)"
 3-10;exit;Ende;zurück;;4;4;;;A;"S079; Dialog 17× (M000_053, M000_124)"
 3-11;del / spc;Lö / Lz;Entf / Leer;;9;7;3;Namenseingabe, Platz 3 Zeichen;A;S080
 3-12;enter character's name;Name der Figur:;Namen eingeben:;;22;15;;;A;S078
 3-13;congratulations;Glückwunsch;Gratulation;;15;11;;;A;"S082; Dialog 3× (M032_112, M033_106)"
 3-14;is now a level;ist jetzt Stufe;;;14;15;;Satzbau: <Name> ist jetzt Stufe <n>;A;S083
-3-15;abort;Abbruch;;;5;7;;;A;"S104; Dialog 1× (M000_051)"
+3-15;abort;Zurück;;;5;6;;;A, geändert E1 24.10.2026: Namenseingabe höchstens 6 Zeichen (S104);"S104; Dialog 1× (M000_051)"
 3-16;yes~no;ja~nein;j~n;;6;7;;Ja/Nein-Breite im Spiel messen (Falle aus PSG2);A;S105
 3-17;press c to continue;C: weiter;weiter mit C;;19;9;;;A;S106
 3-18;view team / view skills / view items;Team / Fertigkeiten / Gegenstände;Team / Können / Ausrüstung;;36;33;;Menüpunkte, Breite offen;A;S109
@@ -22,7 +22,7 @@
 3-21;toggle music;Musik an/aus;;;12;12;;;A;S316
 3-22;choose combat figure;Kampffigur wählen;;;20;17;;;A;S128
 3-23;quick combat;Schnellkampf;Autokampf;;12;12;;;A;S164
-3-24;flee the battle?;Kampf fliehen?;Flucht?;;16;14;;;A;S181
+3-24;flee the battle?;Aus dem Kampf fliehen?;Flucht?;;16;22;;;A, geändert E1 24.10.2026: grammatisch vollständig;S181
 3-25;target;Ziel;;;6;4;;;A;"S138; Dialog 2× (M067_017, M096_080)"
 3-26;move / wait;bewegen / warten;;;11;16;;;A;"S165; Dialog 12× (M032_027, M048_029)"
 3-27;readied;bereit;ausgerüstet;;7;6;;;A;S153

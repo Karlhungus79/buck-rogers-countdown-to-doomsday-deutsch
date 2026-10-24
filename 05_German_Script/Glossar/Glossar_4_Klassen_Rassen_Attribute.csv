@@ -15,7 +15,7 @@
 4-14;move;Bew.;;;4;4;;;A (G7);"S057 S163; Dialog 5× (M016_007, M016_026)"
 4-15;damage;Schaden;;;6;7;;;A (G7);"S058; Dialog 6× (M000_101, M000_103)"
 4-16;exp;EP;;;3;2;;;A (G7);"S059; Dialog 1× (M000_011)"
-4-17;pilot rocket/juryrig;Raketen fliegen/Notreparatur;Pilot/Notreparatur;;20;28;;Karrierefertigkeit Raketenpilot;A;S084
+4-17;pilot rocket/juryrig;Raketenflug/Notreparatur;Pilot/Notreparatur;;20;24;;Karrierefertigkeit Raketenpilot;A, geändert E1 24.10.2026: höchstens 24 Zeichen (Ausbildungszeile);S084
 4-18;treat wounds;Wunden versorgen;;;12;16;;Karrierefertigkeit Sanitäter;A;S085
 4-19;tactics/leadership;Taktik/Führung;;;18;14;;Karrierefertigkeit Krieger;A;S086
 4-20;bypass security;Sicherung umgehen;Schlösser knacken;;15;17;;Karrierefertigkeit Schurke;A;"S087; Dialog 1× (M050_070)"
@@ -30,3 +30,4 @@
 4-29;library search;Recherche;Archivsuche;;14;9;;;A;S096
 4-30;programming;Programmieren;;;11;13;;;A;S097
 4-31;weapon specialization;Waffenspezialisierung;;;21;21;;;A;S132
+4-32;career skill: …;Klasse: …;;;14;8;34;Zeile Ausbildung, 45 Zeichen überschrieben sich;A, E1 24.10.2026;S310–S313

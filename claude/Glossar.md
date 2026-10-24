@@ -95,3 +95,14 @@ Vorbehalte (Breite/Technik, im Spieltest prüfen, ggf. Glossar mit Datum ändern
 - 2-27 „Udus Café“: é nur, wenn die Kachel kommt, sonst „Udus Cafe“.
 
 **Tor Phase 0 erreicht: Glossar abgenommen am 21.10.2026.**
+
+### Phase 2 – entschieden 24.10.2026 (Marcel: „E alles A“, Vorlage `Phase2_Entscheidungen.md`)
+
+- **E1 Platz:** 3-09 done → **OK**, 3-15 abort → **Zurück**, 3-24 → **Aus dem Kampf fliehen?**,
+  4-17 → **Raketenflug/Notreparatur**, neu 4-32 career skill → **Klasse: …**,
+  neu 5-54/5-55 Herkunftsrüstungen → **Mars-Schwerpanzerung**, **Mars-Kampfpanz. m. Feld**.
+- **E2 Original-Kuriositäten:** **Mikrowellenpistole** (Annahme), **Sanitätsgranate**,
+  **Mars-Hitzepistole**, **Merkur-Monoschwert** (5-56 bis 5-58).
+- **E3:** Feindschiffe mit Artikel **„die“** (5-59).
+- **E4:** Copyright-Zeilen bleiben **englisch**.
+Alle im Spieltest prüfen (`Testliste_Phase2.md`). Entspricht dem Bau CRC32 598A9641, kein Neubau.

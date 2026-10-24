@@ -3,6 +3,7 @@
 Stand: 24.10.2026. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
 **CRC32 598A9641** (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
 Spielstand: Ares lädt `08_Savestates\Buck Rogers - Countdown to Doomsday (gebaut).ram` (Spielstand 1).
+Schneller: Testfassung `(test).md` mit Jumper (`Testfassung.md`) – Spalte „Jumper“ = ECL/Disk.
 
 Bitte Screenshot bei allem, was abgeschnitten, umgebrochen, überschrieben oder englisch ist.
 „Im Testemulator gesehen“ = Claude hat es schon geprüft, in Ares noch offen.
@@ -21,9 +22,9 @@ Bitte Screenshot bei allem, was abgeschnitten, umgebrochen, überschrieben oder 
 | 10 | Bodenkampf | erster Kampf nach dem Intro | Leiste: ANGRIFFE, ZIEL, BEWEGEN, SCHNELLKAMPF, WARTEN, ZUGENDE, TREFFER: 45%, VERBÜNDET; „EINSATZ VON TAKTIK/FÜHRUNG“, „<NAME> BEFEHLIGT...“ | gesehen (Leiste) |
 | 11 | Kampfmeldungen | Angriffe abwarten | „<NAME> ERLEIDET 5 SCHADEN.“, „GEHT ZU BODEN.“, „LIEGT IM STERBEN.“ usw. | offen (zu schnell) |
 | 12 | Kampfende | Kampf gewinnen | „DAS TEAM HAT GEWONNEN.“, „JEDE FIGUR ERHÄLT … ERFAHRUNGSPUNKTE.“, „DAS TEAM HAT (KEINE) BEUTE GEFUNDEN.“, ggf. „WUNDVERSORGUNG“ | offen |
-| 13 | Laden (Chicagorg) | Raumhafen-Shop | Gegenstandsnamen (z. B. MARS-LASERPISTOLE), „PREIS: … CREDITS JE STÜCK“, „WIE VIELE STÜCK?“, „ICH BIETE …“, „OKAY? JA NEIN“ | offen |
-| 14 | Raumkampf | später im Spiel | Menü FEUER/LADEN/HILFE/ZUGENDE/ANNÄHERN/ABDREHEN/RAMMEN!/ENTERN/MANÖVRIEREN, Meldungen „… FEUERT: RAKETE“, „5 SCHADEN FÜR DIE VIPER: RUMPF“ | offen |
-| 15 | Planetenscan | Karte im Schiff | SCAN:, BEVÖLKERUNG:, ATMOSPHÄRE:, SCHWERKRAFT:, UMLAUF:, ROTATION:, DURCHMESSER: mit Werten in km | offen |
+| 13 | Laden (Chicagorg) | Raumhafen-Shop (Jumper: ECL 99 / Disk 6) | Gegenstandsnamen (z. B. MARS-LASERPISTOLE), „PREIS: … CREDITS JE STÜCK“, „WIE VIELE STÜCK?“, „ICH BIETE …“, „OKAY? JA NEIN“ | offen |
+| 14 | Raumkampf | Jumper: ECL 50 / Disk 3 (Piraten) | Menü FEUER/LADEN/HILFE/ZUGENDE/ANNÄHERN/ABDREHEN/RAMMEN!/ENTERN/MANÖVRIEREN, Meldungen „… FEUERT: RAKETE“, „5 SCHADEN FÜR DIE VIPER: RUMPF“ | offen |
+| 15 | Planetenscan | Jumper: ECL 34 / Disk 2 | SCAN:, BEVÖLKERUNG:, ATMOSPHÄRE:, SCHWERKRAFT:, UMLAUF:, ROTATION:, DURCHMESSER: mit Werten in km | Erde gesehen (passt) |
 
 Noch englisch (kommt später in Phase 2): Monsternamen (z. B. „TERRINE WARRIOR“), vorgefertigte
 Figuren, Abspann, alle Dialoge außer dem Intro.

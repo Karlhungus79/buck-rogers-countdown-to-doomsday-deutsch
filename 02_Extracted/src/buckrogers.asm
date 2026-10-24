@@ -4831,7 +4831,11 @@ loc_4140:
 	bra.s	loc_416E
 loc_4154:
 	tst.b	($FFFFCA21).w
+	if DEUTSCH_TEST	; DEUTSCH-HOOK 10 (nur Testfassung): neues Abenteuer startet im Entwickler-Jumper (ECL 0)
+	nop
+	else
 	bne.s	loc_4160
+	endif
 	clr.b	($FFFFB9F0).w
 	bra.s	loc_416E
 loc_4160:

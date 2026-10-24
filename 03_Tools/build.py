@@ -19,8 +19,14 @@ Ablauf:
   - Kopie als feste Testdatei 07_Output_ROM/Buck Rogers - Countdown to Doomsday (gebaut).md,
     damit der Spielstand in Ares (gleicher Dateiname) bei jedem Bau weiter passt
 
+  Mit --test (Testfassung, claude/Testfassung.md): wie --deutsch, zusaetzlich -D DEUTSCH_TEST=1:
+  "Abenteuer starten" mit einem Team ohne Spielort (z. B. vorgefertigtes Team) oeffnet den
+  Entwickler-Jumper des Spiels (ECL-Modul 0). Ausgabe "(test).md", Testdatei
+  07_Output_ROM/Buck Rogers - Countdown to Doomsday (test).md. Nicht fuer die Veroeffentlichung.
+
 Aufruf:  5_rom_bauen.bat  bzw.  6_bitgenau_pruefen.bat  bzw.  7_deutsch_bauen.bat
-         python 03_Tools/build.py [--pruefen] [--deutsch]
+         7b_testfassung_bauen.bat
+         python 03_Tools/build.py [--pruefen] [--deutsch] [--test]
 """
 import sys, os, subprocess, zlib, struct, datetime, shutil
 
@@ -69,6 +75,7 @@ def fix_checksum(rom):
 
 SELBSTTEST_SOLL = 0xFFFCC   # Immediate von "cmpi.l #$10D1310C,d0" in sub_FFFB0
 TESTDATEI = "Buck Rogers - Countdown to Doomsday (gebaut).md"
+TESTDATEI_JUMPER = "Buck Rogers - Countdown to Doomsday (test).md"
 
 
 def deutsch_nachbearbeiten(rom):
@@ -88,7 +95,8 @@ def deutsch_nachbearbeiten(rom):
 
 def main():
     pruefen = "--pruefen" in sys.argv
-    deutsch = "--deutsch" in sys.argv
+    test = "--test" in sys.argv
+    deutsch = "--deutsch" in sys.argv or test
     if deutsch:
         for f in ("texte.bin", "font_1bpp.bin"):
             if not os.path.exists(os.path.join(DIS, "deutsch", f)):
@@ -99,11 +107,11 @@ def main():
         if r.returncode != 0:
             sys.exit(1)
     ts = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    out = os.path.join(OUTROOT, ts + ("_pruefung" if pruefen else "") + ("_deutsch" if deutsch else ""))
+    out = os.path.join(OUTROOT, ts + ("_pruefung" if pruefen else "") + ("_test" if test else "_deutsch" if deutsch else ""))
     os.makedirs(out, exist_ok=True)
     pfile = os.path.join(out, "buckrogers.p")
     print("Assembliere ...")
-    r = subprocess.run([ASL, "-xx", "-q", "-U", "-L"] + (["-D", "DEUTSCH=1"] if deutsch else [])
+    r = subprocess.run([ASL, "-xx", "-q", "-U", "-L"] + (["-D", "DEUTSCH=1"] if deutsch else []) + (["-D", "DEUTSCH_TEST=1"] if test else [])
                        + ["src/buckrogers.asm", "-o", pfile],
                        cwd=DIS, capture_output=True, text=True, errors="replace")
     log = r.stdout + r.stderr
@@ -115,7 +123,7 @@ def main():
         print(log[-4000:])
         print("\nFEHLER beim Assemblieren. Details: %s" % os.path.join(out, "bau.log"))
         sys.exit(1)
-    rom_out = os.path.join(out, "Buck Rogers - Countdown to Doomsday (%s).md" % ("deutsch" if deutsch else "gebaut"))
+    rom_out = os.path.join(out, "Buck Rogers - Countdown to Doomsday (%s).md" % ("test" if test else "deutsch" if deutsch else "gebaut"))
     r = subprocess.run([P2BIN, "-l", "0", pfile, rom_out], capture_output=True, text=True, errors="replace")
     if r.returncode != 0 or not os.path.exists(rom_out):
         print(r.stdout + r.stderr)
@@ -133,9 +141,9 @@ def main():
           % (len(rom), new, "" if old == new else " (neu gesetzt, vorher %04X)" % old, c))
     open(os.path.join(out, "crc32.txt"), "w").write("%08X  %s\n" % (c, os.path.basename(rom_out)))
     if deutsch:
-        test = os.path.join(OUTROOT, TESTDATEI)
-        shutil.copyfile(rom_out, test)
-        print("Testdatei (fester Name fuer Ares-Spielstand): %s" % test)
+        ziel = os.path.join(OUTROOT, TESTDATEI_JUMPER if test else TESTDATEI)
+        shutil.copyfile(rom_out, ziel)
+        print("Testdatei (fester Name fuer Ares-Spielstand): %s" % ziel)
     if pruefen:
         orig = open(ORIG, "rb").read()
         if rom == orig:
