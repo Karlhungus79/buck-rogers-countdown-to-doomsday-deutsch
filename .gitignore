@@ -30,3 +30,7 @@ __pycache__/
 
 # Erzeugte Bau-Eingaben der deutschen Fassung (enthalten Spieldaten)
 02_Extracted/deutsch/
+
+# Grafiken aus der ROM (Phase 3) - werden von 03_Tools/grafik.py erzeugt
+05_German_Script/Grafik/original/
+05_German_Script/Grafik/deutsch/
