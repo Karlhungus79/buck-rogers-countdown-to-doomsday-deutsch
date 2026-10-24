@@ -4,7 +4,9 @@ Stand: 24.10.2026
 
 ## Aktuelle Phase
 
-Phase 2 – Systemtexte. Läuft (`Fahrplan.md`). **Tor Phase 1 erreicht am 24.10.2026** (Intro deutsch in Ares bestätigt).
+Phase 3 – Grafik. Beginnt (`Fahrplan.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
+Bau deutsch 0B58AE77 / Test 37DE7A79).
+Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares bestätigt).
 Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 ## Erledigt
@@ -97,7 +99,14 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - **Abspann-Seite „Deutsche Lokalisierung“ (Marcel 24.10.2026):** Projektleitung, Übersetzung, Tests:
   Karlhungus; eigene Seite mit Buck-Rogers-Porträt (Bild 62). Fehlende Musik im Test-Abspann ist
   Verhalten des Entwicklertests (auch mit englischem Abspann stumm). Aufbau: **Variante C**
-  (Marcel 24.10.2026). Gebaut: deutsch **0B58AE77**, Test **37DE7A79**. Neu gebaut: deutsch 88E08E82, Test 7FF6DF75. Spielstand `08_Savestates\…(test).ram`.
+  (Marcel 24.10.2026). Gebaut: deutsch **0B58AE77**, Test **37DE7A79** (Bau 17:28, CRC32 auf H: geprüft).
+  Spielstand `08_Savestates\…(test).ram`.
+- **Tor Phase 2 erreicht (24.10.2026):** Marcel bestätigt „Tor Phase 2“ mit dem Bau deutsch 0B58AE77 /
+  Test 37DE7A79. In Ares bestätigt: Testliste Nr. 1–15 („alle Tests erfolgreich“), Raumkampf mit ANTRIEB,
+  Kampfende/Team vernichtet, Abspann in der Testfassung (Variante C).
+  **Nicht einzeln gemeldet, in Phase 4 (Gerüst-Abnahme) mitprüfen:** Beute-Zeile „ERBEUTET: …“ (Hook 11),
+  Monsternamen außer TERRINE-KRIEGER, Menüs/Ja-Nein (Fahrplan 2.9), M016_003 (Schlachtbild) in Ares,
+  Musik beim echten Spielende.
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
@@ -105,12 +114,13 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
 2. ~~Repo verbinden~~ erledigt 24.10.2026.
-3. Marcel: `7_deutsch_bauen.bat` → CRC32 0B58AE77? Dann Spieltest nach `Testliste_Phase2.md`.
-   Zum Springen: `7b_testfassung_bauen.bat` → CRC32 37DE7A79, Bedienung `Testfassung.md`.
-   E5 entschieden 24.10.2026: A („Antrieb“), im Glossar eingetragen.
+3. ~~Bau 0B58AE77 / Test 37DE7A79~~ auf H: geprüft 24.10.2026.
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
 5. ~~Monsternamen, Figuren, Abspann~~ gebaut 24.10.2026 → Spieltest Marcel (Testliste Nr. 16–17).
-6. Danach Tor Phase 2 (Marcel bestätigt) → Phase 3 Grafik.
+6. ~~Tor Phase 2~~ **erreicht 24.10.2026.**
+7. Phase 3 Grafik (Opus): Schritt 3.1 Bestandsaufnahme aller Grafiken mit englischem Text → `Grafik.md`
+   (Titelbild, Abspann-Kopf „CREATED BY THE …“, weitere Bilder), dann Grafik-Werkzeug mit
+   Rundreise-Prüfung, Wortlisten und Entwürfe A/B/C je Bild (`Fahrplan.md`, Phase 3).
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

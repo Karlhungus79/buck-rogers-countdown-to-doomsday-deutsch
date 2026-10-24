@@ -1,6 +1,7 @@
 # Testliste Phase 2 – Systemtexte
 
-Stand: 24.10.2026. **Marcel: „alle Tests erfolgreich“ (24.10.2026, Ares)** – Nr. 1–15 bestätigt;
+Stand: 24.10.2026. **Tor Phase 2 erreicht (Marcel, 24.10.2026, Bau 0B58AE77 / Test 37DE7A79).**
+**Marcel: „alle Tests erfolgreich“ (24.10.2026, Ares)** – Nr. 1–15 bestätigt;
 Nr. 12 Beute-Zeile danach geändert (Hook 11, „ERBEUTET: KEINE BEUTE.“), Nachtest offen. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
 **CRC32 0B58AE77** (Testfassung 37DE7A79) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
 Spielstand: Ares lädt `08_Savestates\Buck Rogers - Countdown to Doomsday (gebaut).ram` (Spielstand 1).

@@ -31,4 +31,19 @@ Stand: 24.10.2026
 | 2.6b | Befund Marcel 24.10.2026: „Triebwerke“ im Schiffsstatus zu lang → „Antrieb“ (E5 = A) | gebaut, deutsch CRC32 88E08E82, Test offen |
 | 2.7 | Monsternamen (`dat_9E77C`, Hook 12, `Monster_Abspann.md`) | gebaut 24.10.2026, Testemulator gesehen, Ares offen |
 | 2.8 | Vorgefertigte Figuren (nur Eigennamen → nichts zu tun), Abspann (Hook 13) + Seite „Deutsche Lokalisierung“ (Variante C) | gebaut 24.10.2026, deutsch CRC32 0B58AE77, Test 37DE7A79, Ares offen |
-| 2.9 | Menüs (HMENU) und ja/nein im Spiel ansehen | offen |
+| 2.9 | Menüs (HMENU) und ja/nein im Spiel ansehen | nicht einzeln gemeldet → in Phase 4 mitprüfen |
+| 2.10 | Tor Phase 2: Marcel bestätigt Systemtexte im Spiel | **erreicht 24.10.2026** (Bau deutsch 0B58AE77, Test 37DE7A79) |
+
+Nicht einzeln gemeldet, in Phase 4 mitprüfen: Beute-Zeile „ERBEUTET: …“ (2.6d), Monsternamen außer
+TERRINE-KRIEGER (2.7), 2.9, M016_003 in Ares, Musik beim echten Spielende.
+
+## Phase 3 – Grafik (Tor: im Spiel bestätigt)
+
+| Nr | Schritt | Stand |
+|---|---|---|
+| 3.1 | Bestandsaufnahme: alle Grafiken mit englischem Text finden (Titelbild, Abspann-Kopf „CREATED BY THE …“, Game Over, Zwischenbilder, Karten), je Ort in der ROM, Format/Kompression, Kachelzahl, Palette → `Grafik.md` | offen |
+| 3.2 | Grafik-Werkzeug (Python + .bat): Entpacken → PNG, PNG → Packen, Rundreise bit-genau | offen |
+| 3.3 | Wortlisten je Bild (Original → Deutsch, Breite in Kacheln), Entwürfe A/B/C als PNG in `Vorschau\` | offen |
+| 3.4 | Marcel entscheidet je Bild | offen |
+| 3.5 | Einsetzen, bauen, Testemulator, dann Spieltest in Ares (`Testliste_Phase3.md`) | offen |
+| 3.6 | Tor Phase 3: Marcel bestätigt Grafiken im Spiel | offen |

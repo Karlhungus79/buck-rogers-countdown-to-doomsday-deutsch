@@ -1,6 +1,6 @@
 # Kontext – Buck Rogers: Countdown to Doomsday (Mega Drive) Deutsch
 
-Stand: 23.10.2026
+Stand: 24.10.2026
 
 ## Spiel
 
@@ -85,7 +85,9 @@ anstehen, auf Opus wechseln. Jede Antwort nennt das explizit.
 | 5 | Dialog | durchgespielt |
 | 6 | Endtest, Release, Doku, Patch | veröffentlicht |
 
-Aktueller Stand: Phase 2 läuft. Systemtexte + Gegenstandsnamen in Ares bestätigt 24.10.2026 (`Systemtexte.md`), E1–E5 entschieden. Monsternamen + Abspann gebaut 24.10.2026 (`Monster_Abspann.md`). Bau deutsch CRC32 0B58AE77, Testfassung mit Jumper 37DE7A79 (`Testfassung.md`). Als Nächstes: Ares-Test, Tor Phase 2, dann Phase 3 Grafik.
+Aktueller Stand: **Tor Phase 2 erreicht 24.10.2026** (Systemtexte, Gegenstands- und Monsternamen, Abspann;
+Bau deutsch CRC32 0B58AE77, Testfassung mit Jumper 37DE7A79, `Testfassung.md`). Phase 3 Grafik beginnt mit
+der Bestandsaufnahme der Grafiken (`Fahrplan.md`).
 
 ## Ordnerstruktur (angelegt am 21.10.2026)
 
