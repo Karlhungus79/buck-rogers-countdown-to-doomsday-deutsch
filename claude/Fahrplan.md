@@ -41,9 +41,9 @@ TERRINE-KRIEGER (2.7), 2.9, M016_003 in Ares, Musik beim echten Spielende.
 
 | Nr | Schritt | Stand |
 |---|---|---|
-| 3.1 | Bestandsaufnahme: alle Grafiken mit englischem Text finden (Titelbild, Abspann-Kopf „CREATED BY THE …“, Game Over, Zwischenbilder, Karten), je Ort in der ROM, Format/Kompression, Kachelzahl, Palette → `Grafik.md` | offen |
-| 3.2 | Grafik-Werkzeug (Python + .bat): Entpacken → PNG, PNG → Packen, Rundreise bit-genau | offen |
-| 3.3 | Wortlisten je Bild (Original → Deutsch, Breite in Kacheln), Entwürfe A/B/C als PNG in `Vorschau\` | offen |
-| 3.4 | Marcel entscheidet je Bild | offen |
-| 3.5 | Einsetzen, bauen, Testemulator, dann Spieltest in Ares (`Testliste_Phase3.md`) | offen |
+| 3.1 | Bestandsaufnahme: alle Grafiken mit englischem Text finden (Titelbild, Abspann-Kopf „CREATED BY THE …“, Game Over, Zwischenbilder, Karten), je Ort in der ROM, Format/Kompression, Kachelzahl, Palette → `Grafik.md` | erledigt 24.10.2026: 7 Bilder mit Text (G1–G7), Bildformat entschlüsselt |
+| 3.2 | Grafik-Werkzeug (Python + .bat): Entpacken → PNG, PNG → Packen, Rundreise bit-genau | erledigt 24.10.2026 (`grafik.py` mit LZW-Packer, Rundreise geprüft; `grafik_deutsch.py`) |
+| 3.3 | Wortlisten je Bild (Original → Deutsch, Breite in Kacheln), Entwürfe A/B/C als PNG in `Vorschau\` | Wortliste in `Grafik.md`; Marcel nicht erreichbar → je Bild eine Fassung |
+| 3.4 | Marcel entscheidet je Bild | Claude selbständig entschieden 24.10.2026 (Auftrag Marcel), **im Spieltest prüfen** |
+| 3.5 | Einsetzen, bauen, Testemulator, dann Spieltest in Ares (`Testliste_Phase3.md`) | gebaut 24.10.2026, deutsch CRC32 814E4C76, Test F436B9D1; Vorspann + Abspann-Kopf im Testemulator gesehen; G7 und Ares offen |
 | 3.6 | Tor Phase 3: Marcel bestätigt Grafiken im Spiel | offen |

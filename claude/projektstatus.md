@@ -4,7 +4,7 @@ Stand: 24.10.2026
 
 ## Aktuelle Phase
 
-Phase 3 – Grafik. Beginnt (`Fahrplan.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
+Phase 3 – Grafik. Gebaut, Spieltest in Ares offen (`Grafik.md`, `Testliste_Phase3.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
 Bau deutsch 0B58AE77 / Test 37DE7A79).
 Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares bestätigt).
 Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
@@ -110,6 +110,14 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - Figurenfrage teilweise geklärt: Im Dialog kommen WILMA (10×), HUER (1×), TUSKON,
   SCOT.DOS vor; KANE und ARDALA nicht (Monster-/Systemtexte noch nicht geprüft).
 
+- **Phase 3 Grafik (24.10.2026, Claude selbständig, Marcel nicht erreichbar):** Bildformat entschlüsselt
+  (LZW, Kopf + Kachelkarte + Paletten + Kacheln), LZW-Packer in `grafik.py`, 7 Bilder mit Text gefunden
+  (G1–G7, `Grafik.md`). Deutsch gebaut: PRÄSENTIERT, AKTIV, ZIEL?, ERDE, ENTWICKELT VOM,
+  WAFF/STRG/ANTR/RUMPF (Hooks 14–19). **Gebaut: deutsch 814E4C76, Test F436B9D1.** Vorspann und
+  Abspann-Kopf im Testemulator gesehen, G7 nur Vorschau, Ares offen. Original-Bau bit-genau.
+- **Wecker 19:10 (24.10.2026)** hat ausgelöst und wurde zugestellt, aber keine Arbeitsrunde gestartet
+  (vermutlich Nutzungslimit noch aufgebraucht). Künftig Übergabe auf H: vor dem Wecker ablegen.
+
 ## Offen / nächste Schritte
 
 1. ~~Windows-Bau~~ **bestätigt 24.10.2026**: CRC32 E60AE2AA (Header-Checksumme D034, Selbstprüfung 141FB059), identisch zum Linux-Bau.
@@ -118,9 +126,12 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 4. ~~Entscheidungen E1–E4~~ entschieden 24.10.2026: alles A (Glossar eingetragen).
 5. ~~Monsternamen, Figuren, Abspann~~ gebaut 24.10.2026 → Spieltest Marcel (Testliste Nr. 16–17).
 6. ~~Tor Phase 2~~ **erreicht 24.10.2026.**
-7. Phase 3 Grafik (Opus): Schritt 3.1 Bestandsaufnahme aller Grafiken mit englischem Text → `Grafik.md`
+7. Marcel: `7_deutsch_bauen.bat` → CRC32 814E4C76, `7b_testfassung_bauen.bat` → F436B9D1, dann
+   `Testliste_Phase3.md` in Ares. Danach Tor Phase 3.
+8. ~~Phase 3 Grafik (Opus): Schritt 3.1 Bestandsaufnahme aller Grafiken mit englischem Text → `Grafik.md`
    (Titelbild, Abspann-Kopf „CREATED BY THE …“, weitere Bilder), dann Grafik-Werkzeug mit
-   Rundreise-Prüfung, Wortlisten und Entwürfe A/B/C je Bild (`Fahrplan.md`, Phase 3).
+   Rundreise-Prüfung, Wortlisten und Entwürfe A/B/C je Bild (`Fahrplan.md`, Phase 3).~~ gebaut 24.10.2026.
+9. Claude (selbständig): Phase 4 vorbereiten (Testpaket), dann Phase 5 Dialog (2407 Texte, 27 Module).
 
 ## Offene Punkte / Annahmen (im Spieltest/Recherche zu bestätigen)
 

@@ -14,6 +14,13 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
+%PY% grafik_deutsch.py
+if errorlevel 1 (
+  echo.
+  echo Abbruch: Fehler beim Erzeugen der deutschen Grafiken.
+  pause
+  exit /b 1
+)
 echo.
 %PY% build.py --deutsch
 echo.

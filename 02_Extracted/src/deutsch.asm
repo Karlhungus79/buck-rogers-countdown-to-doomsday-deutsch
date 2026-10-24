@@ -140,3 +140,24 @@ DE_Systemende:
 	org	$108000
 DE_Modultabelle:
 	binclude	"deutsch/texte.bin"
+
+; ---------------------------------------------------------------------------
+; Deutsche Grafiken (Phase 3), erzeugt von 03_Tools/grafik_deutsch.py (LZW-gepackt wie im Original),
+; Zeiger umgestellt in DEUTSCH-HOOK 14-19 (claude/Grafik.md)
+	org	$1C0000
+DE_Grafik_G1:
+	binclude	"deutsch/grafik_G1.bin"
+DE_Grafik_G3:
+	binclude	"deutsch/grafik_G3.bin"
+DE_Grafik_G4:
+	binclude	"deutsch/grafik_G4.bin"
+DE_Grafik_G5:
+	binclude	"deutsch/grafik_G5.bin"
+DE_Grafik_G6:
+	binclude	"deutsch/grafik_G6.bin"
+DE_Grafik_G7:
+	binclude	"deutsch/grafik_G7.bin"
+DE_Grafikende:
+	if DE_Grafikende > $200000
+	error	"Grafiken zu gross"
+	endif

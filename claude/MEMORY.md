@@ -22,6 +22,9 @@ dann nur die neueste Übergabe (falls vorhanden).
 - `Testliste_Phase2.md` – Spieltest Systemtexte (Stelle, Weg, Erwartung)
 - `Monster_Abspann.md` – Monsternamen (Hook 12), vorgefertigte Figuren, Abspann (Hook 13)
 - `Testfassung.md` – Testfassung mit Entwickler-Jumper: Sprung in jedes Spielmodul, Sprungziele, Bedienung
+- `Grafik.md` – Phase 3: Bildformat, Werkzeuge `grafik.py`/`grafik_deutsch.py`, Bilder G1–G7, Hooks 14–19
+- `Testliste_Phase3.md` – Spieltest Grafik
+- `Uebergabe_2026-10-24.md` – Übergabe für die nächste Sitzung
 - `Zeichensatz.md` – Schrift (nur Großbuchstaben), Ä Ö Ü, Kodierung, offene Entscheidung G1
 - `Fahrplan.md` – Schritte Phase 1 und 2 mit Stand
 - `Testumgebung.md` – Claudes automatischer Testemulator (Genesis Plus GX)

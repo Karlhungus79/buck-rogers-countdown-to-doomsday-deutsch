@@ -20,7 +20,6 @@ Aufruf:  python grafik.py export   -> 05_German_Script/Grafik/original/*.png (+ 
          python grafik.py pruefen  -> Rundreise aller Bilder (Entpacken, Packen, Entpacken)
 """
 import os, sys, json, struct
-import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -142,46 +141,51 @@ def bild_schreiben(b):
 
 
 def kachel_pixel(t):
-    a = np.zeros((8, 8), np.uint8)
-    for y in range(8):
-        for x in range(4):
-            v = t[y * 4 + x]; a[y, 2 * x] = v >> 4; a[y, 2 * x + 1] = v & 15
-    return a
+    return [[(t[y * 4 + x // 2] >> 4) if x % 2 == 0 else (t[y * 4 + x // 2] & 15) for x in range(8)] for y in range(8)]
 
 
 def pixel_kachel(a):
-    return bytes(int(a[y, 2 * x]) << 4 | int(a[y, 2 * x + 1]) for y in range(8) for x in range(4))
+    return bytes((a[y][2 * x] << 4) | a[y][2 * x + 1] for y in range(8) for x in range(4))
+
+
+def _hflip(a): return [r[::-1] for r in a]
+def _vflip(a): return a[::-1]
 
 
 def karte_pixel(b, breite):
+    """Kachelkarte -> Pixelfeld (Liste von Zeilen), Wert = Palette*16 + Farbe (0 = durchsichtig)."""
     n = len(b["karte"]); hoehe = (n + breite - 1) // breite
-    pix = np.zeros((hoehe * 8, breite * 8), np.uint8)
+    pix = [[0] * (breite * 8) for _ in range(hoehe * 8)]
     for k, e in enumerate(b["karte"]):
-        a = kachel_pixel(b["kacheln"][e & 0x3FF]) if (e & 0x3FF) < len(b["kacheln"]) else np.zeros((8, 8), np.uint8)
-        if e & 0x800: a = a[:, ::-1]
-        if e & 0x1000: a = a[::-1]
+        t = e & 0x3FF
+        a = kachel_pixel(b["kacheln"][t]) if t < len(b["kacheln"]) else [[0] * 8 for _ in range(8)]
+        if e & 0x800: a = _hflip(a)
+        if e & 0x1000: a = _vflip(a)
         pal = (e >> 13) & 3
-        y, x = (k // breite) * 8, (k % breite) * 8
-        pix[y:y + 8, x:x + 8] = np.where(a > 0, a + pal * 16, 0)
+        y0, x0 = (k // breite) * 8, (k % breite) * 8
+        for y in range(8):
+            for x in range(8):
+                v = a[y][x]
+                pix[y0 + y][x0 + x] = v + pal * 16 if v else 0
     return pix
 
 
-def pixel_karte(pix, breite, karte_alt, leer_kachel=None):
-    """Pixelfeld (Palette*16+Farbe) -> Kacheln + Karte. Palette und Prioritaet je Feld
-    kommen aus der alten Karte (Feld ohne Farbe behaelt die alte Palette)."""
+def pixel_karte(pix, breite, karte_alt):
+    """Pixelfeld -> Kacheln + Karte. Doppelte und gespiegelte Kacheln werden zusammengefasst.
+    Palette je Feld aus den Pixeln (sonst alte Karte), Prioritaet und Leerfelder (0xFFFF) wie alt."""
     kacheln = []; idx = {}; karte = []
-    hoehe = len(karte_alt) // breite
     for k in range(len(karte_alt)):
-        y, x = (k // breite) * 8, (k % breite) * 8
-        blk = pix[y:y + 8, x:x + 8]
-        pal_alt = (karte_alt[k] >> 13) & 3
-        farben = blk[blk > 0]
-        pal = int(farben[0] >> 4) if len(farben) else pal_alt
-        if len(farben) and np.any((farben >> 4) != pal):
-            raise ValueError("Feld %d,%d mischt Paletten" % (x // 8, y // 8))
-        a = np.where(blk > 0, blk & 15, 0).astype(np.uint8)
+        if karte_alt[k] == 0xFFFF:
+            karte.append(0xFFFF); continue
+        y0, x0 = (k // breite) * 8, (k % breite) * 8
+        blk = [pix[y0 + y][x0:x0 + 8] for y in range(8)]
+        farben = [v for r in blk for v in r if v]
+        pal = (farben[0] >> 4) if farben else (karte_alt[k] >> 13) & 3
+        if any((v >> 4) != pal for v in farben):
+            raise ValueError("Feld %d,%d mischt Paletten" % (x0 // 8, y0 // 8))
+        a = [[v & 15 if v else 0 for v in r] for r in blk]
         treffer = None
-        for fl, v in ((0, a), (0x800, a[:, ::-1]), (0x1000, a[::-1]), (0x1800, a[::-1, ::-1])):
+        for fl, v in ((0, a), (0x800, _hflip(a)), (0x1000, _vflip(a)), (0x1800, _vflip(_hflip(a)))):
             key = pixel_kachel(v)
             if key in idx:
                 treffer = (idx[key], fl); break
@@ -197,18 +201,19 @@ def cram_rgb(w):
 
 
 def png_schreiben(pix, paletten64, pfad):
-    from PIL import Image
-    im = Image.fromarray(pix, "P")
+    """Nur zur Ansicht (braucht Pillow); fehlt Pillow, wird nichts geschrieben."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return False
+    im = Image.new("P", (len(pix[0]), len(pix)))
+    im.putdata([v for r in pix for v in r])
     flat = []
     for c in paletten64: flat += list(c)
     flat += [0] * (768 - len(flat))
     im.putpalette(flat)
     im.save(pfad)
-
-
-def png_lesen(pfad):
-    from PIL import Image
-    return np.array(Image.open(pfad))
+    return True
 
 
 def standard_paletten(b):
@@ -242,7 +247,7 @@ def main():
         blob = lzw_pack(raw2)
         raw3 = lzw_unpack(blob)
         ok_lzw = raw3[:len(raw2)] == raw2
-        ok_pix = np.array_equal(karte_pixel(bild_lesen(raw3), info["breite"]), pix)
+        ok_pix = karte_pixel(bild_lesen(raw3), info["breite"]) == pix
         blob_o = lzw_pack(raw)
         ok_orig = lzw_unpack(blob_o)[:len(raw)] == raw
         print("%-12s $%06X  %3d Kacheln (neu %3d), %4d Felder, gepackt %5d (neu %5d)  LZW %s  Pixel %s  Original %s"

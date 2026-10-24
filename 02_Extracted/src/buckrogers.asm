@@ -1383,7 +1383,11 @@ sub_12FC:
 	clr.l	(a0)+
 	tst.b	($FFFFD8FC).l
 	bne.w	loc_15F0
+	if DEUTSCH	; DEUTSCH-HOOK 14: Grafik G1 aus DE_Grafik_G1 (SSI-Logo PRESENTS -> PRAESENTIERT, 6 Byte wie Original)
+	lea	(DE_Grafik_G1).l,a0
+	else
 	lea	(dat_99B5F).l,a0
+	endif
 	jsr	(sub_9DD4).l
 	move.l	a0,-$4(a6)
 	move.w	#$8000,d6
@@ -1416,7 +1420,11 @@ sub_12FC:
 	lea	(dat_9AB8B).l,a0
 	jsr	(sub_9DD4).l
 	move.l	a0,-$8(a6)
+	if DEUTSCH	; DEUTSCH-HOOK 15: Grafik G3 aus DE_Grafik_G3 (Vorspann ACTIVE -> AKTIV, 6 Byte wie Original)
+	lea	(DE_Grafik_G3).l,a0
+	else
 	lea	(dat_9ACF7).l,a0
+	endif
 	jsr	(sub_9DD4).l
 	move.l	a0,-$C(a6)
 	moveq	#$0,d0
@@ -1455,7 +1463,11 @@ sub_12FC:
 	tst.b	($FFFFD8FC).l
 	bne.w	loc_15F0
 	bsr.w	sub_8A6E
+	if DEUTSCH	; DEUTSCH-HOOK 16: Grafik G4 aus DE_Grafik_G4 (Vorspann TARGET? -> ZIEL?, 6 Byte wie Original)
+	lea	(DE_Grafik_G4).l,a0
+	else
 	lea	(dat_9AE4D).l,a0
+	endif
 	jsr	(sub_9DD4).l
 	move.l	a0,-$8(a6)
 	moveq	#$0,d0
@@ -1476,7 +1488,11 @@ sub_12FC:
 	lea	(dat_962D9).l,a0
 	jsr	(sub_9DD4).l
 	move.l	a0,-$8(a6)
+	if DEUTSCH	; DEUTSCH-HOOK 17: Grafik G5 aus DE_Grafik_G5 (Vorspann EARTH -> ERDE, 6 Byte wie Original)
+	lea	(DE_Grafik_G5).l,a0
+	else
 	lea	(dat_9AFAA).l,a0
+	endif
 	jsr	(sub_9DD4).l
 	move.l	a0,-$C(a6)
 	moveq	#$0,d0
@@ -7333,7 +7349,11 @@ loc_6160:
 	clr.w	($FFFFB512).w
 	clr.w	($FFFFB50E).w
 	bsr.w	sub_95BE
+	if DEUTSCH	; DEUTSCH-HOOK 18: Grafik G6 aus DE_Grafik_G6 (Abspann-Kopf CREATED BY THE -> ENTWICKELT VOM, 6 Byte wie Original)
+	lea	(DE_Grafik_G6).l,a0
+	else
 	lea	(dat_725C6).l,a0
+	endif
 	bsr.w	sub_9DD4
 	move.l	a0,-$8(a6)
 	movea.l	-$8(a6),a0
@@ -10137,7 +10157,11 @@ loc_8462:
 	lea	(dat_EA76B).l,a0
 	bsr.w	sub_9DD4
 	move.l	a0,($FFFFB55E).w
+	if DEUTSCH	; DEUTSCH-HOOK 19: Grafik G7 aus DE_Grafik_G7 (Raumkampf WEAP/CNTL/ENGN/HULL, 6 Byte wie Original)
+	lea	(DE_Grafik_G7).l,a0
+	else
 	lea	(dat_E8BF4).l,a0
+	endif
 	bra.s	loc_84A2
 loc_848E:
 	lea	(dat_F0F3F).l,a0

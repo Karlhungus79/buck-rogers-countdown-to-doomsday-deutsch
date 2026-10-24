@@ -1,6 +1,13 @@
 # Grafik – Phase 3
 
-Stand: 24.10.2026 (Claude, selbständig – Marcel nicht erreichbar, Entscheidungen „im Spieltest prüfen“)
+Stand: 24.10.2026, 20:40 (Claude, selbständig – Marcel nicht erreichbar, Entscheidungen „im Spieltest prüfen“)
+
+**Stand Umsetzung:** G1, G3–G7 deutsch **gebaut** (deutsch CRC32 **814E4C76**, Test **F436B9D1**).
+Im Testemulator gesehen: Vorspann PRÄSENTIERT / DOOMSDAY LASER AKTIV / ZIEL? / ERDE
+(`Vorschau\Phase3_Vorspann_Testemulator_2026-10-24.png`), Abspann-Kopf „ENTWICKELT VOM“
+(`Vorschau\Phase3_Abspannkopf_Testemulator_2026-10-24.png`). G7 (Raumkampf-Anzeige) nur als Vorschau
+(`Vorschau\Phase3_G6_G7_Vorschau_2026-10-24.png`), im Spiel noch nicht gesehen. **Ares offen.**
+Original-Bau weiterhin bit-genau (geprüft 24.10.2026).
 
 ## Bildformat (aus dem Code, `sub_9DD4` / `sub_9D66` / `sub_9BB6`)
 
@@ -53,3 +60,21 @@ Bilddateien (z. B. Raumkampf-Symbole), Spielende/Game Over.
   gleiche Länge, Rückfallwert = Original-Zeiger).
 - Breite der eingetippten Texte (G2–G5) wird im Code mitgegeben; bei abweichender Breite
   wird der Aufruf angepasst.
+
+## Umsetzung (24.10.2026)
+
+- `03_Tools\grafik_deutsch.py` erzeugt aus den Original-Bildern der ROM die deutschen Bilder
+  (Buchstaben aus derselben Schrift, fehlende Buchstaben als Pixelmuster im Skript), packt sie mit
+  dem LZW-Packer aus `grafik.py` nach `02_Extracted\deutsch\grafik_G*.bin` (nicht im Repo) und legt
+  Vorschaubilder in `05_German_Script\Grafik\deutsch\` ab. `7_deutsch_bauen.bat` und
+  `7b_testfassung_bauen.bat` rufen es nach dem Texteinsetzen auf.
+- Ablage in der ROM ab `$1C0000` (`src\deutsch.asm`, Prüfung auf Ende vor `$200000`).
+- DEUTSCH-HOOKs 14–19 in `buckrogers.asm`: je ein `lea (dat_…).l,a0` → `lea (DE_Grafik_Gn).l,a0`
+  (6 Byte wie Original, Rückfallwert = Original-Zeiger):
+  14 = G1 (`sub_12FC`), 15 = G3, 16 = G4, 17 = G5 (alle Vorspann `sub_12FC`), 18 = G6 (Abspann
+  `loc_6160`), 19 = G7 (Raumkampf `loc_8462`).
+- Kachelzahlen: G1 283 (Original 275), G3 25 (26), G4 26 (31), G5 15 (22), G6 59 (59), G7 42 (42).
+  G1 hat 8 Kacheln mehr – im Testemulator ohne Fehler (VRAM reicht), im Spieltest beobachten.
+- Gewählte Texte (Claude, im Spieltest prüfen): PRÄSENTIERT, AKTIV, ZIEL?, ERDE,
+  ENTWICKELT VOM (liest sich mit Logo und Zeile darunter: „entwickelt vom SSI Special Projects
+  Team“), Raumkampf-Kürzel WAFF / STRG / ANTR / RUMPF.
