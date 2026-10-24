@@ -6,268 +6,268 @@
 id = "M052_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU CHARGE THROUGH THE BOARDING TUBE AND ATTACK!"
-de = ""
+de = "Ihr stürmt durch die Enterröhre und greift an!"
 
 [[text]]
 id = "M052_001"
 befehl = ["PRINTCLEAR"]
 en = "THE PIRATE CAPTAIN STEPS FORWARD. 'LET'S SETTLE THIS AMICABLY. WE'LL PAY YOU OFF AND WE LEAVE. HOW ABOUT IT?'"
-de = ""
+de = "Der Piratenkapitän tritt vor. 'Regeln wir das friedlich. Wir zahlen euch aus und verschwinden. Was meint ihr?'"
 
 [[text]]
 id = "M052_002"
 befehl = ["PRINTCLEAR"]
 en = "THIS LEADS TO THE BOARDING TUBE TO YOUR SHIP. DO YOU CONTINUE?'"
-de = ""
+de = "Hier geht es zur Enterröhre zu eurem Schiff. Weitergehen?'"
 
 [[text]]
 id = "M052_003"
 befehl = ["PRINTCLEAR"]
 en = "THE ENEMY TRIES TO STOP YOU FROM REENTERING YOUR SHIP."
-de = ""
+de = "Der Feind will euch daran hindern, euer Schiff wieder zu betreten."
 
 [[text]]
 id = "M052_004"
 befehl = ["PRINTCLEAR"]
 en = "THAT WAS THE LAST OF THE CREW."
-de = ""
+de = "Das war der Rest der Besatzung."
 
 [[text]]
 id = "M052_005"
 befehl = ["PRINTCLEAR"]
 en = "THE BATTLE HAS SEALED THE DOOR."
-de = ""
+de = "Der Kampf hat die Tür verschlossen."
 
 [[text]]
 id = "M052_006"
 befehl = ["PRINTCLEAR"]
 en = "THIS DOOR IS SEALED SHUT."
-de = ""
+de = "Diese Tür ist fest verschlossen."
 
 [[text]]
 id = "M052_007"
 befehl = ["PRINTCLEAR"]
 en = "THE REMAINING FORCES ARE CUTTING THROUGH THE AIRLOCK."
-de = ""
+de = "Die übrigen Kräfte schneiden sich durch die Schleuse."
 
 [[text]]
 id = "M052_008"
 befehl = ["PRINTCLEAR"]
 en = "WITH THIS VICTORY THE ENEMY CRUMBLES."
-de = ""
+de = "Mit diesem Sieg bricht der Feind zusammen."
 
 [[text]]
 id = "M052_009"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE AT A LADDER. WHERE DO YOU GO?"
-de = ""
+de = "Ihr steht an einer Leiter. Wohin geht ihr?"
 
 [[text]]
 id = "M052_010"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M052_011"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M052_012"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M052_013"
 befehl = ["HMENU"]
 menue = true
 en = "UP"
-de = ""
+de = "Hoch"
 
 [[text]]
 id = "M052_014"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M052_015"
 befehl = ["HMENU"]
 menue = true
 en = "DOWN"
-de = ""
+de = "Runter"
 
 [[text]]
 id = "M052_016"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M052_017"
 befehl = ["PRINTCLEAR"]
 en = "IT IS NOT SAFE TO LEAVE THE LADDER."
-de = ""
+de = "Es ist nicht sicher, die Leiter zu verlassen."
 
 [[text]]
 id = "M052_018"
 befehl = ["PRINTCLEAR"]
 en = "EXPLOSIONS SHATTER THIS DECK. LITTLE REMAINS BUT THE LADDER."
-de = ""
+de = "Explosionen zerfetzen dieses Deck. Kaum mehr als die Leiter ist übrig."
 
 [[text]]
 id = "M052_019"
 befehl = ["PRINTCLEAR"]
 en = "THIS HAS ELIMINATED THE LAST OF THE ENEMY. THE SHIP IS YOURS."
-de = ""
+de = "Damit ist der letzte Feind erledigt. Das Schiff gehört euch."
 
 [[text]]
 id = "M052_020"
 befehl = ["PRINTCLEAR"]
 en = "THESE CONTROLS ARE DAMAGED."
-de = ""
+de = "Diese Steuerung ist beschädigt."
 
 [[text]]
 id = "M052_021"
 befehl = ["PRINTCLEAR"]
 en = "AN EXPERT PROGRAMMER MIGHT BE ABLE TO REROUTE CONTROL THROUGH HERE, BUT THE SYSTEM IS DEGRADING FAST. DO YOU TRY?"
-de = ""
+de = "Ein Programmierprofi könnte die Steuerung hierher umleiten, aber das System zerfällt schnell. Versucht ihr es?"
 
 [[text]]
 id = "M052_022"
 befehl = ["PRINTCLEAR"]
 en = "YOU SUCCEED IN TAKING CONTROL OF THE SHIP."
-de = ""
+de = "Ihr übernehmt die Kontrolle über das Schiff."
 
 [[text]]
 id = "M052_023"
 befehl = ["PRINTCLEAR"]
 en = "IT IS BEYOND YOUR ABILITY."
-de = ""
+de = "Das übersteigt eure Fähigkeiten."
 
 [[text]]
 id = "M052_024"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS HOLD THE BRIDGE CONTROLS."
-de = ""
+de = "Wachen halten die Brückensteuerung besetzt."
 
 [[text]]
 id = "M052_025"
 befehl = ["PRINTCLEAR"]
 en = "YOU SECURE THE BRIDGE."
-de = ""
+de = "Ihr sichert die Brücke."
 
 [[text]]
 id = "M052_026"
 befehl = ["PRINTCLEAR"]
 en = "THIS SECURES THE SHIP. THE CREW SURRENDERS."
-de = ""
+de = "Damit ist das Schiff gesichert. Die Besatzung ergibt sich."
 
 [[text]]
 id = "M052_027"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS HOLD THE ENGINE CONTROLS."
-de = ""
+de = "Wachen halten die Triebwerkssteuerung besetzt."
 
 [[text]]
 id = "M052_028"
 befehl = ["PRINTCLEAR"]
 en = "YOU SECURE THE ENGINE ROOM."
-de = ""
+de = "Ihr sichert den Maschinenraum."
 
 [[text]]
 id = "M052_029"
 befehl = ["PRINTCLEAR"]
 en = "A GUARD SHOUTS TO ANOTHER, 'KILL THE PRISONERS! WE'LL DELAY THEM.'"
-de = ""
+de = "Eine Wache ruft einer anderen zu: 'Tötet die Gefangenen! Wir halten sie auf.'"
 
 [[text]]
 id = "M052_030"
 befehl = ["PRINTCLEAR"]
 en = "THE REMAINING GUARDS ENTER THE ROOM JUST NORTH."
-de = ""
+de = "Die übrigen Wachen betreten den Raum nördlich von hier."
 
 [[text]]
 id = "M052_031"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE JUST IN TIME TO PREVENT A SLAUGHTER."
-de = ""
+de = "Ihr kommt gerade rechtzeitig, um ein Gemetzel zu verhindern."
 
 [[text]]
 id = "M052_032"
 befehl = ["PRINTCLEAR"]
 en = "THE PRISONERS THANK YOU. WITH THEIR HELP YOU QUICKLY SECURE THE SHIP."
-de = ""
+de = "Die Gefangenen danken euch. Mit ihrer Hilfe sichert ihr schnell das Schiff."
 
 [[text]]
 id = "M052_033"
 befehl = ["PRINTCLEAR"]
 en = "A SIGN ABOVE THE DOOR READS, "
-de = ""
+de = "Ein Schild über der Tür: "
 
 [[text]]
 id = "M052_034"
 befehl = ["PRINT"]
 en = "        'CAPTAIN'S QUARTERS'"
-de = ""
+de = "        'Kapitänsquartier'"
 
 [[text]]
 id = "M052_035"
 befehl = ["PRINTCLEAR"]
 en = "THE CAPTAIN'S GUARDS TRY TO STOP YOU."
-de = ""
+de = "Die Wachen des Kapitäns wollen euch aufhalten."
 
 [[text]]
 id = "M052_036"
 befehl = ["PRINTCLEAR"]
 en = "THE CAPTAIN WAS KILLED IN THE EXCHANGE. YOU QUICKLY DISARM THE SELF-DESTRUCT. THE CREW SURRENDERS TO YOU."
-de = ""
+de = "Der Kapitän fiel im Gefecht. Ihr entschärft schnell die Selbstzerstörung. Die Besatzung ergibt sich."
 
 [[text]]
 id = "M052_037"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE CAPTURED THEIR SHIP."
-de = ""
+de = "Ihr habt ihr Schiff erobert."
 
 [[text]]
 id = "M052_038"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE GUARDS APPROACHING."
-de = ""
+de = "Wachen nähern sich."
 
 [[text]]
 id = "M052_039"
 befehl = ["WHMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M052_040"
 befehl = ["WHMENU"]
 menue = true
 en = "HIDE"
-de = ""
+de = "Verstecken"
 
 [[text]]
 id = "M052_041"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRY TO FIND SOMEWHERE TO HIDE."
-de = ""
+de = "Ihr sucht ein Versteck."
 
 [[text]]
 id = "M052_042"
 befehl = ["PRINTCLEAR"]
 en = "THEY SPOT YOU!"
-de = ""
+de = "Sie entdecken euch!"
 
 [[text]]
 id = "M052_043"
@@ -279,52 +279,52 @@ de = ""
 id = "M052_044"
 befehl = ["PRINT"]
 en = "RAM ASSASSINS ARE SWARMING THE SHIP. THIS IS A TRAP! "
-de = ""
+de = "RAM-Attentäter schwärmen durch das Schiff. Das ist eine Falle! "
 
 [[text]]
 id = "M052_045"
 befehl = ["PRINT"]
 en = "ASSASSINS ATTACK!"
-de = ""
+de = "Attentäter greifen an!"
 
 [[text]]
 id = "M052_046"
 befehl = ["PRINTCLEAR"]
 en = "SCOT CALLS. 'TAKE CARE OF THAT SHIP QUICKLY! ANOTHER ONE IS APPROACHING -- AND ITS BIGGER!"
-de = ""
+de = "Scot meldet sich. 'Erledigt das Schiff schnell! Ein weiteres nähert sich -- und es ist größer!"
 
 [[text]]
 id = "M052_047"
 befehl = ["PRINTCLEAR"]
 en = "A MECHANICAL VOICE INTONES, 'CAPTAIN HAS ACTIVATED SELF-DESTRUCT FROM HIS CABIN. DETONATION IN 50.'"
-de = ""
+de = "Eine Maschinenstimme verkündet: 'Kapitän hat Selbstzerstörung aus seiner Kabine aktiviert. Explosion in 50.'"
 
 [[text]]
 id = "M052_048"
 befehl = ["PRINTCLEAR"]
 en = "A SPEAKER BLARES. 'IF INTRUDERS REACH PRISON LEVEL, KILL THE PRISONERS.'"
-de = ""
+de = "Ein Lautsprecher plärrt: 'Wenn Eindringlinge den Zellentrakt erreichen, tötet die Gefangenen.'"
 
 [[text]]
 id = "M052_049"
 befehl = ["PRINTCLEAR"]
 en = "SCOT CONTACTS YOU. 'ENEMY FORCES ARE TRYING TO FORCE THEIR WAY INTO THE SHIP. RETURN IMMEDIATELY!'"
-de = ""
+de = "Scot meldet sich. 'Feindliche Kräfte versuchen, ins Schiff einzudringen. Kommt sofort zurück!'"
 
 [[text]]
 id = "M052_050"
 befehl = ["PRINT"]
 en = " TO DETONATION."
-de = ""
+de = " bis zur Explosion."
 
 [[text]]
 id = "M052_051"
 befehl = ["PRINT"]
 en = " THE SHIP EXPLODES AROUND YOU."
-de = ""
+de = " Um euch herum explodiert das Schiff."
 
 [[text]]
 id = "M052_052"
 befehl = ["PRINTCLEAR"]
 en = "SCOT PICKS YOU UP."
-de = ""
+de = "Scot holt euch ab."

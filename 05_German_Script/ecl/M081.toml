@@ -6,115 +6,115 @@
 id = "M081_000"
 befehl = ["PRINTCLEAR"]
 en = "DEAD LOWLANDERS LITTER THE GROUND OF THIS NATIVE TOWN. THE BODIES ALL BEAR THE MARKS OF LASER FIRE."
-de = ""
+de = "Tote Tiefländer bedecken den Boden dieses Dorfs. Alle Leichen tragen Spuren von Laserfeuer."
 
 [[text]]
 id = "M081_001"
 befehl = ["PRINT"]
 en = " A BABY CRIES IN THE DISTANCE."
-de = ""
+de = " In der Ferne weint ein Baby."
 
 [[text]]
 id = "M081_002"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE AT THE MAIN GATE. "
-de = ""
+de = "Ihr seid am Haupttor. "
 
 [[text]]
 id = "M081_003"
 befehl = ["PRINT"]
 en = "YOU HEAR A BABY CRYING. "
-de = ""
+de = "Ihr hört ein Baby weinen. "
 
 [[text]]
 id = "M081_004"
 befehl = ["PRINT"]
 en = "LEAVE THE TOWN?"
-de = ""
+de = "Das Dorf verlassen?"
 
 [[text]]
 id = "M081_005"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR A CHILD CRYING."
-de = ""
+de = "Ihr hört ein Kind weinen."
 
 [[text]]
 id = "M081_006"
 befehl = ["PRINTCLEAR"]
 en = "LOWLANDER CORPSES ARE SPRAWLED ALL OVER."
-de = ""
+de = "Überall liegen Leichen von Tiefländern."
 
 [[text]]
 id = "M081_007"
 befehl = ["PRINTCLEAR"]
 en = "SWAMP HORNETS COVER THE BODIES HERE."
-de = ""
+de = "Sumpfhornissen bedecken hier die Leichen."
 
 [[text]]
 id = "M081_008"
 befehl = ["PRINTCLEAR"]
 en = "A POOL OF BLOOD HERE IS DRYING QUICKLY."
-de = ""
+de = "Eine Blutlache trocknet hier rasch."
 
 [[text]]
 id = "M081_009"
 befehl = ["PRINTCLEAR"]
 en = "YOU SENSE THAT YOU'RE BEING WATCHED."
-de = ""
+de = "Ihr spürt, dass ihr beobachtet werdet."
 
 [[text]]
 id = "M081_010"
 befehl = ["PRINTCLEAR"]
 en = "AN ACID FROG GOGGLES ITS EYES AT YOU."
-de = ""
+de = "Ein Säurefrosch glotzt euch an."
 
 [[text]]
 id = "M081_011"
 befehl = ["PRINTCLEAR"]
 en = "HERE'S A BODY OF A RAM WARRIOR CRUSHED BY A GIANT "
-de = ""
+de = "Hier liegt die Leiche eines RAM-Kriegers, zerquetscht von einem riesigen "
 
 [[text]]
 id = "M081_012"
 befehl = ["PRINT"]
 en = "ACID FROG."
-de = ""
+de = "Säurefrosch."
 
 [[text]]
 id = "M081_013"
 befehl = ["PRINTCLEAR"]
 en = "A RAM HIT TEAM SPOTS YOU AND ATTACKS!"
-de = ""
+de = "Ein RAM-Killerkommando entdeckt euch und greift an!"
 
 [[text]]
 id = "M081_014"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS COME TO YOUR AID."
-de = ""
+de = "Säurefrösche kommen euch zu Hilfe."
 
 [[text]]
 id = "M081_015"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS AN ACID FROG STOCKADE. THE FROGS HAVE BEEN MADDENED BY THE SOUNDS OF BATTLE."
-de = ""
+de = "Das ist ein Gehege für Säurefrösche. Der Kampflärm hat die Frösche rasend gemacht."
 
 [[text]]
 id = "M081_016"
 befehl = ["PRINTCLEAR"]
 en = "WILL YOU FREE THE ACID FROGS?"
-de = ""
+de = "Lasst ihr die Säurefrösche frei?"
 
 [[text]]
 id = "M081_017"
 befehl = ["PRINTCLEAR"]
 en = "STAMPEDE!"
-de = ""
+de = "Massenpanik!"
 
 [[text]]
 id = "M081_018"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS HOP DIRECTLY ONTO AND THROUGH YOUR TEAM. "
-de = ""
+de = "Die Säurefrösche springen mitten auf und durch euer Team. "
 
 [[text]]
 id = "M081_019"
@@ -126,103 +126,103 @@ de = ""
 id = "M081_020"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS STAMPEDE AROUND YOU. YOU HEAR HOWLS OF FEAR AS THE FROGS DISCOVER AND ATTACK HIDDEN RAM FIGHTERS."
-de = ""
+de = "Die Säurefrösche stürmen um euch herum. Angstschreie ertönen, als die Frösche versteckte RAM-Kämpfer finden und angreifen."
 
 [[text]]
 id = "M081_021"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS SENSE THAT YOU ARE ENEMIES, AND SOME OF THEM TURN ON YOU."
-de = ""
+de = "Die Säurefrösche spüren, dass ihr Feinde seid, und einige wenden sich gegen euch."
 
 [[text]]
 id = "M081_022"
 befehl = ["PRINTCLEAR"]
 en = "BATTLE-CRAZED ACID FROGS ATTACK!"
-de = ""
+de = "Kampfwütige Säurefrösche greifen an!"
 
 [[text]]
 id = "M081_023"
 befehl = ["PRINTCLEAR"]
 en = "THE STOCKADE IS EMPTY. THE ACID FROGS ARE SCATTERED ALL OVER TOWN. "
-de = ""
+de = "Das Gehege ist leer. Die Säurefrösche sind über das ganze Dorf verstreut. "
 
 [[text]]
 id = "M081_024"
 befehl = ["PRINT"]
 en = "YOU HEAR A CHILD CRYING TO THE NORTH."
-de = ""
+de = "Im Norden hört ihr ein Kind weinen."
 
 [[text]]
 id = "M081_025"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A SUPPLY SHED. "
-de = ""
+de = "Das ist ein Vorratsschuppen. "
 
 [[text]]
 id = "M081_026"
 befehl = ["PRINT"]
 en = "YOU FIND A LARGE CANVAS BAG."
-de = ""
+de = "Ihr findet einen großen Segeltuchsack."
 
 [[text]]
 id = "M081_027"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE IT"
-de = ""
+de = "Liegen lassen"
 
 [[text]]
 id = "M081_028"
 befehl = ["HMENU"]
 menue = true
 en = "OPEN IT"
-de = ""
+de = "Öffnen"
 
 [[text]]
 id = "M081_029"
 befehl = ["HMENU"]
 menue = true
 en = "TAKE IT"
-de = ""
+de = "Nehmen"
 
 [[text]]
 id = "M081_030"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE NAUSEATED BY THE ACID FROG FOOD INSIDE. WHAT WILL YOU DO WITH THE BAG?"
-de = ""
+de = "Das Säurefroschfutter darin ekelt euch. Was macht ihr mit dem Sack?"
 
 [[text]]
 id = "M081_031"
 befehl = ["HMENU"]
 menue = true
 en = "PICK IT UP"
-de = ""
+de = "Aufheben"
 
 [[text]]
 id = "M081_032"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE IT"
-de = ""
+de = "Liegen lassen"
 
 [[text]]
 id = "M081_033"
 befehl = ["HMENU"]
 menue = true
 en = "TASTE FOOD"
-de = ""
+de = "Futter kosten"
 
 [[text]]
 id = "M081_034"
 befehl = ["PRINTCLEAR"]
 en = "YOU TAKE THE BAG OF FROGFOOD."
-de = ""
+de = "Ihr nehmt den Sack Froschfutter."
 
 [[text]]
 id = "M081_035"
 befehl = ["PRINTCLEAR"]
 en = "EVERYONE CHOKES AND GAGS!!"
-de = ""
+de = "Alle würgen und husten!!"
 
 [[text]]
 id = "M081_036"
@@ -234,27 +234,27 @@ de = ""
 id = "M081_037"
 befehl = ["PRINTCLEAR"]
 en = "WHAT WILL YOU DO WITH THE FROGFOOD?"
-de = ""
+de = "Was macht ihr mit dem Froschfutter?"
 
 [[text]]
 id = "M081_038"
 befehl = ["HMENU"]
 menue = true
 en = "TAKE THE BAG"
-de = ""
+de = "Sack nehmen"
 
 [[text]]
 id = "M081_039"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE THE BAG"
-de = ""
+de = "Sack liegen lassen"
 
 [[text]]
 id = "M081_040"
 befehl = ["PRINTCLEAR"]
 en = "A TINY LOWLANDER STOPS CRYING AND BEGINS TO BABBLE IN A LANGUAGE YOU DON'T RECOGNIZE."
-de = ""
+de = "Ein winziger Tiefländer hört auf zu weinen und plappert in einer Sprache, die ihr nicht kennt."
 
 [[text]]
 id = "M081_041"
@@ -266,419 +266,419 @@ de = ""
 id = "M081_042"
 befehl = ["PRINTCLEAR"]
 en = "YOU CAN'T UNDERSTAND THE LITTLE LOWLANDER'S WORDS, BUT IT OBVIOUSLY WANTS TO JOIN YOU."
-de = ""
+de = "Ihr versteht die Worte des kleinen Tiefländers nicht, aber er will offensichtlich mit euch kommen."
 
 [[text]]
 id = "M081_043"
 befehl = ["PRINTCLEAR"]
 en = "LEANDER TRANSLATES. 'HHE WANTSS USS TO HHELP HHIM FIND HHIS FATHER.'"
-de = ""
+de = "Leander übersetzt: 'Er will, dasss wir ihhm hhelfen, sseinen Vater zu finden.'"
 
 [[text]]
 id = "M081_044"
 befehl = ["PRINTCLEAR"]
 en = "WILL YOU TAKE THE BABY LOWLANDER INTO YOUR TEAM?"
-de = ""
+de = "Nehmt ihr das Tiefländer-Baby ins Team auf?"
 
 [[text]]
 id = "M081_045"
 befehl = ["PRINTCLEAR"]
 en = "DESPITE YOUR WISHES, THE BABY TAGS ALONG AFTER YOU. IT WILL FOLLOW YOU EVERYWHERE."
-de = ""
+de = "Gegen euren Willen tappt das Baby hinter euch her. Es wird euch überallhin folgen."
 
 [[text]]
 id = "M081_046"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A STOREROOM. YOU SEE THROUGH THE WINDOW THAT IT'S OVERRUN WITH SWAMP HORNETS."
-de = ""
+de = "Das ist ein Lagerraum. Durchs Fenster seht ihr, dass er voller Sumpfhornissen ist."
 
 [[text]]
 id = "M081_047"
 befehl = ["PRINTCLEAR"]
 en = "ENTER ANYWAY?"
-de = ""
+de = "Trotzdem hinein?"
 
 [[text]]
 id = "M081_048"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR TO THIS STOREROOM HAS BEEN TRAMPLED TO THE GROUND."
-de = ""
+de = "Die Tür dieses Lagerraums wurde niedergetrampelt."
 
 [[text]]
 id = "M081_049"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS NOW INFEST THE STOREROOM. THE SUPPLIES ARE COATED WITH ACID SLIME FROM THE FROGS."
-de = ""
+de = "Säurefrösche bevölkern jetzt den Lagerraum. Die Vorräte sind mit ihrem Säureschleim überzogen."
 
 [[text]]
 id = "M081_050"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS IGNORE YOU."
-de = ""
+de = "Die Säurefrösche beachten euch nicht."
 
 [[text]]
 id = "M081_051"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS STARE AT YOUR BAG OF FROGFOOD AND GOGGLE THEIR EYES HOPEFULLY. FEED THE FROGS?"
-de = ""
+de = "Die Säurefrösche starren auf euren Sack Froschfutter und glotzen hoffnungsvoll. Füttern?"
 
 [[text]]
 id = "M081_052"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS GOBBLE THE FOOD."
-de = ""
+de = "Die Säurefrösche verschlingen das Futter."
 
 [[text]]
 id = "M081_053"
 befehl = ["PRINTCLEAR"]
 en = "THE STOREROOM IS FULL OF HUNGRY-LOOKING ACID FROGS."
-de = ""
+de = "Der Lagerraum ist voller hungrig wirkender Säurefrösche."
 
 [[text]]
 id = "M081_054"
 befehl = ["PRINTCLEAR"]
 en = "SWAMP HORNETS SWARM TOWARDS YOU!"
-de = ""
+de = "Sumpfhornissen schwärmen auf euch zu!"
 
 [[text]]
 id = "M081_055"
 befehl = ["PRINTCLEAR"]
 en = "BEHIND AN ASSORTMENT OF PRIMITIVE ARTIFACTS YOU FIND SCIENTIFIC EQUIPMENT USED FOR THE CREATION OF GRAVITOL."
-de = ""
+de = "Hinter allerlei primitiven Gegenständen findet ihr wissenschaftliche Geräte zur Herstellung von Gravitol."
 
 [[text]]
 id = "M081_056"
 befehl = ["PRINTCLEAR"]
 en = "IN THE BACK, YOU FIND A FEW DEMO CHARGES."
-de = ""
+de = "Hinten findet ihr ein paar Sprengladungen."
 
 [[text]]
 id = "M081_057"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND NOTHING NEW IN THE STOREROOM."
-de = ""
+de = "Im Lagerraum findet ihr nichts Neues."
 
 [[text]]
 id = "M081_058"
 befehl = ["PRINTCLEAR"]
 en = "THIS DOOR HAS BEEN BARRICADED SO STURDILY THAT BREAKING IT DOWN WOULD TOPPLE THE ENTIRE STRUCTURE."
-de = ""
+de = "Diese Tür ist so fest verbarrikadiert, dass ein Aufbrechen das ganze Gebäude einstürzen ließe."
 
 [[text]]
 id = "M081_059"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND THE BODIES OF A SLAIN FAMILY. A LOWLANDER BURSTS OUT AND AIMS A RIFLE AT THE TEAM. 'WHHO ARE YOU?'"
-de = ""
+de = "Ihr findet die Leichen einer ermordeten Familie. Ein Tiefländer springt hervor und zielt mit einem Gewehr auf euch. 'Wwer sseid ihr?'"
 
 [[text]]
 id = "M081_060"
 befehl = ["HMENU"]
 menue = true
 en = "BACK AWAY"
-de = ""
+de = "Zurückweichen"
 
 [[text]]
 id = "M081_061"
 befehl = ["HMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M081_062"
 befehl = ["PRINTCLEAR"]
 en = "YOU IDENTIFY YOURSELVES AS NEO AGENTS. HE LOWERS HIS RIFLE. 'I HHAVE INFORMATION THAT MIGHT HHELP,' HE SAYS."
-de = ""
+de = "Ihr gebt euch als NEO-Agenten zu erkennen. Er senkt das Gewehr. 'Ich hhabe Informationen, die hhelfen könnten', sagt er."
 
 [[text]]
 id = "M081_063"
 befehl = ["PRINTCLEAR"]
 en = "YOU BACK AWAY. YOU HEAR HIM BARRICADE THE DOOR BEHIND YOU."
-de = ""
+de = "Ihr weicht zurück. Hinter euch hört ihr, wie er die Tür verbarrikadiert."
 
 [[text]]
 id = "M081_064"
 befehl = ["PRINTCLEAR"]
 en = "'RAM HHIRED USS TO BUILD A GIANT LENSS. THEY PROMISSED USS GREAT RICHESS, AND DELIVERED THISS MASSACRE INSSTEAD."
-de = ""
+de = "'RAM hhat unss angeheuert, eine riesige Linsse zu bauen. Ssie verssprachen unss Reichtum und brachten unss dieses Massaker."
 
 [[text]]
 id = "M081_065"
 befehl = ["PRINTCLEAR"]
 en = "'WE WORKED IN A LAB TO THE SSOUTHWESST. GO THHERE TO LEARN MORE."
-de = ""
+de = "'Wir arbeiteten in einem Labor im Ssüdwessten. Geht hhin, um mehr zu erfahren."
 
 [[text]]
 id = "M081_066"
 befehl = ["PRINTCLEAR"]
 en = "'NOW LEAVE, BEFORE YOU ATTRACT ATTENTION,' HE ESCORTS YOU OUTSIDE."
-de = ""
+de = "'Jetzt geht, bevor ihr auffallt.' Er bringt euch hinaus."
 
 [[text]]
 id = "M081_067"
 befehl = ["PRINTCLEAR"]
 en = "A GROUP OF LOWLANDERS ARE HUDDLED HERE, TENDING TO A WOUNDED FEMALE."
-de = ""
+de = "Eine Gruppe Tiefländer kauert hier und pflegt eine verwundete Frau."
 
 [[text]]
 id = "M081_068"
 befehl = ["PRINTCLEAR"]
 en = "'PLEASSE HHELP,' THE LEADER SAYS. 'MY MEDICAL KIT CAN SSAVE THHIS WOMAN, BUT KEY TO THE SSUPPLY CLOSSET WASS TAKEN BY A RAM OFFICER."
-de = ""
+de = "'Bitte hhelft', sagt die Anführerin. 'Mein Arzneikoffer kann diese Frau retten, aber ein RAM-Offizier hhat den Schlüssel zum Vorratsschrank."
 
 [[text]]
 id = "M081_069"
 befehl = ["PRINTCLEAR"]
 en = "GO TO THE BIG HHUT ON THHE WEST SSIDE OF TOWN. THE SSECURITY CODE IS 683.'"
-de = ""
+de = "Geht zur großen Hhütte im Wessten des Dorfs. Der Ssicherheitscode ist 683.'"
 
 [[text]]
 id = "M081_070"
 befehl = ["PRINTCLEAR"]
 en = "SHE GIVES YOU A WEAPON AND SOME ARMOR."
-de = ""
+de = "Sie gibt euch eine Waffe und eine Panzerung."
 
 [[text]]
 id = "M081_071"
 befehl = ["PRINTCLEAR"]
 en = "'I SSEE YOU HHAVE THE KEYSS. PLEASSE BRING THE KIT FROM THE SSUPPLY CLOSSET."
-de = ""
+de = "'Ich ssehe, ihr hhabt die Schlüssssel. Bitte bringt den Koffer aus dem Vorratsschrank."
 
 [[text]]
 id = "M081_072"
 befehl = ["PRINTCLEAR"]
 en = "PLEASSE FIND THE KEYSS AND USSE THEM TO GET INTO THE SSUPPLY CLOSSET."
-de = ""
+de = "Bitte findet die Schlüssssel und öffnet damit den Vorratsschrank."
 
 [[text]]
 id = "M081_073"
 befehl = ["PRINTCLEAR"]
 en = "THE LOWLANDERS ARE DISAPPOINTED WHEN THEY SEE THAT YOU HAVEN'T BROUGHT THE SUPPLIES."
-de = ""
+de = "Die Tiefländer sind enttäuscht, als sie sehen, dass ihr die Arznei nicht dabeihabt."
 
 [[text]]
 id = "M081_074"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR CRYING FROM THE SOUTH."
-de = ""
+de = "Im Süden hört ihr Weinen."
 
 [[text]]
 id = "M081_075"
 befehl = ["PRINTCLEAR"]
 en = "THE SURVIVORS TAKE THE SUPPLY KIT AND ESCAPE WITH IT OVER THE WALL. 'I HHAVE LITTLE TO OFFER,' THE LEADER SAYS, 'BUT THISS WILL HHELP.' "
-de = ""
+de = "Die Überlebenden nehmen den Koffer und fliehen damit über die Mauer. 'Ich hhabe wenig zu geben', sagt die Anführerin, 'aber dass hhilft.' "
 
 [[text]]
 id = "M081_076"
 befehl = ["PRINTCLEAR"]
 en = "SHE SHOWS YOU A MAP OF THE BASEMENT LEVEL OF THE RAM BASE. IT SHOWS A FALSE WALL IN AN ACIDICIUM HOLDING ROOM."
-de = ""
+de = "Sie zeigt euch eine Karte des Kellergeschosses der RAM-Basis. Darauf ist eine falsche Wand in einem Acidicium-Gehege."
 
 [[text]]
 id = "M081_077"
 befehl = ["PRINTCLEAR"]
 en = "'THE BASSE ISS IN A MOUNTAIN FAR TO THE SSOUTHWESST. GOOD LUCK.' SHE LEAVES."
-de = ""
+de = "'Die Bassis liegt in einem Berg weit im Ssüdwessten. Viel Glück.' Sie geht."
 
 [[text]]
 id = "M081_078"
 befehl = ["PRINTCLEAR"]
 en = "A RAM OFFICER IS SNORING WITH HIS FEET ON A DESK. A HUGE KEYRING IS FASTENED TO HIS BELT."
-de = ""
+de = "Ein RAM-Offizier schnarcht, die Füße auf dem Tisch. An seinem Gürtel hängt ein riesiger Schlüsselbund."
 
 [[text]]
 id = "M081_079"
 befehl = ["HMENU"]
 menue = true
 en = "STEAL KEYS"
-de = ""
+de = "Schlüssel stehlen"
 
 [[text]]
 id = "M081_080"
 befehl = ["HMENU"]
 menue = true
 en = "KILL THE OFFICER"
-de = ""
+de = "Offizier töten"
 
 [[text]]
 id = "M081_081"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M081_082"
 befehl = ["PRINTCLEAR"]
 en = "YOU TIPTOE OUT OF THE ROOM."
-de = ""
+de = "Ihr schleicht auf Zehenspitzen hinaus."
 
 [[text]]
 id = "M081_083"
 befehl = ["WHO"]
 en = "WHO PICKS HIS POCKET?"
-de = ""
+de = "Wer bestiehlt ihn?"
 
 [[text]]
 id = "M081_084"
 befehl = ["PRINTCLEAR"]
 en = "YOU GOT THE KEYRING!"
-de = ""
+de = "Ihr habt den Schlüsselbund!"
 
 [[text]]
 id = "M081_085"
 befehl = ["PRINTCLEAR"]
 en = "THE RAM OFFICER IS STILL ASLEEP."
-de = ""
+de = "Der RAM-Offizier schläft noch."
 
 [[text]]
 id = "M081_086"
 befehl = ["PRINT"]
 en = "NOW WHAT WILL YOU DO?"
-de = ""
+de = "Was jetzt?"
 
 [[text]]
 id = "M081_087"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M081_088"
 befehl = ["HMENU"]
 menue = true
 en = "KILL THE OFFICER"
-de = ""
+de = "Offizier töten"
 
 [[text]]
 id = "M081_089"
 befehl = ["PRINTCLEAR"]
 en = "THE OFFICER WAKES UP! 'DIE, FOOLS!' HE ROARS, AND BLOWS A WHISTLE. THE ROOM FILLS WITH SECURITY ROBOTS."
-de = ""
+de = "Der Offizier wacht auf! 'Sterbt, ihr Narren!', brüllt er und pfeift. Der Raum füllt sich mit Sicherheitsrobotern."
 
 [[text]]
 id = "M081_090"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS COME TO YOUR AID."
-de = ""
+de = "Säurefrösche kommen euch zu Hilfe."
 
 [[text]]
 id = "M081_091"
 befehl = ["PRINTCLEAR"]
 en = "THE KEYRING LIES NEAR THE OFFICER'S BODY. YOU TAKE IT."
-de = ""
+de = "Der Schlüsselbund liegt neben der Leiche des Offiziers. Ihr nehmt ihn."
 
 [[text]]
 id = "M081_092"
 befehl = ["PRINTCLEAR"]
 en = "THIS MEDICAL SUPPLY CLOSET IS LOCKED WITH LOWLANDER TECHNOLOGY YOU DON'T RECOGNIZE. YOU NEED A KEY AND A SECURITY CODE TO GET IN."
-de = ""
+de = "Dieser Arzneischrank ist mit Tiefländer-Technik verschlossen, die ihr nicht kennt. Ihr braucht einen Schlüssel und einen Sicherheitscode."
 
 [[text]]
 id = "M081_093"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR TO THE MEDICAL SUPPLY CLOSET IS OPEN."
-de = ""
+de = "Die Tür zum Arzneischrank ist offen."
 
 [[text]]
 id = "M081_094"
 befehl = ["PRINTCLEAR"]
 en = "YOU TYPE IN THE SECURITY CODE BUT YOU STILL CAN'T OPEN THIS DOOR WITHOUT A KEY."
-de = ""
+de = "Ihr gebt den Sicherheitscode ein, aber ohne Schlüssel geht die Tür nicht auf."
 
 [[text]]
 id = "M081_095"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE THE KEYRING, BUT YOU STILL NEED A SECURITY CODE TO OPEN THE DOOR."
-de = ""
+de = "Ihr habt den Schlüsselbund, braucht aber noch einen Sicherheitscode."
 
 [[text]]
 id = "M081_096"
 befehl = ["PRINTCLEAR"]
 en = "YOU USE THE KEYRING, TYPE IN THE SECURITY CODE AND THE DOOR OPENS."
-de = ""
+de = "Ihr benutzt den Schlüsselbund, gebt den Code ein, und die Tür öffnet sich."
 
 [[text]]
 id = "M081_097"
 befehl = ["PRINTCLEAR"]
 en = "THE MEDICAL SUPPLIES HERE ARE FOR LOWLANDERS, BUT YOU FIND POISON ANTIDOTES, AND TWO WEAPONS."
-de = ""
+de = "Die Arzneien hier sind für Tiefländer, aber ihr findet Gegengifte und zwei Waffen."
 
 [[text]]
 id = "M081_098"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE A LOWLANDER MEDICAL SUPPLY KIT."
-de = ""
+de = "Ihr habt einen Arzneikoffer der Tiefländer."
 
 [[text]]
 id = "M081_099"
 befehl = ["PRINTCLEAR"]
 en = "THIS BUILDING APPEARS TO HAVE BEEN THE CENTER OF GOVERNMENT."
-de = ""
+de = "Dieses Gebäude war wohl der Regierungssitz."
 
 [[text]]
 id = "M081_100"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR CRYING TO THE NORTHEAST."
-de = ""
+de = "Im Nordosten hört ihr Weinen."
 
 [[text]]
 id = "M081_101"
 befehl = ["PRINTCLEAR"]
 en = "LASER BURNS MAR THE WALLS OF THIS HUT."
-de = ""
+de = "Laserbrandspuren verunstalten die Wände dieser Hütte."
 
 [[text]]
 id = "M081_102"
 befehl = ["PRINTCLEAR"]
 en = "TWO LOWLANDERS ARE PREPARING TO SNEAK OUT OF TOWN. THEY URGE YOU TO MEET THEM IN THE NORTHEAST CORNER."
-de = ""
+de = "Zwei Tiefländer wollen sich aus dem Dorf schleichen. Sie bitten euch, sie in der Nordostecke zu treffen."
 
 [[text]]
 id = "M081_103"
 befehl = ["PRINTCLEAR"]
 en = "THIS HUT IS EMPTY. IN SMALL LETTERS ON ONE WALL SOMEONE HAS SCRATCHED 'NE CRNR'"
-de = ""
+de = "Diese Hütte ist leer. An eine Wand hat jemand klein 'NO-Ecke' gekratzt."
 
 [[text]]
 id = "M081_104"
 befehl = ["PRINTCLEAR"]
 en = "THE OWNERS OF THIS HUT LIE DEAD ON THE FLOOR."
-de = ""
+de = "Die Bewohner dieser Hütte liegen tot am Boden."
 
 [[text]]
 id = "M081_105"
 befehl = ["PRINTCLEAR"]
 en = "THE FLOOR IS AWASH WITH BLOOD."
-de = ""
+de = "Der Boden schwimmt in Blut."
 
 [[text]]
 id = "M081_106"
 befehl = ["PRINTCLEAR"]
 en = "THE LOWLANDERS IN THIS HUT DIED, BUT THEY TOOK FOUR RAM ASSASSINS WITH THEM."
-de = ""
+de = "Die Tiefländer in dieser Hütte starben, nahmen aber vier RAM-Attentäter mit in den Tod."
 
 [[text]]
 id = "M081_107"
 befehl = ["PRINTCLEAR"]
 en = "A LOWLANDER INFANT LIES DEAD IN ITS CRADLE."
-de = ""
+de = "Ein Tiefländer-Säugling liegt tot in seiner Wiege."
 
 [[text]]
 id = "M081_108"
 befehl = ["PRINTCLEAR"]
 en = "THIS SCENE IS TOO GRUESOME TO DESCRIBE. RAM HAS BEEN QUITE THOROUGH."
-de = ""
+de = "Diese Szene ist zu grausig, um sie zu beschreiben. RAM war sehr gründlich."
 
 [[text]]
 id = "M081_109"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS THE LARGEST HUT IN TOWN. IT APPEARS RELATIVELY UNDAMAGED. "
-de = ""
+de = "Das ist die größte Hütte im Dorf. Sie wirkt kaum beschädigt. "
 
 [[text]]
 id = "M081_110"
 befehl = ["PRINT"]
 en = "YOU HEAR CRYING FROM WITHIN."
-de = ""
+de = "Drinnen hört ihr Weinen."

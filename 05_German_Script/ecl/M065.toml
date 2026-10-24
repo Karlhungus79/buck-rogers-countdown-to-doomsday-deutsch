@@ -6,435 +6,435 @@
 id = "M065_000"
 befehl = ["PRINTCLEAR"]
 en = "THE GATE IS SEALED TO KEEP OUT RAM GROUND FORCES."
-de = ""
+de = "Das Tor ist verschlossen, um RAMs Bodentruppen fernzuhalten."
 
 [[text]]
 id = "M065_001"
 befehl = ["PRINTCLEAR"]
 en = "THE VILLAGE SEEMS TENSE."
-de = ""
+de = "Im Dorf herrscht Anspannung."
 
 [[text]]
 id = "M065_002"
 befehl = ["PRINTCLEAR"]
 en = "YOU COME UPON RAM FORCES."
-de = ""
+de = "Ihr stoßt auf RAM-Truppen."
 
 [[text]]
 id = "M065_003"
 befehl = ["PRINTCLEAR"]
 en = "YOU HAVE MOPPED UP THE LAST OF THE TROOPS. PEACE DESCENDS."
-de = ""
+de = "Ihr habt die letzten Truppen erledigt. Ruhe kehrt ein."
 
 [[text]]
 id = "M065_004"
 befehl = ["PRINTCLEAR"]
 en = "THE TOWN IS BEING CLEANED UP. SOMEONE SHOUTS, 'MEET AT THE MAIN HOUSE. TUSKON WANTS A MEETING.'"
-de = ""
+de = "Im Dorf wird aufgeräumt. Jemand ruft: 'Treffen im Haupthaus. Tuskon will eine Versammlung.'"
 
 [[text]]
 id = "M065_005"
 befehl = ["PRINTCLEAR"]
 en = "YOU COME UPON RAM FORCES."
-de = ""
+de = "Ihr stoßt auf RAM-Truppen."
 
 [[text]]
 id = "M065_006"
 befehl = ["PRINTCLEAR"]
 en = "NO RAM TROOPS REMAIN IN THE VILLAGE."
-de = ""
+de = "Im Dorf sind keine RAM-Truppen mehr."
 
 [[text]]
 id = "M065_007"
 befehl = ["PRINTCLEAR"]
 en = "'SOMEONE SHOUTS, 'TO THE MAIN HOUSE! MORE ARE ON THE WAY!'"
-de = ""
+de = "Jemand ruft: 'Zum Haupthaus! Es kommen noch mehr!'"
 
 [[text]]
 id = "M065_008"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS ARE RUSHING ABOUT, DESPERATELY SEARCHING."
-de = ""
+de = "Wüstenläufer hetzen umher und suchen verzweifelt."
 
 [[text]]
 id = "M065_009"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS HAVE FALLEN PROTECTING THEIR VILLAGE."
-de = ""
+de = "Wüstenläufer sind bei der Verteidigung ihres Dorfs gefallen."
 
 [[text]]
 id = "M065_010"
 befehl = ["PRINTCLEAR"]
 en = "RAM IS SHELLING THE TOWN."
-de = ""
+de = "RAM beschießt die Stadt."
 
 [[text]]
 id = "M065_011"
 befehl = ["PRINTCLEAR"]
 en = "MORE RAM FORCES HAVE FALLEN HERE."
-de = ""
+de = "Hier sind weitere RAM-Soldaten gefallen."
 
 [[text]]
 id = "M065_012"
 befehl = ["PRINTCLEAR"]
 en = "A CRUMPLED GLIDER LIES HERE."
-de = ""
+de = "Hier liegt ein zerknautschter Gleiter."
 
 [[text]]
 id = "M065_013"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNER CUBS RUSH PAST, CARRYING SUPPLIES."
-de = ""
+de = "Junge Wüstenläufer hasten mit Vorräten vorbei."
 
 [[text]]
 id = "M065_014"
 befehl = ["PRINTCLEAR"]
 en = "EXPLOSIONS RUMBLE IN THE DISTANCE."
-de = ""
+de = "In der Ferne grollen Explosionen."
 
 [[text]]
 id = "M065_015"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE THE REMAINS OF A BATTLE."
-de = ""
+de = "Ihr seht die Spuren eines Kampfes."
 
 [[text]]
 id = "M065_016"
 befehl = ["PRINTCLEAR"]
 en = "THE ACRID SMELL OF SMOKE STINGS YOUR NOSTRILS."
-de = ""
+de = "Beißender Rauchgeruch sticht euch in die Nase."
 
 [[text]]
 id = "M065_017"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS HOWL IN THE DISTANCE."
-de = ""
+de = "In der Ferne heulen Wüstenläufer."
 
 [[text]]
 id = "M065_018"
 befehl = ["PRINTCLEAR"]
 en = "SOUNDS OF BATTLE ARE NEARBY."
-de = ""
+de = "Ganz in der Nähe tobt ein Kampf."
 
 [[text]]
 id = "M065_019"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS SURROUND YOU AS YOU ENTER. A PROUD WOMAN STEPS FORWARD. SHE SNARLS, 'WE ARE AT WAR AND YOU ARE NOT OF THE TRIBE."
-de = ""
+de = "Beim Eintreten umringen euch Wüstenläufer. Eine stolze Frau tritt vor und knurrt: 'Wir sind im Krieg, und ihr gehört nicht zum Stamm."
 
 [[text]]
 id = "M065_020"
 befehl = ["PRINTCLEAR"]
 en = "'TO GAIN THE RIGHT TO SPEAK WITH US, YOU MUST PROVE YOUR ABILITY IN COMBAT. STEP FORWARD FOR BATTLE OR BE CUT DOWN WHERE YOU STAND.'"
-de = ""
+de = "'Wer mit uns sprechen will, muss sich im Kampf beweisen. Tretet vor zum Kampf, oder wir hauen euch nieder, wo ihr steht.'"
 
 [[text]]
 id = "M065_021"
 befehl = ["HMENU"]
 menue = true
 en = "STEP FORWARD"
-de = ""
+de = "Vortreten"
 
 [[text]]
 id = "M065_022"
 befehl = ["HMENU"]
 menue = true
 en = "ATTACK"
-de = ""
+de = "Angreifen"
 
 [[text]]
 id = "M065_023"
 befehl = ["HMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M065_024"
 befehl = ["PRINTCLEAR"]
 en = "THE WOMAN SMILES, 'GOOD. YOU MAY BE WARRIORS AFTER ALL.'"
-de = ""
+de = "Die Frau lächelt. 'Gut. Vielleicht seid ihr doch Krieger.'"
 
 [[text]]
 id = "M065_025"
 befehl = ["PRINTCLEAR"]
 en = "YOU LAY INTO THE DESERT RUNNERS. THEIR LEADER STEPS BACK."
-de = ""
+de = "Ihr fallt über die Wüstenläufer her. Ihre Anführerin weicht zurück."
 
 [[text]]
 id = "M065_026"
 befehl = ["PRINTCLEAR"]
 en = "DURING THE BATTLE RAM GLIDERS HAVE SLID INTO VIEW. SPOTTING YOUR BATTLE, THEY LAUNCH MISSILES."
-de = ""
+de = "Während des Kampfes sind RAM-Gleiter aufgetaucht. Sie sehen euren Kampf und feuern Raketen ab."
 
 [[text]]
 id = "M065_027"
 befehl = ["PRINTCLEAR"]
 en = "RAM TROOPS AND MORE DESERT RUNNERS CONVERGE. THE RUNNERS SEEM MORE WORRIED ABOUT RAM."
-de = ""
+de = "RAM-Truppen und weitere Wüstenläufer rücken an. Die Wüstenläufer sorgen sich mehr um RAM."
 
 [[text]]
 id = "M065_028"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU TRY TO SPEAK, SHE SNARLS, 'NO MORE TALK! BRING THE ENEMY ROBOT.'"
-de = ""
+de = "Als ihr reden wollt, knurrt sie: 'Kein Gerede mehr! Bringt den feindlichen Roboter.'"
 
 [[text]]
 id = "M065_029"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS SCATTER AS A NEWLY ACTIVATED RAM COMBAT ROBOT SURPRISES YOUR TEAM."
-de = ""
+de = "Wüstenläufer stieben auseinander, als ein frisch aktivierter RAM-Kampfroboter euer Team überrascht."
 
 [[text]]
 id = "M065_030"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS DRAG UP A DEACTIVATED ROBOT. THE OTHERS STAND BACK AS IT IS ACTIVATED."
-de = ""
+de = "Wüstenläufer schleppen einen abgeschalteten Roboter heran. Die anderen treten zurück, als er aktiviert wird."
 
 [[text]]
 id = "M065_031"
 befehl = ["PRINTCLEAR"]
 en = "'VERY IMPRESSIVE. I AM ATHA. TUSKON, OUR WAR LEADER, AWAITS YOU IN THE MAIN SQUARE.'"
-de = ""
+de = "'Sehr beeindruckend. Ich bin Atha. Tuskon, unser Kriegsführer, erwartet euch auf dem Hauptplatz.'"
 
 [[text]]
 id = "M065_032"
 befehl = ["PRINTCLEAR"]
 en = "THE LARGEST OF THE DESERT RUNNERS STANDS BEFORE YOU. 'I AM TUSKON. I UNDERSTAND THAT ENEMY GLIDERS ARE APPROACHING."
-de = ""
+de = "Der größte aller Wüstenläufer steht vor euch. 'Ich bin Tuskon. Wie ich höre, nähern sich feindliche Gleiter."
 
 [[text]]
 id = "M065_033"
 befehl = ["PRINTCLEAR"]
 en = "'WE SHALL AMBUSH THEM. MY GUARDS IN THE STREET WILL PROVIDE BAIT. WITH YOUR POWERFUL WEAPONS WE CAN CATCH THEM UNAWARE.'"
-de = ""
+de = "'Wir legen einen Hinterhalt. Meine Wachen auf der Straße dienen als Köder. Mit euren starken Waffen überraschen wir sie.'"
 
 [[text]]
 id = "M065_034"
 befehl = ["PRINTCLEAR"]
 en = "HE LEADS YOU INTO THE BUILDING TO WAIT."
-de = ""
+de = "Er führt euch ins Gebäude, um zu warten."
 
 [[text]]
 id = "M065_035"
 befehl = ["PRINTCLEAR"]
 en = "BEYOND THE GUARDS YOU SEE GLIDERS SILENTLY DESCENDING. THE GUARDS ACT OBLIVIOUS AS THE ENEMY LANDS."
-de = ""
+de = "Hinter den Wachen seht ihr Gleiter lautlos herabsinken. Die Wachen tun ahnungslos, als der Feind landet."
 
 [[text]]
 id = "M065_036"
 befehl = ["PRINTCLEAR"]
 en = "WITH A HOWL, TUSKON CALLS THE DESERT RUNNERS TO COMBAT. RAM'S FORCES ARE SURPRISED."
-de = ""
+de = "Mit einem Heulen ruft Tuskon die Wüstenläufer zum Kampf. RAMs Truppen sind überrascht."
 
 [[text]]
 id = "M065_037"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON DANCES AROUND THE FALLEN ENEMY. HE SHOUTS, 'SPREAD OUT AND FINISH OFF THE REMNANTS!'"
-de = ""
+de = "Tuskon tanzt um die gefallenen Feinde. Er ruft: 'Schwärmt aus und erledigt den Rest!'"
 
 [[text]]
 id = "M065_038"
 befehl = ["PRINTCLEAR"]
 en = "A FEW GUARDS WAIT HERE NERVOUSLY. THEY EYE YOU SUSPICIOUSLY."
-de = ""
+de = "Hier warten nervös ein paar Wachen. Sie beäugen euch misstrauisch."
 
 [[text]]
 id = "M065_039"
 befehl = ["PRINTCLEAR"]
 en = "AN ELDERLY WHITE-FURRED DESERT RUNNER COMES UP. 'REST AND I WILL TEND YOUR WOUNDS.'"
-de = ""
+de = "Ein alter Wüstenläufer mit weißem Fell kommt herbei. 'Ruht euch aus, ich versorge eure Wunden.'"
 
 [[text]]
 id = "M065_040"
 befehl = ["PRINTCLEAR"]
 en = "AS HE FINISHES RESTORING YOU, TUSKON STRIDES IN. 'RAM WILL NOT GIVE UP. SCOUTS SAY WARSHIPS ARE APPROACHING.'"
-de = ""
+de = "Als er fertig ist, schreitet Tuskon herein. 'RAM gibt nicht auf. Späher melden anfliegende Kriegsschiffe.'"
 
 [[text]]
 id = "M065_041"
 befehl = ["PRINTCLEAR"]
 en = "RAM SHIPS FIRE ON THE VILLAGE AND DROP TROOPS AND ROBOTS. TUSKON SHOUTS, 'TO THE BATTLE AGAIN!'"
-de = ""
+de = "RAM-Schiffe beschießen das Dorf und setzen Truppen und Roboter ab. Tuskon ruft: 'Wieder in den Kampf!'"
 
 [[text]]
 id = "M065_042"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON MEETS YOU. 'RAM WILL NOT GIVE UP! HEAVY SHIPS ARE APPROACHING, MORE THAN WE CAN HANDLE."
-de = ""
+de = "Tuskon trifft euch. 'RAM gibt nicht auf! Schwere Schiffe kommen, mehr als wir bewältigen können."
 
 [[text]]
 id = "M065_043"
 befehl = ["PRINTCLEAR"]
 en = "'WE MUST SET A TRAP FOR THEM AND WITHDRAW!'"
-de = ""
+de = "'Wir müssen ihnen eine Falle stellen und uns zurückziehen!'"
 
 [[text]]
 id = "M065_044"
 befehl = ["PRINTCLEAR"]
 en = "'SEEK SOME HIGH EXPLOSIVES AND SOME SORT OF HOMING DEVICE. CHECK ALL THE BUILDINGS AND HURRY!'"
-de = ""
+de = "'Sucht starken Sprengstoff und irgendein Peilgerät. Durchsucht alle Gebäude, und beeilt euch!'"
 
 [[text]]
 id = "M065_045"
 befehl = ["PRINTCLEAR"]
 en = "'WE CAN LURE THEM HERE WITH THE RADIO, BUT WE NEED MORE EXPLOSIVES!'"
-de = ""
+de = "'Mit dem Funkgerät können wir sie herlocken, aber wir brauchen mehr Sprengstoff!'"
 
 [[text]]
 id = "M065_046"
 befehl = ["PRINTCLEAR"]
 en = "'YOU HAVE SUFFICIENT EXPLOSIVES. NOW WE NEED A DEVICE TO LURE THEM IN.'"
-de = ""
+de = "'Ihr habt genug Sprengstoff. Jetzt brauchen wir ein Gerät, um sie anzulocken.'"
 
 [[text]]
 id = "M065_047"
 befehl = ["PRINTCLEAR"]
 en = "'NOW WE HAVE THE PARTS WE NEED. YOU ARE THE SKILLED ONES. BOOBY TRAP THIS HOUSE AND USE THE RADIO TO LURE THEM IN.'"
-de = ""
+de = "'Jetzt haben wir alles. Ihr seid die Fachleute. Vermint dieses Haus und lockt sie mit dem Funkgerät her.'"
 
 [[text]]
 id = "M065_048"
 befehl = ["WHO"]
 en = "WHO WILL FIX THE EXPLOSIVES?"
-de = ""
+de = "Wer bereitet den Sprengstoff vor?"
 
 [[text]]
 id = "M065_049"
 befehl = ["PRINTCLEAR"]
 en = "THAT ONE IS UNABLE TO."
-de = ""
+de = "Diese Figur kann das nicht."
 
 [[text]]
 id = "M065_050"
 befehl = ["PRINT"]
 en = " SUCCEEDS IN PREPARING THE TRAP!"
-de = ""
+de = " gelingt es, die Falle vorzubereiten!"
 
 [[text]]
 id = "M065_051"
 befehl = ["WHO"]
 en = "WHO WILL SET THE HOMING DEVICE?"
-de = ""
+de = "Wer stellt das Peilgerät ein?"
 
 [[text]]
 id = "M065_052"
 befehl = ["PRINTCLEAR"]
 en = "THAT ONE IS UNABLE TO."
-de = ""
+de = "Diese Figur kann das nicht."
 
 [[text]]
 id = "M065_053"
 befehl = ["PRINT"]
 en = " SUCCEEDS IN ACTIVATING THE DEVICE!"
-de = ""
+de = " gelingt es, das Gerät zu aktivieren!"
 
 [[text]]
 id = "M065_054"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON UNCOVERS A SECRET TUNNEL AND LEADS EVERYONE TO A RISE ABOVE THE VILLAGE."
-de = ""
+de = "Tuskon legt einen geheimen Tunnel frei und führt alle auf eine Anhöhe über dem Dorf."
 
 [[text]]
 id = "M065_055"
 befehl = ["PRINTCLEAR"]
 en = "THE WAR CHIEF TUSKON STRIDES UP. 'SHARPEN YOUR KNIVES BUTCHERS! RAM IS SENDING MORE TO THE SLAUGHTER!'"
-de = ""
+de = "Kriegsführer Tuskon schreitet heran. 'Wetzt eure Messer, Schlächter! RAM schickt noch mehr zur Schlachtbank!'"
 
 [[text]]
 id = "M065_056"
 befehl = ["PRINTCLEAR"]
 en = "AN INTENSE DESERT RUNNER STEPS FORWARD AND GROWLS, 'YOU HAVE KILLED MY BROTHERS AND MY ENEMIES!"
-de = ""
+de = "Ein grimmiger Wüstenläufer tritt vor und knurrt: 'Ihr habt meine Brüder getötet und meine Feinde!"
 
 [[text]]
 id = "M065_057"
 befehl = ["PRINTCLEAR"]
 en = "'I WILL FORGIVE THE FIRST IF YOU CONTINUE THE SECOND. SCOUR THE TOWN FOR ENEMY!' HE STRIDES AWAY."
-de = ""
+de = "'Das Erste verzeihe ich, wenn ihr mit dem Zweiten weitermacht. Durchkämmt die Stadt nach Feinden!' Er geht."
 
 [[text]]
 id = "M065_058"
 befehl = ["PRINTCLEAR"]
 en = "A CROUCHING DESERT RUNNER SNARLS, 'GLIDERS HAVE LANDED AMONGST THE BUILDINGS. SEEK OUT THE ENEMY!'"
-de = ""
+de = "Ein geduckter Wüstenläufer knurrt: 'Zwischen den Gebäuden sind Gleiter gelandet. Spürt den Feind auf!'"
 
 [[text]]
 id = "M065_059"
 befehl = ["PRINTCLEAR"]
 en = "A WOUNDED DESERT RUNNER GROWLS, 'THEY HAVE LANDED HEAVY WEAPONS! BEWARE THE ROBOTS!'"
-de = ""
+de = "Ein verwundeter Wüstenläufer knurrt: 'Sie haben schwere Waffen abgesetzt! Vorsicht vor den Robotern!'"
 
 [[text]]
 id = "M065_060"
 befehl = ["PRINTCLEAR"]
 en = "RAM TROOPERS ARE ATTACKING WOMEN AND CHILDREN. THEY TURN AND ATTACK."
-de = ""
+de = "RAM-Soldaten greifen Frauen und Kinder an. Sie drehen sich um und greifen euch an."
 
 [[text]]
 id = "M065_061"
 befehl = ["PRINTCLEAR"]
 en = "THE SURVIVORS THANK YOU."
-de = ""
+de = "Die Überlebenden danken euch."
 
 [[text]]
 id = "M065_062"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT LURKS IN THE BUILDING."
-de = ""
+de = "Im Gebäude lauert ein Roboter."
 
 [[text]]
 id = "M065_063"
 befehl = ["PRINTCLEAR"]
 en = "YOU REALIZE THAT YOU HAVE ACTIVATED A BOOBY TRAP!"
-de = ""
+de = "Ihr merkt, dass ihr eine Sprengfalle ausgelöst habt!"
 
 [[text]]
 id = "M065_064"
 befehl = ["HMENU"]
 menue = true
 en = "DISARM"
-de = ""
+de = "Entschärfen"
 
 [[text]]
 id = "M065_065"
 befehl = ["HMENU"]
 menue = true
 en = "FLEE"
-de = ""
+de = "Fliehen"
 
 [[text]]
 id = "M065_066"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRIGGER THE DETONATION!"
-de = ""
+de = "Ihr löst die Explosion aus!"
 
 [[text]]
 id = "M065_067"
 befehl = ["PRINTCLEAR"]
 en = "YOU DISARM THE BOMB!"
-de = ""
+de = "Ihr entschärft die Bombe!"
 
 [[text]]
 id = "M065_068"
 befehl = ["PRINTCLEAR"]
 en = "THE BOMB DETONATES BEFORE YOU CAN ESCAPE!"
-de = ""
+de = "Die Bombe explodiert, bevor ihr entkommen könnt!"
 
 [[text]]
 id = "M065_069"
 befehl = ["PRINTCLEAR"]
 en = "YOU ESCAPE IN TIME!"
-de = ""
+de = "Ihr entkommt rechtzeitig!"
 
 [[text]]
 id = "M065_070"
 befehl = ["PRINTCLEAR"]
 en = "THE BODY HOLDS A HOMING RADIO WHICH YOU PICK UP."
-de = ""
+de = "Bei der Leiche liegt ein Peilsender, den ihr einsteckt."
 
 [[text]]
 id = "M065_071"
 befehl = ["PRINTCLEAR"]
 en = "INSIDE YOU FIND A PALLET FULL OF POWERFUL EXPLOSIVES. YOU HAUL THEM ALONG."
-de = ""
+de = "Drinnen findet ihr eine Palette mit starkem Sprengstoff. Ihr nehmt ihn mit."

@@ -6,520 +6,520 @@
 id = "M067_000"
 befehl = ["PRINTCLEAR"]
 en = "RAM FORCES ATTACK."
-de = ""
+de = "RAM-Truppen greifen an."
 
 [[text]]
 id = "M067_001"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT ATTACKS."
-de = ""
+de = "Ein Roboter greift an."
 
 [[text]]
 id = "M067_002"
 befehl = ["PRINTCLEAR"]
 en = "RAM HAS A RECEPTION COMMITTEE WAITING FOR YOU."
-de = ""
+de = "RAM hat ein Empfangskomitee für euch bereit."
 
 [[text]]
 id = "M067_003"
 befehl = ["PRINTCLEAR"]
 en = "A VOICE ECHOES THROUGH THE TUNNELS, 'I AM COMMANDER GILBERT. YOU ARE AS FORMIDABLE AS YOUR REPORT INDICATES. YOU HAVE NOW MET YOUR MATCH.'"
-de = ""
+de = "Eine Stimme hallt durch die Tunnel: 'Ich bin Kommandantin Gilbert. Sie sind gefährlich, wie Ihre Akte sagt. Hier treffen Sie Ihren Meister.'"
 
 [[text]]
 id = "M067_004"
 befehl = ["PRINTCLEAR"]
 en = "A HORDE OF RABID DESERT APES IS DRIVEN FORWARD BY A ROBOT."
-de = ""
+de = "Ein Roboter treibt eine Horde tollwütiger Wüstenaffen vor sich her."
 
 [[text]]
 id = "M067_005"
 befehl = ["PRINTCLEAR"]
 en = "GILBERT LAUGHS, 'A PRESENT FROM THE HOMELAND. YOUR PRIMITIVE IS NOT HERE.'"
-de = ""
+de = "Gilbert lacht: 'Ein Gruß aus der Heimat. Ihr Primitiver ist nicht hier.'"
 
 [[text]]
 id = "M067_006"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER SAYS, 'GETTING WARMER, BUT WRONG.' ANOTHER MINE EXPLODES."
-de = ""
+de = "Die Kommandantin sagt: 'Schon wärmer, aber falsch.' Wieder explodiert eine Mine."
 
 [[text]]
 id = "M067_007"
 befehl = ["PRINTCLEAR"]
 en = "RAM WARRIORS RUSH IN FROM THE OPPOSITE DOOR."
-de = ""
+de = "RAM-Krieger stürmen durch die gegenüberliegende Tür herein."
 
 [[text]]
 id = "M067_008"
 befehl = ["PRINTCLEAR"]
 en = "A COMMANDER SPEAKS, 'TALON, FOR YOUR FAILURES THIS BASE IS CONFISCATED AND YOUR LIFE FORFEIT.'"
-de = ""
+de = "Ein Kommandant spricht: 'Talon, wegen deines Versagens wird diese Basis beschlagnahmt, und dein Leben ist verwirkt.'"
 
 [[text]]
 id = "M067_009"
 befehl = ["PRINTCLEAR"]
 en = "SOMEONE WHISPERS IN HIS EAR. HE LOOKS STARTLED. 'WELL KILL WHOEVER THEY ARE ANYWAY.' HE LEAVES."
-de = ""
+de = "Jemand flüstert ihm etwas ins Ohr. Er schreckt auf. 'Nun, tötet sie trotzdem, wer immer sie sind.' Er geht."
 
 [[text]]
 id = "M067_010"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER LOOKS STARTLED WHEN YOU ENTER. 'THIS IS HIGHLY IRREGULAR.'"
-de = ""
+de = "Der Kommandant schreckt auf, als ihr eintretet. 'Das ist höchst ungewöhnlich.'"
 
 [[text]]
 id = "M067_011"
 befehl = ["PRINTCLEAR"]
 en = "HE TURNS TO HIS MEN. 'DISPOSE OF THEM. I HAVE A TREASURE TO LOCATE.' HE LEAVES."
-de = ""
+de = "Er wendet sich an seine Männer. 'Beseitigt sie. Ich muss einen Schatz finden.' Er geht."
 
 [[text]]
 id = "M067_012"
 befehl = ["PRINTCLEAR"]
 en = "DOG GENNIES ATTACK."
-de = ""
+de = "Hundegennies greifen an."
 
 [[text]]
 id = "M067_013"
 befehl = ["PRINTCLEAR"]
 en = "THIS ROOM ONCE CONTAINED BUNKS. SHREDDED BEDDING AND BROKEN FRAMES FLOAT AT RANDOM."
-de = ""
+de = "Hier standen einmal Kojen. Zerfetztes Bettzeug und zerbrochene Gestelle schweben umher."
 
 [[text]]
 id = "M067_014"
 befehl = ["PRINTCLEAR"]
 en = "THE ROOM IS FULL OF ROBOT MAINTENANCE EQUIPMENT. NO ROBOTS ARE IN EVIDENCE."
-de = ""
+de = "Der Raum ist voller Roboter-Wartungsgeräte. Roboter sind keine zu sehen."
 
 [[text]]
 id = "M067_015"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS AN OLD MINE AREA. OLD TAILINGS FLOAT IN THE AIR."
-de = ""
+de = "Dies ist ein alter Minenbereich. Alter Abraum schwebt in der Luft."
 
 [[text]]
 id = "M067_016"
 befehl = ["PRINTCLEAR"]
 en = "TECHNICIANS ARE WORKING HERE. GUARDS TURN AND ATTACK."
-de = ""
+de = "Hier arbeiten Techniker. Wachen drehen sich um und greifen an."
 
 [[text]]
 id = "M067_017"
 befehl = ["PRINT"]
 en = " REALIZES THAT THIS CONSOLE IS RELAYING INFORMATION TO SOMETHING NEARBY. YOU CANNOT PINPOINT THE TARGET."
-de = ""
+de = " erkennt, dass diese Konsole Daten an etwas in der Nähe weiterleitet. Das Ziel lässt sich nicht genau bestimmen."
 
 [[text]]
 id = "M067_018"
 befehl = ["SAVE"]
 en = "COMMUNICATIONS"
-de = ""
+de = "Funk"
 
 [[text]]
 id = "M067_019"
 befehl = ["PRINT"]
 en = " NOTES THAT THIS INTERNAL SENSOR SYSTEM IS FEEDING INFORMATION TO THE CONSOLE TO ITS RIGHT."
-de = ""
+de = " bemerkt, dass dieses interne Sensorsystem Daten an die Konsole rechts davon liefert."
 
 [[text]]
 id = "M067_020"
 befehl = ["SAVE"]
 en = "SENSOR"
-de = ""
+de = "Sensoren"
 
 [[text]]
 id = "M067_021"
 befehl = ["SAVE"]
 en = "WEAPONS"
-de = ""
+de = "Waffen"
 
 [[text]]
 id = "M067_022"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER SCUTTLES THROUGH THE FAR DOOR. HIS GUARDS ATTACK."
-de = ""
+de = "Der Kommandant huscht durch die hintere Tür. Seine Wachen greifen an."
 
 [[text]]
 id = "M067_023"
 befehl = ["PRINTCLEAR"]
 en = "MORE FORCES ATTACK."
-de = ""
+de = "Weitere Truppen greifen an."
 
 [[text]]
 id = "M067_024"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER MARSHALS HIS PERSONAL FORCES."
-de = ""
+de = "Der Kommandant sammelt seine Leibwache."
 
 [[text]]
 id = "M067_025"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER COWERS UNDER THE FAR CONSOLE."
-de = ""
+de = "Der Kommandant kauert unter der hinteren Konsole."
 
 [[text]]
 id = "M067_026"
 befehl = ["PRINTCLEAR"]
 en = "A VOICE ISSUES FROM THE CONSOLE, 'I'M GLAD TO SEE MY ENEMIES FIGHTING."
-de = ""
+de = "Eine Stimme dringt aus der Konsole: 'Wie schön, meine Feinde kämpfen zu sehen."
 
 [[text]]
 id = "M067_027"
 befehl = ["PRINTCLEAR"]
 en = "'LITTLE TREASURE REMAINS, BUT YOU MAY HAVE IT ALL!' HE LAUGHS WILDLY."
-de = ""
+de = "'Vom Schatz ist wenig übrig, aber ihr dürft alles haben!' Er lacht irre."
 
 [[text]]
 id = "M067_028"
 befehl = ["PRINTCLEAR"]
 en = "HIDDEN WALL PANELS SLIDE OPEN. A ROBOT SCUTTLES OUT AND BLASTS THE COMMANDER TO ASHES."
-de = ""
+de = "Verborgene Wandplatten gleiten auf. Ein Roboter huscht heraus und verbrennt den Kommandanten zu Asche."
 
 [[text]]
 id = "M067_029"
 befehl = ["PRINTCLEAR"]
 en = "'READINGS INDICATE HIGH RADIATION. THIS IS DEFINITELY A RADIUM MINE. DON'T WASTE TIME!'"
-de = ""
+de = "'Die Messwerte zeigen hohe Strahlung. Das ist eindeutig eine Radiummine. Verliert keine Zeit!'"
 
 [[text]]
 id = "M067_030"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT INTONES, 'THIS IS A RESTRICTED AREA. I WILL USE DEADLY FORCE.'"
-de = ""
+de = "Ein Roboter verkündet: 'Sperrgebiet. Ich wende tödliche Gewalt an.'"
 
 [[text]]
 id = "M067_031"
 befehl = ["PRINTCLEAR"]
 en = "AN ALARM HAS BEEN RAISED. ROBOTS CONVERGE ON YOU."
-de = ""
+de = "Ein Alarm wurde ausgelöst. Roboter rücken von allen Seiten an."
 
 [[text]]
 id = "M067_032"
 befehl = ["PRINTCLEAR"]
 en = "THE WALLS ARE MARKED WITH RADIATION SIGNS. YOUR SKIN PRICKLES."
-de = ""
+de = "An den Wänden prangen Strahlenwarnzeichen. Eure Haut kribbelt."
 
 [[text]]
 id = "M067_033"
 befehl = ["PRINTCLEAR"]
 en = "HAIRLESS BODIES ARE VIRTUALLY MUMMIFIED IN THE DRY AIR."
-de = ""
+de = "Haarlose Körper sind in der trockenen Luft fast mumifiziert."
 
 [[text]]
 id = "M067_034"
 befehl = ["PRINTCLEAR"]
 en = "A MAN IS CRUSHED BETWEEN TWO BOULDERS. HE HAS SOME EQUIPMENT."
-de = ""
+de = "Ein Mann liegt zerquetscht zwischen zwei Felsbrocken. Er hat etwas Ausrüstung bei sich."
 
 [[text]]
 id = "M067_035"
 befehl = ["PRINTCLEAR"]
 en = "ANOTHER ROBOT BLOCKS YOUR PATH."
-de = ""
+de = "Ein weiterer Roboter versperrt euch den Weg."
 
 [[text]]
 id = "M067_036"
 befehl = ["PRINTCLEAR"]
 en = "THIS RADIATION MONITOR IS WELL INTO THE FATAL RANGE."
-de = ""
+de = "Dieser Strahlenmesser steht tief im tödlichen Bereich."
 
 [[text]]
 id = "M067_037"
 befehl = ["PRINTCLEAR"]
 en = "THIS CONSOLE CONTROLS AN INTERNAL DEFENSE MECHANISM. DO YOU WANT TO REPROGRAM IT TO ACCEPT YOU?"
-de = ""
+de = "Diese Konsole steuert eine interne Abwehranlage. Wollt ihr sie so umprogrammieren, dass sie euch akzeptiert?"
 
 [[text]]
 id = "M067_038"
 befehl = ["PRINT"]
 en = " SUCCEEDS. THE SYSTEM RECOGNIZES YOU AS FRIENDLY."
-de = ""
+de = " gelingt es. Das System erkennt euch als freundlich."
 
 [[text]]
 id = "M067_039"
 befehl = ["PRINTCLEAR"]
 en = "YOU PROVE UNSUCCESSFUL. A ROBOT IS ALERTED."
-de = ""
+de = "Es misslingt. Ein Roboter wird alarmiert."
 
 [[text]]
 id = "M067_040"
 befehl = ["PRINTCLEAR"]
 en = "AN AUTOMATIC DEFENSE SYSTEM LOCKS ONTO YOU AND FIRES."
-de = ""
+de = "Eine automatische Abwehranlage erfasst euch und feuert."
 
 [[text]]
 id = "M067_041"
 befehl = ["PRINTCLEAR"]
 en = "THE WEAPONS DRIVE YOU BACK."
-de = ""
+de = "Die Waffen treiben euch zurück."
 
 [[text]]
 id = "M067_042"
 befehl = ["PRINTCLEAR"]
 en = "THE WEAPONS REMAIN INACTIVE."
-de = ""
+de = "Die Waffen bleiben still."
 
 [[text]]
 id = "M067_043"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND JASON DUPARE. HE IS EXTREMELY EMACIATED. 'RAM IS BUILDING A DEADLY DEVICE OVER MERCURY. WARN NEO.'"
-de = ""
+de = "Ihr findet Jason Dupare. Er ist völlig abgemagert. 'RAM baut eine tödliche Waffe über dem Merkur. Warnt die NEO.'"
 
 [[text]]
 id = "M067_044"
 befehl = ["PRINTCLEAR"]
 en = "HE FAINTS AND YOU CARRY HIM."
-de = ""
+de = "Er wird ohnmächtig, und ihr tragt ihn."
 
 [[text]]
 id = "M067_045"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND ANOTHER WEAK PRISONER HERE. HE THANKS YOU PROFUSELY."
-de = ""
+de = "Hier findet ihr einen weiteren geschwächten Gefangenen. Er dankt euch überschwänglich."
 
 [[text]]
 id = "M067_046"
 befehl = ["PRINTCLEAR"]
 en = "'INTRUDER ALERT!' AS YOU ENTER THE CRUDE BASE, ALARMS BLARE. A WALL PANEL OPENS AND A ROBOT EMERGES."
-de = ""
+de = "'Eindringlingsalarm!' Als ihr die primitive Basis betretet, heulen Alarme. Eine Wandplatte öffnet sich, ein Roboter kommt heraus."
 
 [[text]]
 id = "M067_047"
 befehl = ["PRINTCLEAR"]
 en = "ALARMS CONTINUE TO BLARE."
-de = ""
+de = "Die Alarme heulen weiter."
 
 [[text]]
 id = "M067_048"
 befehl = ["PRINTCLEAR"]
 en = "THE WALLS ARE LINED WITH CAGED DESERT APES. THEIR TRAINER OPENS THE CAGES AND RUNS AWAY."
-de = ""
+de = "An den Wänden stehen Käfige mit Wüstenaffen. Ihr Wärter öffnet die Käfige und rennt davon."
 
 [[text]]
 id = "M067_049"
 befehl = ["PRINTCLEAR"]
 en = "SHRIEKING DESERT APES THROW HANDFULS OF DIRT AND PEBBLES AT THE TEAM, THEN RUN AWAY."
-de = ""
+de = "Kreischende Wüstenaffen werfen Hände voll Erde und Kieseln auf das Team und rennen dann weg."
 
 [[text]]
 id = "M067_050"
 befehl = ["PRINTCLEAR"]
 en = "THE DESERT APES COWER AGAINST THE FAR WALL OF THE CAGE."
-de = ""
+de = "Die Wüstenaffen kauern an der hinteren Käfigwand."
 
 [[text]]
 id = "M067_051"
 befehl = ["PRINTCLEAR"]
 en = "DESERT APES WATCH YOU PITEOUSLY FROM TINY, DIRTY CAGES. OPEN THE CAGES?"
-de = ""
+de = "Wüstenaffen schauen euch jämmerlich aus winzigen, schmutzigen Käfigen an. Käfige öffnen?"
 
 [[text]]
 id = "M067_052"
 befehl = ["PRINTCLEAR"]
 en = "THE APES SWING OVER YOUR HEADS AND ATTACK!"
-de = ""
+de = "Die Affen schwingen sich über eure Köpfe und greifen an!"
 
 [[text]]
 id = "M067_053"
 befehl = ["PRINTCLEAR"]
 en = "THIS ROOM IS FULL OF BACKUP COMMUNICATIONS EQUIPMENT. IT IS GUARDED BY A ROBOT!"
-de = ""
+de = "Der Raum ist voller Ersatz-Funkgeräte. Ein Roboter bewacht ihn!"
 
 [[text]]
 id = "M067_054"
 befehl = ["PRINTCLEAR"]
 en = "YOU SMASH THE BACKUP EQUIPMENT."
-de = ""
+de = "Ihr zertrümmert die Ersatzgeräte."
 
 [[text]]
 id = "M067_055"
 befehl = ["PRINTCLEAR"]
 en = "YOU STARTLE THE BASE COMMANDER. HE RETREATS THROUGH THE FAR DOOR, LEAVING HIS GUARDS TO FIGHT."
-de = ""
+de = "Ihr erschreckt den Basiskommandanten. Er flieht durch die hintere Tür und lässt seine Wachen kämpfen."
 
 [[text]]
 id = "M067_056"
 befehl = ["PRINTCLEAR"]
 en = "YOU USE THE CONTROL PANEL TO CONTACT NEO. THEY CONGRATULATE YOU AND BEGIN TO REVIEW PAST COMMUNICATIONS FOR SECURITY LEAKS."
-de = ""
+de = "Über das Pult ruft ihr die NEO. Sie gratuliert euch und prüft frühere Funksprüche auf Sicherheitslecks."
 
 [[text]]
 id = "M067_057"
 befehl = ["PRINTCLEAR"]
 en = "WHEN YOUR TRANSMISSION IS COMPLETE, YOU SMASH THE PANEL."
-de = ""
+de = "Nach der Übertragung zertrümmert ihr das Pult."
 
 [[text]]
 id = "M067_058"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER HASTENS THROUGH ANOTHER DOOR. A GUARD ROBOT INTERRUPTS YOUR PURSUIT."
-de = ""
+de = "Der Kommandant hastet durch eine andere Tür. Ein Wachroboter stellt sich euch in den Weg."
 
 [[text]]
 id = "M067_059"
 befehl = ["PRINTCLEAR"]
 en = "YOU SMASH MORE COMMUNICATIONS EQUIPMENT."
-de = ""
+de = "Ihr zertrümmert weitere Funkgeräte."
 
 [[text]]
 id = "M067_060"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER FLEES INTO YET ANOTHER ROOM. NO GUARDS ARE PRESENT. YOU DESTROY THE EQUIPMENT IN THE ROOM."
-de = ""
+de = "Der Kommandant flieht in noch einen Raum. Keine Wachen da. Ihr zerstört die Geräte im Raum."
 
 [[text]]
 id = "M067_061"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER SUMMONS THE LAST OF HIS GUARDS, A SMALL GROUP OF UNPREPARED TECHNICIANS."
-de = ""
+de = "Der Kommandant ruft seine letzten Wachen: eine kleine Gruppe überrumpelter Techniker."
 
 [[text]]
 id = "M067_062"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER TRIES TO SHIELD HIMSELF BEHIND THE LAST OF THE COMMUNICATIONS EQUIPMENT."
-de = ""
+de = "Der Kommandant versucht, sich hinter den letzten Funkgeräten zu verschanzen."
 
 [[text]]
 id = "M067_063"
 befehl = ["PRINTCLEAR"]
 en = "YOU ANNIHILATE HIM AND THE EQUIPMENT IN A BARRAGE OF FIRE."
-de = ""
+de = "In einem Feuerhagel vernichtet ihr ihn samt den Geräten."
 
 [[text]]
 id = "M067_064"
 befehl = ["PRINTCLEAR"]
 en = "SAND SQUIDS ARE BEING USED TO DRILL TUNNELS IN THE ASTEROID. THEIR TRAINERS DIRECT THEM TOWARDS THE TEAM."
-de = ""
+de = "Mit Sandkraken werden Tunnel in den Asteroiden gebohrt. Ihre Wärter hetzen sie auf das Team."
 
 [[text]]
 id = "M067_065"
 befehl = ["PRINTCLEAR"]
 en = "YOU NOTICE A CACHE OF HIDDEN GRENADES."
-de = ""
+de = "Ihr entdeckt ein Versteck mit Granaten."
 
 [[text]]
 id = "M067_066"
 befehl = ["PRINTCLEAR"]
 en = "FROM YOUR RIGHT COMES SNIPER FIRE."
-de = ""
+de = "Von rechts kommt Scharfschützenfeuer."
 
 [[text]]
 id = "M067_067"
 befehl = ["PRINTCLEAR"]
 en = "YOU CATCH UP WITH THE SNIPERS. FROM BEHIND, MORE ENEMY APPEAR."
-de = ""
+de = "Ihr holt die Scharfschützen ein. Von hinten tauchen weitere Feinde auf."
 
 [[text]]
 id = "M067_068"
 befehl = ["PRINTCLEAR"]
 en = "THE COMMANDER'S SWEET VOICE PURRS, 'SO MUCH EFFORT TO RESCUE A PRIMITIVE. THAT IS WHY RAM SHALL PROVE VICTORIOUS.'"
-de = ""
+de = "Die süße Stimme der Kommandantin schnurrt: 'So viel Mühe, um einen Primitiven zu retten. Darum wird RAM siegen.'"
 
 [[text]]
 id = "M067_069"
 befehl = ["PRINTCLEAR"]
 en = "ROBOTS EMERGE FROM BENEATH THE TUNNEL. GILBERT LAUGHS, 'ARE THINGS GETTING WARMER?'"
-de = ""
+de = "Unter dem Tunnel kommen Roboter hervor. Gilbert lacht: 'Wird es schon wärmer?'"
 
 [[text]]
 id = "M067_070"
 befehl = ["PRINTCLEAR"]
 en = "A MINE EXPLODES!"
-de = ""
+de = "Eine Mine explodiert!"
 
 [[text]]
 id = "M067_071"
 befehl = ["PRINTCLEAR"]
 en = "COMBAT GENNIES ATTACK."
-de = ""
+de = "Kampfgennies greifen an."
 
 [[text]]
 id = "M067_072"
 befehl = ["PRINTCLEAR"]
 en = "'YOU ARE PERSISTENT! AND GETTING WARMER!' AN AMUSED VOICE LAUGHS."
-de = ""
+de = "'Sie sind hartnäckig! Und es wird wärmer!' Eine amüsierte Stimme lacht."
 
 [[text]]
 id = "M067_073"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT CUTS OFF YOUR ESCAPE."
-de = ""
+de = "Ein Roboter schneidet euch den Fluchtweg ab."
 
 [[text]]
 id = "M067_074"
 befehl = ["PRINTCLEAR"]
 en = "COMMANDER GILBERT IS HERE HOLDING ATHA. A CAGED DESERT APE IS BEHIND THEM."
-de = ""
+de = "Kommandantin Gilbert ist hier und hält Atha fest. Hinter ihnen ist ein Wüstenaffe im Käfig."
 
 [[text]]
 id = "M067_075"
 befehl = ["PRINTCLEAR"]
 en = "GILBERT TOSSES ATHA INTO THE CAGE AND SAYS, 'ALL YOUR EFFORT WAS FOR NOUGHT! WATCH HER DEATH AND LEARN RAM'S STRENGTH!'"
-de = ""
+de = "Gilbert stößt Atha in den Käfig. 'All Ihre Mühe war umsonst! Sehen Sie sie sterben und erkennen Sie RAMs Stärke!'"
 
 [[text]]
 id = "M067_076"
 befehl = ["PRINTCLEAR"]
 en = "A CLEAR SHIELD DESCENDS IN FRONT OF GILBERT AND GUNS POP FROM THE WALLS. SHE READIES A CONTROL BOX. 'HAVE ONE LAST BATTLE. THEN YOU DIE!'"
-de = ""
+de = "Vor Gilbert senkt sich ein Schutzschild, aus den Wänden fahren Geschütze. Sie hebt ein Steuergerät. 'Ein letzter Kampf, dann der Tod!'"
 
 [[text]]
 id = "M067_077"
 befehl = ["PRINTCLEAR"]
 en = "A ROBOT ENTERS."
-de = ""
+de = "Ein Roboter tritt ein."
 
 [[text]]
 id = "M067_078"
 befehl = ["PRINTCLEAR"]
 en = "GILBERT SMILES AND HER FINGER DESCENDS TOWARD THE BUTTON."
-de = ""
+de = "Gilbert lächelt, ihr Finger senkt sich auf den Knopf."
 
 [[text]]
 id = "M067_079"
 befehl = ["PRINTCLEAR"]
 en = "A PUZZLED EXPRESSION CROSSES HER FACE AND SHE COLLAPSES. ATHA IS BEHIND HER, HOLDING THE BROKEN ARM SPIKE OF THE APE."
-de = ""
+de = "Verwirrung huscht über ihr Gesicht, und sie bricht zusammen. Hinter ihr steht Atha mit dem abgebrochenen Armdorn des Affen."
 
 [[text]]
 id = "M067_080"
 befehl = ["PRINTCLEAR"]
 en = "SHE SMILES AND PLAYS WITH THE SPIKE. 'SHE OVERESTIMATED THE APE'S STRENGTH.'"
-de = ""
+de = "Sie lächelt und spielt mit dem Dorn. 'Sie hat die Kraft des Affen überschätzt.'"
 
 [[text]]
 id = "M067_081"
 befehl = ["PRINTCLEAR"]
 en = "'I REQUIRE YOUR HELP IN GETTING TO AN OUTPOST. FRIENDS WILL HELP ME BACK TO MARS.'"
-de = ""
+de = "'Ich brauche eure Hilfe, um zu einem Außenposten zu kommen. Freunde bringen mich zurück zum Mars.'"
 
 [[text]]
 id = "M067_082"
 befehl = ["PRINTCLEAR"]
 en = "DESPITE HER BRAVADO, ATHA IS BADLY WOUNDED AND YOU AID HER TO THE SHIP. SHE BEGRUDGINGLY THANKS YOU. THE BOX OPENS THE AIRLOCK."
-de = ""
+de = "Trotz ihrer Prahlerei ist Atha schwer verwundet. Ihr helft ihr zum Schiff. Widerwillig dankt sie euch. Das Gerät öffnet die Schleuse."
 
 [[text]]
 id = "M067_083"
 befehl = ["PRINTCLEAR"]
 en = "DO YOU WISH TO RETURN TO YOUR SHIP?"
-de = ""
+de = "Wollt ihr zu eurem Schiff zurück?"
 
 [[text]]
 id = "M067_084"
 befehl = ["PRINTCLEAR"]
 en = "THE LOCK IS SEALED. YOU WILL NEED TO FIND THE CONTROLS TO OPEN IT."
-de = ""
+de = "Die Schleuse ist verriegelt. Ihr müsst die Steuerung finden, um sie zu öffnen."
 
 [[text]]
 id = "M067_085"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS AN INACTIVE "
-de = ""
+de = "Dies ist eine abgeschaltete Konsole: "
 
 [[text]]
 id = "M067_086"
 befehl = ["PRINT"]
 en = " CONSOLE."
-de = ""
+de = "."

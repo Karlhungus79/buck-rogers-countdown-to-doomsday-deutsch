@@ -6,163 +6,163 @@
 id = "M080_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU LAND ON VENUS AND LEAVE YOUR SHIP. YOU ARE SURROUNDED BY GIANT FLOWERS, TREES AND MUSHROOMS."
-de = ""
+de = "Ihr landet auf der Venus und verlasst euer Schiff. Um euch stehen riesige Blumen, Bäume und Pilze."
 
 [[text]]
 id = "M080_001"
 befehl = ["PRINTCLEAR"]
 en = "ACCORDING TO SCOT.DOS, A LOWLANDER VILLAGE LIES BEYOND THE ACID SWAMP TO THE NORTH."
-de = ""
+de = "Laut Scot.DOS liegt ein Tiefländer-Dorf hinter dem Säuresumpf im Norden."
 
 [[text]]
 id = "M080_002"
 befehl = ["PRINTCLEAR"]
 en = "RAM GLIDERS DO PRACTICE EXERCISES FAR ABOVE."
-de = ""
+de = "Hoch über euch üben RAM-Gleiter."
 
 [[text]]
 id = "M080_003"
 befehl = ["PRINTCLEAR"]
 en = "RAM WARRIORS SPOT YOU AND ATTACK!"
-de = ""
+de = "RAM-Krieger entdecken euch und greifen an!"
 
 [[text]]
 id = "M080_004"
 befehl = ["PRINTCLEAR"]
 en = "ACID FROGS COME TO YOUR AID!"
-de = ""
+de = "Säurefrösche kommen euch zu Hilfe!"
 
 [[text]]
 id = "M080_005"
 befehl = ["PRINTCLEAR"]
 en = "A SWARM OF SWAMP HORNETS ATTACKS THE TEAM!"
-de = ""
+de = "Ein Schwarm Sumpfhornissen greift das Team an!"
 
 [[text]]
 id = "M080_006"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS FOLLOWING YOUR TEAM UNEARTH A HIVE OF SWAMP HORNETS, AND A FIERCE BATTLE ENSUES. JOIN THE FIGHT?"
-de = ""
+de = "Die Säurefrösche, die eurem Team folgen, graben ein Nest Sumpfhornissen aus. Ein heftiger Kampf entbrennt. Mitkämpfen?"
 
 [[text]]
 id = "M080_007"
 befehl = ["PRINTCLEAR"]
 en = "THE SWAMP HORNETS ARE QUICKLY CONSUMED BY THE ACID FROGS."
-de = ""
+de = "Die Sumpfhornissen werden von den Säurefröschen rasch verschlungen."
 
 [[text]]
 id = "M080_008"
 befehl = ["PRINTCLEAR"]
 en = "YOU'VE STUMBLED INTO A DEN OF URSADDERS!"
-de = ""
+de = "Ihr seid in eine Höhle voller Ursadder gestolpert!"
 
 [[text]]
 id = "M080_009"
 befehl = ["PRINTCLEAR"]
 en = "AN URSADDER REARS UP, HISSING AND GROWLING. BEHIND HER IS A TEEMING NEST FILLED WITH HER YOUNG. BACK AWAY?"
-de = ""
+de = "Eine Ursadder bäumt sich zischend und knurrend auf. Hinter ihr wimmelt ein Nest voller Junger. Zurückweichen?"
 
 [[text]]
 id = "M080_010"
 befehl = ["PRINTCLEAR"]
 en = "SHE LASHES OUT AS YOU RETREAT!"
-de = ""
+de = "Sie schlägt zu, als ihr zurückweicht!"
 
 [[text]]
 id = "M080_011"
 befehl = ["PRINTCLEAR"]
 en = "YOU SLOWLY BACK AWAY."
-de = ""
+de = "Ihr weicht langsam zurück."
 
 [[text]]
 id = "M080_012"
 befehl = ["PRINTCLEAR"]
 en = "FROM OUT OF NOWHERE ARRIVE A HERD OF ACID FROGS."
-de = ""
+de = "Aus dem Nichts taucht eine Herde Säurefrösche auf."
 
 [[text]]
 id = "M080_013"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR LOUD CROAKING FROM THE DIRECTION OF THE ACID LAKE."
-de = ""
+de = "Vom Säuresee her hört ihr lautes Quaken."
 
 [[text]]
 id = "M080_014"
 befehl = ["PRINTCLEAR"]
 en = "A HOLLOW STUMP CONTAINS CHOPPED-UP SWAMP HORNETS AND SWAMP SLUGS. IT APPEARS TO BE A SHRINE TO THE ACID FROGS."
-de = ""
+de = "In einem hohlen Baumstumpf liegen zerhackte Sumpfhornissen und Sumpfschnecken. Es scheint ein Schrein der Säurefrösche zu sein."
 
 [[text]]
 id = "M080_015"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A MAKESHIFT SHELTER HERE. INVESTIGATE?"
-de = ""
+de = "Hier ist ein behelfsmäßiger Unterschlupf. Untersuchen?"
 
 [[text]]
 id = "M080_016"
 befehl = ["PRINTCLEAR"]
 en = "YOU LEAVE."
-de = ""
+de = "Ihr geht."
 
 [[text]]
 id = "M080_017"
 befehl = ["PRINTCLEAR"]
 en = "ROBOTS POUR OUT OF THE SHELTER AND ATTACK!"
-de = ""
+de = "Roboter strömen aus dem Unterschlupf und greifen an!"
 
 [[text]]
 id = "M080_018"
 befehl = ["PRINTCLEAR"]
 en = "YOU STARTLE A GROUP OF LOWLANDERS. THEY FLEE BEFORE YOU CAN SPEAK TO THEM."
-de = ""
+de = "Ihr erschreckt eine Gruppe Tiefländer. Sie fliehen, bevor ihr mit ihnen reden könnt."
 
 [[text]]
 id = "M080_019"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND THE BODIES OF A GROUP OF SLAUGHTERED LOWLANDERS."
-de = ""
+de = "Ihr findet die Leichen einer Gruppe abgeschlachteter Tiefländer."
 
 [[text]]
 id = "M080_020"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE IN THE MOUNTAINS."
-de = ""
+de = "Ihr seid in den Bergen."
 
 [[text]]
 id = "M080_021"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE IN SOME SHALLOW WATER."
-de = ""
+de = "Ihr seid in seichtem Wasser."
 
 [[text]]
 id = "M080_022"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE IN A FOREST."
-de = ""
+de = "Ihr seid in einem Wald."
 
 [[text]]
 id = "M080_023"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE SLOGGING THROUGH A SWAMP."
-de = ""
+de = "Ihr stapft durch einen Sumpf."
 
 [[text]]
 id = "M080_024"
 befehl = ["PRINTCLEAR"]
 en = "YOU FACE THE MAIN GATE OF A LOWLANDER VILLAGE. THE JUNGLE IS STRANGELY QUIET. ENTER THE VILLAGE?"
-de = ""
+de = "Vor euch liegt das Haupttor eines Tiefländer-Dorfs. Der Dschungel ist seltsam still. Ins Dorf gehen?"
 
 [[text]]
 id = "M080_025"
 befehl = ["PRINTCLEAR"]
 en = "YOU FACE THE ENTRANCE TO THE DEMOLISHED LOWLANDER VILLAGE. ENTER THE VILLAGE?"
-de = ""
+de = "Vor euch liegt der Eingang des zerstörten Tiefländer-Dorfs. Ins Dorf gehen?"
 
 [[text]]
 id = "M080_026"
 befehl = ["PRINTCLEAR"]
 en = "YOUR SHIP IS HERE. LEAVE VENUS?"
-de = ""
+de = "Hier steht euer Schiff. Die Venus verlassen?"
 
 [[text]]
 id = "M080_027"
@@ -174,7 +174,7 @@ de = ""
 id = "M080_028"
 befehl = ["PRINTCLEAR"]
 en = "'I MUSST SSTAY BEHIND TO ORGANIZE A LOWLANDER RESSISSTANCE TO RAM. FAREWELL.' LEANDER LEAVES."
-de = ""
+de = "'Ich mussss hhierbleiben und den Widersstand der Tiefländer gegen RAM organissieren. Lebt wohl.' Leander geht."
 
 [[text]]
 id = "M080_029"
@@ -186,330 +186,330 @@ de = ""
 id = "M080_030"
 befehl = ["PRINTCLEAR"]
 en = "ZANE IS FRIGHTENED OF YOUR SHIP. HE RUNS AWAY AND IS LOST IN THE SWAMP."
-de = ""
+de = "Zane hat Angst vor eurem Schiff. Er rennt davon und verirrt sich im Sumpf."
 
 [[text]]
 id = "M080_031"
 befehl = ["PRINT"]
 en = " ZANE FOLLOWS HIM."
-de = ""
+de = " Zane folgt ihm."
 
 [[text]]
 id = "M080_032"
 befehl = ["PRINTCLEAR"]
 en = "THERE'S A MUCH-USED PATH INTO A CAVE OF OLD CABLES AND GIRDERS HERE. ENTER THE RUINS?"
-de = ""
+de = "Ein ausgetretener Pfad führt in eine Höhle aus alten Kabeln und Trägern. Die Ruinen betreten?"
 
 [[text]]
 id = "M080_033"
 befehl = ["PRINTCLEAR"]
 en = "THE RUINS ARE HERE. RE-ENTER THE RUINS?"
-de = ""
+de = "Hier sind die Ruinen. Wieder hineingehen?"
 
 [[text]]
 id = "M080_034"
 befehl = ["PRINTCLEAR"]
 en = "NESTLED BETWEEN TWO HILLS YOU SEE THE TOP OF A MOSTLY SUBTERRANEAN BUILDING. AN ENTRANCE IS CLOSE BY. WILL YOU ENTER?"
-de = ""
+de = "Zwischen zwei Hügeln seht ihr das Dach eines fast ganz unterirdischen Gebäudes. Ein Eingang ist nah. Hineingehen?"
 
 [[text]]
 id = "M080_035"
 befehl = ["PRINTCLEAR"]
 en = "YOU FACE THE ENTRANCE TO THE RAM BASE OF OPERATIONS ON VENUS. ENTER?"
-de = ""
+de = "Vor euch liegt der Eingang zur RAM-Einsatzbasis auf der Venus. Hineingehen?"
 
 [[text]]
 id = "M080_036"
 befehl = ["PRINTCLEAR"]
 en = "HOW WILL YOU APPROACH? "
-de = ""
+de = "Wie nähert ihr euch? "
 
 [[text]]
 id = "M080_037"
 befehl = ["HMENU"]
 menue = true
 en = "DIRECTLY"
-de = ""
+de = "Direkt"
 
 [[text]]
 id = "M080_038"
 befehl = ["HMENU"]
 menue = true
 en = "HIDE IN SHADOWS"
-de = ""
+de = "Im Schatten"
 
 [[text]]
 id = "M080_039"
 befehl = ["PRINTCLEAR"]
 en = "YOUR TEAM TRIES TO HIDE IN THE SHADOWS."
-de = ""
+de = "Euer Team versucht, sich im Schatten zu verbergen."
 
 [[text]]
 id = "M080_040"
 befehl = ["PRINTCLEAR"]
 en = "RAM HEAVY SECURITY ROBOTS EMERGE FROM THE STRUCTURE TO INTERCEPT YOU."
-de = ""
+de = "Schwere RAM-Sicherheitsroboter kommen aus dem Bau, um euch abzufangen."
 
 [[text]]
 id = "M080_041"
 befehl = ["PRINTCLEAR"]
 en = "ENTER THE STRUCTURE NOW? "
-de = ""
+de = "Jetzt das Gebäude betreten? "
 
 [[text]]
 id = "M080_042"
 befehl = ["PRINTCLEAR"]
 en = "NO ONE NOTICES YOUR APPROACH!"
-de = ""
+de = "Niemand bemerkt euch!"
 
 [[text]]
 id = "M080_043"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID LAKE BUBBLES AND STEAMS. NUMEROUS PAIRS OF GOGGLING EYES WATCH YOU FROM JUST ABOVE THE LAKE'S SURFACE."
-de = ""
+de = "Der Säuresee brodelt und dampft. Knapp über der Oberfläche glotzen euch viele Augenpaare an."
 
 [[text]]
 id = "M080_044"
 befehl = ["PRINTCLEAR"]
 en = "YOU'RE SURROUNDED BY MAN-SIZED ACID FROGS."
-de = ""
+de = "Ihr seid von mannsgroßen Säurefröschen umringt."
 
 [[text]]
 id = "M080_045"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M080_046"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M080_047"
 befehl = ["HMENU"]
 menue = true
 en = "BEFRIEND THE FROGS"
-de = ""
+de = "Anfreunden"
 
 [[text]]
 id = "M080_048"
 befehl = ["PRINTCLEAR"]
 en = "YOU START TO BACK AWAY, BUT THE LARGEST ACID FROG OF ALL IS BEHIND YOU."
-de = ""
+de = "Ihr wollt zurückweichen, doch hinter euch sitzt der größte Säurefrosch von allen."
 
 [[text]]
 id = "M080_049"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M080_050"
 befehl = ["HMENU"]
 menue = true
 en = "BEFRIEND THE FROGS"
-de = ""
+de = "Anfreunden"
 
 [[text]]
 id = "M080_051"
 befehl = ["WHO"]
 en = "WHO BEFRIENDS THE FROGS?"
-de = ""
+de = "Wer freundet sich mit den Fröschen an?"
 
 [[text]]
 id = "M080_052"
 befehl = ["PRINTCLEAR"]
 en = "SOMETHING YOU DID ENRAGED THE ACID FROGS."
-de = ""
+de = "Irgendetwas hat die Säurefrösche wütend gemacht."
 
 [[text]]
 id = "M080_053"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS RUB AGAINST YOU AFFECTIONATELY. THEY SEEM ANXIOUS TO STAY BY YOUR SIDE."
-de = ""
+de = "Die Säurefrösche reiben sich liebevoll an euch. Sie wollen offenbar bei euch bleiben."
 
 [[text]]
 id = "M080_054"
 befehl = ["PRINTCLEAR"]
 en = "THE ACID FROGS CROAK VICIOUSLY AND ATTACK THE TEAM!"
-de = ""
+de = "Die Säurefrösche quaken wütend und greifen das Team an!"
 
 [[text]]
 id = "M080_055"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE DRIVING IN AN ACID LAKE. YOU SHOULD GET OUT OF THE LAKE IMMEDIATELY."
-de = ""
+de = "Ihr fahrt in einem Säuresee. Ihr solltet sofort heraus."
 
 [[text]]
 id = "M080_056"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARE BURNED BY THE ACID IN THE LAKE."
-de = ""
+de = "Die Säure im See verbrennt euch."
 
 [[text]]
 id = "M080_057"
 befehl = ["PRINTCLEAR"]
 en = "A GROUP OF VENUSIAN LOWLANDERS LEAP FORWARD AND SURROUND THE TEAM."
-de = ""
+de = "Eine Gruppe venusianischer Tiefländer springt hervor und umzingelt das Team."
 
 [[text]]
 id = "M080_058"
 befehl = ["PRINTCLEAR"]
 en = "THEIR ELONGATED JAWS MAKE THEIR SPEECH AWKWARD. 'WHHO ARE YOU?' THEY DEMAND."
-de = ""
+de = "Ihre langen Kiefer machen ihre Sprache holprig. 'Wwer sseid ihr?', wollen sie wissen."
 
 [[text]]
 id = "M080_059"
 befehl = ["HMENU"]
 menue = true
 en = "ANSWER"
-de = ""
+de = "Antworten"
 
 [[text]]
 id = "M080_060"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M080_061"
 befehl = ["HMENU"]
 menue = true
 en = "RUN AWAY"
-de = ""
+de = "Weglaufen"
 
 [[text]]
 id = "M080_062"
 befehl = ["PRINTCLEAR"]
 en = "THE LOWLANDERS HAVE YOU SURROUNDED. ONE SPEAKS. 'TRYING TO ESSCAPE? THHAT PROVESS THAT YOU'RE WITHH RAM.'"
-de = ""
+de = "Die Tiefländer haben euch umzingelt. Einer spricht: 'Fluchtverssuch? Dass bewweisst, dass ihr zu RAM gehhört.'"
 
 [[text]]
 id = "M080_063"
 befehl = ["HMENU"]
 menue = true
 en = "TALK"
-de = ""
+de = "Reden"
 
 [[text]]
 id = "M080_064"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M080_065"
 befehl = ["PRINTCLEAR"]
 en = "THE LOWLANDERS SCOFF WHEN YOU SAY YOU'RE WITH NEO. 'WE'VE BEEN FOOLED BEFORE. SSURRENDER YOUR WEAPONSS.' DO YOU OBEY?"
-de = ""
+de = "Die Tiefländer spotten, als ihr sagt, ihr seid von der NEO. 'Wir wurden sschon getäuscht. Waffen hher.' Gehorcht ihr?"
 
 [[text]]
 id = "M080_066"
 befehl = ["PRINTCLEAR"]
 en = "THE LEADER HISSES AT YOU. 'YOU ARE OBVIOUSSLY RAM AGENTSS. PREPARE TO DIE!'"
-de = ""
+de = "Der Anführer zischt euch an: 'Ihr sseid offensichtlich RAM-Agenten. Macht euch bereit zu ssterben!'"
 
 [[text]]
 id = "M080_067"
 befehl = ["PRINTCLEAR"]
 en = "BEFORE EVENTS CAN ESCALATE FURTHER, BOTH YOU AND THE LOWLANDERS ARE SURPRISED BY A RAM AMBUSH!"
-de = ""
+de = "Bevor es weiter eskaliert, geraten ihr und die Tiefländer in einen Hinterhalt von RAM!"
 
 [[text]]
 id = "M080_068"
 befehl = ["PRINTCLEAR"]
 en = "THE LEADER SPEAKS. 'I AM LEANDER. I APOLOGIZZE FOR MISSTRUSSTING YOU. ALLOW ME TO JOIN YOU, AND HHELP IN YOUR BATTLESS AGAINSST RAM.'"
-de = ""
+de = "Der Anführer spricht: 'Ich bin Leander. Verzzeiht mein Misstrauen. Lasst mich mitkommen und euch im Kampf gegen RAM hhelfen.'"
 
 [[text]]
 id = "M080_069"
 befehl = ["PRINTCLEAR"]
 en = "ALLOW LEANDER TO JOIN?"
-de = ""
+de = "Leander mitnehmen?"
 
 [[text]]
 id = "M080_070"
 befehl = ["PRINTCLEAR"]
 en = "'ARE YOU SSURE? YOU'LL NEED MY HHHELP LATER.' ALLOW LEANDER TO JOIN?"
-de = ""
+de = "'Sseid ihr ssicher? Ihr werdet meine Hhhilfe noch brauchen.' Leander mitnehmen?"
 
 [[text]]
 id = "M080_071"
 befehl = ["PRINTCLEAR"]
 en = "LEANDER LEAVES."
-de = ""
+de = "Leander geht."
 
 [[text]]
 id = "M080_072"
 befehl = ["PRINTCLEAR"]
 en = "YOU MEET A FRIGHTENED LOWLANDER. 'ARE YOU RAM?' HE ASKS. DO YOU IDENTIFY YOURSELVES AS NEO?"
-de = ""
+de = "Ihr trefft einen verängstigten Tiefländer. 'Sseid ihr RAM?', fragt er. Gebt ihr euch als NEO zu erkennen?"
 
 [[text]]
 id = "M080_073"
 befehl = ["PRINTCLEAR"]
 en = "YOU TELL HIM YOU REPRESENT NEO. 'PLEASSE HELP! MY FAMILY ISS NEARBY, HIDING FROM RAM. WILL YOU HHELP USS?'"
-de = ""
+de = "Ihr sagt ihm, dass ihr zur NEO gehört. 'Bitte hhelft! Meine Familie versteckt ssich hier vor RAM. Hhelft ihr unss?'"
 
 [[text]]
 id = "M080_074"
 befehl = ["PRINTCLEAR"]
 en = "HE LEADS YOU TO HIS FAMILY. BEFORE YOU CAN ACT, RAM FORCES APPROACH. 'WE ONLY WANT THE LOWLANDERS,' THEY SAY."
-de = ""
+de = "Er führt euch zu seiner Familie. Doch RAM-Truppen rücken an. 'Wir wollen nur die Tiefländer', sagen sie."
 
 [[text]]
 id = "M080_075"
 befehl = ["HMENU"]
 menue = true
 en = "BACK AWAY"
-de = ""
+de = "Zurückweichen"
 
 [[text]]
 id = "M080_076"
 befehl = ["HMENU"]
 menue = true
 en = "FIGHT"
-de = ""
+de = "Kämpfen"
 
 [[text]]
 id = "M080_077"
 befehl = ["PRINTCLEAR"]
 en = "THE LOWLANDER RUNS AWAY."
-de = ""
+de = "Der Tiefländer rennt davon."
 
 [[text]]
 id = "M080_078"
 befehl = ["PRINTCLEAR"]
 en = "YOU HEAR SHOOTING. THE LOWLANDER RUNS TOWARDS THE SOUNDS. WILL YOU FOLLOW?"
-de = ""
+de = "Ihr hört Schüsse. Der Tiefländer rennt auf die Geräusche zu. Folgt ihr ihm?"
 
 [[text]]
 id = "M080_079"
 befehl = ["PRINTCLEAR"]
 en = "YOU BACK AWAY. "
-de = ""
+de = "Ihr weicht zurück. "
 
 [[text]]
 id = "M080_080"
 befehl = ["PRINT"]
 en = "YOU HEAR WEAPONS FIRING IN THE DISTANCE, THEN OMINOUS SILENCE."
-de = ""
+de = "In der Ferne hört ihr Waffenfeuer, dann unheilvolle Stille."
 
 [[text]]
 id = "M080_081"
 befehl = ["PRINTCLEAR"]
 en = "YOU RUSH TO THE DEFENSE OF THE LOWLANDERS."
-de = ""
+de = "Ihr eilt den Tiefländern zu Hilfe."
 
 [[text]]
 id = "M080_082"
 befehl = ["PRINTCLEAR"]
 en = "THE FAMILY THANKS YOU, BUT ARE RELUCTANT TO ANSWER ANY QUESTIONS. THEY HEAD TOWARDS THE ACID LAKE."
-de = ""
+de = "Die Familie dankt euch, will aber keine Fragen beantworten. Sie geht in Richtung Säuresee."

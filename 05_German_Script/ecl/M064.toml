@@ -6,328 +6,328 @@
 id = "M064_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU ESCAPE INTO THE WILDERNESS AND WATCH THE HEAVY TRANSPORTS LAND."
-de = ""
+de = "Ihr flieht in die Wildnis und seht zu, wie die schweren Transporter landen."
 
 [[text]]
 id = "M064_001"
 befehl = ["PRINTCLEAR"]
 en = "THE VILLAGE EXPLODES, CONSUMING THE ENEMY FORCES. THE DESERT RUNNERS CHEER."
-de = ""
+de = "Das Dorf explodiert und reißt die feindlichen Truppen mit. Die Wüstenläufer jubeln."
 
 [[text]]
 id = "M064_002"
 befehl = ["PRINTCLEAR"]
 en = "'WE HAVE SACRIFICED THE VILLAGE. NOW RAM SHALL PAY. THEY HAVE A BASE CALLED GRADIVUS MONS."
-de = ""
+de = "'Wir haben das Dorf geopfert. Jetzt soll RAM bezahlen. Sie haben eine Basis namens Gradivus Mons."
 
 [[text]]
 id = "M064_003"
 befehl = ["PRINTCLEAR"]
 en = "'IT HOUSES A DEADLY WEAPON. YOU HAVE SEEN THE MANY BURNED AREAS IN THE DESERT. EACH WAS ONCE ANOTHER VILLAGE."
-de = ""
+de = "'Dort steht eine tödliche Waffe. Ihr habt die vielen verbrannten Flächen in der Wüste gesehen. Jede war einmal ein Dorf."
 
 [[text]]
 id = "M064_004"
 befehl = ["PRINTCLEAR"]
 en = "'WE HAD SEEN THEM TESTING THEIR HUGE LASER, SO THEY DECIDED TO ELIMINATE ALL OF THE RUNNERS."
-de = ""
+de = "'Wir hatten gesehen, wie sie ihren riesigen Laser testeten. Darum wollten sie alle Wüstenläufer auslöschen."
 
 [[text]]
 id = "M064_005"
 befehl = ["PRINTCLEAR"]
 en = "'THE HILLS PROTECTED US FROM THE WEAPON, BUT NOT FROM RAM'S TROOPS. WE WILL NOW COLLECT THE SURVIVING VILLAGERS."
-de = ""
+de = "'Die Hügel schützten uns vor der Waffe, aber nicht vor RAMs Truppen. Wir sammeln jetzt die überlebenden Dorfbewohner."
 
 [[text]]
 id = "M064_006"
 befehl = ["PRINTCLEAR"]
 en = "'MEET US AT THE BLUE ROCK TO THE NORTH. WE SHALL CREATE A RUNNER ARMY.'"
-de = ""
+de = "'Trefft uns am Blauen Felsen im Norden. Wir stellen eine Armee der Wüstenläufer auf.'"
 
 [[text]]
 id = "M064_007"
 befehl = ["PRINTCLEAR"]
 en = "YOU ARRIVE ON MARS. SCOT.DOS SAYS, 'GETTING REPORTS OF A RAM GLIDER ATTACK ON A VILLAGE."
-de = ""
+de = "Ihr landet auf dem Mars. Scot.DOS sagt: 'Ich empfange Meldungen über einen Angriff von RAM-Gleitern auf ein Dorf."
 
 [[text]]
 id = "M064_008"
 befehl = ["PRINTCLEAR"]
 en = "'HEAD OVER AND SEE WHY. PERHAPS THE VILLAGERS CAN AID YOU.'"
-de = ""
+de = "'Fliegt hin und findet heraus, warum. Vielleicht können euch die Dorfbewohner helfen.'"
 
 [[text]]
 id = "M064_009"
 befehl = ["PRINTCLEAR"]
 en = "THE BASE EXPLODES AND COLLAPSES BEHIND YOU. THE REMAINING DESERT RUNNERS HOWL FOR VICTORY AND THEIR DEAD."
-de = ""
+de = "Hinter euch explodiert die Basis und stürzt ein. Die überlebenden Wüstenläufer heulen auf, aus Siegesfreude und um ihre Toten."
 
 [[text]]
 id = "M064_010"
 befehl = ["PRINTCLEAR"]
 en = "'THIS IS A VICTORY FOR US AND NEO. WE SHALL DISPERSE AND CARRY ON HERE. TAKE THE WAR BACK TO THE STARS. GOOD HUNTING!'"
-de = ""
+de = "'Das ist ein Sieg für uns und die NEO. Wir zerstreuen uns und kämpfen hier weiter. Tragt den Krieg zurück zu den Sternen. Gute Jagd!'"
 
 [[text]]
 id = "M064_011"
 befehl = ["PRINTCLEAR"]
 en = "'YOU HAVEN'T VISITED THAT VILLAGE. WE MUST KNOW WHY RAM IS AFTER THEM' LEAVE ANYWAY?"
-de = ""
+de = "'Ihr wart noch nicht in dem Dorf. Wir müssen wissen, warum RAM hinter ihnen her ist.' Trotzdem aufbrechen?"
 
 [[text]]
 id = "M064_012"
 befehl = ["PRINTCLEAR"]
 en = "'YOU NEED TO GO TO THAT BLUE ROCK AND CHECK OUT GRADIVUS MONS.' LEAVE ANYWAY?"
-de = ""
+de = "'Ihr müsst zum Blauen Felsen und Gradivus Mons erkunden.' Trotzdem aufbrechen?"
 
 [[text]]
 id = "M064_013"
 befehl = ["PRINTCLEAR"]
 en = "YOU CLIMB INTO THE ROCKET AND LAUNCH AWAY!"
-de = ""
+de = "Ihr steigt in die Rakete und startet!"
 
 [[text]]
 id = "M064_014"
 befehl = ["PRINTCLEAR"]
 en = "THIS ROCK HAS A MYSTERIOUS BLUE HUE, UNIQUE IN THE AREA."
-de = ""
+de = "Dieser Felsen hat einen geheimnisvollen blauen Schimmer, einzigartig in der Gegend."
 
 [[text]]
 id = "M064_015"
 befehl = ["PRINTCLEAR"]
 en = "HIDDEN AROUND THE ROCK IS A LARGE FORCE OF DESERT RUNNERS, RESTLESSLY CLEANING THEIR WEAPONS."
-de = ""
+de = "Rund um den Felsen verbirgt sich eine große Truppe Wüstenläufer, die rastlos ihre Waffen reinigt."
 
 [[text]]
 id = "M064_016"
 befehl = ["PRINTCLEAR"]
 en = "ATHA STEPS FORWARD. 'WE ARE PREPARED FOR THE ASSAULT. HOWEVER, THEIR MAIN GATE IS IMPREGNABLE.'"
-de = ""
+de = "Atha tritt vor. 'Wir sind zum Angriff bereit. Aber ihr Haupttor ist uneinnehmbar.'"
 
 [[text]]
 id = "M064_017"
 befehl = ["PRINTCLEAR"]
 en = "'I AM SENDING TUSKON IN THROUGH A BASEMENT ENTRANCE. HE WILL OPEN THE MAIN GATE. I WOULD LIKE YOU TO AID HIM. WILL YOU?'"
-de = ""
+de = "'Ich schicke Tuskon durch einen Kellereingang hinein. Er öffnet das Haupttor. Helft ihr ihm?'"
 
 [[text]]
 id = "M064_018"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON SHOWS YOU THE PATH."
-de = ""
+de = "Tuskon zeigt euch den Weg."
 
 [[text]]
 id = "M064_019"
 befehl = ["PRINTCLEAR"]
 en = "'MAKE YOUR OWN WAY THEN. OUR ASSAULT WILL PROCEED AS PLANNED.'"
-de = ""
+de = "'Dann geht euren eigenen Weg. Unser Angriff läuft wie geplant.'"
 
 [[text]]
 id = "M064_020"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A HIGH SECURITY BASE. IT IS IMPOSSIBLE TO ENTER."
-de = ""
+de = "Dies ist eine Hochsicherheitsbasis. Hineinzukommen ist unmöglich."
 
 [[text]]
 id = "M064_021"
 befehl = ["PRINTCLEAR"]
 en = "THE BASE LIES IN RUINS."
-de = ""
+de = "Die Basis liegt in Trümmern."
 
 [[text]]
 id = "M064_022"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE THE BLUE ROCK IN THE DISTANCE. THE BASE STILL APPEARS SECURE."
-de = ""
+de = "In der Ferne seht ihr den Blauen Felsen. Die Basis scheint noch gesichert."
 
 [[text]]
 id = "M064_023"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND TUSKON SLAIN BY A BOOBY TRAP NEAR THE BASEMENT ENTRANCE."
-de = ""
+de = "Ihr findet Tuskon am Kellereingang, getötet von einer Sprengfalle."
 
 [[text]]
 id = "M064_024"
 befehl = ["PRINTCLEAR"]
 en = "A HUGE GUARD FORCE IS DESCENDING TO INVESTIGATE. YOU SLIP INTO THE BASE TO AVOID DISCOVERY."
-de = ""
+de = "Eine riesige Wachtruppe rückt an, um nachzusehen. Ihr schlüpft in die Basis, um nicht entdeckt zu werden."
 
 [[text]]
 id = "M064_025"
 befehl = ["PRINTCLEAR"]
 en = "AN INTENSE HEAT DESTROYED THIS VILLAGE."
-de = ""
+de = "Eine gewaltige Hitze hat dieses Dorf zerstört."
 
 [[text]]
 id = "M064_026"
 befehl = ["PRINTCLEAR"]
 en = "THE DESTRUCTION WAS CAUSED BY SOME WEAPON."
-de = ""
+de = "Die Zerstörung stammt von einer Waffe."
 
 [[text]]
 id = "M064_027"
 befehl = ["PRINTCLEAR"]
 en = "SOMETHING GLINTS TO THE NORTHEAST IN THE DISTANCE."
-de = ""
+de = "In der Ferne im Nordosten glitzert etwas."
 
 [[text]]
 id = "M064_028"
 befehl = ["PRINTCLEAR"]
 en = "RAM HAS TO HAVE DEVELOPED SOME NEW WEAPON TO DO THIS KIND OF DAMAGE."
-de = ""
+de = "RAM muss eine neue Waffe entwickelt haben, um solche Schäden anzurichten."
 
 [[text]]
 id = "M064_029"
 befehl = ["PRINTCLEAR"]
 en = "THE HEAT WAS SO INTENSE THAT SAND WAS MELTED INTO OBSIDIAN."
-de = ""
+de = "Die Hitze war so groß, dass der Sand zu Obsidian schmolz."
 
 [[text]]
 id = "M064_030"
 befehl = ["PRINTCLEAR"]
 en = "ALL OF THESE BURNED PATCHES RADIATE FROM SOMEWHERE TO THE NORTHEAST."
-de = ""
+de = "Alle verbrannten Flächen gehen strahlenförmig von einem Punkt im Nordosten aus."
 
 [[text]]
 id = "M064_031"
 befehl = ["PRINTCLEAR"]
 en = "YOU KNOW OF NO WEAPON THAT CAN DO THIS KIND OF FOCUSED DESTRUCTION."
-de = ""
+de = "Ihr kennt keine Waffe, die so gezielt zerstören kann."
 
 [[text]]
 id = "M064_032"
 befehl = ["PRINTCLEAR"]
 en = "ALL THE BURNED AREAS WERE ONCE AREAS INHABITED BY DESERT RUNNERS."
-de = ""
+de = "In allen verbrannten Gebieten lebten früher Wüstenläufer."
 
 [[text]]
 id = "M064_033"
 befehl = ["PRINTCLEAR"]
 en = "YOU SIGHT A WALLED VILLAGE. DO YOU ENTER?"
-de = ""
+de = "Ihr seht ein ummauertes Dorf. Hineingehen?"
 
 [[text]]
 id = "M064_034"
 befehl = ["PRINTCLEAR"]
 en = "THE FIRES HAVE DIED, LEAVING NOTHING LEFT."
-de = ""
+de = "Die Feuer sind erloschen, nichts ist übrig."
 
 [[text]]
 id = "M064_035"
 befehl = ["PRINTCLEAR"]
 en = "DESERT APES CATCH YOUR SCENT AND SURROUND YOU."
-de = ""
+de = "Wüstenaffen wittern euch und kreisen euch ein."
 
 [[text]]
 id = "M064_036"
 befehl = ["PRINTCLEAR"]
 en = "A HERD OF HEXADILLOS BLOCKS YOUR WAY."
-de = ""
+de = "Eine Herde Hexadillos versperrt euch den Weg."
 
 [[text]]
 id = "M064_037"
 befehl = ["PRINTCLEAR"]
 en = "SAND SQUIDS!"
-de = ""
+de = "Sandkraken!"
 
 [[text]]
 id = "M064_038"
 befehl = ["PRINTCLEAR"]
 en = "RAM SKIMMERS FLY OVERHEAD... "
-de = ""
+de = "RAM-Gleiter fliegen über euch hinweg... "
 
 [[text]]
 id = "M064_039"
 befehl = ["PRINT"]
 en = "AND VANISH."
-de = ""
+de = "und verschwinden."
 
 [[text]]
 id = "M064_040"
 befehl = ["PRINT"]
 en = "AND CIRCLE BACK. "
-de = ""
+de = "und kehren um. "
 
 [[text]]
 id = "M064_041"
 befehl = ["WHMENU"]
 menue = true
 en = "HIDE"
-de = ""
+de = "Verstecken"
 
 [[text]]
 id = "M064_042"
 befehl = ["WHMENU"]
 menue = true
 en = "RUN"
-de = ""
+de = "Rennen"
 
 [[text]]
 id = "M064_043"
 befehl = ["WHMENU"]
 menue = true
 en = "STAND"
-de = ""
+de = "Stellen"
 
 [[text]]
 id = "M064_044"
 befehl = ["PRINTCLEAR"]
 en = "YOUR TEAM TRIES TO HIDE."
-de = ""
+de = "Euer Team versucht, sich zu verstecken."
 
 [[text]]
 id = "M064_045"
 befehl = ["PRINTCLEAR"]
 en = "THEY BEAT THE BRUSH FOR YOU. SOON THEY ZOOM OFF."
-de = ""
+de = "Sie durchkämmen das Gestrüpp nach euch. Bald rasen sie davon."
 
 [[text]]
 id = "M064_046"
 befehl = ["PRINTCLEAR"]
 en = "THEY FIND YOU."
-de = ""
+de = "Sie finden euch."
 
 [[text]]
 id = "M064_047"
 befehl = ["PRINTCLEAR"]
 en = "THEY'VE FLOWN AHEAD TO SET AN AMBUSH!"
-de = ""
+de = "Sie sind vorausgeflogen, um euch aufzulauern!"
 
 [[text]]
 id = "M064_048"
 befehl = ["PRINTCLEAR"]
 en = "THEY CHARGE!"
-de = ""
+de = "Sie greifen an!"
 
 [[text]]
 id = "M064_049"
 befehl = ["PRINTCLEAR"]
 en = "YOU DRIVE ONTO A FIELD OF ASH."
-de = ""
+de = "Ihr fahrt auf ein Aschefeld."
 
 [[text]]
 id = "M064_050"
 befehl = ["PRINTCLEAR"]
 en = "YOU DESCEND INTO A CANYON."
-de = ""
+de = "Ihr steigt in eine Schlucht hinab."
 
 [[text]]
 id = "M064_051"
 befehl = ["PRINTCLEAR"]
 en = "YOU TRAVEL THROUGH THE ASHEN REMAINS OF A VILLAGE."
-de = ""
+de = "Ihr fahrt durch die verkohlten Reste eines Dorfs."
 
 [[text]]
 id = "M064_052"
 befehl = ["PRINTCLEAR"]
 en = "YOU ASCEND INTO THE MOUNTAINS."
-de = ""
+de = "Ihr steigt in die Berge hinauf."
 
 [[text]]
 id = "M064_053"
 befehl = ["PRINTCLEAR"]
 en = "YOU DESCEND IN A CRATER."
-de = ""
+de = "Ihr steigt in einen Krater hinab."
 
 [[text]]
 id = "M064_054"

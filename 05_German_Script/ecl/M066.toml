@@ -6,608 +6,608 @@
 id = "M066_000"
 befehl = ["PRINTCLEAR"]
 en = "YOU ENTER THE SERVICE CORRIDOR OF THE BASE. AS YOU GET YOUR BEARINGS, A FEW GUARDS WALK INTO VIEW."
-de = ""
+de = "Ihr betretet den Versorgungsgang der Basis. Während ihr euch orientiert, tauchen ein paar Wachen auf."
 
 [[text]]
 id = "M066_001"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARDS ATTACK!"
-de = ""
+de = "Die Wachen greifen an!"
 
 [[text]]
 id = "M066_002"
 befehl = ["PRINTCLEAR"]
 en = "THE GUARDS DIDN'T HAVE TIME TO TRIGGER AN ALARM. YOUR PRESENCE IS STILL UNKNOWN."
-de = ""
+de = "Die Wachen konnten keinen Alarm auslösen. Eure Anwesenheit ist noch unbemerkt."
 
 [[text]]
 id = "M066_003"
 befehl = ["PRINTCLEAR"]
 en = "THIS DOOR WAS FUSED BY A LASER BOLT. YOU CAN'T LEAVE THIS WAY."
-de = ""
+de = "Diese Tür wurde von einem Laserschuss verschweißt. Hier kommt ihr nicht raus."
 
 [[text]]
 id = "M066_004"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 1."
-de = ""
+de = "Käfig 1."
 
 [[text]]
 id = "M066_005"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 2."
-de = ""
+de = "Käfig 2."
 
 [[text]]
 id = "M066_006"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 3."
-de = ""
+de = "Käfig 3."
 
 [[text]]
 id = "M066_007"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 4."
-de = ""
+de = "Käfig 4."
 
 [[text]]
 id = "M066_008"
 befehl = ["PRINT"]
 en = " DESERT APES SHRIEK WITHIN. OPEN THE CAGE?"
-de = ""
+de = " Darin kreischen Wüstenaffen. Käfig öffnen?"
 
 [[text]]
 id = "M066_009"
 befehl = ["PRINTCLEAR"]
 en = "THE CAGE IS OPEN."
-de = ""
+de = "Der Käfig ist offen."
 
 [[text]]
 id = "M066_010"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON SOOTHES THE APES AS THEY RUSH OUT OF THE CAGE."
-de = ""
+de = "Tuskon beruhigt die Affen, als sie aus dem Käfig stürmen."
 
 [[text]]
 id = "M066_011"
 befehl = ["PRINTCLEAR"]
 en = "MOST OF THE APES SCATTER. A FEW REMAIN BEHIND AND ATTACK!"
-de = ""
+de = "Die meisten Affen laufen davon. Ein paar bleiben und greifen an!"
 
 [[text]]
 id = "M066_012"
 befehl = ["PRINTCLEAR"]
 en = "ALL THE APES HAVE BEEN FREED! THEY SWARM OUT OF THE ROOM, AND IN SECONDS ALARMS BEGIN TO WAIL."
-de = ""
+de = "Alle Affen sind frei! Sie stürmen aus dem Raum, und Sekunden später heulen Alarme."
 
 [[text]]
 id = "M066_013"
 befehl = ["PRINTCLEAR"]
 en = "APES RUSH TO THE LOCKED CAGES, TRYING TO FREE THE OTHERS."
-de = ""
+de = "Affen eilen zu den verschlossenen Käfigen, um die anderen zu befreien."
 
 [[text]]
 id = "M066_014"
 befehl = ["PRINTCLEAR"]
 en = "THE MASSIVE FRONT DOORS ARE SEALED."
-de = ""
+de = "Die riesigen Haupttore sind verschlossen."
 
 [[text]]
 id = "M066_015"
 befehl = ["PRINTCLEAR"]
 en = "DESERT RUNNERS MEET YOU AT THE DOORS AND URGE YOU BACK INTO THE BASE."
-de = ""
+de = "Wüstenläufer erwarten euch an den Toren und drängen euch zurück in die Basis."
 
 [[text]]
 id = "M066_016"
 befehl = ["PRINTCLEAR"]
 en = "AS YOU RACE OUT, ATHA COMES UP. 'I FOUND THESE BLUE PASSCARDS IN A SAFE. PERHAPS THEY ARE OF USE TO YOU.'"
-de = ""
+de = "Als ihr hinausrennt, kommt Atha herbei. 'Diese blauen Ausweiskarten waren in einem Safe. Vielleicht nützen sie euch.'"
 
 [[text]]
 id = "M066_017"
 befehl = ["PRINTCLEAR"]
 en = "SHE RUSHES BACK INTO THE BASE TO WARN THE DESERT RUNNERS OF THE UPCOMING EXPLOSION. THEY BARELY MAKE IT OUT IN TIME."
-de = ""
+de = "Sie eilt zurück in die Basis, um die Wüstenläufer vor der Explosion zu warnen. Sie kommen gerade noch rechtzeitig heraus."
 
 [[text]]
 id = "M066_018"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS LOCKED."
-de = ""
+de = "Die Tür ist verschlossen."
 
 [[text]]
 id = "M066_019"
 befehl = ["HMENU"]
 menue = true
 en = "PICK LOCK"
-de = ""
+de = "Schloss knacken"
 
 [[text]]
 id = "M066_020"
 befehl = ["HMENU"]
 menue = true
 en = "DEMO CHARGE"
-de = ""
+de = "Sprengladung"
 
 [[text]]
 id = "M066_021"
 befehl = ["HMENU"]
 menue = true
 en = "LEAVE"
-de = ""
+de = "Gehen"
 
 [[text]]
 id = "M066_022"
 befehl = ["WHO"]
 en = "WHO PICKS THE LOCK?"
-de = ""
+de = "Wer knackt das Schloss?"
 
 [[text]]
 id = "M066_023"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS STILL LOCKED."
-de = ""
+de = "Die Tür ist noch verschlossen."
 
 [[text]]
 id = "M066_024"
 befehl = ["PRINTCLEAR"]
 en = "THE DOOR IS OPEN."
-de = ""
+de = "Die Tür ist offen."
 
 [[text]]
 id = "M066_025"
 befehl = ["PRINTCLEAR"]
 en = "YOU BLAST THE DOOR OPEN."
-de = ""
+de = "Ihr sprengt die Tür auf."
 
 [[text]]
 id = "M066_026"
 befehl = ["PRINTCLEAR"]
 en = "YOU DON'T HAVE A DEMO CHARGE."
-de = ""
+de = "Ihr habt keine Sprengladung."
 
 [[text]]
 id = "M066_027"
 befehl = ["PRINTCLEAR"]
 en = "CAGES FULL OF DESERT APES LINE THE WALLS."
-de = ""
+de = "An den Wänden stehen Käfige voller Wüstenaffen."
 
 [[text]]
 id = "M066_028"
 befehl = ["PRINTCLEAR"]
 en = "'OPEN THE CAGES AND FREE THE APES. THEY'LL DISTRACT THE REST OF THE GUARDS!'"
-de = ""
+de = "'Öffnet die Käfige und befreit die Affen. Sie lenken die übrigen Wachen ab!'"
 
 [[text]]
 id = "M066_029"
 befehl = ["PRINTCLEAR"]
 en = "FREEING THE APES WOULD CAUSE A DISTRACTION, DIVERTING THE GUARDS."
-de = ""
+de = "Freigelassene Affen würden die Wachen ablenken."
 
 [[text]]
 id = "M066_030"
 befehl = ["PRINTCLEAR"]
 en = "THIS CONTROL PANEL CAN OPEN ALL THE CAGES AT ONCE. OPEN ALL CAGES?"
-de = ""
+de = "Mit diesem Steuerpult lassen sich alle Käfige auf einmal öffnen. Alle öffnen?"
 
 [[text]]
 id = "M066_031"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 1 IS ALREADY OPEN."
-de = ""
+de = "Käfig 1 ist schon offen."
 
 [[text]]
 id = "M066_032"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 1 OPENS."
-de = ""
+de = "Käfig 1 öffnet sich."
 
 [[text]]
 id = "M066_033"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 2 IS ALREADY OPEN."
-de = ""
+de = "Käfig 2 ist schon offen."
 
 [[text]]
 id = "M066_034"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 2 OPENS."
-de = ""
+de = "Käfig 2 öffnet sich."
 
 [[text]]
 id = "M066_035"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 3 IS ALREADY OPEN."
-de = ""
+de = "Käfig 3 ist schon offen."
 
 [[text]]
 id = "M066_036"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 3 OPENS."
-de = ""
+de = "Käfig 3 öffnet sich."
 
 [[text]]
 id = "M066_037"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 4 IS ALREADY OPEN."
-de = ""
+de = "Käfig 4 ist schon offen."
 
 [[text]]
 id = "M066_038"
 befehl = ["PRINTCLEAR"]
 en = "CAGE 4 OPENS."
-de = ""
+de = "Käfig 4 öffnet sich."
 
 [[text]]
 id = "M066_039"
 befehl = ["PRINTCLEAR"]
 en = "SOME OF THE APES SPOT THE TEAM AND CHARGE!"
-de = ""
+de = "Einige Affen entdecken das Team und greifen an!"
 
 [[text]]
 id = "M066_040"
 befehl = ["PRINTCLEAR"]
 en = "APES APPROACH, BUT TUSKON SOOTHES THEM AND THEY WANDER AWAY."
-de = ""
+de = "Affen kommen näher, doch Tuskon beruhigt sie, und sie trotten davon."
 
 [[text]]
 id = "M066_041"
 befehl = ["PRINTCLEAR"]
 en = "DESERT APES OVERWHELMED A LAB TECHNICIAN HERE. THE APES GLARE AT YOU MENACINGLY."
-de = ""
+de = "Wüstenaffen haben hier einen Labortechniker überwältigt. Die Affen starren euch drohend an."
 
 [[text]]
 id = "M066_042"
 befehl = ["HMENU"]
 menue = true
 en = "STAY"
-de = ""
+de = "Bleiben"
 
 [[text]]
 id = "M066_043"
 befehl = ["HMENU"]
 menue = true
 en = "RETREAT"
-de = ""
+de = "Rückzug"
 
 [[text]]
 id = "M066_044"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON SOOTHES THE APES AND THEY IGNORE YOU."
-de = ""
+de = "Tuskon beruhigt die Affen, und sie beachten euch nicht."
 
 [[text]]
 id = "M066_045"
 befehl = ["PRINTCLEAR"]
 en = "THE DESERT APES ATTACK!"
-de = ""
+de = "Die Wüstenaffen greifen an!"
 
 [[text]]
 id = "M066_046"
 befehl = ["PRINTCLEAR"]
 en = "LAB EQUIPMENT IS STORED HERE."
-de = ""
+de = "Hier lagert Laborausrüstung."
 
 [[text]]
 id = "M066_047"
 befehl = ["PRINT"]
 en = " YOU FIND STUN GRENADES ONCE INTENDED FOR USE AGAINST THE DESERT APES."
-de = ""
+de = " Ihr findet Betäubungsgranaten, die einst gegen die Wüstenaffen gedacht waren."
 
 [[text]]
 id = "M066_048"
 befehl = ["PRINTCLEAR"]
 en = "THIS WAS A GUARD POST, BUT THE GUARDS APPEAR TO HAVE FLED FROM THE APES."
-de = ""
+de = "Das war ein Wachposten, aber die Wachen sind wohl vor den Affen geflohen."
 
 [[text]]
 id = "M066_049"
 befehl = ["PRINTCLEAR"]
 en = "YOU STEP INTO A GROUP OF RAM WARRIORS. ONE RUNS EASTWARD, THE OTHERS ATTACK!"
-de = ""
+de = "Ihr lauft in eine Gruppe RAM-Krieger. Einer rennt nach Osten, die anderen greifen an!"
 
 [[text]]
 id = "M066_050"
 befehl = ["PRINTCLEAR"]
 en = "AN INTERCOM BLARES: 'BASEMENT LEVEL INTRUDER ALERT!'"
-de = ""
+de = "Eine Sprechanlage plärrt: 'Eindringlingsalarm im Kellergeschoss!'"
 
 [[text]]
 id = "M066_051"
 befehl = ["PRINTCLEAR"]
 en = "GUARDS HERE WERE WAITING FOR YOU! THEY ATTACK!"
-de = ""
+de = "Hier haben Wachen auf euch gewartet! Sie greifen an!"
 
 [[text]]
 id = "M066_052"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND AN INTERCOM STATION. USE THE INTERCOM?"
-de = ""
+de = "Ihr findet eine Sprechstelle. Benutzen?"
 
 [[text]]
 id = "M066_053"
 befehl = ["PRINTCLEAR"]
 en = "START A FALSE ALARM OR JEER AT THE RAM WARRIORS?"
-de = ""
+de = "Falschen Alarm auslösen oder die RAM-Krieger verhöhnen?"
 
 [[text]]
 id = "M066_054"
 befehl = ["HMENU"]
 menue = true
 en = "FALSE ALARM"
-de = ""
+de = "Falscher Alarm"
 
 [[text]]
 id = "M066_055"
 befehl = ["HMENU"]
 menue = true
 en = "JEER"
-de = ""
+de = "Verhöhnen"
 
 [[text]]
 id = "M066_056"
 befehl = ["PRINTCLEAR"]
 en = "YOU DON'T THINK THEY'LL FALL FOR IT AGAIN."
-de = ""
+de = "Ihr glaubt nicht, dass sie noch mal darauf hereinfallen."
 
 [[text]]
 id = "M066_057"
 befehl = ["PRINTCLEAR"]
 en = "YOU ACTIVATE THE INTERCOM. 'ALL PERSONNEL. ALIEN BACTERIA HAVE ENTERED THE BASE. EVACUATE IMMEDIATELY!'"
-de = ""
+de = "Ihr schaltet die Sprechanlage ein. 'An alle: Fremde Bakterien sind in die Basis gelangt. Sofort evakuieren!'"
 
 [[text]]
 id = "M066_058"
 befehl = ["PRINTCLEAR"]
 en = "YOU SEE A FEW WARRIORS SPRINTING FOR THE CLOSEST EXIT."
-de = ""
+de = "Ihr seht ein paar Krieger zum nächsten Ausgang sprinten."
 
 [[text]]
 id = "M066_059"
 befehl = ["PRINTCLEAR"]
 en = "YOU THINK THE BETTER OF IT."
-de = ""
+de = "Ihr überlegt es euch anders."
 
 [[text]]
 id = "M066_060"
 befehl = ["PRINTCLEAR"]
 en = "YOU ACTIVATE THE INTERCOM. 'YOU THINK YOU CAN CATCH US? YOU COULDN'T EVEN CATCH A COLD!'"
-de = ""
+de = "Ihr schaltet die Sprechanlage ein. 'Ihr wollt uns fangen? Ihr fangt nicht mal einen Schnupfen!'"
 
 [[text]]
 id = "M066_061"
 befehl = ["PRINTCLEAR"]
 en = "ROBOT GUARDS HEAR YOU SPEAKING AND ATTACK!"
-de = ""
+de = "Wachroboter hören euch und greifen an!"
 
 [[text]]
 id = "M066_062"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND AN INTERCOM STATION."
-de = ""
+de = "Ihr findet eine Sprechstelle."
 
 [[text]]
 id = "M066_063"
 befehl = ["PRINT"]
 en = " TELL THE DESERT RUNNERS TO EVACUATE THE BASE?"
-de = ""
+de = " Die Wüstenläufer zum Räumen der Basis auffordern?"
 
 [[text]]
 id = "M066_064"
 befehl = ["PRINTCLEAR"]
 en = "YOU SPEAK INTO THE INTERCOM. 'DESERT RUNNERS, RETREAT!'"
-de = ""
+de = "Ihr sprecht in die Anlage: 'Wüstenläufer, Rückzug!'"
 
 [[text]]
 id = "M066_065"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON ACTIVATES THE INTERCOM AND HOWLS. THE DESERT RUNNERS RECOGNIZE THE RETREAT SIGNAL AND FLEE FROM THE BASE."
-de = ""
+de = "Tuskon schaltet die Anlage ein und heult. Die Wüstenläufer erkennen das Rückzugssignal und fliehen aus der Basis."
 
 [[text]]
 id = "M066_066"
 befehl = ["PRINTCLEAR"]
 en = "A METAL LADDER LEADS DOWNWARD. CLIMB DOWN?"
-de = ""
+de = "Eine Metallleiter führt nach unten. Hinabsteigen?"
 
 [[text]]
 id = "M066_067"
 befehl = ["PRINTCLEAR"]
 en = "A METAL LADDER LEADS UPWARD. CLIMB UP?"
-de = ""
+de = "Eine Metallleiter führt nach oben. Hinaufsteigen?"
 
 [[text]]
 id = "M066_068"
 befehl = ["PRINTCLEAR"]
 en = "DESERT APES DESTROYED THIS INTERCOM STATION."
-de = ""
+de = "Wüstenaffen haben diese Sprechstelle zerstört."
 
 [[text]]
 id = "M066_069"
 befehl = ["PRINTCLEAR"]
 en = "A SMALL OFFICE. "
-de = ""
+de = "Ein kleines Büro. "
 
 [[text]]
 id = "M066_070"
 befehl = ["PRINT"]
 en = "YOU FIND STACKS OF TECHNICAL INFORMATION ABOUT THE DOOMSDAY DEVICE."
-de = ""
+de = "Ihr findet Stapel technischer Unterlagen über die Doomsday-Waffe."
 
 [[text]]
 id = "M066_071"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND MANY REFERENCES TO VENUS AND THE VENUSIAN LOWLANDERS."
-de = ""
+de = "Ihr findet viele Hinweise auf die Venus und die venusianischen Tiefländer."
 
 [[text]]
 id = "M066_072"
 befehl = ["PRINT"]
 en = "GUARD DOG GENNIES ATTACK!"
-de = ""
+de = "Wachhundgennies greifen an!"
 
 [[text]]
 id = "M066_073"
 befehl = ["PRINTCLEAR"]
 en = "ATHA IS HERE WITH SOME DESERT RUNNERS. 'THE LASER IS ABOVE US,' SHE SAYS."
-de = ""
+de = "Atha ist mit einigen Wüstenläufern hier. 'Der Laser ist über uns', sagt sie."
 
 [[text]]
 id = "M066_074"
 befehl = ["PRINTCLEAR"]
 en = "'IF YOU WISH TO DESTROY IT, DO SO QUICKLY BEFORE RAM REINFORCEMENTS ARRIVE!"
-de = ""
+de = "'Wenn ihr ihn zerstören wollt, beeilt euch, bevor RAM Verstärkung schickt!"
 
 [[text]]
 id = "M066_075"
 befehl = ["PRINTCLEAR"]
 en = "'WE'VE DISABLED THE SECURITY SYSTEM IN THE ELEVATOR. YOU SHOULD BE ABLE TO USE IT NOW.'"
-de = ""
+de = "'Wir haben die Sicherung des Aufzugs ausgeschaltet. Ihr müsstet ihn jetzt benutzen können.'"
 
 [[text]]
 id = "M066_076"
 befehl = ["PRINTCLEAR"]
 en = "A COMPLEX SECURITY SYSTEM PREVENTS YOU FROM USING THIS ELEVATOR."
-de = ""
+de = "Ein kompliziertes Sicherungssystem hindert euch daran, diesen Aufzug zu benutzen."
 
 [[text]]
 id = "M066_077"
 befehl = ["PRINTCLEAR"]
 en = "ATHA'S WARRIORS DISABLED THIS ELEVATOR'S SECURITY SYSTEM. GO UP?"
-de = ""
+de = "Athas Krieger haben die Sicherung dieses Aufzugs ausgeschaltet. Hochfahren?"
 
 [[text]]
 id = "M066_078"
 befehl = ["PRINTCLEAR"]
 en = "THE ELEVATOR IS STILL OPERATIONAL. GO DOWN?"
-de = ""
+de = "Der Aufzug funktioniert noch. Hinunterfahren?"
 
 [[text]]
 id = "M066_079"
 befehl = ["PRINTCLEAR"]
 en = "BEFORE YOU ARE THE MASSIVE FRONT DOORS TO THE BASE. OUTSIDE WAIT THE DESERT RUNNERS. GUARDS ATTACK!"
-de = ""
+de = "Vor euch liegen die riesigen Haupttore der Basis. Draußen warten die Wüstenläufer. Wachen greifen an!"
 
 [[text]]
 id = "M066_080"
 befehl = ["PRINTCLEAR"]
 en = "YOU MUST FIND A WAY TO OPEN THE FRONT GATES."
-de = ""
+de = "Ihr müsst einen Weg finden, die Haupttore zu öffnen."
 
 [[text]]
 id = "M066_081"
 befehl = ["PRINTCLEAR"]
 en = "THIS CONTROL PANEL OPENS THE FRONT DOORS...BUT IT MIGHT ALSO BE CONNECTED TO AN ALARM. OPEN THE DOORS?"
-de = ""
+de = "Dieses Pult öffnet die Haupttore... könnte aber auch mit einem Alarm verbunden sein. Tore öffnen?"
 
 [[text]]
 id = "M066_082"
 befehl = ["PRINTCLEAR"]
 en = "THE DOORS OPEN AND THE ARMY OF DESERT RUNNERS POURS INTO THE BASE!"
-de = ""
+de = "Die Tore öffnen sich, und das Heer der Wüstenläufer strömt in die Basis!"
 
 [[text]]
 id = "M066_083"
 befehl = ["PRINTCLEAR"]
 en = "RAM FORCES ATTACK FROM THE OTHER DIRECTION! YOU ARE CAUGHT IN THE MIDDLE."
-de = ""
+de = "RAM-Truppen greifen von der anderen Seite an! Ihr sitzt in der Zange."
 
 [[text]]
 id = "M066_084"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON SCANS THE ROOM NERVOUSLY UNTIL HE SPOTS ATHA."
-de = ""
+de = "Tuskon sucht nervös den Raum ab, bis er Atha entdeckt."
 
 [[text]]
 id = "M066_085"
 befehl = ["PRINTCLEAR"]
 en = "SHE APPROACHES. 'I'LL LEAD THE RUNNERS DOWN HERE. GO WITH OUR FRIENDS AND DESTROY THE LASER THEY SPOKE OF.'"
-de = ""
+de = "Sie kommt herüber. 'Ich führe die Wüstenläufer hier unten. Geh mit unseren Freunden und zerstöre den Laser.'"
 
 [[text]]
 id = "M066_086"
 befehl = ["PRINTCLEAR"]
 en = "TUSKON AGREES. THEY EMBRACE QUICKLY AND SHE RUNS OFF."
-de = ""
+de = "Tuskon stimmt zu. Sie umarmen sich kurz, und sie rennt davon."
 
 [[text]]
 id = "M066_087"
 befehl = ["PRINTCLEAR"]
 en = "THE DESERT RUNNERS WHOOP AND HOWL AS THEY FLOOD THROUGH THE BASE."
-de = ""
+de = "Johlend und heulend strömen die Wüstenläufer durch die Basis."
 
 [[text]]
 id = "M066_088"
 befehl = ["PRINTCLEAR"]
 en = "THE MINIATURE DOOMSDAY LASER IS MOUNTED IN THIS ROOM. ITS CONTROLS LIE JUST TO THE NORTH."
-de = ""
+de = "In diesem Raum ist der Mini-Doomsday-Laser montiert. Seine Steuerung liegt gleich im Norden."
 
 [[text]]
 id = "M066_089"
 befehl = ["PRINTCLEAR"]
 en = "THESE ARE THE CONTROLS FOR THE MINIATURE LASER. "
-de = ""
+de = "Dies ist die Steuerung des Mini-Lasers. "
 
 [[text]]
 id = "M066_090"
 befehl = ["PRINT"]
 en = "THEY ARE NONFUNCTIONAL."
-de = ""
+de = "Sie funktioniert nicht."
 
 [[text]]
 id = "M066_091"
 befehl = ["PRINT"]
 en = "USE THE CONTROLS TO DESTROY IT?"
-de = ""
+de = "Den Laser mit der Steuerung zerstören?"
 
 [[text]]
 id = "M066_092"
 befehl = ["PRINTCLEAR"]
 en = "THE LASER EMITS A HIGH PITCHED WHINE WHICH GETS LOUDER AS SECONDS PASS. YOU MUST EVACUATE THE BASE BEFORE IT EXPLODES!"
-de = ""
+de = "Der Laser gibt ein hohes Pfeifen von sich, das immer lauter wird. Verlasst die Basis, bevor er explodiert!"
 
 [[text]]
 id = "M066_093"
 befehl = ["PRINTCLEAR"]
 en = "THE DESERT RUNNERS MUST BE WARNED. SPEAKING INTO THE INTERCOM IS THE ONLY WAY TO BE SURE THEY ALL HEAR."
-de = ""
+de = "Die Wüstenläufer müssen gewarnt werden. Nur über die Sprechanlage hören es sicher alle."
 
 [[text]]
 id = "M066_094"
 befehl = ["PRINTCLEAR"]
 en = "THIS IS A MEDICAL STATION. ITS CONTROLS ARE UNFAMILIAR TO YOU. TRY TO HEAL THE TEAM ANYWAY?"
-de = ""
+de = "Dies ist eine Krankenstation. Ihre Steuerung kennt ihr nicht. Trotzdem versuchen, das Team zu heilen?"
 
 [[text]]
 id = "M066_095"
 befehl = ["WHO"]
 en = "WHO OPERATES THE AUTODOC?"
-de = ""
+de = "Wer bedient den Autodoc?"
 
 [[text]]
 id = "M066_096"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC MALFUNCTIONS!"
-de = ""
+de = "Der Autodoc hat eine Fehlfunktion!"
 
 [[text]]
 id = "M066_097"
 befehl = ["PRINTCLEAR"]
 en = "EVERYONE IS HEALED."
-de = ""
+de = "Alle sind geheilt."
 
 [[text]]
 id = "M066_098"
 befehl = ["PRINTCLEAR"]
 en = "THE AUTODOC IS HERE. YOU REMEMBER HOW TO OPERATE IT SAFELY. HEAL THE TEAM?"
-de = ""
+de = "Hier ist der Autodoc. Ihr wisst noch, wie man ihn sicher bedient. Team heilen?"
 
 [[text]]
 id = "M066_099"
 befehl = ["PRINTCLEAR"]
 en = "YOU FIND A PILE OF EQUIPMENT."
-de = ""
+de = "Ihr findet einen Haufen Ausrüstung."
 
 [[text]]
 id = "M066_100"
