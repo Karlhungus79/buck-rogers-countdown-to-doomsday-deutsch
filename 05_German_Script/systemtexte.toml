@@ -1357,6 +1357,7 @@ hinweis = "siehe S246"
 id = "S248"
 en = "hull"
 de = "Rumpf"
+max = 7
 
 [[text]]
 id = "S249"
@@ -1372,7 +1373,9 @@ hinweis = "Waffe + S250 + Schiff"
 [[text]]
 id = "S251"
 en = "Engines"
-de = "Triebwerke"
+de = "Antrieb"
+max = 7
+hinweis = "Schiffsstatus: Beschriftung bei x=32, Fensterrand x=38 -> höchstens 7 Zeichen (Triebwerke brach um, Marcel 24.10.2026); auch in Schadensmeldungen"
 
 [[text]]
 id = "S252"

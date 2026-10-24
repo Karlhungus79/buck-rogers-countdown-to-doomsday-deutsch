@@ -19,6 +19,17 @@ Das Glossar (21.10.2026) wurde vor dem Messen der Fenster abgenommen. Im Testemu
 
 B: Glossarform behalten und an anderer Stelle kürzen (z. B. „Abbr.“, „Fertg“) – nicht empfohlen.
 
+## E5 – Schiffsstatus „Engines“ (nachgetragen 24.10.2026, Marcels Ares-Screenshot)
+
+„TRIEBWERKE“ (10 Zeichen) passt nicht: Beschriftung steht bei x=32, Fenster endet bei x=38.
+Der Text brach in die nächste Zeile um und wurde von den Statuskästchen überdeckt.
+
+| | A (gebaut, Empfehlung) | B |
+|---|---|---|
+| S251 (Glossar 3-38) | **Antrieb** (7) – gilt auch in Schadensmeldungen („5 Schaden für die Viper: Antrieb“) | Triebw. (7) |
+
+**Offen: Marcel bestätigt A oder B.**
+
 ## E2 – Kuriositäten in den Original-Gegenstandsnamen
 
 Die Gegenstandstabelle (ROM `$F17D6`) enthält Namen, die wie Datenfehler aussehen:

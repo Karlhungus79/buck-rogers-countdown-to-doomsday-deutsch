@@ -72,6 +72,8 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 | Charakterbogen | Beschriftung x=21, Werte ab x=29/30 → 8–9 Zeichen | `dat_717A`, Bild |
 | Erschaffung „Wähle Rasse,“ | x=25 bis Rand (15 Zeichen) | `dat_8994`, Bild |
 | Planetendaten | Beschriftung x=13 | `dat_D688` |
+| Schiffsstatus (Raumkampf) „hull“/„Engines“ | x=32, Fensterrand x=38 → **7 Zeichen** („Triebwerke“ brach um, Marcel 24.10.2026) | `sub_173CE`, `dat_17426` |
+| Schiffsstatus „controls“/„weapons“ | x=1 | dito |
 | Menüs aus Systemtexten | 41 Zeichen | `sub_136DA` |
 
 ## Satzbau (Telegrammstil, weil die Reihenfolge der Bausteine fest ist)
