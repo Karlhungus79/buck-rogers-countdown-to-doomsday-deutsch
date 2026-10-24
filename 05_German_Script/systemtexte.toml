@@ -662,7 +662,8 @@ de = "Euer Team wurde vernichtet."
 [[text]]
 id = "S114"
 en = "RAM continues its plans unopposed."
-de = "RAM setzt seine Pläne ungehindert fort."
+de = "RAM verfolgt seine Pläne ungestört."
+hinweis = "Bildschirm Team vernichtet, zentriert; 38 Zeichen brachen um (Marcel 24.10.2026) -> 35"
 
 [[text]]
 id = "S115"
@@ -852,9 +853,8 @@ de = "Erfahrungspunkte."
 [[text]]
 id = "S150"
 en = "found "
-de = ""
-leer = true
-hinweis = "'found ': deutsch steht 'gefunden' am Satzende (S152)"
+de = "erbeutet: "
+hinweis = "Kampfende ab x=5: 'Das Team hat ' + S150 + (S151 + S152 | S152 | Zahl + ' Credits'). Fall Credits braucht das Verb hier (Befund 24.10.2026)"
 
 [[text]]
 id = "S151"
@@ -864,7 +864,7 @@ de = "keine "
 [[text]]
 id = "S152"
 en = "spoils."
-de = "Beute gefunden."
+de = "Beute."
 
 [[text]]
 id = "S153"

@@ -26,6 +26,7 @@ Stand: 24.10.2026
 | 2.5 | Entscheidungen E1–E4 (`Phase2_Entscheidungen.md`) | **entschieden 24.10.2026: alles A** |
 | 2.6 | Spieltest Systemtexte in Ares (`Testliste_Phase2.md`) | wartet auf Marcel |
 | 2.6a | Testfassung mit Entwickler-Jumper (Sprung in jedes Modul, `Testfassung.md`) | gebaut 24.10.2026, aktuell CRC32 7FF6DF75, Ares offen |
+| 2.6c | Befund Marcel 24.10.2026: Kampfende „erbeutet: …“, S114 kürzer | gebaut, deutsch CRC32 F1129EAD, Test 85474848 |
 | 2.6b | Befund Marcel 24.10.2026: „Triebwerke“ im Schiffsstatus zu lang → „Antrieb“ (E5 = A) | gebaut, deutsch CRC32 88E08E82, Test offen |
 | 2.7 | Monsternamen (`dat_9E77C`, LZW, 15 Zeichen) | offen |
 | 2.8 | Vorgefertigte Figuren (`dat_6BAAD`), Abspann (`$006331`) | offen |

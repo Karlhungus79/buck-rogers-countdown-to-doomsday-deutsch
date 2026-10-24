@@ -1,6 +1,6 @@
 # Testfassung mit Entwickler-Jumper
 
-Stand: 24.10.2026 (Bau CRC32 7FF6DF75) – **gebaut, im Testemulator geprüft (Sprünge in alle 23 Spielmodule, Arena,
+Stand: 24.10.2026 (Bau CRC32 85474848) – **gebaut, im Testemulator geprüft (Sprünge in alle 23 Spielmodule, Arena,
 Abspann-Test); Test in Ares offen.** Nur zum Testen, **nicht veröffentlichen**.
 
 ## Was es ist

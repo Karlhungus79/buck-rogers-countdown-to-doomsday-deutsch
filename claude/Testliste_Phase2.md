@@ -1,7 +1,7 @@
 # Testliste Phase 2 – Systemtexte
 
 Stand: 24.10.2026. Bau: `07_Output_ROM\Buck Rogers - Countdown to Doomsday (gebaut).md`,
-**CRC32 88E08E82** (Testfassung 7FF6DF75) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
+**CRC32 F1129EAD** (Testfassung 85474848) (Zeitstempel-Ordner `07_Output_ROM\<Zeit>_deutsch\`).
 Spielstand: Ares lädt `08_Savestates\Buck Rogers - Countdown to Doomsday (gebaut).ram` (Spielstand 1).
 Schneller: Testfassung `(test).md` mit Jumper (`Testfassung.md`) – Spalte „Jumper“ = ECL/Disk.
 
@@ -21,7 +21,7 @@ Bitte Screenshot bei allem, was abgeschnitten, umgebrochen, überschrieben oder 
 | 9 | Spieltempo | im Abenteuer Start → Uhr | LANGSAMSTE … LANGSAM, MITTEL, SCHNELL, SCHNELLSTE | gesehen |
 | 10 | Bodenkampf | erster Kampf nach dem Intro | Leiste: ANGRIFFE, ZIEL, BEWEGEN, SCHNELLKAMPF, WARTEN, ZUGENDE, TREFFER: 45%, VERBÜNDET; „EINSATZ VON TAKTIK/FÜHRUNG“, „<NAME> BEFEHLIGT...“ | gesehen (Leiste) |
 | 11 | Kampfmeldungen | Angriffe abwarten | „<NAME> ERLEIDET 5 SCHADEN.“, „GEHT ZU BODEN.“, „LIEGT IM STERBEN.“ usw. | offen (zu schnell) |
-| 12 | Kampfende | Kampf gewinnen | „DAS TEAM HAT GEWONNEN.“, „JEDE FIGUR ERHÄLT … ERFAHRUNGSPUNKTE.“, „DAS TEAM HAT (KEINE) BEUTE GEFUNDEN.“, ggf. „WUNDVERSORGUNG“ | offen |
+| 12 | Kampfende | Kampf gewinnen | „DAS TEAM HAT GEWONNEN.“, „JEDE FIGUR ERHÄLT … ERFAHRUNGSPUNKTE.“, „DAS TEAM HAT ERBEUTET: KEINE BEUTE.“ / „… ERBEUTET: 500 CREDITS“, ggf. „WUNDVERSORGUNG“; Team vernichtet: „RAM VERFOLGT SEINE PLÄNE UNGESTÖRT.“ in einer Zeile | Erfahrung + Team vernichtet in Ares gesehen (Marcel 24.10.2026), Fix gebaut |
 | 13 | Laden (Chicagorg) | Raumhafen-Shop (Jumper: ECL 99 / Disk 6) | Gegenstandsnamen (z. B. MARS-LASERPISTOLE), „PREIS: … CREDITS JE STÜCK“, „WIE VIELE STÜCK?“, „ICH BIETE …“, „OKAY? JA NEIN“ | offen |
 | 14 | Raumkampf | Jumper: ECL 50 / Disk 3 (Piraten); Schiffsstatus: RUMPF / ANTRIEB (rechts), WAFFEN / STEUERUNG (links) ohne Überdeckung | Menü FEUER/LADEN/HILFE/ZUGENDE/ANNÄHERN/ABDREHEN/RAMMEN!/ENTERN/MANÖVRIEREN, Meldungen „… FEUERT: RAKETE“, „5 SCHADEN FÜR DIE VIPER: RUMPF“ | offen |
 | 15 | Planetenscan | Jumper: ECL 34 / Disk 2 | SCAN:, BEVÖLKERUNG:, ATMOSPHÄRE:, SCHWERKRAFT:, UMLAUF:, ROTATION:, DURCHMESSER: mit Werten in km | Erde gesehen (passt) |

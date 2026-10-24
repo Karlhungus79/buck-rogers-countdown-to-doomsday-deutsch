@@ -80,7 +80,10 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 
 - „<Name> hat Erfolg: <Fertigkeit>“ / „<Name> scheitert: …“ / „Das Team scheitert: …“
 - „<Name> erleidet 5 Schaden.“ (keine Einzahl/Mehrzahl-Frage)
-- „Das Team hat keine Beute gefunden.“ (S150 „found“ leer, „gefunden“ steht in S152)
+- Kampfende: „Das Team hat erbeutet: keine Beute.“ / „… erbeutet: Beute.“ / „… erbeutet: 500 Credits“
+  (S150 trägt das Verb, weil bei gefundenen Credits nach S150 die Zahl folgt; geändert 24.10.2026
+  nach Marcels Screenshot, vorher fehlte im Credits-Fall das Verb). Zeilen ab x=5 umbrechen wie im
+  Original an den linken Rand.
 - Feindschiffe mit Artikel „die“ (Schiffe weiblich), Bausteine nur mit Nominativ/Akkusativ:
   „Maelstrom Rider überlistet die Viper“, „5 Schaden für die Viper: Rumpf“,
   „Rakete zerstört: die Viper“, „<Schiff> feuert: Rakete“ / „feuert Salve: Rakete“
