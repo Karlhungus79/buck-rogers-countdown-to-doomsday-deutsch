@@ -169,3 +169,12 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - Ares erkennt die SRAM der 2-MB-ROM: bestätigt 24.10.2026 (Spielstand geladen)
 - Zeilenzahl je Dialogfenster: 4 Zeilen im kleinen Fenster, 6 im Bildfenster gesehen; Grenze bei
   längeren Texten noch nicht gemessen
+
+## Nachtrag 25.10.2026 (Claude, Sonnet): offene Analyse für Opus
+
+- Umgebung im Container bestätigt: AS-Assembler gebaut, Bauten = Marcels Bauten (deutsch 989ABA78, Test A11EB65A,
+  Original 44E3BFFF). GitHub verknüpft, Abendstand 24.10. gepusht (40f9bcb).
+- **Offen (Opus):** (1) Warum kommt der Merkur-Kreuzer im Endspiel nie? (Code: Typ 4 „Merkur Medium“, ca. 1 von 8,
+  Beobachtung passt nicht) (2) Wo bekommt man den **Plasmawerfer** im Spiel? Marcel: sicher beim Entern
+  merkurianischer Schiffe; im Code (Läden, TREASURE, M052) nicht gefunden → Beute-Routine der Engine analysieren.
+  Details und Aufgabenliste: `Uebergabe_2026-10-25.md`. **Neu bauen: NEIN.**
