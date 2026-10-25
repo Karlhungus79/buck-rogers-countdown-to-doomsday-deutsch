@@ -4059,7 +4059,11 @@ loc_37F6:
 loc_383C:
 	rts
 loc_383E:
+	if DEUTSCH_TEST	; DEUTSCH-HOOK 23 (nur Testfassung): Jumper-Sprung ab ECL 94 setzt Endspiel-Stand, siehe DE_JumperStand (6 Byte wie Original)
+	jsr	(DE_JumperStand).l
+	else
 	move.b	($FFFFB9F0).w,($FFFF97E8).w
+	endif
 	bsr.w	sub_404A
 	move.b	d0,($FFFFB9F0).w
 	bsr.w	sub_40D0
@@ -30555,7 +30559,11 @@ loc_1824C:
 	move.b	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	#$14,d0
+	if DEUTSCH_TEST	; DEUTSCH-HOOK 20 (nur Testfassung): Bordwaffen des Gegners treffen nie (2 Byte wie Original)
+	bra.s	loc_182B2
+	else
 	beq.s	loc_18290
+	endif
 	cmp.b	d2,d0
 	bcs.s	loc_182B2
 loc_18290:
@@ -31188,7 +31196,11 @@ loc_18A1A:
 	move.w	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	#$14,d0
+	if DEUTSCH_TEST	; DEUTSCH-HOOK 21 (nur Testfassung): eigene Bordwaffen treffen immer (2 Byte wie Original)
+	bra.s	loc_18A44
+	else
 	beq.s	loc_18A44
+	endif
 	cmp.b	-$CE(a6),d0
 	bcs.w	loc_18A48
 loc_18A44:
@@ -31816,8 +31828,12 @@ loc_19352:
 sub_19360:
 	movem.l	d2-d7/a1-a3,-(a7)
 	bsr.w	sub_19984
+	if DEUTSCH_TEST	; DEUTSCH-HOOK 22 (nur Testfassung): eigenes Schiff unverwundbar, siehe DE_Unverwundbar (6 Byte wie Original)
+	jsr	(DE_Unverwundbar).l
+	else
 	bsr.w	sub_1991C
 	move.l	d1,d2
+	endif
 	bsr.w	sub_191FC
 	bsr.w	sub_19670
 	move.w	d0,d3

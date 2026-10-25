@@ -15,6 +15,7 @@ Funktionen:
   bild_schreiben(...)     -> Rohdaten (ungepackt)
   karte_pixel(...)        Kachelkarte -> Pixelfeld (Index 0..63 = Palette*16 + Farbe)
   pixel_karte(...)        Pixelfeld -> Kacheln + Karte (Doppelte und Spiegelungen zusammengefasst)
+  pixel_karte_fest(...)   Pixelfeld -> Kacheln, Kachelnummern und Karte wie im Original (G7)
 
 Aufruf:  python grafik.py export   -> 05_German_Script/Grafik/original/*.png (+ .json)
          python grafik.py pruefen  -> Rundreise aller Bilder (Entpacken, Packen, Entpacken)
@@ -192,6 +193,32 @@ def pixel_karte(pix, breite, karte_alt):
         if treffer is None:
             key = pixel_kachel(a); idx[key] = len(kacheln); kacheln.append(key); treffer = (idx[key], 0)
         karte.append(treffer[0] | treffer[1] | (pal << 13) | (karte_alt[k] & 0x8000))
+    return kacheln, karte
+
+
+def pixel_karte_fest(pix, breite, b):
+    """Pixelfeld -> Kacheln + Karte, dabei bleiben Kachelnummern, Reihenfolge und Karte wie im Original;
+    nur der Inhalt der Kacheln wird ersetzt. Noetig fuer Bilder, deren Kacheln das Spiel zusaetzlich
+    ueber feste Nummern verwendet (G7: Balken der Raumkampf-Anzeige = Kacheln $00-$17,
+    Leerfeld $18, Rand $19; Marcels Ares-Screenshot 24.10.2026).
+    Fehler, wenn eine Kachel an mehreren Stellen genutzt wird und dort verschieden aussehen muesste."""
+    kacheln = list(b["kacheln"]); karte = list(b["karte"]); gesetzt = {}
+    for k, e in enumerate(karte):
+        if e == 0xFFFF:
+            continue
+        y0, x0 = (k // breite) * 8, (k % breite) * 8
+        blk = [pix[y0 + y][x0:x0 + 8] for y in range(8)]
+        pal = (e >> 13) & 3
+        if any((v >> 4) != pal for r in blk for v in r if v):
+            raise ValueError("Feld %d,%d: andere Palette als im Original" % (x0 // 8, y0 // 8))
+        a = [[v & 15 for v in r] for r in blk]
+        if e & 0x1000: a = _vflip(a)
+        if e & 0x800: a = _hflip(a)
+        t = e & 0x3FF; key = pixel_kachel(a)
+        if t in gesetzt and gesetzt[t] != key:
+            raise ValueError("Kachel $%02X wird mehrfach genutzt und muesste verschieden aussehen (Feld %d,%d)"
+                             % (t, x0 // 8, y0 // 8))
+        gesetzt[t] = key; kacheln[t] = key
     return kacheln, karte
 
 

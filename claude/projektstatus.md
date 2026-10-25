@@ -7,6 +7,18 @@ Stand: 24.10.2026
 Phase 3 – Grafik: gebaut, Ares offen. **Phase 5 – Dialog: Erstübersetzung aller Spielmodule fertig, gebaut
 (deutsch 59F0785A, Test 9CF3FBF3), Ares offen** (`Dialog.md`, `Testliste_Phase5.md`). **Tor Phase 2 erreicht am 24.10.2026** (Marcel „Tor Phase 2“,
 Bau deutsch 0B58AE77 / Test 37DE7A79).
+**24.10.2026, 21:51 – Fehler G7 Raumkampf-Anzeige (Ares, Marcel):** Balken zeigten Buchstabenstücke,
+weil die Kacheln von G7 neu nummeriert waren. Skripte korrigiert (`Grafik.md`, Abschnitt „Befund und
+Korrektur G7“), **Neubau durch Marcel nötig** (erwartet deutsch FFB78D02, Test 31A7C400), Test in Ares offen.
+**24.10.2026, 22:16 – G7 bestätigt in Ares** (Schiffsanzeige korrekt). **Neuer Befund Planetenscan (Mars):**
+„Atmosphäre:“ fehlt, vermutlich weil „253 Millionen“ (13 Zeichen) eine Spalte zu breit ist (12 passen) und
+umbricht. **Entschieden 22:18, Marcel „B“:** einheitlich Mio./Mrd. (Glossar 3-43), eingesetzt, Neubau nötig:
+erwartet deutsch **989ABA78**, Test **815930C9**. Raumkampf-Hilfen (Hooks 20–22) bestätigt gebaut: Test 82DFF8A8 = Vorhersage.
+**24.10.2026, 22:35 – Testfassung: Jumper-Sprung ab ECL 94 setzt Endspiel-Stand automatisch** (Hook 23, `Testfassung.md`).
+Erwartet Test **A11EB65A**, deutsch **989ABA78**. Test offen.
+**24.10.2026, 22:10 – Testfassung: Raumkampf-Hilfen** (Hooks 20–22: Gegner trifft nie, eigenes Schiff trifft
+immer, Maelstrom Rider unverwundbar; nur Testfassung, `Testfassung.md`). Erwartet Test 82DFF8A8, deutsch FFB78D02. Test offen.
+Ares legt Spielstände im Unterordner `08_Savestates\Mega Drive\` ab (`Testfassung.md`).
 Tor Phase 1 erreicht am 24.10.2026 (Intro deutsch in Ares bestätigt).
 Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 
@@ -127,9 +139,6 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   Entwicklermodule M000/M001, Eigennamen, Passwörter, Satzzeichen). Fenstergrenze gemessen (Fenster
   überschreibt reihum) → Zeilenprüfung ist jetzt Fehler. SAVE-Längen geprüft. Textblock-Grenze $1C0000.
   **Gebaut: deutsch 59F0785A, Test 9CF3FBF3**, Original bit-genau. Intro im Testemulator gesehen. Ares offen.
-
-- **Test-Spielstand „starkes Team“ (24.10.2026):** Spielstand 4 mit 120 TP je Figur (`Testfassung.md`), von Claude
-  im Testemulator erzeugt (CRC32 4FC48986). Marcel 21:13: „klappt nicht“ – Ursache offen (Übergabe Punkt 1).
 
 ## Offen / nächste Schritte
 

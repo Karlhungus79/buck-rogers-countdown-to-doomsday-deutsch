@@ -111,6 +111,43 @@ de_mn_ende:
 	rts
 
 ; ---------------------------------------------------------------------------
+; Nur Testfassung (-D DEUTSCH_TEST=1): Maelstrom Rider unverwundbar im Raumkampf.
+; Sprungziel von DEUTSCH-HOOK 22 am Anfang von sub_19360 (Treffer auf ein Schiff), ersetzt dort
+; "bsr.w sub_1991C / move.l d1,d2". Nach sub_19984 gilt: d7 = 0 -> Ziel ist das eigene Schiff ($FFFF98F6).
+; Dann Schaden d2 = 0 und System d0 = 0 (Rumpf): keine Systemausfaelle, kein Besatzungsschaden
+; (der folgt im Original nur bei Treffern auf Steuerung/Waffen). Beschreibung: claude/Testfassung.md
+	if DEUTSCH_TEST
+DE_Unverwundbar:
+	jsr	(sub_1991C).l
+	move.l	d1,d2
+	tst.b	d7
+	bne.s	de_uv_ende
+	moveq	#0,d2
+	moveq	#0,d0
+de_uv_ende:
+	rts
+
+; Nur Testfassung: Sprungziel von DEUTSCH-HOOK 23 (Anfang NEWECL-Befehl loc_383E), ersetzt dort
+; "move.b ($FFFFB9F0).w,($FFFF97E8).w". Kommt der Modulwechsel aus dem Jumper (Modul 0, Menuepunkt JUMP:
+; $9E6F = 0) und ist das Sprungziel ($9E70) ECL 94 oder hoeher, werden die drei Hauptauftrags-Merker gesetzt
+; ($9876 Gradivus/Piraten, $9855 RAM-Basis Mars, $98B0 Venus-Labor) = Endspiel-Stand: im All volle
+; Gegnerliste inkl. Merkur-Kreuzer (M034), Mariposa wie nach allen Auftraegen. claude/Testfassung.md
+DE_JumperStand:
+	move.b	($FFFFB9F0).w,($FFFF97E8).w
+	tst.b	($FFFFB9F0).w
+	bne.s	de_js_ende
+	tst.b	($FFFF9E6F).w
+	bne.s	de_js_ende
+	cmpi.b	#94,($FFFF9E70).w
+	bcs.s	de_js_ende
+	move.b	#1,($FFFF9876).w
+	move.b	#1,($FFFF9855).w
+	move.b	#1,($FFFF98B0).w
+de_js_ende:
+	rts
+	endif
+
+; ---------------------------------------------------------------------------
 ; Erzeugt von 03_Tools/text_einsetzen.py (nicht von Hand aendern):
 ;   DE_Systemtexte: Systemtexttabelle (16-Bit-Offsets wie dat_11DC4, Nr. 0-392 wie Original,
 ;                   ab 393 neue Texte, z. B. fertige Gegenstandsnamen), danach die Texte

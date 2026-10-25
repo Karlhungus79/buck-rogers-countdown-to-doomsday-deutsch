@@ -333,6 +333,10 @@ def g7_neu(rom, kuerzel):
 
 # ---------------------------------------------------------------------------
 KUERZEL = {"WEAP": "WAFF", "ENGN": "ANTR", "CNTL": "STRG", "HULL": "RUMPF"}
+# Bilder, deren Kacheln das Spiel auch ueber feste Nummern nutzt -> Kachelreihenfolge wie im Original.
+# G7: Kacheln $00-$17 = Balkenteile, $18 = Leerfeld, $19 = Rand; nur $1A-$29 (Kuerzel) duerfen sich aendern.
+# Befund 24.10.2026 (Ares-Screenshot Marcel): mit neu sortierten Kacheln zeigten die Balken Buchstabenstuecke.
+FESTE_KACHELN = {"G7_schiff": range(0x00, 0x1A)}
 VORSPANN = {"G3_active": "AKTIV", "G4_target": "ZIEL?", "G5_earth": "ERDE"}
 
 
@@ -351,7 +355,14 @@ def main():
     os.makedirs(AUS, exist_ok=True); os.makedirs(VORSCHAU, exist_ok=True)
     for name, (b, pix) in alle(rom).items():
         info = gr.BILDER[name]
-        kach, karte = gr.pixel_karte(pix, info["breite"], b["karte"])
+        if name in FESTE_KACHELN:
+            # Kachelnummern wie im Original: das Spiel nutzt hier Kacheln ueber feste Nummern
+            kach, karte = gr.pixel_karte_fest(pix, info["breite"], b)
+            unveraendert = FESTE_KACHELN[name]
+            if any(kach[t] != b["kacheln"][t] for t in unveraendert):
+                raise SystemExit("%s: Kacheln mit fester Nummer veraendert" % name)
+        else:
+            kach, karte = gr.pixel_karte(pix, info["breite"], b["karte"])
         raw = gr.bild_schreiben(dict(b, kacheln=kach, karte=karte))
         blob = gr.lzw_pack(raw)
         if gr.lzw_unpack(blob)[:len(raw)] != raw:

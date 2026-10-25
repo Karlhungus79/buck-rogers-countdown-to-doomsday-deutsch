@@ -41,3 +41,4 @@
 3-40;scanning / population / atmosphere / gravity / revolution / rotation / diameter;Scan / Bevölkerung / Atmosphäre / Schwerkraft / Umlauf / Rotation / Durchmesser;;;79;79;;Planetendaten;A;S339
 3-41;miles;km (umgerechnet);Meilen;;5;16;;Grundsatz G8;A (G8);S368 S370 S373 S375 …
 3-42;save / restore;speichern / laden;;;14;17;;;A;"S389; Dialog 1× (M017_038)"
+3-43;million / billion (Planetendaten-Werte);Mio. / Mrd.;Millionen / Milliarden;Mill.;10;8;12;"Werte-Spalte Planetenscan: 12 Zeichen; „253 Millionen“ (13) brach um, „Atmosphäre:“ fehlte (Ares 24.10.2026)";A (24.10.2026, Marcels Antwort „B“ = einheitlich Mio./Mrd.);S345 S350 S355 S360

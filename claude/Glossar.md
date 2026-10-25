@@ -107,5 +107,7 @@ Vorbehalte (Breite/Technik, im Spieltest prüfen, ggf. Glossar mit Datum ändern
 - **E4:** Copyright-Zeilen bleiben **englisch**.
 - **E5 (24.10.2026, „E5:A“):** 3-38 engines → **Antrieb** statt Triebwerke (Schiffsstatus: 7 Zeichen).
 Alle im Spieltest prüfen (`Testliste_Phase2.md`).
+- **24.10.2026, Marcel „B“:** neu 3-43 Planetendaten-Werte einheitlich **Mio. / Mrd.** (253 Mio., 90 Mio., 20 Mio., 3 Mrd.),
+  weil die Werte-Spalte nur 12 Zeichen hat (`Systemtexte.md`, Befund Planetenscan).
 - Monsternamen (Liste 5, 5-33 bis 5-53) seit 24.10.2026 im Spiel (`Monster_Abspann.md`);
   „RAM G.D. GENNIE“ (nicht in der Liste) bleibt wie die anderen Kürzel unverändert. Entspricht dem Bau CRC32 598A9641, kein Neubau.

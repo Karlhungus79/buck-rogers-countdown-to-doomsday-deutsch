@@ -103,3 +103,12 @@ geändert (geprüft 24.10.2026). Original-Bau weiterhin bit-genau (CRC32 44E3BFF
 - Nicht im Testemulator gesehen: Kampfmeldungen (laufen zu schnell), Laden, Raumkampf,
   Planetenscan, Spielstandmeldungen, Ausbildung „ist jetzt Stufe“ → Spieltest Marcel.
 - Noch nicht in der Pipeline: Monsternamen (`dat_9E77C`), vorgefertigte Figuren, Abspann.
+
+## Befund Planetenscan (24.10.2026, 22:16, Marcels Ares-Screenshot Mars)
+
+- Werte-Spalte beginnt bei x=25, **12 Zeichen passen** („24,5 Stunden“, „3 Milliarden“ in Ordnung).
+- S345 „253 Millionen“ hat 13 Zeichen: Zeile 2 zeigt nur „dünn, kalt“, die Beschriftung „Atmosphäre:“ fehlt
+  (vermutlich Umbruch am Fensterrand löscht die Zeile). Einziger Wert über 12 Zeichen (geprüft S338–S387).
+- **Entschieden 24.10.2026, Marcel „B“:** einheitlich 253 Mio. / 90 Mio. / 20 Mio. / 3 Mrd. (S345, S355, S360, S350),
+  Glossar 3-43. Eingesetzt in `05_German_Script\systemtexte.toml` (Sicherung `03_Tools\bak\Scan_Mio_2026-10-24\`).
+  Systemtextblock 21 Byte kürzer, Tabellen dahinter rücken nach (Assembler setzt Verweise). **Gebaut, Test offen.**

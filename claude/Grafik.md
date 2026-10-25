@@ -78,3 +78,22 @@ Bilddateien (z. B. Raumkampf-Symbole), Spielende/Game Over.
 - Gewählte Texte (Claude, im Spieltest prüfen): PRÄSENTIERT, AKTIV, ZIEL?, ERDE,
   ENTWICKELT VOM (liest sich mit Logo und Zeile darunter: „entwickelt vom SSI Special Projects
   Team“), Raumkampf-Kürzel WAFF / STRG / ANTR / RUMPF.
+
+## Befund und Korrektur G7 (24.10.2026, 21:51)
+
+- **Befund (Marcels Ares-Screenshot, Raumkampf):** In der Schiffsanzeige standen in den Balken
+  Buchstabenstücke und Kürzel (z. B. „ANTR | LLLLLLL WAFF“) statt Balken. **Ursache:** Das Spiel nutzt
+  die Kacheln von G7 nicht nur über die Kachelkarte, sondern zeichnet die Balken mit **festen
+  Kachelnummern** ($00–$17 Balkenteile, $18 Leerfeld, $19 Rand). `pixel_karte()` hatte die Kacheln
+  beim Neupacken neu durchnummeriert (Kürzel vorne, Balkenteile hinten) – Anzahl 42 gleich, Reihenfolge nicht.
+- **Korrektur:** neue Funktion `pixel_karte_fest()` in `03_Tools\grafik.py`: Kachelnummern,
+  Reihenfolge und Karte bleiben wie im Original, nur der Inhalt der Kürzel-Kacheln $1A–$29 wird ersetzt.
+  `grafik_deutsch.py` nutzt sie für G7 (`FESTE_KACHELN`) und bricht ab, wenn sich eine Kachel
+  $00–$19 ändert. Geprüft (Linux, 24.10.2026): Karte = Original, nur $1A–$29 geändert, Pixel wie gewollt.
+  G7 gepackt jetzt 818 Byte (vorher 808). Sicherung der alten Skripte:
+  `03_Tools\bak\G7_Kachelreihenfolge_2026-10-24\`.
+- **Lehre:** Bei Bildern, deren Kacheln der Code direkt anspricht, nie neu durchnummerieren.
+  G1, G3–G6 zeigen nur über die Karte an (im Testemulator gesehen) – dort bleibt `pixel_karte()`.
+- Erwartete CRC32 nach Neubau (sonst unverändert gegenüber Bau 21:09): deutsch **FFB78D02**, Test **31A7C400**.
+  **Bestätigt am 24.10.2026 in Ares** (Marcel, Screenshot Sonnensystem-Karte): WAFF / STRG / ANTR / RUMPF
+  mit sauberen Balken. Beobachten: das F von RUMPF steht dicht am Balken.

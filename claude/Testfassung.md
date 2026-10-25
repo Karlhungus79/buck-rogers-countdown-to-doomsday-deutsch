@@ -26,9 +26,13 @@ der Bogen zeigt weiter die normalen TP, der Balken ist entsprechend länger). Ke
 kommt beim Abenteuerstart die Jumper-Frage. Spielstände 1–3 sind unverändert. Alte Datei:
 `08_Savestates\bak_vor_starkes_team_2026-10-24\`. Achtung: Heilen (Autodoc, Ruhe) setzt die TP vermutlich auf
 den Normalwert zurück – dann Spielstand 4 neu laden. Im Testemulator geprüft: lädt, Jumper-Frage erscheint.
-Kampf mit 120 TP noch nicht im Spiel gesehen. **Marcel 24.10.2026 21:13: „klappt nicht“** – Ursache offen
-(Verdacht: Ares-Saves-Pfad zeigt woanders hin, oder Ares hat die Datei beim Beenden überschrieben). Gute Datei:
-CRC32 4FC48986 (im Chat angehängt; neu erzeugen mit `03_Tools\claude_werkzeuge\starkes_team.py`).
+Kampf mit 120 TP noch nicht im Spiel gesehen.
+
+**Ablageort in Ares (Befund 24.10.2026):** Ares ist auf `08_Savestates` eingestellt, liest und schreibt die
+Spielstände aber im Unterordner `08_Savestates\Mega Drive\`. Die Datei mit dem starken Team muss deshalb nach
+`08_Savestates\Mega Drive\Buck Rogers - Countdown to Doomsday (test).ram` – **nur bei geschlossenem Ares
+kopieren**, sonst überschreibt Ares sie beim Beenden (ist am 24.10.2026 einmal passiert). Leere Ares-Datei
+gesichert in `08_Savestates\bak_ares_leer_2026-10-24\`.
 
 ## Bedienung
 
@@ -82,9 +86,67 @@ Disk = ECL geteilt durch 16 (abgerundet). ECL 0, 1, 3 sind Test-/Vorspannmodule.
 |---|---|---|---|
 | 1 | ARENA | Testkarte für Bodenkämpfe | Karte erscheint |
 | 1 | GO UP / TREASURE | nicht geprüft | – |
-| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). **Nutzen offen:** in den Figurendaten danach kein EP-Wert gefunden; das Hauptmenü hat mit geladenem Team kein „Figur ausbilden“ (2. Symbol = Figur entlassen!). Speichern im Spiel: START → 2. Symbol (Kiste) = Spiel speichern, 3. = Spiel laden. Stattdessen Spielstand 4 „starkes Team“ benutzen | geprüft 24.10.2026 im Testemulator |
+| 2 | EXP | Erfahrungspunkte für das Team: 5-stellige Eingabe, LINKS = nächsthöhere Stelle, OBEN = +1. **Höchstens 65535** (90000 ergab 24464 – Überlauf). Danach Stufenaufstieg über Hauptmenü FIGUR AUSBILDEN (Spiel vorher speichern: START, vermutlich Schubladen-Symbol – nicht geprüft) | geprüft 24.10.2026 im Testemulator |
 | 2 | STORE | Laden Nr. 1–16 öffnen | nicht geprüft |
 | 2 | ADDBUCK / SOUND | nicht geprüft | – |
 | 3 | TESTS → CREDITS | **Abspann** (ohne Musik – auch mit Original-Abspann so) | läuft, deutsch |
 | 3 | TESTS → MARIPOSA | nicht geprüft | – |
 | 3 | SPRITE / ARTTOOL / DEMO | Entwicklerwerkzeuge | – |
+
+## Raumkampf gegen bestimmte Schiffe (Analyse ECL-Modul 34, 24.10.2026, Claude)
+
+Zufallsbegegnungen im All laufen in M034 (`$71C7`): Typ = Zufall 0–4 →
+0 RAM-Scout, 1 RAM Medium, 2 RAM Heavy, 3 Piraten Medium, **4 Merkur Medium** (0–2 doppelt gewichtet).
+Ein Ort wird dort nicht geprüft. **Solange keiner der drei Merker gesetzt ist, kommen nur RAM-Scout und
+RAM Medium.** Freigeschaltet wird die volle Liste durch einen dieser Merker:
+
+| Merker | gesetzt in | Ereignis |
+|---|---|---|
+| `$9876` | M050 (ECL 50) | Piratenkreuzer-Hinterhalt am Asteroiden (gleich zu Beginn des Moduls) |
+| `$9876` | M049 (ECL 49) | Nachricht im RAM-Computer Gradivus Mons |
+| `$9855` | M066 (ECL 66) | Flucht aus der RAM-Basis Mars (Atha mit Passkarten) |
+| `$98B0` | M082 (ECL 82) | Retina-Dietrich unter der Bodenplatte (Venus) |
+
+Danach ist etwa jede 7. bis 8. Zufallsbegegnung ein Merkur-Kreuzer. Nur aus dem Code abgeleitet, im Spiel nicht geprüft.
+
+## Raumkampf-Hilfen der Testfassung (24.10.2026, Claude, auf Marcels Wunsch)
+
+Nur mit `-D DEUTSCH_TEST=1` (`7b_testfassung_bauen.bat`), die deutsche Fassung bleibt unverändert.
+Alle Eingriffe gleich lang wie das Original, Rückfallwert jeweils in `buckrogers.asm` (`else`-Zweig).
+
+| Hook | Stelle | Wirkung | Rückfallwert |
+|---|---|---|---|
+| 20 | `$1828A` (Bordwaffen Gegner, Wurf W20) | Gegner trifft nie (`bra.s loc_182B2`) | `beq.s loc_18290` |
+| 21 | `$18A3A` (eigene Bordwaffen, Wurf W20) | eigenes Schiff trifft immer (`bra.s loc_18A44`) | `beq.s loc_18A44` |
+| 22 | `$19368` (Anfang `sub_19360`, jeder Schiffstreffer) | `jsr DE_Unverwundbar` (`src\deutsch.asm`, `$1000C8`): Ziel eigenes Schiff → Schaden 0 auf Rumpf, keine Systemausfälle, kein Besatzungsschaden | `bsr.w sub_1991C` / `move.l d1,d2` |
+
+Hook 22 fängt auch Schaden aus anderen Quellen ab (z. B. Rammen/Ausmanövrieren `sub_192B2`); dann steht
+eine Meldung mit 0 Schadenspunkten. Nicht abgedeckt: Gegner-Raketen (`sub_182D4`, eigener Wurf), Bodenkämpfe
+nach dem Entern (dafür: Spielstand 4 mit 120 TP). Erwartete CRC32 Testfassung: **82DFF8A8**
+(berechnet aus Bau 21:09 + G7-Korrektur + Hooks 20–22; Assembler unter Linux nicht verfügbar).
+**Gebaut, Test in Ares offen.**
+
+## Handlungsstand per Jumper setzen (Analyse M000, 24.10.2026, Claude)
+
+**Automatisch (seit 24.10.2026, 22:35, DEUTSCH-HOOK 23, nur Testfassung):** Jeder Jumper-Sprung (JUMP) auf
+**ECL 94 oder höher** setzt die drei Merker unten selbst auf 1 = Endspiel-Stand. Für Weltraum im Endspiel:
+**ECL 99, Disk 6** (Raumhafen) anspringen und abfliegen, oder ECL 94, Disk 5. Sprünge unter 94 bleiben unverändert.
+Technik: `jsr DE_JumperStand` statt `move.b ($FFFFB9F0).w,($FFFF97E8).w` am Anfang von NEWECL (`loc_383E`);
+Bedingung Modul 0, `$9E6F` = 0 (JUMP), `$9E70` ≥ 94. Rückfallwert: der Original-Befehl.
+Erwartete CRC32 Testfassung **A11EB65A** (inkl. Mio./Mrd.), deutsch unverändert **989ABA78**. Gebaut, Test offen.
+
+Von Hand (für andere Ziele):
+
+„Set party variables?“ → YES → „PARTY PLUS WHAT OFFSET?“ (3 Stellen) → „WHAT WILL THE VARIABLE BE SET TO?“.
+Gespeichert wird bei `$96F6 + Offset`; Offset **≤ 256 beendet** die Eingabe, dann folgt der Sprung.
+Die drei Hauptauftrags-Merker (abgefragt u. a. in M017, M034, M094):
+
+| Offset | Adresse | Bedeutung (wo im Spiel gesetzt) |
+|---|---|---|
+| 384 | `$9876` | Gradivus Mons / Piratenhinterhalt erledigt (M049, M050) |
+| 351 | `$9855` | RAM-Basis Mars erledigt (M066) |
+| 442 | `$98B0` | Venus-Labor erledigt, Retina-Dietrich (M082) |
+
+Alle drei auf 1 = Endspiel-Stand: im All volle Gegnerliste (RAM Heavy, Piraten, Merkur-Kreuzer), Mariposa-Anflug (M094)
+wie nach allen Aufträgen. Nur aus dem Code abgeleitet, im Spiel nicht geprüft.
+Der Raumkampf-Test im Jumper („SPACE COMBAT“, Schiffstyp A–E) ist im Original nicht erreichbar (steht hinter NEWECL).

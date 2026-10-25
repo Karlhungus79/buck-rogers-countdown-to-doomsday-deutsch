@@ -1862,7 +1862,7 @@ de = "Durchmesser:"
 [[text]]
 id = "S345"
 en = "253 million"
-de = "253 Millionen"
+de = "253 Mio."
 
 [[text]]
 id = "S346"
@@ -1887,7 +1887,7 @@ de = "24,5 Stunden"
 [[text]]
 id = "S350"
 en = "3 billion"
-de = "3 Milliarden"
+de = "3 Mrd."
 
 [[text]]
 id = "S351"
@@ -1912,7 +1912,7 @@ de = "24 Stunden"
 [[text]]
 id = "S355"
 en = "90 million"
-de = "90 Millionen"
+de = "90 Mio."
 
 [[text]]
 id = "S356"
@@ -1937,7 +1937,7 @@ de = "243 Tage"
 [[text]]
 id = "S360"
 en = "20 million"
-de = "20 Millionen"
+de = "20 Mio."
 
 [[text]]
 id = "S361"
