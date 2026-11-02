@@ -2675,3 +2675,154 @@ en = "lunarian heavy body armor"
 de = "Luna-Schwerpanzerung"
 hinweis = "Fenster 33 Zeichen inkl. 'bereit: ' -> höchstens 25"
 de_mehrzahl = ""
+
+# --- Optionsmenue (Extra, claude/Optionen.md, 02.11.2026). Werte auf 9 Zeichen aufgefuellt (ueberschreiben alte Werte).
+
+[[zusatz]]
+name = "OPTIONEN"
+de = "Optionen"
+
+[[zusatz]]
+name = "O_RAUM_EIGEN"
+de = "Raumkampf: eigene Treffer"
+max = 26
+
+[[zusatz]]
+name = "O_RAUM_GEGNER"
+de = "Raumkampf: Gegner daneben"
+max = 26
+
+[[zusatz]]
+name = "O_BODEN_EIGEN"
+de = "Bodenkampf: eigene Treffer"
+max = 26
+
+[[zusatz]]
+name = "O_BODEN_GEGNER"
+de = "Bodenkampf: Gegner daneben"
+max = 26
+
+[[zusatz]]
+name = "O_UNVERWUNDBAR"
+de = "Raumschiff unverwundbar"
+max = 26
+
+[[zusatz]]
+name = "O_MUNITION"
+de = "Munition unbegrenzt"
+max = 26
+
+[[zusatz]]
+name = "O_BEGEGNUNG"
+de = "Begegnungen im All"
+max = 26
+
+[[zusatz]]
+name = "O_WUERFEL"
+de = "Attribute würfeln"
+max = 26
+
+[[zusatz]]
+name = "O_TP"
+de = "TP beim Stufenaufstieg"
+max = 26
+
+[[zusatz]]
+name = "O_EP"
+de = "Erfahrungspunkte"
+max = 26
+
+[[zusatz]]
+name = "O_CREDITS"
+de = "Credits aus Beute"
+max = 26
+
+[[zusatz]]
+name = "O_HEILUNG"
+de = "Heilung nach Kampf"
+max = 26
+
+[[zusatz]]
+name = "W_AUS"
+de = "AUS      "
+max = 9
+
+[[zusatz]]
+name = "W_25"
+de = "25 %     "
+max = 9
+
+[[zusatz]]
+name = "W_50"
+de = "50 %     "
+max = 9
+
+[[zusatz]]
+name = "W_75"
+de = "75 %     "
+max = 9
+
+[[zusatz]]
+name = "W_100"
+de = "100 %    "
+max = 9
+
+[[zusatz]]
+name = "W_AN"
+de = "AN       "
+max = 9
+
+[[zusatz]]
+name = "W_ORIGINAL"
+de = "ORIGINAL "
+max = 9
+
+[[zusatz]]
+name = "W_2WUERFE"
+de = "2 WÜRFE  "
+max = 9
+
+[[zusatz]]
+name = "W_MIN14"
+de = "MIN. 14  "
+max = 9
+
+[[zusatz]]
+name = "W_MAXIMUM"
+de = "MAXIMUM  "
+max = 9
+
+[[zusatz]]
+name = "W_NORMAL"
+de = "NORMAL   "
+max = 9
+
+[[zusatz]]
+name = "W_X15"
+de = "X 1,5    "
+max = 9
+
+[[zusatz]]
+name = "W_X2"
+de = "X 2      "
+max = 9
+
+[[zusatz]]
+name = "W_X3"
+de = "X 3      "
+max = 9
+
+[[zusatz]]
+name = "W_HALB"
+de = "HALB     "
+max = 9
+
+[[zusatz]]
+name = "W_KEINE"
+de = "KEINE    "
+max = 9
+
+[[zusatz]]
+name = "W_MERKUR"
+de = "MERKUR+  "
+max = 9

@@ -222,7 +222,11 @@ sub_3D2:
 	jsr	(sub_B0DA).l
 	moveq	#$0,d0
 	jsr	(sub_8A90).l
+	if DEUTSCH	; DEUTSCH-HOOK 26: Symbolbank Hauptmenue mit Symbol 110 (6 Byte wie Original)
+	lea	(DE_Bank0).l,a0
+	else
 	lea	(dat_4EE).l,a0
+	endif
 	jsr	(sub_A768).l
 	moveq	#$1,d0
 	jsr	(sub_982A).l
@@ -295,7 +299,11 @@ sub_4C0:
 	jsr	(sub_AB5A).l
 	tst.b	($FFFF9D9E).w
 	bne.s	loc_4E0
+	if DEUTSCH	; DEUTSCH-HOOK 25: Hauptmenue-Symbole mit Optionen (6 Byte wie Original)
+	lea	(DE_M0_Symbole).l,a2
+	else
 	lea	(dat_13D92).l,a2
+	endif
 	jsr	(sub_A9B8).l
 loc_4E0:
 	rts
@@ -382,8 +390,12 @@ loc_61C:
 	lea	$10(a2),a0
 	moveq	#$4,d2
 loc_622:
+	if DEUTSCH	; DEUTSCH-HOOK 28: Attributwurf (Option Wuerfelmodus), DE_Attributwurf (6 Byte wie Original)
+	jsr	(DE_Attributwurf).l
+	else
 	moveq	#$8,d0
 	bsr.w	sub_6C8C
+	endif
 	addi.l	#$A,d0
 	move.b	d0,(a0)+
 	dbf	d2,loc_622
@@ -775,8 +787,13 @@ sub_B1C:
 	move.b	$18(a2),d0
 	subq.l	#$1,d0
 	lea	(dat_B78).l,a0
+	if DEUTSCH	; DEUTSCH-HOOK 29: Trefferpunkte-Wurf (Option Hoechstwert), DE_TPWurf (8 Byte wie Original)
+	jsr	(DE_TPWurf).l
+	nop
+	else
 	move.b	(a0,d0.w),d0
 	bsr.w	sub_6C8C
+	endif
 	moveq	#$0,d1
 	move.b	$12(a2),d1
 	lea	(dat_B7C).l,a0
@@ -4395,8 +4412,12 @@ loc_3B90:
 loc_3BCE:
 	bsr.w	sub_404A
 	move.l	d0,d2
+	if DEUTSCH	; DEUTSCH-HOOK 31: Erfahrungspunkte aus Ereignissen (Option Faktor), DE_EPEcl (6 Byte wie Original)
+	jsr	(DE_EPEcl).l
+	else
 	bsr.w	sub_404A
 	move.l	d0,d3
+	endif
 	jsr	(sub_1343E).l
 	move.w	#$8000,($FFFFD5AC).w
 	move.w	#$F000,($FFFFD5A8).w
@@ -12988,7 +13009,11 @@ loc_A786:
 	cmp.b	#$FF,d0
 	beq.s	loc_A7B2
 	asl.w	#$2,d0
+	if DEUTSCH	; DEUTSCH-HOOK 27: Symboltabelle mit neuem Symbol 110 (6 Byte wie Original)
+	lea	(DE_Symboltabelle).l,a0
+	else
 	lea	(dat_F14F2).l,a0
+	endif
 	movea.l	(a0,d0.w),a0
 	bsr.w	sub_9DD4
 	move.l	$6(a0),$6(a2)
@@ -21700,7 +21725,11 @@ loc_10A9C:
 	add.b	d1,d0
 loc_10AC0:
 	asl.w	#$2,d0
+	if DEUTSCH	; DEUTSCH-HOOK 27: Symboltabelle mit neuem Symbol 110 (6 Byte wie Original)
+	lea	(DE_Symboltabelle).l,a0
+	else
 	lea	(dat_F14F2).l,a0
+	endif
 	movea.l	(a0,d0.w),a0
 	bsr.w	sub_9DD4
 loc_10AD0:
@@ -24493,8 +24522,13 @@ loc_13C8E:
 
 ; ---------------------------------------------------------------------------
 sub_13C9C:
+	if DEUTSCH	; DEUTSCH-HOOK 24: Menues ueber DE_Menue (Hauptmenue mit Optionen-Symbol, claude/Optionen.md) (6 Byte wie Original)
+	jmp	(DE_Menue).l
+	else
 	movem.l	a2-a3,-(a7)
 	asl.w	#$2,d0
+	endif
+loc_13CA2:
 	lea	(dat_13CC6).l,a2
 	move.w	$2(a2,d0.w),d1
 	beq.s	loc_13CB4
@@ -27882,8 +27916,13 @@ loc_1639A:
 	bne.s	loc_163D2
 	tst.b	($FFFF97AE).w
 	bne.s	loc_163D2
+	if DEUTSCH	; DEUTSCH-HOOK 32: Credits der Gegner (Option Faktor), DE_Credits (8 Byte wie Original)
+	jsr	(DE_Credits).l
+	nop
+	else
 	move.l	$1A(a1),d0
 	add.l	d0,($FFFFBA34).w
+	endif
 	moveq	#$C,d5
 	lea	$54(a1),a2
 loc_163B4:
@@ -27913,9 +27952,15 @@ loc_163EA:
 	moveq	#$0,d0
 	move.w	d6,d0
 loc_163F8:
+	if DEUTSCH	; DEUTSCH-HOOK 30: Erfahrungspunkte nach dem Kampf (Option Faktor), DE_EPEnde (10 Byte wie Original)
+	jmp	(DE_EPEnde).l
+	nop
+	nop
+	else
 	move.l	d0,($FFFFD514).w
 	movem.l	(a7)+,d2-d7/a2-a4
 	rts
+	endif
 dat_16402:
 	binclude	"data/016402.bin"
 
@@ -28036,10 +28081,18 @@ loc_16564:
 	bne.s	loc_1658A
 	btst	d7,($FFFFD8DA).w
 	bne.s	loc_1658A
+	if DEUTSCH	; DEUTSCH-HOOK 34: EP gutschreiben + Heilung nach Kampf (Option), DE_EPHeilung (14 Byte wie Original)
+	jsr	(DE_EPHeilung).l
+	nop
+	nop
+	nop
+	nop
+	else
 	move.l	$1E(a1),d0
 	move.l	($FFFFD514).w,d1
 	add.l	d1,d0
 	move.l	d0,$1E(a1)
+	endif
 loc_1658A:
 	dbf	d7,loc_16564
 	move.l	(a7)+,d7
@@ -30556,16 +30609,21 @@ loc_1824C:
 	st	d0
 	lea	($FFFF98F6).w,a0
 	bsr.w	sub_19696
+	if DEUTSCH	; DEUTSCH-HOOK 20: Trefferwurf Gegner ueber DE_RaumGegner (Option, 18 Byte wie Original)
+	jsr	(DE_RaumGegner).l
+	bcs.w	loc_182B2
+	nop
+	nop
+	nop
+	nop
+	else
 	move.b	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	#$14,d0
-	if DEUTSCH_TEST	; DEUTSCH-HOOK 20 (nur Testfassung): Bordwaffen des Gegners treffen nie (2 Byte wie Original)
-	bra.s	loc_182B2
-	else
 	beq.s	loc_18290
-	endif
 	cmp.b	d2,d0
 	bcs.s	loc_182B2
+	endif
 loc_18290:
 	bsr.w	sub_1963C
 	move.l	d0,-(a7)
@@ -31184,8 +31242,12 @@ loc_189D8:
 	bsr.w	sub_1992A
 	move.b	$3(a2),d0
 	beq.s	loc_18A1A
+	if DEUTSCH	; DEUTSCH-HOOK 33: eigene Munition (Option unbegrenzt), DE_Munition (6 Byte wie Original)
+	jsr	(DE_Munition).l
+	else
 	subq.b	#$1,d0
 	move.b	d0,$3(a2)
+	endif
 loc_18A1A:
 	moveq	#$1,d0
 	sub.b	d0,-$5E(a6,d6.w)
@@ -31193,16 +31255,23 @@ loc_18A1A:
 	move.b	(a2),d0
 	addi.b	#$13,d0
 	jsr	(sub_1B900).l
+	if DEUTSCH	; DEUTSCH-HOOK 21: eigener Trefferwurf ueber DE_RaumEigen (Option, 22 Byte wie Original)
+	jsr	(DE_RaumEigen).l
+	bcs.w	loc_18A48
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	else
 	move.w	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	#$14,d0
-	if DEUTSCH_TEST	; DEUTSCH-HOOK 21 (nur Testfassung): eigene Bordwaffen treffen immer (2 Byte wie Original)
-	bra.s	loc_18A44
-	else
 	beq.s	loc_18A44
-	endif
 	cmp.b	-$CE(a6),d0
 	bcs.w	loc_18A48
+	endif
 loc_18A44:
 	st	-$E0(a6)
 loc_18A48:
@@ -31828,7 +31897,7 @@ loc_19352:
 sub_19360:
 	movem.l	d2-d7/a1-a3,-(a7)
 	bsr.w	sub_19984
-	if DEUTSCH_TEST	; DEUTSCH-HOOK 22 (nur Testfassung): eigenes Schiff unverwundbar, siehe DE_Unverwundbar (6 Byte wie Original)
+	if DEUTSCH	; DEUTSCH-HOOK 22: eigenes Schiff unverwundbar (Option), siehe DE_Unverwundbar (6 Byte wie Original)
 	jsr	(DE_Unverwundbar).l
 	else
 	bsr.w	sub_1991C

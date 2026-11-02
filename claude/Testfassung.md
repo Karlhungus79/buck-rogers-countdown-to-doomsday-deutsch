@@ -111,6 +111,10 @@ Danach ist etwa jede 7. bis 8. Zufallsbegegnung ein Merkur-Kreuzer. Nur aus dem 
 
 ## Raumkampf-Hilfen der Testfassung (24.10.2026, Claude, auf Marcels Wunsch)
 
+**Seit 02.11.2026 Optionen in beiden Fassungen** (`Optionen.md`): Hooks 20–22 rufen jetzt `DE_RaumGegner`,
+`DE_RaumEigen`, `DE_Unverwundbar` auf. Die Testfassung startet mit 100 % / 100 % / AN (= Verhalten wie unten),
+die deutsche Fassung mit AUS. Einstellbar im Hauptmenü unter OPTIONEN. Die Tabelle unten ist der alte Stand.
+
 Nur mit `-D DEUTSCH_TEST=1` (`7b_testfassung_bauen.bat`), die deutsche Fassung bleibt unverändert.
 Alle Eingriffe gleich lang wie das Original, Rückfallwert jeweils in `buckrogers.asm` (`else`-Zweig).
 

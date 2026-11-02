@@ -1,6 +1,6 @@
 ; ===========================================================================
 ; Deutsche Fassung - Erweiterung ab $100000 (nur mit -D DEUTSCH=1)
-; Stand: 24.10.2026. Beschreibung: claude/Textablage.md, claude/Systemtexte.md
+; Stand: 02.11.2026. Beschreibung: claude/Textablage.md, claude/Systemtexte.md, claude/Optionen.md
 ; ===========================================================================
 
 	include	"deutsch/optionen.inc"	; erzeugt von text_einsetzen.py (DE_PLURAL_WAFFE, DE_PLURAL_TP)
@@ -111,22 +111,27 @@ de_mn_ende:
 	rts
 
 ; ---------------------------------------------------------------------------
-; Nur Testfassung (-D DEUTSCH_TEST=1): Maelstrom Rider unverwundbar im Raumkampf.
+; Option "Raumschiff unverwundbar" (frueher nur Testfassung): Maelstrom Rider unverwundbar im Raumkampf.
 ; Sprungziel von DEUTSCH-HOOK 22 am Anfang von sub_19360 (Treffer auf ein Schiff), ersetzt dort
 ; "bsr.w sub_1991C / move.l d1,d2". Nach sub_19984 gilt: d7 = 0 -> Ziel ist das eigene Schiff ($FFFF98F6).
-; Dann Schaden d2 = 0 und System d0 = 0 (Rumpf): keine Systemausfaelle, kein Besatzungsschaden
-; (der folgt im Original nur bei Treffern auf Steuerung/Waffen). Beschreibung: claude/Testfassung.md
-	if DEUTSCH_TEST
+; Ist die Option an: Schaden d2 = 0 und System d0 = 0 (Rumpf): keine Systemausfaelle, kein Besatzungsschaden.
 DE_Unverwundbar:
 	jsr	(sub_1991C).l
 	move.l	d1,d2
 	tst.b	d7
 	bne.s	de_uv_ende
+	move.l	d0,-(a7)
+	moveq	#OPT_UNVERWUNDBAR,d0
+	bsr.w	DE_OptLesen
+	tst.b	d0
+	movem.l	(a7)+,d0
+	beq.s	de_uv_ende
 	moveq	#0,d2
 	moveq	#0,d0
 de_uv_ende:
 	rts
 
+	if DEUTSCH_TEST
 ; Nur Testfassung: Sprungziel von DEUTSCH-HOOK 23 (Anfang NEWECL-Befehl loc_383E), ersetzt dort
 ; "move.b ($FFFFB9F0).w,($FFFF97E8).w". Kommt der Modulwechsel aus dem Jumper (Modul 0, Menuepunkt JUMP:
 ; $9E6F = 0) und ist das Sprungziel ($9E70) ECL 94 oder hoeher, werden die drei Hauptauftrags-Merker gesetzt
@@ -146,6 +151,8 @@ DE_JumperStand:
 de_js_ende:
 	rts
 	endif
+
+	include	"src/optionen.asm"
 
 ; ---------------------------------------------------------------------------
 ; Erzeugt von 03_Tools/text_einsetzen.py (nicht von Hand aendern):
@@ -194,6 +201,13 @@ DE_Grafik_G6:
 	binclude	"deutsch/grafik_G6.bin"
 DE_Grafik_G7:
 	binclude	"deutsch/grafik_G7.bin"
+; Optionsmenue: Symboltabelle (Kopie dat_F14F2, 110 Eintraege) + neues Symbol 110 (DEUTSCH-HOOK 27)
+	align	2
+DE_Symboltabelle:
+	binclude	"data/0F14F2.bin"
+	dc.l	DE_Symbol110
+DE_Symbol110:
+	binclude	"deutsch/symbol_110.bin"
 DE_Grafikende:
 	if DE_Grafikende > $200000
 	error	"Grafiken zu gross"

@@ -1,6 +1,6 @@
 # Optionsmenü (Extra, Phase 3+)
 
-Stand: 02.11.2026 (Claude, Opus). **Konzept, nichts gebaut.** Auftrag Marcel 02.11.2026: Optionsmenü im Hauptmenü,
+Stand: 02.11.2026 (Claude, Opus). **Entschieden 02.11.2026, 23:01 (Marcel): O1 = C, O2–O4 = A, alle Vorschläge V1–V10 einbauen. Stufe 1 gebaut 02.11.2026 (siehe unten), Stufe 2 offen.** Auftrag Marcel 02.11.2026: Optionsmenü im Hauptmenü,
 Symbol nach Claudes Wahl („mach es einfach schön“), Raumkampf: eigene Treffer / Gegner daneben, prozentual einstellbar;
 weitere Vorschläge (z. B. Würfeln).
 
@@ -52,7 +52,10 @@ Symbolreihe. Symbol wählen und C drücken schaltet den Wert weiter (0 → 25 �
    [Fadenkreuz] [Schild] [Ende]
 ```
 
-## Entscheidungen (offen, Marcel)
+## Entscheidungen (Marcel, 02.11.2026, 23:01: „O1 = C, O2 bis O4 alles A, alle Vorschläge V einbauen“)
+
+Ergebnis: **O1 = C** Schieberegler (neues Symbol), **O2 = A** 25-%-Schritte, **O3 = A** beide Fassungen
+(deutsch Standard 0 %, Testfassung 100 %), **O4 = A** gilt bis zum Ausschalten. **V1–V10: alle einbauen.**
 
 | Nr. | Frage | A (Empfehlung) | B | C |
 |---|---|---|---|---|
@@ -77,3 +80,43 @@ Vorschau der Symbole: `claude/Vorschau/Optionen_Symbol_Vorschau.png` (Pixelgrafi
 | V8 | Zufallsbegegnungen im All | normal / halb / aus; Merkur-Kreuzer häufiger | mittel |
 | V9 | Volle Heilung nach jedem Kampf | aus / an | mittel |
 | V10 | Optionen auch im START-Menü während des Spiels (neben Spieltempo/Musik) | – | mittel |
+
+## Stufe 1 – gebaut 02.11.2026 (Claude, Opus)
+
+Bau: deutsch **DD098CB9**, Testfassung **C0FAD96E** (2 MB), Original weiterhin bit-genau (44E3BFFF).
+Im Testemulator gesehen: Hauptmenü mit 6. Symbol (Schieberegler, „OPTIONEN“), Optionsbildschirm, Werte mit C vor
+und B zurück, START/Ende zurück ins Hauptmenü (Zeiger bleibt auf „Optionen“), Testfassung zeigt Standard 100 %/100 %/AN,
+Attribute „MAXIMUM“ → alle 18 (vor Rassen-/Klassenzuschlag), TP „MAXIMUM“ wirkt bei der Erschaffung.
+**Nicht im Spiel getestet:** Raumkampf-Treffer, Unverwundbar, Munition, EP-/Credits-Faktor, Heilung.
+
+Technik (Code `src/optionen.asm`, eingebunden aus `src/deutsch.asm`; alle Hooks gleich lang wie das Original,
+Rückfallwert jeweils im `else`-Zweig von `buckrogers.asm`, Sicherung `03_Tools\bak\optionen_2026-11-02\`):
+
+| Hook | Stelle | Wirkung |
+|---|---|---|
+| 24 | Anfang `sub_13C9C` | `DE_Menue`: Menü 0 mit 6 Symbolen, Auswahl 5 → `DE_Optionen`; andere Menüs wie Original (`loc_13CA2`) |
+| 25 | `sub_4C0` | Hauptmenü-Symbole `DE_M0_Symbole` (x = 6/11/16/21/26/31) |
+| 26 | `sub_3D2` | Symbolbank `DE_Bank0` = Original + 110 + Symbole des Optionsbildschirms (eine zweite Bank geht nicht: Grafikspeicher ist ein Stapel, „GRAPHICS FREED OUT OF ORDER“) |
+| 27 | `sub_A768`, `loc_10AC0` | Symboltabelle `DE_Symboltabelle` (Kopie + Symbol 110, `grafik_deutsch.py` → `deutsch\symbol_110.bin`) |
+| 20 | `loc_1824C` | `DE_RaumGegner` (ersetzt den alten Testfassungs-Hook) |
+| 21 | `loc_18A1A` | `DE_RaumEigen` (ersetzt den alten Testfassungs-Hook) |
+| 22 | `sub_19360` | `DE_Unverwundbar` jetzt in beiden Fassungen, wirkt nur mit Option AN |
+| 33 | vor `loc_18A1A` | `DE_Munition`: Munition `$3(a2)` wird nicht verringert |
+| 28 | `loc_622` | `DE_Attributwurf`: W8 / bester von 2 / mindestens 4 / 8 (+10 durch das Spiel) |
+| 29 | `sub_B1C` | `DE_TPWurf`: Trefferwürfel der Klasse oder Höchstwert (Stufenaufstieg **und** Erschaffung) |
+| 30 | `loc_163F8` | `DE_EPEnde`: EP je Figur nach dem Kampf × Faktor (Meldung zeigt den neuen Wert) |
+| 31 | `loc_3BCE` | `DE_EPEcl`: EP aus Ereignissen × Faktor |
+| 32 | `sub_1631E` | `DE_Credits`: Credits je besiegtem Gegner × Faktor |
+| 34 | `sub_16560` | `DE_EPHeilung`: EP wie Original, bei Option AN aktuelle TP = Höchst-TP (nur wenn der Kampf EP bringt) |
+
+Einstellungen im RAM `$FFFFF6–$FFFFFB` (über dem Stapel, vom Spiel nie benutzt), je 4 Bit, gespeichert als
+„Wert XOR Standard“ → nach dem Einschalten (RAM = 0) gilt der Standard der Fassung. Nach einem Reset (Knopf)
+bleiben die Einstellungen vermutlich erhalten (das Spiel löscht den RAM nur beim Einschalten) – im Spieltest prüfen.
+
+## Stufe 2 – offen
+
+- **V5 Bodenkampf:** Trefferwurf der Bodenkämpfe noch nicht gefunden (`sub_6946`/`sub_6990` sind Ereignis-Angriffe
+  und Rettungswürfe, nicht der normale Kampf).
+- **V8 Begegnungen im All:** Entscheidung liegt im ECL-Skript M034 (`RANDOM`), Eingriff im Interpreter nötig.
+- **V10 Optionen im START-Menü:** Menü 2/4; offen, wie der Spielbildschirm danach neu gezeichnet wird.
+- Optionen und Symbole dafür sind schon vorbereitet (Texte, Symbole 66, 27, 103 in der Bank, Werte-Typ Begegnung).

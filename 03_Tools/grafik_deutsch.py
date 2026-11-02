@@ -370,7 +370,41 @@ def main():
         open(os.path.join(AUS, "grafik_%s.bin" % name.split("_")[0]), "wb").write(blob)
         gr.png_schreiben(pix, gr.standard_paletten(b), os.path.join(VORSCHAU, name + ".png"))
         print("%-12s %3d Kacheln (Original %3d), %5d Byte gepackt" % (name, len(kach), len(b["kacheln"]), len(blob)))
+    symbol_optionen(rom)
     return 0
+
+
+# --- Neues Symbol 110 "Optionen" (Schieberegler, Entscheidung O1 = C, 02.11.2026, claude/Optionen.md) ---
+# Symbolformat wie die Bibliothek dat_F14F2: 3 x 3 Kacheln, Karte 0..8, keine eigene Palette (CRAM-Zeile 0:
+# 1 gelb, 2 schwarz, 5 violett, 8 dunkelgrau, 9 blau, 11 cyan, 12 hellrot, 15 weiss).
+def symbol_optionen_pixel():
+    p = [[9 if (x + y) % 2 == 0 else 5 for x in range(24)] for y in range(24)]
+    for ty, kx, farbe in ((5, 15, 12), (11, 7, 1), (17, 17, 11)):
+        for x in range(2, 22):
+            p[ty][x] = 2
+            p[ty + 1][x] = 8
+        for y in range(ty - 3, ty + 5):
+            for x in range(kx - 2, kx + 3):
+                rand = y in (ty - 3, ty + 4) or x in (kx - 2, kx + 2)
+                p[y][x] = 2 if rand else (15 if x == kx - 1 else farbe)
+    return p
+
+
+def symbol_optionen(rom):
+    pix = symbol_optionen_pixel()
+    kach = [gr.pixel_kachel([r[tx * 8:tx * 8 + 8] for r in pix[ty * 8:ty * 8 + 8]])
+            for ty in range(3) for tx in range(3)]
+    # Vorlage: Kopf eines vorhandenen Symbols (Nr. 0), nur Kacheln ersetzen
+    adr = int.from_bytes(rom[0xF14F2:0xF14F6], "big")
+    b = gr.bild_lesen(gr.lzw_unpack(rom[adr:adr + 0x4000]))
+    if len(b["karte"]) != 9 or b["bits"]:
+        raise SystemExit("Symbolformat unerwartet")
+    raw = gr.bild_schreiben(dict(b, kacheln=kach, karte=list(range(9))))
+    blob = gr.lzw_pack(raw)
+    if gr.lzw_unpack(blob)[:len(raw)] != raw:
+        raise SystemExit("LZW-Rundreise fehlgeschlagen: Symbol 110")
+    open(os.path.join(AUS, "symbol_110.bin"), "wb").write(blob)
+    print("Symbol 110   %3d Kacheln, %5d Byte gepackt (Optionen, Schieberegler)" % (len(kach), len(blob)))
 
 
 if __name__ == "__main__":

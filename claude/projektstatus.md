@@ -214,3 +214,8 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - Auftrag Marcel: Optionsmenü im Hauptmenü (Symbol frei), Raumkampf-Treffer eigene/Gegner prozentual, weitere Vorschläge.
 - Code analysiert (Hauptmenü, Symbolbibliothek, Trefferwürfe), Entwurf und Entscheidungen O1–O4, Vorschläge V1–V10:
   `Optionen.md`, Vorschau `Vorschau/Optionen_Symbol_Vorschau.png`. **Nichts gebaut, Entscheidung Marcel offen. Neu bauen: NEIN.**
+- **Entschieden 02.11.2026, 23:01 (Marcel):** O1 = C (Schieberegler), O2–O4 = A, alle Vorschläge V1–V10 einbauen. Bau beginnt (`Optionen.md`).
+- **Optionsmenü Stufe 1 gebaut (02.11.2026, Claude, Opus):** Symbol, Optionsbildschirm, Raumkampf-Treffer, Unverwundbar,
+  Munition, Würfeln, TP, EP, Credits, Heilung. Bau deutsch **DD098CB9**, Test **C0FAD96E**, Original bit-genau.
+  Im Testemulator: Menü, Bildschirm, Werte, Würfeln MAXIMUM. Spieltest offen (`Testliste_Optionen.md`).
+  **Stufe 2 offen:** V5 Bodenkampf, V8 Begegnungen, V10 START-Menü (`Optionen.md`). **Neu bauen: JA.**

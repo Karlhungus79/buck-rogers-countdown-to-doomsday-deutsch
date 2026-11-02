@@ -220,6 +220,10 @@ def systemtexte_bauen(rom, fehler, hinweise, stat):
     # Zusatztexte: im englischen Vergleichsbau der Originaltext (Rueckfallwert)
     for name, orig in ZUSATZ_ORIGINAL.items():
         optionen += "DE_TXT_%s = $%X\t; Zusatztext (Original S%03d)\n" % (name, zusatz_sym.get(name, orig), orig)
+    # Zusatztexte ohne Original (z. B. Optionsmenue, claude/Optionen.md): Nummer in beiden Bauarten
+    for name, nr in zusatz_sym.items():
+        if name not in ZUSATZ_ORIGINAL:
+            optionen += "DE_TXT_%s = $%X\t; Zusatztext (neu)\n" % (name, nr)
     return sys_bin, bytes(namen), optionen
 
 
