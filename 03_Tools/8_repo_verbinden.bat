@@ -1,7 +1,8 @@
 @echo off
-REM Einmalig: verbindet den Projektordner (H:) mit dem GitHub-Repo.
+REM Verbindet den Projektordner mit dem GitHub-Repo. Einmalig, und nach einem Umzug
+REM auf ein anderes Laufwerk oder einen anderen Windows-Benutzer noch einmal starten.
 REM Es werden KEINE Dateien im Projektordner geaendert oder geloescht:
-REM nur der versteckte Ordner .git wird angelegt, danach zeigt "git status" Unterschiede.
+REM nur der versteckte Ordner .git wird angelegt bzw. aktualisiert.
 setlocal
 chcp 65001 >nul
 cd /d "%~dp0.."
@@ -19,29 +20,33 @@ if errorlevel 1 (
   exit /b 1
 )
 
-if exist ".git" (
-  echo Der Ordner ist schon mit einem Repo verbunden:
-  git remote -v
-  echo.
-  echo Nichts zu tun. Zum Abgleichen: 9_repo_abgleich.bat
-  pause
-  exit /b 0
-)
-
-REM H: gehoert evtl. einem anderen Windows-Benutzer, dann verweigert git sonst die Arbeit
+REM Neues Laufwerk oder anderer Besitzer: git verweigert sonst die Arbeit ("dubious ownership").
+REM Der aktuelle Ordner wird als sicher eingetragen, falls er es noch nicht ist.
 set SAFE=%CD:\=/%
-git config --global --add safe.directory "%SAFE%"
+git config --global --get-all safe.directory | findstr /x /c:"%SAFE%" >nul
+if errorlevel 1 git config --global --add safe.directory "%SAFE%"
 git config --global core.quotepath false
+
+if exist ".git" goto vorhanden
 
 git init
 if errorlevel 1 goto fehler
 git symbolic-ref HEAD refs/heads/main
 git remote add origin %URL%
 if errorlevel 1 goto fehler
+goto holen
 
+:vorhanden
+echo Im Ordner gibt es schon ein Repo. Es wird neu mit GitHub verbunden:
+git remote set-url origin %URL%
+if errorlevel 1 goto fehler
+git symbolic-ref HEAD refs/heads/main
+git remote -v
+
+:holen
 echo.
-echo Jetzt holt git den Stand von GitHub. Beim ersten Mal oeffnet sich ein
-echo Anmeldefenster (Browser): bei GitHub anmelden und die Anmeldung erlauben.
+echo Jetzt holt git den Stand von GitHub. Falls ein Anmeldefenster (Browser)
+echo erscheint: bei GitHub anmelden und die Anmeldung erlauben.
 echo Das Repo ist privat, ohne Anmeldung geht es nicht.
 echo.
 git fetch origin
@@ -60,6 +65,8 @@ echo (ROM, Savestates, Bauten und englischer Text sind absichtlich nicht im Repo
 echo.
 git status --short
 echo ===== Ende =====
+echo.
+git log --oneline -3
 echo.
 echo Fertig. Bitte den Text oben kopieren oder fotografieren und Claude schicken.
 pause

@@ -1,5 +1,5 @@
 @echo off
-REM Gleicht den Projektordner (H:) mit GitHub ab. Dateien im Ordner werden NICHT veraendert.
+REM Gleicht den Projektordner mit GitHub ab. Dateien im Ordner werden NICHT veraendert.
 REM Zeigt, ob Projektordner und GitHub-Stand uebereinstimmen.
 setlocal
 chcp 65001 >nul
@@ -10,6 +10,11 @@ if not exist ".git" (
   pause
   exit /b 1
 )
+
+REM Neues Laufwerk oder anderer Besitzer: Ordner als sicher eintragen, falls noch nicht geschehen.
+set SAFE=%CD:\=/%
+git config --global --get-all safe.directory | findstr /x /c:"%SAFE%" >nul
+if errorlevel 1 git config --global --add safe.directory "%SAFE%"
 
 git fetch origin
 if errorlevel 1 (

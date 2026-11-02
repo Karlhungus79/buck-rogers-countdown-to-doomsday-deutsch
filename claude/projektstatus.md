@@ -195,3 +195,11 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   deutsch 989ABA78, Testfassung A11EB65A, Original 44E3BFFF. **Neu bauen: NEIN.**
 - Weiter offen (laut Stand 25.10., nicht neu bestätigt): Frage Merkur-Kreuzer selten/nie, Planetenscan („Atmosphäre:“),
   `Testliste_Phase3.md` / `Testliste_Phase5.md` in Ares, Tor Phase 3, GitHub-Abgleich nach dem Ordnerumzug, Patch neu erzeugen.
+
+- **Umzug auf F: (Marcel, 02.11.2026):** Projektordner liegt jetzt unter `F:\Buck Rogers Disassembly`. Ältere Dokumente nennen noch den
+  H:-Pfad (historisch). `.git` ist mitgezogen, `origin` zeigt unverändert auf das GitHub-Repo; der lokale Stand ist noch der vom 24.10.
+  Wahrscheinliche Ursache für die unterbrochene Verbindung: Git kennt den neuen Ordner nicht als sicher („dubious ownership“).
+  `8_repo_verbinden.bat` und `9_repo_abgleich.bat` tragen den Ordner jetzt selbst ein; `8_` funktioniert auch mit vorhandenem `.git`
+  (setzt `origin` neu, `fetch`, `reset` ohne `--hard`, Dateien bleiben unverändert). Sicherung der alten Skripte:
+  `03_Tools\bak\repo_umzug_F_2026-11-02\`. **Test offen:** Marcel startet `8_repo_verbinden.bat` und meldet die Ausgabe.
+  GitHub-Stand: Commit fb882e1 enthält bereits Plasmawerfer-Befund und Statusnachtrag.
