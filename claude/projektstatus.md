@@ -210,7 +210,7 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   `03_Tools\bak\repo_umzug_F_2026-11-02\`; 5 PNGs in `claude\Vorschau\` „M“ (bekannt: C2PA-Herkunft, Pixel gleich);
   `Wechsel\` ist nicht im Repo (bewusst, Übergabedateien liegen nur lokal).
 
-## Nachtrag 02.11.2026, 23:10 (Claude, Opus): Optionsmenü – Konzept
+## Nachtrag 02.11.2026, 22:55 (Claude, Opus): Optionsmenü – Konzept
 - Auftrag Marcel: Optionsmenü im Hauptmenü (Symbol frei), Raumkampf-Treffer eigene/Gegner prozentual, weitere Vorschläge.
 - Code analysiert (Hauptmenü, Symbolbibliothek, Trefferwürfe), Entwurf und Entscheidungen O1–O4, Vorschläge V1–V10:
   `Optionen.md`, Vorschau `Vorschau/Optionen_Symbol_Vorschau.png`. **Nichts gebaut, Entscheidung Marcel offen. Neu bauen: NEIN.**
