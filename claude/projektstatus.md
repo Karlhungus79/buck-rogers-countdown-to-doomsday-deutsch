@@ -1,6 +1,6 @@
 # Projektstatus – Buck Rogers: Countdown to Doomsday Deutsch
 
-Stand: 24.10.2026
+Stand: 02.11.2026
 
 ## Aktuelle Phase
 
@@ -178,3 +178,20 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   Beobachtung passt nicht) (2) Wo bekommt man den **Plasmawerfer** im Spiel? Marcel: sicher beim Entern
   merkurianischer Schiffe; im Code (Läden, TREASURE, M052) nicht gefunden → Beute-Routine der Engine analysieren.
   Details und Aufgabenliste: `Uebergabe_2026-10-25.md`. **Neu bauen: NEIN.**
+
+## Nachtrag 25.10.2026 (Claude, Opus): Plasmawerfer geklärt
+
+- Die Beute kommt nicht aus `TREASURE`, sondern aus dem **Inventar der besiegten Gegner** (`sub_1631E`/`sub_16268`).
+  Plasmawerfer trägt der **MER. LEADER** (Nr. 7). Beim Entern eines Merkur-Kreuzers (M052): sicher im
+  **Maschinenraum** (unterstes Deck); außerdem in fast allen Truppenkämpfen auf Mariposa Three (M096/M098).
+  Details: `Beute_Plasmawerfer.md`. Marcels Erinnerung ist damit bestätigt (Code). **Im Spiel nicht getestet.**
+- Offen bleibt Frage (1) Merkur-Kreuzer selten/nie (`Uebergabe_2026-10-25.md`). **Neu bauen: NEIN.**
+
+## Nachtrag 02.11.2026 (Marcel, Claude Sonnet)
+
+- **Marcel, 02.11.2026:** Die bisherige Übersetzung gefällt ihm („soweit“). Das Thema **Plasmawerfer ist erledigt**
+  (siehe `Beute_Plasmawerfer.md`); der Punkt ist damit nicht mehr offen. Details zum Test hat Marcel nicht genannt.
+- Projektordner liegt jetzt unter **F:\Buck Rogers Disassembly** (vorher H:). Stand der Bauten unverändert:
+  deutsch 989ABA78, Testfassung A11EB65A, Original 44E3BFFF. **Neu bauen: NEIN.**
+- Weiter offen (laut Stand 25.10., nicht neu bestätigt): Frage Merkur-Kreuzer selten/nie, Planetenscan („Atmosphäre:“),
+  `Testliste_Phase3.md` / `Testliste_Phase5.md` in Ares, Tor Phase 3, GitHub-Abgleich nach dem Ordnerumzug, Patch neu erzeugen.
