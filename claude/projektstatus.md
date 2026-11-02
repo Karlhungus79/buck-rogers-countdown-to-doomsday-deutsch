@@ -203,3 +203,9 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   (setzt `origin` neu, `fetch`, `reset` ohne `--hard`, Dateien bleiben unverändert). Sicherung der alten Skripte:
   `03_Tools\bak\repo_umzug_F_2026-11-02\`. **Test offen:** Marcel startet `8_repo_verbinden.bat` und meldet die Ausgabe.
   GitHub-Stand: Commit fb882e1 enthält bereits Plasmawerfer-Befund und Statusnachtrag.
+- **GitHub-Verbindung auf F: bestätigt (Marcel, Screenshot, 02.11.2026, 22:35):** `8_repo_verbinden.bat` lief durch,
+  `main` folgt `origin/main`, HEAD = e58a18e. Restliche Unterschiede und ihre Behandlung: 7 Dateien in
+  `03_Tools\claude_werkzeuge\` fehlten auf F: (nur im Repo, von Claude erzeugt) → nach F: kopiert;
+  `Uebergabe_2026-10-24.md` auf F: war der ältere Stand (20:55) → durch den Repo-Stand (21:20) ersetzt, alte Fassung in
+  `03_Tools\bak\repo_umzug_F_2026-11-02\`; 5 PNGs in `claude\Vorschau\` „M“ (bekannt: C2PA-Herkunft, Pixel gleich);
+  `Wechsel\` ist nicht im Repo (bewusst, Übergabedateien liegen nur lokal).
