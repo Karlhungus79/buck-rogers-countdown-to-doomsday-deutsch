@@ -1,6 +1,6 @@
 # Testliste Optionsmenü (Stufe 1 und 2)
 
-Stand: 03.11.2026. Bau: `7_deutsch_bauen.bat` → CRC32 **CEDCE590**, `7b_testfassung_bauen.bat` → **23B93157**.
+Stand: 03.11.2026, 22:30. Bau: `7_deutsch_bauen.bat` → CRC32 **B9B201DF**, `7b_testfassung_bauen.bat` → **B2835D58**.
 
 | Nr. | Stelle | Fassung / Spielstand | Erwartung | Ergebnis |
 |---|---|---|---|---|
@@ -24,3 +24,7 @@ Stand: 03.11.2026. Bau: `7_deutsch_bauen.bat` → CRC32 **CEDCE590**, `7b_testfa
 | 18 | Sonnensystem-Karte | Testfassung, ECL 99 Disk 6, Begegnungen MERKUR+ | etwa jede zweite Begegnung ein Merkur-Kreuzer | gesehen (Testemulator, 23 von 40) |
 | 19 | START-Menü im Spiel | beide Fassungen | rechts neues Symbol OPTIONEN; öffnet den Optionsbildschirm | gesehen (Testemulator) |
 | 20 | START → Optionen → zurück | an mehreren Orten (Raumhafen, Station, Mars) | Spielbild, Musik und Steuerung wie vorher; Speichern und Laden gehen weiter | teilweise (Testemulator, nur Jumper-Arena) |
+| 21 | Raumkampf | Munition AN | jede Figur kann in derselben Runde jede Waffe wählen, auch K-Kanone auf großer Reichweite; Munition sinkt nicht | gesehen (Testemulator, Spielstand Luke) |
+| 22 | Raumkampf | Munition AUS | K-Kanone ab Reichweite 3 gesperrt, Schüsse je Runde begrenzt | teilweise (Testemulator, Reichweite) |
+| 23 | Figur erschaffen, danach Hauptmenü und Optionen | beliebig | alle Symbole sichtbar | gesehen (Testemulator) |
+| 24 | Optionsbildschirm aus dem Hauptmenü mit geladenem Team | beliebig | **bekannter Fehler:** blaue Flächen über dem Text | offen, nicht behoben |

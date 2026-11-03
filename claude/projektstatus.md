@@ -224,3 +224,9 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - V5 Bodenkampf-Treffer, V8 Begegnungen im All (normal/halb/keine/Merkur+), V10 Optionen im START-Menü gebaut (Hooks 35–38, `Optionen.md`).
 - Bau deutsch **CEDCE590**, Test **23B93157**, Original bit-genau. Im Testemulator geprüft (Messwerte in `Optionen.md`), **Spieltest in Ares offen** (`Testliste_Optionen.md`). **Neu bauen: JA.**
 - Damit sind alle Vorschläge V1–V10 gebaut. Offen: Spieltest, Patch neu erzeugen, Phase 4 Testpaket, Release.
+
+## Nachtrag 03.11.2026, 22:30 (Claude, Opus): Waffen frei, Korrektur Symbolbank
+- Option „Munition unbegrenzt“ gibt jetzt allen Figuren alle eigenen Waffen frei, unabhängig von Schüssen je Runde, Magazin und Reichweite (Hook 40, Auftrag Marcel). Fehler „Symbole fehlen nach Figur erschaffen“ behoben (Hook 39). Details `Optionen.md`.
+- Bau deutsch **B9B201DF**, Test **B2835D58**, Original bit-genau. Im Testemulator geprüft, **Spieltest in Ares offen**.
+- Befund Spielstand Marcel: Luke und das ganze Team haben 0 Punkte in ihrer Klassen-Fähigkeit, deshalb gibt es keinen Piloten. Kein Fehler im Spiel.
+- Offen: blaue Flächen im Optionsbildschirm aus dem Hauptmenü mit Team (`Optionen.md`).

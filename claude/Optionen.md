@@ -143,3 +143,30 @@ Sicherung vor dem Umbau: `03_Tools\bak\optionen_stufe2_2026-11-03\`. Alle Hooks 
 - **Testfassung:** Bodenkampf-Optionen stehen auch dort standardmäßig auf AUS (O3 nennt nur den Raumkampf).
 - **Flächenwaffen:** Sicherer Treffer heißt: kein Verziehen; bei „Gegner daneben“ verzieht der Wurf immer, kann aber trotzdem jemanden treffen.
 - **Anzeige „TREFFER: 65 %“** im Zielmodus zeigt weiter den Wert ohne Option.
+
+## Nachtrag 03.11.2026, 22:30 (Claude, Opus): Waffen frei, Korrektur Symbolbank
+
+Bau: deutsch **B9B201DF**, Testfassung **B2835D58**, Original weiterhin bit-genau. Sicherung: `03_Tools\bak\optionen_waffen_2026-11-03\`.
+
+| Hook | Stelle | Wirkung |
+|---|---|---|
+| 40 | Anfang `sub_18792` (Figurenmenü Raumkampf) | `DE_WaffenFrei`: mit Option „Munition unbegrenzt“ Schusszähler `-$5E(a6)` je Waffe = intakte Geschütze |
+| 39 | `lea ($4EE).w` hinter `sub_A768`, nach „Kampffigur wählen“ | `DE_Bank0Laden`: Fehler aus Stufe 1 behoben, nach dem Erschaffen einer Figur fehlten Symbol 110 und Symbole des Optionsbildschirms |
+
+### Befund Waffen
+- Waffenplatz `$C(a1)` + 5 × n: Typ, Geschütze gesamt, intakt, Munition, Magazine. Typtabelle `dat_176FA` je 5 Byte: Reichweite, Schuss je Magazin, Schaden, Treffer-Änderung, Text.
+- Marcels Schiff (Spielstand Luke): K-Kanone 2 Geschütze, Reichweite 2, Munition 12, 5 Magazine; Rakete 2 Geschütze, Munition 8; Strahllaser 5 Geschütze.
+- Bisher wirkte die Option nur auf den Munitionsverbrauch. Drei Grenzen blieben: Schüsse je Runde (`-$5E` wird je Schuss verringert), Reichweite (`loc_191D2`, feste Sperre beim Abdrehen in `sub_18C30`), leeres Magazin.
+
+### Im Testemulator geprüft (Spielstand mit Luke, Reichweite 3, nicht in Ares)
+- Option AN: alle 6 Figuren können in derselben Runde die K-Kanone wählen; Munition bleibt 12. Mit eigenen Treffern 100 % zerstörten zwei Schüsse den Aufklärer.
+- Option AUS: K-Kanone bei Reichweite 3 gesperrt wie im Original.
+- Hook 39: nach dem Erschaffen einer Figur sind Hauptmenü-Symbol und alle Optionssymbole da.
+
+### Entscheidungen von Claude (im Spieltest prüfen)
+- Die Option hebt auch die **Reichweite** auf, weil die K-Kanone sonst ohne Piloten kaum nutzbar ist. **Zerstörte Geschütze bleiben gesperrt.**
+- Gilt nur für das eigene Schiff, Gegner unverändert. Bodenkampf-Waffen sind nicht betroffen.
+- Die Trefferchance bleibt: Die K-Kanone zeigt bei Luke auf Reichweite 3 „TREFFER: 0“. Für sichere Treffer zusätzlich „Raumkampf: eigene Treffer“ setzen.
+
+### Offen
+- **Blaue Flächen:** Optionsbildschirm aus dem Hauptmenü mit geladenem Team zeigt blaue Flächen und Reste der Lebensbalken über dem Text. Ursache offen; über das START-Menü tritt es nicht auf.

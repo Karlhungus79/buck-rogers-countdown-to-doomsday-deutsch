@@ -674,8 +674,14 @@ loc_950:
 	bsr.w	sub_1148
 	jsr	(sub_96D8).l
 	jsr	(sub_8A44).l
+	if DEUTSCH	; DEUTSCH-HOOK 39: Symbolbank Hauptmenue nach Figur erschaffen/ausbilden, DE_Bank0Laden (10 Byte wie Original)
+	jsr	(DE_Bank0Laden).l
+	nop
+	nop
+	else
 	lea	($4EE).w,a0
 	jsr	(sub_A768).l
+	endif
 	moveq	#$1,d0
 	jsr	(sub_982A).l
 	movem.l	(a7)+,d2-d6/a3
@@ -31073,8 +31079,13 @@ loc_1878A:
 ; ---------------------------------------------------------------------------
 sub_18792:
 	movem.l	d1-d6/a1-a3,-(a7)
+	if DEUTSCH	; DEUTSCH-HOOK 40: Option Munition unbegrenzt, alle Waffen fuer jede Figur frei, DE_WaffenFrei (8 Byte wie Original)
+	jsr	(DE_WaffenFrei).l
+	nop
+	else
 	bsr.w	sub_17FEC
 	lea	-$CD(a6),a0
+	endif
 	lea	(dat_1887A).l,a1
 	moveq	#$9,d0
 loc_187A6:

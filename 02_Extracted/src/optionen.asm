@@ -15,7 +15,7 @@ OPT_RAUM_GEGNER	= 1	; Raumkampf: Gegner daneben, 0/25/50/75/100 %
 OPT_BODEN_EIGEN	= 2	; Bodenkampf: eigene Treffer, Zusatzchance 0/25/50/75/100 %
 OPT_BODEN_GEGNER = 3	; Bodenkampf: Gegner daneben, 0/25/50/75/100 %
 OPT_UNVERWUNDBAR = 4	; Maelstrom Rider unverwundbar: aus/an
-OPT_MUNITION	= 5	; eigene Munition unbegrenzt: aus/an
+OPT_MUNITION	= 5	; eigene Waffen unbegrenzt (Munition, Schuesse je Runde, Reichweite): aus/an
 OPT_BEGEGNUNG	= 6	; Begegnungen im All: normal / halb / keine / Merkur+
 OPT_WUERFEL	= 7	; Attribute wuerfeln: Original / 2 Wuerfe / mindestens 14 / Maximum
 OPT_TP		= 8	; TP beim Stufenaufstieg: Original / Maximum
@@ -154,6 +154,31 @@ DE_Munition:
 	subq.b	#1,d0
 	move.b	d0,$3(a2)
 de_mu_ende:
+	rts
+
+; DEUTSCH-HOOK 40: Anfang des Figurenmenues im Raumkampf (sub_18792), je Figur und Rueckkehr ins Menue.
+; Ersetzt "bsr.w sub_17FEC / lea -$CD(a6),a0". Mit Option Munition: Schusszaehler -$5E(a6) aller eigenen Waffen
+; neu setzen = Anzahl intakter Geschuetze ($2). Damit gibt es keine Grenze je Runde, kein leeres Magazin und
+; keine Reichweitengrenze (auch die feste Sperre der K-Kanone beim Abdrehen, sub_18C30, ist aufgehoben).
+; Zerstoerte Geschuetze bleiben gesperrt. a2/a3/d6 sichert der Aufrufer.
+DE_WaffenFrei:
+	jsr	(sub_17FEC).l
+	moveq	#OPT_MUNITION,d0
+	bsr.w	DE_OptLesen
+	tst.b	d0
+	beq.s	de_wf_ende
+	moveq	#3,d6
+de_wf_schleife:
+	jsr	(sub_1992A).l
+	moveq	#0,d0
+	tst.b	(a2)
+	bmi.s	de_wf_setzen
+	move.b	$2(a2),d0
+de_wf_setzen:
+	move.b	d0,-$5E(a6,d6.w)
+	dbf	d6,de_wf_schleife
+de_wf_ende:
+	lea	-$CD(a6),a0
 	rts
 
 ; DEUTSCH-HOOK 28: Attributwurf bei der Figurenerschaffung (Original W8, das Spiel addiert 10).
@@ -431,6 +456,11 @@ DE_M0_Symbole:
 DE_M0_Text:
 	dc.b	2,25,37,25
 	dc.w	$3D,$3F,$40,$41,$42,DE_TXT_OPTIONEN
+; DEUTSCH-HOOK 39: zweiter Lader der Hauptmenue-Bank (nach "Kampffigur waehlen", Figur erschaffen/aendern).
+DE_Bank0Laden:
+	lea	(DE_Bank0).l,a0
+	jmp	(sub_A768).l
+
 ; Symbolbank Hauptmenue: Original dat_4EE (66 Symbole) + 110 + Symbole des Optionsbildschirms, die dort fehlen.
 ; Eine eigene Bank fuer den Optionsbildschirm geht nicht: der Grafikspeicher wird als Stapel verwaltet
 ; ("GRAPHICS FREED OUT OF ORDER", Testemulator 02.11.2026).
