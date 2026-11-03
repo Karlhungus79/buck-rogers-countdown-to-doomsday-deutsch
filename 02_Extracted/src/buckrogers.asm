@@ -3808,8 +3808,12 @@ loc_3516:
 	bra.w	loc_42AA
 loc_351E:
 	bsr.w	sub_404A
+	if DEUTSCH	; DEUTSCH-HOOK 37: ECL-Befehl RANDOM, Merkur-Kreuzer haeufiger (Option), DE_EclZufall (6 Byte wie Original)
+	jsr	(DE_EclZufall).l
+	else
 	addq.l	#$1,d0
 	bsr.w	sub_6C94
+	endif
 	moveq	#$0,d2
 	move.b	d0,d2
 	bra.w	loc_42AA
@@ -5494,7 +5498,11 @@ jt_4C9C:
 	dc.w	loc_4C62-jt_4C9C
 	dc.w	loc_4C7C-jt_4C9C
 dat_4CA8:
+	if DEUTSCH	; DEUTSCH-HOOK 38: Symbolbank START-Menue mit Symbol 110 (8 Byte wie Original)
+	dc.b	$00,$02,$03,$04,$26,$43,110,$FF
+	else
 	dc.b	$00,$02,$03,$04,$26,$43,$FF,$00
+	endif
 
 ; ---------------------------------------------------------------------------
 sub_4CB0:
@@ -14898,8 +14906,13 @@ loc_BBB2:
 	bsr.w	sub_6D06
 	cmp.b	#$1,d0
 	bne.s	loc_BBF8
+	if DEUTSCH	; DEUTSCH-HOOK 36: Zufallsbegegnung im All (Option), DE_Begegnung (8 Byte wie Original)
+	jsr	(DE_Begegnung).l
+	nop
+	else
 	bsr.w	sub_6D06
 	cmp.b	#$A,d0
+	endif
 	bhi.s	loc_BBF8
 	move.w	#$12C,($FFFFBA62).w
 	bra.s	loc_BBE6
@@ -21491,9 +21504,15 @@ sub_107E8:
 loc_10804:
 	clr.b	($FFFFD4FC).w
 	jsr	($6EEC).w
+	if DEUTSCH	; DEUTSCH-HOOK 35: Trefferwurf Bodenkampf (Option), DE_BodenWurf (10 Byte wie Original)
+	jsr	(DE_BodenWurf).l
+	nop
+	nop
+	else
 	moveq	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	($FFFFD511).w,d0
+	endif
 	bhi.w	loc_108A0
 	moveq	#$2,d0
 	add.w	d4,d0
@@ -22200,9 +22219,15 @@ loc_11058:
 	divu.w	#$18,d0
 	divu.w	#$18,d1
 	movem.w	d0-d1,-$4(a6)
+	if DEUTSCH	; DEUTSCH-HOOK 35: Zielwurf Flaechenwaffe (Option), DE_BodenWurf (10 Byte wie Original)
+	jsr	(DE_BodenWurf).l
+	nop
+	nop
+	else
 	moveq	#$14,d0
 	jsr	($6C8C).w
 	cmp.b	($FFFFD511).w,d0
+	endif
 	bls.s	loc_1108E
 	bsr.w	sub_1137E
 loc_1108E:

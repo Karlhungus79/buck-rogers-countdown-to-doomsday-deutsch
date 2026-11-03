@@ -1,6 +1,6 @@
 # Projektstatus – Buck Rogers: Countdown to Doomsday Deutsch
 
-Stand: 02.11.2026
+Stand: 03.11.2026
 
 ## Aktuelle Phase
 
@@ -219,3 +219,8 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
   Munition, Würfeln, TP, EP, Credits, Heilung. Bau deutsch **DD098CB9**, Test **C0FAD96E**, Original bit-genau.
   Im Testemulator: Menü, Bildschirm, Werte, Würfeln MAXIMUM. Spieltest offen (`Testliste_Optionen.md`).
   **Stufe 2 offen:** V5 Bodenkampf, V8 Begegnungen, V10 START-Menü (`Optionen.md`). **Neu bauen: JA.**
+
+## Nachtrag 03.11.2026 (Claude, Opus): Optionsmenü Stufe 2
+- V5 Bodenkampf-Treffer, V8 Begegnungen im All (normal/halb/keine/Merkur+), V10 Optionen im START-Menü gebaut (Hooks 35–38, `Optionen.md`).
+- Bau deutsch **CEDCE590**, Test **23B93157**, Original bit-genau. Im Testemulator geprüft (Messwerte in `Optionen.md`), **Spieltest in Ares offen** (`Testliste_Optionen.md`). **Neu bauen: JA.**
+- Damit sind alle Vorschläge V1–V10 gebaut. Offen: Spieltest, Patch neu erzeugen, Phase 4 Testpaket, Release.

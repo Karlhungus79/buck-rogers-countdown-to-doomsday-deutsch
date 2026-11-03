@@ -1,6 +1,6 @@
 # Optionsmenü (Extra, Phase 3+)
 
-Stand: 02.11.2026 (Claude, Opus). **Entschieden 02.11.2026, 23:01 (Marcel): O1 = C, O2–O4 = A, alle Vorschläge V1–V10 einbauen. Stufe 1 gebaut 02.11.2026 (siehe unten), Stufe 2 offen.** Auftrag Marcel 02.11.2026: Optionsmenü im Hauptmenü,
+Stand: 03.11.2026 (Claude, Opus). **Entschieden 02.11.2026, 23:01 (Marcel): O1 = C, O2–O4 = A, alle Vorschläge V1–V10 einbauen. Stufe 1 gebaut 02.11.2026, Stufe 2 gebaut 03.11.2026 (siehe unten), Spieltest in Ares offen.** Auftrag Marcel 02.11.2026: Optionsmenü im Hauptmenü,
 Symbol nach Claudes Wahl („mach es einfach schön“), Raumkampf: eigene Treffer / Gegner daneben, prozentual einstellbar;
 weitere Vorschläge (z. B. Würfeln).
 
@@ -113,10 +113,33 @@ Einstellungen im RAM `$FFFFF6–$FFFFFB` (über dem Stapel, vom Spiel nie benutz
 „Wert XOR Standard“ → nach dem Einschalten (RAM = 0) gilt der Standard der Fassung. Nach einem Reset (Knopf)
 bleiben die Einstellungen vermutlich erhalten (das Spiel löscht den RAM nur beim Einschalten) – im Spieltest prüfen.
 
-## Stufe 2 – offen
+## Stufe 2 – gebaut 03.11.2026 (Claude, Opus)
 
-- **V5 Bodenkampf:** Trefferwurf der Bodenkämpfe noch nicht gefunden (`sub_6946`/`sub_6990` sind Ereignis-Angriffe
-  und Rettungswürfe, nicht der normale Kampf).
-- **V8 Begegnungen im All:** Entscheidung liegt im ECL-Skript M034 (`RANDOM`), Eingriff im Interpreter nötig.
-- **V10 Optionen im START-Menü:** Menü 2/4; offen, wie der Spielbildschirm danach neu gezeichnet wird.
-- Optionen und Symbole dafür sind schon vorbereitet (Texte, Symbole 66, 27, 103 in der Bank, Werte-Typ Begegnung).
+Bau: deutsch **CEDCE590**, Testfassung **23B93157** (2 MB), Original weiterhin bit-genau (44E3BFFF).
+Sicherung vor dem Umbau: `03_Tools\bak\optionen_stufe2_2026-11-03\`. Alle Hooks gleich lang wie das Original, Rückfallwert im `else`-Zweig.
+
+| Hook | Stelle | Wirkung |
+|---|---|---|
+| 35 | `loc_10804` und `sub_10FAA` | `DE_BodenWurf`: Trefferwurf im Bodenkampf und Zielwurf der Flächenwaffen; Bit 0 von `$1(a3)` gesetzt = eigenes Team |
+| 36 | `sub_B91A`, zweiter W100 | `DE_Begegnung`: Grenze 10 (normal, Merkur+), 5 (halb), 0 (keine) |
+| 37 | `loc_351E` (ECL `RANDOM`) | `DE_EclZufall`: nur M034 `$71CA` „RANDOM 7 $97FB“; bei Merkur+ Typ zur Hälfte 4, sonst Wurf wie im Original |
+| 38 | `dat_4CA8` | Symbolbank des START-Menüs mit Symbol 110 |
+| 24 | `DE_Menue` (erweitert) | Menü 2 und 4 mit zusätzlichem Symbol, Auswahl → `DE_OptionenSpiel` |
+
+### Befund
+- **Bodenkampf:** Alle normalen Angriffe (Spieler, Gegner, Gelegenheitsangriffe) laufen über `sub_1074A` → `sub_107E8` → `loc_10804`: W20, Treffer wenn Wurf ≤ `$D511` (1–19). Flächenwaffen (`sub_10FAA`): Wurf > `$D511` = Ziel verzieht (`sub_1137E`).
+- **Begegnungen:** Nicht im ECL-Skript entschieden, sondern im Kartencode `sub_B91A`, nur im leeren All (`d7` = 0): je Bild W100 = 1 und W100 ≤ 10, also 1 : 1000 je Bild, danach 300 Bilder Pause (`$BA62`). Danach `$979B` = 0 → M034 `$71C7` wählt den Schiffstyp.
+- **START-Menü:** Aufruf nur aus der Laufschleife (`loc_4A82` → `sub_4BF0`). Menü 4 ist der Normalfall, Menü 2 (zusätzlich Symbol 38, Skript-Protokoll) nur mit `$CA21` = 0.
+- **Neuzeichnen:** Ablauf wie „Speichern“ (`sub_1930`/`sub_1A9E`): Symbolbank frei, Modus merken, `sub_AF00` im Modus 0 baut das Grundbild (Rahmen, Schrift), eigene Bank `DE_BankOpt`, Optionsbildschirm, Bank frei, Werte zurück, `sub_AF00` stellt das Spielbild wieder her.
+
+### Im Testemulator geprüft (03.11.2026, nicht in Ares)
+- **Optionsbildschirm:** 12 Zeilen, 13 Symbole in beiden Fassungen; deutsch alles AUS/ORIGINAL/NORMAL.
+- **V5, 30 Runden Arena gegen 3 Gegner:** Gegner 0 %: Team verliert 20 TP; Gegner 100 %: Team verliert 0 TP, eigene Treffer unverändert. Eigene Treffer 100 %: Kampf durchgehend gewonnen, Schadenssumme höher. **Die genaue Trefferquote bei 25/50/75 % ist nicht gemessen.**
+- **V8, je 40 Versuche mit gemischtem Zufallsspeicher:** Zeit bis zur Begegnung im Mittel normal 1048, halb 2150 Bilder; keine: 12 Versuche je 9000 Bilder ohne Begegnung. Typen (0 Scout, 1 Medium, 2 Heavy, 3 Piraten, 4 Merkur): normal 8/6/12/7/7, Merkur+ 2/9/4/2/**23**; Merkur+ ohne Merker 17/23/0/0/0 (nur RAM, wie im Original).
+- **V10:** START-Menü mit Symbol (Menü 4 und 2), Optionsbildschirm, Rückkehr über Ende und START, Spielbild pixelgleich bis auf blinkende Lampen. Danach gehen, Arena-Kampf bis zum Sieg, Speichern-Menü ohne Absturz.
+
+### Entscheidungen von Claude (im Spieltest prüfen)
+- **Merkur+** wirkt nur, wenn einer der Merker `$9876`, `$9855`, `$98B0` gesetzt ist; vorher kommen wie im Original nur RAM-Scout und RAM Medium (Handlung bleibt intakt). Häufigkeit gemessen etwa 58 % statt etwa 12,5 %.
+- **Testfassung:** Bodenkampf-Optionen stehen auch dort standardmäßig auf AUS (O3 nennt nur den Raumkampf).
+- **Flächenwaffen:** Sicherer Treffer heißt: kein Verziehen; bei „Gegner daneben“ verzieht der Wurf immer, kann aber trotzdem jemanden treffen.
+- **Anzeige „TREFFER: 65 %“** im Zielmodus zeigt weiter den Wert ohne Option.

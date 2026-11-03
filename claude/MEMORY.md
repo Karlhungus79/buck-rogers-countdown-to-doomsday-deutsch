@@ -47,5 +47,5 @@ dann nur die neueste Übergabe (falls vorhanden).
 - Dialogdokument (Entscheidungen zu Anrede, Nachnamen, Orten –
   "im Spieltest prüfen")
 - Übergabedateien (bei Sitzungsende/Limit)
-- `Optionen.md` – Optionsmenü (Extra): Befund Hauptmenü/Symbole/Raumkampf-Würfe, Entwurf, Entscheidungen O1–O4, Vorschläge V1–V10 (Stand 02.11.2026, Konzept)
-- `Testliste_Optionen.md` – Spieltest Optionsmenü Stufe 1 (02.11.2026)
+- `Optionen.md` – Optionsmenü (Extra): Befund Hauptmenü/Symbole/Raumkampf-Würfe, Entwurf, Entscheidungen O1–O4, Vorschläge V1–V10, Technik Stufe 1 und 2 (Stand 03.11.2026, gebaut, Ares offen)
+- `Testliste_Optionen.md` – Spieltest Optionsmenü Stufe 1 und 2 (03.11.2026)
