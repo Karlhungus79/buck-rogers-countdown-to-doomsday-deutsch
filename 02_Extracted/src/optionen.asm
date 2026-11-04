@@ -474,7 +474,17 @@ DE_Bank0:
 ; C = naechster Wert, B = vorheriger Wert, START oder Symbol "Ende" = zurueck.
 DE_Optionen:
 	movem.l	d2-d4/a2-a3,-(a7)
+	jsr	(sub_C8FC).l		; Figurenfelder des Hauptmenues aus dem Hintergrund nehmen (sonst blaue Flaechen)
 	jsr	(sub_8A44).l
+	moveq	#$20,d1			; sub_8A44 loescht nur bis Spalte 37, die Lebensbalken reichen bis Spalte 38
+	clr.w	($FFFFB514).w
+	moveq	#38,d2
+	moveq	#2,d3
+	moveq	#1,d4
+	movem.l	d5,-(a7)
+	moveq	#$18,d5
+	jsr	(sub_95BE).l
+	movem.l	(a7)+,d5
 	bsr.w	DE_OptFenster
 	move.w	#$C000,($FFFFD5AC).w
 	move.w	#2,($FFFFD5D6).w
