@@ -1,15 +1,161 @@
-# Buck Rogers: Countdown to Doomsday (Mega Drive/Genesis) – Disassembly & German Translation
+# Buck Rogers: Countdown to Doomsday – German translation (Mega Drive/Genesis)
 
-[English](#english) | [Deutsch](#deutsch)
+[English](#english) | [Deutsch](#deutsch) | [Disassembly (English)](#disassembly-english) | [Disassembly (Deutsch)](#disassembly-deutsch)
+
+![Title screen](screenshots/01_Titel.png)
 
 ---
 
 ## English
 
+German fan translation of *Buck Rogers: Countdown to Doomsday* (SSI / Electronic Arts, 1991) for the Sega Mega Drive / Genesis.
+Version 1.0 · complete · 2026-11-04
+
+### Download
+
+The patch is in the [Releases](https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + readme).
+This repository contains **no ROM** and **no game data**.
+
+### Target ROM
+
+| | |
+|---|---|
+| File | `Buck Rogers - Countdown to Doomsday (USA, Europe)` |
+| Size | 1,048,576 bytes |
+| CRC32 | `44E3BFFF` |
+| MD5 | `f768fbba021636fff3682b9ae116076a` |
+| SHA-1 | `89c39f00745f2a8798fe985ad8ce28411b977f9e` |
+| Patched result | 2,097,152 bytes, CRC32 `64EB6766` |
+
+The BPS patch checks the source file and refuses any other ROM.
+
+### Apply the patch
+
+| Platform | Tool |
+|---|---|
+| Windows | Floating IPS (Flips) |
+| macOS | MultiPatch |
+| Linux | `flips --apply <patch> <rom> <target>` |
+| Android | UniPatcher |
+| Browser | Rom Patcher JS (nothing is uploaded) |
+
+The original ROM stays unchanged.
+
+### What is translated
+
+Menus, system messages, items, monsters, all dialogue and event text, intro graphics text and the end credits. The game font has upper case only (German "ss" for sharp s, new Ä Ö Ü). Proper names and the copyright lines on the title screen stay in English.
+
+A new optional **OPTIONEN** menu (main menu and START menu) offers adjustable hit chances in space and ground combat, an invulnerable ship, unlimited ammunition, space encounter frequency, attribute rolls, level-up hit points, experience, loot credits and healing after combat. All defaults match the original game.
+
+### How it works
+
+The ROM is expanded to 2 MB. German text is stored uncompressed above `$100000` and read through small hooks in the original code; graphics with text are re-packed with the game's own LZW format. The base is the bit-perfect disassembly documented below.
+
+### Tested
+
+Ares v147. Not tested on real hardware or a flash cart.
+
+### AI disclosure
+
+Translation, hacking tools and graphics were produced with Claude (Anthropic's AI model) working under the direction of Karlhungus, who made all decisions and play-tested the result.
+
+### Changelog
+
+#### v1.0 – 2026-11-04
+- First release.
+
+### Credits
+
+| Role | Name |
+|---|---|
+| Project lead, decisions, testing | Karlhungus |
+| Translation, hacking tools, graphics | Claude (AI), directed by Karlhungus |
+
+### Legal
+
+Non-commercial fan project, not affiliated with the rights holders. Buck Rogers is a trademark of the Dille Family Trust; the game is by SSI and Electronic Arts. Only the changes are distributed, no ROM and no game data. Sharing unchanged and together with the readme is allowed; selling it, ROM collections and pre-patched ROMs are not.
+
+---
+
+## Deutsch
+
+Deutsche Fan-Übersetzung von *Buck Rogers: Countdown to Doomsday* (SSI / Electronic Arts, 1991) für das Sega Mega Drive / Genesis.
+Version 1.0 · komplett · 04.11.2026
+
+### Download
+
+Der Patch liegt unter [Releases](https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + Readme).
+Dieses Repository enthält **keine ROM** und **keine Spieldaten**.
+
+### Ziel-ROM
+
+| | |
+|---|---|
+| Datei | `Buck Rogers - Countdown to Doomsday (USA, Europe)` |
+| Größe | 1.048.576 Byte |
+| CRC32 | `44E3BFFF` |
+| MD5 | `f768fbba021636fff3682b9ae116076a` |
+| SHA-1 | `89c39f00745f2a8798fe985ad8ce28411b977f9e` |
+| Ergebnis nach dem Patchen | 2.097.152 Byte, CRC32 `64EB6766` |
+
+Der BPS-Patch prüft die Quelldatei und verweigert jede andere ROM.
+
+### Patch anwenden
+
+| Plattform | Werkzeug |
+|---|---|
+| Windows | Floating IPS (Flips) |
+| macOS | MultiPatch |
+| Linux | `flips --apply <patch> <rom> <ziel>` |
+| Android | UniPatcher |
+| Browser | Rom Patcher JS (es wird nichts hochgeladen) |
+
+Die Original-ROM bleibt unverändert.
+
+### Was ist übersetzt
+
+Menüs, Systemtexte, Gegenstände, Monster, sämtliche Dialoge und Ereignistexte, Grafiktexte im Vorspann und der Abspann. Das Spiel zeigt nur Großbuchstaben (ß wird SS, neu: Ä Ö Ü). Eigennamen und die Copyright-Zeilen im Titelbild bleiben englisch.
+
+Neu ist ein optionales **OPTIONEN**-Menü (Hauptmenü und START-Menü): einstellbare Trefferchancen im Raum- und Bodenkampf, unverwundbares Raumschiff, unbegrenzte Munition, Häufigkeit der Begegnungen im All, Attribute würfeln, TP beim Stufenaufstieg, Erfahrungspunkte, Credits aus Beute, Heilung nach dem Kampf. Alle Standardwerte entsprechen dem Originalspiel.
+
+### Technik
+
+Die ROM ist auf 2 MB erweitert. Der deutsche Text liegt unkomprimiert oberhalb von `$100000` und wird über kleine Einsprünge im Originalcode gelesen; Grafiken mit Text sind im spieleigenen LZW-Format neu gepackt. Grundlage ist das unten dokumentierte bit-genaue Disassembly.
+
+### Getestet
+
+Ares v147. Nicht auf echter Hardware oder einem Flash-Modul getestet.
+
+### KI-Hinweis
+
+Übersetzung, Hacking-Werkzeuge und Grafiken sind mit Claude (KI-Modell von Anthropic) unter Leitung von Karlhungus entstanden, der alle Entscheidungen getroffen und das Ergebnis getestet hat.
+
+### Changelog
+
+#### v1.0 – 04.11.2026
+- Erste Veröffentlichung.
+
+### Mitwirkende
+
+| Rolle | Name |
+|---|---|
+| Projektleitung, Entscheidungen, Tests | Karlhungus |
+| Übersetzung, Hacking-Werkzeuge, Grafiken | Claude (KI), unter Leitung von Karlhungus |
+
+### Rechtliches
+
+Nicht-kommerzielles Fanprojekt ohne Verbindung zu den Rechteinhabern. Buck Rogers ist eine Marke der Dille Family Trust; das Spiel stammt von SSI und Electronic Arts. Verteilt werden ausschließlich die Änderungen, keine ROM und keine Spieldaten. Weitergabe unverändert und mit Readme ist erlaubt; Verkauf, ROM-Sammlungen und vorgepatchte ROMs nicht.
+
+---
+
+# Disassembly and build documentation
+
+## Disassembly (English)
+
 Bit-perfect disassembly of *Buck Rogers: Countdown to Doomsday* (Electronic Arts/SSI, 1991)
 for the Sega Mega Drive/Genesis, serving as the base for a German fan translation.
 
-**Status:** 4 Nov 2026 – the disassembly rebuilds bit-perfect. German translation and options menu complete, version 1.0 in preparation.
+**Status:** 4 Nov 2026 – the disassembly rebuilds bit-perfect. German translation and options menu complete, version 1.0 released.
 
 ### Required ROM
 
@@ -103,12 +249,12 @@ Current coverage:
 
 ---
 
-## Deutsch
+## Disassembly (Deutsch)
 
 Bit-genaues Disassembly von *Buck Rogers: Countdown to Doomsday* (Electronic Arts/SSI, 1991)
 für das Sega Mega Drive/Genesis, als Grundlage für eine deutsche Fan-Übersetzung.
 
-**Stand:** 04.11.2026 – das Disassembly baut bit-genau. Deutsche Übersetzung und Optionsmenü sind fertig, Version 1.0 wird vorbereitet.
+**Stand:** 04.11.2026 – das Disassembly baut bit-genau. Deutsche Übersetzung und Optionsmenü sind fertig, Version 1.0 ist veröffentlicht.
 
 ### Benötigte ROM
 
