@@ -15,7 +15,7 @@ Stand: 21.10.2026
 
 ## Entscheidungen (21.10.2026, Marcel)
 
-- GitHub-Repo: **privat**, Name `buck-rogers-countdown-to-doomsday-deutsch`,
+- GitHub-Repo: **öffentlich**, Name `Buck-Rogers-Countdown-to-Doomsday-German-Translation` (bis 04.11.2026 `buck-rogers-countdown-to-doomsday-deutsch`),
   Disassembly und Übersetzung in **einem** Repo.
 - Spieldaten **nicht** im Repo: `03_Tools\extract.py` zieht sie aus der eigenen ROM
   (Liste mit CRC32 je Block: `02_Extracted\data_manifest.txt`).

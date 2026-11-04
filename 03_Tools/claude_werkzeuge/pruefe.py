@@ -1,6 +1,6 @@
 # pruefe.py Mxxx : zeigt deutsche Texte mit zu vielen Zeilen (Regel wie text_einsetzen)
 import sys,tomllib
-R='/home/claude/buck-rogers-countdown-to-doomsday-deutsch/'
+R='/home/claude/buck-rogers-countdown-to-doomsday-german-translation/'
 sys.path.insert(0,R+'03_Tools')
 import text_einsetzen as te, zeichensatz as zs
 for m in sys.argv[1:]:

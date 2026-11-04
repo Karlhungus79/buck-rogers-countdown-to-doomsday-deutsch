@@ -35,7 +35,7 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - Disassembly erstellt, baut bit-genau (CRC32 44E3BFFF) – unter Linux und
   unter Windows bestätigt am 21.10.2026 (`03_Tools\6_bitgenau_pruefen.bat`)
 - GitHub-Repo angelegt und gepusht (21.10.2026): privat,
-  https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch
+  https://github.com/Karlhungus79/Buck-Rogers-Countdown-to-Doomsday-German-Translation
   (Beschreibung englisch)
 - **Textformat geklärt (21.10.2026, Details `Textformat.md`):**
   - Dialoge: 27 ECL-Module, je ein LZW-gepackter Textblock, ASCII-Großbuchstaben,

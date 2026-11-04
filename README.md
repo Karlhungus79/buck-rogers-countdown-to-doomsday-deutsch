@@ -13,7 +13,7 @@ Version 1.0 · complete · 2026-11-04
 
 ### Download
 
-The patch is in the [Releases](https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + readme).
+The patch is in the [Releases](https://github.com/Karlhungus79/Buck-Rogers-Countdown-to-Doomsday-German-Translation/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + readme).
 This repository contains **no ROM** and **no game data**.
 
 ### Target ROM
@@ -84,7 +84,7 @@ Version 1.0 · komplett · 04.11.2026
 
 ### Download
 
-Der Patch liegt unter [Releases](https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + Readme).
+Der Patch liegt unter [Releases](https://github.com/Karlhungus79/Buck-Rogers-Countdown-to-Doomsday-German-Translation/releases/latest) (`Buck_Rogers_Countdown_to_Doomsday_Deutsch_v1.0.zip`, BPS + IPS + Readme).
 Dieses Repository enthält **keine ROM** und **keine Spieldaten**.
 
 ### Ziel-ROM

@@ -139,7 +139,7 @@ Bau erzeugt einen neuen Zeitstempel-Ordner in `07_Output_ROM`. Vor jeder
 ## Disassembly und GitHub (Stand 21.10.2026)
 
 - Bit-genaues Disassembly: `02_Extracted\src\buckrogers.asm`, Details `claude\Disassembly.md`
-- Repo: privat, `buck-rogers-countdown-to-doomsday-deutsch`, Repo-Wurzel = Projektordner
+- Repo: öffentlich, `Buck-Rogers-Countdown-to-Doomsday-German-Translation` (bis 04.11.2026 `buck-rogers-countdown-to-doomsday-deutsch`), Repo-Wurzel = Projektordner
 - Keine ROM und keine Spieldaten im Repo; `02_Extracted\data\` wird aus der eigenen ROM gezogen
 - Bauen: `03_Tools\5_rom_bauen.bat`, bit-genau prüfen: `03_Tools\6_bitgenau_pruefen.bat`
 - Code: C-Compiler, Gold-Box-Engine mit ECL-Skripten; LZW-Entpacker `sub_9E76`/`sub_9ED8` (`sub_1F5E` = Packer für Spielstände);

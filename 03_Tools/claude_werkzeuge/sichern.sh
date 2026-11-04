@@ -1,6 +1,6 @@
 #!/bin/sh
 # git commit+push und Dateiliste fuer F: (Dateien seit Commit $1)
-cd /home/claude/buck-rogers-countdown-to-doomsday-deutsch || exit 1
+cd /home/claude/buck-rogers-countdown-to-doomsday-german-translation || exit 1
 git add -A && git commit -q -m "$2
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

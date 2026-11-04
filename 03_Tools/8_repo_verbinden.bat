@@ -6,7 +6,7 @@ REM nur der versteckte Ordner .git wird angelegt bzw. aktualisiert.
 setlocal
 chcp 65001 >nul
 cd /d "%~dp0.."
-set URL=https://github.com/Karlhungus79/buck-rogers-countdown-to-doomsday-deutsch.git
+set URL=https://github.com/Karlhungus79/Buck-Rogers-Countdown-to-Doomsday-German-Translation.git
 
 echo Projektordner: %CD%
 echo.

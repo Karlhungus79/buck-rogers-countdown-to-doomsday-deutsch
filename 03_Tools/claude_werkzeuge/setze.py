@@ -1,6 +1,6 @@
 # setze.py Mxxx datei : Zeilen "nnn|Deutsch" -> de-Felder
 import sys,re,json
-R='/home/claude/buck-rogers-countdown-to-doomsday-deutsch/05_German_Script/ecl/'
+R='/home/claude/buck-rogers-countdown-to-doomsday-german-translation/05_German_Script/ecl/'
 m=sys.argv[1]; p=R+m+'.toml'
 L=open(p,encoding='utf-8').read().split('\n')
 idx={}

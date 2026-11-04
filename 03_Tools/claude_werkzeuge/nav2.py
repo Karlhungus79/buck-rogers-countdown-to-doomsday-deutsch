@@ -1,8 +1,8 @@
-import sys; sys.path.insert(0,'/home/claude/buck-rogers-countdown-to-doomsday-deutsch/03_Tools/emu_test')
+import sys; sys.path.insert(0,'/home/claude/buck-rogers-countdown-to-doomsday-german-translation/03_Tools/emu_test')
 from mdemu import MD_Emu
-R='/home/claude/buck-rogers-countdown-to-doomsday-deutsch/07_Output_ROM/'
+R='/home/claude/buck-rogers-countdown-to-doomsday-german-translation/07_Output_ROM/'
 rom=R+sys.argv[1]
-ram=open('/home/claude/buck-rogers-countdown-to-doomsday-deutsch/08_Savestates/Buck Rogers - Countdown to Doomsday (test).ram','rb').read()
+ram=open('/home/claude/buck-rogers-countdown-to-doomsday-german-translation/08_Savestates/Buck Rogers - Countdown to Doomsday (test).ram','rb').read()
 sr=bytearray(0x10000)
 for i,b in enumerate(ram): sr[2*i+1]=b
 e=MD_Emu(rom, sram=bytes(sr))
