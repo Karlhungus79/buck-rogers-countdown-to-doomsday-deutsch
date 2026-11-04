@@ -230,3 +230,10 @@ Phase 0 abgeschlossen am 21.10.2026 (Glossar abgenommen).
 - Bau deutsch **B9B201DF**, Test **B2835D58**, Original bit-genau. Im Testemulator geprüft, **Spieltest in Ares offen**.
 - Befund Spielstand Marcel: Luke und das ganze Team haben 0 Punkte in ihrer Klassen-Fähigkeit, deshalb gibt es keinen Piloten. Kein Fehler im Spiel.
 - Offen: blaue Flächen im Optionsbildschirm aus dem Hauptmenü mit Team (`Optionen.md`).
+
+## Nachtrag 04.11.2026 (Claude, Opus): Vorbereitung Veröffentlichung
+- **Marcel 04.11.2026: „ich bin zufrieden, habe alles getestet und möchte jetzt veröffentlichen“.** Phase 4 (Testpaket an Tester) entfällt damit.
+- Paket Version 1.0 erstellt: BPS, IPS, LIESMICH, README, ZIP. **Gegenprobe mit Floating IPS bestanden** (BPS und IPS ergeben exakt die CRC32).
+- **Entscheidung Marcel offen:** A Stand von ihm getestet (deutsch B9B201DF, bekannter Fehler blaue Flächen in der Readme) oder B mit Korrektur (deutsch **64EB6766**, Test **B112E951**, Branch `fix/blaue-flaechen`, im Testemulator geprüft, Ares offen).
+- Ablage: `07_Output_ROM\Release_v1.0_mit_Korrektur\` und `07_Output_ROM\Release_v1.0_ohne_Korrektur\`.
+- Nicht auf echter Hardware oder Flash-Modul getestet (steht in den Readmes). Das GitHub-Repo bleibt privat, bis Marcel anders entscheidet.

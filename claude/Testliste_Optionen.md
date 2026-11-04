@@ -1,5 +1,7 @@
 # Testliste Optionsmenü (Stufe 1 und 2)
 
+**Marcel 04.11.2026: alles getestet, zufrieden.** Einzelne Zeilen wurden nicht gesondert zurückgemeldet.
+
 Stand: 03.11.2026, 22:30. Bau: `7_deutsch_bauen.bat` → CRC32 **B9B201DF**, `7b_testfassung_bauen.bat` → **B2835D58**.
 
 | Nr. | Stelle | Fassung / Spielstand | Erwartung | Ergebnis |

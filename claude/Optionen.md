@@ -170,3 +170,6 @@ Bau: deutsch **B9B201DF**, Testfassung **B2835D58**, Original weiterhin bit-gena
 
 ### Offen
 - **Blaue Flächen:** Optionsbildschirm aus dem Hauptmenü mit geladenem Team zeigt blaue Flächen und Reste der Lebensbalken über dem Text. Ursache offen; über das START-Menü tritt es nicht auf.
+
+## Nachtrag 04.11.2026: Korrektur blaue Flächen (Branch `fix/blaue-flaechen`, noch nicht in `main`)
+Ursache: `sub_AC6C` legt für die Figurenfelder Kachel 1 in die Hintergrund-Ebene und merkt sich die Stellen, `sub_8A44` löscht nur die Fenster-Ebene und nur bis Spalte 37. Korrektur am Anfang von `DE_Optionen`: `sub_C8FC` stellt den Hintergrund wieder her, Spalte 38 wird zusätzlich gelöscht; `sub_4C0` zeichnet die Figuren danach neu. Im Testemulator: Optionen mit Team sauber, Rückkehr ins Hauptmenü korrekt, Weg über das START-Menü unverändert.

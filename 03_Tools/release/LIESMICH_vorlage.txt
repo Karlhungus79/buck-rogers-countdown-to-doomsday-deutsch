@@ -1,5 +1,5 @@
 Buck Rogers: Countdown to Doomsday (Sega Mega Drive) - Deutsche Fan-Übersetzung
-Stand: {DATUM}
+Version 1.0, Stand: {DATUM}
 
 Deutsche Lokalisierung
   Projektleitung, Übersetzung, Tests: Karlhungus
@@ -25,8 +25,28 @@ WAS IST ÜBERSETZT
   Buck Rogers, Wilma Deering, Scot.DOS ...) bleiben wie im Original. Copyright-Zeilen
   im Titelbild bleiben englisch.
 
+OPTIONSMENÜ (NEU)
+  Im Hauptmenü und im START-Menü gibt es das neue Symbol OPTIONEN. Standard ist überall
+  das Originalspiel. Die Einstellungen gelten bis zum Ausschalten.
+  - Raumkampf und Bodenkampf: eigene Treffer / Gegner daneben (0 bis 100 %)
+  - Raumschiff unverwundbar
+  - Munition unbegrenzt: jede Figur kann im Raumkampf jede intakte Waffe benutzen,
+    ohne Grenze je Runde, ohne Munitionsverbrauch und auf jede Entfernung
+  - Begegnungen im All: normal, halb, keine, Merkur+ (Merkur-Kreuzer häufiger,
+    sobald sie laut Handlung auftreten können)
+  - Attribute würfeln, TP beim Stufenaufstieg, Erfahrungspunkte, Credits aus Beute
+  - Heilung nach Kampf
+
+TIPP ZUR FIGURENERSCHAFFUNG
+  Vergib Punkte in der Klassen-Fähigkeit: das einzelne Symbol oben rechts auf dem
+  Bildschirm „Ausbilden in“. Ohne Punkte in „Raketenflug/Notreparatur“ hat das Team im
+  Raumkampf keinen Piloten, auch wenn eine Figur Raketenpilot ist.
+
+BEKANNTE FEHLER
+  Keine bekannt.
+
 GETESTET MIT
-  Ares v147
+  Ares v147. Nicht auf echter Hardware oder einem Flash-Modul getestet.
 
 Dies ist ein nicht-kommerzielles Fanprojekt. Buck Rogers ist eine Marke der Dille Family
 Trust; das Spiel stammt von SSI und Electronic Arts. Es wird keine ROM verbreitet.

@@ -9,8 +9,7 @@
 Bit-perfect disassembly of *Buck Rogers: Countdown to Doomsday* (Electronic Arts/SSI, 1991)
 for the Sega Mega Drive/Genesis, serving as the base for a German fan translation.
 
-**Status:** 21 Oct 2026 – the disassembly rebuilds bit-perfect (confirmed on Linux and Windows).
-Translation: phase 0 (survey).
+**Status:** 4 Nov 2026 – the disassembly rebuilds bit-perfect. German translation and options menu complete, version 1.0 in preparation.
 
 ### Required ROM
 
@@ -54,7 +53,7 @@ On Linux: `python3 03_Tools/build.py --pruefen` with `asl`/`p2bin` in the PATH
   data\               data blocks from the ROM (not in the repo)
 03_Tools\             disassembler, extraction, build, assembler (AS)
 04_English_Script\    English reference text (generated from your ROM, not in repo)
-05_German_Script\     German text, glossaries (to follow)
+05_German_Script\     German text, glossaries
 07_Output_ROM\        timestamped builds (not in the repo)
 08_Savestates\        save states (not in the repo)
 claude\               project documentation (German)
@@ -109,8 +108,7 @@ Current coverage:
 Bit-genaues Disassembly von *Buck Rogers: Countdown to Doomsday* (Electronic Arts/SSI, 1991)
 für das Sega Mega Drive/Genesis, als Grundlage für eine deutsche Fan-Übersetzung.
 
-**Stand:** 21.10.2026 – das Disassembly baut bit-genau (unter Linux und Windows bestätigt).
-Übersetzung: Phase 0 (Bestandsaufnahme).
+**Stand:** 04.11.2026 – das Disassembly baut bit-genau. Deutsche Übersetzung und Optionsmenü sind fertig, Version 1.0 wird vorbereitet.
 
 ### Benötigte ROM
 
@@ -154,7 +152,7 @@ Unter Linux: `python3 03_Tools/build.py --pruefen` mit `asl`/`p2bin` im PATH
   data\               Datenblöcke aus der ROM (nicht im Repo)
 03_Tools\             Disassembler, Extraktion, Bau, Assembler (AS)
 04_English_Script\    englischer Referenztext (aus der eigenen ROM erzeugt, nicht im Repo)
-05_German_Script\     deutsche Texte, Glossare (folgt)
+05_German_Script\     deutsche Texte, Glossare
 07_Output_ROM\        Bauten mit Zeitstempel (nicht im Repo)
 08_Savestates\        Speicherstände (nicht im Repo)
 claude\               Projektdokumentation
